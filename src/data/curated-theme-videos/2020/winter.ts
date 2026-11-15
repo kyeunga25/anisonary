@@ -1,6 +1,19 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "112748:IN:2": [
+    {
+      "youtubeVideoId": "LaTuI49fV5A",
+      "title": "We are Alive!!｜官方音軌",
+      "channelName": "北川理恵 - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "healin-good-precure-we-are-alive-song-vocal-best",
+      "releaseId": "healin-good-precure-jp-mjsa-01310"
+    },
+  ],
   "99807:OP:1": [
     {
       youtubeVideoId: "J9JQrg1ugsk",
@@ -419,6 +432,17 @@ export const curated2020WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "drHHMRJnOzY",
+      "title": "ヒーリングっど♥プリキュア Touch!!｜通常盤官方音軌",
+      "channelName": "北川理恵 - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "healin-good-precure-op-1-song-single-vocal",
+      "releaseId": "healin-good-precure-jp-mjss-09254"
+    },
   ],
   "112748:ED:1": [
     {
@@ -430,6 +454,26 @@ export const curated2020WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      "youtubeVideoId": "4mjIYYJM_eU",
+      "title": "ミラクルっと♥Link Ring！｜通常盤官方音軌",
+      "channelName": "まちこっちちゃんねる[Machico]",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "healin-good-precure-ed-1-song-single-vocal",
+      "releaseId": "healin-good-precure-jp-mjss-09254"
+    },
+    {
+      "youtubeVideoId": "hoHbjdNU_uY",
+      "title": "ミラクルっと♥Link Ring！｜官方舞蹈教學",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
   ],
   "112748:ED:2": [
     {
@@ -440,6 +484,37 @@ export const curated2020WinterThemeVideos = {
       channelName: "プリキュア公式YouTubeチャンネル",
       officialStatus: "official",
       embeddable: true,
+    },
+    {
+      "youtubeVideoId": "HIUMZO2KUG8",
+      "title": "エビバディ☆ヒーリングッデイ！｜通常盤官方音軌",
+      "channelName": "Kanako Miyamoto - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "healin-good-precure-ed-2-single-vocal",
+      "releaseId": "healin-good-precure-jp-mjss-09258"
+    },
+    {
+      "youtubeVideoId": "EH3Zk7g1eG8",
+      "title": "エビバディ☆ヒーリングッデイ！（TVサイズ）｜官方音軌",
+      "channelName": "Kanako Miyamoto - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "healin-good-precure-ed-2-song-digital-single-tv",
+      "releaseId": "apple-jp-1525847629"
+    },
+    {
+      "youtubeVideoId": "9Rum6AdpfaY",
+      "title": "エビバディ☆ヒーリングッデイ！｜官方舞蹈教學",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     },
   ],
   "114448:OP:1": [

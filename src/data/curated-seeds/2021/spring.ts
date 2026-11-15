@@ -490,7 +490,3550 @@ const curated2021SpringSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":120534,"id":"curated-120534","slug":"battle-athletess-daiundoukai-restart","seasonIds":["2021-spring"],"startDate":"2021-04-11","titleJa":"バトルアスリーテス 大運動会ReSTART!","titleZhHant":"大運動會 ReSTART!","titleRomaji":"Battle Athletess Daiundoukai: ReSTART!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120534-KfgwJhYlMAPY.jpg","editorialWeekday":7,"broadcastLabel":"テレビ朝日系NUMAnimation，日本實曆4月11日至6月27日，首末話均01:30 JST；另有衛星台及網播時段。","status":"finished","officialSiteUrl":"https://daiundoukai-restart.jp/","anilistUrl":"https://anilist.co/anime/120534","imageSourceUrl":"https://anilist.co/anime/120534","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/943","https://acgsecrets.hk/anime/731/","https://annict.com/works/7660"],"animeThemesUrl":"https://animethemes.moe/anime/battle_athletess_daiundoukai_restart","themes":[{"type":"OP","sequence":1,"titleJa":"コバルトの鼓動","titleRomaji":"Cobalt no Kodou","artistDisplayName":"諏訪ななか","id":"battle-athletess-daiundoukai-restart-op-1","songId":"battle-athletess-daiundoukai-restart-op-1-song","sources":[{"label":"動畫官方網站","url":"https://daiundoukai-restart.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/battle_athletess_daiundoukai_restart","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.youtube.com/watch?v=PQRFWymy-go","label":"諏訪ななか官方MV短版","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://daiundoukai-restart.jp/staff.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://columbia.jp/prod-info/COCX-41465/","label":"日本コロムビア公布原期片頭、片尾及特別片尾發行曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/battleathletesdaiundoukairestart","label":"原期逐話片頭、片尾及插曲用途對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/suwananaka/disco.html","label":"唱片方的詞曲編、實體單曲曲序及版本","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://lnk.to/CobaltNoKodou","label":"唱片方正版配信入口","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/battleathletesdaiundoukairestart/ep/1","label":"第1話用曲紀錄另列主題曲作片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://daiundoukai-restart.jp/","linkType":"official_landing_page","region":"JP"},{"platform":"日本コロムビア","label":"唱片方正版配信入口","url":"https://lnk.to/CobaltNoKodou","linkType":"official_landing_page","region":"UNKNOWN","availability":"unknown","verifiedAt":"2026-11-14"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"OSTER project","role":"lyrics"},{"name":"OSTER project","role":"composition"},{"name":"OSTER project","role":"arrangement"},{"name":"諏訪ななか","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/battle_athletess_daiundoukai_restart"],"verifiedAt":"2026-09-02","targetId":"battle-athletess-daiundoukai-restart-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html","https://www.mau2.com/anime/battleathletesdaiundoukairestart"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-op-1-song-single"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-op-1-song-instrumental"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-op-1-song-tv-size"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14","targetId":"cozc-1739"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14","targetId":"cocc-17869"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"cocx-41465-restart-drama"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/CobaltNoKodou"],"verifiedAt":"2026-11-14","targetId":"https://lnk.to/CobaltNoKodou"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=PQRFWymy-go","https://columbia.jp/suwananaka/disco.html"],"verifiedAt":"2026-11-14","targetId":"PQRFWymy-go"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"官方MV標Short Ver.；唱片另有獨立TV尺寸音軌。逐話紀錄列第1話使用本曲作片尾，現有第一方資料署全期片頭。","resumeWhen":"取得第1話正片字幕或製播方逐話資料後，確認是否另登首話片尾及其音源版本。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第2–11話常規片頭曲","recordings":[{"id":"battle-athletess-daiundoukai-restart-op-1-song-single","title":"コバルトの鼓動","kind":"vocal","format":"unknown"},{"id":"battle-athletess-daiundoukai-restart-op-1-song-instrumental","title":"コバルトの鼓動(Instrumental)","kind":"instrumental","format":"unknown"},{"id":"battle-athletess-daiundoukai-restart-op-1-song-tv-size","title":"コバルトの鼓動(TVサイズ)","kind":"vocal","format":"tv"}],"releases":[{"id":"cozc-1739","title":"コバルトの鼓動","type":"single","artistDisplayName":"諏訪ななか","date":{"value":"2021-04-21","precision":"day"},"region":"JP","edition":"初回限定盤 CD＋DVD","tracks":[{"title":"コバルトの鼓動","position":1,"recordingId":"battle-athletess-daiundoukai-restart-op-1-song-single"},{"title":"コバルトの鼓動(Instrumental)","position":3,"recordingId":"battle-athletess-daiundoukai-restart-op-1-song-instrumental"}],"label":"日本コロムビア","catalogNumber":"COZC-1739～1740"},{"id":"cocc-17869","title":"コバルトの鼓動","type":"single","artistDisplayName":"諏訪ななか","date":{"value":"2021-04-21","precision":"day"},"region":"JP","edition":"通常盤 CD","tracks":[{"title":"コバルトの鼓動","position":1,"recordingId":"battle-athletess-daiundoukai-restart-op-1-song-single"},{"title":"コバルトの鼓動(Instrumental)","position":3,"recordingId":"battle-athletess-daiundoukai-restart-op-1-song-instrumental"}],"label":"日本コロムビア","catalogNumber":"COCC-17869"},{"id":"cocx-41465-restart-drama","title":"バトルアスリーテス大運動会 ReSTART! -いつか伝説になる予定の話-","type":"album","artistDisplayName":"Various Artists","date":{"value":"2021-08-25","precision":"day"},"region":"JP","edition":"CD廣播劇專輯","tracks":[{"title":"コバルトの鼓動(TVサイズ)","position":1,"recordingId":"battle-athletess-daiundoukai-restart-op-1-song-tv-size"}],"label":"日本コロムビア","catalogNumber":"COCX-41465"}]},{"type":"ED","sequence":1,"titleJa":"桜舞い散る夜に","titleRomaji":"Sakura Mai Chiru Yoru ni","artistDisplayName":"近藤玲奈","id":"battle-athletess-daiundoukai-restart-ed-1","songId":"battle-athletess-daiundoukai-restart-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://daiundoukai-restart.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/battle_athletess_daiundoukai_restart","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.youtube.com/watch?v=rMVkIbcq7iY","label":"近藤玲奈官方音樂錄影帶","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://daiundoukai-restart.jp/staff.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://columbia.jp/prod-info/COCX-41465/","label":"日本コロムビア公布原期片頭、片尾及特別片尾發行曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/battleathletesdaiundoukairestart","label":"原期逐話片頭、片尾及插曲用途對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/kondoreina/disco.html","label":"唱片方的詞曲編、實體單曲曲序及版本","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://lnk.to/reirei-sakura","label":"唱片方正版配信入口","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://daiundoukai-restart.jp/","linkType":"official_landing_page","region":"JP"},{"platform":"日本コロムビア","label":"唱片方正版配信入口","url":"https://lnk.to/reirei-sakura","linkType":"official_landing_page","region":"UNKNOWN","availability":"unknown","verifiedAt":"2026-11-14"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"浅井真","role":"lyrics"},{"name":"浅井真","role":"composition"},{"name":"佐藤清喜","role":"arrangement"},{"name":"近藤玲奈","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/battle_athletess_daiundoukai_restart"],"verifiedAt":"2026-09-02","targetId":"battle-athletess-daiundoukai-restart-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://daiundoukai-restart.jp/staff.php"],"verifiedAt":"2026-10-22"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html","https://www.mau2.com/anime/battleathletesdaiundoukairestart"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-1-song-single"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-1-song-instrumental"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-1-song-tv-size"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14","targetId":"cozc-1730"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14","targetId":"cocc-17861"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"cocx-41465-restart-drama"},{"target":"link","fields":["url"],"sourceUrls":["https://lnk.to/reirei-sakura"],"verifiedAt":"2026-11-14","targetId":"https://lnk.to/reirei-sakura"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=rMVkIbcq7iY","https://columbia.jp/kondoreina/disco.html"],"verifiedAt":"2026-11-14","targetId":"rMVkIbcq7iY"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"兩版單曲列原曲及伴奏，廣播劇CD第10軌為TV尺寸；唱片方正式發售日為4月14日。","resumeWhen":"待製播方明列正片音軌等同於發行TV尺寸、或地區可播放時補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第2–11話常規片尾曲","recordings":[{"id":"battle-athletess-daiundoukai-restart-ed-1-song-single","title":"桜舞い散る夜に","kind":"vocal","format":"unknown"},{"id":"battle-athletess-daiundoukai-restart-ed-1-song-instrumental","title":"桜舞い散る夜に(Instrumental)","kind":"instrumental","format":"unknown"},{"id":"battle-athletess-daiundoukai-restart-ed-1-song-tv-size","title":"桜舞い散る夜に(TVサイズ)","kind":"vocal","format":"tv"}],"releases":[{"id":"cozc-1730","title":"桜舞い散る夜に","type":"single","artistDisplayName":"近藤玲奈","date":{"value":"2021-04-14","precision":"day"},"region":"JP","edition":"初回限定盤 CD＋DVD","tracks":[{"title":"桜舞い散る夜に","position":1,"recordingId":"battle-athletess-daiundoukai-restart-ed-1-song-single"},{"title":"桜舞い散る夜に(Instrumental)","position":3,"recordingId":"battle-athletess-daiundoukai-restart-ed-1-song-instrumental"}],"label":"日本コロムビア","catalogNumber":"COZC-1730～1731"},{"id":"cocc-17861","title":"桜舞い散る夜に","type":"single","artistDisplayName":"近藤玲奈","date":{"value":"2021-04-14","precision":"day"},"region":"JP","edition":"通常盤 CD","tracks":[{"title":"桜舞い散る夜に","position":1,"recordingId":"battle-athletess-daiundoukai-restart-ed-1-song-single"},{"title":"桜舞い散る夜に(Instrumental)","position":3,"recordingId":"battle-athletess-daiundoukai-restart-ed-1-song-instrumental"}],"label":"日本コロムビア","catalogNumber":"COCC-17861"},{"id":"cocx-41465-restart-drama","title":"バトルアスリーテス大運動会 ReSTART! -いつか伝説になる予定の話-","type":"album","artistDisplayName":"Various Artists","date":{"value":"2021-08-25","precision":"day"},"region":"JP","edition":"CD廣播劇專輯","tracks":[{"title":"桜舞い散る夜に(TVサイズ)","position":10,"recordingId":"battle-athletess-daiundoukai-restart-ed-1-song-tv-size"}],"label":"日本コロムビア","catalogNumber":"COCX-41465"}]},{"type":"ED","sequence":2,"titleJa":"Tsubasa","artistDisplayName":"明星かなた（CV：諸星すみれ）","id":"battle-athletess-daiundoukai-restart-ed-2","songId":"battle-athletess-daiundoukai-restart-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://daiundoukai-restart.jp/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/battle_athletess_daiundoukai_restart","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://columbia.jp/prod-info/COCX-41465/","label":"日本コロムビア公布原期片頭、片尾及特別片尾發行曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/battleathletesdaiundoukairestart","label":"原期逐話片頭、片尾及插曲用途對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://prtimes.jp/main/html/rd/p/000001812.000019470.html","label":"唱片方確認原作片頭翻唱、最終話原播用途及官方試聽","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5974/time","label":"第12話播出時間與本版演唱、作詞及作曲對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://utaten.com/lyric/ma21082736/","label":"歌曲資料核對本次演唱及詞曲角色","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=jljcxqKE_Ow","label":"日本コロムビア官方試聽影片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://daiundoukai-restart.jp/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"諸星すみれ","role":"vocals"},{"name":"室生あゆみ","role":"lyrics"},{"name":"吉本一","role":"composition"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-10-22","targetId":"battle-athletess-daiundoukai-restart-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/battle_athletess_daiundoukai_restart"],"verifiedAt":"2026-09-02","targetId":"battle-athletess-daiundoukai-restart-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://prtimes.jp/main/html/rd/p/000001812.000019470.html","https://www.mau2.com/anime/battleathletesdaiundoukairestart"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/","https://cal.syoboi.jp/tid/5974/time"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-2-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/","https://cal.syoboi.jp/tid/5974/time","https://utaten.com/lyric/ma21082736/"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-2-song-tv-size"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"battle-athletess-daiundoukai-restart-ed-2-song-full"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/prod-info/COCX-41465/"],"verifiedAt":"2026-11-14","targetId":"cocx-41465-restart-drama"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=jljcxqKE_Ow","https://prtimes.jp/main/html/rd/p/000001812.000019470.html"],"verifiedAt":"2026-11-14","targetId":"jljcxqKE_Ow"}],"followUp":[{"fields":["arrangement","platform_links","platform_availability"],"note":"明確登記原TV最終話角色演唱，與舊作片頭分開。CD各列TV尺寸及完整版，官方影片為試聽。","resumeWhen":"取得翻唱版正式編曲署名或可直接連至本次發行的音樂平台入口後補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第12話特別片尾曲","recordings":[{"id":"battle-athletess-daiundoukai-restart-ed-2-song-tv-size","title":"Tsubasa(TVサイズ)","kind":"character","format":"tv"},{"id":"battle-athletess-daiundoukai-restart-ed-2-song-full","title":"Tsubasa(フルサイズ)","kind":"character","format":"full"}],"releases":[{"id":"cocx-41465-restart-drama","title":"バトルアスリーテス大運動会 ReSTART! -いつか伝説になる予定の話-","type":"album","artistDisplayName":"Various Artists","date":{"value":"2021-08-25","precision":"day"},"region":"JP","edition":"CD廣播劇專輯","tracks":[{"title":"Tsubasa(TVサイズ)","position":11,"recordingId":"battle-athletess-daiundoukai-restart-ed-2-song-tv-size"},{"title":"Tsubasa(フルサイズ)","position":12,"recordingId":"battle-athletess-daiundoukai-restart-ed-2-song-full"}],"label":"日本コロムビア","catalogNumber":"COCX-41465"}]}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-11-14","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A7%E9%81%8B%E5%8B%95%E6%9C%83","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://daiundoukai-restart.jp/onair.php?m=1","label":"作品官方初回NUMAnimation時段及其他播出形式","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5974/time","label":"テレビ朝日第1話及第12話原播的節目日與時間","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-14"}],"broadcastTimeJst":"01:30"},
   {"anilistId":120697,"id":"curated-120697","slug":"ijiranaide-nagatoro-san","seasonIds":["2021-spring"],"startDate":"2021-04-11","titleJa":"イジらないで、長瀞さん","titleZhHant":"不要欺負我，長瀞同學","titleRomaji":"Ijiranaide, Nagatoro-san","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120697-BA2TqxB1I5bJ.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/120697-EuMfBYXLANeS.jpg","editorialWeekday":7,"broadcastLabel":"原TV第1期：TOKYO MX／BS11 4/10節目25:00＝4/11 01:00；同步網播與後播台分開。","status":"finished","officialSiteUrl":"https://www.nagatorosan.jp/1st/","anilistUrl":"https://anilist.co/anime/120697","imageSourceUrl":"https://anilist.co/anime/120697","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/764","https://acgsecrets.hk/anime/732/","https://annict.com/works/7584"],"animeThemesUrl":"https://animethemes.moe/anime/ijiranaide_nagatoro_san","themes":[{"type":"OP","sequence":1,"titleJa":"EASY LOVE","artistDisplayName":"上坂すみれ","id":"ijiranaide-nagatoro-san-op-1","songId":"ijiranaide-nagatoro-san-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.nagatorosan.jp/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ijiranaide_nagatoro_san","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"「KING AMUSEMENT CREATIVE」公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=x-AHnwQPf9s","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.nagatorosan.jp/1st/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.nagatorosan.jp/1st/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"上坂すみれ","role":"lyrics"},{"name":"森月キャス","role":"lyrics"},{"name":"丸山真由子","role":"composition"},{"name":"日比野裕史","role":"arrangement"},{"name":"渡辺徹","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ijiranaide_nagatoro_san"],"verifiedAt":"2026-09-02","targetId":"ijiranaide-nagatoro-san-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈EASY LOVE〉：官方確認本曲原名、演唱名義與本期片頭曲用途。","resumeWhen":"待官方逐曲資料明示錄音版本、影片形式、發行收錄與正版平台後補充。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"カラフル・キャンバス","titleRomaji":"Colorful Canvas","artistDisplayName":"長瀞さん（CV：上坂すみれ）、ガモちゃん（CV：小松未可子）、ヨッシー（CV：鈴木愛奈）、桜（CV：井澤詩織）","id":"ijiranaide-nagatoro-san-ed-1","songId":"ijiranaide-nagatoro-san-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.nagatorosan.jp/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/ijiranaide_nagatoro_san","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"「KING AMUSEMENT CREATIVE」公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=Vyn_tsSaKgE","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.nagatorosan.jp/1st/music/ed.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.nagatorosan.jp/1st/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"金子麻友美","role":"lyrics"},{"name":"金子麻友美","role":"composition"},{"name":"久下真音","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/ed.html"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/ijiranaide_nagatoro_san"],"verifiedAt":"2026-09-02","targetId":"ijiranaide-nagatoro-san-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8"],"verifiedAt":"2026-10-22","targetId":"ijiranaide-nagatoro-san-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.nagatorosan.jp/1st/music/ed.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈カラフル・キャンバス〉：官方確認本曲原名、演唱名義與本期片尾曲用途。","resumeWhen":"待官方逐曲資料明示錄音版本、影片形式、發行收錄與正版平台後補充。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E4%B8%8D%E8%A6%81%E6%AC%BA%E8%B2%A0%E6%88%91%EF%BC%8C%E9%95%B7%E7%80%9E%E5%90%8C%E5%AD%B8","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.nagatorosan.jp/1st/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:00"},
   {"anilistId":125038,"id":"curated-125038","slug":"shadows-house","seasonIds":["2021-spring","2021-summer"],"startDate":"2021-04-11","titleJa":"シャドーハウス","titleZhHant":"SHADOWS HOUSE 影宅","titleRomaji":"Shadows House","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx125038-BCfEvry0QBXW.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/125038-Gy0IC8sqR8e4.jpg","editorialWeekday":7,"broadcastLabel":"TOKYO MX／BS11等，首話4月11日00:30，末話7月4日00:30（日本實曆，JST）。","status":"finished","officialSiteUrl":"https://shadowshouse-anime.com/1st/","anilistUrl":"https://anilist.co/anime/125038","imageSourceUrl":"https://anilist.co/anime/125038","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/984","https://acgsecrets.hk/anime/755/","https://annict.com/works/7707"],"animeThemesUrl":"https://animethemes.moe/anime/shadows_house","themes":[{"type":"OP","sequence":1,"titleJa":"a hollow shadow","artistDisplayName":"末廣健一郎","id":"shadows-house-op-1","songId":"shadows-house-op-1-song","sources":[{"label":"動畫官方網站","url":"https://shadowshouse-anime.com/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shadows_house","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089","label":"Aniplex公告原期片頭及片尾曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/shadowhouse?cast=cv","label":"2021原期逐話片頭／片尾節目對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5971/time","label":"日本原TV逐話實際播出日期","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/shadowshouse_yj/status/1411353288126074890","label":"作品官方末話放送後公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.lisani.jp/0000177210/2/","label":"作曲者訪談確認片頭為約89秒的配樂式樂曲","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/koudai_otf/status/1411347475789598721","label":"出演者在末話原播當晚確認播放片頭","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/xoxleoxox/status/1411347552666931202","label":"ReoNa於原播當晚提及末話片頭","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://shadowshouse-anime.com/1st/music/ost/","label":"作品官方原聲帶日期、品番、分碟及曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/1571682582","label":"香港平台原聲帶日期及連續曲序","role":"first_party","language":"zh-Hant","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shadowshouse-anime.com/1st/","linkType":"official_landing_page","region":"JP"},{"platform":"Apple Music","label":"香港 Apple Music 發行頁","url":"https://music.apple.com/hk/album/1571682582","linkType":"direct_album","region":"HK","releaseId":"shadow-house-ost-hk","verifiedAt":"2026-11-14","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer"],"credits":[{"name":"末廣健一郎","role":"composition"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089"],"verifiedAt":"2026-10-22","targetId":"shadows-house-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089"],"verifiedAt":"2026-10-22","targetId":"shadows-house-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shadows_house"],"verifiedAt":"2026-09-02","targetId":"shadows-house-op-1-song"},{"target":"song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85"],"verifiedAt":"2026-10-22","targetId":"shadows-house-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85"],"verifiedAt":"2026-10-22","targetId":"shadows-house-op-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089","https://twitter.com/koudai_otf/status/1411347475789598721","https://twitter.com/xoxleoxox/status/1411347552666931202","https://www.mau2.com/anime/shadowhouse?cast=cv","https://cal.syoboi.jp/tid/5971/time"],"verifiedAt":"2026-11-14","targetId":"shadows-house-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.lisani.jp/0000177210/2/"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://www.lisani.jp/0000177210/2/"],"verifiedAt":"2026-11-14","targetId":"shadows-house-op-1-song-tv-opening"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ost/"],"verifiedAt":"2026-11-14","targetId":"svwc-70535-shadow-house-ost"},{"target":"release","fields":["date","edition","tracklist"],"sourceUrls":["https://music.apple.com/hk/album/1571682582"],"verifiedAt":"2026-11-14","targetId":"shadow-house-ost-hk"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/album/1571682582"],"verifiedAt":"2026-11-14","targetId":"https://music.apple.com/hk/album/1571682582"}],"followUp":[{"fields":["arrangement","recordings","official_video","platform_availability"],"note":"作曲者以配樂形式描述原播片頭，作品原聲帶另有同名曲目。限時公開的官方無字幕片頭目前未能核驗。","resumeWhen":"待原聲帶版本／編曲及合唱署名、官方影片重新開放或地區播放證據後補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV常規片頭曲（春季至7月4日末話）","recordings":[{"id":"shadows-house-op-1-song-tv-opening","title":"a hollow shadow（TV片頭）","kind":"instrumental","format":"tv"}],"releases":[{"id":"svwc-70535-shadow-house-ost","title":"TVアニメ「シャドーハウス」Original Soundtrack","type":"soundtrack","artistDisplayName":"末廣健一郎","date":{"value":"2021-06-23","precision":"day"},"region":"JP","edition":"2CD","tracks":[{"title":"a hollow shadow","disc":1,"position":1}],"label":"Aniplex","catalogNumber":"SVWC-70535～70536"},{"id":"shadow-house-ost-hk","title":"TVアニメ「シャドーハウス」Original Soundtrack","type":"soundtrack","artistDisplayName":"末廣健一郎","date":{"value":"2021-06-23","precision":"day"},"region":"HK","edition":"47曲香港數位版","tracks":[{"title":"a hollow shadow","position":1}]}]},{"type":"ED","sequence":1,"titleJa":"ないない","titleRomaji":"Nai Nai","artistDisplayName":"ReoNa","id":"shadows-house-ed-1","songId":"shadows-house-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://shadowshouse-anime.com/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shadows_house","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.youtube.com/watch?v=dUlo9T1UQVo","label":"Aniplex官方正篇宣傳片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://shadowshouse-anime.com/1st/music/ed/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/shadowhouse?cast=cv","label":"2021原期逐話片頭／片尾節目對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5971/time","label":"日本原TV逐話實際播出日期","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089","label":"Aniplex公告原期片頭及片尾曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/shadowshouse_yj/status/1411353288126074890","label":"作品官方末話放送後公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/reiji_kawashima/status/1411352986245206017","label":"出演者於末話放送後提及最後一次〈ないない〉","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.sonymusic.co.jp/artist/ReoNa/info/527816","label":"唱片方確認三種實體單曲、曲序及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.sonymusic.co.jp/artist/ReoNa/info/529234","label":"唱片方公告完整MV與發行日","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=M8LwhRkNaSQ","label":"ReoNa官方完整音樂錄影帶","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shadowshouse-anime.com/1st/","linkType":"official_landing_page","region":"JP"},{"platform":"SACRA MUSIC","label":"唱片方正版配信入口","url":"https://reona.lnk.to/nainai","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-11-14","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer"],"credits":[{"name":"ReoNa","role":"vocals"},{"name":"ハヤシケイ","role":"lyrics"},{"name":"毛蟹","role":"lyrics"},{"name":"毛蟹","role":"composition"},{"name":"小松一也","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ed/"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ed/"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shadows_house"],"verifiedAt":"2026-09-02","targetId":"shadows-house-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ed/"],"verifiedAt":"2026-10-22"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.aniplex.co.jp/lineup/shadowshouse/news/detail/?id=57089","https://twitter.com/reiji_kawashima/status/1411352986245206017","https://www.mau2.com/anime/shadowhouse?cast=cv","https://cal.syoboi.jp/tid/5971/time"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-1"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/529234","https://www.youtube.com/watch?v=M8LwhRkNaSQ"],"verifiedAt":"2026-11-14","targetId":"M8LwhRkNaSQ"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=dUlo9T1UQVo"],"verifiedAt":"2026-11-14","targetId":"dUlo9T1UQVo"},{"target":"recording","fields":["kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-1-song-single"},{"target":"recording","fields":["kind"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-1-song-instrumental"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-1-song-tv"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"vvcl-1845"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"vvcl-1847"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://www.sonymusic.co.jp/artist/ReoNa/info/527816"],"verifiedAt":"2026-11-14","targetId":"vvcl-1848"}],"followUp":[{"fields":["recording_format","platform_links","platform_availability"],"note":"完整MV、原PV及實體盤曲序分列；動畫盤附無字幕片尾，另有獨立TV版音軌。","resumeWhen":"取得數位地區版正式曲序或地區實際可播放證據後補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV常規片尾曲（春季至7月4日末話）","recordings":[{"id":"shadows-house-ed-1-song-single","title":"ないない","kind":"vocal","format":"unknown"},{"id":"shadows-house-ed-1-song-instrumental","title":"ないない -Instrumental-","kind":"instrumental","format":"unknown"},{"id":"shadows-house-ed-1-song-tv","title":"ないない -TV Ver.-","kind":"vocal","format":"tv"}],"releases":[{"id":"vvcl-1845","title":"ないない","type":"single","artistDisplayName":"ReoNa","date":{"value":"2021-05-12","precision":"day"},"region":"JP","edition":"初回生產限定盤 CD＋DVD","tracks":[{"title":"ないない","position":1,"recordingId":"shadows-house-ed-1-song-single"},{"title":"ないない -Instrumental-","position":4,"recordingId":"shadows-house-ed-1-song-instrumental"}],"label":"SACRA MUSIC","catalogNumber":"VVCL-1845～1846"},{"id":"vvcl-1847","title":"ないない","type":"single","artistDisplayName":"ReoNa","date":{"value":"2021-05-12","precision":"day"},"region":"JP","edition":"通常盤 CD","tracks":[{"title":"ないない","position":1,"recordingId":"shadows-house-ed-1-song-single"},{"title":"ないない -Instrumental-","position":4,"recordingId":"shadows-house-ed-1-song-instrumental"}],"label":"SACRA MUSIC","catalogNumber":"VVCL-1847"},{"id":"vvcl-1848","title":"ないない","type":"single","artistDisplayName":"ReoNa","date":{"value":"2021-05-12","precision":"day"},"region":"JP","edition":"期間生產限定盤 CD＋DVD","tracks":[{"title":"ないない","position":1,"recordingId":"shadows-house-ed-1-song-single"},{"title":"ないない -TV Ver.-","position":4,"recordingId":"shadows-house-ed-1-song-tv"}],"label":"SACRA MUSIC","catalogNumber":"VVCL-1848～1849"}]},{"type":"ED","sequence":2,"titleJa":"私の完璧な世界","titleRomaji":"Watashi no Kanpeki na Sekai","artistDisplayName":"萩森英明","id":"shadows-house-ed-2","songId":"shadows-house-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://shadowshouse-anime.com/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/shadows_house","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://shadowshouse-anime.com/1st/music/ost/","label":"作品官方原聲帶日期、品番、分碟及曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/shadowhouse?cast=cv","label":"2021原期逐話片頭／片尾節目對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5971/time","label":"日本原TV逐話實際播出日期","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.lisani.jp/0000177210/2/","label":"作曲者確認第8話鋼琴配樂延伸為特別片尾","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/1571682582","label":"香港平台原聲帶日期及連續曲序","role":"first_party","language":"zh-Hant","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://shadowshouse-anime.com/1st/","linkType":"official_landing_page","region":"JP"},{"platform":"Apple Music","label":"香港 Apple Music 發行頁","url":"https://music.apple.com/hk/album/1571682582","linkType":"direct_album","region":"HK","releaseId":"shadow-house-ost-hk","verifiedAt":"2026-11-14","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2021-spring"],"credits":[{"name":"末廣健一郎","role":"composition"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ost/"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/shadows_house"],"verifiedAt":"2026-09-02","targetId":"shadows-house-ed-2-song"},{"target":"song","fields":["title"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AE%85"],"verifiedAt":"2026-10-22","targetId":"shadows-house-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.lisani.jp/0000177210/2/","https://www.mau2.com/anime/shadowhouse?cast=cv","https://cal.syoboi.jp/tid/5971/time"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.lisani.jp/0000177210/2/","https://shadowshouse-anime.com/1st/music/ost/"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://www.lisani.jp/0000177210/2/"],"verifiedAt":"2026-11-14","targetId":"shadows-house-ed-2-song-episode-8-piano"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://shadowshouse-anime.com/1st/music/ost/"],"verifiedAt":"2026-11-14","targetId":"svwc-70535-shadow-house-ost"},{"target":"release","fields":["date","edition","tracklist"],"sourceUrls":["https://music.apple.com/hk/album/1571682582"],"verifiedAt":"2026-11-14","targetId":"shadow-house-ost-hk"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/album/1571682582"],"verifiedAt":"2026-11-14","targetId":"https://music.apple.com/hk/album/1571682582"}],"followUp":[{"fields":["basic_evidence","arrangement","recording_format","official_video","platform_availability"],"note":"作曲者確認第8話有鋼琴特別片尾，原聲帶登記曲名。演奏名義仍沿用交叉來源，原播與專輯錄音的對應待核。","resumeWhen":"取得第8話原播逐曲字幕、原聲帶內頁的逐軌演奏名義或正式錄音資料後補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第8話鋼琴特別片尾曲","recordings":[{"id":"shadows-house-ed-2-song-episode-8-piano","title":"私の完璧な世界","kind":"instrumental","format":"unknown"}],"releases":[{"id":"svwc-70535-shadow-house-ost","title":"TVアニメ「シャドーハウス」Original Soundtrack","type":"soundtrack","artistDisplayName":"末廣健一郎","date":{"value":"2021-06-23","precision":"day"},"region":"JP","edition":"2CD","tracks":[{"title":"私の完璧な世界","disc":2,"position":14}],"label":"Aniplex","catalogNumber":"SVWC-70535～70536"},{"id":"shadow-house-ost-hk","title":"TVアニメ「シャドーハウス」Original Soundtrack","type":"soundtrack","artistDisplayName":"末廣健一郎","date":{"value":"2021-06-23","precision":"day"},"region":"HK","edition":"47曲香港數位版","tracks":[{"title":"私の完璧な世界","position":39}]}]}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-11-14","metadataSources":[{"url":"https://shadowshouse-anime.com/1st/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://cal.syoboi.jp/tid/5971/time","label":"日本原TV TOKYO MX／BS11首話、第8話及末話實際播出日期","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/shadowshouse_yj/status/1411353288126074890","label":"作品官方末話放送後公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"broadcastTimeJst":"00:30"},
-  {"anilistId":130777,"id":"curated-130777","slug":"mewkledreamy-mix","seasonIds":["2021-spring","2021-fall","2021-summer","2022-winter"],"startDate":"2021-04-11","titleJa":"ミュークルドリーミー みっくす!","titleZhHant":"萌可魯玩偶貓 第二季","titleRomaji":"Mewkledreamy Mix!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130777-r1qyVIexHrpy.jpg","editorialWeekday":7,"broadcastLabel":"テレビ東京系・2021年4月11日10:30首播","status":"finished","officialSiteUrl":"https://mewkledreamy.com/","anilistUrl":"https://anilist.co/anime/130777","imageSourceUrl":"https://anilist.co/anime/130777","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/2995","https://acgsecrets.hk/anime/776/","https://annict.com/works/7810"],"animeThemesUrl":"https://animethemes.moe/anime/mewkledreamy_mix","themes":[{"type":"OP","sequence":1,"titleJa":"フレー！フレー！ドリーミージャンプ","titleRomaji":"Fure! Fure! Dreamy Jump!","artistDisplayName":"いっちー＆なる（ボンボンアカデミー）","id":"mewkledreamy-mix-op-1","songId":"mewkledreamy-mix-op-1-song","sources":[{"label":"動畫官方網站","url":"https://mewkledreamy.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mewkledreamy_mix","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.tv-tokyo.co.jp/anime/mewklemix/staff/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://mewkledreamy.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer","2021-fall","2022-winter"],"credits":[{"name":"いっちー＆なる（ボンボンアカデミー）","role":"vocals"},{"name":"畑亜貴","role":"lyrics"},{"name":"高田暁","role":"composition"},{"name":"高田暁","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mewkledreamy_mix"],"verifiedAt":"2026-09-02","targetId":"mewkledreamy-mix-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈フレー！フレー！ドリーミージャンプ〉：本期逐曲用途及詞曲編已確認，原播由2021年春季延續至2022年冬季。","resumeWhen":"待官方資料確認錄音、影片形式與發行關係後補充。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"ダイスキセカイ","titleRomaji":"Daisuki Sekai","artistDisplayName":"いっちー＆なる（ボンボンアカデミー）","id":"mewkledreamy-mix-ed-1","songId":"mewkledreamy-mix-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://mewkledreamy.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/mewkledreamy_mix","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.tv-tokyo.co.jp/anime/mewklemix/staff/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://mewkledreamy.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer","2021-fall","2022-winter"],"credits":[{"name":"いっちー＆なる（ボンボンアカデミー）","role":"vocals"},{"name":"畑亜貴","role":"lyrics"},{"name":"三好啓太","role":"composition"},{"name":"三好啓太","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/mewkledreamy_mix"],"verifiedAt":"2026-09-02","targetId":"mewkledreamy-mix-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"],"verifiedAt":"2026-10-22","targetId":"mewkledreamy-mix-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ダイスキセカイ〉：本期逐曲用途及詞曲編已確認，原播由2021年春季延續至2022年冬季。","resumeWhen":"待官方資料確認錄音、影片形式與發行關係後補充。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://www.tv-tokyo.co.jp/anime/mewklemix/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"10:30"},
+  {
+    "anilistId": 130777,
+    "id": "curated-130777",
+    "slug": "mewkledreamy-mix",
+    "seasonIds": [
+      "2021-spring",
+      "2021-summer",
+      "2021-fall",
+      "2022-winter"
+    ],
+    "startDate": "2021-04-11",
+    "titleJa": "ミュークルドリーミー みっくす！",
+    "titleZhHant": "夢夢貓 Mix!",
+    "titleRomaji": "Mewkledreamy Mix!",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx130777-r1qyVIexHrpy.jpg",
+    "editorialWeekday": 7,
+    "broadcastLabel": "日本原TV 東京電視台系列週日10:30；2021/4/11至2022/3/27共50話，含13回真人單元。",
+    "status": "finished",
+    "officialSiteUrl": "https://mewkledreamy.com/",
+    "anilistUrl": "https://anilist.co/anime/130777",
+    "imageSourceUrl": "https://anilist.co/anime/130777",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/2995",
+      "https://acgsecrets.hk/anime/776/",
+      "https://annict.com/works/7810"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/mewkledreamy_mix",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "フレー！フレー！ドリーミージャンプ",
+        "titleRomaji": "Fure! Fure! Dreamy Jump!",
+        "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+        "id": "mewkledreamy-mix-op-1",
+        "songId": "mewkledreamy-mix-op-1-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://mewkledreamy.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/mewkledreamy_mix",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104111030.html",
+            "label": "東京電視台首話節目與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203271030.html",
+            "label": "東京電視台終回節目與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/mewkledreamymix",
+            "label": "原TV逐話歌曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202105/25858_202105021030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202108/25858_202108081030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202112/25858_202112261030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202201/25858_202201301030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202202/25858_202202271030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10117/",
+            "label": "唱片公司通常盤曲序與原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/av/10119/",
+            "label": "唱片公司CD＋DVD盤曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+            "label": "權利方先行配信與主題曲公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1555730224",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1560684646",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1560684647",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1560684649",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1560684646",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1560684647",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1560684649",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1555730586",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1555730588",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1555730224",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1555730586",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1555730588",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10339/",
+            "label": "唱片公司原聲帶與TV尺寸曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1613713740",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1613713742",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1613713740",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1613713742",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uh_BZuH3OsQ",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.bom-bom-academy.com/music/",
+            "label": "權利方影片與發行說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=i1IrhB27GPc",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kUs8fxN26uU",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://mewkledreamy.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1560684647",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1560684649",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1560684647",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1560684649",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1555730586",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ・オリジナル・カラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1555730588",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1555730586",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ・オリジナル・カラオケ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1555730588",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1613713742",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1613713740",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレー！フレー！ドリーミージャンプ（TVサイズ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1613713742",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1613713740",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter"
+        ],
+        "credits": [
+          {
+            "name": "いっちー＆なる（ボンボンアカデミー）",
+            "role": "vocals"
+          },
+          {
+            "name": "畑亜貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "高田暁",
+            "role": "composition"
+          },
+          {
+            "name": "高田暁",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/mewkledreamy_mix"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "mewkledreamy-mix-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104111030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203271030.html",
+              "https://www.mau2.com/anime/mewkledreamymix",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202105/25858_202105021030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202108/25858_202108081030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202112/25858_202112261030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202201/25858_202201301030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202202/25858_202202271030.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song-single-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjss-09284"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjss-09282-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song-digital-single-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1560684647"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1560684647"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1560684649"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1560684649"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://music.apple.com/hk/album/1560684646"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1560684646"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1560684647"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1560684647"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1560684649"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1560684649"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://music.apple.com/jp/album/1560684646"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1560684646"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1555730586"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1555730586"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1555730588"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1555730588"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+              "https://music.apple.com/hk/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1555730224"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1555730586"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1555730586"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1555730588"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1555730588"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+              "https://music.apple.com/jp/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1555730224"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01344"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1613713742"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1613713742"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/",
+              "https://music.apple.com/hk/album/1613713740"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1613713740"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1613713742"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1613713742"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/",
+              "https://music.apple.com/jp/album/1613713740"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1613713740"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=uh_BZuH3OsQ",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "uh_BZuH3OsQ"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=i1IrhB27GPc",
+              "https://www.bom-bom-academy.com/music/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "i1IrhB27GPc"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=kUs8fxN26uU",
+              "https://www.bom-bom-academy.com/music/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "kUs8fxN26uU"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "video_metadata",
+              "platform_availability"
+            ],
+            "note": "已核公開主題曲影片及唱片曲序。逐話剪輯與各同名TV尺寸音軌的對應待核。",
+            "resumeWhen": "待可辨識的原播片段或權利方剪輯對照；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–50話節目音樂欄片頭，含13回真人單元｜2021春至2022冬",
+        "releaseDate": "2021-03-09",
+        "recordings": [
+          {
+            "id": "mewkledreamy-mix-op-1-song-single-full",
+            "title": "フレー！フレー！ドリーミージャンプ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "mewkledreamy-mix-op-1-song-single-karaoke",
+            "title": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-mix-op-1-song-digital-single-tv",
+            "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke",
+            "title": "フレー！フレー！ドリーミージャンプ（TVサイズ・オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "mewkledreamy-mix-op-1-song-soundtrack-tv",
+            "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-09284",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-06-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）",
+                "position": 3,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09284"
+          },
+          {
+            "id": "mjss-09282-3",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-06-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09282～3"
+          },
+          {
+            "id": "apple-hk-1560684646",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-04-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）",
+                "position": 3,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1560684646",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-04-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-full"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（オリジナル・カラオケ）",
+                "position": 3,
+                "recordingId": "mewkledreamy-mix-op-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-hk-1555730224",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ（TVサイズ）",
+            "type": "single",
+            "date": {
+              "value": "2021-03-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ・オリジナル・カラオケ）",
+                "position": 3,
+                "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1555730224",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ（TVサイズ）",
+            "type": "single",
+            "date": {
+              "value": "2021-03-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+                "position": 1,
+                "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv"
+              },
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ・オリジナル・カラオケ）",
+                "position": 3,
+                "recordingId": "mewkledreamy-mix-op-1-song-digital-single-tv-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01344",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01344"
+          },
+          {
+            "id": "apple-hk-1613713740",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1613713740",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレー！フレー！ドリーミージャンプ（TVサイズ）",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-op-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ダイスキセカイ",
+        "titleRomaji": "Daisuki Sekai",
+        "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+        "id": "mewkledreamy-mix-ed-1",
+        "songId": "mewkledreamy-mix-ed-1-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://mewkledreamy.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/mewkledreamy_mix",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104111030.html",
+            "label": "東京電視台首話節目與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203271030.html",
+            "label": "東京電視台終回節目與兩首主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/mewkledreamymix",
+            "label": "原TV逐話歌曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202105/25858_202105021030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202108/25858_202108081030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202112/25858_202112261030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202201/25858_202201301030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202202/25858_202202271030.html",
+            "label": "東京電視台真人單元節目與主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10117/",
+            "label": "唱片公司通常盤曲序與原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/av/10119/",
+            "label": "唱片公司CD＋DVD盤曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+            "label": "權利方先行配信與主題曲公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1555730224",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1560684646",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1560684648",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1560684650",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1560684646",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1560684648",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1560684650",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1555730587",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1555730589",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1555730224",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1555730587",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1555730589",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10339/",
+            "label": "唱片公司原聲帶與TV尺寸曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1613713740",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1613714003",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1613713740",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1613714003",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3Er4JeLSlCw",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.bom-bom-academy.com/music/",
+            "label": "權利方影片與發行說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FQQpN4cj4aM",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=2xNtVE6UM6c",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://mewkledreamy.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1560684648",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（オリジナル・カラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1560684650",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1560684648",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（オリジナル・カラオケ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1560684650",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1560684646",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1555730587",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ・オリジナル・カラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1555730589",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1555730587",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ・オリジナル・カラオケ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1555730589",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1555730224",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1613714003",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1613713740",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイスキセカイ（TVサイズ）｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1613714003",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1613713740",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter"
+        ],
+        "credits": [
+          {
+            "name": "いっちー＆なる（ボンボンアカデミー）",
+            "role": "vocals"
+          },
+          {
+            "name": "畑亜貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "三好啓太",
+            "role": "composition"
+          },
+          {
+            "name": "三好啓太",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/mewkledreamy_mix"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "mewkledreamy-mix-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%A4%A2%E5%A4%A2%E8%B2%93"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "mewkledreamy-mix-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25858_202104111030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203271030.html",
+              "https://www.mau2.com/anime/mewkledreamymix",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202105/25858_202105021030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202108/25858_202108081030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202112/25858_202112261030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202201/25858_202201301030.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202202/25858_202202271030.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjss-09284"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjss-09282-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song-digital-single-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1560684648"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1560684648"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1560684650"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1560684650"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://music.apple.com/hk/album/1560684646"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1560684646"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1560684648"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1560684648"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1560684650"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1560684650"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10117/",
+              "https://music.apple.com/jp/album/1560684646"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1560684646"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1555730224",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1555730587"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1555730587"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1555730589"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1555730589"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+              "https://music.apple.com/hk/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1555730224"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1555730587"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1555730587"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1555730589"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1555730589"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000986.000016719.html",
+              "https://music.apple.com/jp/album/1555730224"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1555730224"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01344"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1613714003"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1613714003"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/",
+              "https://music.apple.com/hk/album/1613713740"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1613713740"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1613714003"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/jp/song/1613714003"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/",
+              "https://music.apple.com/jp/album/1613713740"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-jp-1613713740"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3Er4JeLSlCw",
+              "https://www.marv.jp/titles/av/10119/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "3Er4JeLSlCw"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FQQpN4cj4aM",
+              "https://www.bom-bom-academy.com/music/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "FQQpN4cj4aM"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=2xNtVE6UM6c",
+              "https://www.bom-bom-academy.com/music/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "2xNtVE6UM6c"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "video_metadata",
+              "platform_availability"
+            ],
+            "note": "已核公開主題曲影片及唱片曲序。逐話剪輯與各同名TV尺寸音軌的對應待核。",
+            "resumeWhen": "待可辨識的原播片段或權利方剪輯對照；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–50話節目音樂欄片尾，含13回真人單元｜2021春至2022冬",
+        "releaseDate": "2021-03-09",
+        "recordings": [
+          {
+            "id": "mewkledreamy-mix-ed-1-song-single-full",
+            "title": "ダイスキセカイ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "mewkledreamy-mix-ed-1-song-single-karaoke",
+            "title": "ダイスキセカイ（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-mix-ed-1-song-digital-single-tv",
+            "title": "ダイスキセカイ（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke",
+            "title": "ダイスキセカイ（TVサイズ・オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "mewkledreamy-mix-ed-1-song-soundtrack-tv",
+            "title": "ダイスキセカイ（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-09284",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-06-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+              },
+              {
+                "title": "ダイスキセカイ（オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09284"
+          },
+          {
+            "id": "mjss-09282-3",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-06-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+              },
+              {
+                "title": "ダイスキセカイ（オリジナル・カラオケ）",
+                "position": 5,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09282～3"
+          },
+          {
+            "id": "apple-hk-1560684646",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-04-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+              },
+              {
+                "title": "ダイスキセカイ（オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1560684646",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ",
+            "type": "single",
+            "date": {
+              "value": "2021-04-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-full"
+              },
+              {
+                "title": "ダイスキセカイ（オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-ed-1-song-single-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-hk-1555730224",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ（TVサイズ）",
+            "type": "single",
+            "date": {
+              "value": "2021-03-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ（TVサイズ）",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv"
+              },
+              {
+                "title": "ダイスキセカイ（TVサイズ・オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1555730224",
+            "title": "フレー！フレー！ドリーミージャンプ／ダイスキセカイ（TVサイズ）",
+            "type": "single",
+            "date": {
+              "value": "2021-03-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ（TVサイズ）",
+                "position": 2,
+                "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv"
+              },
+              {
+                "title": "ダイスキセカイ（TVサイズ・オリジナル・カラオケ）",
+                "position": 4,
+                "recordingId": "mewkledreamy-mix-ed-1-song-digital-single-tv-karaoke"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01344",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ（TVサイズ）",
+                "position": 23,
+                "recordingId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01344"
+          },
+          {
+            "id": "apple-hk-1613713740",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ（TVサイズ）",
+                "position": 23,
+                "recordingId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-jp-1613713740",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイスキセカイ（TVサイズ）",
+                "position": 23,
+                "recordingId": "mewkledreamy-mix-ed-1-song-soundtrack-tv"
+              }
+            ],
+            "label": "マーベラス"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "mewkledreamy-mix-in-1",
+        "songId": "mewkledreamy-yukai-hajimare-song",
+        "titleJa": "ユカイハジマレ",
+        "artistDisplayName": "ゆに（釘宮理恵）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/index_3.html",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ckworks.jp/animeradar/matome/6004/569783",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yukai-hajimare-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yukai-hajimare-song-character-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yukai-hajimare-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          }
+        ],
+        "seasonIds": [
+          "2021-fall",
+          "2022-winter"
+        ],
+        "usageLabel": "第27、47話劇中歌",
+        "credits": [
+          {
+            "name": "釘宮理恵",
+            "role": "vocals"
+          },
+          {
+            "name": "畑亜貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "Motokiyo",
+            "role": "composition"
+          },
+          {
+            "name": "Motokiyo",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-yukai-hajimare-song-character-single",
+            "title": "ユカイハジマレ",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-yukai-hajimare-song-original-karaoke",
+            "title": "ユカイハジマレ（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ユカイハジマレ",
+                "position": 4,
+                "recordingId": "mewkledreamy-yukai-hajimare-song-character-single"
+              },
+              {
+                "title": "ユカイハジマレ（オリジナル・カラオケ）",
+                "position": 14,
+                "recordingId": "mewkledreamy-yukai-hajimare-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "mewkledreamy-mix-in-2",
+        "songId": "mewkledreamy-mewkle-march-song",
+        "titleJa": "ラララ♪ミュークルマーチ",
+        "artistDisplayName": "みゅー（豊崎愛生）、ぺこ（久保ユリカ）、すう（金元寿子）、ねね（高野麻里佳）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/index_3.html",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mewkle-march-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/index_3.html",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mewkle-march-song-four-character"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          }
+        ],
+        "seasonIds": [
+          "2021-fall"
+        ],
+        "usageLabel": "第27話劇中歌；四人演唱",
+        "credits": [
+          {
+            "name": "豊崎愛生",
+            "role": "vocals"
+          },
+          {
+            "name": "久保ユリカ",
+            "role": "vocals"
+          },
+          {
+            "name": "金元寿子",
+            "role": "vocals"
+          },
+          {
+            "name": "高野麻里佳",
+            "role": "vocals"
+          },
+          {
+            "name": "畑亜貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "三好啓太",
+            "role": "composition"
+          },
+          {
+            "name": "三好啓太",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-mewkle-march-song-four-character",
+            "title": "ラララ♪ミュークルマーチ（4人いっしょにバージョン）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ラララ♪ミュークルマーチ（4人いっしょにバージョン）",
+                "position": 1,
+                "recordingId": "mewkledreamy-mewkle-march-song-four-character"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "四人演唱；角色歌專輯收錄四人版。",
+            "resumeWhen": "待第27話實播音軌確認賽事剪輯及與唱片的對應。",
+            "checkedAt": "2026-11-15"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "mewkledreamy-mix-in-3",
+        "songId": "mewkledreamy-astro-code-song",
+        "titleJa": "アストロ・コード",
+        "artistDisplayName": "安西ときわ（ファイルーズあい）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ckworks.jp/animeradar/matome/6004/569783",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-astro-code-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-astro-code-song-character-single"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          }
+        ],
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "usageLabel": "第47話劇中歌",
+        "credits": [
+          {
+            "name": "ファイルーズあい",
+            "role": "vocals"
+          },
+          {
+            "name": "Motokiyo",
+            "role": "lyrics"
+          },
+          {
+            "name": "Motokiyo",
+            "role": "composition"
+          },
+          {
+            "name": "Motokiyo",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-astro-code-song-character-single",
+            "title": "アストロ・コード",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "アストロ・コード",
+                "position": 6,
+                "recordingId": "mewkledreamy-astro-code-song-character-single"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases"
+            ],
+            "note": "發行方把第16曲伴奏印為〈アストロ・ノート〉。",
+            "resumeWhen": "待唱片公司正式更正或對應音軌確認後再掛伴奏。",
+            "checkedAt": "2026-11-15"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "mewkledreamy-mix-in-4",
+        "songId": "mewkledreamy-up-on-the-stage-song",
+        "titleJa": "UP ON THE STAGE!!",
+        "artistDisplayName": "月島まいら（伊藤彩沙）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ckworks.jp/animeradar/matome/6004/569783",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-up-on-the-stage-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-up-on-the-stage-song-character-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-up-on-the-stage-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          }
+        ],
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "usageLabel": "第47話劇中歌",
+        "credits": [
+          {
+            "name": "伊藤彩沙",
+            "role": "vocals"
+          },
+          {
+            "name": "ミズノゲンキ",
+            "role": "lyrics"
+          },
+          {
+            "name": "睦月周平",
+            "role": "composition"
+          },
+          {
+            "name": "睦月周平",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-up-on-the-stage-song-character-single",
+            "title": "UP ON THE STAGE!!",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-up-on-the-stage-song-original-karaoke",
+            "title": "UP ON THE STAGE!!（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "UP ON THE STAGE!!",
+                "position": 3,
+                "recordingId": "mewkledreamy-up-on-the-stage-song-character-single"
+              },
+              {
+                "title": "UP ON THE STAGE!!（オリジナル・カラオケ）",
+                "position": 13,
+                "recordingId": "mewkledreamy-up-on-the-stage-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "mewkledreamy-mix-in-5",
+        "songId": "mewkledreamy-yume-iro-melody-song",
+        "titleJa": "ゆめ色メロディー",
+        "artistDisplayName": "日向ゆめ（村上奈津実）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ckworks.jp/animeradar/matome/6004/569783",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-iro-melody-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://ckworks.jp/animeradar/matome/6004/569783"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-iro-melody-song-character-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-iro-melody-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          }
+        ],
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "usageLabel": "第47話劇中歌",
+        "credits": [
+          {
+            "name": "村上奈津実",
+            "role": "vocals"
+          },
+          {
+            "name": "三好啓太",
+            "role": "lyrics"
+          },
+          {
+            "name": "三好啓太",
+            "role": "composition"
+          },
+          {
+            "name": "三好啓太",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-yume-iro-melody-song-character-single",
+            "title": "ゆめ色メロディー",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-yume-iro-melody-song-original-karaoke",
+            "title": "ゆめ色メロディー（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゆめ色メロディー",
+                "position": 2,
+                "recordingId": "mewkledreamy-yume-iro-melody-song-character-single"
+              },
+              {
+                "title": "ゆめ色メロディー（オリジナル・カラオケ）",
+                "position": 12,
+                "recordingId": "mewkledreamy-yume-iro-melody-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "id": "mewkledreamy-mix-in-6",
+        "songId": "mewkledreamy-yume-no-hana-song",
+        "titleJa": "ゆめのはな",
+        "artistDisplayName": "一五学園合唱部、澤田真里愛",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.marv.jp/titles/mc/9879/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/mewkledreamymix",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bangumi.tv/ep/1088832",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/10339/",
+            "label": "唱片公司原聲帶與獨唱曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.mau2.com/anime/mewkledreamymix",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://bangumi.tv/ep/1088832"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-no-hana-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/",
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+              "https://www.mau2.com/anime/mewkledreamymix",
+              "https://zh.moegirl.org.cn/zh-tw/%E7%94%9C%E6%A2%A6%E7%8C%AB",
+              "https://bangumi.tv/ep/1088832"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-no-hana-song-sawada-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-yume-no-hana-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9879/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01297-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/10339/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mjsa-01344"
+          }
+        ],
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "usageLabel": "第49話畢業篇劇中歌",
+        "credits": [
+          {
+            "name": "金杉弘子",
+            "role": "lyrics"
+          },
+          {
+            "name": "川田瑠夏",
+            "role": "composition"
+          },
+          {
+            "name": "川田瑠夏",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "mewkledreamy-yume-no-hana-song-sawada-solo",
+            "title": "ゆめのはな（澤田真里愛・独唱）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "mewkledreamy-yume-no-hana-song-original-karaoke",
+            "title": "ゆめのはな（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjsa-01297-8",
+            "title": "ミュークルドリーミー キャラクターソングアルバム ひらいて☆ミュージックゲート",
+            "type": "album",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゆめのはな（澤田真里愛・独唱）",
+                "position": 8,
+                "recordingId": "mewkledreamy-yume-no-hana-song-sawada-solo"
+              },
+              {
+                "title": "ゆめのはな（オリジナル・カラオケ）",
+                "position": 18,
+                "recordingId": "mewkledreamy-yume-no-hana-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01297～8"
+          },
+          {
+            "id": "mjsa-01344",
+            "title": "ミュークルドリーミー みっくす！ オリジナルサウンドトラック くるくる♪みゅーじっくこれくしょん -みっくす！-",
+            "type": "soundtrack",
+            "date": {
+              "value": "2022-03-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゆめのはな（独唱）",
+                "position": 34
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01344"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "商業獨唱版與劇中合唱用法分開登記。",
+            "resumeWhen": "待原播片尾署名或權利方錄音資料確認合唱成員及各段剪輯。",
+            "checkedAt": "2026-11-15"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "id": "mewkledreamy-mix-in-7",
+        "songId": "mewkledreamy-mix-ed-1-song",
+        "titleJa": "ダイスキセカイ",
+        "artistDisplayName": "いっちー＆なる（ボンボンアカデミー）",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-15",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203201030.html",
+            "label": "權利方歌曲或原播分話資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC",
+            "label": "原TV劇中用曲交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+              "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202203/25858_202203201030.html",
+              "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9F%E3%83%BC"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "mewkledreamy-mix-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/mewklemix/staff/"
+            ],
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "usageLabel": "第49話劇中亦使用當期片尾曲",
+        "credits": [
+          {
+            "name": "いっちー＆なる（ボンボンアカデミー）",
+            "role": "vocals"
+          },
+          {
+            "name": "畑亜貴",
+            "role": "lyrics"
+          },
+          {
+            "name": "三好啓太",
+            "role": "composition"
+          },
+          {
+            "name": "三好啓太",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "同期片尾曲的劇中使用另列。",
+            "resumeWhen": "待可核對的原播聲畫明示劇中片段剪輯及演唱版本。",
+            "checkedAt": "2026-11-15"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-15",
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/onair/",
+        "label": "第一方原期TV播出／延期日期補充",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/",
+        "label": "東京電視台後段分話、播出日期與完結",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/mewklemix/episodes/index_5.html",
+        "label": "東京電視台首段分話與播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20250210175610000_44077426.pdf",
+        "label": "TVB 香港正式播映名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "broadcastTimeJst": "10:30"
+  },
   {"anilistId":114535,"id":"curated-114535","slug":"fumetsu-no-anata-e","seasonIds":["2021-spring","2021-summer"],"startDate":"2021-04-12","titleJa":"不滅のあなたへ","titleZhHant":"給不滅的你","titleRomaji":"Fumetsu no Anata e","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114535-y3NnjexcqKG1.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/114535-ASUprf4AsNwC.jpg","editorialWeekday":1,"broadcastLabel":"日本原TV第1期 2021/4/12 22:50 JST・NHK Eテレ；第20話8/30 22:50，跨春夏。","status":"finished","officialSiteUrl":"https://www.anime-fumetsunoanatae.com/1st/","anilistUrl":"https://anilist.co/anime/114535","imageSourceUrl":"https://anilist.co/anime/114535","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/1067","https://acgsecrets.hk/anime/167/","https://annict.com/works/7252"],"animeThemesUrl":"https://animethemes.moe/anime/fumetsu_no_anata_e","themes":[{"type":"OP","sequence":1,"titleJa":"PINK BLOOD","artistDisplayName":"宇多田ヒカル","id":"fumetsu-no-anata-e-op-1","songId":"fumetsu-no-anata-e-op-1-song","sources":[{"label":"動畫官方網站","url":"https://www.anime-fumetsunoanatae.com/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/fumetsu_no_anata_e","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/fumetunoanatahe","label":"2021年第1期原播逐話用曲對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5955/time","label":"第1期逐話用曲及日本原播時間","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://twitter.com/nep_fumetsu/status/1384149008965275659","label":"2021年製作方確認第1期無字幕片頭與PINK BLOOD","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://wod.wowow.co.jp/watch/77368","label":"日語授權平台標明第1期片頭及作詞作曲演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.utadahikaru.jp/music/a3r5pq03x/","label":"藝人官方單曲及發行日期","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=U_Ry2dM0B34","label":"藝人官方音樂錄影帶","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.sonymusic.co.jp/Music/Info/utadahikaru/en/music/album/title_21.html","label":"唱片方確認BAD MODE數位專輯與第4軌","role":"first_party","language":"en","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.anime-fumetsunoanatae.com/1st/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer"],"credits":[{"name":"宇多田ヒカル","role":"lyrics"},{"name":"宇多田ヒカル","role":"composition"},{"name":"宇多田ヒカル","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/fumetsu_no_anata_e"],"verifiedAt":"2026-09-02","targetId":"fumetsu-no-anata-e-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-op-1-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja"],"verifiedAt":"2026-10-22"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://twitter.com/nep_fumetsu/status/1384149008965275659","https://www.mau2.com/anime/fumetunoanatahe"],"verifiedAt":"2026-11-14","targetId":"fumetsu-no-anata-e-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.utadahikaru.jp/music/a3r5pq03x/","https://www.mau2.com/anime/fumetunoanatahe"],"verifiedAt":"2026-11-14","targetId":"fumetsu-no-anata-e-op-1-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://wod.wowow.co.jp/watch/77368"],"verifiedAt":"2026-11-14"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=U_Ry2dM0B34"],"verifiedAt":"2026-11-14","targetId":"U_Ry2dM0B34"},{"target":"recording","fields":["kind"],"sourceUrls":["https://www.utadahikaru.jp/music/a3r5pq03x/"],"verifiedAt":"2026-11-14","targetId":"fumetsu-no-anata-e-op-1-song-single"},{"target":"release","fields":["date","edition","tracklist"],"sourceUrls":["https://www.utadahikaru.jp/music/a3r5pq03x/"],"verifiedAt":"2026-11-14","targetId":"pink-blood-digital-single"},{"target":"release","fields":["date","edition","tracklist"],"sourceUrls":["https://www.sonymusic.co.jp/Music/Info/utadahikaru/en/music/album/title_21.html"],"verifiedAt":"2026-11-14","targetId":"bad-mode-digital"}],"followUp":[{"fields":["arrangement","recording_format","video_metadata","releases","platform_links","platform_availability"],"note":"已核2021年春夏片頭與官方MV。第1話作片尾的逐話記錄另保留線索；現存授權節目頁為全期曲目署名。","resumeWhen":"取得日本原版第1話實際片尾或製播方逐話署名後判定是否另記ED；正片剪輯與實體版等候相應來源。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第2–20話片頭曲","recordings":[{"id":"fumetsu-no-anata-e-op-1-song-single","title":"PINK BLOOD","kind":"vocal","format":"unknown"}],"releases":[{"id":"pink-blood-digital-single","title":"PINK BLOOD","type":"single","artistDisplayName":"宇多田ヒカル","date":{"value":"2021-06-02","precision":"day"},"region":"GLOBAL","edition":"數位單曲","tracks":[{"title":"PINK BLOOD","position":1,"recordingId":"fumetsu-no-anata-e-op-1-song-single"}]},{"id":"bad-mode-digital","title":"BADモード","type":"album","artistDisplayName":"宇多田ヒカル","date":{"value":"2022-01-19","precision":"day"},"region":"GLOBAL","edition":"數位專輯","tracks":[{"title":"PINK BLOOD","position":4}]}]},{"type":"ED","sequence":1,"titleJa":"Mediator","artistDisplayName":"浜渦正志","id":"fumetsu-no-anata-e-ed-1","songId":"fumetsu-no-anata-e-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://www.anime-fumetsunoanatae.com/1st/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/fumetsu_no_anata_e","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja","label":"第一方本曲原名與已明用途；演唱名義仍待逐曲證據","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/fumetunoanatahe","label":"2021年第1期原播逐話用曲對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5955/time","label":"第1期逐話用曲及日本原播時間","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.anime-fumetsunoanatae.com/2nd/topics/20210531.html?l=ja","label":"第1期作曲者說明與官方無字幕片尾的曲名署名","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.anime-fumetsunoanatae.com/1st/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-spring","2021-summer"],"credits":[{"name":"浜渦正志","role":"composition"},{"name":"浜渦正志","role":"arrangement"}],"evidence":[{"target":"song","fields":["title"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/fumetsu_no_anata_e"],"verifiedAt":"2026-09-02","targetId":"fumetsu-no-anata-e-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0"],"verifiedAt":"2026-10-22","targetId":"fumetsu-no-anata-e-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja"],"verifiedAt":"2026-10-22"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/2nd/topics/20210531.html?l=ja","https://www.mau2.com/anime/fumetunoanatahe"],"verifiedAt":"2026-11-14","targetId":"fumetsu-no-anata-e-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anime-fumetsunoanatae.com/2nd/topics/20210531.html?l=ja"],"verifiedAt":"2026-11-14"}],"followUp":[{"fields":["basic_evidence","lyrics","recordings","official_video","releases","platform_links","platform_availability"],"note":"製作方可核對片尾及作曲編曲署名，舊公開無字幕影片目前無法驗證播放。正式演奏名義仍待核。","resumeWhen":"取得權利方可查閱的完整曲目、演奏署名或重新開放的官方影片後補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第2–4、6、8、10、13–18、20話片尾曲"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-11-14","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E8%87%B4%E4%B8%8D%E6%BB%85%E7%9A%84%E4%BD%A0","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.anime-fumetsunoanatae.com/1st/staff_cast/?l=ja","label":"第一方作品原名；未據此補精確首播日時","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.utadahikaru.jp/news/n4voqzz1u1/","label":"藝人原期公告確認NHK Eテレ首播4月12日","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.anime-fumetsunoanatae.com/2nd/topics/20210517.html?l=ja","label":"製作方確認原期NHK Eテレ星期一22:50時段","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://cal.syoboi.jp/tid/5955/time","label":"原期NHK Eテレ首末話實際播出日期與時間","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-14"}],"broadcastTimeJst":"22:50"},
   {
     anilistId: 128369,

@@ -1,7 +1,13697 @@
 import type { CuratedAnimeSeed } from "@/data/curated-seeds/types";
 
 const curated2020FallSeedRows: CuratedAnimeSeed[] = [
-  {"anilistId":122632,"id":"curated-122632","slug":"saikyou-kamizmode","seasonIds":["2020-fall","2021-spring","2021-winter"],"startDate":"2020-10-09","titleJa":"最響カミズモード！","titleZhHant":"最響神相撲道！","titleRomaji":"Saikyou Kamizmode!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122632-nwu9D6gnbThG.jpg","editorialWeekday":5,"broadcastLabel":"TOKYO MX 原TV首播；9月28日YouTube先行另分","status":"finished","officialSiteUrl":"https://www.kamizmode-anime.com/","anilistUrl":"https://anilist.co/anime/122632","imageSourceUrl":"https://anilist.co/anime/122632","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/625","https://acgsecrets.hk/anime/665/","https://annict.com/works/7637","https://www.animatetimes.com/tag/details.php?id=16715"],"themes":[{"type":"OP","sequence":1,"titleJa":"カ！カ！カ！カミズモード！","titleRomaji":"Ka! Ka! Ka! Kamizmode!","artistDisplayName":"株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）","id":"saikyou-kamizmode-op-1","songId":"saikyou-kamizmode-op-1-song","sources":[{"url":"https://www.kamizmode-anime.com/staff-cast/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"label":"公開資料：OP／ED 用途、版本與演唱者交叉核對","url":"https://www.kamizmode-anime.com/bdbox/","language":"multi","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"SUNRISE Music 官方影片","url":"https://www.youtube.com/watch?v=R_ikYBHPdqg","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://www.kamizmode-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.kamizmode-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"DJ KAMMY","role":"lyrics"},{"name":"DJ KAMMY","role":"composition"},{"name":"DJ KAMMY","role":"arrangement"},{"name":"株元英彰","role":"vocals"},{"name":"堀越せな","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈カ！カ！カ！カミズモード！〉：本曲原TV秋季用途、正式名義與詞曲編已核，後續季度使用範圍仍待逐話確認。","resumeWhen":"待2021年冬、春原TV逐話片頭／片尾曲目明本曲實用，補相應季度；片尾混曲另待逐曲歌唱與使用集數資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"笑顔でBYE！～カミズモ音頭～","titleRomaji":"Egao de BYE! Kamizmo Ondo","artistDisplayName":"株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）","id":"saikyou-kamizmode-ed-1","songId":"saikyou-kamizmode-ed-1-song","sources":[{"url":"https://www.kamizmode-anime.com/staff-cast/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"label":"公開資料：OP／ED 用途、版本與演唱者交叉核對","url":"https://www.kamizmode-anime.com/bdbox/","language":"multi","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://www.kamizmode-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://www.kamizmode-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"キモット","role":"lyrics"},{"name":"DJ KAMMY","role":"composition"},{"name":"DJ KAMMY","role":"arrangement"},{"name":"株元英彰","role":"vocals"},{"name":"堀越せな","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"],"verifiedAt":"2026-10-23","targetId":"saikyou-kamizmode-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.kamizmode-anime.com/staff-cast/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["use_quarters","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈笑顔でBYE！～カミズモ音頭～〉：本曲原TV秋季用途、正式名義與詞曲編已核，後續季度使用範圍仍待逐話確認。","resumeWhen":"待2021年冬、春原TV逐話片頭／片尾曲目明本曲實用，補相應季度；片尾混曲另待逐曲歌唱與使用集數資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://youranimes.tw/animes/625","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"19:30"},
+  {
+  "anilistId": 122632,
+  "id": "curated-122632",
+  "slug": "saikyou-kamizmode",
+  "seasonIds": [
+    "2020-fall",
+    "2021-spring",
+    "2021-winter"
+  ],
+  "startDate": "2020-10-09",
+  "titleJa": "最響カミズモード！",
+  "titleZhHant": "最響神相撲道！",
+  "titleRomaji": "Saikyou Kamizmode!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122632-nwu9D6gnbThG.jpg",
+  "editorialWeekday": 5,
+  "broadcastLabel": "TOKYO MX 週五19:30原TV首播；YouTube 2020年9月28日先行第1話前篇",
+  "status": "finished",
+  "officialSiteUrl": "https://www.kamizmode-anime.com/",
+  "anilistUrl": "https://anilist.co/anime/122632",
+  "imageSourceUrl": "https://anilist.co/anime/122632",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/625",
+    "https://acgsecrets.hk/anime/665/",
+    "https://annict.com/works/7637",
+    "https://www.animatetimes.com/tag/details.php?id=16715"
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "カ！カ！カ！カミズモード！",
+      "titleRomaji": "Ka! Ka! Ka! Kamizmode!",
+      "artistDisplayName": "株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）",
+      "id": "saikyou-kamizmode-op-1",
+      "songId": "saikyou-kamizmode-op-1-song",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/staff-cast/",
+          "label": "製作方主題曲及詞曲編名單",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=R_ikYBHPdqg",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.kamizmode-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968",
+          "label": "第一方本曲原名、正式名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方播出與每話片尾混曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "逐話主題曲及混曲成分交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "第26話用途區分交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sunrise-music.co.jp/list/detail.php?id=493",
+          "label": "唱片方動畫版本及數位發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18380",
+          "label": "製作方完整版MV及其他主題曲版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1533629410",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1533629414",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1533629417",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1533629418",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868699",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.kamizmode-anime.com/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "カ！カ！カ！カミズモード！ (アニメバージョン)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1533629414",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1533629410",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "saikyou-kamizmode-op-1-song-anime-version"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "カ！カ！カ！カミズモード！ (耐久カ！カ！カ！バージョン)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1533629417",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1533629410",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "saikyou-kamizmode-op-1-song-long-edit"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "カ！カ！カ！カミズモード！ (カカカのカ！バージョン)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1533629418",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1533629410",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "saikyou-kamizmode-op-1-song-short-edit"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "カ！カ！カ！カミズモード！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868699",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "saikyou-kamizmode-op-1-song-full"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
+      ],
+      "credits": [
+        {
+          "name": "DJ KAMMY",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        },
+        {
+          "name": "株元英彰",
+          "role": "vocals"
+        },
+        {
+          "name": "堀越せな",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/",
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-music.co.jp/list/detail.php?id=493",
+            "https://www.kamizmode-anime.com/news/?id=18380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1-song-anime-version"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1-song-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1-song-long-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1-song-short-edit"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1533629414"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1533629414"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1533629417"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1533629417"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1533629418"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1533629418"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-music.co.jp/list/detail.php?id=493",
+            "https://www.kamizmode-anime.com/news/?id=18380",
+            "https://music.apple.com/jp/album/1533629410"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1533629410"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868699"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868699"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=R_ikYBHPdqg",
+            "https://www.kamizmode-anime.com/news/?id=18380"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "R_ikYBHPdqg"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "video_metadata",
+            "platform_availability"
+          ],
+          "note": "已核唱片方動畫版、耐久版、30秒短版及原聲帶完整版。參與式MV使用的音軌關係待核。",
+          "resumeWhen": "待權利方提供MV音軌署名；完整播放需依地區另驗。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–25話原TV片頭｜第26話省略片頭，同曲另作插曲",
+      "recordings": [
+        {
+          "id": "saikyou-kamizmode-op-1-song-anime-version",
+          "title": "カ！カ！カ！カミズモード！ (アニメバージョン)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "saikyou-kamizmode-op-1-song-full",
+          "title": "カ！カ！カ！カミズモード！",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "saikyou-kamizmode-op-1-song-long-edit",
+          "title": "カ！カ！カ！カミズモード！ (耐久カ！カ！カ！バージョン)",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "saikyou-kamizmode-op-1-song-short-edit",
+          "title": "カ！カ！カ！カミズモード！ (カカカのカ！バージョン)",
+          "kind": "vocal",
+          "format": "short"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-jp-1533629410",
+          "title": "カ！カ！カ！カミズモード！ (アニメバージョン)",
+          "type": "single",
+          "date": {
+            "value": "2020-10-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "カ！カ！カ！カミズモード！ (アニメバージョン)",
+              "position": 1,
+              "recordingId": "saikyou-kamizmode-op-1-song-anime-version"
+            },
+            {
+              "title": "カ！カ！カ！カミズモード！ (耐久カ！カ！カ！バージョン)",
+              "position": 2,
+              "recordingId": "saikyou-kamizmode-op-1-song-long-edit"
+            },
+            {
+              "title": "カ！カ！カ！カミズモード！ (カカカのカ！バージョン)",
+              "position": 3,
+              "recordingId": "saikyou-kamizmode-op-1-song-short-edit"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "カ！カ！カ！カミズモード！",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "saikyou-kamizmode-op-1-song-full"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "カ！カ！カ！カミズモード！ (アニメバージョン)",
+              "recordingId": "saikyou-kamizmode-op-1-song-anime-version"
+            },
+            {
+              "title": "カ！カ！カ！カミズモード！",
+              "recordingId": "saikyou-kamizmode-op-1-song-full"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "笑顔でBYE！～カミズモ音頭～",
+      "titleRomaji": "Egao de BYE! Kamizmo Ondo",
+      "artistDisplayName": "株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）",
+      "id": "saikyou-kamizmode-ed-1",
+      "songId": "saikyou-kamizmode-ed-1-song",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/staff-cast/",
+          "label": "製作方主題曲及詞曲編名單",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "language": "multi",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "動畫官方網站",
+          "url": "https://www.kamizmode-anime.com/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968",
+          "label": "第一方本曲原名、正式名義與已列資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方播出與每話片尾混曲公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "逐話主題曲及混曲成分交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "第26話用途區分交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560872606",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "作品官網",
+          "label": "作品官方網站",
+          "url": "https://www.kamizmode-anime.com/",
+          "linkType": "official_landing_page",
+          "region": "JP"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "笑顔でBYE！～カミズモ音頭～｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560872606",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "saikyou-kamizmode-ed-1-song-beat-collection"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter",
+        "2021-spring"
+      ],
+      "credits": [
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        },
+        {
+          "name": "株元英彰",
+          "role": "vocals"
+        },
+        {
+          "name": "堀越せな",
+          "role": "vocals"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-10-23",
+          "targetId": "saikyou-kamizmode-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-10-23"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/",
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-1-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560872606"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560872606"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "official_video",
+            "platform_availability"
+          ],
+          "note": "已核固定片尾跨三季，數位曲目為獨立固定片尾。第2話混合段落仍待核。",
+          "resumeWhen": "待可辨識的第2話原版片尾，以及官方獨立片尾影片或版別對照。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "原TV固定片尾｜部分集數加入劇中歌混曲",
+      "recordings": [
+        {
+          "id": "saikyou-kamizmode-ed-1-song-beat-collection",
+          "title": "笑顔でBYE！～カミズモ音頭～",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "笑顔でBYE！～カミズモ音頭～",
+              "position": 39,
+              "disc": 2,
+              "recordingId": "saikyou-kamizmode-ed-1-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "カ！カ！カ！カミズモード！",
+      "artistDisplayName": "株元英彰・堀越せな with DJ KAMMYと神音隊（ビートタイ）",
+      "id": "saikyou-kamizmode-in-1",
+      "songId": "saikyou-kamizmode-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/staff-cast/",
+          "label": "製作方主題曲名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "相同歌曲曲名及演唱名義交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/",
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/staff-cast/"
+          ],
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "usageLabel": "第26話劇中插曲",
+      "credits": [
+        {
+          "name": "DJ KAMMY",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        },
+        {
+          "name": "株元英彰",
+          "role": "vocals"
+        },
+        {
+          "name": "堀越せな",
+          "role": "vocals"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings"
+          ],
+          "note": "第26話另作插曲。",
+          "resumeWhen": "待原播插曲音軌及對應發行版本核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "虹（Ver.KAMIZMODE）",
+      "artistDisplayName": "んだほ & ぺけたん from Fischer’s",
+      "id": "saikyou-kamizmode-ed-2",
+      "songId": "kamizmode-niji-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://uuum.jp/posts/232492",
+          "label": "演出方經紀公告及其動畫版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=spfA9CIHm08",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "同版本曲名與演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uuum.jp/posts/232492",
+            "https://www.youtube.com/watch?v=spfA9CIHm08",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-niji-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=spfA9CIHm08"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=spfA9CIHm08",
+            "https://uuum.jp/posts/232492"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "spfA9CIHm08"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-spring"
+      ],
+      "usageLabel": "第1、25話片尾混曲",
+      "credits": [
+        {
+          "name": "んだほ & ぺけたん from Fischer’s",
+          "role": "vocals"
+        },
+        {
+          "name": "ンダホ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ンダホ",
+          "role": "composition"
+        },
+        {
+          "name": "geniway",
+          "role": "arrangement"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_links"
+          ],
+          "note": "已核官方BOX收錄此動畫版本；原播剪輯及可獨立取得的動畫版數位音源待核。",
+          "resumeWhen": "待可辨識原播音軌、正式商業曲目入口或發行錄音對照。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "虹（Ver.KAMIZMODE）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "虹（Ver.KAMIZMODE）",
+      "artistDisplayName": "んだほ & ぺけたん from Fischer’s",
+      "id": "saikyou-kamizmode-in-2",
+      "songId": "kamizmode-niji-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://uuum.jp/posts/232492",
+          "label": "演出方經紀公告及其動畫版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=spfA9CIHm08",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "同版本曲名與演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uuum.jp/posts/232492",
+            "https://www.youtube.com/watch?v=spfA9CIHm08",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-niji-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=spfA9CIHm08"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=spfA9CIHm08",
+            "https://uuum.jp/posts/232492"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "spfA9CIHm08"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-spring"
+      ],
+      "usageLabel": "第1、2、3、4、5、8、10、11、12、25話劇中插曲",
+      "credits": [
+        {
+          "name": "んだほ & ぺけたん from Fischer’s",
+          "role": "vocals"
+        },
+        {
+          "name": "ンダホ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ンダホ",
+          "role": "composition"
+        },
+        {
+          "name": "geniway",
+          "role": "arrangement"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_links"
+          ],
+          "note": "已核官方BOX收錄此動畫版本；原播剪輯及可獨立取得的動畫版數位音源待核。",
+          "resumeWhen": "待可辨識原播音軌、正式商業曲目入口或發行錄音對照。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "虹（Ver.KAMIZMODE）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "夢（Ver.KAMIZMODE）",
+      "artistDisplayName": "HIKAKIN & SEIKIN",
+      "id": "saikyou-kamizmode-ed-3",
+      "songId": "kamizmode-yume-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://uuum.jp/posts/232492",
+          "label": "演出方經紀公告及其動畫版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "同版本曲名與演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uuum.jp/posts/232492",
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yume-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+            "https://uuum.jp/posts/232492"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "SUzjzqAKAu4"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第3話片尾混曲",
+      "credits": [
+        {
+          "name": "HIKAKIN & SEIKIN",
+          "role": "vocals"
+        },
+        {
+          "name": "SEIKIN",
+          "role": "lyrics"
+        },
+        {
+          "name": "SEIKIN",
+          "role": "composition"
+        },
+        {
+          "name": "TeddyLoid",
+          "role": "arrangement"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_links"
+          ],
+          "note": "已核官方BOX收錄此動畫版本；原播剪輯及可獨立取得的動畫版數位音源待核。",
+          "resumeWhen": "待可辨識原播音軌、正式商業曲目入口或發行錄音對照。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢（Ver.KAMIZMODE）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "titleJa": "夢（Ver.KAMIZMODE）",
+      "artistDisplayName": "HIKAKIN & SEIKIN",
+      "id": "saikyou-kamizmode-in-3",
+      "songId": "kamizmode-yume-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://uuum.jp/posts/232492",
+          "label": "演出方經紀公告及其動畫版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "同版本曲名與演唱交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uuum.jp/posts/232492",
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yume-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=SUzjzqAKAu4",
+            "https://uuum.jp/posts/232492"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "SUzjzqAKAu4"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第3、7、10、12、14、16話劇中插曲",
+      "credits": [
+        {
+          "name": "HIKAKIN & SEIKIN",
+          "role": "vocals"
+        },
+        {
+          "name": "SEIKIN",
+          "role": "lyrics"
+        },
+        {
+          "name": "SEIKIN",
+          "role": "composition"
+        },
+        {
+          "name": "TeddyLoid",
+          "role": "arrangement"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_links"
+          ],
+          "note": "已核官方BOX收錄此動畫版本；原播剪輯及可獨立取得的動畫版數位音源待核。",
+          "resumeWhen": "待可辨識原播音軌、正式商業曲目入口或發行錄音對照。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢（Ver.KAMIZMODE）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "闇夜突風",
+      "artistDisplayName": "小林太郎",
+      "id": "saikyou-kamizmode-ed-4",
+      "songId": "kamizmode-yamiya-toppu-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868846",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868846"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第4話片尾混曲",
+      "credits": [
+        {
+          "name": "小林太郎",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-yamiya-toppu-song-beat-collection",
+          "title": "闇夜突風",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "闇夜突風｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868846",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-yamiya-toppu-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "闇夜突風",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "kamizmode-yamiya-toppu-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "GOファイター",
+      "artistDisplayName": "新井仁",
+      "id": "saikyou-kamizmode-ed-5",
+      "songId": "kamizmode-go-fighter-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868844",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-go-fighter-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-go-fighter-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868844"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第5話片尾混曲",
+      "credits": [
+        {
+          "name": "新井仁",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-go-fighter-song-beat-collection",
+          "title": "GOファイター",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "GOファイター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868844",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-go-fighter-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "GOファイター",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kamizmode-go-fighter-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "titleJa": "初恋サマー！",
+      "artistDisplayName": "いちろー",
+      "id": "saikyou-kamizmode-ed-6",
+      "songId": "kamizmode-hatsukoi-summer-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868855",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hatsukoi-summer-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hatsukoi-summer-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868855"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第6話片尾混曲",
+      "credits": [
+        {
+          "name": "いちろー",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-hatsukoi-summer-song-beat-collection",
+          "title": "初恋サマー！",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "初恋サマー！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868855",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-hatsukoi-summer-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "初恋サマー！",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "kamizmode-hatsukoi-summer-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "3杯目のポニャコソーダ（Ver.邪）",
+      "artistDisplayName": "奥村愛子",
+      "id": "saikyou-kamizmode-ed-7",
+      "songId": "kamizmode-ponya-soda-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870330",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-ja-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870330"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第7話片尾混曲",
+      "credits": [
+        {
+          "name": "奥村愛子",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ponya-soda-ja-song-beat-collection",
+          "title": "3杯目のポニャコソーダ（Ver.邪）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "3杯目のポニャコソーダ（Ver.邪）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870330",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ponya-soda-ja-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ（Ver.邪）",
+              "position": 7,
+              "disc": 2,
+              "recordingId": "kamizmode-ponya-soda-ja-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "叫び",
+      "artistDisplayName": "佐伯ユウスケ",
+      "id": "saikyou-kamizmode-ed-8",
+      "songId": "kamizmode-sakebi-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870308",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-sakebi-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-sakebi-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870308"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第8話片尾混曲",
+      "credits": [
+        {
+          "name": "佐伯ユウスケ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-sakebi-song-beat-collection",
+          "title": "叫び",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "叫び｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870308",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-sakebi-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "叫び",
+              "position": 4,
+              "disc": 2,
+              "recordingId": "kamizmode-sakebi-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "Set The Fire！",
+      "artistDisplayName": "蒲原彰利",
+      "id": "saikyou-kamizmode-ed-9",
+      "songId": "kamizmode-set-the-fire-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870323",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.music-hack.jp/instructor/akitoshi-kambara-voice",
+          "label": "演唱者履歷明列作詞、聲樂及合聲編排",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TimSThtHG-0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice",
+            "https://www.youtube.com/watch?v=TimSThtHG-0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.youtube.com/watch?v=TimSThtHG-0",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870323"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870323"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=TimSThtHG-0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "TimSThtHG-0"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第9話片尾混曲",
+      "credits": [
+        {
+          "name": "蒲原彰利",
+          "role": "vocals"
+        },
+        {
+          "name": "蒲原彰利",
+          "role": "lyrics"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-set-the-fire-song-beat-collection",
+          "title": "Set The Fire！",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Set The Fire！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870323",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-set-the-fire-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Set The Fire！",
+              "position": 5,
+              "disc": 2,
+              "recordingId": "kamizmode-set-the-fire-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "3杯目のポニャコソーダ",
+      "artistDisplayName": "奥村愛子",
+      "id": "saikyou-kamizmode-ed-10",
+      "songId": "kamizmode-ponya-soda-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870327",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870327"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第10話片尾混曲",
+      "credits": [
+        {
+          "name": "奥村愛子",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ponya-soda-song-beat-collection",
+          "title": "3杯目のポニャコソーダ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "3杯目のポニャコソーダ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870327",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ponya-soda-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ",
+              "position": 6,
+              "disc": 2,
+              "recordingId": "kamizmode-ponya-soda-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "Fearless",
+      "artistDisplayName": "ジョシュア・K・キリサメ",
+      "id": "saikyou-kamizmode-ed-11",
+      "songId": "kamizmode-fearless-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869967",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-fearless-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-fearless-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869967"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第11話片尾混曲",
+      "credits": [
+        {
+          "name": "ジョシュア・K・キリサメ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-fearless-song-beat-collection",
+          "title": "Fearless",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Fearless｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869967",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-fearless-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Fearless",
+              "position": 2,
+              "disc": 2,
+              "recordingId": "kamizmode-fearless-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 12,
+      "titleJa": "Blaze Heart",
+      "artistDisplayName": "GONOKAMI",
+      "id": "saikyou-kamizmode-ed-12",
+      "songId": "kamizmode-blaze-heart-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869964",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-blaze-heart-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-12"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-blaze-heart-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869964"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第12、15話片尾混曲",
+      "credits": [
+        {
+          "name": "GONOKAMI",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-blaze-heart-song-beat-collection",
+          "title": "Blaze Heart",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Blaze Heart｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869964",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-blaze-heart-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Blaze Heart",
+              "position": 1,
+              "disc": 2,
+              "recordingId": "kamizmode-blaze-heart-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 13,
+      "titleJa": "I’m With You",
+      "artistDisplayName": "亜山ルナ（CV：堀越せな）",
+      "id": "saikyou-kamizmode-ed-13",
+      "songId": "kamizmode-im-with-you-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869974",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B8tLek_JfPE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://www.youtube.com/watch?v=B8tLek_JfPE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-13"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.youtube.com/watch?v=B8tLek_JfPE",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869974"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869974"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=B8tLek_JfPE",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "B8tLek_JfPE"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第13話片尾混曲",
+      "credits": [
+        {
+          "name": "亜山ルナ（CV：堀越せな）",
+          "role": "vocals"
+        },
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-im-with-you-song-beat-collection",
+          "title": "I’m With You",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-im-with-you-song-box-full",
+          "title": "I’m With You（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "I’m With You｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869974",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-im-with-you-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "I’m With You",
+              "position": 3,
+              "disc": 2,
+              "recordingId": "kamizmode-im-with-you-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I’m With You（フルサイズ）",
+              "recordingId": "kamizmode-im-with-you-song-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 14,
+      "titleJa": "Stronger",
+      "artistDisplayName": "m.c.A・T",
+      "id": "saikyou-kamizmode-ed-14",
+      "songId": "kamizmode-stronger-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870486",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-stronger-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-14"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-stronger-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870486"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第14話片尾混曲",
+      "credits": [
+        {
+          "name": "m.c.A・T",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-stronger-song-beat-collection",
+          "title": "Stronger",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Stronger｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870486",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-stronger-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Stronger",
+              "position": 8,
+              "disc": 2,
+              "recordingId": "kamizmode-stronger-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 15,
+      "titleJa": "キミ＆フォーエバー",
+      "artistDisplayName": "佐伯ユウスケ",
+      "id": "saikyou-kamizmode-ed-15",
+      "songId": "kamizmode-kimi-forever-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870999",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IS8ax2zutN0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870999",
+            "https://www.youtube.com/watch?v=IS8ax2zutN0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-kimi-forever-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-15"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870999",
+            "https://www.youtube.com/watch?v=IS8ax2zutN0"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870999"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-kimi-forever-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870999"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870999"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=IS8ax2zutN0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "IS8ax2zutN0"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第16話片尾混曲",
+      "credits": [
+        {
+          "name": "佐伯ユウスケ",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "HaTo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-kimi-forever-song-beat-collection",
+          "title": "キミ＆フォーエバー",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "キミ＆フォーエバー｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870999",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-kimi-forever-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "キミ＆フォーエバー",
+              "position": 17,
+              "disc": 2,
+              "recordingId": "kamizmode-kimi-forever-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 16,
+      "titleJa": "もう一回",
+      "artistDisplayName": "GONOKAMI",
+      "id": "saikyou-kamizmode-ed-16",
+      "songId": "kamizmode-mou-ikkai-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870713",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Pmux3RAqDAE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870713",
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-mou-ikkai-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-16"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870713",
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870713"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-mou-ikkai-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870713"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870713"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Pmux3RAqDAE"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第18、24話片尾混曲",
+      "credits": [
+        {
+          "name": "GONOKAMI",
+          "role": "vocals"
+        },
+        {
+          "name": "五野上貴一",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-mou-ikkai-song-beat-collection",
+          "title": "もう一回",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "もう一回｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870713",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-mou-ikkai-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "もう一回",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "kamizmode-mou-ikkai-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 17,
+      "titleJa": "道",
+      "artistDisplayName": "m.c.A・T",
+      "id": "saikyou-kamizmode-ed-17",
+      "songId": "kamizmode-michi-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871355",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michi-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-17"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michi-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871355"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第19話片尾混曲",
+      "credits": [
+        {
+          "name": "m.c.A・T",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-michi-song-beat-collection",
+          "title": "道",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "道｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871355",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-michi-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "道",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "kamizmode-michi-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 18,
+      "titleJa": "Punch You!",
+      "artistDisplayName": "MC YAMMY",
+      "id": "saikyou-kamizmode-ed-18",
+      "songId": "kamizmode-punch-you-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870723",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OlTeN3fEzW8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870723",
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-punch-you-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-18"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870723",
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870723"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-punch-you-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870723"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870723"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "OlTeN3fEzW8"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第20話片尾混曲",
+      "credits": [
+        {
+          "name": "MC YAMMY",
+          "role": "vocals"
+        },
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-punch-you-song-beat-collection",
+          "title": "Punch You!",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Punch You!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870723",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-punch-you-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Punch You!",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "kamizmode-punch-you-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 19,
+      "titleJa": "飛翔必勝",
+      "artistDisplayName": "小林太郎",
+      "id": "saikyou-kamizmode-ed-19",
+      "songId": "kamizmode-hishou-hisshou-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871955",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hishou-hisshou-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hishou-hisshou-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871955"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第22話片尾混曲",
+      "credits": [
+        {
+          "name": "小林太郎",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-hishou-hisshou-song-beat-collection",
+          "title": "飛翔必勝",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "飛翔必勝｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871955",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-hishou-hisshou-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "飛翔必勝",
+              "position": 33,
+              "disc": 2,
+              "recordingId": "kamizmode-hishou-hisshou-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 20,
+      "titleJa": "Red or Black",
+      "artistDisplayName": "ジョシュア・K・キリサメ",
+      "id": "saikyou-kamizmode-ed-20",
+      "songId": "kamizmode-red-or-black-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871024",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-red-or-black-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-20"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-red-or-black-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871024"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第23話片尾混曲",
+      "credits": [
+        {
+          "name": "ジョシュア・K・キリサメ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-red-or-black-song-beat-collection",
+          "title": "Red or Black",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Red or Black｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871024",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-red-or-black-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Red or Black",
+              "position": 20,
+              "disc": 2,
+              "recordingId": "kamizmode-red-or-black-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 21,
+      "titleJa": "ナニモカモ",
+      "artistDisplayName": "亜山ルナ（CV：堀越せな）",
+      "id": "saikyou-kamizmode-ed-21",
+      "songId": "kamizmode-nanimokamo-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560872352",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://heart-company.co.jp/works/kamizmode/",
+          "label": "作詞方明示第21話片尾及角色聲演",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=El7tPKgzq_0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560872352",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://www.youtube.com/watch?v=El7tPKgzq_0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-21"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560872352",
+            "https://www.youtube.com/watch?v=El7tPKgzq_0",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560872352",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560872352"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560872352"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=El7tPKgzq_0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "El7tPKgzq_0"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-21"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第21話片尾混曲",
+      "credits": [
+        {
+          "name": "亜山ルナ（CV：堀越せな）",
+          "role": "vocals"
+        },
+        {
+          "name": "安藤紗々",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-nanimokamo-song-beat-collection",
+          "title": "ナニモカモ",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-nanimokamo-song-box-full",
+          "title": "ナニモカモ（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ナニモカモ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560872352",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-nanimokamo-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ナニモカモ",
+              "position": 34,
+              "disc": 2,
+              "recordingId": "kamizmode-nanimokamo-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ナニモカモ（フルサイズ）",
+              "recordingId": "kamizmode-nanimokamo-song-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV與固定片尾混用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 22,
+      "titleJa": "闇を壊して（Ver.ピュアモンスーン）",
+      "artistDisplayName": "ピュアモンスーン（CV：小倉唯）",
+      "id": "saikyou-kamizmode-ed-22",
+      "songId": "kamizmode-yami-wo-kowashite-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871008",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "原版與角色版片尾／插曲用途對照",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pd7GtaJSqvQ",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871008",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+            "https://www.youtube.com/watch?v=pd7GtaJSqvQ"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-wo-kowashite-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-22"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871008",
+            "https://www.youtube.com/watch?v=pd7GtaJSqvQ",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871008",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-pure-monsoon-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871008"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871008"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=pd7GtaJSqvQ",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pd7GtaJSqvQ"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-ed-22"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-wo-kowashite-song-pure-monsoon-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第17話片尾混曲",
+      "credits": [
+        {
+          "name": "ピュアモンスーン（CV：小倉唯）",
+          "role": "vocals"
+        },
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-yami-pure-monsoon-song-beat-collection",
+          "title": "闇を壊して（Ver.ピュアモンスーン）",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-yami-wo-kowashite-song-pure-monsoon-box-full",
+          "title": "闇を壊して（Ver.ピュアモンスーン）（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "闇を壊して（Ver.ピュアモンスーン）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871008",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-yami-pure-monsoon-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "闇を壊して（Ver.ピュアモンスーン）",
+              "position": 19,
+              "disc": 2,
+              "recordingId": "kamizmode-yami-pure-monsoon-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "闇を壊して（Ver.ピュアモンスーン）（フルサイズ）",
+              "recordingId": "kamizmode-yami-wo-kowashite-song-pure-monsoon-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "片尾曲目與角色演唱版本已交叉核對；原播畫面片尾署名和實際混曲剪輯待重看。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "titleJa": "闇を壊して",
+      "artistDisplayName": "亜山ルナ（CV：堀越せな）",
+      "id": "saikyou-kamizmode-in-4",
+      "songId": "kamizmode-yami-wo-kowashite-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871002",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+          "label": "原版與角色版片尾／插曲用途對照",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871002",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-wo-kowashite-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871002",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871002",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-luna-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871002"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yami-wo-kowashite-song-luna-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第17、21話劇中插曲",
+      "credits": [
+        {
+          "name": "亜山ルナ（CV：堀越せな）",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-yami-luna-song-beat-collection",
+          "title": "闇を壊して",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-yami-wo-kowashite-song-luna-box-full",
+          "title": "闇を壊して（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "闇を壊して｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871002",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-yami-luna-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "闇を壊して",
+              "position": 18,
+              "disc": 2,
+              "recordingId": "kamizmode-yami-luna-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "闇を壊して（フルサイズ）",
+              "recordingId": "kamizmode-yami-wo-kowashite-song-luna-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 5,
+      "titleJa": "Last Winner",
+      "artistDisplayName": "坂本英三",
+      "id": "saikyou-kamizmode-in-5",
+      "songId": "kamizmode-last-winner-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871943",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GdlvA07gBvY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871943",
+            "https://www.youtube.com/watch?v=GdlvA07gBvY"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-last-winner-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871943",
+            "https://www.youtube.com/watch?v=GdlvA07gBvY"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871943"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-last-winner-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871943"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871943"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GdlvA07gBvY",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "GdlvA07gBvY"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "usageLabel": "第26話劇中插曲",
+      "credits": [
+        {
+          "name": "坂本英三",
+          "role": "vocals"
+        },
+        {
+          "name": "坂本英三",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-last-winner-song-beat-collection",
+          "title": "Last Winner",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Last Winner｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871943",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-last-winner-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Last Winner",
+              "position": 30,
+              "disc": 2,
+              "recordingId": "kamizmode-last-winner-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 6,
+      "titleJa": "ミチカケ Stupid Gazer",
+      "artistDisplayName": "MIQ",
+      "id": "saikyou-kamizmode-in-6",
+      "songId": "kamizmode-michikake-stupid-gazer-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871948",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f_Y1GW456Co",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871948",
+            "https://www.youtube.com/watch?v=f_Y1GW456Co"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michikake-stupid-gazer-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871948",
+            "https://www.youtube.com/watch?v=f_Y1GW456Co"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871948"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michikake-stupid-gazer-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871948"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871948"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=f_Y1GW456Co",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "f_Y1GW456Co"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "usageLabel": "第26話劇中插曲",
+      "credits": [
+        {
+          "name": "MIQ",
+          "role": "vocals"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-michikake-stupid-gazer-song-beat-collection",
+          "title": "ミチカケ Stupid Gazer",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ミチカケ Stupid Gazer｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871948",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-michikake-stupid-gazer-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミチカケ Stupid Gazer",
+              "position": 31,
+              "disc": 2,
+              "recordingId": "kamizmode-michikake-stupid-gazer-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 7,
+      "titleJa": "No, no, no",
+      "artistDisplayName": "MC YAMMY",
+      "id": "saikyou-kamizmode-in-7",
+      "songId": "kamizmode-no-no-no-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871951",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/26",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871951"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-no-no-no-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871951"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871951"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-no-no-no-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871951"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871951"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-spring"
+      ],
+      "usageLabel": "第26話劇中插曲",
+      "credits": [
+        {
+          "name": "MC YAMMY",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-no-no-no-song-beat-collection",
+          "title": "No, no, no",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "No, no, no｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871951",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-no-no-no-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "No, no, no",
+              "position": 32,
+              "disc": 2,
+              "recordingId": "kamizmode-no-no-no-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 8,
+      "titleJa": "闇夜突風（Ver.邪）",
+      "artistDisplayName": "小林太郎",
+      "id": "saikyou-kamizmode-in-8",
+      "songId": "kamizmode-yamiya-toppu-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868849",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h7Qkj-F7wWk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868849",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868849",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868849",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-ja-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868849"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868849"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=h7Qkj-F7wWk",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "h7Qkj-F7wWk"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第1、2、4話劇中插曲",
+      "credits": [
+        {
+          "name": "小林太郎",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-yamiya-toppu-ja-song-beat-collection",
+          "title": "闇夜突風（Ver.邪）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "闇夜突風（Ver.邪）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868849",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-yamiya-toppu-ja-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "闇夜突風（Ver.邪）",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "kamizmode-yamiya-toppu-ja-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "闇夜突風（Ver.邪）"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 9,
+      "titleJa": "Fearless",
+      "artistDisplayName": "ジョシュア・K・キリサメ",
+      "id": "saikyou-kamizmode-in-9",
+      "songId": "kamizmode-fearless-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869967",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-fearless-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-fearless-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869967"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869967"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-9"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第1、11、15、23話劇中插曲",
+      "credits": [
+        {
+          "name": "ジョシュア・K・キリサメ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-fearless-song-beat-collection",
+          "title": "Fearless",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Fearless｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869967",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-fearless-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Fearless",
+              "position": 2,
+              "disc": 2,
+              "recordingId": "kamizmode-fearless-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Fearless"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 10,
+      "titleJa": "I’m With You",
+      "artistDisplayName": "亜山ルナ（CV：堀越せな）",
+      "id": "saikyou-kamizmode-in-10",
+      "songId": "kamizmode-im-with-you-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869974",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=B8tLek_JfPE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://www.youtube.com/watch?v=B8tLek_JfPE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.youtube.com/watch?v=B8tLek_JfPE",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869974",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869974"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869974"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=B8tLek_JfPE",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "B8tLek_JfPE"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-im-with-you-song-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-10"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第1、3、7、13、14、15、17、21話劇中插曲",
+      "credits": [
+        {
+          "name": "亜山ルナ（CV：堀越せな）",
+          "role": "vocals"
+        },
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-im-with-you-song-beat-collection",
+          "title": "I’m With You",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-im-with-you-song-box-full",
+          "title": "I’m With You（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "I’m With You｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869974",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-im-with-you-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "I’m With You",
+              "position": 3,
+              "disc": 2,
+              "recordingId": "kamizmode-im-with-you-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "I’m With You（フルサイズ）",
+              "recordingId": "kamizmode-im-with-you-song-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 11,
+      "titleJa": "愛を仕舞わないで",
+      "artistDisplayName": "蘭華",
+      "id": "saikyou-kamizmode-in-11",
+      "songId": "kamizmode-ai-wo-shimawanaide-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869076",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.hatoscage.com/works",
+          "label": "編曲者公開列本話插曲、編曲及結他",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3IduVLhqslA",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869076",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ai-wo-shimawanaide-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869076",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869076",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ai-wo-shimawanaide-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869076"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869076"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-11"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=3IduVLhqslA",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "3IduVLhqslA"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第2話劇中插曲",
+      "credits": [
+        {
+          "name": "蘭華",
+          "role": "vocals"
+        },
+        {
+          "name": "HaTo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ai-wo-shimawanaide-song-beat-collection",
+          "title": "愛を仕舞わないで",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "愛を仕舞わないで｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869076",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ai-wo-shimawanaide-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "愛を仕舞わないで",
+              "position": 10,
+              "disc": 1,
+              "recordingId": "kamizmode-ai-wo-shimawanaide-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "愛を仕舞わないで"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 12,
+      "titleJa": "レインマジック（Ver.邪）",
+      "artistDisplayName": "谷中たかし",
+      "id": "saikyou-kamizmode-in-12",
+      "songId": "kamizmode-rain-magic-ja-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868863",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=JWG1i3NkMas",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868863",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-rain-magic-ja-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-12"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868863",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868863",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-rain-magic-ja-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868863"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868863"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-12"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=JWG1i3NkMas",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "JWG1i3NkMas"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第3、6話劇中插曲",
+      "credits": [
+        {
+          "name": "谷中たかし",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-rain-magic-ja-song-beat-collection",
+          "title": "レインマジック（Ver.邪）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "レインマジック（Ver.邪）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868863",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-rain-magic-ja-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "レインマジック（Ver.邪）",
+              "position": 9,
+              "disc": 1,
+              "recordingId": "kamizmode-rain-magic-ja-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "レインマジック（Ver.邪）"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 13,
+      "titleJa": "RanRanRan！（Ver.邪）",
+      "artistDisplayName": "せんせい",
+      "id": "saikyou-kamizmode-in-13",
+      "songId": "kamizmode-ran-ran-ran-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869090",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LmaR706wH7o",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869090",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ran-ran-ran-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-13"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869090",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869090",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ran-ran-ran-ja-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869090"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869090"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-13"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=LmaR706wH7o",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "LmaR706wH7o"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第4話劇中插曲",
+      "credits": [
+        {
+          "name": "せんせい",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ran-ran-ran-ja-song-beat-collection",
+          "title": "RanRanRan！（Ver.邪）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "RanRanRan！（Ver.邪）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869090",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ran-ran-ran-ja-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "RanRanRan！（Ver.邪）",
+              "position": 13,
+              "disc": 1,
+              "recordingId": "kamizmode-ran-ran-ran-ja-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "RanRanRan！（Ver.邪）"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 14,
+      "titleJa": "闇夜突風",
+      "artistDisplayName": "小林太郎",
+      "id": "saikyou-kamizmode-in-14",
+      "songId": "kamizmode-yamiya-toppu-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868846",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-yamiya-toppu-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868846"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-14"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第4、9、18、20、22話劇中插曲",
+      "credits": [
+        {
+          "name": "小林太郎",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-yamiya-toppu-song-beat-collection",
+          "title": "闇夜突風",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "闇夜突風｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868846",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-yamiya-toppu-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "闇夜突風",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "kamizmode-yamiya-toppu-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "闇夜突風"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 15,
+      "titleJa": "ドンガラ太鼓",
+      "artistDisplayName": "GONOKAMI",
+      "id": "saikyou-kamizmode-in-15",
+      "songId": "kamizmode-dongara-daiko-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868714",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bGC4Ig2SN4Y",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=aFIAvBD0xqE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868714",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.youtube.com/watch?v=bGC4Ig2SN4Y"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-dongara-daiko-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-15"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868714",
+            "https://www.youtube.com/watch?v=bGC4Ig2SN4Y",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868714",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-dongara-daiko-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868714"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868714"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=bGC4Ig2SN4Y",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "bGC4Ig2SN4Y"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-15"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=aFIAvBD0xqE",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "aFIAvBD0xqE"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第5話劇中插曲",
+      "credits": [
+        {
+          "name": "GONOKAMI",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-dongara-daiko-song-beat-collection",
+          "title": "ドンガラ太鼓",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ドンガラ太鼓｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868714",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-dongara-daiko-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ドンガラ太鼓",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kamizmode-dongara-daiko-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ドンガラ太鼓"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 16,
+      "titleJa": "GOファイター",
+      "artistDisplayName": "新井仁",
+      "id": "saikyou-kamizmode-in-16",
+      "songId": "kamizmode-go-fighter-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868844",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-go-fighter-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-go-fighter-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868844"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868844"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第5、8、10、12、13、15話劇中插曲",
+      "credits": [
+        {
+          "name": "新井仁",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-go-fighter-song-beat-collection",
+          "title": "GOファイター",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "GOファイター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868844",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-go-fighter-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "GOファイター",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kamizmode-go-fighter-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "GOファイター"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 17,
+      "titleJa": "初恋サマー！",
+      "artistDisplayName": "いちろー",
+      "id": "saikyou-kamizmode-in-17",
+      "songId": "kamizmode-hatsukoi-summer-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560868855",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hatsukoi-summer-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hatsukoi-summer-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560868855"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560868855"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-17"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第6、9、18、19、22話劇中插曲",
+      "credits": [
+        {
+          "name": "いちろー",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-hatsukoi-summer-song-beat-collection",
+          "title": "初恋サマー！",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "初恋サマー！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560868855",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-hatsukoi-summer-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "初恋サマー！",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "kamizmode-hatsukoi-summer-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "初恋サマー！"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 18,
+      "titleJa": "3杯目のポニャコソーダ（Ver.邪）",
+      "artistDisplayName": "奥村愛子",
+      "id": "saikyou-kamizmode-in-18",
+      "songId": "kamizmode-ponya-soda-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870330",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-ja-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870330"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870330"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-18"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第7話劇中插曲",
+      "credits": [
+        {
+          "name": "奥村愛子",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ponya-soda-ja-song-beat-collection",
+          "title": "3杯目のポニャコソーダ（Ver.邪）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "3杯目のポニャコソーダ（Ver.邪）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870330",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ponya-soda-ja-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ（Ver.邪）",
+              "position": 7,
+              "disc": 2,
+              "recordingId": "kamizmode-ponya-soda-ja-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ（Ver.邪）"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 19,
+      "titleJa": "Set The Fire！",
+      "artistDisplayName": "蒲原彰利",
+      "id": "saikyou-kamizmode-in-19",
+      "songId": "kamizmode-set-the-fire-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870323",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.music-hack.jp/instructor/akitoshi-kambara-voice",
+          "label": "演唱者履歷明列作詞、聲樂及合聲編排",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TimSThtHG-0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice",
+            "https://www.youtube.com/watch?v=TimSThtHG-0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.youtube.com/watch?v=TimSThtHG-0",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870323",
+            "https://www.music-hack.jp/instructor/akitoshi-kambara-voice"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870323"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870323"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=TimSThtHG-0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "TimSThtHG-0"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第7、9、10、12、16、17、20話劇中插曲",
+      "credits": [
+        {
+          "name": "蒲原彰利",
+          "role": "vocals"
+        },
+        {
+          "name": "蒲原彰利",
+          "role": "lyrics"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-set-the-fire-song-beat-collection",
+          "title": "Set The Fire！",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Set The Fire！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870323",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-set-the-fire-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Set The Fire！",
+              "position": 5,
+              "disc": 2,
+              "recordingId": "kamizmode-set-the-fire-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Set The Fire！"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 20,
+      "titleJa": "叫び",
+      "artistDisplayName": "佐伯ユウスケ",
+      "id": "saikyou-kamizmode-in-20",
+      "songId": "kamizmode-sakebi-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870308",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.hatoscage.com/works",
+          "label": "編曲者 HaTo 明列第8話插曲及結他",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-sakebi-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-sakebi-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870308"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870308"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第8、9、16話劇中插曲",
+      "credits": [
+        {
+          "name": "佐伯ユウスケ",
+          "role": "vocals"
+        },
+        {
+          "name": "HaTo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-sakebi-song-beat-collection",
+          "title": "叫び",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "叫び｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870308",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-sakebi-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "叫び",
+              "position": 4,
+              "disc": 2,
+              "recordingId": "kamizmode-sakebi-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "叫び"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 21,
+      "titleJa": "3杯目のポニャコソーダ",
+      "artistDisplayName": "奥村愛子",
+      "id": "saikyou-kamizmode-in-21",
+      "songId": "kamizmode-ponya-soda-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870327",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ponya-soda-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870327"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870327"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-21"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第10、14話劇中插曲",
+      "credits": [
+        {
+          "name": "奥村愛子",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ponya-soda-song-beat-collection",
+          "title": "3杯目のポニャコソーダ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "3杯目のポニャコソーダ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870327",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ponya-soda-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ",
+              "position": 6,
+              "disc": 2,
+              "recordingId": "kamizmode-ponya-soda-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "3杯目のポニャコソーダ"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 22,
+      "titleJa": "Blaze Heart",
+      "artistDisplayName": "GONOKAMI",
+      "id": "saikyou-kamizmode-in-22",
+      "songId": "kamizmode-blaze-heart-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869964",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-blaze-heart-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-blaze-heart-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869964"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869964"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-22"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter"
+      ],
+      "usageLabel": "第12、13、15、18話劇中插曲",
+      "credits": [
+        {
+          "name": "GONOKAMI",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-blaze-heart-song-beat-collection",
+          "title": "Blaze Heart",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Blaze Heart｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869964",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-blaze-heart-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Blaze Heart",
+              "position": 1,
+              "disc": 2,
+              "recordingId": "kamizmode-blaze-heart-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Blaze Heart"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 23,
+      "titleJa": "Stronger",
+      "artistDisplayName": "m.c.A・T",
+      "id": "saikyou-kamizmode-in-23",
+      "songId": "kamizmode-stronger-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870486",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-stronger-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-stronger-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870486"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870486"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-23"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第14、15、17、19話劇中插曲",
+      "credits": [
+        {
+          "name": "m.c.A・T",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-stronger-song-beat-collection",
+          "title": "Stronger",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Stronger｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870486",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-stronger-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Stronger",
+              "position": 8,
+              "disc": 2,
+              "recordingId": "kamizmode-stronger-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Stronger"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 24,
+      "titleJa": "Lonely Warrior",
+      "artistDisplayName": "新井仁",
+      "id": "saikyou-kamizmode-in-24",
+      "songId": "kamizmode-lonely-warrior-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871333",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/23",
+          "label": "第23話逐項插曲記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871333",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-lonely-warrior-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-24"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871333",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871333",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-lonely-warrior-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871333"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871333"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-24"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第16、21、23話劇中插曲",
+      "credits": [
+        {
+          "name": "新井仁",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-lonely-warrior-song-beat-collection",
+          "title": "Lonely Warrior",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Lonely Warrior｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871333",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-lonely-warrior-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Lonely Warrior",
+              "position": 21,
+              "disc": 2,
+              "recordingId": "kamizmode-lonely-warrior-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Lonely Warrior"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 25,
+      "titleJa": "キミ＆フォーエバー",
+      "artistDisplayName": "佐伯ユウスケ",
+      "id": "saikyou-kamizmode-in-25",
+      "songId": "kamizmode-kimi-forever-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870999",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IS8ax2zutN0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.hatoscage.com/works",
+          "label": "編曲者 HaTo 明列第16話插曲及結他",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870999",
+            "https://www.youtube.com/watch?v=IS8ax2zutN0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-kimi-forever-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870999",
+            "https://www.youtube.com/watch?v=IS8ax2zutN0"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870999"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-kimi-forever-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870999"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870999"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=IS8ax2zutN0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "IS8ax2zutN0"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-25"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第16、21、23話劇中插曲",
+      "credits": [
+        {
+          "name": "佐伯ユウスケ",
+          "role": "vocals"
+        },
+        {
+          "name": "佐伯ユウスケ",
+          "role": "lyrics"
+        },
+        {
+          "name": "HaTo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-kimi-forever-song-beat-collection",
+          "title": "キミ＆フォーエバー",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "キミ＆フォーエバー｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870999",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-kimi-forever-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "キミ＆フォーエバー",
+              "position": 17,
+              "disc": 2,
+              "recordingId": "kamizmode-kimi-forever-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キミ＆フォーエバー"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 26,
+      "titleJa": "Set The Fire！〜agitato〜",
+      "artistDisplayName": "野崎心平",
+      "id": "saikyou-kamizmode-in-26",
+      "songId": "kamizmode-set-the-fire-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871348",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.hatoscage.com/works",
+          "label": "編曲者公開列本話插曲、編曲及結他",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871348",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-26"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871348",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871348",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-agitato-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871348"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871348"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.hatoscage.com/works"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-26"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第17、20話劇中插曲",
+      "credits": [
+        {
+          "name": "野崎心平",
+          "role": "vocals"
+        },
+        {
+          "name": "HaTo",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-set-the-fire-agitato-song-beat-collection",
+          "title": "Set The Fire！〜agitato〜",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Set The Fire！〜agitato〜｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871348",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-set-the-fire-agitato-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Set The Fire！〜agitato〜",
+              "position": 23,
+              "disc": 2,
+              "recordingId": "kamizmode-set-the-fire-agitato-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Set The Fire！〜agitato〜"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 27,
+      "titleJa": "もう一回",
+      "artistDisplayName": "GONOKAMI",
+      "id": "saikyou-kamizmode-in-27",
+      "songId": "kamizmode-mou-ikkai-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870713",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Pmux3RAqDAE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870713",
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-mou-ikkai-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870713",
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870713"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-mou-ikkai-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870713"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870713"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Pmux3RAqDAE",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Pmux3RAqDAE"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-27"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring"
+      ],
+      "usageLabel": "第18、19、24、25話劇中插曲",
+      "credits": [
+        {
+          "name": "GONOKAMI",
+          "role": "vocals"
+        },
+        {
+          "name": "五野上貴一",
+          "role": "lyrics"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "composition"
+        },
+        {
+          "name": "DJ KAMMY",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-mou-ikkai-song-beat-collection",
+          "title": "もう一回",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "もう一回｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870713",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-mou-ikkai-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "もう一回",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "kamizmode-mou-ikkai-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "もう一回"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 28,
+      "titleJa": "Red or Black",
+      "artistDisplayName": "ジョシュア・K・キリサメ",
+      "id": "saikyou-kamizmode-in-28",
+      "songId": "kamizmode-red-or-black-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871024",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-red-or-black-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-red-or-black-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871024"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871024"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-28"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring"
+      ],
+      "usageLabel": "第18、23、24、25話劇中插曲",
+      "credits": [
+        {
+          "name": "ジョシュア・K・キリサメ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-red-or-black-song-beat-collection",
+          "title": "Red or Black",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Red or Black｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871024",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-red-or-black-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Red or Black",
+              "position": 20,
+              "disc": 2,
+              "recordingId": "kamizmode-red-or-black-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Red or Black"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 29,
+      "titleJa": "道",
+      "artistDisplayName": "m.c.A・T",
+      "id": "saikyou-kamizmode-in-29",
+      "songId": "kamizmode-michi-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871355",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michi-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-michi-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871355"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871355"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-29"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第19、24話劇中插曲",
+      "credits": [
+        {
+          "name": "m.c.A・T",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-michi-song-beat-collection",
+          "title": "道",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "道｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871355",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-michi-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "道",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "kamizmode-michi-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "道"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 30,
+      "titleJa": "Set The Fire！〜amabile〜",
+      "artistDisplayName": "キモット",
+      "id": "saikyou-kamizmode-in-30",
+      "songId": "kamizmode-set-the-fire-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871341",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871341",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-30"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871341",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871341",
+            "https://www.kamizmode-anime.com/bdbox/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-set-the-fire-amabile-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871341"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871341"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-30"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第20話劇中插曲",
+      "credits": [
+        {
+          "name": "キモット",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-set-the-fire-amabile-song-beat-collection",
+          "title": "Set The Fire！〜amabile〜",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Set The Fire！〜amabile〜｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871341",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-set-the-fire-amabile-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Set The Fire！〜amabile〜",
+              "position": 22,
+              "disc": 2,
+              "recordingId": "kamizmode-set-the-fire-amabile-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Set The Fire！〜amabile〜"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 31,
+      "titleJa": "Punch You!",
+      "artistDisplayName": "MC YAMMY",
+      "id": "saikyou-kamizmode-in-31",
+      "songId": "kamizmode-punch-you-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560870723",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OlTeN3fEzW8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870723",
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-punch-you-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870723",
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560870723"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-punch-you-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560870723"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560870723"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=OlTeN3fEzW8",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "OlTeN3fEzW8"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-31"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第20、22話劇中插曲",
+      "credits": [
+        {
+          "name": "MC YAMMY",
+          "role": "vocals"
+        },
+        {
+          "name": "キモット",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-punch-you-song-beat-collection",
+          "title": "Punch You!",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Punch You!｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560870723",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-punch-you-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Punch You!",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "kamizmode-punch-you-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Punch You!"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 32,
+      "titleJa": "ナニモカモ",
+      "artistDisplayName": "亜山ルナ（CV：堀越せな）",
+      "id": "saikyou-kamizmode-in-32",
+      "songId": "kamizmode-nanimokamo-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560872352",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://heart-company.co.jp/works/kamizmode/",
+          "label": "作詞方明示第21話片尾及角色聲演",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=El7tPKgzq_0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560872352",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594",
+            "https://www.youtube.com/watch?v=El7tPKgzq_0"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560872352",
+            "https://www.youtube.com/watch?v=El7tPKgzq_0",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560872352",
+            "https://heart-company.co.jp/works/kamizmode/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560872352"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560872352"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=El7tPKgzq_0",
+            "https://www.kamizmode-anime.com/news/?id=18591"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "El7tPKgzq_0"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-nanimokamo-song-box-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-32"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第21、22話劇中插曲",
+      "credits": [
+        {
+          "name": "亜山ルナ（CV：堀越せな）",
+          "role": "vocals"
+        },
+        {
+          "name": "安藤紗々",
+          "role": "lyrics"
+        },
+        {
+          "name": "野崎心平",
+          "role": "composition"
+        },
+        {
+          "name": "野崎心平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-nanimokamo-song-beat-collection",
+          "title": "ナニモカモ",
+          "kind": "character",
+          "format": "unknown"
+        },
+        {
+          "id": "kamizmode-nanimokamo-song-box-full",
+          "title": "ナニモカモ（フルサイズ）",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ナニモカモ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560872352",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-nanimokamo-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ナニモカモ",
+              "position": 34,
+              "disc": 2,
+              "recordingId": "kamizmode-nanimokamo-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ナニモカモ（フルサイズ）",
+              "recordingId": "kamizmode-nanimokamo-song-box-full"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 33,
+      "titleJa": "飛翔必勝",
+      "artistDisplayName": "小林太郎",
+      "id": "saikyou-kamizmode-in-33",
+      "songId": "kamizmode-hishou-hisshou-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560871955",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/23",
+          "label": "第23話逐項插曲記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hishou-hisshou-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-hishou-hisshou-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560871955"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560871955"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-33"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第22、23話劇中插曲",
+      "credits": [
+        {
+          "name": "小林太郎",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-hishou-hisshou-song-beat-collection",
+          "title": "飛翔必勝",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "飛翔必勝｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560871955",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-hishou-hisshou-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "飛翔必勝",
+              "position": 33,
+              "disc": 2,
+              "recordingId": "kamizmode-hishou-hisshou-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "飛翔必勝"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "劇中音軌剪輯待對照；發行品所列曲目為獨立曲目。",
+          "resumeWhen": "待該話正片音軌或權利方提供用曲剪輯對照；完整平台播放按地區另核。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 34,
+      "titleJa": "RanRanRan！",
+      "artistDisplayName": "せんせい",
+      "id": "saikyou-kamizmode-in-34",
+      "songId": "kamizmode-ran-ran-ran-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18591",
+          "label": "製作方數位曲目公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1560869086",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/bdbox/",
+          "label": "製作方兩張主題曲及插曲CD曲表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode/ep/23",
+          "label": "第23話逐項插曲記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+          "label": "製作方原播及劇中歌片尾混曲規則",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/saikyoukamizmode",
+          "label": "原播逐話用途與曲名交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1560868692",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.kamizmode-anime.com/news/?id=18594",
+          "label": "製作方發行規格與收錄版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869086",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ran-ran-ran-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+            "https://www.mau2.com/anime/saikyoukamizmode"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-34"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869086",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/song/1560869086",
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-ran-ran-ran-song-beat-collection"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1560869086"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1560869086"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/news/?id=18591",
+            "https://music.apple.com/hk/album/1560868692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1560868692"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.kamizmode-anime.com/news/?id=18594"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kamizmode-complete-box"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.kamizmode-anime.com/bdbox/",
+            "https://www.mau2.com/anime/saikyoukamizmode",
+            "https://www.mau2.com/anime/saikyoukamizmode/ep/23"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "saikyou-kamizmode-in-34"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "第23話劇中插曲",
+      "credits": [
+        {
+          "name": "せんせい",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kamizmode-ran-ran-ran-song-beat-collection",
+          "title": "RanRanRan！",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "RanRanRan！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1560869086",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1560868692",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "kamizmode-ran-ran-ran-song-beat-collection"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1560868692",
+          "title": "「最響カミズモード!」神音コレクション",
+          "type": "album",
+          "date": {
+            "value": "2021-04-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "RanRanRan！",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "kamizmode-ran-ran-ran-song-beat-collection"
+            }
+          ],
+          "label": "SUNRISE Music"
+        },
+        {
+          "id": "kamizmode-complete-box",
+          "title": "最響カミズモード！ コンプリートBOX",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-10",
+            "precision": "month"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "受注生産（Blu-ray＋主題曲・插曲CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "RanRanRan！"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原TV劇中使用。原聲帶曲目為獨立曲目；原播剪輯待對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方逐版說明；平台完整播放另按地區核對。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-15",
+  "metadataSources": [
+    {
+      "url": "https://youranimes.tw/animes/625",
+      "label": "原期逐話日期交叉核對；非歌曲原名或作者證據",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%9C%80%E9%9F%BF%E3%82%AB%E3%83%9F%E3%82%BA%E3%83%A2%E3%83%BC%E3%83%89%21",
+      "label": "原期逐話日期交叉核對；非歌曲原名或作者證據",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/10025?entry_id=6968",
+      "label": "第一方原期TV播出／延期日期補充",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-23"
+    },
+    {
+      "url": "https://www.bn-pictures.co.jp/news/news_detail.html?id=18154",
+      "label": "製作方分列YouTube先行及TOKYO MX時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.kamizmode-anime.com/story/",
+      "label": "原作官方完整集目",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://thetv.jp/program/0000987282/plot/",
+      "label": "原TV逐集播出日期交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
+  "broadcastTimeJst": "19:30"
+},
   {"anilistId":114446,"id":"curated-114446","slug":"higurashi-no-naku-koro-ni-gou","seasonIds":["2020-fall","2021-winter"],"startDate":"2020-10-01","titleJa":"ひぐらしのなく頃に業","titleZhHant":"暮蟬悲鳴時業","titleRomaji":"Higurashi no Naku Koro ni Gou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114446-H6uxjVi8wBoo.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/114446-DTd4xfGx7DJB.jpg","editorialWeekday":4,"broadcastLabel":"TOKYO MX／BS11原TV首播；第14話起原週四24:30為翌日00:30，配信與卒另分","status":"finished","officialSiteUrl":"https://higurashianime.com/","anilistUrl":"https://anilist.co/anime/114446","imageSourceUrl":"https://anilist.co/anime/114446","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/604","https://acgsecrets.hk/anime/125/","https://annict.com/works/7400"],"animeThemesUrl":"https://animethemes.moe/anime/higurashi_no_naku_koro_ni_gou","themes":[{"type":"OP","sequence":1,"titleJa":"I believe what you said","artistDisplayName":"亜咲花","id":"higurashi-no-naku-koro-ni-gou-op-1","songId":"higurashi-no-naku-koro-ni-gou-op-1-song","sources":[{"label":"動畫官方網站","url":"https://higurashianime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/higurashi_no_naku_koro_ni_gou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"亜咲花公式チャンネル 官方影片","url":"https://www.youtube.com/watch?v=KFHxOryOgls","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://higurashianime.com/music01.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://music.ani-tone.com/higurashi/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://higurashianime.com/news/article_0010.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/higurasinonakukoroni-r2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://higurashianime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall","2021-winter"],"credits":[{"name":"志倉千代丸","role":"lyrics"},{"name":"志倉千代丸","role":"composition"},{"name":"悠木真一","role":"arrangement"},{"name":"亜咲花","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://higurashianime.com/music01.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://music.ani-tone.com/higurashi/"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://higurashianime.com/music01.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://higurashianime.com/music01.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈I believe what you said〉：本曲原期TV用途、正式名義及已列季度已核，原有影音保留。","resumeWhen":"待直接正式音源與發行品資料補版本；其他用途只在逐曲正式資料明示後另核。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"ひぐらしのなく頃に","titleRomaji":"Higurashi no Naku Koro ni","artistDisplayName":"島みやえい子","id":"higurashi-no-naku-koro-ni-gou-ed-1","songId":"higurashi-no-naku-koro-ni-gou-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://higurashianime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/higurashi_no_naku_koro_ni_gou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"NBCUniversal Anime/Music 官方影片","url":"https://www.youtube.com/watch?v=V9nV4SHbcBA","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://nbcuni-music.com/namfes/artists/index00130000.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://nbcuni-music.com/shimamiya/contents/hp0005/index00160000.html","label":"唱片公司原曲詞曲編資料；不證業片尾用途","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/higurasinonakukoroni-r2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://higurashianime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":[],"credits":[{"name":"島みやえい子","role":"lyrics"},{"name":"中沢伴行","role":"composition"},{"name":"中沢伴行","role":"arrangement"},{"name":"高瀬一矢","role":"arrangement"},{"name":"島みやえい子","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nbcuni-music.com/namfes/artists/index00130000.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-1-song"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-1-song"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nbcuni-music.com/shimamiya/contents/hp0005/index00160000.html","https://nbcuni-music.com/namfes/artists/index00130000.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["basic_evidence","use_quarters","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈ひぐらしのなく頃に〉：原曲曲名、演唱及詞曲編已核，業首話片尾仍待直接第一方資料。","resumeWhen":"待業原期第一話正式片尾曲目或官方明確說明，確認本曲片尾實用後再核季度；不以2006版OP或MV代替。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"神様のシンドローム","titleRomaji":"Kamisama no Syndrome","artistDisplayName":"彩音","id":"higurashi-no-naku-koro-ni-gou-ed-2","songId":"higurashi-no-naku-koro-ni-gou-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://higurashianime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/higurashi_no_naku_koro_ni_gou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"彩音 -Ayane Official YouTube Channel- 官方影片","url":"https://www.youtube.com/watch?v=Baly3XgFxJk","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://higurashianime.com/music02.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://music.ani-tone.com/higurashi/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://higurashianime.com/news/article_0010.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/higurasinonakukoroni-r2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://higurashianime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall","2021-winter"],"credits":[{"name":"志倉千代丸","role":"lyrics"},{"name":"志倉千代丸","role":"composition"},{"name":"Tak Miyazawa","role":"arrangement"},{"name":"彩音","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://higurashianime.com/music02.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://music.ani-tone.com/higurashi/"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://higurashianime.com/music02.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://higurashianime.com/music02.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈神様のシンドローム〉：本曲原期TV用途、正式名義及已列季度已核，原有影音保留。","resumeWhen":"待直接正式音源與發行品資料補版本；其他用途只在逐曲正式資料明示後另核。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":3,"titleJa":"不規則性エントロピー","titleRomaji":"Fukisokusei Entropy","artistDisplayName":"彩音","id":"higurashi-no-naku-koro-ni-gou-ed-3","songId":"higurashi-no-naku-koro-ni-gou-ed-3-song","sources":[{"label":"動畫官方網站","url":"https://higurashianime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/higurashi_no_naku_koro_ni_gou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://higurashianime.com/music03.html","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://music.ani-tone.com/higurashi/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://higurashianime.com/news/article_0010.html","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/higurasinonakukoroni-r2","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://higurashianime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"志倉千代丸","role":"lyrics"},{"name":"志倉千代丸","role":"composition"},{"name":"彩音","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://higurashianime.com/music03.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://music.ani-tone.com/higurashi/"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://higurashianime.com/music03.html"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3"},{"target":"song","fields":["title"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/higurasinonakukoroni-r2"],"verifiedAt":"2026-10-23","targetId":"higurashi-no-naku-koro-ni-gou-ed-3"},{"target":"credits","fields":["credits"],"sourceUrls":["https://higurashianime.com/music03.html"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈不規則性エントロピー〉：本曲原期TV用途、正式名義及已列季度已核，原有影音保留。","resumeWhen":"待本曲原正式逐角色資料確認編曲；音源與發行品另待直接資料。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://youranimes.tw/animes/604","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E6%9A%AE%E8%9F%AC%E6%82%B2%E9%B3%B4%E6%99%82_%28%E5%8B%95%E7%95%AB%29","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://higurashianime.com/news/article_0010.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}],"broadcastTimeJst":"23:30"},
   {
     anilistId: 187055,
@@ -136,7 +13826,2221 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {"anilistId":118376,"id":"curated-118376","slug":"kings-raid-ishi-wo-tsugumonotachi","seasonIds":["2020-fall","2021-winter"],"startDate":"2020-10-03","titleJa":"キングスレイド 意志を継ぐものたち","titleZhHant":"王之逆襲: 意志的繼承者","titleRomaji":"King's Raid: Ishi wo Tsugumonotachi","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118376-V0mSf2LG0OOs.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/118376-7TjzzE1rUmFi.jpg","editorialWeekday":6,"broadcastLabel":"テレビ東京2020年10月3日01:23 JST首播（節目日10月2日25:23），12月26日01:23–02:23連播第13及14話，2021年3月27日01:38播出終回。","status":"finished","anilistUrl":"https://anilist.co/anime/118376","imageSourceUrl":"https://anilist.co/anime/118376","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/607","https://acgsecrets.hk/anime/178/","https://annict.com/works/7499"],"animeThemesUrl":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","themes":[{"type":"OP","sequence":1,"titleJa":"legendary future","artistDisplayName":"fripSide","id":"kings-raid-ishi-wo-tsugumonotachi-op-1","songId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://nbcuni-music.com/fripside/discography/single/index00380000.html","label":"唱片公司或演唱者的發行資料與正式曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"東京電視台首話正式主題曲","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=202771","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/kingsraid?cast=scd","label":"日本逐話曲表列出第1–13與14–26話換曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"東京電視台第13、14話連播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.qobuz.com/jp-ja/album/legendary-future-fripside/zla8ejbq4874b","label":"正版發行資料列八木沼悟志詞曲編","role":"cross_check","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1805003477","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805003478","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805003932","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=xxA6NPMy9gA","label":"legendary future｜官方MV短版","role":"first_party","language":"ja","verifiedAt":"2026-11-15"}],"links":[{"platform":"Apple Music","label":"legendary future｜Apple Music HK","url":"https://music.apple.com/hk/song/1805003478","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805003477","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"legendary future (Instrumental)｜Apple Music HK","url":"https://music.apple.com/hk/song/1805003932","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805003477","availability":"unknown","verifiedAt":"2026-11-15"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"role":"vocals","name":"fripSide"},{"role":"lyrics","name":"八木沼悟志"},{"role":"composition","name":"八木沼悟志"},{"role":"arrangement","name":"八木沼悟志"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html","https://www.mau2.com/anime/kingsraid?cast=scd","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.qobuz.com/jp-ja/album/legendary-future-fripside/zla8ejbq4874b"],"verifiedAt":"2026-11-15"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-single"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-instrumental"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-11-15","targetId":"gnca-0616"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-11-15","targetId":"gnca-0617"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805003478"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805003478"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805003932"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805003932"},{"target":"release","fields":["title","tracklist","edition"],"sourceUrls":["https://nbcuni-music.com/fripside/discography/single/index00380000.html","https://music.apple.com/hk/album/1805003477"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1805003477"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=xxA6NPMy9gA","https://nbcuni-music.com/fripside/discography/single/index00380000.html"],"verifiedAt":"2026-11-15","targetId":"xxA6NPMy9gA"}],"followUp":[{"fields":["recording_format","platform_availability"],"checkedAt":"2026-11-15","note":"已按唱片公司與逐話曲表核對。12月連播節目頁的共用音樂欄仍列前半曲；香港個別發行頁的日期異常欄未錄。","resumeWhen":"待日本原播逐話字幕、剪輯與母帶對照、香港公告的確切發行日期或登入後完整播放資料可核對。"}],"lastVerifiedAt":"2026-11-15","usageLabel":"第1–13話片頭曲","recordings":[{"id":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-single","title":"legendary future","kind":"vocal","format":"unknown"},{"id":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-instrumental","title":"legendary future (Instrumental)","kind":"instrumental","format":"unknown"}],"releases":[{"id":"gnca-0616","title":"legendary future","type":"single","date":{"value":"2020-11-04","precision":"day"},"artistDisplayName":"fripSide","edition":"日本初回限定盤 CD＋DVD","region":"JP","tracks":[{"title":"legendary future","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-single"},{"title":"legendary future (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0616"},{"id":"gnca-0617","title":"legendary future","type":"single","date":{"value":"2020-11-04","precision":"day"},"artistDisplayName":"fripSide","edition":"日本通常盤 CD","region":"JP","tracks":[{"title":"legendary future","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-single"},{"title":"legendary future (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-1-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0617"},{"id":"apple-hk-1805003477","title":"legendary future","type":"ep","artistDisplayName":"fripSide","edition":"香港區數位版","region":"HK","tracks":[{"title":"legendary future","position":1},{"title":"legendary future (Instrumental)","position":3}],"label":"NBCUniversal Entertainment"}]},{"type":"OP","sequence":2,"titleJa":"Eclipse","artistDisplayName":"DREAMCATCHER","id":"kings-raid-ishi-wo-tsugumonotachi-op-2","songId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://news.ponycanyon.co.jp/2020/12/45668","label":"Pony Canyon公布後半首播及Eclipse TV Size","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"東京電視台第13、14話連播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=207335","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://news.ponycanyon.co.jp/2021/03/48918","label":"唱片公司或演唱者的發行資料與正式曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.mau2.com/anime/kingsraid?cast=scd","label":"日本逐話曲表列出第1–13與14–26話換曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/26051_202103262538.html","label":"東京電視台第26話新片頭與片尾","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://m2.4gamer.net/games/412/G041297/20201201001/","label":"Vespa第二季度歌曲公告由4Gamer刊載","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=qbyyTk0fon4","label":"NBCUniversal官方公布後半OP和ED","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=mU2ok2aTeFk","label":"Eclipse TV Size｜官方音源","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://news.ponycanyon.co.jp/2020/12/45892","label":"Pony Canyon正式公開動畫片頭影片","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1544426590","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1544426591","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1558683454","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1558683455","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1558683699","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=1BelV64JDis","label":"Eclipse｜動畫官方片頭影片","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=b9UxVkTfkVg","label":"Eclipse｜官方MV","role":"first_party","language":"ja","verifiedAt":"2026-11-15"}],"links":[{"platform":"Apple Music","label":"Eclipse TV Size｜Apple Music HK","url":"https://music.apple.com/hk/song/1544426591","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1544426590","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"Eclipse｜Apple Music HK","url":"https://music.apple.com/hk/song/1558683455","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1558683454","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"Eclipse (Instrumental)｜Apple Music HK","url":"https://music.apple.com/hk/song/1558683699","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1558683454","availability":"unknown","verifiedAt":"2026-11-15"}],"sourceMode":"explicit","seasonIds":["2020-fall","2021-winter"],"credits":[{"role":"vocals","name":"DREAMCATCHER"},{"role":"lyrics","name":"LEEZ"},{"role":"composition","name":"LEEZ"},{"role":"arrangement","name":"LEEZ"},{"role":"lyrics","name":"Ollounder"},{"role":"composition","name":"Ollounder"},{"role":"arrangement","name":"Ollounder"},{"role":"translation","name":"Riho Okano"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668","https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918","https://www.mau2.com/anime/kingsraid?cast=scd","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","https://news.ponycanyon.co.jp/2020/12/45668","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/26051_202103262538.html","https://m2.4gamer.net/games/412/G041297/20201201001/","https://www.youtube.com/watch?v=qbyyTk0fon4"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.youtube.com/watch?v=mU2ok2aTeFk"],"verifiedAt":"2026-11-15"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-single"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-instrumental"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668","https://www.youtube.com/watch?v=mU2ok2aTeFk"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-tv-size"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918"],"verifiedAt":"2026-11-15","targetId":"pcca-06016"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918"],"verifiedAt":"2026-11-15","targetId":"pcca-06017"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1544426591"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1544426591"},{"target":"release","fields":["title","date","tracklist","edition"],"sourceUrls":["https://news.ponycanyon.co.jp/2020/12/45668","https://music.apple.com/hk/album/1544426590"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1544426590"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1558683455"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1558683455"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1558683699"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1558683699"},{"target":"release","fields":["title","date","tracklist","edition"],"sourceUrls":["https://news.ponycanyon.co.jp/2021/03/48918","https://music.apple.com/hk/album/1558683454"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1558683454"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=1BelV64JDis","https://news.ponycanyon.co.jp/2020/12/45892"],"verifiedAt":"2026-11-15","targetId":"1BelV64JDis"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=mU2ok2aTeFk","https://news.ponycanyon.co.jp/2020/12/45668"],"verifiedAt":"2026-11-15","targetId":"mU2ok2aTeFk"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=b9UxVkTfkVg","https://news.ponycanyon.co.jp/2021/03/48918"],"verifiedAt":"2026-11-15","targetId":"b9UxVkTfkVg"}],"followUp":[{"fields":["recording_format","platform_availability"],"checkedAt":"2026-11-15","note":"已按唱片公司與逐話曲表核對。12月連播節目頁的共用音樂欄仍列前半曲；香港個別發行頁的日期異常欄未錄。","resumeWhen":"待日本原播逐話字幕、剪輯與母帶對照、香港公告的確切發行日期或登入後完整播放資料可核對。"}],"lastVerifiedAt":"2026-11-15","usageLabel":"第14–26話片頭曲","recordings":[{"id":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-single","title":"Eclipse","kind":"vocal","format":"full"},{"id":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-instrumental","title":"Eclipse (Instrumental)","kind":"instrumental","format":"unknown"},{"id":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-tv-size","title":"Eclipse TV Size","kind":"vocal","format":"tv"}],"releaseDate":"2020-12-25","releases":[{"id":"pcca-06016","title":"Eclipse","type":"single","date":{"value":"2021-03-24","precision":"day"},"artistDisplayName":"DREAMCATCHER","edition":"日本初回盤 CD＋DVD","region":"JP","tracks":[{"title":"Eclipse","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-single"},{"title":"Eclipse (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-instrumental"}],"label":"Pony Canyon","catalogNumber":"PCCA.06016"},{"id":"pcca-06017","title":"Eclipse","type":"single","date":{"value":"2021-03-24","precision":"day"},"artistDisplayName":"DREAMCATCHER","edition":"日本通常盤 CD","region":"JP","tracks":[{"title":"Eclipse","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-single"},{"title":"Eclipse (Instrumental)","position":4,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-op-2-song-instrumental"}],"label":"Pony Canyon","catalogNumber":"PCCA.06017"},{"id":"apple-hk-1544426590","title":"Eclipse TV Size","type":"single","date":{"value":"2020-12-25","precision":"day"},"artistDisplayName":"Dreamcatcher","edition":"香港區數位版","region":"HK","tracks":[{"title":"Eclipse TV Size","position":1}],"label":"Pony Canyon"},{"id":"apple-hk-1558683454","title":"Eclipse","type":"ep","date":{"value":"2021-03-24","precision":"day"},"artistDisplayName":"Dreamcatcher","edition":"香港區數位版","region":"HK","tracks":[{"title":"Eclipse","position":1},{"title":"Eclipse (Instrumental)","position":4}],"label":"Pony Canyon"}]},{"type":"ED","sequence":1,"titleJa":"SticK Out","artistDisplayName":"KOTOKO","id":"kings-raid-ishi-wo-tsugumonotachi-ed-1","songId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://nbcuni-music.com/kotoko/discography/single/index00370000.html","label":"唱片公司或演唱者的發行資料與正式曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"東京電視台首話正式主題曲","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=202771","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/kingsraid?cast=scd","label":"日本逐話曲表列出第1–13與14–26話換曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"東京電視台第13、14話連播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1805004834","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805004837","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805004840","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=6FxvWQJ2xTY","label":"SticK Out｜官方音源","role":"first_party","language":"ja","verifiedAt":"2026-11-15"}],"links":[{"platform":"Apple Music","label":"SticK Out｜Apple Music HK","url":"https://music.apple.com/hk/song/1805004837","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805004834","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"SticK Out (Instrumental)｜Apple Music HK","url":"https://music.apple.com/hk/song/1805004840","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805004834","availability":"unknown","verifiedAt":"2026-11-15"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"KOTOKO","role":"lyrics"},{"name":"DECO*27","role":"composition"},{"name":"Rockwell","role":"arrangement"},{"role":"vocals","name":"KOTOKO"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=202771"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-10-23"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html","https://www.mau2.com/anime/kingsraid?cast=scd","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-instrumental"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15","targetId":"gnca-0618"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15","targetId":"gnca-0619"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805004837"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805004837"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805004840"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805004840"},{"target":"release","fields":["title","tracklist","edition"],"sourceUrls":["https://nbcuni-music.com/kotoko/discography/single/index00370000.html","https://music.apple.com/hk/album/1805004834"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1805004834"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=6FxvWQJ2xTY","https://nbcuni-music.com/kotoko/discography/single/index00370000.html"],"verifiedAt":"2026-11-15","targetId":"6FxvWQJ2xTY"}],"followUp":[{"fields":["recording_format","platform_availability"],"checkedAt":"2026-11-15","note":"已按唱片公司與逐話曲表核對。12月連播節目頁的共用音樂欄仍列前半曲；香港個別發行頁的日期異常欄未錄。","resumeWhen":"待日本原播逐話字幕、剪輯與母帶對照、香港公告的確切發行日期或登入後完整播放資料可核對。"}],"lastVerifiedAt":"2026-11-15","usageLabel":"第1–13話片尾曲","recordings":[{"id":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single","title":"SticK Out","kind":"vocal","format":"unknown"},{"id":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-instrumental","title":"SticK Out (Instrumental)","kind":"instrumental","format":"unknown"}],"releases":[{"id":"gnca-0618","title":"SticK Out","type":"single","date":{"value":"2020-11-17","precision":"day"},"artistDisplayName":"KOTOKO","edition":"日本初回限定盤 CD＋DVD","region":"JP","tracks":[{"title":"SticK Out","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single"},{"title":"SticK Out (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0618"},{"id":"gnca-0619","title":"SticK Out","type":"single","date":{"value":"2020-11-17","precision":"day"},"artistDisplayName":"KOTOKO","edition":"日本通常盤 CD","region":"JP","tracks":[{"title":"SticK Out","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-single"},{"title":"SticK Out (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-1-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0619"},{"id":"apple-hk-1805004834","title":"SticK Out","type":"ep","artistDisplayName":"KOTOKO","edition":"香港區數位版","region":"HK","tracks":[{"title":"SticK Out","position":1},{"title":"SticK Out (Instrumental)","position":3}],"label":"NBCUniversal Entertainment"}]},{"type":"ED","sequence":2,"titleJa":"One Wish","artistDisplayName":"飯田里穂","id":"kings-raid-ishi-wo-tsugumonotachi-ed-2","songId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song","sources":[{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kings_raid_ishi_wo_tsugumono_tachi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://iida-riho.com/musics/9996","label":"唱片公司或演唱者的發行資料與正式曲名","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"東京電視台第13、14話連播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://gnn.gamer.com.tw/detail.php?sn=207335","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.mau2.com/anime/kingsraid?cast=scd","label":"日本逐話曲表列出第1–13與14–26話換曲","role":"cross_check","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://news.ponycanyon.co.jp/2020/12/45668","label":"Pony Canyon公布後半首播及Eclipse TV Size","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/26051_202103262538.html","label":"東京電視台第26話新片頭與片尾","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://m2.4gamer.net/games/412/G041297/20201201001/","label":"Vespa第二季度歌曲公告由4Gamer刊載","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=qbyyTk0fon4","label":"NBCUniversal官方公布後半OP和ED","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1804675030","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1804675031","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/album/1805001897","label":"Apple Music HK區發行及曲序","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805001898","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://music.apple.com/hk/song/1805001900","label":"Apple Music HK區曲目入口","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=kB98BFBgEFI","label":"One Wish｜動畫官方片尾影片","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.youtube.com/watch?v=ZKe0ICRbwYg","label":"One Wish｜官方MV","role":"first_party","language":"ja","verifiedAt":"2026-11-15"}],"links":[{"platform":"Apple Music","label":"One Wish｜Apple Music HK","url":"https://music.apple.com/hk/song/1804675031","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1804675030","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"One Wish｜Apple Music HK","url":"https://music.apple.com/hk/song/1805001898","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805001897","availability":"unknown","verifiedAt":"2026-11-15"},{"platform":"Apple Music","label":"One Wish (Instrumental)｜Apple Music HK","url":"https://music.apple.com/hk/song/1805001900","linkType":"direct_track","region":"HK","releaseId":"apple-hk-1805001897","availability":"unknown","verifiedAt":"2026-11-15"}],"sourceMode":"explicit","seasonIds":["2020-fall","2021-winter"],"credits":[{"name":"八木沼悟志","role":"lyrics"},{"name":"八木沼悟志","role":"composition"},{"name":"齋藤真也","role":"arrangement"},{"role":"vocals","name":"飯田里穂"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://iida-riho.com/musics/9996","https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89-%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-6/"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://gnn.gamer.com.tw/detail.php?sn=207335"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89"],"verifiedAt":"2026-10-23","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-10-23"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://iida-riho.com/musics/9996","https://www.mau2.com/anime/kingsraid?cast=scd","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","https://news.ponycanyon.co.jp/2020/12/45668","https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/26051_202103262538.html","https://m2.4gamer.net/games/412/G041297/20201201001/","https://www.youtube.com/watch?v=qbyyTk0fon4"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-single"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-instrumental"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"gnca-0623"},{"target":"release","fields":["title","date","tracklist","edition","catalog_number"],"sourceUrls":["https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"gnca-0624"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1804675031"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1804675031"},{"target":"release","fields":["title","tracklist","edition"],"sourceUrls":["https://iida-riho.com/musics/9996","https://music.apple.com/hk/album/1804675030"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1804675030"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805001898"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805001898"},{"target":"link","fields":["url"],"sourceUrls":["https://music.apple.com/hk/song/1805001900"],"verifiedAt":"2026-11-15","targetId":"https://music.apple.com/hk/song/1805001900"},{"target":"release","fields":["title","date","tracklist","edition"],"sourceUrls":["https://iida-riho.com/musics/9996","https://music.apple.com/hk/album/1805001897"],"verifiedAt":"2026-11-15","targetId":"apple-hk-1805001897"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=kB98BFBgEFI","https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"kB98BFBgEFI"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=ZKe0ICRbwYg","https://iida-riho.com/musics/9996"],"verifiedAt":"2026-11-15","targetId":"ZKe0ICRbwYg"}],"followUp":[{"fields":["recording_format","platform_availability"],"checkedAt":"2026-11-15","note":"已按唱片公司與逐話曲表核對。12月連播節目頁的共用音樂欄仍列前半曲；香港個別發行頁的日期異常欄未錄。","resumeWhen":"待日本原播逐話字幕、剪輯與母帶對照、香港公告的確切發行日期或登入後完整播放資料可核對。"}],"lastVerifiedAt":"2026-11-15","usageLabel":"第14–26話片尾曲","recordings":[{"id":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-single","title":"One Wish","kind":"vocal","format":"unknown"},{"id":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-instrumental","title":"One Wish (Instrumental)","kind":"instrumental","format":"unknown"}],"releaseDate":"2020-12-26","releases":[{"id":"gnca-0623","title":"One Wish","type":"single","date":{"value":"2021-02-10","precision":"day"},"artistDisplayName":"飯田里穂","edition":"日本初回限定盤 CD＋DVD","region":"JP","tracks":[{"title":"One Wish","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-single"},{"title":"One Wish (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0623"},{"id":"gnca-0624","title":"One Wish","type":"single","date":{"value":"2021-02-10","precision":"day"},"artistDisplayName":"飯田里穂","edition":"日本通常盤 CD","region":"JP","tracks":[{"title":"One Wish","position":1,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-single"},{"title":"One Wish (Instrumental)","position":3,"recordingId":"kings-raid-ishi-wo-tsugumonotachi-ed-2-song-instrumental"}],"label":"NBCUniversal Entertainment","catalogNumber":"GNCA-0624"},{"id":"apple-hk-1804675030","title":"One Wish","type":"single","artistDisplayName":"Riho Iida","edition":"香港區數位版","region":"HK","tracks":[{"title":"One Wish","position":1}],"label":"NBCUniversal Entertainment"},{"id":"apple-hk-1805001897","title":"One Wish","type":"ep","date":{"value":"2021-02-10","precision":"day"},"artistDisplayName":"Riho Iida","edition":"香港區數位版","region":"HK","tracks":[{"title":"One Wish","position":1},{"title":"One Wish (Instrumental)","position":3}],"label":"NBCUniversal Entertainment"}]}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-11-15","metadataSources":[{"url":"https://youranimes.tw/animes/607","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202010/26051_202010022523.html","label":"東京電視台首話原播資料","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://rightscube.co.jp/movies/%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B9%E3%83%AC%E3%82%A4%E3%83%89%E3%80%80%E6%84%8F%E5%BF%97%E3%82%92%E7%B6%99%E3%81%90%E3%82%82%E3%81%AE%E3%81%9F%E3%81%A1-vol-1/","label":"第一方動畫原名資料；不證季度或精確首日／時分","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/26051_202012252523.html","label":"東京電視台第13、14話連播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202103/26051_202103262538.html","label":"東京電視台第26話原播及主題曲","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://news.ponycanyon.co.jp/2020/12/45668","label":"Pony Canyon第二季度原TV初回公告","role":"first_party","language":"ja","verifiedAt":"2026-11-15"},{"url":"https://www.mau2.com/anime/kingsraid?cast=scd","label":"逐話首尾曲換曲界線","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-15"}],"broadcastTimeJst":"01:23","officialSiteUrl":"https://www.tv-tokyo.co.jp/anime/kings-raid/"},
-  {"anilistId":118399,"id":"curated-118399","slug":"hanyou-no-yashahime","seasonIds":["2020-fall","2021-winter"],"startDate":"2020-10-03","titleJa":"半妖の夜叉姫","titleZhHant":"半妖的夜叉姬","titleRomaji":"Hanyou no Yashahime","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118399-sgHg8NQVQixB.png","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/118399-4KrsagqbRsgD.jpg","editorialWeekday":6,"broadcastLabel":"読売テレビ原壱の章；本期首播分鐘待直接舊公告","status":"finished","officialSiteUrl":"https://hanyo-yashahime.com/","anilistUrl":"https://anilist.co/anime/118399","imageSourceUrl":"https://anilist.co/anime/118399","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/584","https://acgsecrets.hk/anime/176/"],"animeThemesUrl":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","themes":[{"type":"OP","sequence":1,"titleJa":"NEW ERA","artistDisplayName":"SixTONES","id":"hanyou-no-yashahime-op-1","songId":"hanyou-no-yashahime-op-1-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"Page Grace","role":"lyrics"},{"name":"Dr. Loui","role":"lyrics"},{"name":"Naoki Itai","role":"lyrics"},{"name":"Naoki Itai","role":"composition"},{"name":"MEG","role":"composition"},{"name":"Naoki Itai","role":"arrangement"},{"name":"MEG","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈NEW ERA〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"OP","sequence":2,"titleJa":"BURN","artistDisplayName":"NEWS","id":"hanyou-no-yashahime-op-2","songId":"hanyou-no-yashahime-op-2-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"AKIRA","role":"lyrics"},{"name":"ヒロイズム","role":"lyrics"},{"name":"ヒロイズム","role":"composition"},{"name":"ヒロイズム","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.ytv.co.jp/hanyo-yashahime/news/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈BURN〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":1,"titleJa":"Break","artistDisplayName":"Uru","id":"hanyou-no-yashahime-ed-1","songId":"hanyou-no-yashahime-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"Uru Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=OUZTFpIqhVk","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"原播出方日期及節目資料；不作本曲身分、用途或作者證據","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2020-fall"],"credits":[{"name":"Uru","role":"lyrics"},{"name":"Uru","role":"composition"},{"name":"Yaffle","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Break〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"},{"type":"ED","sequence":2,"titleJa":"結証","titleRomaji":"Kesshou","artistDisplayName":"緑黄色社会","id":"hanyou-no-yashahime-ed-2","songId":"hanyou-no-yashahime-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"緑黄色社会 官方影片","url":"https://www.youtube.com/watch?v=1422nca02G4","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、正式名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-23"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-winter"],"credits":[{"name":"長屋晴子","role":"lyrics"},{"name":"小林壱誓","role":"composition"},{"name":"soundbreakers","role":"arrangement"},{"name":"緑黄色社会","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.ytv.co.jp/hanyo-yashahime/news/"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-23","targetId":"hanyou-no-yashahime-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-23"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈結証〉：本期原名、正式名義及已列用途與季度已核；未推定個別成員演唱或其他錄音版本。 原TV最早時分仍待第一方，未補分鐘。","resumeWhen":"待正式錄音、發行品及平台逐曲資料可讀，再補可選欄位。 待2020年原首播公告明本期最早時分可讀，再補分鐘；不移用弐の章或2021年1月時刻。","checkedAt":"2026-10-23"}],"lastVerifiedAt":"2026-10-23"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-23"},{"url":"https://www.ytv.co.jp/hanyo-yashahime/news/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-23"}]},
+  {
+    "anilistId": 118399,
+    "id": "curated-118399",
+    "slug": "hanyou-no-yashahime",
+    "seasonIds": [
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2020-10-03",
+    "titleJa": "半妖の夜叉姫",
+    "titleZhHant": "半妖的夜叉姬",
+    "titleRomaji": "Hanyou no Yashahime",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx118399-sgHg8NQVQixB.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/118399-4KrsagqbRsgD.jpg",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本原TV 讀賣電視台／日本電視台系週六17:30；2020/10/3至2021/3/20，第1–24話。",
+    "status": "finished",
+    "officialSiteUrl": "https://hanyo-yashahime.com/",
+    "anilistUrl": "https://anilist.co/anime/118399",
+    "imageSourceUrl": "https://anilist.co/anime/118399",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/584",
+      "https://acgsecrets.hk/anime/176/"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "NEW ERA",
+        "artistDisplayName": "SixTONES",
+        "id": "hanyou-no-yashahime-op-1",
+        "songId": "hanyou-no-yashahime-op-1-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.ytv.co.jp/hanyo-yashahime/news/",
+            "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_588.php",
+            "label": "製作方逐段原TV曲名、演唱及使用集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/discography/d004/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/discography/d006/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/news/414/",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811949812",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811949813",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=UoHzt2sJ0MQ",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "NEW ERA｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811949813",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811949812",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-op-1-song-single-full"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "credits": [
+          {
+            "name": "Page Grace",
+            "role": "lyrics"
+          },
+          {
+            "name": "Dr. Loui",
+            "role": "lyrics"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "lyrics"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "composition"
+          },
+          {
+            "name": "MEG",
+            "role": "composition"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "arrangement"
+          },
+          {
+            "name": "MEG",
+            "role": "arrangement"
+          },
+          {
+            "name": "SixTONES",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php",
+              "https://www.mau2.com/anime/hanyounoyashahime"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1-song-single-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-11-12"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-13-14"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d006/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-1-song-japanized-rearrange"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d006/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-25"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811949813"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811949813"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/414/",
+              "https://music.apple.com/hk/album/1811949812"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1811949812"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=UoHzt2sJ0MQ",
+              "https://www.sixtones.jp/discography/d004/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "UoHzt2sJ0MQ"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "2020年首先發行實體盤，2025年才公開數位串流。CD另有TV edit、伴奏及重新編曲版。",
+            "resumeWhen": "待可比對原播片頭與動畫盤的剪輯；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–13話日本原TV片頭｜至2020年12月26日",
+        "releaseDate": "2020-11-11",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-op-1-song-single-full",
+            "title": "NEW ERA",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-op-1-song-single-tv",
+            "title": "NEW ERA -TV edit-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "hanyou-no-yashahime-op-1-song-single-instrumental",
+            "title": "NEW ERA -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "hanyou-no-yashahime-op-1-song-japanized-rearrange",
+            "title": "NEW ERA (Japanized Rearrange)",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secj-11-12",
+            "title": "NEW ERA",
+            "type": "single",
+            "date": {
+              "value": "2020-11-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "初回盤（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "NEW ERA",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-11～12"
+          },
+          {
+            "id": "secj-13-14",
+            "title": "NEW ERA",
+            "type": "single",
+            "date": {
+              "value": "2020-11-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "期間限定動畫盤（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "NEW ERA",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-full"
+              },
+              {
+                "title": "NEW ERA -TV edit-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-tv"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-13～14"
+          },
+          {
+            "id": "secj-15",
+            "title": "NEW ERA",
+            "type": "single",
+            "date": {
+              "value": "2020-11-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "NEW ERA",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-full"
+              },
+              {
+                "title": "NEW ERA -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-15"
+          },
+          {
+            "id": "secj-25",
+            "title": "僕が僕じゃないみたいだ",
+            "type": "single",
+            "date": {
+              "value": "2021-02-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "NEW ERA (Japanized Rearrange)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-japanized-rearrange"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-25"
+          },
+          {
+            "id": "apple-hk-1811949812",
+            "title": "NEW ERA",
+            "type": "single",
+            "date": {
+              "value": "2025-05-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "香港區數位版（2025年串流解禁）",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "NEW ERA",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-1-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "BURN",
+        "artistDisplayName": "NEWS",
+        "id": "hanyou-no-yashahime-op-2",
+        "songId": "hanyou-no-yashahime-op-2-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.ytv.co.jp/hanyo-yashahime/news/",
+            "label": "第一方本期逐曲用途；歌曲身分與創作資料依各自來源",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_588.php",
+            "label": "製作方逐段原TV曲名、演唱及使用集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.elov-label.jp/s/el/news/detail/22386?ima=1311&tpar=J0005",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1765460556",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1765460557",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1765460560",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=V1l3knlckOI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "BURN｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1765460557",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1765460556",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-op-2-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "BURN (STUDIO LIVE RECORDING Ver.)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1765460560",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1765460556",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-op-2-song-studio-live"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "credits": [
+          {
+            "name": "AKIRA",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヒロイズム",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヒロイズム",
+            "role": "composition"
+          },
+          {
+            "name": "ヒロイズム",
+            "role": "arrangement"
+          },
+          {
+            "name": "NEWS",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.ytv.co.jp/hanyo-yashahime/news/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php",
+              "https://www.mau2.com/anime/hanyounoyashahime"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-2-song-studio-live"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-op-2-song-single-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0645-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0647-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0649"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1765460557"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1765460557"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1765460560"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1765460560"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.elov-label.jp/s/el/news/detail/22386?ima=1311&tpar=J0005",
+              "https://music.apple.com/hk/album/1765460556"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1765460556"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=V1l3knlckOI",
+              "https://starto.jp/s/p/discography/JECN-645_6?artist=12&ima=4056"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "V1l3knlckOI"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第14–24話日本原TV片頭｜2021年1月9日起",
+        "releaseDate": "2021-06-30",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-op-2-song-single-full",
+            "title": "BURN",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-op-2-song-studio-live",
+            "title": "BURN (STUDIO LIVE RECORDING Ver.)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "hanyou-no-yashahime-op-2-song-single-karaoke",
+            "title": "BURN（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jecn-0645-6",
+            "title": "BURN",
+            "type": "single",
+            "date": {
+              "value": "2021-06-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "初回盤A（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BURN",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-single-full"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0645～6"
+          },
+          {
+            "id": "jecn-0647-8",
+            "title": "BURN",
+            "type": "single",
+            "date": {
+              "value": "2021-06-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "初回盤B（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BURN",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-single-full"
+              },
+              {
+                "title": "BURN (STUDIO LIVE RECORDING Ver.)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-studio-live"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0647～8"
+          },
+          {
+            "id": "jecn-0649",
+            "title": "BURN",
+            "type": "single",
+            "date": {
+              "value": "2021-06-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BURN",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-single-full"
+              },
+              {
+                "title": "BURN（オリジナル・カラオケ）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-single-karaoke"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0649"
+          },
+          {
+            "id": "apple-hk-1765460556",
+            "title": "BURN",
+            "type": "single",
+            "date": {
+              "value": "2024-09-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "香港區數位版（2024年串流解禁）",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "BURN",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-single-full"
+              },
+              {
+                "title": "BURN (STUDIO LIVE RECORDING Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-op-2-song-studio-live"
+              }
+            ],
+            "label": "ELOV-Label"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Break",
+        "artistDisplayName": "Uru",
+        "id": "hanyou-no-yashahime-ed-1",
+        "songId": "hanyou-no-yashahime-ed-1-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OUZTFpIqhVk",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.ytv.co.jp/hanyo-yashahime/news/",
+            "label": "原播出方日期及節目資料；不作本曲身分、用途或作者證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_588.php",
+            "label": "製作方逐段原TV曲名、演唱及使用集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/643",
+            "label": "藝人發布當初的無字幕片尾公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://uru-official.com/news/detail/615",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://uru-official.com/feature/9th_single",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1534199321",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1534199322",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1534199344",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Break｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1534199322",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1534199321",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Break -instrumental-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1534199344",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1534199321",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ed-1-song-single-instrumental"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "credits": [
+          {
+            "name": "Uru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Uru",
+            "role": "composition"
+          },
+          {
+            "name": "Yaffle",
+            "role": "arrangement"
+          },
+          {
+            "name": "Uru",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php",
+              "https://www.mau2.com/anime/hanyounoyashahime"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/news/detail/615"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-1-song-single-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "aicl-3945-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "aicl-3947"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "aicl-3948-9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1534199322"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1534199322"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1534199344"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1534199344"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uru-official.com/feature/9th_single",
+              "https://music.apple.com/hk/album/1534199321"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1534199321"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OUZTFpIqhVk",
+              "https://uru-official.com/feature/9th_single"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "OUZTFpIqhVk"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核動畫盤CD的TV size、通常盤伴奏及完整版。無字幕版有官方上架和Blu-ray收錄證據。",
+            "resumeWhen": "待當初的無字幕影片可正常讀取或官方重發；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–13話日本原TV片尾｜至2020年12月26日",
+        "releaseDate": "2020-10-10",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ed-1-song-single-full",
+            "title": "Break",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ed-1-song-single-tv",
+            "title": "Break [TV size]",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "hanyou-no-yashahime-ed-1-song-single-instrumental",
+            "title": "Break -instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "aicl-3945-6",
+            "title": "振り子／Break",
+            "type": "single",
+            "date": {
+              "value": "2020-10-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "Uru",
+            "edition": "初回生產限定盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Break",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-full"
+              },
+              {
+                "title": "Break -instrumental-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "AICL-3945～6"
+          },
+          {
+            "id": "aicl-3947",
+            "title": "Break／振り子",
+            "type": "single",
+            "date": {
+              "value": "2020-10-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "Uru",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Break",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-full"
+              },
+              {
+                "title": "Break -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "AICL-3947"
+          },
+          {
+            "id": "aicl-3948-9",
+            "title": "Break／振り子",
+            "type": "single",
+            "date": {
+              "value": "2020-10-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "Uru",
+            "edition": "期間生產限定動畫盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Break",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-full"
+              },
+              {
+                "title": "Break [TV size]",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-tv"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "AICL-3948～9"
+          },
+          {
+            "id": "apple-hk-1534199321",
+            "title": "Break／振り子",
+            "type": "single",
+            "date": {
+              "value": "2020-10-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "Uru",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Break",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-full"
+              },
+              {
+                "title": "Break -instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "結証",
+        "titleRomaji": "Kesshou",
+        "artistDisplayName": "緑黄色社会",
+        "id": "hanyou-no-yashahime-ed-2",
+        "songId": "hanyou-no-yashahime-ed-2-song",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1422nca02G4",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、正式名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.ytv.co.jp/hanyo-yashahime/news/",
+            "label": "第一方本期逐曲用途；歌曲身分與創作資料依各自來源",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_588.php",
+            "label": "製作方逐段原TV曲名、演唱及使用集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186",
+            "label": "藝人片尾曲先行配信作品公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1546091843",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1546091840",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1546091981",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "結証｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1546091843",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1546091840",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ed-2-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "結証 -Instrumental-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1546091981",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1546091840",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ed-2-song-single-instrumental"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "credits": [
+          {
+            "name": "長屋晴子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林壱誓",
+            "role": "composition"
+          },
+          {
+            "name": "soundbreakers",
+            "role": "arrangement"
+          },
+          {
+            "name": "緑黄色社会",
+            "role": "arrangement"
+          },
+          {
+            "name": "緑黄色社会",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.ytv.co.jp/hanyo-yashahime/news/"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-23",
+            "targetId": "hanyou-no-yashahime-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-23"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php",
+              "https://www.mau2.com/anime/hanyounoyashahime"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_588.php"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186",
+              "https://music.apple.com/hk/song/1546091843"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-2-song-single-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ed-2-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "escl-5480-1"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "escl-5483-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "escl-5482"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1546091843"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1546091843"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1546091981"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1546091981"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186",
+              "https://music.apple.com/hk/album/1546091840"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1546091840"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=1422nca02G4",
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/526186"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "1422nca02G4"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第14–24話日本原TV片尾｜2021年1月9日起",
+        "releaseDate": "2021-01-16",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ed-2-song-single-full",
+            "title": "結証",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ed-2-song-single-tv",
+            "title": "結証 -TV Edit-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "hanyou-no-yashahime-ed-2-song-single-instrumental",
+            "title": "結証 -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "escl-5480-1",
+            "title": "結証",
+            "type": "single",
+            "date": {
+              "value": "2021-02-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "初回生產限定盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "結証",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-full"
+              },
+              {
+                "title": "結証 -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "ESCL-5480～1"
+          },
+          {
+            "id": "escl-5483-4",
+            "title": "結証",
+            "type": "single",
+            "date": {
+              "value": "2021-02-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "期間生產限定動畫盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "結証",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-full"
+              },
+              {
+                "title": "結証 -TV Edit-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-tv"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "ESCL-5483～4"
+          },
+          {
+            "id": "escl-5482",
+            "title": "結証",
+            "type": "single",
+            "date": {
+              "value": "2021-02-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "結証",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-full"
+              },
+              {
+                "title": "結証 -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "ESCL-5482"
+          },
+          {
+            "id": "apple-hk-1546091840",
+            "title": "結証",
+            "type": "single",
+            "date": {
+              "value": "2021-02-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "結証",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-full"
+              },
+              {
+                "title": "結証 -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-15",
+    "metadataSources": [
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+        "label": "原期逐話日期交叉核對；非歌曲原名或作者證據",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "url": "https://www.ytv.co.jp/hanyo-yashahime/news/",
+        "label": "第一方原期TV播出／延期日期補充",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-23"
+      },
+      {
+        "url": "https://www.sunrise-inc.co.jp/work/topics.php?id=18167",
+        "label": "製作方原播日期及時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://mod.cht.com.tw/modweb/product/260942.do",
+        "label": "臺灣正版平台繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=zAC9oBPytMw",
+        "label": "亞洲授權發行官方繁中宣傳",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.sunrise-world.net/titles/pickup_588.php",
+        "label": "製作方第1–24話季度及曲目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "broadcastTimeJst": "17:30"
+  },
   {
   "anilistId": 112300,
   "id": "curated-112300",

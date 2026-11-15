@@ -12,7 +12,2358 @@ const curated2021FallSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":126790,"id":"curated-126790","slug":"selection-project","seasonIds":["2021-fall"],"startDate":"2021-10-01","titleJa":"SELECTION PROJECT","titleZhHant":"SELECTION PROJECT","titleRomaji":"SELECTION PROJECT","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126790-n7ko65bBCMVI.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/126790-Lb1tXO0ohTZY.jpg","editorialWeekday":5,"broadcastLabel":"日本原TV2021/10/1（五）22:00・AT-X；TOKYO MX 22:30，其餘台深夜時刻另列，不作首播。","status":"finished","officialSiteUrl":"https://pjselection.com/","anilistUrl":"https://anilist.co/anime/126790","imageSourceUrl":"https://anilist.co/anime/126790","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/7836","https://acgsecrets.hk/anime/791/","https://bgm.tv/subject/321190"],"animeThemesUrl":"https://animethemes.moe/anime/selection_project","themes":[{"type":"OP","sequence":1,"titleJa":"Glorious Days","artistDisplayName":"9-tie","id":"selection-project-op-1","songId":"selection-project-op-1-song","sources":[{"label":"動畫官方網站","url":"https://pjselection.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/selection_project","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方逐曲創作名單；僅支持已列創作或演唱資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://pjselection.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"橘亮祐","role":"lyrics"},{"name":"橘亮祐","role":"composition"},{"name":"橘亮祐","role":"arrangement"},{"name":"篠崎あやと","role":"lyrics"},{"name":"篠崎あやと","role":"composition"},{"name":"篠崎あやと","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/selection_project"],"verifiedAt":"2026-09-02","targetId":"selection-project-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/selection_project"],"verifiedAt":"2026-09-02","targetId":"selection-project-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Glorious Days〉：官方以9-tie名義列本曲OP；保留團體名義，不由cast表補全員vocals。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"Only one yell","artistDisplayName":"9-tie","id":"selection-project-ed-1","songId":"selection-project-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://pjselection.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/selection_project","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://pjselection.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/selection_project"],"verifiedAt":"2026-09-02","targetId":"selection-project-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/selection_project"],"verifiedAt":"2026-09-02","targetId":"selection-project-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Only one yell〉：官方以9-tie名義列本曲ED；保留團體名義，不由cast表補全員vocals。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"id":"selection-project-in-1","songId":"selection-project-in-1-song","type":"IN","sequence":1,"sources":[{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[],"credits":[],"sourceMode":"explicit","titleJa":"B.B.","artistDisplayName":"Suzu☆Rena","seasonIds":["2021-fall"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈B.B.〉：官方確認本曲為第3話插曲，演唱名義為Suzu☆Rena。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"id":"selection-project-in-2","songId":"selection-project-in-2-song","type":"IN","sequence":2,"sources":[{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[],"credits":[],"sourceMode":"explicit","titleJa":"SPARKRASH","artistDisplayName":"Splasoda°","seasonIds":["2021-fall"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-2"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈SPARKRASH〉：官方確認本曲為第4話插曲，演唱名義為Splasoda°。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"id":"selection-project-in-3","songId":"selection-project-in-3-song","type":"IN","sequence":3,"sources":[{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[],"credits":[],"sourceMode":"explicit","titleJa":"NOiSY MONSTER","artistDisplayName":"GAPsCAPs","seasonIds":["2021-fall"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-3"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-3-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-3"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈NOiSY MONSTER〉：官方確認本曲為第5話插曲，演唱名義為GAPsCAPs。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"id":"selection-project-in-4","songId":"selection-project-in-4-song","type":"IN","sequence":4,"sources":[{"url":"https://pjselection.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[],"credits":[],"sourceMode":"explicit","titleJa":"Naked Blue","artistDisplayName":"9-tie","seasonIds":["2021-fall"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/music.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-4"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-4-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-4"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈Naked Blue〉：官方確認本曲為第7話插曲，演唱名義為9-tie。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"id":"selection-project-in-5","songId":"selection-project-in-5-song","type":"IN","sequence":5,"sources":[{"url":"https://pjselection.com/bddvd.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/news.html","label":"第一方本期逐曲用途；歌曲身分與創作資料依各自來源","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[],"credits":[],"sourceMode":"explicit","titleJa":"ENDROLL","artistDisplayName":"花野井玲那（CV：水野 朔）","seasonIds":["2021-fall"],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://pjselection.com/bddvd.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://pjselection.com/news.html"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-5"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-5-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/SELECTION_PROJECT"],"verifiedAt":"2026-10-22","targetId":"selection-project-in-5"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ENDROLL〉：官方確認本曲為第9話插曲，演唱名義為花野井玲那（CV：水野 朔）。","resumeWhen":"待本曲逐曲官方資料補創作名單、個別實唱、錄音、影片形式及收錄；不由團隊名單推定逐人演唱。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/SELECTION_PROJECT","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://pjselection.com/onair.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"22:00"},
   {"anilistId":138383,"id":"curated-138383","slug":"kimi-to-fit-boxing","seasonIds":["2021-fall"],"startDate":"2021-10-01","titleJa":"キミとフィットボクシング","titleZhHant":"與你一起Fit Boxing","titleRomaji":"Kimi to Fit Boxing","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx138383-eWM6ZhzOX0CP.png","editorialWeekday":5,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://fitboxing.net/anime/","anilistUrl":"https://anilist.co/anime/138383","imageSourceUrl":"https://anilist.co/anime/138383","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8845","https://acgsecrets.hk/anime/1001/","https://bgm.tv/subject/347792"],"themes":[],"verifiedAt":"2026-09-02"},
   {"anilistId":122292,"id":"curated-122292","slug":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou","seasonIds":["2021-fall"],"startDate":"2021-10-02","titleJa":"結城友奈は勇者である-大満開の章-","titleZhHant":"結城友奈是勇者 -大滿開之章-","titleRomaji":"Yuuki Yuuna wa Yuusha de Aru: Dai-Mankai no Shou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122292-8oLPI6hdBC0E.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/122292-lDCKcE35BOVo.jpg","editorialWeekday":6,"broadcastLabel":"日本原TV 2021/10/2 01:55・TBS／MBS；節目表10/1（金）25:55，實曆已換日。","status":"finished","officialSiteUrl":"https://yuyuyu.tv/daimankai/","anilistUrl":"https://anilist.co/anime/122292","imageSourceUrl":"https://anilist.co/anime/122292","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/7619","https://youranimes.tw/animes/1812","https://acgsecrets.hk/anime/978/","https://bgm.tv/subject/311759"],"animeThemesUrl":"https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou","themes":[{"type":"OP","sequence":1,"titleJa":"アシタノハナタチ","artistDisplayName":"讃州中学勇者部","id":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1","songId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1-song","sources":[{"label":"《結城友奈是勇者 -大滿開之章-》第一方歌曲資料：OP／ED 與演唱者","url":"https://yuyuyu.tv/daimankai/product/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://yuyuyu.tv/daimankai/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://yuyuyu.tv/news/archives/1810","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://yuyuyu.tv/daimankai/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"中村彼方","role":"lyrics"},{"name":"岡部啓一（MONACA）","role":"composition"},{"name":"岡部啓一（MONACA）","role":"arrangement"},{"name":"照井春佳","role":"vocals"},{"name":"三森すずこ","role":"vocals"},{"name":"内山夕実","role":"vocals"},{"name":"黒沢ともよ","role":"vocals"},{"name":"長妻樹里","role":"vocals"},{"name":"花澤香菜","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou"],"verifiedAt":"2026-09-02","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou"],"verifiedAt":"2026-09-02","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈アシタノハナタチ〉：官方確認本曲原名、演唱與用途，並逐曲列出六位演唱者及詞曲編名單。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"地平線の向こうへ","artistDisplayName":"讃州中学勇者部","id":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1","songId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1-song","sources":[{"label":"《結城友奈是勇者 -大滿開之章-》第一方歌曲資料：OP／ED 與演唱者","url":"https://yuyuyu.tv/daimankai/product/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://yuyuyu.tv/daimankai/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://yuyuyu.tv/news/archives/1810","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://yuyuyu.tv/daimankai/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"中村彼方","role":"lyrics"},{"name":"岡部啓一（MONACA）","role":"composition"},{"name":"岡部啓一（MONACA）","role":"arrangement"},{"name":"照井春佳","role":"vocals"},{"name":"三森すずこ","role":"vocals"},{"name":"内山夕実","role":"vocals"},{"name":"黒沢ともよ","role":"vocals"},{"name":"長妻樹里","role":"vocals"},{"name":"花澤香菜","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou"],"verifiedAt":"2026-09-02","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/yuuki_yuuna_wa_yuusha_de_aru_dai_mankai_no_shou"],"verifiedAt":"2026-09-02","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85"],"verifiedAt":"2026-10-22","targetId":"yuuki-yuuna-wa-yuusha-de-aru-dai-mankai-no-shou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://yuyuyu.tv/news/archives/1810"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈地平線の向こうへ〉：官方確認本曲原名、演唱與用途，並逐曲列出六位演唱者及詞曲編名單。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E7%B5%90%E5%9F%8E%E5%8F%8B%E5%A5%88%E6%98%AF%E5%8B%87%E8%80%85","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://yuyuyu.tv/daimankai/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:55"},
-  {"anilistId":131264,"id":"curated-131264","slug":"hanyou-no-yashahime-ni-no-shou","seasonIds":["2021-fall","2022-winter"],"startDate":"2021-10-02","titleJa":"半妖の夜叉姫 弐の章","titleZhHant":"半妖的夜叉姬 貮之章","titleRomaji":"Hanyou no Yashahime: Ni no Shou","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131264-rN2hTY0vEGOa.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/131264-2ZQFRto689Il.jpg","editorialWeekday":6,"broadcastLabel":"日本原TV弐之章2021/10/2（土）17:30・読売テレビ／日本テレビ系；2022冬續播，同一作品。","status":"finished","officialSiteUrl":"https://hanyo-yashahime.com/","anilistUrl":"https://anilist.co/anime/131264","imageSourceUrl":"https://anilist.co/anime/131264","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/1488","https://acgsecrets.hk/anime/974/","https://bgm.tv/subject/331164"],"animeThemesUrl":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou","themes":[{"type":"OP","sequence":1,"titleJa":"ReBorn","artistDisplayName":"NEWS","id":"hanyou-no-yashahime-ni-no-shou-op-1","songId":"hanyou-no-yashahime-ni-no-shou-op-1-song","sources":[{"label":"《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者","url":"https://hanyo-yashahime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.hanyo-yashahime.com/news/?offset=95","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sunrise-world.net/titles/pickup_589.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"篠原とまと","role":"lyrics"},{"name":"ヒロイズム","role":"composition"},{"name":"伊藤賢","role":"composition"},{"name":"辻村有記","role":"composition"},{"name":"ヒロイズム","role":"arrangement"},{"name":"伊藤賢","role":"arrangement"},{"name":"辻村有記","role":"arrangement"},{"name":"NEWS","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.hanyo-yashahime.com/news/?offset=95","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/news/?offset=95","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ReBorn〉：官方確認本曲原名、演唱與用途；第25至37話使用前半主題曲，第38話於2022年1月8日換用後半主題曲，逐曲季度分開保存。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"透明な世界","artistDisplayName":"Little Glee Monster","id":"hanyou-no-yashahime-ni-no-shou-ed-1","songId":"hanyou-no-yashahime-ni-no-shou-ed-1-song","sources":[{"label":"《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者","url":"https://hanyo-yashahime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.hanyo-yashahime.com/news/?offset=95","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sunrise-world.net/titles/pickup_589.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"渡辺拓也","role":"lyrics"},{"name":"渡辺拓也","role":"composition"},{"name":"渡辺拓也","role":"arrangement"},{"name":"Little Glee Monster","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.hanyo-yashahime.com/news/?offset=95","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/news/?offset=95","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈透明な世界〉：官方確認本曲原名、演唱與用途；第25至37話使用前半主題曲，第38話於2022年1月8日換用後半主題曲，逐曲季度分開保存。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"OP","sequence":2,"titleJa":"共鳴","artistDisplayName":"SixTONES","id":"hanyou-no-yashahime-ni-no-shou-op-2","songId":"hanyou-no-yashahime-ni-no-shou-op-2-song","sources":[{"label":"《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者","url":"https://hanyo-yashahime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.hanyo-yashahime.com/news/?offset=50","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sunrise-world.net/titles/pickup_589.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-winter"],"credits":[{"name":"SAEKI youthK","role":"lyrics"},{"name":"SAEKI youthK","role":"composition"},{"name":"Naoki Itai","role":"arrangement"},{"name":"SAEKI youthK","role":"arrangement"},{"name":"SixTONES","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.hanyo-yashahime.com/news/?offset=50","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/news/?offset=50","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈共鳴〉：官方確認本曲原名、演唱與用途；第25至37話使用前半主題曲，第38話於2022年1月8日換用後半主題曲，逐曲季度分開保存。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"穴空きの空","artistDisplayName":"adieu","id":"hanyou-no-yashahime-ni-no-shou-ed-2","songId":"hanyou-no-yashahime-ni-no-shou-ed-2-song","sources":[{"label":"《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者","url":"https://hanyo-yashahime.com/music/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://hanyo-yashahime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.hanyo-yashahime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.hanyo-yashahime.com/news/?offset=50","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sunrise-world.net/titles/pickup_589.php","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://hanyo-yashahime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2022-winter"],"credits":[{"name":"クボタカイ","role":"lyrics"},{"name":"クボタカイ","role":"composition"},{"name":"Yaffle","role":"arrangement"},{"name":"adieu","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.hanyo-yashahime.com/music/","https://www.hanyo-yashahime.com/news/?offset=50","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.hanyo-yashahime.com/news/?offset=50","https://www.sunrise-world.net/titles/pickup_589.php"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"],"verifiedAt":"2026-09-02","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"],"verifiedAt":"2026-10-22","targetId":"hanyou-no-yashahime-ni-no-shou-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.hanyo-yashahime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈穴空きの空〉：官方確認本曲原名、演唱與用途；第25至37話使用前半主題曲，第38話於2022年1月8日換用後半主題曲，逐曲季度分開保存。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.hanyo-yashahime.com/news/detail.php?id=18836","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://www.sunrise-world.net/titles/pickup_589.php","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"17:30"},
+  {
+    "anilistId": 131264,
+    "id": "curated-131264",
+    "slug": "hanyou-no-yashahime-ni-no-shou",
+    "seasonIds": [
+      "2021-fall",
+      "2022-winter"
+    ],
+    "startDate": "2021-10-02",
+    "titleJa": "半妖の夜叉姫 弐の章",
+    "titleZhHant": "半妖的夜叉姬-貳之章",
+    "titleRomaji": "Hanyou no Yashahime: Ni no Shou",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131264-rN2hTY0vEGOa.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/131264-2ZQFRto689Il.jpg",
+    "editorialWeekday": 6,
+    "broadcastLabel": "日本原TV 讀賣電視台／日本電視台系週六17:30；2021/10/2至2022/3/26，全系列第25–48話，2022/2/19暫停電視播出。",
+    "status": "finished",
+    "officialSiteUrl": "https://hanyo-yashahime.com/",
+    "anilistUrl": "https://anilist.co/anime/131264",
+    "imageSourceUrl": "https://anilist.co/anime/131264",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/1488",
+      "https://acgsecrets.hk/anime/974/",
+      "https://bgm.tv/subject/331164"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ReBorn",
+        "artistDisplayName": "NEWS",
+        "id": "hanyou-no-yashahime-ni-no-shou-op-1",
+        "songId": "hanyou-no-yashahime-ni-no-shou-op-1-song",
+        "sources": [
+          {
+            "label": "《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者",
+            "url": "https://hanyo-yashahime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/news/?offset=95",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_589.php",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime-2",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.elov-label.jp/s/el/discography/JECN-0659",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://starto.jp/s/p/discography/JECN-655_6?artist=12&ima=0423",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.elov-label.jp/s/el/news/detail/22386?ima=1311&tpar=J0005",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1765461267",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1765461271",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xZuDQ5WUF4w",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ReBorn｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1765461271",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1765461267",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-fall"
+        ],
+        "credits": [
+          {
+            "name": "篠原とまと",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヒロイズム",
+            "role": "composition"
+          },
+          {
+            "name": "伊藤賢",
+            "role": "composition"
+          },
+          {
+            "name": "辻村有記",
+            "role": "composition"
+          },
+          {
+            "name": "ヒロイズム",
+            "role": "arrangement"
+          },
+          {
+            "name": "伊藤賢",
+            "role": "arrangement"
+          },
+          {
+            "name": "辻村有記",
+            "role": "arrangement"
+          },
+          {
+            "name": "NEWS",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.hanyo-yashahime.com/news/?offset=95",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/news/?offset=95",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_589.php",
+              "https://www.mau2.com/anime/hanyounoyashahime-2"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.elov-label.jp/s/el/discography/JECN-0659"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.elov-label.jp/s/el/discography/JECN-0659"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.elov-label.jp/s/el/discography/JECN-0659"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-655_6?artist=12&ima=0423"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0655-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-655_6?artist=12&ima=0423"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0657-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://starto.jp/s/p/discography/JECN-655_6?artist=12&ima=0423"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "jecn-0659"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1765461271"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1765461271"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.elov-label.jp/s/el/news/detail/22386?ima=1311&tpar=J0005",
+              "https://music.apple.com/hk/album/1765461267"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1765461267"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xZuDQ5WUF4w",
+              "https://www.elov-label.jp/s/el/discography/JECN-0659"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xZuDQ5WUF4w"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第25–37話日本原TV片頭｜至2021年12月25日",
+        "releaseDate": "2021-11-17",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full",
+            "title": "ReBorn",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-karaoke",
+            "title": "ReBorn（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "jecn-0655-6",
+            "title": "未来へ／ReBorn",
+            "type": "single",
+            "date": {
+              "value": "2021-11-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "初回盤A（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ReBorn",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0655～6"
+          },
+          {
+            "id": "jecn-0657-8",
+            "title": "未来へ／ReBorn",
+            "type": "single",
+            "date": {
+              "value": "2021-11-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "初回盤B（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ReBorn",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0657～8"
+          },
+          {
+            "id": "jecn-0659",
+            "title": "未来へ／ReBorn",
+            "type": "single",
+            "date": {
+              "value": "2021-11-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ReBorn",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+              },
+              {
+                "title": "ReBorn（オリジナル・カラオケ）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-karaoke"
+              }
+            ],
+            "label": "ELOV-Label",
+            "catalogNumber": "JECN-0659"
+          },
+          {
+            "id": "apple-hk-1765461267",
+            "title": "未来へ／ReBorn",
+            "type": "single",
+            "date": {
+              "value": "2024-09-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "NEWS",
+            "edition": "香港區數位版（2024年串流解禁）",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ReBorn",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-1-song-single-full"
+              }
+            ],
+            "label": "ELOV-Label"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "透明な世界",
+        "artistDisplayName": "Little Glee Monster",
+        "id": "hanyou-no-yashahime-ni-no-shou-ed-1",
+        "songId": "hanyou-no-yashahime-ni-no-shou-ed-1-song",
+        "sources": [
+          {
+            "label": "《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者",
+            "url": "https://hanyo-yashahime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/news/?offset=95",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_589.php",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime-2",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/534358",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1591344185",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1591344580",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1597279769",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1597280139",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1597280157",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=5IcMrNgp5tY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "透明な世界｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1591344580",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1591344185",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "透明な世界｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1597280139",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1597279769",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "透明な世界 -Lead Off ver.-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1597280157",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1597279769",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2021-fall"
+        ],
+        "credits": [
+          {
+            "name": "渡辺拓也",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          },
+          {
+            "name": "Little Glee Monster",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.hanyo-yashahime.com/news/?offset=95",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/news/?offset=95",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_589.php",
+              "https://www.mau2.com/anime/hanyounoyashahime-2"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/534358"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-11950-51"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-11952"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-11953-54"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1591344580"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1591344580"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/534358",
+              "https://music.apple.com/hk/album/1591344185"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1591344185"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1597280139"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1597280139"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1597280157"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1597280157"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208",
+              "https://music.apple.com/hk/album/1597279769"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1597279769"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5IcMrNgp5tY",
+              "https://www.sonymusic.co.jp/artist/LittleGleeMonster/info/535865?id=aep211208"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "5IcMrNgp5tY"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第25–37話日本原TV片尾｜至2021年12月25日",
+        "releaseDate": "2021-11-03",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full",
+            "title": "透明な世界",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-tv",
+            "title": "透明な世界 -TV Size-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "srcl-11950-51",
+            "title": "透明な世界",
+            "type": "single",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "Little Glee Monster",
+            "edition": "初回限定盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "透明な世界",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+              },
+              {
+                "title": "透明な世界 -Lead Off ver.-",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-11950～51"
+          },
+          {
+            "id": "srcl-11952",
+            "title": "透明な世界",
+            "type": "single",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "Little Glee Monster",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "透明な世界",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+              },
+              {
+                "title": "透明な世界 -Lead Off ver.-",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-11952"
+          },
+          {
+            "id": "srcl-11953-54",
+            "title": "透明な世界",
+            "type": "single",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "Little Glee Monster",
+            "edition": "期間生產限定動畫盤（CD＋Blu-ray）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "透明な世界",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+              },
+              {
+                "title": "透明な世界 -TV Size-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-tv"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-11953～54"
+          },
+          {
+            "id": "apple-hk-1591344185",
+            "title": "透明な世界",
+            "type": "single",
+            "date": {
+              "value": "2021-11-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "Little Glee Monster",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "透明な世界",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-1-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          },
+          {
+            "id": "apple-hk-1597279769",
+            "title": "透明な世界 -Special Edition-",
+            "type": "single",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "Little Glee Monster",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "透明な世界",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "透明な世界 -Lead Off ver.-",
+                "position": 6,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "共鳴",
+        "artistDisplayName": "SixTONES",
+        "id": "hanyou-no-yashahime-ni-no-shou-op-2",
+        "songId": "hanyou-no-yashahime-ni-no-shou-op-2-song",
+        "sources": [
+          {
+            "label": "《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者",
+            "url": "https://hanyo-yashahime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/news/?offset=50",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_589.php",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime-2",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/news/212/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/discography/d011/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/news/414/",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811949426",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811949435",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811936133",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811936135",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sixtones.jp/news/211/",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=juoM5rB0h44",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "共鳴｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811949435",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811949426",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "共鳴 -Brave Marching Band Remix-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811936135",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811936133",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-brave-marching-band-remix"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "credits": [
+          {
+            "name": "SAEKI youthK",
+            "role": "lyrics"
+          },
+          {
+            "name": "SAEKI youthK",
+            "role": "composition"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "arrangement"
+          },
+          {
+            "name": "SAEKI youthK",
+            "role": "arrangement"
+          },
+          {
+            "name": "SixTONES",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.hanyo-yashahime.com/news/?offset=50",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/news/?offset=50",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_589.php",
+              "https://www.mau2.com/anime/hanyounoyashahime-2"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-40-41"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-42-43"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/212/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-44"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d011/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-op-2-song-brave-marching-band-remix"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/discography/d011/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "secj-49"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811949435"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811949435"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/414/",
+              "https://music.apple.com/hk/album/1811949426"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1811949426"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811936135"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811936135"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sixtones.jp/news/414/",
+              "https://music.apple.com/hk/album/1811936133"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1811936133"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=juoM5rB0h44",
+              "https://www.sixtones.jp/news/211/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "juoM5rB0h44"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第38–48話日本原TV片頭｜2022年1月8日起",
+        "releaseDate": "2022-03-02",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full",
+            "title": "共鳴",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-instrumental",
+            "title": "共鳴 -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-op-2-song-brave-marching-band-remix",
+            "title": "共鳴 -Brave Marching Band Remix-",
+            "kind": "remix",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secj-40-41",
+            "title": "共鳴",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "初回盤A（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "共鳴",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-40～41"
+          },
+          {
+            "id": "secj-42-43",
+            "title": "共鳴",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "初回盤B（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "共鳴",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-42～43"
+          },
+          {
+            "id": "secj-44",
+            "title": "共鳴",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "共鳴",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+              },
+              {
+                "title": "共鳴 -Instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-44"
+          },
+          {
+            "id": "secj-49",
+            "title": "わたし",
+            "type": "single",
+            "date": {
+              "value": "2022-06-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "共鳴 -Brave Marching Band Remix-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-brave-marching-band-remix"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECJ-49"
+          },
+          {
+            "id": "apple-hk-1811949426",
+            "title": "共鳴",
+            "type": "single",
+            "date": {
+              "value": "2025-05-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "香港區數位版（2025年串流解禁）",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "共鳴",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          },
+          {
+            "id": "apple-hk-1811936133",
+            "title": "共鳴 -Brave Marching Band Remix-",
+            "type": "single",
+            "date": {
+              "value": "2025-05-17",
+              "precision": "day"
+            },
+            "artistDisplayName": "SixTONES",
+            "edition": "香港區數位版（2025年串流解禁）",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "共鳴 -Brave Marching Band Remix-",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-op-2-song-brave-marching-band-remix"
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "穴空きの空",
+        "artistDisplayName": "adieu",
+        "id": "hanyou-no-yashahime-ni-no-shou-ed-2",
+        "songId": "hanyou-no-yashahime-ni-no-shou-ed-2-song",
+        "sources": [
+          {
+            "label": "《半妖的夜叉姬 貮之章》第一方歌曲資料：OP／ED 與演唱者",
+            "url": "https://hanyo-yashahime.com/music/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/music/",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.hanyo-yashahime.com/news/?offset=50",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.sunrise-world.net/titles/pickup_589.php",
+            "label": "第一方本曲原名、演唱名義與已列資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+            "label": "本期原名、名義與OP／ED／插曲用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "url": "https://www.mau2.com/anime/hanyounoyashahime-2",
+            "label": "逐話使用範圍交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/adieu/info/537999",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/adieu/info/537984",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1607950322",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-12083",
+            "label": "動畫盤CD 第4軌 TV edit 交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1607950316",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1607950319",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zoPFtS6U4fM",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://hanyo-yashahime.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "穴空きの空｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1607950319",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1607950316",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "穴空きの空 (instrumental)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1607950322",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1607950316",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-instrumental"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2022-winter"
+        ],
+        "credits": [
+          {
+            "name": "クボタカイ",
+            "role": "lyrics"
+          },
+          {
+            "name": "クボタカイ",
+            "role": "composition"
+          },
+          {
+            "name": "Yaffle",
+            "role": "arrangement"
+          },
+          {
+            "name": "adieu",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/",
+              "https://www.hanyo-yashahime.com/news/?offset=50",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/news/?offset=50",
+              "https://www.sunrise-world.net/titles/pickup_589.php"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://animethemes.moe/anime/hanyou_no_yashahime_sengoku_otogizoushi_ni_no_shou"
+            ],
+            "verifiedAt": "2026-09-02",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC"
+            ],
+            "verifiedAt": "2026-10-22",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.hanyo-yashahime.com/music/"
+            ],
+            "verifiedAt": "2026-10-22"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-world.net/titles/pickup_589.php",
+              "https://www.mau2.com/anime/hanyounoyashahime-2"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537999"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984",
+              "https://music.apple.com/hk/song/1607950322"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984",
+              "https://www.cdjapan.co.jp/product/SRCL-12083"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-12080-81"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-12082"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-12083-84"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984",
+              "https://www.cdjapan.co.jp/product/SRCL-12083"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "srcl-12083-84"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1607950319"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1607950319"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1607950322"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1607950322"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/adieu/info/537999",
+              "https://music.apple.com/hk/album/1607950316"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1607950316"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=zoPFtS6U4fM",
+              "https://www.sonymusic.co.jp/artist/adieu/info/537984"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "zoPFtS6U4fM"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核發行曲目及可辨識的官方影片；原TV剪輯與各版本對應仍待核。",
+            "resumeWhen": "待可核對的原播片段或權利方錄音說明；地區完整播放另驗。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第38–48話日本原TV片尾｜2022年1月8日起",
+        "releaseDate": "2022-02-25",
+        "recordings": [
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full",
+            "title": "穴空きの空",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-instrumental",
+            "title": "穴空きの空 (instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-tv",
+            "title": "穴空きの空 -TV edit-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "srcl-12080-81",
+            "title": "穴空きの空",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "adieu",
+            "edition": "初回生產限定盤（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "穴空きの空",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-12080～81"
+          },
+          {
+            "id": "srcl-12082",
+            "title": "穴空きの空",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "adieu",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "穴空きの空",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-12082"
+          },
+          {
+            "id": "srcl-12083-84",
+            "title": "穴空きの空",
+            "type": "single",
+            "date": {
+              "value": "2022-03-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "adieu",
+            "edition": "期間生產限定動畫盤（CD＋DVD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "穴空きの空",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+              },
+              {
+                "title": "穴空きの空 -TV edit-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-tv"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SRCL-12083～84"
+          },
+          {
+            "id": "apple-hk-1607950316",
+            "title": "穴空きの空",
+            "type": "single",
+            "date": {
+              "value": "2022-02-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "adieu",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "穴空きの空",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-full"
+              },
+              {
+                "title": "穴空きの空 (instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "hanyou-no-yashahime-ni-no-shou-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ]
+      }
+    ],
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-15",
+    "metadataSources": [
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%8D%8A%E5%A6%96%E7%9A%84%E5%A4%9C%E5%8F%89%E5%A7%AC",
+        "label": "原期逐話日期交叉核對；非歌曲原名或作者證據",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "url": "https://www.hanyo-yashahime.com/news/detail.php?id=18836",
+        "label": "第一方原期TV播出／延期日期補充",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-22"
+      },
+      {
+        "url": "https://www.sunrise-world.net/titles/pickup_589.php",
+        "label": "第一方原期TV播出／延期日期補充",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://mod.cht.com.tw/modweb/product/314622.do",
+        "label": "臺灣正版平台繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.hanyo-yashahime.com/news/?offset=30",
+        "label": "製作方2月19日停播及YouTube回顧公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "broadcastTimeJst": "17:30"
+  },
   {"anilistId":132806,"id":"curated-132806","slug":"isekai-shokudou-2","seasonIds":["2021-fall"],"startDate":"2021-10-02","titleJa":"異世界食堂２","titleZhHant":"異世界食堂2","titleRomaji":"Isekai Shokudou 2","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132806-fuOSzS2YOpIt.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/132806-9lleLtCkUw2N.jpg","editorialWeekday":6,"broadcastLabel":"日本原TV 2021/10/2 01:38・テレビ東京；節目表10/1（金）深夜，首回25:38，通常25:23。","status":"finished","officialSiteUrl":"https://isekai-shokudo2.com/","anilistUrl":"https://anilist.co/anime/132806","imageSourceUrl":"https://anilist.co/anime/132806","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8402","https://youranimes.tw/animes/1788","https://acgsecrets.hk/anime/981/","https://bgm.tv/subject/333853"],"animeThemesUrl":"https://animethemes.moe/anime/isekai_shokudou_2","themes":[{"type":"OP","sequence":1,"titleJa":"おんなじキモチ。","artistDisplayName":"安野希世乃","id":"isekai-shokudou-2-op-1","songId":"isekai-shokudou-2-op-1-song","sources":[{"url":"https://isekai-shokudo2.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isekai_shokudou_2","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"DMM pictures 官方影片","url":"https://www.youtube.com/watch?v=26xbFhdclqo","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://isekai-shokudo2.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://isekai-shokudo2.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"フワリ","role":"lyrics"},{"name":"フワリ","role":"composition"},{"name":"フワリ","role":"arrangement"},{"name":"安野希世乃","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22","targetId":"isekai-shokudou-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22","targetId":"isekai-shokudou-2-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isekai_shokudou_2"],"verifiedAt":"2026-09-02","targetId":"isekai-shokudou-2-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isekai_shokudou_2"],"verifiedAt":"2026-09-02","targetId":"isekai-shokudou-2-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈おんなじキモチ。〉：原期官方逐曲明曲名、演唱與用途；詞曲編取同次已開官方頁。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"冷めない魔法","artistDisplayName":"東山奈央","id":"isekai-shokudou-2-ed-1","songId":"isekai-shokudou-2-ed-1-song","sources":[{"url":"https://isekai-shokudo2.com/music.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/isekai_shokudou_2","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"DMM pictures 官方影片","url":"https://www.youtube.com/watch?v=tADszAYbHRw","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"動畫官方網站","url":"https://isekai-shokudo2.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://isekai-shokudo2.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"RIRIKO","role":"lyrics"},{"name":"RIRIKO","role":"composition"},{"name":"中土智博","role":"arrangement"},{"name":"東山奈央","role":"vocals"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22","targetId":"isekai-shokudou-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22","targetId":"isekai-shokudou-2-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/isekai_shokudou_2"],"verifiedAt":"2026-09-02","targetId":"isekai-shokudou-2-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/isekai_shokudou_2"],"verifiedAt":"2026-09-02","targetId":"isekai-shokudou-2-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://isekai-shokudo2.com/music.html"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈冷めない魔法〉：原期官方逐曲明曲名、演唱與用途；詞曲編取同次已開官方頁。","resumeWhen":"詳細階段待第一方逐曲錄音格式、官方影片形式、發行收錄與正版平台明細後補相應欄位，不從NC／商品推錄音或新用途。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://youranimes.tw/animes/1788","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://isekai-shokudo2.com/onair.html","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"01:38"},
   {"anilistId":135939,"id":"curated-135939","slug":"yakunara-mug-cup-mo-niban-gama","seasonIds":["2021-fall"],"startDate":"2021-10-02","titleJa":"やくならマグカップも 二番窯","titleZhHant":"燒窯的話也要馬克杯  第二季","titleRomaji":"Yakunara Mug Cup Mo: Niban Gama","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx135939-ghkWy9Q0MqTe.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/135939-UKwQQdSfukVV.jpg","editorialWeekday":6,"broadcastLabel":"日本原TV：CBCテレビ節目日10/1（五）25:55，實曆10/2（六）01:55；dアニメストア同一節目日26:25先行配信。節目含動畫與真人環節。","status":"finished","officialSiteUrl":"https://yakumo-project.com/","anilistUrl":"https://anilist.co/anime/135939","imageSourceUrl":"https://anilist.co/anime/135939","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8634","https://youranimes.tw/animes/2269","https://acgsecrets.hk/anime/993/","https://bgm.tv/subject/339694"],"animeThemesUrl":"https://animethemes.moe/anime/yakunara_mug_cup_mo_niban_gama","themes":[{"type":"OP","sequence":1,"titleJa":"夢中の先へ","artistDisplayName":"MUG-MO","id":"yakunara-mug-cup-mo-niban-gama-op-1","sourceMode":"explicit","sources":[{"url":"https://yakumo-project.com/","label":"動畫官方網站","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.nippon-animation.co.jp/news/information/10368/","label":"製作方原期片頭、演唱及播出公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","label":"獨立逐話曲表，包括第12話片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF","label":"中文歌曲及集數資料","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/prod-info/COCC-17915/","label":"日本コロムビア原單曲曲序、演唱、全員版與TV Size","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/news/detail.php?d=211006_01","label":"動畫方單曲逐曲作者與演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/movie/","label":"動畫官方影片入口","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=FuNwZoksheo","label":"權利方公開歌曲影片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/news/detail.php?d=211013_01","label":"作品方公告提供原曲官方歌詞影片入口","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=_MQ3bea57_U","label":"權利方公開歌曲影片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"songId":"yakunara-mug-cup-mo-niban-gama-op-1-song","seasonIds":["2021-fall"],"usageLabel":"TV 第1–11話動畫片頭曲","credits":[{"name":"金子麻友美","role":"lyrics"},{"name":"和泉一弥","role":"composition"},{"name":"久下真音","role":"arrangement"},{"name":"豊川姫乃（CV：田中美海）","role":"vocals"},{"name":"久々梨三華（CV：芹澤優）","role":"vocals"},{"name":"成瀬直子（CV：若井友希）","role":"vocals"},{"name":"青木十子（CV：本泉莉奈）","role":"vocals"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/","https://yakumo-project.com/news/detail.php?d=211006_01"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-instrumental"},{"target":"recording","fields":["kind","format"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-tv-size"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"cocc-17915"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.nippon-animation.co.jp/news/information/10368/","https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.nippon-animation.co.jp/news/information/10368/","https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=FuNwZoksheo","https://yakumo-project.com/movie/"],"verifiedAt":"2026-11-14","targetId":"FuNwZoksheo"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=_MQ3bea57_U","https://yakumo-project.com/news/detail.php?d=211013_01"],"verifiedAt":"2026-11-14","targetId":"_MQ3bea57_U"}],"recordings":[{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal","title":"夢中の先へ","format":"unknown","kind":"character"},{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members","title":"夢中の先へ 〜MUG-MO全員ver.〜","format":"unknown","kind":"character"},{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-instrumental","title":"夢中の先へ (Instrumental)","format":"unknown","kind":"instrumental"},{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-tv-size","title":"夢中の先へ(TV size ver.)","format":"tv","kind":"character"}],"releases":[{"id":"cocc-17915","title":"夢中の先へ","date":{"value":"2021-10-06","precision":"day"},"type":"single","artistDisplayName":"MUG-MO","edition":"CD","tracks":[{"title":"夢中の先へ","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal","position":1},{"title":"夢中の先へ (Instrumental)","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-instrumental","position":3},{"title":"夢中の先へ 〜MUG-MO全員ver.〜","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members","position":5},{"title":"夢中の先へ(TV size ver.)","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-tv-size","position":6}],"region":"JP","catalogNumber":"COCC-17915","label":"日本コロムビア"}],"followUp":[{"fields":["recording_format","platform_links","platform_availability"],"note":"保存原CD各版與官方影片；各版與末話的剪輯關係待核。","resumeWhen":"權利方明示原播剪輯與地區供應時再補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14"},{"type":"ED","sequence":1,"titleJa":"Canary Yellow","artistDisplayName":"内田彩","id":"yakunara-mug-cup-mo-niban-gama-ed-1","sourceMode":"explicit","sources":[{"url":"https://yakumo-project.com/","label":"動畫官方網站","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.nippon-animation.co.jp/news/information/10368/","label":"製作方原期片頭、演唱及播出公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","label":"獨立逐話曲表，包括第12話片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF","label":"中文歌曲及集數資料","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/uchidaaya/disco.html","label":"唱片方歌唱、詞曲編及兩版CD資訊","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://shop.columbia.jp/shop/g/gS3784/","label":"唱片方直營通常盤：發行日及演唱／伴奏曲位","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/movie/","label":"動畫官方影片入口","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=AqykWla7djg","label":"權利方公開歌曲影片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/artist-info/uchidaaya/movie/","label":"日本コロムビア藝人影片目錄","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=5ME28N807gc","label":"權利方公開歌曲影片","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"songId":"yakunara-mug-cup-mo-niban-gama-ed-1-song","seasonIds":["2021-fall"],"usageLabel":"TV 第1–11話動畫片尾曲","evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-single-vocal"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-instrumental"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://shop.columbia.jp/shop/g/gS3784/"],"verifiedAt":"2026-11-14","targetId":"cocc-17923"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/uchidaaya/disco.html"],"verifiedAt":"2026-11-14","targetId":"cozc-1826-7"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=AqykWla7djg","https://yakumo-project.com/movie/"],"verifiedAt":"2026-11-14","targetId":"AqykWla7djg"},{"target":"video","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=5ME28N807gc","https://columbia.jp/artist-info/uchidaaya/movie/"],"verifiedAt":"2026-11-14","targetId":"5ME28N807gc"}],"credits":[{"name":"内田彩","role":"vocals"},{"name":"hisakuni","role":"lyrics"},{"name":"hisakuni","role":"composition"},{"name":"hisakuni","role":"arrangement"}],"recordings":[{"id":"yakunara-mug-cup-mo-niban-gama-ed-1-song-single-vocal","title":"Canary Yellow","format":"unknown","kind":"vocal"},{"id":"yakunara-mug-cup-mo-niban-gama-ed-1-song-instrumental","title":"Canary Yellow (Instrumental)","format":"unknown","kind":"instrumental"}],"releases":[{"id":"cocc-17923","title":"Canary Yellow","date":{"value":"2021-11-10","precision":"day"},"type":"single","artistDisplayName":"内田彩","edition":"通常盤CD","tracks":[{"title":"Canary Yellow","recordingId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-single-vocal","position":1},{"title":"Canary Yellow (Instrumental)","recordingId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-instrumental","position":3}],"region":"JP","catalogNumber":"COCC-17923","label":"日本コロムビア"},{"id":"cozc-1826-7","title":"Canary Yellow","date":{"value":"2021-11-10","precision":"day"},"type":"single","artistDisplayName":"内田彩","edition":"初回限定盤CD＋DVD","tracks":[{"title":"Canary Yellow","recordingId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-single-vocal","position":1},{"title":"Canary Yellow (Instrumental)","recordingId":"yakunara-mug-cup-mo-niban-gama-ed-1-song-instrumental","position":3}],"region":"JP","catalogNumber":"COZC-1826-7","label":"日本コロムビア"}],"followUp":[{"fields":["recording_format","platform_links","platform_availability"],"note":"已核單曲原唱、伴奏、無字幕片尾及MV。","resumeWhen":"權利方明示精確TV音源及地區播放時再補。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14"},{"type":"ED","sequence":2,"titleJa":"夢中の先へ","artistDisplayName":"MUG-MO","id":"yakunara-mug-cup-mo-niban-gama-ed-2","sourceMode":"explicit","sources":[{"url":"https://yakumo-project.com/","label":"動畫官方網站","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.nippon-animation.co.jp/news/information/10368/","label":"製作方原期片頭、演唱及播出公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv","label":"獨立逐話曲表，包括第12話片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://zh.wikipedia.org/wiki/%E7%87%92%E7%AA%AF%E7%9A%84%E8%A9%B1%E4%B9%9F%E8%A6%81%E9%A6%AC%E5%85%8B%E6%9D%AF","label":"中文歌曲及集數資料","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-14"},{"url":"https://columbia.jp/prod-info/COCC-17915/","label":"日本コロムビア原單曲曲序、演唱、全員版與TV Size","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/news/detail.php?d=211006_01","label":"動畫方單曲逐曲作者與演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/story/2-12.php","label":"動畫官網第12話概要，曲名與實際位置待逐曲署名","role":"first_party","language":"ja","verifiedAt":"2026-11-14"}],"songId":"yakunara-mug-cup-mo-niban-gama-op-1-song","seasonIds":[],"credits":[{"name":"金子麻友美","role":"lyrics"},{"name":"和泉一弥","role":"composition"},{"name":"久下真音","role":"arrangement"},{"name":"豊川姫乃（CV：田中美海）","role":"vocals"},{"name":"久々梨三華（CV：芹澤優）","role":"vocals"},{"name":"成瀬直子（CV：若井友希）","role":"vocals"},{"name":"青木十子（CV：本泉莉奈）","role":"vocals"}],"evidence":[{"target":"credits","fields":["credits"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/","https://yakumo-project.com/news/detail.php?d=211006_01"],"verifiedAt":"2026-11-14"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal"},{"target":"recording","fields":["kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members"},{"target":"release","fields":["date","edition","tracklist","catalog_number"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"cocc-17915"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://columbia.jp/prod-info/COCC-17915/"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.mau2.com/anime/yakunaramagcupmo-2?cast=cv"],"verifiedAt":"2026-11-14","targetId":"yakunara-mug-cup-mo-niban-gama-op-1-song"}],"recordings":[{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal","title":"夢中の先へ","format":"unknown","kind":"character"},{"id":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members","title":"夢中の先へ 〜MUG-MO全員ver.〜","format":"unknown","kind":"character"}],"releases":[{"id":"cocc-17915","title":"夢中の先へ","date":{"value":"2021-10-06","precision":"day"},"type":"single","artistDisplayName":"MUG-MO","edition":"CD","tracks":[{"title":"夢中の先へ","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-single-vocal","position":1},{"title":"夢中の先へ 〜MUG-MO全員ver.〜","recordingId":"yakunara-mug-cup-mo-niban-gama-op-1-song-all-members","position":5}],"region":"JP","catalogNumber":"COCC-17915","label":"日本コロムビア"}],"followUp":[{"fields":["basic_evidence","use_quarters","recording_format","official_video","platform_links","platform_availability"],"note":"唱片方核實同曲及兩個CD歌唱版本。獨立曲表列末話片尾，官方可讀頁面尚缺逐曲片尾署名。","resumeWhen":"原第12話授權正片或製播方逐曲資料可讀時，確認片尾位置、演唱版本及季度。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14"}],"verifiedAt":"2026-09-02","broadcastTimeJst":"01:55","metadataSources":[{"url":"https://www.nippon-animation.co.jp/news/information/10368/","label":"日本動畫原期公告：CBC、MBS及其餘電視台各自首播時段","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://yakumo-project.com/onair/","label":"作品官網：dアニメストア先行配信時間","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://mod.cht.com.tw/modweb/product/314523.do","label":"台灣中華電信MOD授權作品標題及第12話資料","role":"localized_cross_check","language":"zh-Hant","verifiedAt":"2026-11-14"}],"metadataVerifiedAt":"2026-11-14"},
   {"anilistId":137227,"id":"curated-137227","slug":"deji-meets-girl","seasonIds":["2021-fall"],"startDate":"2021-10-02","titleJa":"でーじミーツガール","titleZhHant":"女孩遇見男孩","titleRomaji":"Deji Meets Girl","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx137227-9yb8GJXK964L.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/137227-SIxZjimGFklD.jpg","editorialWeekday":6,"broadcastLabel":"日本首播／時間未整理","status":"finished","officialSiteUrl":"https://dejimeetsgirl.okinawa/","anilistUrl":"https://anilist.co/anime/137227","imageSourceUrl":"https://anilist.co/anime/137227","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://annict.com/works/8796","https://youranimes.tw/animes/2695","https://acgsecrets.hk/anime/988/","https://bgm.tv/subject/342672"],"animeThemesUrl":"https://animethemes.moe/anime/deji_meets_girl","themes":[{"type":"ED","sequence":1,"titleJa":"お伽話のような奇跡","artistDisplayName":"Aoi Kubo"}],"verifiedAt":"2026-09-02"},

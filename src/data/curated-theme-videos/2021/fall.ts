@@ -1,6 +1,50 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2021FallThemeVideos = {
+  "131264:ED:2": [
+    {
+      "youtubeVideoId": "zoPFtS6U4fM",
+      "title": "穴空きの空｜官方MV",
+      "channelName": "adieu [ 上白石萌歌 ]",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "131264:OP:2": [
+    {
+      "youtubeVideoId": "juoM5rB0h44",
+      "title": "共鳴｜YouTube剪輯MV",
+      "channelName": "SixTONES",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "131264:ED:1": [
+    {
+      "youtubeVideoId": "5IcMrNgp5tY",
+      "title": "透明な世界｜官方MV",
+      "channelName": "Little Glee Monster",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "131264:OP:1": [
+    {
+      "youtubeVideoId": "xZuDQ5WUF4w",
+      "title": "ReBorn｜官方Music Clip",
+      "channelName": "NEWS",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "135939:OP:1": [{"youtubeVideoId":"FuNwZoksheo","title":"アニメ『やくならマグカップも 二番窯』ノンクレジットOP","type":"creditless_op","channelName":"日本コロムビア 公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"_MQ3bea57_U","title":"MUG-MO「夢中の先へ」Lyric Video","type":"lyric_video","channelName":"日本コロムビア 公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "135939:ED:1": [{"youtubeVideoId":"AqykWla7djg","title":"アニメ『やくならマグカップも 二番窯』ノンクレジットED","type":"creditless_ed","channelName":"日本コロムビア 公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"5ME28N807gc","title":"内田彩「Canary Yellow」Music Video","type":"music_video","channelName":"内田彩 - Aya Uchida","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "128705:OP:1": [{"youtubeVideoId":"92ylxOeT1_g","title":"Omoinotake / EVERBLUE [Official Music Video]","type":"full_music_video","channelName":"Omoinotake","officialStatus":"official","embeddable":true}],

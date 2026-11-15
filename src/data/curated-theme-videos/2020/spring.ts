@@ -1,6 +1,20 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "112325:IN:1": [
+    {
+      "youtubeVideoId": "bcUQr7fhumQ",
+      "title": "瞳の国のアリス -Dance Music Edition-｜官方短版MV",
+      "channelName": "小倉 唯 YouTube OFFICIAL CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114811:IN:3": [{"youtubeVideoId":"lb4ZO0p1t8Q","title":"Break the chain｜東映進化插曲PV","channelName":"東映アニメーション公式YouTubeチャンネル","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:IN:2": [{"youtubeVideoId":"wVVVg5jQocA","title":"X-treme Fight｜東映進化插曲PV","channelName":"東映アニメーション公式YouTubeチャンネル","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:IN:1": [{"youtubeVideoId":"-7tPqyv0CaM","title":"Be The Winners｜東映進化插曲PV","channelName":"東映アニメーション公式YouTubeチャンネル","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "114072:ED:1": [{"youtubeVideoId":"WHM8Iasi3WE","title":"【公式】ゴーハ第7小学校校歌","type":"creditless_ed","channelName":"遊戯王ラッシュデュエルTV","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "117096:OP:1": [
     {
@@ -543,71 +557,12 @@ export const curated2020SpringThemeVideos = {
       embeddable: true,
     },
   ],
-  "114811:OP:1": [
-    {
-      youtubeVideoId: "aPPCXVBHPhw",
-      title: "「デジモンアドベンチャー:」オープニング映像（曲・未確認飛行船）",
-      type: "creditless_op",
-      channelName: "東映アニメーション公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
-  "114811:ED:1": [
-    {
-      youtubeVideoId: "ZLtg9XI01Hc",
-      title:
-        "悔しさは種／藤川千愛（アニメ『デジモンアドベンチャー：』エンディングテーマ）Music Video（”Digimon Adventure:”Ending Theme）",
-      type: "full_music_video",
-      channelName: "Chiai Fujikawa",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
-  "114811:ED:2": [
-    {
-      youtubeVideoId: "ks-KJWs_3uk",
-      title:
-        '「デジモンアドベンチャー:」エンディング映像（曲・Q?）"Digimon Adventure:" new video with "Q?"',
-      type: "creditless_ed",
-      channelName: "東映アニメーション公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
-  "114811:ED:3": [
-    {
-      youtubeVideoId: "sdQwCfi90DE",
-      title:
-        '「デジモンアドベンチャー:」エンディング映像（曲・Mind game） "Digimon Adventure:" Music Video',
-      type: "creditless_ed",
-      channelName: "東映アニメーション公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
-  "114811:ED:4": [
-    {
-      youtubeVideoId: "srExFEuO2OU",
-      title:
-        '「デジモンアドベンチャー:」エンディング映像（歌・ウォルピスカーター）"DIGIMON ADVENTURE:" Music Video',
-      type: "creditless_ed",
-      channelName: "東映アニメーション公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
-  "114811:ED:5": [
-    {
-      youtubeVideoId: "D2m-evQN6jM",
-      title:
-        '「デジモンアドベンチャー:」エンディング映像（曲・Dreamers） "Digimon Adventure:" Music Video',
-      type: "creditless_ed",
-      channelName: "東映アニメーション公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
+  "114811:OP:1": [{"youtubeVideoId":"aPPCXVBHPhw","title":"未確認飛行船｜東映無字幕片頭","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_op","officialStatus":"official","embeddable":true},{"youtubeVideoId":"5WEKOTQVRDM","title":"未確認飛行船｜唱片方完整版MV","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:ED:1": [{"youtubeVideoId":"ZLtg9XI01Hc","title":"悔しさは種｜藝人官方MV","channelName":"Chiai Fujikawa","type":"full_music_video","officialStatus":"official","embeddable":true}],
+  "114811:ED:2": [{"youtubeVideoId":"ks-KJWs_3uk","title":"Q?｜東映無字幕片尾","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":true},{"youtubeVideoId":"oBTxxpYre3g","title":"Q?｜藝人官方MV","channelName":"Reol Official","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"UDIpXGdM0eY","title":"Q?｜單曲官方音軌","channelName":"Reol Official","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"VU0oh638H_0","title":"Q?｜第六感官方音軌","channelName":"Reol Official","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:ED:3": [{"youtubeVideoId":"sdQwCfi90DE","title":"Mind game｜東映無字幕片尾","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":true},{"youtubeVideoId":"yZEI5AfDxK8","title":"Mind game｜藝人官方MV","channelName":"Maica_n","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"XP_mMvPliZo","title":"Mind game｜replica官方音軌","channelName":"Maica_n","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:ED:4": [{"youtubeVideoId":"srExFEuO2OU","title":"オーバーシーズ・ハイウェイ｜東映無字幕片尾","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":true},{"youtubeVideoId":"jDhxCfpJEI8","title":"オーバーシーズ・ハイウェイ｜藝人官方MV","channelName":"ウォルピス社","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "114811:ED:5": [{"youtubeVideoId":"D2m-evQN6jM","title":"Dreamers｜東映無字幕片尾","channelName":"東映アニメーション公式YouTubeチャンネル","type":"creditless_ed","officialStatus":"official","embeddable":true},{"youtubeVideoId":"yBz5vMI5i8E","title":"Dreamers｜唱片方官方MV","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"full_music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},{"youtubeVideoId":"BCBa-2jFyT4","title":"Dreamers｜TV SPOT","channelName":"日本コロムビア 公式YouTubeチャンネル","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "118630:OP:2": [
     {
       youtubeVideoId: "weZIhAQZRm0",
@@ -686,17 +641,7 @@ export const curated2020SpringThemeVideos = {
       embeddable: true,
     },
   ],
-  "114717:ED:1": [
-    {
-      youtubeVideoId: "D_D2hSzf0C0",
-      title:
-        "ダ・ヴィンチ：ポワロ「僕らがヒーロー」MV(アニメ「トミカ絆合体 アースグランナー」ED主題歌)",
-      type: "other",
-      channelName: "ぽにきゃん-Anime PONY CANYON",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
+  "114717:ED:1": [{"youtubeVideoId":"D_D2hSzf0C0","title":"僕らがヒーロー｜官方MV","channelName":"ぽにきゃん-Anime PONY CANYON","type":"music_video","officialStatus":"official","embeddable":true}],
   "112353:OP:1": [
     {
       youtubeVideoId: "xnZn1NwYUhc",
@@ -1119,17 +1064,7 @@ export const curated2020SpringThemeVideos = {
       embeddable: true,
     },
   ],
-  "114717:OP:1": [
-    {
-      youtubeVideoId: "MbFyOtpwx5s",
-      title:
-        "オーイシマサヨシ - 世界が君を必要とする時が来たんだ［Official Video］",
-      type: "full_music_video",
-      channelName: "Masayoshi Oishi",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
+  "114717:OP:1": [{"youtubeVideoId":"MbFyOtpwx5s","title":"世界が君を必要とする時が来たんだ｜官方MV","channelName":"Masayoshi Oishi","type":"full_music_video","officialStatus":"official","embeddable":true},{"youtubeVideoId":"_IyOaaTOo7c","title":"世界が君を必要とする時が来たんだ｜官方音軌","channelName":"Masayoshi Oishi","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"tomica-kizuna-gattai-earth-granner-op-1-song-single-full"},{"youtubeVideoId":"azs3z2xZiXs","title":"世界が君を必要とする時が来たんだ (TV edit)｜官方音軌","channelName":"Masayoshi Oishi","type":"art_track","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"tomica-kizuna-gattai-earth-granner-op-1-song-tv-edit"}],
   "114411:OP:1": [
     {
       youtubeVideoId: "IK2UjYIxsFo",
