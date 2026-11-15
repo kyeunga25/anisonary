@@ -1,6 +1,39 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+  "104276:IN:3": [
+    {
+      "youtubeVideoId": "GgwUenaQqlM",
+      "title": "Hero too｜TOHO 文化祭舞台特別 MV",
+      "channelName": "TOHO animation チャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101239:IN:1": [
+    {
+      "youtubeVideoId": "Byxnq7KjMHM",
+      "title": "明日の空へ｜官方 Art Track",
+      "channelName": "saji",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "ahiru-no-sora-in-1-song-digital-full"
+    },
+    {
+      "youtubeVideoId": "fAn33q0zKKk",
+      "title": "明日の空へ -Album ver.-｜官方 Art Track",
+      "channelName": "saji",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "ahiru-no-sora-in-1-song-album-version"
+    }
+  ],
   "112153:ED:5": [
     {
       "youtubeVideoId": "Ga2G1wyI-3o",
@@ -120,23 +153,41 @@ export const curated2019FallThemeVideos = {
   ],
   "101239:ED:3": [
     {
-      youtubeVideoId: "2iRKfc_x7hQ",
-      title: "宮野真守 「光射す方へ」 | 【アニメ】 あひるの空 | エンディング",
-      type: "other",
-      channelName: "KING AMUSEMENT CREATIVE",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "2iRKfc_x7hQ",
+      "title": "宮野真守 「光射す方へ」 | 【アニメ】 あひるの空 | エンディング",
+      "type": "other",
+      "channelName": "KING AMUSEMENT CREATIVE",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "s_Zr4bSEozI",
+      "title": "光射す方へ｜官方 MV",
+      "channelName": "宮野真守",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "101239:ED:4": [
     {
-      youtubeVideoId: "6SWVTQQJYns",
-      title: "阪本奨悟 「太陽ランナー」 | 【アニメ】 あひるの空 | エンディング",
-      type: "other",
-      channelName: "KING AMUSEMENT CREATIVE",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "6SWVTQQJYns",
+      "title": "阪本奨悟 「太陽ランナー」 | 【アニメ】 あひるの空 | エンディング",
+      "type": "other",
+      "channelName": "KING AMUSEMENT CREATIVE",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "JGsbGODWLzw",
+      "title": "太陽ランナー｜官方 MV",
+      "channelName": "阪本奨悟",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "103275:OP:1": [
     {
@@ -256,36 +307,60 @@ export const curated2019FallThemeVideos = {
   ],
   "104276:OP:1": [
     {
-      youtubeVideoId: "VtNgeDxYJzE",
-      title:
-        "『僕のヒーローアカデミア』第4期ノンクレジットOP映像／「ポラリス」BLUE ENCOUNT",
-      type: "creditless_op",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "VtNgeDxYJzE",
+      "title": "『僕のヒーローアカデミア』第4期ノンクレジットOP映像／「ポラリス」BLUE ENCOUNT",
+      "type": "creditless_op",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "Isb7Q4jEA04",
+      "title": "ポラリス｜官方全曲 MV",
+      "channelName": "BLUE ENCOUNT Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104276:OP:2": [
     {
-      youtubeVideoId: "vk0iPWFxQ9w",
-      title:
-        "KANA-BOON 『スターマーカー』Music Video（『僕のヒーローアカデミア』第4期OPテーマ）",
-      type: "full_music_video",
-      channelName: "KANA-BOON Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "vk0iPWFxQ9w",
+      "title": "KANA-BOON 『スターマーカー』Music Video（『僕のヒーローアカデミア』第4期OPテーマ）",
+      "type": "full_music_video",
+      "channelName": "KANA-BOON Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "MdfFVdFWl1U",
+      "title": "スターマーカー｜TOHO 文化祭編無字幕片頭",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104276:ED:2": [
     {
-      youtubeVideoId: "Ww8oxgqDQSs",
-      title:
-        "緑黄色社会 『Shout Baby』Music Video（『僕のヒーローアカデミア』第4期EDテーマ）",
-      type: "full_music_video",
-      channelName: "緑黄色社会",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "Ww8oxgqDQSs",
+      "title": "緑黄色社会 『Shout Baby』Music Video（『僕のヒーローアカデミア』第4期EDテーマ）",
+      "type": "full_music_video",
+      "channelName": "緑黄色社会",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "qi1J4Lyl8do",
+      "title": "Shout Baby｜TOHO 文化祭編無字幕片尾",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104722:OP:1": [
     {

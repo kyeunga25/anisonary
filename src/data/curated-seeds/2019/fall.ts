@@ -395,925 +395,3961 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     themes: [],
   },
   {
-    anilistId: 101239,
-    slug: "ahiru-no-sora",
-    startDate: "2019-10-02",
-    titleJa: "あひるの空",
-    titleZhHant: "籃球少年王",
-    titleRomaji: "Ahiru no Sora",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101239-iGhniUbzVgpn.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101239-3xMk1BuT06HX.jpg",
-    broadcastLabel: "2019日本TV原系列，10/2開播；2020年3月前週三18:25–18:55，4月後17:55–18:25。另有BSテレビ東京第12話2019/12/18深夜24:30–24:59完整單話槽；節目槽非淨片長，歌曲分2019秋及2020冬／春／夏核對。",
-    officialSiteUrl: "https://ahirunosora.jp/",
-    animeThemesUrl: "https://animethemes.moe/anime/ahiru_no_sora",
-    themes: [
+    "anilistId": 101239,
+    "slug": "ahiru-no-sora",
+    "startDate": "2019-10-02",
+    "titleJa": "あひるの空",
+    "titleZhHant": "籃球少年王",
+    "titleRomaji": "Ahiru no Sora",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101239-iGhniUbzVgpn.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101239-3xMk1BuT06HX.jpg",
+    "broadcastLabel": "2019/10/2–2020/9/30，日本テレビ東京系列週三原播全50話。2019秋第1–13話；2020冬第14–24話；4/1第25話起改17:55 JST，春季播至6/17第36話，7/1第37話起為夏季。",
+    "officialSiteUrl": "https://ahirunosora.jp/",
+    "animeThemesUrl": "https://animethemes.moe/anime/ahiru_no_sora",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Happy Go Ducky!",
-        artistDisplayName: "the pillows",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=J5b_S_nHjmY",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://pillows.jp/s/disco/20191009/",
-    "label": "第一方曲目資料：the pillows公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "ahiru-no-sora-op-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://pillows.jp/s/disco/20191009/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://pillows.jp/s/disco/20191009/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-1-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Happy Go Ducky!",
+        "artistDisplayName": "the pillows",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=J5b_S_nHjmY",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://pillows.jp/s/disco/20191009/",
+            "label": "第一方曲目資料：the pillows公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1639887810",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1639887811",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "songId": "ahiru-no-sora-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-1-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1-song-single-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-1983"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-91982"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1639887811"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1639887811"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://music.apple.com/hk/album/1639887810"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1639887810"
+          }
+        ],
+        "id": "ahiru-no-sora-op-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Happy Go Ducky!｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1639887811",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1639887810",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-op-1-song-single-full"
+          }
+        ],
+        "usageLabel": "日本原播第1–13話片頭；第50話改在片尾使用。",
+        "credits": [
+          {
+            "name": "the pillows",
+            "role": "vocals"
+          },
+          {
+            "name": "山中さわお",
+            "role": "lyrics"
+          },
+          {
+            "name": "山中さわお",
+            "role": "composition"
+          },
+          {
+            "name": "the pillows",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-op-1-song-single-full",
+            "title": "Happy Go Ducky!",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2019-10-09",
+        "releases": [
+          {
+            "id": "kicm-1983",
+            "title": "Happy Go Ducky!",
+            "type": "single",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-1983"
+          },
+          {
+            "id": "kicm-91982",
+            "title": "Happy Go Ducky!",
+            "type": "single",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "初回限定 CD+DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-91982"
+          },
+          {
+            "id": "apple-hk-1639887810",
+            "title": "Happy Go Ducky!",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "JPU Records"
+          }
+        ]
+      },
       {
-        type: "OP",
-        sequence: 2,
-        titleJa: "ネバーマインド",
-        artistDisplayName: "flumpool",
-
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本曲仍待第一方明示原TV版曲名、演唱與用途。實際使用季度亦待核對，暫不列入季度曲目。",
-    "resumeWhen": "取得原TV版逐曲第一方資料，或完成本曲版本身分的個別核對後補充。取得逐話用曲與播出日期資料後再補用途季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
-},
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "ネバーマインド",
+        "artistDisplayName": "flumpool",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "id": "ahiru-no-sora-op-2",
+        "songId": "ahiru-no-sora-op-2-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.flumpool.jp/discography/16021/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://fendernews.jp/cover-2020-flumpool-b/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1493760624",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1493760625",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-2-song-single-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://fendernews.jp/cover-2020-flumpool-b/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-2-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "azcs-2079"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "azzs-101"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1493760625"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1493760625"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.flumpool.jp/discography/16021/",
+              "https://music.apple.com/hk/album/1493760624"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1493760624"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ネバーマインド｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1493760625",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1493760624",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "usageLabel": "日本原播第14–24話片頭，1月8日起使用。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "flumpool",
+            "role": "vocals"
+          },
+          {
+            "name": "山村隆太",
+            "role": "lyrics"
+          },
+          {
+            "name": "阪井一生",
+            "role": "composition"
+          },
+          {
+            "name": "百田留衣",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-op-2-song-single-full",
+            "title": "ネバーマインド",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2020-01-08",
+        "releases": [
+          {
+            "id": "azcs-2079",
+            "title": "素晴らしき嘘",
+            "type": "single",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "flumpool",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ネバーマインド",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-2-song-single-full"
+              }
+            ],
+            "label": "A-Sketch",
+            "catalogNumber": "AZCS-2079"
+          },
+          {
+            "id": "azzs-101",
+            "title": "素晴らしき嘘",
+            "type": "single",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "flumpool",
+            "edition": "初回限定 CD+DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ネバーマインド",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-2-song-single-full"
+              }
+            ],
+            "label": "A-Sketch",
+            "catalogNumber": "AZZS-101"
+          },
+          {
+            "id": "apple-hk-1493760624",
+            "title": "ネバーマインド / 素晴らしき嘘",
+            "type": "single",
+            "date": {
+              "value": "2020-01-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "flumpool",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ネバーマインド",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "相信音樂"
+          }
+        ]
+      },
       {
-        type: "OP",
-        sequence: 3,
-        titleJa: "ハミングバード",
-        artistDisplayName: "BLUE ENCOUNT",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=duvGhKdbmYM",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://blueencount.jp/news/detail/3042",
-    "label": "第一方曲目資料：BLUE ENCOUNTオフィシャルサイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-spring"
-],
-"songId": "ahiru-no-sora-op-3-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-3-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://blueencount.jp/news/detail/3042"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://blueencount.jp/news/detail/3042"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-3-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-3-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-3",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
+        "type": "OP",
+        "sequence": 3,
+        "titleJa": "ハミングバード",
+        "artistDisplayName": "BLUE ENCOUNT",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=duvGhKdbmYM",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://blueencount.jp/news/detail/3042",
+            "label": "第一方曲目資料：BLUE ENCOUNTオフィシャルサイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blueencount.jp/news/detail/3025",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1536509518",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536509521",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "songId": "ahiru-no-sora-op-3-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3042"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3042"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-3-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-3-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-3",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025",
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-3-song-digital-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-3-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536509521"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536509521"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/detail/3025",
+              "https://music.apple.com/hk/album/1536509518"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1536509518"
+          }
+        ],
+        "id": "ahiru-no-sora-op-3",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ハミングバード｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536509521",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536509518",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-op-3-song-digital-full"
+          }
+        ],
+        "usageLabel": "日本原播第25–33、35–36話片頭；第34話省略片頭歌曲。",
+        "credits": [
+          {
+            "name": "BLUE ENCOUNT",
+            "role": "vocals"
+          },
+          {
+            "name": "田邊駿一",
+            "role": "lyrics"
+          },
+          {
+            "name": "田邊駿一",
+            "role": "composition"
+          },
+          {
+            "name": "BLUE ENCOUNT",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-op-3-song-digital-full",
+            "title": "ハミングバード",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2020-04-08",
+        "releases": [
+          {
+            "id": "apple-hk-1536509518",
+            "title": "ハミングバード",
+            "type": "single",
+            "date": {
+              "value": "2020-04-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "BLUE ENCOUNT",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ハミングバード",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-3-song-digital-full"
+              }
+            ],
+            "label": "Sony Music Labels Inc."
+          }
+        ]
+      },
       {
-        type: "OP",
-        sequence: 4,
-        titleJa: "Rebirth",
-        artistDisplayName: "ACIDMAN",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=0OW-WVDE6og",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://acidman.jp/newsinfo/20200904/",
-    "label": "第一方曲目資料：ACIDMAN OFFICIAL WEBSITE",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-summer"
-],
-"songId": "ahiru-no-sora-op-4-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://acidman.jp/newsinfo/20200904/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://acidman.jp/newsinfo/20200904/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-op-4-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-op-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
+        "type": "OP",
+        "sequence": 4,
+        "titleJa": "Rebirth",
+        "artistDisplayName": "ACIDMAN",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=0OW-WVDE6og",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://acidman.jp/newsinfo/20200904/",
+            "label": "第一方曲目資料：ACIDMAN OFFICIAL WEBSITE",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://acidman.jp/disco/rebirth/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://acidman.jp/disco/innocence/",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1591888847",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1591888855",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "songId": "ahiru-no-sora-op-4-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/newsinfo/20200904/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/newsinfo/20200904/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-op-4-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-op-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/disco/rebirth/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/disco/rebirth/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/disco/rebirth/",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/disco/rebirth/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-4-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1591888855"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1591888855"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://acidman.jp/disco/innocence/",
+              "https://music.apple.com/hk/album/1591888847"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1591888847"
+          }
+        ],
+        "id": "ahiru-no-sora-op-4",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Rebirth｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1591888855",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1591888847",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "usageLabel": "日本原播第37–39、41–49話片頭；第40、50話無歌曲片頭。",
+        "credits": [
+          {
+            "name": "ACIDMAN",
+            "role": "vocals"
+          },
+          {
+            "name": "大木伸夫",
+            "role": "lyrics"
+          },
+          {
+            "name": "大木伸夫",
+            "role": "composition"
+          }
+        ],
+        "releaseDate": "2020-09-04",
+        "releases": [
+          {
+            "id": "apple-hk-1591888847",
+            "title": "INNOCENCE",
+            "type": "album",
+            "date": {
+              "value": "2021-10-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ACIDMAN",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Rebirth",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "Virgin Music"
+          }
+        ]
+      },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ツバサ",
-        artistDisplayName: "saji",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=P9F9jayA1as",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
-    "label": "第一方曲目資料：テレビ東京・BSテレビ東京公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "ahiru-no-sora-ed-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-1-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ツバサ",
+        "artistDisplayName": "saji",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=P9F9jayA1as",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
+            "label": "第一方曲目資料：テレビ東京・BSテレビ東京公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.kingrecords.co.jp/2022/05/2568/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.kingrecords.co.jp/shop/artist/artist.aspx?artist=45816&dtype=CDSINGLE",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1476039444",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1476039656",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1481538976",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1481538978",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "songId": "ahiru-no-sora-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-1-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://news.kingrecords.co.jp/2022/05/2568/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://news.kingrecords.co.jp/2022/05/2568/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://store.kingrecords.co.jp/shop/artist/artist.aspx?artist=45816&dtype=CDSINGLE",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://store.kingrecords.co.jp/shop/artist/artist.aspx?artist=45816&dtype=CDSINGLE"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-1-song-single-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/album/1476039444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-1-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1476039656"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1476039656"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.kingrecords.co.jp/shop/artist/artist.aspx?artist=45816&dtype=CDSINGLE",
+              "https://music.apple.com/jp/album/1476039444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1476039444"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1481538978"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1481538978"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.kingrecords.co.jp/shop/artist/artist.aspx?artist=45816&dtype=CDSINGLE",
+              "https://music.apple.com/jp/album/1481538976"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1481538976"
+          }
+        ],
+        "id": "ahiru-no-sora-ed-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ツバサ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1476039656",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1476039444",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ツバサ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1481538978",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1481538976",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-1-song-single-full"
+          }
+        ],
+        "usageLabel": "日本原播第1–13話片尾。",
+        "credits": [
+          {
+            "name": "saji",
+            "role": "vocals"
+          },
+          {
+            "name": "ヨシダタクミ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヨシダタクミ",
+            "role": "composition"
+          },
+          {
+            "name": "アオヤマイクミ",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-ed-1-song-single-full",
+            "title": "ツバサ",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2019-08-28",
+        "releases": [
+          {
+            "id": "apple-jp-1476039444",
+            "title": "ツバサ",
+            "type": "single",
+            "date": {
+              "value": "2019-08-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "saji",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ツバサ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          },
+          {
+            "id": "apple-jp-1481538976",
+            "title": "ツバサ",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "saji",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ツバサ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ]
+      },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Over",
-        artistDisplayName: "内田雄馬",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=bjSL3JGJboo",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.uchidayuma.com/information/?id=245",
-    "label": "第一方曲目資料：内田雄馬公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter"
-],
-"credits": [
-  {
-    "name": "内田雄馬",
-    "role": "vocals"
-  },
-  {
-    "name": "SHOW",
-    "role": "lyrics"
-  },
-  {
-    "name": "SHOW",
-    "role": "composition"
-  },
-  {
-    "name": "Mitsu.J",
-    "role": "composition"
-  },
-  {
-    "name": "Mitsu.J",
-    "role": "arrangement"
-  }
-],
-"songId": "ahiru-no-sora-ed-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-2-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.uchidayuma.com/information/?id=245"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.uchidayuma.com/information/?id=245"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-2-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-2-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-2",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "credits",
-    "fields": [
-      "credits"
-    ],
-    "sourceUrls": [
-      "https://www.uchidayuma.com/information/?id=245"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Over",
+        "artistDisplayName": "内田雄馬",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=bjSL3JGJboo",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.uchidayuma.com/information/?id=245",
+            "label": "第一方曲目資料：内田雄馬公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uchidayuma.com/discography/?id=9",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1496569969",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1496569970",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1496569973",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "credits": [
+          {
+            "name": "内田雄馬",
+            "role": "vocals"
+          },
+          {
+            "name": "SHOW",
+            "role": "lyrics"
+          },
+          {
+            "name": "SHOW",
+            "role": "composition"
+          },
+          {
+            "name": "Mitsu.J",
+            "role": "composition"
+          },
+          {
+            "name": "Mitsu.J",
+            "role": "arrangement"
+          }
+        ],
+        "songId": "ahiru-no-sora-ed-2-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/information/?id=245"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/information/?id=245"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-2-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/information/?id=245"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-2-song-off-vocal"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-2-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-2028"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-92028"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1496569970"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1496569970"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1496569973"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1496569973"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.uchidayuma.com/discography/?id=9",
+              "https://music.apple.com/jp/album/1496569969"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1496569969"
+          }
+        ],
+        "id": "ahiru-no-sora-ed-2",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Over｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1496569970",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1496569969",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-2-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Over (off vocal ver.)｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1496569973",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1496569969",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-2-song-off-vocal"
+          }
+        ],
+        "usageLabel": "日本原播第14–24話片尾。",
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-ed-2-song-single-full",
+            "title": "Over",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "ahiru-no-sora-ed-2-song-off-vocal",
+            "title": "Over (off vocal ver.)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2020-02-19",
+        "releases": [
+          {
+            "id": "kicm-2028",
+            "title": "Over",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "内田雄馬",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-single-full"
+              },
+              {
+                "title": "Over (off vocal ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-off-vocal"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-2028"
+          },
+          {
+            "id": "kicm-92028",
+            "title": "Over",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "内田雄馬",
+            "edition": "期間限定盤 CD+DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-single-full"
+              },
+              {
+                "title": "Over (off vocal ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-off-vocal"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-92028"
+          },
+          {
+            "id": "apple-jp-1496569969",
+            "title": "Over",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "内田雄馬",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Over",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-single-full"
+              },
+              {
+                "title": "Over (off vocal ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-2-song-off-vocal"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ]
+      },
       {
-        type: "ED",
-        sequence: 3,
-        titleJa: "光射す方へ",
-        artistDisplayName: "宮野真守",
-
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "原TV用曲與另列Album ver.的曲名及用途關係仍待核對，暫保留原資料。實際使用季度亦待核對，暫不列入季度曲目。",
-    "resumeWhen": "取得原TV版逐曲第一方資料，或完成本曲版本身分的個別核對後補充。取得逐話用曲與播出日期資料後再補用途季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
-},
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "光射す方へ",
+        "artistDisplayName": "宮野真守",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "id": "ahiru-no-sora-ed-3",
+        "songId": "ahiru-no-sora-ed-3-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://seigura.com/news/31789/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1503118029",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1503118034",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=s_Zr4bSEozI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3-song-single-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://seigura.com/news/31789/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-2044"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1503118034"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1503118034"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://music.apple.com/jp/album/1503118029"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1503118029"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=s_Zr4bSEozI"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "s_Zr4bSEozI"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "光射す方へ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1503118034",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1503118029",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+          }
+        ],
+        "usageLabel": "日本原播第25–36話片尾；第50話另於劇中使用。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "宮野真守",
+            "role": "vocals"
+          },
+          {
+            "name": "宮野真守",
+            "role": "lyrics"
+          },
+          {
+            "name": "Jin Nakamura",
+            "role": "composition"
+          },
+          {
+            "name": "Jin Nakamura",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-ed-3-song-single-full",
+            "title": "光射す方へ",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2020-04-01",
+        "releases": [
+          {
+            "id": "kicm-2044",
+            "title": "光射す方へ",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "宮野真守",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "光射す方へ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-2044"
+          },
+          {
+            "id": "apple-jp-1503118029",
+            "title": "光射す方へ",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "宮野真守",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "光射す方へ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ]
+      },
       {
-        type: "ED",
-        sequence: 4,
-        titleJa: "太陽ランナー",
-        artistDisplayName: "阪本奨悟",
-
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KING AMUSEMENT CREATIVE 官方影片",
-    "url": "https://www.youtube.com/watch?v=6SWVTQQJYns",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/",
-    "label": "第一方曲目資料：A-Sketch Official Site",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
-    "label": "歌曲交叉資料：アニしま",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.mau2.com/anime/ahirunosora",
-    "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-summer"
-],
-"songId": "ahiru-no-sora-ed-4-song",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "太陽ランナー",
+        "artistDisplayName": "阪本奨悟",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原期逐話用曲與商業發行核對。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://ahirunosora.jp/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/ahiru_no_sora",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "KING AMUSEMENT CREATIVE 官方影片",
+            "url": "https://www.youtube.com/watch?v=6SWVTQQJYns",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/",
+            "label": "第一方曲目資料：A-Sketch Official Site",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anime-song-info.com/ahirunosora-op-ed-20sm/",
+            "label": "歌曲交叉資料：アニしま",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "歌曲交叉資料：まうまう☆ アニメ声優情報",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.a-sketch.com/information/sakamoto-ahirunosora-newed/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.yukinara.com/work/list/compose_arrange",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JGsbGODWLzw",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1840120389",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1840120393",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "songId": "ahiru-no-sora-ed-4-song",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-4-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "ahiru-no-sora-ed-4-song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "ahiru-no-sora-ed-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/sakamoto-ahirunosora-newed/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/sakamoto-ahirunosora-newed/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/sakamoto-ahirunosora-newed/",
+              "https://www.yukinara.com/work/list/compose_arrange",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=JGsbGODWLzw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-4-song-digital-full"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1840120389"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-4-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1840120393"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1840120393"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.a-sketch.com/information/sakamoto-ahirunosora-newed/",
+              "https://music.apple.com/hk/album/1840120389"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1840120389"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=JGsbGODWLzw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "JGsbGODWLzw"
+          }
+        ],
+        "id": "ahiru-no-sora-ed-4",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "太陽ランナー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1840120393",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1840120389",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-4-song-digital-full"
+          }
+        ],
+        "usageLabel": "日本原播第37–38、40–49話片尾。第39話無歌曲片尾，第50話改用〈Happy Go Ducky!〉。",
+        "credits": [
+          {
+            "name": "阪本奨悟",
+            "role": "vocals"
+          },
+          {
+            "name": "阪本奨悟",
+            "role": "lyrics"
+          },
+          {
+            "name": "阪本奨悟",
+            "role": "composition"
+          },
+          {
+            "name": "奈良悠樹",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-ed-4-song-digital-full",
+            "title": "太陽ランナー",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2020-07-15",
+        "releases": [
+          {
+            "id": "apple-hk-1840120389",
+            "title": "太陽ランナー",
+            "type": "single",
+            "date": {
+              "value": "2020-07-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "阪本奨悟",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "太陽ランナー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-4-song-digital-full"
+              }
+            ],
+            "label": "DMM music / Astro Voice"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 5,
+        "id": "ahiru-no-sora-ed-5",
+        "titleJa": "Happy Go Ducky!",
+        "artistDisplayName": "the pillows",
+        "songId": "ahiru-no-sora-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pillows.jp/s/disco/20191009/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora/ep/50",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1639887810",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1639887811",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Happy Go Ducky!｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1639887811",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1639887810",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-op-1-song-single-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/",
+              "https://pillows.jp/s/disco/20191009/",
+              "https://www.mau2.com/anime/ahirunosora/ep/50",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://www.mau2.com/anime/ahirunosora/ep/50"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-op-1-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-1983"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-91982"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1639887811"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1639887811"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/20191009/",
+              "https://music.apple.com/hk/album/1639887810"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1639887810"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第50話（2020/9/30）片尾，與第一支例行片頭為同首歌。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-op-1-song-single-full",
+            "title": "Happy Go Ducky!",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kicm-1983",
+            "title": "Happy Go Ducky!",
+            "type": "single",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-1983"
+          },
+          {
+            "id": "kicm-91982",
+            "title": "Happy Go Ducky!",
+            "type": "single",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "初回限定 CD+DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-91982"
+          },
+          {
+            "id": "apple-hk-1639887810",
+            "title": "Happy Go Ducky!",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Happy Go Ducky!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-op-1-song-single-full"
+              }
+            ],
+            "label": "JPU Records"
+          }
+        ],
+        "releaseDate": "2019-10-09",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第50話片尾的實際剪輯待原播或權利方資料。",
+            "resumeWhen": "待權利方提供獨立原播剪輯或按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "ahiru-no-sora-in-1",
+        "titleJa": "明日の空へ",
+        "artistDisplayName": "saji",
+        "songId": "ahiru-no-sora-in-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.kingrecords.co.jp/2022/11/7851/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://skream.jp/news/2020/05/saji_new_digital_single.php",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Byxnq7KjMHM",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.kingrecords.co.jp/2024/02/25836/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1514545310",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1514545311",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1555446401",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1555446414",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fAn33q0zKKk",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "明日の空へ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1514545311",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1514545310",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-in-1-song-digital-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "明日の空へ -Album ver.-｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1555446414",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1555446401",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-in-1-song-album-version"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+              "https://news.kingrecords.co.jp/2022/11/7851/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://skream.jp/news/2020/05/saji_new_digital_single.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://news.kingrecords.co.jp/2022/11/7851/",
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM",
+              "https://skream.jp/news/2020/05/saji_new_digital_single.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-1-song-digital-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://news.kingrecords.co.jp/2024/02/25836/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-1-song-album-version"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-1-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1514545311"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1514545311"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM",
+              "https://music.apple.com/jp/album/1514545310"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1514545310"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1555446414"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1555446414"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://news.kingrecords.co.jp/2024/02/25836/",
+              "https://music.apple.com/jp/album/1555446401"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1555446401"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Byxnq7KjMHM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "Byxnq7KjMHM"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fAn33q0zKKk"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fAn33q0zKKk"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第33話「LIFE」（2020/5/27）劇中插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "saji",
+            "role": "vocals"
+          },
+          {
+            "name": "ヨシダタクミ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ヨシダタクミ",
+            "role": "composition"
+          },
+          {
+            "name": "saji",
+            "role": "arrangement"
+          },
+          {
+            "name": "菊谷知樹",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-in-1-song-digital-full",
+            "title": "明日の空へ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "ahiru-no-sora-in-1-song-album-version",
+            "title": "明日の空へ -Album ver.-",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releaseDate": "2020-06-03",
+        "releases": [
+          {
+            "id": "apple-jp-1514545310",
+            "title": "明日の空へ",
+            "type": "single",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "saji",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "明日の空へ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-in-1-song-digital-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          },
+          {
+            "id": "apple-jp-1555446401",
+            "title": "populars popless",
+            "type": "album",
+            "date": {
+              "value": "2021-03-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "saji",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "明日の空へ -Album ver.-",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-in-1-song-album-version"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原數位單曲與後來另名 Album ver. 分列。",
+            "resumeWhen": "待原播音軌與單曲的對照和香港正版曲目入口。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "ahiru-no-sora-in-2",
+        "titleJa": "TRIP DANCER",
+        "artistDisplayName": "the pillows",
+        "songId": "ahiru-no-sora-in-2-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pillows.jp/s/disco/19961121/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.kingrecords.co.jp/shop/contents1/pillows.aspx",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1641311174",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1641311477",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "TRIP DANCER｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1641311477",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1641311174",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+              "https://pillows.jp/s/disco/19961121/",
+              "https://www.mau2.com/anime/ahirunosora",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/19961121/",
+              "https://www.mau2.com/anime/ahirunosora"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/19961121/",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://pillows.jp/s/disco/19961121/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-2-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1641311477"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1641311477"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.kingrecords.co.jp/shop/contents1/pillows.aspx",
+              "https://music.apple.com/hk/album/1641311174"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1641311174"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第33話「LIFE」（2020/5/27）劇中插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "the pillows",
+            "role": "vocals"
+          },
+          {
+            "name": "山中さわお",
+            "role": "lyrics"
+          },
+          {
+            "name": "山中さわお",
+            "role": "composition"
+          }
+        ],
+        "releaseDate": "1996-11-21",
+        "releases": [
+          {
+            "id": "apple-hk-1641311174",
+            "title": "Please Mr. Lostman",
+            "type": "album",
+            "date": {
+              "value": "1997-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "the pillows",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "TRIP DANCER",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "同名初期單曲與曲目已核。",
+            "resumeWhen": "待第33話播出版音軌辨識，確認是早期錄音、後來母帶或演出版本。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "ahiru-no-sora-in-3",
+        "titleJa": "光射す方へ",
+        "artistDisplayName": "宮野真守",
+        "songId": "ahiru-no-sora-ed-3-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/ahirunosora/ep/50",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1503118029",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1503118034",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "光射す方へ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1503118034",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1503118029",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/",
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://www.mau2.com/anime/ahirunosora/ep/50",
+              "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://www.mau2.com/anime/ahirunosora/ep/50"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ahiru-no-sora-ed-3-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kicm-2044"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1503118034"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1503118034"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-2044/",
+              "https://music.apple.com/jp/album/1503118029"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1503118029"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第50話（2020/9/30）劇中使用第三支例行片尾曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "ahiru-no-sora-ed-3-song-single-full",
+            "title": "光射す方へ",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kicm-2044",
+            "title": "光射す方へ",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "宮野真守",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "光射す方へ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS",
+            "catalogNumber": "KICM-2044"
+          },
+          {
+            "id": "apple-jp-1503118029",
+            "title": "光射す方へ",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "宮野真守",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "光射す方へ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "ahiru-no-sora-ed-3-song-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "releaseDate": "2020-04-01",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第50話插曲與常規片尾共用歌曲ID。",
+            "resumeWhen": "待權利方說明該話所用剪輯與商業發行的對應。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-    "sourceUrls": [
-      "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://ahirunosora.jp/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/101239",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/ahiru_no_sora",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
+        "label": "第一方播出資料：テレビ東京・BSテレビ東京公式サイト",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
+        "label": "播出交叉資料：中文維基百科",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/",
+        "label": "原台節目及2020年4月時段變更",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_3.html",
+        "label": "原台第25話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/index_2.html",
+        "label": "原台第33、36、37話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/ahirunosora/episodes/",
+        "label": "原台第50話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5428/time",
+        "label": "原期各台時段和逐話日程",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
     ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-4",
-    "fields": [
-      "usage"
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter",
+      "2020-spring",
+      "2020-summer"
     ],
-    "sourceUrls": [
-      "https://www.a-sketch.com/artist/%E9%98%AA%E6%9C%AC%E5%A5%A8%E6%82%9F-2/"
-    ],
-    "verifiedAt": "2026-10-31"
+    "metadataVerifiedAt": "2026-11-16"
   },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-4-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anime-song-info.com/ahirunosora-op-ed-20sm/"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "ahiru-no-sora-ed-4-song",
-    "fields": [
-      "title"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "ahiru-no-sora-ed-4",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.mau2.com/anime/ahirunosora"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
-    ],
-
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://ahirunosora.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/101239",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/ahiru_no_sora",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25585_201912182430.html",
-    "label": "第一方播出資料：テレビ東京・BSテレビ東京公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E7%B1%83%E7%90%83%E5%B0%91%E5%B9%B4%E7%8E%8B",
-    "label": "播出交叉資料：中文維基百科",
-    "role": "broadcast_cross_check",
-    "language": "zh-Hant",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter",
-  "2020-spring",
-  "2020-summer"
-],
-},
   {
     anilistId: 105156,
     slug: "shinchou-yuusha-kono-yuusha-ga-ore-tueee-kuse-ni-shinchou-sugiru",
@@ -11907,601 +14943,3105 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 104276,
-    slug: "boku-no-hero-academia-4",
-    startDate: "2019-10-12",
-    titleJa: "僕のヒーローアカデミア４",
-    titleZhHant: "我的英雄學院 第4季",
-    titleRomaji: "Boku no Hero Academia 4",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104276-SnEowMvesWIE.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104276-PQO1pcNzzWT0.jpg",
-    broadcastLabel: "2019年第4期日本TV，10月12日起星期六17:30–18:00完整30分鐘常規槽；初回颱風僅5局休止／10月19日補播另列，槽非淨片長。",
-    officialSiteUrl: "https://heroaca.com/",
-    animeThemesUrl:
-      "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    themes: [
+    "anilistId": 104276,
+    "slug": "boku-no-hero-academia-4",
+    "startDate": "2019-10-12",
+    "titleJa": "僕のヒーローアカデミア４",
+    "titleZhHant": "我的英雄學院 第4季",
+    "titleRomaji": "Boku no Hero Academia 4",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104276-SnEowMvesWIE.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104276-PQO1pcNzzWT0.jpg",
+    "broadcastLabel": "2019/10/12–2020/4/4，讀賣電視台／日本電視台系列週六 17:30 JST，全25話（通算第64–88話）。首話受颱風影響的5局於10/19補播，其餘電視台10/12首播。2019/11/2停播一週。",
+    "officialSiteUrl": "https://heroaca.com/",
+    "animeThemesUrl": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ポラリス",
-        artistDisplayName: "BLUE ENCOUNT",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://heroaca.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "TOHO animation 官方影片",
-    "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://heroaca.com/news/6770/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://heroaca.com/special/oped-oneforall/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.lisani.jp/0000238136/",
-    "label": "歌曲交叉資料：リスアニ！",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
-"songId": "boku-no-hero-academia-4-op-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6770/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6770/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-1"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ポラリス",
+        "artistDisplayName": "BLUE ENCOUNT",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "實體動畫盤另收 TV size 伴奏。",
+            "resumeWhen": "待正版數位平台提供同一 TV size 伴奏直連。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://heroaca.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "TOHO animation 官方影片",
+            "url": "https://www.youtube.com/watch?v=VtNgeDxYJzE",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://heroaca.com/news/6770/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/special/oped-oneforall/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.lisani.jp/0000238136/",
+            "label": "歌曲交叉資料：リスアニ！",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/music/music_4th/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bokunoheroacademia-4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blueencount.jp/discography/detail/26/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lyruca.com/song/40465",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blueencount.jp/news/1/?page=58",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538176986",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538176987",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538176989",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538176990",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blueencount.jp/feature/special2019",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Isb7Q4jEA04",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "songId": "boku-no-hero-academia-4-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6770/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6770/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://animethemes.moe/anime/boku_no_hero_academia_4th_season"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://blueencount.jp/discography/detail/26/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/",
+              "https://lyruca.com/song/40465"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song-tv-size-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/1/?page=58"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song-original-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kscl-3200-3201"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kscl-3202"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/discography/detail/26/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kscl-3203-3204"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538176987"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538176987"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538176989"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538176989"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538176990"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538176990"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/1/?page=58",
+              "https://music.apple.com/hk/album/1538176986"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538176986"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://blueencount.jp/news/1/?page=58"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Isb7Q4jEA04",
+              "https://blueencount.jp/feature/special2019"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "Isb7Q4jEA04"
+          }
+        ],
+        "id": "boku-no-hero-academia-4-op-1",
+        "usageLabel": "第1–14話（通算第64–77話）片頭。",
+        "credits": [
+          {
+            "name": "BLUE ENCOUNT",
+            "role": "vocals"
+          },
+          {
+            "name": "田邊駿一",
+            "role": "lyrics"
+          },
+          {
+            "name": "田邊駿一",
+            "role": "composition"
+          },
+          {
+            "name": "BLUE ENCOUNT",
+            "role": "arrangement"
+          },
+          {
+            "name": "玉井健二",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-op-1-song-original-full",
+            "title": "ポラリス",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-1-song-tv-size",
+            "title": "ポラリス（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-1-song-tv-size-instrumental",
+            "title": "ポラリス（Instrumental / TV size）",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-1-song-original-instrumental",
+            "title": "ポラリス（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kscl-3200-3201",
+            "title": "ポラリス",
+            "type": "single",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "BLUE ENCOUNT",
+            "edition": "初回生産限定盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ポラリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-original-full"
+              }
+            ],
+            "label": "Ki/oon Music",
+            "catalogNumber": "KSCL-3200～3201"
+          },
+          {
+            "id": "kscl-3202",
+            "title": "ポラリス",
+            "type": "single",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "BLUE ENCOUNT",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ポラリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-original-full"
+              }
+            ],
+            "label": "Ki/oon Music",
+            "catalogNumber": "KSCL-3202"
+          },
+          {
+            "id": "kscl-3203-3204",
+            "title": "ポラリス",
+            "type": "single",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "BLUE ENCOUNT",
+            "edition": "期間生産限定動畫盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ポラリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-original-full"
+              },
+              {
+                "title": "ポラリス（TV size）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-tv-size"
+              },
+              {
+                "title": "ポラリス（Instrumental / TV size）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-tv-size-instrumental"
+              }
+            ],
+            "label": "Ki/oon Music",
+            "catalogNumber": "KSCL-3203～3204"
+          },
+          {
+            "id": "apple-hk-1538176986",
+            "title": "ポラリス (Special Edition)",
+            "type": "ep",
+            "date": {
+              "value": "2019-11-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "BLUE ENCOUNT",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ポラリス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-original-full"
+              },
+              {
+                "title": "ポラリス（TV size）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-tv-size"
+              },
+              {
+                "title": "ポラリス（Instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-1-song-original-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ポラリス｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538176987",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538176986",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-op-1-song-original-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ポラリス（TV size）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538176989",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538176986",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-op-1-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ポラリス（Instrumental）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538176990",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538176986",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-op-1-song-original-instrumental"
+          }
+        ],
+        "releaseDate": "2019-11-16"
       },
       {
-        type: "OP",
-        sequence: 2,
-        titleJa: "スターマーカー",
-        artistDisplayName: "KANA-BOON",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://heroaca.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "KANA-BOON Official YouTube Channel 官方影片",
-    "url": "https://www.youtube.com/watch?v=vk0iPWFxQ9w",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://heroaca.com/news/6899/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://heroaca.com/special/oped-oneforall/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.lisani.jp/0000238136/",
-    "label": "歌曲交叉資料：リスアニ！",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter",
-  "2020-spring"
-],
-"songId": "boku-no-hero-academia-4-op-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6899/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6899/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-op-2"
-  }
-],
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "スターマーカー",
+        "artistDisplayName": "KANA-BOON",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "實體動畫盤收 Anime Size 與兩種伴奏。",
+            "resumeWhen": "待香港正版平台公開同一 Anime Size 或伴奏曲目。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://heroaca.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "KANA-BOON Official YouTube Channel 官方影片",
+            "url": "https://www.youtube.com/watch?v=vk0iPWFxQ9w",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://heroaca.com/news/6899/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/special/oped-oneforall/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.lisani.jp/0000238136/",
+            "label": "歌曲交叉資料：リスアニ！",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/music/music_4th/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=i_uTSh7M3f0",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bokunoheroacademia-4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp.kanaboon.jp/discography/detail/32/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281248/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536466358",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1536466357",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=MdfFVdFWl1U",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring"
+        ],
+        "songId": "boku-no-hero-academia-4-op-2-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-op-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://heroaca.com/news/6899/",
+              "https://www.youtube.com/watch?v=i_uTSh7M3f0",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://animethemes.moe/anime/boku_no_hero_academia_4th_season"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/",
+              "https://heroaca.com/news/6899/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://sp.kanaboon.jp/discography/detail/32/",
+              "https://www.uta-net.com/song/281248/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song-anime-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song-original-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song-anime-size-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kscl-3240"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kscl-3241-3242"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536466358"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-op-2-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536466358"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536466358"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://sp.kanaboon.jp/discography/detail/32/",
+              "https://music.apple.com/hk/album/1536466357"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1536466357"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MdfFVdFWl1U",
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "MdfFVdFWl1U"
+          }
+        ],
+        "id": "boku-no-hero-academia-4-op-2",
+        "usageLabel": "第15–25話（通算第78–88話）片頭，含4/4最終話。",
+        "credits": [
+          {
+            "name": "KANA-BOON",
+            "role": "vocals"
+          },
+          {
+            "name": "谷口鮪",
+            "role": "lyrics"
+          },
+          {
+            "name": "谷口鮪",
+            "role": "composition"
+          },
+          {
+            "name": "KANA-BOON",
+            "role": "arrangement"
+          },
+          {
+            "name": "金澤ダイスケ",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-op-2-song-original-full",
+            "title": "スターマーカー",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-2-song-anime-size",
+            "title": "スターマーカー (Anime Size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-2-song-original-instrumental",
+            "title": "スターマーカー (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "boku-no-hero-academia-4-op-2-song-anime-size-instrumental",
+            "title": "スターマーカー (Anime Size Instrumental)",
+            "kind": "instrumental",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kscl-3240",
+            "title": "スターマーカー",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "KANA-BOON",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スターマーカー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-original-full"
+              }
+            ],
+            "label": "Ki/oon Music",
+            "catalogNumber": "KSCL-3240"
+          },
+          {
+            "id": "kscl-3241-3242",
+            "title": "スターマーカー",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "KANA-BOON",
+            "edition": "期間生産限定動畫盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スターマーカー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-original-full"
+              },
+              {
+                "title": "スターマーカー (Anime Size)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-anime-size"
+              },
+              {
+                "title": "スターマーカー (Instrumental)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-original-instrumental"
+              },
+              {
+                "title": "スターマーカー (Anime Size Instrumental)",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-anime-size-instrumental"
+              }
+            ],
+            "label": "Ki/oon Music",
+            "catalogNumber": "KSCL-3241～3242"
+          },
+          {
+            "id": "apple-hk-1536466357",
+            "title": "スターマーカー",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "KANA-BOON",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "スターマーカー",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-op-2-song-original-full"
+              }
+            ],
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "releaseDate": "2020-02-01",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スターマーカー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536466358",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536466357",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-op-2-song-original-full"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "航海の唄",
-        artistDisplayName: "さユり",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://heroaca.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://heroaca.com/news/6770/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://heroaca.com/special/oped-oneforall/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.lisani.jp/0000238136/",
-    "label": "歌曲交叉資料：リスアニ！",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
-"songId": "boku-no-hero-academia-4-ed-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6770/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6770/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-1"
-  }
-],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "航海の唄",
+        "artistDisplayName": "さユり",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "official_video"
+            ],
+            "note": "實體動畫盤收錄 ED 長度和無字幕片尾影像。",
+            "resumeWhen": "待權利方可確認的公開 MV 或無字幕片尾，以及香港 ED 長度正規音源。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://heroaca.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/news/6770/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/special/oped-oneforall/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.lisani.jp/0000238136/",
+            "label": "歌曲交叉資料：リスアニ！",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/music/music_4th/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bokunoheroacademia-4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/sayuri/info/511501",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4965659",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538122935",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538122936",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "songId": "boku-no-hero-academia-4-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6770/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6770/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://animethemes.moe/anime/boku_no_hero_academia_4th_season"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501",
+              "https://heroaca.com/music/music_4th/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501",
+              "https://heroaca.com/music/music_4th/",
+              "https://tower.jp/item/4965659"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-1-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-1-song-ed-version"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-1020-1021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-1022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-1023-1024"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538122936"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538122936"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/511501",
+              "https://music.apple.com/hk/album/1538122935"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538122935"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-1-song"
+          }
+        ],
+        "id": "boku-no-hero-academia-4-ed-1",
+        "usageLabel": "第1–14話（通算第64–77話）片尾。",
+        "credits": [
+          {
+            "name": "さユり",
+            "role": "vocals"
+          },
+          {
+            "name": "さユり",
+            "role": "lyrics"
+          },
+          {
+            "name": "さユり",
+            "role": "composition"
+          },
+          {
+            "name": "江口亮",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-ed-1-song-original-full",
+            "title": "航海の唄",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "boku-no-hero-academia-4-ed-1-song-ed-version",
+            "title": "航海の唄-TVアニメ「僕のヒーローアカデミア」EDver.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bvcl-1020-1021",
+            "title": "航海の唄",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "さユり",
+            "edition": "初回生産限定盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "航海の唄",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-1-song-original-full"
+              }
+            ],
+            "label": "Ariola Japan",
+            "catalogNumber": "BVCL-1020～1021"
+          },
+          {
+            "id": "bvcl-1022",
+            "title": "航海の唄",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "さユり",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "航海の唄",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-1-song-original-full"
+              }
+            ],
+            "label": "Ariola Japan",
+            "catalogNumber": "BVCL-1022"
+          },
+          {
+            "id": "bvcl-1023-1024",
+            "title": "航海の唄",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "さユり",
+            "edition": "期間生産限定動畫盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "航海の唄",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-1-song-original-full"
+              },
+              {
+                "title": "航海の唄-TVアニメ「僕のヒーローアカデミア」EDver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-1-song-ed-version"
+              }
+            ],
+            "label": "Ariola Japan",
+            "catalogNumber": "BVCL-1023～1024"
+          },
+          {
+            "id": "apple-hk-1538122935",
+            "title": "航海の唄",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "さユり",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "航海の唄",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-1-song-original-full"
+              }
+            ],
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "航海の唄｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538122936",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538122935",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-ed-1-song-original-full"
+          }
+        ],
+        "releaseDate": "2019-10-26"
       },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Shout Baby",
-        artistDisplayName: "緑黄色社会",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://heroaca.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "緑黄色社会 官方影片",
-    "url": "https://www.youtube.com/watch?v=Ww8oxgqDQSs",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://heroaca.com/news/6899/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://heroaca.com/special/oped-oneforall/",
-    "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.lisani.jp/0000238136/",
-    "label": "歌曲交叉資料：リスアニ！",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter",
-  "2020-spring"
-],
-"songId": "boku-no-hero-academia-4-ed-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6899/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/news/6899/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://heroaca.com/special/oped-oneforall/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lisani.jp/0000238136/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "boku-no-hero-academia-4-ed-2"
-  }
-],
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Shout Baby",
+        "artistDisplayName": "緑黄色社会",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核初次先行配信、TV Edit 與兩個實體版本。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://heroaca.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "緑黄色社会 官方影片",
+            "url": "https://www.youtube.com/watch?v=Ww8oxgqDQSs",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://heroaca.com/news/6899/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/special/oped-oneforall/",
+            "label": "第一方曲目資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.lisani.jp/0000238136/",
+            "label": "歌曲交叉資料：リスアニ！",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://heroaca.com/music/music_4th/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=i_uTSh7M3f0",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bokunoheroacademia-4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281097/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538153870",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538153872",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538153874",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538153875",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=qi1J4Lyl8do",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring"
+        ],
+        "songId": "boku-no-hero-academia-4-ed-2-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/special/oped-oneforall/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lisani.jp/0000238136/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "boku-no-hero-academia-4-ed-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://heroaca.com/news/6899/",
+              "https://www.youtube.com/watch?v=i_uTSh7M3f0",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://animethemes.moe/anime/boku_no_hero_academia_4th_season"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523",
+              "https://heroaca.com/news/6899/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/",
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523",
+              "https://www.uta-net.com/song/281097/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2-song-tv-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2-song-original-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "escl-5340"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "escl-5341-5342"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538153872"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538153872"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538153874"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538153874"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538153875"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538153875"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/ryokusyaka/info/515523",
+              "https://music.apple.com/hk/album/1538153870"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538153870"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/music_4th/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-ed-2-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=qi1J4Lyl8do",
+              "https://heroaca.com/news/6899/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "qi1J4Lyl8do"
+          }
+        ],
+        "id": "boku-no-hero-academia-4-ed-2",
+        "usageLabel": "第15–25話（通算第78–88話）片尾，含4/4最終話。",
+        "credits": [
+          {
+            "name": "緑黄色社会",
+            "role": "vocals"
+          },
+          {
+            "name": "長屋晴子",
+            "role": "vocals"
+          },
+          {
+            "name": "長屋晴子",
+            "role": "lyrics"
+          },
+          {
+            "name": "長屋晴子",
+            "role": "composition"
+          },
+          {
+            "name": "Naoki Itai",
+            "role": "arrangement"
+          },
+          {
+            "name": "西村奈央",
+            "role": "arrangement"
+          },
+          {
+            "name": "緑黄色社会",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-ed-2-song-original-full",
+            "title": "Shout Baby",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "boku-no-hero-academia-4-ed-2-song-tv-edit",
+            "title": "Shout Baby - TV Edit -",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "boku-no-hero-academia-4-ed-2-song-original-instrumental",
+            "title": "Shout Baby (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "escl-5340",
+            "title": "Shout Baby",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Shout Baby",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-full"
+              },
+              {
+                "title": "Shout Baby (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-instrumental"
+              }
+            ],
+            "label": "Epic Records Japan",
+            "catalogNumber": "ESCL-5340"
+          },
+          {
+            "id": "escl-5341-5342",
+            "title": "Shout Baby",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "期間生産限定動畫盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Shout Baby",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-full"
+              },
+              {
+                "title": "Shout Baby - TV Edit -",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-tv-edit"
+              },
+              {
+                "title": "Shout Baby (Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-instrumental"
+              }
+            ],
+            "label": "Epic Records Japan",
+            "catalogNumber": "ESCL-5341～5342"
+          },
+          {
+            "id": "apple-hk-1538153870",
+            "title": "Shout Baby",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑黄色社会",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Shout Baby",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-full"
+              },
+              {
+                "title": "Shout Baby - TV Edit -",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-tv-edit"
+              },
+              {
+                "title": "Shout Baby (Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-ed-2-song-original-instrumental"
+              }
+            ],
+            "label": "Sony Music Labels Inc."
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Shout Baby｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538153872",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538153870",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-ed-2-song-original-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Shout Baby - TV Edit -｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538153874",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538153870",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-ed-2-song-tv-edit"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Shout Baby (Instrumental)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538153875",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538153870",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-ed-2-song-original-instrumental"
+          }
+        ],
+        "releaseDate": "2020-02-08"
       },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "boku-no-hero-academia-4-in-1",
+        "titleJa": "Might",
+        "artistDisplayName": "Makayla Phillips",
+        "songId": "boku-no-hero-academia-4-in-1-song",
+        "sources": [
+          {
+            "url": "https://note.com/yuki_hayashi/n/n3669bd5def98",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myheroacademia.fandom.com/wiki/Episode_76",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ytv.co.jp/heroaca/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1501652659",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1501652720",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Might｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1501652720",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1501652659",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-in-1-song-ost-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://note.com/yuki_hayashi/n/n3669bd5def98",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://myheroacademia.fandom.com/wiki/Episode_76"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://myheroacademia.fandom.com/wiki/Episode_76"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://note.com/yuki_hayashi/n/n3669bd5def98",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://myheroacademia.fandom.com/wiki/Episode_76"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-1-song-ost-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "thca-60262"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1501652720"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1501652720"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://music.apple.com/hk/album/1501652659"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1501652659"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第13話（通算第76話，2020/1/11）劇中，綠谷出久救出壞理。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Makayla Phillips",
+            "role": "vocals"
+          },
+          {
+            "name": "cAnON.",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-in-1-song-ost-vocal",
+            "title": "Might",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "thca-60262",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "第4期原聲帶 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Might",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-1-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO animation RECORDS",
+            "catalogNumber": "THCA-60262"
+          },
+          {
+            "id": "apple-hk-1501652659",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Might",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-1-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO CO.,LTD"
+          }
+        ],
+        "releaseDate": "2020-03-25",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原聲帶演唱者、原版曲位與使用話次。",
+            "resumeWhen": "待原期分話音樂表或母帶說明確認正片剪輯及原聲帶 Might-1 的版別。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "boku-no-hero-academia-4-in-2",
+        "titleJa": "Each Goal",
+        "artistDisplayName": "KYOKA JIRO Starring Chrissy Costanza",
+        "songId": "boku-no-hero-academia-4-in-2-song",
+        "sources": [
+          {
+            "url": "https://heroaca.com/episodes/4th/ep82/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myheroacademia.fandom.com/wiki/Each_Goal",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ysokkmm.hateblo.jp/entry/2020/04/02/234306",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/302162/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ytv.co.jp/heroaca/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1501652659",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1501652725",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Each Goal｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1501652725",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1501652659",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-in-2-song-ost-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/episodes/4th/ep82/",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://myheroacademia.fandom.com/wiki/Each_Goal",
+              "https://ysokkmm.hateblo.jp/entry/2020/04/02/234306",
+              "https://www.uta-net.com/song/302162/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://myheroacademia.fandom.com/wiki/Each_Goal"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/episodes/4th/ep82/",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://myheroacademia.fandom.com/wiki/Each_Goal",
+              "https://ysokkmm.hateblo.jp/entry/2020/04/02/234306",
+              "https://www.uta-net.com/song/302162/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-2-song-ost-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "thca-60262"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1501652725"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1501652725"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://music.apple.com/hk/album/1501652659"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1501652659"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-2-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第19話（通算第82話，2020/2/22）劇中，耳郎響香在甄選文化祭樂隊成員時演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Chrissy Costanza",
+            "role": "vocals"
+          },
+          {
+            "name": "cAnON.",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-in-2-song-ost-vocal",
+            "title": "Each Goal",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "thca-60262",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "第4期原聲帶 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Each Goal",
+                "position": 15,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-2-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO animation RECORDS",
+            "catalogNumber": "THCA-60262"
+          },
+          {
+            "id": "apple-hk-1501652659",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Each Goal",
+                "position": 15,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-2-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO CO.,LTD"
+          }
+        ],
+        "releaseDate": "2020-03-25",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原聲帶演唱者、原版曲位與使用話次。",
+            "resumeWhen": "待製作方公開第82話分話音樂表、場景片段或同一音源的其他確定話次。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "boku-no-hero-academia-4-in-3",
+        "titleJa": "Hero too",
+        "artistDisplayName": "KYOKA JIRO Starring Chrissy Costanza",
+        "songId": "boku-no-hero-academia-4-in-3-song",
+        "sources": [
+          {
+            "url": "https://heroaca.com/news/6861/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bokunoheroacademia-4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.crunchyroll.com/news/latest/2020/3/21/re-watch-class-1-a-wonderful-performance-from-my-hero-academia-in-official-music-video",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ytv.co.jp/heroaca/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1501652659",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1501652726",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GgwUenaQqlM",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Hero too｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1501652726",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1501652659",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "boku-no-hero-academia-4-in-3-song-ost-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6861/",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://www.crunchyroll.com/news/latest/2020/3/21/re-watch-class-1-a-wonderful-performance-from-my-hero-academia-in-official-music-video"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://www.ytv.co.jp/heroaca/music/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/news/6861/",
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://www.mau2.com/anime/bokunoheroacademia-4",
+              "https://www.crunchyroll.com/news/latest/2020/3/21/re-watch-class-1-a-wonderful-performance-from-my-hero-academia-in-official-music-video"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-3-song-ost-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "thca-60262"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1501652726"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1501652726"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/",
+              "https://music.apple.com/hk/album/1501652659"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1501652659"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://heroaca.com/music/musicc/music_4th/music_4th_3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "boku-no-hero-academia-4-in-3-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GgwUenaQqlM",
+              "https://heroaca.com/news/6861/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "GgwUenaQqlM"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第23話（通算第86話，2020/3/21）劇中，雄英高校1年A班文化祭舞台演出。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Chrissy Costanza",
+            "role": "vocals"
+          },
+          {
+            "name": "あやぺた",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "boku-no-hero-academia-4-in-3-song-ost-vocal",
+            "title": "Hero too",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "thca-60262",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "第4期原聲帶 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Hero too",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-3-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO animation RECORDS",
+            "catalogNumber": "THCA-60262"
+          },
+          {
+            "id": "apple-hk-1501652659",
+            "title": "TVアニメ『僕のヒーローアカデミア』4th オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "林ゆうき",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Hero too",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "boku-no-hero-academia-4-in-3-song-ost-vocal"
+              }
+            ],
+            "label": "TOHO CO.,LTD"
+          }
+        ],
+        "releaseDate": "2020-03-25",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原聲帶演唱者、原版曲位與使用話次。",
+            "resumeWhen": "待製作方確認動畫正片、官方 MV 與原聲帶剪輯及 Hero too-1 的版別。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://heroaca.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/104276",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://heroaca.com/news/6770/",
-    "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%B8%E9%99%A2_(%E5%8B%95%E7%95%AB)",
-    "label": "播出交叉資料：維基百科條目貢獻者",
-    "role": "broadcast_cross_check",
-    "language": "zh-Hant",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.heroaca.com/news/6738/",
-    "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter",
-  "2020-spring"
-],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://heroaca.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/104276",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/boku_no_hero_academia_4th_season",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://heroaca.com/news/6770/",
+        "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%88%91%E7%9A%84%E8%8B%B1%E9%9B%84%E5%AD%B8%E9%99%A2_(%E5%8B%95%E7%95%AB)",
+        "label": "播出交叉資料：維基百科條目貢獻者",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.heroaca.com/news/6738/",
+        "label": "第一方播出資料：TVアニメ「僕のヒーローアカデミア」公式サイト",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://heroaca.com/news/6798/",
+        "label": "製作方原TV第4期首播日期與系列電視台",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://heroaca.com/news/6741/",
+        "label": "官方首話五台補播日期及分台時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=i_uTSh7M3f0",
+        "label": "TOHO官方預告確認第88話4/4及原期播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5465/time",
+        "label": "日本電視台各話播出及11/2停播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter",
+      "2020-spring"
+    ],
+    "metadataVerifiedAt": "2026-11-16",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "17:30"
   },
   {
     anilistId: 107666,

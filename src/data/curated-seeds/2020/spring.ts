@@ -4355,7 +4355,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Hachi-nan tte, Sore wa Nai deshou!",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106319-LDDmqyV2rs4D.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106319-TxPcI4yFDNfe.jpg",
-  "broadcastLabel": "2020年4月2日21:00 AT-X原首播",
+  "broadcastLabel": "2020/4/2–6/18 週四 21:00 JST 在 AT-X 原播，全12話。TOKYO MX／AbemaTV 原期 22:30 同步；3/29 另安排第1話限時先行配信。",
   "officialSiteUrl": "https://shin-ei-animation.jp/works/hachinan/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/116",
@@ -4367,7 +4367,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "type": "OP",
       "sequence": 1,
       "titleJa": "時空の迷い人",
-      "artistDisplayName": "デーモン閣下 × 宝野アリカ",
+      "artistDisplayName": "デーモン閣下 × 宝野アリカ (ALI PROJECT)",
       "id": "hachinan-tte-sore-wa-nai-deshou-op-1",
       "songId": "hachinan-tte-sore-wa-nai-deshou-op-1-song",
       "sourceMode": "explicit",
@@ -4390,11 +4390,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "FRONTIERWORKS 官方影片",
           "url": "https://www.youtube.com/watch?v=hLuEcDn1YgI",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "動畫官方網站",
@@ -4423,6 +4423,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.fwinc.co.jp/news/58471/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/hatinanttesorehanaideshou",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000001782.000016756.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1510294697",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1510294699",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MeIiYbG7-EQ",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.fwinc.co.jp/news/58101/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cFBj1Rq01RE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -4445,6 +4508,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "Anders Rydholm",
           "role": "arrangement"
+        },
+        {
+          "name": "デーモン閣下",
+          "role": "vocals"
+        },
+        {
+          "name": "宝野アリカ",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -4526,21 +4597,251 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026675/VTCL-35316.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fwinc.co.jp/news/58471/",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html",
+            "https://www.mau2.com/anime/hatinanttesorehanaideshou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html",
+            "https://www.fwinc.co.jp/news/58471/",
+            "https://www.mau2.com/anime/hatinanttesorehanaideshou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000001782.000016756.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtcl-35316"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1510294699"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1510294699"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html",
+            "https://music.apple.com/hk/album/1510294697"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1510294697"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A009555/VTCL-35316.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=hLuEcDn1YgI",
+            "https://www.fwinc.co.jp/news/58471/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hLuEcDn1YgI"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=MeIiYbG7-EQ",
+            "https://prtimes.jp/main/html/rd/p/000001782.000016756.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "MeIiYbG7-EQ"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=cFBj1Rq01RE",
+            "https://www.fwinc.co.jp/news/58101/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "cFBj1Rq01RE"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
-          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "唱片全曲包含中文演唱段落。兩種無字幕片頭與短版 MV 各自記錄。",
+          "resumeWhen": "待權利方發行獨立的原播片頭剪輯，或公布各配信版逐話音軌範圍。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原期第1–12話片頭。中國配信另有使用中文演唱段落的片頭剪輯。",
+      "recordings": [
+        {
+          "id": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-full",
+          "title": "時空の迷い人",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-instrumental",
+          "title": "時空の迷い人 (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtcl-35316",
+          "title": "時空の迷い人",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "デーモン閣下 × 宝野アリカ (ALI PROJECT)",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "時空の迷い人",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-full"
+            },
+            {
+              "title": "時空の迷い人 (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-35316"
+        },
+        {
+          "id": "apple-hk-1510294697",
+          "title": "時空の迷い人",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "デーモン閣下 × 宝野アリカ (ALI PROJECT)",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "時空の迷い人",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-full"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "時空の迷い人｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1510294699",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1510294697",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "hachinan-tte-sore-wa-nai-deshou-op-1-song-original-full"
+        }
+      ],
+      "releaseDate": "2020-05-13"
     },
     {
       "type": "ED",
@@ -4569,11 +4870,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "FRONTIERWORKS 官方影片",
           "url": "https://www.youtube.com/watch?v=k5dg1AMfxTQ",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "動畫官方網站",
@@ -4587,7 +4888,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1585831171",
@@ -4602,6 +4903,48 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.fwinc.co.jp/news/58471/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/hatinanttesorehanaideshou",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mf_Ec-C83bI",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://popholic.jp/archives/14055",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1510294036",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1510294038",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -4619,6 +4962,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "name": "Motokiyo",
+          "role": "arrangement"
+        },
+        {
+          "name": "AKINO arai",
+          "role": "vocals"
+        },
+        {
+          "name": "AKINO from bless4",
+          "role": "vocals"
+        },
+        {
+          "name": "菊谷知樹",
           "role": "arrangement"
         }
       ],
@@ -4700,24 +5055,241 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.fwinc.co.jp/news/58471/",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html",
+            "https://www.mau2.com/anime/hatinanttesorehanaideshou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html",
+            "https://www.fwinc.co.jp/news/58471/",
+            "https://www.mau2.com/anime/hatinanttesorehanaideshou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=mf_Ec-C83bI",
+            "https://popholic.jp/archives/14055"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtcl-35317"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1510294038"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1510294038"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html",
+            "https://music.apple.com/hk/album/1510294036"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1510294036"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026676/VTCL-35317.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=k5dg1AMfxTQ",
+            "https://www.fwinc.co.jp/news/58471/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "k5dg1AMfxTQ"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=mf_Ec-C83bI"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "mf_Ec-C83bI"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期曲名、正式歌唱名義及春季用途已核；原ID及影音保留。",
-          "resumeWhen": "待同頁精確音源／發行資料可用再補可選欄位，不推定新錄音或其他用途。",
-          "checkedAt": "2026-10-24"
+          "note": "新居昭乃以 AKINO arai 演唱。菊谷知樹負責弦樂編曲。",
+          "resumeWhen": "待權利方發行獨立原播剪輯。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原期第1–12話片尾。",
+      "recordings": [
+        {
+          "id": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-full",
+          "title": "月明かりのMonologue",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-instrumental",
+          "title": "月明かりのMonologue (instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtcl-35317",
+          "title": "月明かりのMonologue",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "AKINO arai × AKINO from bless4",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "月明かりのMonologue",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-full"
+            },
+            {
+              "title": "月明かりのMonologue (instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-instrumental"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-35317"
+        },
+        {
+          "id": "apple-hk-1510294036",
+          "title": "月明かりのMonologue",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "AKINO arai × AKINO from bless4",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "月明かりのMonologue",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-full"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "月明かりのMonologue｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1510294038",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1510294036",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "hachinan-tte-sore-wa-nai-deshou-ed-1-song-original-full"
+        }
+      ],
+      "releaseDate": "2020-05-13"
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://prtimes.jp/main/html/rd/p/000001782.000016756.html",
@@ -4732,6 +5304,34 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://shin-ei-animation.jp/works/hachinan/",
+      "label": "動畫製作方",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.fwinc.co.jp/news/58101/",
+      "label": "製作方原期第1話網路先行公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://times.abema.tv/articles/-/7046598",
+      "label": "獲授權平台原期地面台同步安排",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.cy.netgamebm.com/animation/view/6138/",
+      "label": "AT-X原播時間交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 4,
@@ -6204,7 +6804,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Kami no Tou: Tower of God",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx115230-QHOdSN7yt8ab.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/115230-wjDIxW77TLv3.jpg",
-  "broadcastLabel": "2020年4月2日00:30日本原TV（官方地上波同時欄4/1水24:30換日）",
+  "broadcastLabel": "日本 TOKYO MX／BS11 等 2020/4/2–6/25 週四 00:30 JST（編成週三 24:30），dアニメストア同步；全13話。韓國 Naver Series On、Crunchyroll 4/1，臺灣 LINE TV 4/2 開播。",
   "officialSiteUrl": "https://tog-anime.com/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/247",
@@ -6243,7 +6843,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=o7lqCcE4Lho",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435",
@@ -6257,7 +6857,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
@@ -6272,12 +6872,184 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://tog-anime.com/1st/caststaff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaminotou",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5635/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/kqgbjhkg",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/h20n0v2f",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/tfsjpc5l",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://books.rakuten.co.jp/rb/16290643/",
+          "label": "動畫版 CD 曲序及動畫剪輯時長",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.straykidsjapan.com/top/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538138059",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138060",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138062",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256891",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608257046",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256501",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608256505",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/StrayKids/info/518273",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "Stray Kids",
           "role": "vocals"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "lyrics"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "창빈 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "composition"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "창빈 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "랑가",
+          "role": "composition"
+        },
+        {
+          "name": "권영찬",
+          "role": "composition"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "arrangement"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "arrangement"
+        },
+        {
+          "name": "랑가",
+          "role": "arrangement"
+        },
+        {
+          "name": "권영찬",
+          "role": "arrangement"
+        },
+        {
+          "name": "KM-MARKIT",
+          "role": "lyrics"
         }
       ],
       "evidence": [
@@ -6361,24 +7133,741 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kami-no-tou-tower-of-god-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://www.mau2.com/anime/kaminotou",
+            "https://cal.syoboi.jp/tid/5635/subtitle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://tog-anime.com/1st/music/",
+            "https://www.mau2.com/anime/kaminotou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/music/",
+            "https://books.rakuten.co.jp/rb/16290643/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5434"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5435"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "essl-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5430-5431"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5432-5433"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138060"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138060"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138062"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138062"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg",
+            "https://music.apple.com/hk/album/1538138059"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538138059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608257046"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608257046"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f",
+            "https://music.apple.com/hk/album/1608256891"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256891"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608256505"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608256505"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l",
+            "https://music.apple.com/hk/album/1608256501"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256501"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/info/518273"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/",
+            "https://www.youtube.com/watch?v=o7lqCcE4Lho"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "o7lqCcE4Lho"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
-          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "日、韓及英語演唱版與日本動畫盤剪輯分列；原播與動畫盤剪輯的母帶關係及地區完整播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原TV第1–12話片頭；第13話改用於片尾。",
+      "recordings": [
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-japanese-full",
+          "title": "TOP -Japanese ver.-",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit",
+          "title": "TOP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-instrumental",
+          "title": "TOP (Instrumental)",
+          "kind": "instrumental",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-korean-full",
+          "title": "TOP (\"신의 탑\" OST)",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "lyrics"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "랑가",
+              "role": "composition"
+            },
+            {
+              "name": "권영찬",
+              "role": "composition"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "arrangement"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            },
+            {
+              "name": "랑가",
+              "role": "arrangement"
+            },
+            {
+              "name": "권영찬",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-english-full",
+          "title": "TOP -English ver.-",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "lyrics"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "랑가",
+              "role": "composition"
+            },
+            {
+              "name": "권영찬",
+              "role": "composition"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "arrangement"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            },
+            {
+              "name": "랑가",
+              "role": "arrangement"
+            },
+            {
+              "name": "권영찬",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5434",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "期間生産限定盤（動畫版 CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5434"
+        },
+        {
+          "id": "escl-5435",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5435"
+        },
+        {
+          "id": "essl-2",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "完全生産限定盤（卡式帶）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESSL-2"
+        },
+        {
+          "id": "escl-5430-5431",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 A（CD／DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5430～5431"
+        },
+        {
+          "id": "escl-5432-5433",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 B（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5432～5433"
+        },
+        {
+          "id": "apple-hk-1538138059",
+          "title": "TOP -Japanese ver.-",
+          "type": "ep",
+          "date": {
+            "value": "2020-05-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1608256891",
+          "title": "TOP",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP (\"신의 탑\" OST)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        },
+        {
+          "id": "apple-hk-1608256501",
+          "title": "TOP -English ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP -English ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "TOP -Japanese ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138060",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138062",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP (\"신의 탑\" OST)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608257046",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256891",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP -English ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608256505",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256501",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        }
+      ],
+      "releaseDate": "2020-04-28"
     },
     {
       "type": "ED",
@@ -6411,7 +7900,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=7SPnJMGB9u4",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.sonymusic.co.jp/artist/StrayKids/discography/buy/ESCL-5435",
@@ -6425,7 +7914,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
@@ -6440,12 +7929,144 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://tog-anime.com/1st/caststaff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaminotou",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaminotou/ep/6",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/kqgbjhkg",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/h20n0v2f",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/tfsjpc5l",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://books.rakuten.co.jp/rb/16290643/",
+          "label": "動畫版 CD 曲序及動畫剪輯時長",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.straykidsjapan.com/top/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538138059",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138061",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138063",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256891",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608257049",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256501",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608256660",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/StrayKids/info/518416",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "Stray Kids",
           "role": "vocals"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "arrangement"
+        },
+        {
+          "name": "KM-MARKIT",
+          "role": "lyrics"
         }
       ],
       "evidence": [
@@ -6529,34 +8150,1585 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kami-no-tou-tower-of-god-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://www.mau2.com/anime/kaminotou",
+            "https://www.mau2.com/anime/kaminotou/ep/6"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://tog-anime.com/1st/music/",
+            "https://www.mau2.com/anime/kaminotou"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/music/",
+            "https://books.rakuten.co.jp/rb/16290643/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-japanese-anime-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-english-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song-english-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5434"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5435"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "essl-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5430-5431"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5432-5433"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138061"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138061"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138063"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138063"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg",
+            "https://music.apple.com/hk/album/1538138059"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538138059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608257049"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608257049"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f",
+            "https://music.apple.com/hk/album/1608256891"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256891"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608256660"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608256660"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l",
+            "https://music.apple.com/hk/album/1608256501"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256501"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/StrayKids/info/518416"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/",
+            "https://www.youtube.com/watch?v=7SPnJMGB9u4"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7SPnJMGB9u4"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期常規用途、原名與正式演唱名義已核，確認2020春。",
-          "resumeWhen": "待本曲音源與正版平台直接資料可核再補；不由商品或影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "日、韓及英語演唱版與日本動畫盤剪輯分列；原播與動畫盤剪輯的母帶關係及地區完整播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原TV第1–5、7–12話片尾；第6話無歌曲片尾。",
+      "recordings": [
+        {
+          "id": "kami-no-tou-tower-of-god-ed-1-song-japanese-full",
+          "title": "SLUMP -Japanese ver.-",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-ed-1-song-japanese-anime-edit",
+          "title": "SLUMP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-ed-1-song-instrumental",
+          "title": "SLUMP (Instrumental)",
+          "kind": "instrumental",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-ed-1-song-korean-full",
+          "title": "SLUMP (\"신의 탑\" OST)",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-ed-1-song-english-full",
+          "title": "SLUMP -English ver.-",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5434",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "期間生産限定盤（動畫版 CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            },
+            {
+              "title": "SLUMP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-anime-edit"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5434"
+        },
+        {
+          "id": "escl-5435",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            },
+            {
+              "title": "SLUMP (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5435"
+        },
+        {
+          "id": "essl-2",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "完全生産限定盤（卡式帶）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            },
+            {
+              "title": "SLUMP (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESSL-2"
+        },
+        {
+          "id": "escl-5430-5431",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 A（CD／DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5430～5431"
+        },
+        {
+          "id": "escl-5432-5433",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 B（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            },
+            {
+              "title": "SLUMP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5432～5433"
+        },
+        {
+          "id": "apple-hk-1538138059",
+          "title": "TOP -Japanese ver.-",
+          "type": "ep",
+          "date": {
+            "value": "2020-05-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SLUMP -Japanese ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+            },
+            {
+              "title": "SLUMP (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1608256891",
+          "title": "TOP",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SLUMP (\"신의 탑\" OST)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-korean-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        },
+        {
+          "id": "apple-hk-1608256501",
+          "title": "TOP -English ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SLUMP -English ver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-ed-1-song-english-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "SLUMP -Japanese ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138061",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-ed-1-song-japanese-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "SLUMP (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138063",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-ed-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "SLUMP (\"신의 탑\" OST)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608257049",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256891",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-ed-1-song-korean-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "SLUMP -English ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608256660",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256501",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-ed-1-song-english-full"
+        }
+      ],
+      "releaseDate": "2020-05-06"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "kami-no-tou-tower-of-god-ed-2",
+      "titleJa": "TOP -Japanese ver.-",
+      "artistDisplayName": "Stray Kids",
+      "songId": "kami-no-tou-tower-of-god-op-1-song",
+      "sources": [
+        {
+          "url": "https://tog-anime.com/1st/caststaff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tog-anime.com/1st/story/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaminotou",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5635/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tog-anime.com/1st/music/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/kqgbjhkg",
+          "label": "JYP 日本語版本演唱及詞曲編",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/h20n0v2f",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://straykids.jype.com/discography/tfsjpc5l",
+          "label": "JYP 原語言版本錄音、詞曲編及發行曲表",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://books.rakuten.co.jp/rb/16290643/",
+          "label": "動畫版 CD 曲序及動畫剪輯時長",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.straykidsjapan.com/top/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538138059",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138060",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538138062",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256891",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608257046",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1608256501",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1608256505",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "TOP -Japanese ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138060",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538138062",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538138059",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP (\"신의 탑\" OST)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608257046",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256891",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOP -English ver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1608256505",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1608256501",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://tog-anime.com/1st/story/",
+            "https://www.mau2.com/anime/kaminotou",
+            "https://cal.syoboi.jp/tid/5635/subtitle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/caststaff/",
+            "https://tog-anime.com/1st/music/",
+            "https://www.mau2.com/anime/kaminotou",
+            "https://cal.syoboi.jp/tid/5635/subtitle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://tog-anime.com/1st/music/",
+            "https://books.rakuten.co.jp/rb/16290643/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5434"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5435"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "essl-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5430-5431"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.straykidsjapan.com/top/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5432-5433"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138060"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138060"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538138062"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538138062"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/kqgbjhkg",
+            "https://music.apple.com/hk/album/1538138059"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538138059"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608257046"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608257046"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/h20n0v2f",
+            "https://music.apple.com/hk/album/1608256891"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256891"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1608256505"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1608256505"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://straykids.jype.com/discography/tfsjpc5l",
+            "https://music.apple.com/hk/album/1608256501"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1608256501"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "日本原TV第13話片尾；當話無通常片頭。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "Stray Kids",
+          "role": "vocals"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "lyrics"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "창빈 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "lyrics"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "composition"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "창빈 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "한 (3RACHA)",
+          "role": "composition"
+        },
+        {
+          "name": "랑가",
+          "role": "composition"
+        },
+        {
+          "name": "권영찬",
+          "role": "composition"
+        },
+        {
+          "name": "아르마딜로",
+          "role": "arrangement"
+        },
+        {
+          "name": "방찬 (3RACHA)",
+          "role": "arrangement"
+        },
+        {
+          "name": "랑가",
+          "role": "arrangement"
+        },
+        {
+          "name": "권영찬",
+          "role": "arrangement"
+        },
+        {
+          "name": "KM-MARKIT",
+          "role": "lyrics"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-japanese-full",
+          "title": "TOP -Japanese ver.-",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit",
+          "title": "TOP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-instrumental",
+          "title": "TOP (Instrumental)",
+          "kind": "instrumental",
+          "format": "full"
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-korean-full",
+          "title": "TOP (\"신의 탑\" OST)",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "lyrics"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "랑가",
+              "role": "composition"
+            },
+            {
+              "name": "권영찬",
+              "role": "composition"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "arrangement"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            },
+            {
+              "name": "랑가",
+              "role": "arrangement"
+            },
+            {
+              "name": "권영찬",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "kami-no-tou-tower-of-god-op-1-song-english-full",
+          "title": "TOP -English ver.-",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Stray Kids",
+              "role": "vocals"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "lyrics"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "lyrics"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "composition"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "창빈 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "한 (3RACHA)",
+              "role": "composition"
+            },
+            {
+              "name": "랑가",
+              "role": "composition"
+            },
+            {
+              "name": "권영찬",
+              "role": "composition"
+            },
+            {
+              "name": "아르마딜로",
+              "role": "arrangement"
+            },
+            {
+              "name": "방찬 (3RACHA)",
+              "role": "arrangement"
+            },
+            {
+              "name": "랑가",
+              "role": "arrangement"
+            },
+            {
+              "name": "권영찬",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5434",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "期間生産限定盤（動畫版 CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP -Japanese ver.- (｢神之塔 -Tower of God-｣ver.)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-anime-edit"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5434"
+        },
+        {
+          "id": "escl-5435",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5435"
+        },
+        {
+          "id": "essl-2",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "完全生産限定盤（卡式帶）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESSL-2"
+        },
+        {
+          "id": "escl-5430-5431",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 A（CD／DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5430～5431"
+        },
+        {
+          "id": "escl-5432-5433",
+          "title": "TOP -Japanese ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "初回生産限定盤 B（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5432～5433"
+        },
+        {
+          "id": "apple-hk-1538138059",
+          "title": "TOP -Japanese ver.-",
+          "type": "ep",
+          "date": {
+            "value": "2020-05-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP -Japanese ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-japanese-full"
+            },
+            {
+              "title": "TOP (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1608256891",
+          "title": "TOP",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP (\"신의 탑\" OST)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-korean-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        },
+        {
+          "id": "apple-hk-1608256501",
+          "title": "TOP -English ver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "Stray Kids",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOP -English ver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kami-no-tou-tower-of-god-op-1-song-english-full"
+            }
+          ],
+          "label": "JYP Entertainment"
+        }
+      ],
+      "releaseDate": "2020-04-28",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "video_metadata"
+          ],
+          "note": "日本原播片尾使用同一首日語歌；第13話片尾剪輯及其與發行音軌的對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://tog-anime.com/1st/onair/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E7%A5%9E%E4%B9%8B%E5%A1%94",
@@ -6564,6 +9736,48 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.lycorp.co.jp/news/archive/L/ja/ja20200302_C.pdf",
+      "label": "日本作品權利方原播電視台",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://tog-anime.com/1st/story/",
+      "label": "動畫官網全13話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.allcinema.net/cinema/371577",
+      "label": "日本原TV首末日及時間交叉",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.crunchyroll.com/news/latest/2020/3/27/start-the-countdown-heres-the-exact-time-tower-of-god-begins",
+      "label": "國際串流首發日期與時段",
+      "role": "first_party",
+      "language": "en",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://straykids.jype.com/discography/h20n0v2f",
+      "label": "權利方韓國 Naver Series On 首日",
+      "role": "first_party",
+      "language": "multi",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.linecorp.com/tw/pr/news/tw/2020/3161",
+      "label": "臺灣 LINE TV 首播及三種語言演唱",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 4,
@@ -42228,7 +45442,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 2nd Season",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113693-3tHbslFxD47R.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113693-i9Wm6xjTlQGQ.jpg",
-  "broadcastLabel": "ABCテレビ原期初回（通常26:10、初回のみ26:15）",
+  "broadcastLabel": "ABCテレビ 2020/4/5–6/21 週日 02:10 JST 首播（首章 02:15），全12話，第15–26章。dアニメストア 02:40 起獨家先行配信。",
   "officialSiteUrl": "https://booklove-anime.jp/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/165",
@@ -42263,18 +45477,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Sumire Morohoshi 官方影片",
           "url": "https://www.youtube.com/watch?v=d6gFW81dInI",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
@@ -42282,6 +45496,69 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://booklove-anime.jp/season3/cd/m4.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTZF-104.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/honzukinogekokujou-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1507732571",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1507732572",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tobooks.jp/contents/15513",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/VTZF-104",
+          "label": "實體盒裝逐碟曲序及原文版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -42358,21 +45635,315 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://booklove-anime.jp/season3/cd/m4.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTZF-104.html",
+            "https://www.mau2.com/anime/honzukinogekokujou-2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://booklove-anime.jp/season3/cd/m4.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html",
+            "https://cal.syoboi.jp/tid/5600/subtitle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song-original-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song-without-sumire"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtcl-35320"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzl-171"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1507732572"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1507732572"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTCL-35320.html",
+            "https://music.apple.com/hk/album/1507732571"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1507732571"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzf-104"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://booklove-anime.jp/season3/cd/m4.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=d6gFW81dInI",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026544/VTZL-171.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "d6gFW81dInI"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "單曲全曲、伴奏及盒裝 TV-Size 已核。",
+          "resumeWhen": "待權利方另行公開 TV-Size 音源或本部無字幕片頭。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第二部第15–26章（季內第1–12話）片頭。",
+      "recordings": [
+        {
+          "id": "honzuki-no-gekokujou-2-op-1-song-original-full",
+          "title": "つむじかぜ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "honzuki-no-gekokujou-2-op-1-song-without-sumire",
+          "title": "つむじかぜ（without Sumire）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "honzuki-no-gekokujou-2-op-1-song-tv-size",
+          "title": "つむじかぜ（TV-Size）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtcl-35320",
+          "title": "つむじかぜ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "諸星すみれ",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "つむじかぜ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-original-full"
+            },
+            {
+              "title": "つむじかぜ（without Sumire）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-without-sumire"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-35320"
+        },
+        {
+          "id": "vtzl-171",
+          "title": "つむじかぜ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "諸星すみれ",
+          "edition": "初回限定盤 CD＋Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "つむじかぜ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-original-full"
+            },
+            {
+              "title": "つむじかぜ（without Sumire）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-without-sumire"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZL-171"
+        },
+        {
+          "id": "apple-hk-1507732571",
+          "title": "つむじかぜ",
+          "type": "single",
+          "date": {
+            "value": "2020-04-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "諸星すみれ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "つむじかぜ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-original-full"
+            }
+          ],
+          "label": "FlyingDog"
+        },
+        {
+          "id": "vtzf-104",
+          "title": "本好きの下剋上 Blu-ray BOX 神殿の巫女見習い",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "Blu-ray BOX 附錄 CD2（整盒 Disc 4）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "つむじかぜ（TV-Size）",
+              "position": 1,
+              "disc": 4,
+              "recordingId": "honzuki-no-gekokujou-2-op-1-song-tv-size"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZF-104"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "つむじかぜ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1507732572",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1507732571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "honzuki-no-gekokujou-2-op-1-song-original-full"
+        }
+      ],
+      "releaseDate": "2020-04-29"
     },
     {
       "type": "ED",
@@ -42412,7 +45983,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
@@ -42420,6 +45991,97 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTZF-104.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/honzukinogekokujou-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-175.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1514306806",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1514306807",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-60531.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1526082401",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1526082413",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tobooks.jp/contents/15513",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/VTZF-104",
+          "label": "實體盒裝逐碟曲序及原文版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/2535988/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4CU4qaIFTFA",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -42496,31 +46158,1005 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTZF-104.html",
+            "https://www.mau2.com/anime/honzukinogekokujou-2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html",
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-175.html",
+            "https://cal.syoboi.jp/tid/5600/subtitle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song-original-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1514306807"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1514306807"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html",
+            "https://music.apple.com/hk/album/1514306806"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1514306806"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-60531.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtcl-60531"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-175.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzl-175"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1526082413"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1526082413"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-175.html",
+            "https://music.apple.com/hk/album/1526082401"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1526082401"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzf-104"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VE3WA-18757.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=4CU4qaIFTFA",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/2535988/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "4CU4qaIFTFA"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期歌曲身分、用途與逐曲季度已核；未新增個別歌唱或音源版本。",
-          "resumeWhen": "待同曲直接音源/發行細項證據再補，不由既有影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "數位單曲、專輯曲位及盒裝 TV-Size 已核。",
+          "resumeWhen": "待權利方公開 TV-Size 音源、無字幕片尾或單曲與專輯母帶的對照。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第二部第15–26章（季內第1–12話）片尾。",
+      "recordings": [
+        {
+          "id": "honzuki-no-gekokujou-2-ed-1-song-original-full",
+          "title": "エフェメラをあつめて",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "honzuki-no-gekokujou-2-ed-1-song-tv-size",
+          "title": "エフェメラをあつめて（TV-Size）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "エフェメラをあつめて｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1514306807",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1514306806",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "honzuki-no-gekokujou-2-ed-1-song-original-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "エフェメラをあつめて｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1526082413",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1526082401",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1514306806",
+          "title": "エフェメラをあつめて",
+          "type": "single",
+          "date": {
+            "value": "2020-06-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木みのり",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エフェメラをあつめて",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-ed-1-song-original-full"
+            }
+          ],
+          "label": "FlyingDog"
+        },
+        {
+          "id": "vtcl-60531",
+          "title": "上ミノ",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木みのり",
+          "edition": "タレ盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エフェメラをあつめて",
+              "position": 12,
+              "disc": 1
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTCL-60531"
+        },
+        {
+          "id": "vtzl-175",
+          "title": "上ミノ",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木みのり",
+          "edition": "しお盤 CD＋Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エフェメラをあつめて",
+              "position": 12,
+              "disc": 1
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZL-175"
+        },
+        {
+          "id": "apple-hk-1526082401",
+          "title": "上ミノ",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木みのり",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "エフェメラをあつめて",
+              "position": 12,
+              "disc": 1
+            }
+          ],
+          "label": "FlyingDog"
+        },
+        {
+          "id": "vtzf-104",
+          "title": "本好きの下剋上 Blu-ray BOX 神殿の巫女見習い",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "Blu-ray BOX 附錄 CD2（整盒 Disc 4）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エフェメラをあつめて（TV-Size）",
+              "position": 4,
+              "disc": 4,
+              "recordingId": "honzuki-no-gekokujou-2-ed-1-song-tv-size"
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZF-104"
+        }
+      ],
+      "releaseDate": "2020-06-03"
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "honzuki-no-gekokujou-2-in-1",
+      "titleJa": "夏の緑",
+      "artistDisplayName": "フェルディナンド（CV：速水 奨）",
+      "songId": "honzuki-no-gekokujou-2-in-1-song",
+      "sources": [
+        {
+          "url": "https://booklove-anime.jp/season3/story/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/honzukinogekokujou-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-37548.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tobooks.jp/contents/15513",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/VTZF-104",
+          "label": "實體盒裝逐碟曲序及原文版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025666/VEATP-45938.html",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6813306369",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6813306855",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=OLAK5uy_kT0GkLAS9-J_Nxbg6E9IoV-eIIzTY_SEg",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cbDtKG0Qos8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "夏の緑｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6813306855",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6813306369",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "honzuki-no-gekokujou-2-in-1-song-ost-vocal"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://booklove-anime.jp/season3/story/",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://www.mau2.com/anime/honzukinogekokujou-2",
+            "https://cal.syoboi.jp/tid/5600/subtitle",
+            "https://anitubu.com/archives/post-37548.html",
+            "https://cal.syoboi.jp/tid/5600/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://cal.syoboi.jp/tid/5600/subtitle",
+            "https://anitubu.com/archives/post-37548.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://cal.syoboi.jp/tid/5600/subtitle"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzf-104"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-1-song-ost-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6813306855"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/6813306855"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025666/VEATP-45938.html",
+            "https://music.apple.com/hk/album/6813306369"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-6813306369"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=cbDtKG0Qos8",
+            "https://www.youtube.com/playlist?list=OLAK5uy_kT0GkLAS9-J_Nxbg6E9IoV-eIIzTY_SEg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "cbDtKG0Qos8"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第二十一章「新しい側仕え」（季內第7話，2020/5/17）劇中，フェルディナンド示範フェシュピール時演唱。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "速水 奨",
+          "role": "vocals"
+        },
+        {
+          "name": "國澤真理子",
+          "role": "lyrics"
+        },
+        {
+          "name": "未知瑠",
+          "role": "composition"
+        },
+        {
+          "name": "未知瑠",
+          "role": "arrangement"
+        },
+        {
+          "name": "ナターシャ・グジー",
+          "role": "other"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtzf-104",
+          "title": "本好きの下剋上 Blu-ray BOX 神殿の巫女見習い",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "Blu-ray BOX 附錄原聲帶2（整盒 Disc 3）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夏の緑",
+              "position": 27,
+              "disc": 3
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZF-104"
+        },
+        {
+          "id": "apple-hk-6813306369",
+          "title": "TVアニメ「本好きの下剋上 司書になるためには手段を選んでいられません」オリジナルサウンドトラック Best Collection ～Seasons 1-3～",
+          "type": "soundtrack",
+          "date": {
+            "value": "2026-10-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "夏の緑",
+              "position": 31,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-in-1-song-ost-vocal"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "honzuki-no-gekokujou-2-in-1-song-ost-vocal",
+          "title": "夏の緑",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2020-06-17",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2020年盒裝原聲與2026年全曲配信曲位已核。ナターシャ・グジー演奏班杜拉琴。",
+          "resumeWhen": "待權利方說明首播場景、盒裝音源與配信音源的剪輯或母帶關係。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "honzuki-no-gekokujou-2-in-2",
+      "titleJa": "秋の実り",
+      "artistDisplayName": "マイン（CV：井口裕香）",
+      "songId": "honzuki-no-gekokujou-2-in-2-song",
+      "sources": [
+        {
+          "url": "https://booklove-anime.jp/season3/story/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/honzukinogekokujou-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-37548.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5600/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tobooks.jp/contents/15513",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/VTZF-104",
+          "label": "實體盒裝逐碟曲序及原文版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025666/VEATP-45938.html",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6813306369",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6813306858",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=OLAK5uy_kT0GkLAS9-J_Nxbg6E9IoV-eIIzTY_SEg",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VNgDUpue_Co",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "秋の実り｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6813306858",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6813306369",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "honzuki-no-gekokujou-2-in-2-song-ost-vocal"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://booklove-anime.jp/season3/story/",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://www.mau2.com/anime/honzukinogekokujou-2",
+            "https://cal.syoboi.jp/tid/5600/subtitle",
+            "https://anitubu.com/archives/post-37548.html",
+            "https://cal.syoboi.jp/tid/5600/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://cal.syoboi.jp/tid/5600/subtitle",
+            "https://anitubu.com/archives/post-37548.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513",
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/",
+            "https://cal.syoboi.jp/tid/5600/subtitle"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vtzf-104"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/3723219/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-2-song-ost-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6813306858"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/6813306858"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025666/VEATP-45938.html",
+            "https://music.apple.com/hk/album/6813306369"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-6813306369"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.tobooks.jp/contents/15513"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "honzuki-no-gekokujou-2-in-2-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VNgDUpue_Co",
+            "https://www.youtube.com/playlist?list=OLAK5uy_kT0GkLAS9-J_Nxbg6E9IoV-eIIzTY_SEg"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "VNgDUpue_Co"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第二十一章「新しい側仕え」（季內第7話，2020/5/17）劇中，マイン演奏フェシュピール供フェルディナンド驗收時演唱。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "井口裕香",
+          "role": "vocals"
+        },
+        {
+          "name": "國澤真理子",
+          "role": "lyrics"
+        },
+        {
+          "name": "未知瑠",
+          "role": "composition"
+        },
+        {
+          "name": "未知瑠",
+          "role": "arrangement"
+        },
+        {
+          "name": "ナターシャ・グジー",
+          "role": "other"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vtzf-104",
+          "title": "本好きの下剋上 Blu-ray BOX 神殿の巫女見習い",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "Blu-ray BOX 附錄原聲帶2（整盒 Disc 3）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "秋の実り",
+              "position": 28,
+              "disc": 3
+            }
+          ],
+          "label": "FlyingDog",
+          "catalogNumber": "VTZF-104"
+        },
+        {
+          "id": "apple-hk-6813306369",
+          "title": "TVアニメ「本好きの下剋上 司書になるためには手段を選んでいられません」オリジナルサウンドトラック Best Collection ～Seasons 1-3～",
+          "type": "soundtrack",
+          "date": {
+            "value": "2026-10-07",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "秋の実り",
+              "position": 32,
+              "disc": 1,
+              "recordingId": "honzuki-no-gekokujou-2-in-2-song-ost-vocal"
+            }
+          ],
+          "label": "FlyingDog"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "honzuki-no-gekokujou-2-in-2-song-ost-vocal",
+          "title": "秋の実り",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2020-06-17",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2020年盒裝原聲與2026年全曲配信曲位已核。ナターシャ・グジー演奏班杜拉琴。",
+          "resumeWhen": "待權利方說明首播場景、盒裝音源與配信音源的剪輯或母帶關係。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://mypage.syosetu.com/mypageblog/view/userid/372556/blogkey/2535988/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E5%B0%8F%E6%9B%B8%E7%97%B4%E7%9A%84%E4%B8%8B%E5%89%8B%E4%B8%8A",
@@ -42528,6 +47164,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000387.000031422.html",
+      "label": "製作方日本首播與各台時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTZF-104.html",
+      "label": "唱片方原作第二部第15–26章收錄",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5600/time",
+      "label": "ABCテレビ原期逐話首播時間",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 7,
@@ -68842,7 +73499,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Shironeko Project: ZERO CHRONICLE",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110458-Fnh88lYo5pfl.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110458-qXLCQ16XUVRu.jpg",
-  "broadcastLabel": "2020/4/6(月)22:00 AT-X原期TV；官方原onair安排與中文原TV期間吻合，配信及10月他台後播分開。",
+  "broadcastLabel": "2020/4/6–6/22 週一 22:00 JST 在 AT-X 原播，全12話。dアニメストア原期 22:30 先行配信，其餘平台自4/13 00:00 JST 起陸續上架。",
   "officialSiteUrl": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/415",
@@ -68867,7 +73524,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "AnimeThemes",
@@ -68877,11 +73534,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "西川貴教 官方影片",
           "url": "https://www.youtube.com/watch?v=ChqAonaHTgA",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "動畫官方網站",
@@ -68903,6 +73560,83 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/sironekoprojectzerochronicle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1536276348",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536276350",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536276351",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1536276352",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/542917",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1636645505",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1636646011",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/519025",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QszQQb3tcxo",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -68921,6 +73655,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "菊田大介",
           "role": "arrangement"
+        },
+        {
+          "name": "西川貴教",
+          "role": "vocals"
+        },
+        {
+          "name": "ASCA",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -68979,21 +73721,480 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song-original-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song-addl-zero-chronicle"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song-anime-op"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5405-5406"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5407"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5408-5409"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536276350"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1536276350"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536276351"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1536276351"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1536276352"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1536276352"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220",
+            "https://music.apple.com/hk/album/1536276348"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1536276348"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1636646011"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1636646011"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/542917",
+            "https://music.apple.com/hk/album/1636645505"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1636645505"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/518220"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ChqAonaHTgA",
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ChqAonaHTgA"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=QszQQb3tcxo",
+            "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/519025"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "QszQQb3tcxo"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲原名、正式演唱名義、本期用途及已確認季度已核對；既有歌曲識別、用途序號與影音保留。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "動畫盤 CD 第2軌為官方 OP ver.。通常盤第2軌 Add’l ZERO CHRONICLE 另有名稱。",
+          "resumeWhen": "待唱片方補充 Add’l ZERO CHRONICLE 的改動及日本以外獨立動畫尺寸音源。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原期第1–11話片頭，第12話省略片頭曲。",
+      "recordings": [
+        {
+          "id": "shironeko-project-zero-chronicle-op-1-song-original-full",
+          "title": "天秤-Libra-",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "shironeko-project-zero-chronicle-op-1-song-original-instrumental",
+          "title": "天秤-Libra- (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "shironeko-project-zero-chronicle-op-1-song-addl-zero-chronicle",
+          "title": "天秤-Libra- (Add’l ZERO CHRONICLE)",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "shironeko-project-zero-chronicle-op-1-song-anime-op",
+          "title": "天秤-Libra- (『白猫プロジェクト ZERO CHRONICLE』OP ver.)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5405-5406",
+          "title": "天秤-Libra-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "西川貴教＋ASCA",
+          "edition": "初回生産限定 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "天秤-Libra-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+            },
+            {
+              "title": "天秤-Libra- (Instrumental)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-instrumental"
+            }
+          ],
+          "label": "Epic Records Japan",
+          "catalogNumber": "ESCL-5405～5406"
+        },
+        {
+          "id": "escl-5407",
+          "title": "天秤-Libra-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "西川貴教＋ASCA",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "天秤-Libra-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+            },
+            {
+              "title": "天秤-Libra- (Add’l ZERO CHRONICLE)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-addl-zero-chronicle"
+            },
+            {
+              "title": "天秤-Libra- (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-instrumental"
+            }
+          ],
+          "label": "Epic Records Japan",
+          "catalogNumber": "ESCL-5407"
+        },
+        {
+          "id": "escl-5408-5409",
+          "title": "天秤-Libra-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "西川貴教＋ASCA",
+          "edition": "期間生産限定動畫盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "天秤-Libra-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+            },
+            {
+              "title": "天秤-Libra- (『白猫プロジェクト ZERO CHRONICLE』OP ver.)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-anime-op"
+            }
+          ],
+          "label": "Epic Records Japan",
+          "catalogNumber": "ESCL-5408～5409"
+        },
+        {
+          "id": "apple-hk-1536276348",
+          "title": "天秤-Libra-",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "西川貴教＋ASCA",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "天秤-Libra-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+            },
+            {
+              "title": "天秤-Libra- (Add’l ZERO CHRONICLE)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-addl-zero-chronicle"
+            },
+            {
+              "title": "天秤-Libra- (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1636645505",
+          "title": "SINGularity II -過形成のprotoCOL-",
+          "type": "album",
+          "date": {
+            "value": "2022-08-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "西川貴教",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "天秤-Libra-",
+              "position": 6,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "天秤-Libra-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536276350",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1536276348",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "天秤-Libra- (Add’l ZERO CHRONICLE)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536276351",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1536276348",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-op-1-song-addl-zero-chronicle"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "天秤-Libra- (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1536276352",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1536276348",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-op-1-song-original-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "天秤-Libra-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1636646011",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1636645505",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releaseDate": "2020-05-27"
     },
     {
       "type": "ED",
@@ -69012,7 +74213,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "AnimeThemes",
@@ -69022,11 +74223,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "安田レイ Official YouTube Channel 官方影片",
           "url": "https://www.youtube.com/watch?v=TlFwALKWkss",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "動畫官方網站",
@@ -69048,6 +74249,104 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/yasudarei/info/517343",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://times.abema.tv/articles/-/7059520",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/sironekoprojectzerochronicle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/yasudarei/info/518607",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=DoxO9R0a6iU",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.oricon.co.jp/prof/593074/products/1358039/1/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537279562",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537279563",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538265317",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538265318",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538265320",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/yasudarei/info/547186",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1663185317",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1663185496",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -69132,31 +74431,710 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343",
+            "https://times.abema.tv/articles/-/7059520",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/music/",
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/518607"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=DoxO9R0a6iU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song-anime-ed"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "secl-2575-2576"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "secl-2577"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.oricon.co.jp/prof/593074/products/1358039/1/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "secl-2578-2579"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537279563"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1537279563"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343",
+            "https://music.apple.com/hk/album/1537279562"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1537279562"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538265318"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538265318"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538265320"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538265320"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343",
+            "https://music.apple.com/hk/album/1538265317"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538265317"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1663185496"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1663185496"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/547186",
+            "https://music.apple.com/hk/album/1663185317"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1663185317"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/517343"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=TlFwALKWkss",
+            "https://www.sonymusic.co.jp/artist/yasudarei/info/518607"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "TlFwALKWkss"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲原名、正式演唱名義、本期用途及已確認季度已核對；既有歌曲識別、用途序號與影音保留。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "TV尺寸4/6、全曲5/11先行配信，5/27實體與數位多曲發行。",
+          "resumeWhen": "待權利方明確說明〈Circle〉專輯對應母帶。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "日本原期第1–11話片尾。第12話另用〈やさしき闇の詩〉。",
+      "recordings": [
+        {
+          "id": "shironeko-project-zero-chronicle-ed-1-song-original-full",
+          "title": "through the dark",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental",
+          "title": "through the dark -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "shironeko-project-zero-chronicle-ed-1-song-anime-ed",
+          "title": "through the dark -TVアニメサイズver.-",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "secl-2575-2576",
+          "title": "through the dark",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "初回生産限定 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "through the dark",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+            },
+            {
+              "title": "through the dark -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental"
+            }
+          ],
+          "label": "SME Records",
+          "catalogNumber": "SECL-2575～2576"
+        },
+        {
+          "id": "secl-2577",
+          "title": "through the dark",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "through the dark",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+            },
+            {
+              "title": "through the dark -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental"
+            }
+          ],
+          "label": "SME Records",
+          "catalogNumber": "SECL-2577"
+        },
+        {
+          "id": "secl-2578-2579",
+          "title": "through the dark",
+          "type": "single",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "期間生産限定動畫盤 CD+Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "through the dark",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+            },
+            {
+              "title": "through the dark -TVアニメサイズver.-",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-anime-ed"
+            }
+          ],
+          "label": "SME Records",
+          "catalogNumber": "SECL-2578～2579"
+        },
+        {
+          "id": "apple-hk-1537279562",
+          "title": "through the dark -TVアニメサイズver.-",
+          "type": "single",
+          "date": {
+            "value": "2020-04-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "through the dark -TVアニメサイズver.-",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-anime-ed"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1538265317",
+          "title": "through the dark",
+          "type": "ep",
+          "date": {
+            "value": "2020-05-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "through the dark",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+            },
+            {
+              "title": "through the dark -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1663185317",
+          "title": "Circle",
+          "type": "album",
+          "date": {
+            "value": "2023-02-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "安田レイ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "through the dark",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "through the dark -TVアニメサイズver.-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537279563",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537279562",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-ed-1-song-anime-ed"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "through the dark｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538265318",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538265317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "through the dark -Instrumental-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538265320",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538265317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "through the dark｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1663185496",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1663185317",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releaseDate": "2020-04-06"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "shironeko-project-zero-chronicle-ed-2",
+      "titleJa": "やさしき闇の詩",
+      "artistDisplayName": "アイリス（CV：堀江由衣）",
+      "songId": "shironeko-project-zero-chronicle-ed-2-song",
+      "sources": [
+        {
+          "url": "https://times.abema.tv/articles/-/7059520",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/sironekoprojectzerochronicle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://king-cr.jp/artist/horie/shironekoproject/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://colopl.co.jp/news/pressrelease/2021071303.php",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1575498521",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1575498523",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://colopl.co.jp/shironekoproject/news/index_18.php",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "やさしき闇の詩｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1575498523",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1575498521",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/7059520",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/7059520",
+            "https://king-cr.jp/artist/horie/shironekoproject/",
+            "https://www.mau2.com/anime/sironekoprojectzerochronicle"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://king-cr.jp/artist/horie/shironekoproject/"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://king-cr.jp/artist/horie/shironekoproject/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-2-song-game-original-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1575498523"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1575498523"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/news/pressrelease/2021071303.php",
+            "https://music.apple.com/jp/album/1575498521"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1575498521"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://colopl.co.jp/shironekoproject/news/index_18.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "shironeko-project-zero-chronicle-ed-2-song"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第12話（2020/6/22）片尾，授權平台稱為最終話插曲。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "堀江由衣",
+          "role": "vocals"
+        },
+        {
+          "name": "あさのますみ",
+          "role": "lyrics"
+        },
+        {
+          "name": "大川茂伸",
+          "role": "composition"
+        },
+        {
+          "name": "大川茂伸",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "shironeko-project-zero-chronicle-ed-2-song-game-original-full",
+          "title": "やさしき闇の詩",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-jp-1575498521",
+          "title": "Calida Lux",
+          "type": "ep",
+          "date": {
+            "value": "2021-07-14",
+            "precision": "day"
+          },
+          "artistDisplayName": "アイリス（CV：堀江由衣）",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "やさしき闇の詩",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "KING RECORDS"
+        }
+      ],
+      "releaseDate": "2017-04-01",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "遊戲原唱已於2017年發行，最終話確認為同名同演唱。",
+          "resumeWhen": "待確認正片是否使用遊戲原母帶、是否另有剪輯、香港曲目入口與第10話同名段落。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/onair/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%B2%93Project",
@@ -69164,6 +75142,34 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://colopl.co.jp/shironekoproject/animation/zero_chronicle/news/",
+      "label": "製作方及各平台原期配信公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.bilibili.com/bangumi/play/ep318022",
+      "label": "授權繁中終話頁（台灣）",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.mau2.com/anime/sironekoprojectzerochronicle",
+      "label": "各話時間、終話及用曲核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://acg.gamer.com.tw/acgDetail.php?s=103741",
+      "label": "繁中作品名及放送情報",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 1,
@@ -69180,7 +75186,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleZhHant": "王者天下 第三季",
   "titleRomaji": "Kingdom 3rd Season",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113108-ArjAmFLubVyu.jpg",
-  "broadcastLabel": "2020/4/6(月)00:15 NHK総合原第3系列；原日曜深夜安排換實曆日，2021/4重播及5月第5話續播另列。",
+  "broadcastLabel": "NHK総合 2020/4/6–4/27 00:15 JST 首播第1–4話後停播。2021/4/5 00:10 從第1話重播，5/3 00:10 首播第5話，10/18 00:05 第26話完結。2020/4/6 日本 dTV 開始上架。",
   "officialSiteUrl": "https://kingdom-anime.com/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/60",
@@ -69220,14 +75226,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
@@ -69242,12 +75248,112 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "en",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.bish.tokyo/news/detail.php?id=1082900",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1506752176",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1506752177",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.bish.tokyo/letters/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1519409860",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1519409864",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lHZBBE4a02s",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0_5tgikzOJg",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5421737",
+          "label": "三碟合輯實際曲位及商業版署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "BiSH",
           "role": "vocals"
+        },
+        {
+          "name": "松隈ケンタ",
+          "role": "lyrics"
+        },
+        {
+          "name": "JxSxK",
+          "role": "lyrics"
+        },
+        {
+          "name": "松隈ケンタ",
+          "role": "composition"
+        },
+        {
+          "name": "SCRAMBLES",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -69319,25 +75425,311 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kingdom-3rd-season-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://www.mau2.com/anime/kingdom-3",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://cal.syoboi.jp/tid/5644/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+            "https://www.bish.tokyo/news/detail.php?id=1082900",
+            "https://www.mau2.com/anime/kingdom-3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1082900",
+            "https://cal.syoboi.jp/tid/5644/goods"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1082900"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-1-song-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1506752177"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1506752177"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1082900",
+            "https://music.apple.com/hk/album/1506752176"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1506752176"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/letters/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "avcd-96533"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1519409864"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1519409864"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/letters/",
+            "https://music.apple.com/hk/album/1519409860"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1519409860"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1082900"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=lHZBBE4a02s"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lHZBBE4a02s"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=0_5tgikzOJg",
+            "https://www.bish.tokyo/letters/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "0_5tgikzOJg"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "eyca-13800-2"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "official_video",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核發行全曲及官方無字幕動畫片段。獨立發行動畫長度及原播與商業母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "NHK 原TV第1–13話片頭；第1–4話2020年原播、2021年4月重播，第5–13話2021年春首播。",
+      "recordings": [
+        {
+          "id": "kingdom-3rd-season-op-1-song-full",
+          "title": "TOMORROW",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "TOMORROW｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1506752177",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1506752176",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-op-1-song-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "TOMORROW｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1519409864",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1519409860",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-op-1-song-full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1506752176",
+          "title": "TOMORROW",
+          "type": "single",
+          "date": {
+            "value": "2020-04-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOMORROW",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-1-song-full"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "avcd-96533",
+          "title": "LETTERS",
+          "type": "album",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "日本 CD 盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOMORROW",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-1-song-full"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-96533"
+        },
+        {
+          "id": "apple-hk-1519409860",
+          "title": "LETTERS",
+          "type": "album",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "TOMORROW",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-1-song-full"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "eyca-13800-2",
+          "title": "TVアニメ「キングダム」MUSIC ALBUM",
+          "type": "compilation",
+          "date": {
+            "value": "2022-07-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤野弘之／KOHTA YAMAMOTO／関美奈子 ほか",
+          "edition": "日本 3CD 合輯",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "TOMORROW",
+              "position": 9,
+              "disc": 3
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13800～2"
+        }
+      ],
+      "releaseDate": "2020-04-13"
     },
     {
       "type": "OP",
@@ -69371,7 +75763,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
@@ -69386,12 +75778,129 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "en",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.bish.tokyo/news/detail.php?id=1092073",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3/ep/26",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mantan-web.jp/article/20210611dog00m200021000c.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.bish.tokyo/discography/detail.php?id=1018428",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://numero.jp/music-20210804-bish/p3/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1572386238",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1572386239",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1578211879",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1578211882",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YKF1V9Upu1U",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f_6uaeq1dLU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5421737",
+          "label": "三碟合輯實際曲位及商業版署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "BiSH",
           "role": "vocals"
+        },
+        {
+          "name": "竜宮寺育",
+          "role": "lyrics"
+        },
+        {
+          "name": "松隈ケンタ",
+          "role": "composition"
+        },
+        {
+          "name": "SCRAMBLES",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -69440,25 +75949,314 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kingdom-3rd-season-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1092073",
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://www.mau2.com/anime/kingdom-3",
+            "https://www.mau2.com/anime/kingdom-3/ep/26",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://mantan-web.jp/article/20210611dog00m200021000c.html",
+            "https://cal.syoboi.jp/tid/5644/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1092073",
+            "https://www.bish.tokyo/discography/detail.php?id=1018428",
+            "https://www.mau2.com/anime/kingdom-3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/discography/detail.php?id=1018428",
+            "https://numero.jp/music-20210804-bish/p3/",
+            "https://cal.syoboi.jp/tid/5644/goods"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1092073"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-2-song-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1572386239"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1572386239"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1092073",
+            "https://music.apple.com/hk/album/1572386238"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1572386238"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/discography/detail.php?id=1018428"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "avcd-96751"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1578211882"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1578211882"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/discography/detail.php?id=1018428",
+            "https://music.apple.com/hk/album/1578211879"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1578211879"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.bish.tokyo/news/detail.php?id=1092073"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-op-2-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=YKF1V9Upu1U"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "YKF1V9Upu1U"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=f_6uaeq1dLU",
+            "https://www.bish.tokyo/discography/detail.php?id=1018428"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "f_6uaeq1dLU"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "eyca-13800-2"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "official_video",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核發行全曲及官方無字幕動畫片段。獨立發行動畫長度及原播與商業母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "NHK 原TV第14–25話片頭，2021/7/19 起換曲；第26話無片頭。",
+      "recordings": [
+        {
+          "id": "kingdom-3rd-season-op-2-song-full",
+          "title": "STACKiNG",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "STACKiNG｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1572386239",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1572386238",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-op-2-song-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "STACKiNG｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1578211882",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1578211879",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-op-2-song-full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1572386238",
+          "title": "STACKiNG",
+          "type": "single",
+          "date": {
+            "value": "2021-07-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "STACKiNG",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-2-song-full"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "avcd-96751",
+          "title": "GOiNG TO DESTRUCTiON",
+          "type": "album",
+          "date": {
+            "value": "2021-08-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "日本 CD 盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "STACKiNG",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-2-song-full"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-96751"
+        },
+        {
+          "id": "apple-hk-1578211879",
+          "title": "GOiNG TO DESTRUCTiON",
+          "type": "album",
+          "date": {
+            "value": "2021-08-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "BiSH",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "STACKiNG",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-op-2-song-full"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "eyca-13800-2",
+          "title": "TVアニメ「キングダム」MUSIC ALBUM",
+          "type": "compilation",
+          "date": {
+            "value": "2022-07-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤野弘之／KOHTA YAMAMOTO／関美奈子 ほか",
+          "edition": "日本 3CD 合輯",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "STACKiNG",
+              "position": 10,
+              "disc": 3
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13800～2"
+        }
+      ],
+      "releaseDate": "2021-07-05"
     },
     {
       "type": "ED",
@@ -69492,14 +76290,14 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
@@ -69514,12 +76312,115 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "en",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://waterweed.jp/biography",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5421737",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://waterweed.bandcamp.com/track/deep-inside",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5173180",
+          "label": "精選碟曲序與發行盤號",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://avexnet.jp/contents/WWEED-XXXX-XXXX",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1563837674",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1563837676",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-kuD4lUkcRw",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://avexnet.jp/news/1023030",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ve-RU-vzMlc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "waterweed",
           "role": "vocals"
+        },
+        {
+          "name": "Tomohiro Ohga",
+          "role": "lyrics"
+        },
+        {
+          "name": "waterweed",
+          "role": "composition"
+        },
+        {
+          "name": "waterweed",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -69591,25 +76492,255 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kingdom-3rd-season-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://www.mau2.com/anime/kingdom-3",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://cal.syoboi.jp/tid/5644/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+            "https://waterweed.jp/biography",
+            "https://www.mau2.com/anime/kingdom-3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://waterweed.bandcamp.com/track/deep-inside"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-1-song-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/contents/WWEED-XXXX-XXXX",
+            "https://tower.jp/item/5173180"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ctcm-65124"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1563837676"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1563837676"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/contents/WWEED-XXXX-XXXX",
+            "https://music.apple.com/hk/album/1563837674"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1563837674"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://waterweed.bandcamp.com/track/deep-inside"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=-kuD4lUkcRw"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "-kuD4lUkcRw"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Ve-RU-vzMlc",
+            "https://avexnet.jp/news/1023030"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "Ve-RU-vzMlc"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "eyca-13800-2"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "official_video",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核發行全曲及官方無字幕動畫片段。獨立發行動畫長度及原播與商業母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "NHK 原TV第1–13話片尾；第1–4話2020年原播、2021年4月重播，第5–13話2021年春首播。",
+      "recordings": [
+        {
+          "id": "kingdom-3rd-season-ed-1-song-full",
+          "title": "Deep inside",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "ctcm-65124",
+          "title": "Deep inside + Unknown best",
+          "type": "compilation",
+          "date": {
+            "value": "2021-05-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "waterweed",
+          "edition": "日本 CD 精選盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Deep inside",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-1-song-full"
+            }
+          ],
+          "label": "cutting edge",
+          "catalogNumber": "CTCM-65124"
+        },
+        {
+          "id": "apple-hk-1563837674",
+          "title": "Deep inside + Unknown best",
+          "type": "compilation",
+          "date": {
+            "value": "2021-05-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "waterweed",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Deep inside",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-1-song-full"
+            }
+          ],
+          "label": "cutting edge"
+        },
+        {
+          "id": "eyca-13800-2",
+          "title": "TVアニメ「キングダム」MUSIC ALBUM",
+          "type": "compilation",
+          "date": {
+            "value": "2022-07-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤野弘之／KOHTA YAMAMOTO／関美奈子 ほか",
+          "edition": "日本 3CD 合輯",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Deep inside",
+              "position": 11,
+              "disc": 3
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13800～2"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Deep inside｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1563837676",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1563837674",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-ed-1-song-full"
+        }
+      ],
+      "releaseDate": "2021-05-12"
     },
     {
       "type": "ED",
@@ -69643,7 +76774,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%85%E5%A4%A9%E4%B8%8B",
@@ -69658,12 +76789,147 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "en",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://avex.jp/suzukiemiko/music/detail.php?id=1018448",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kingdom-3/ep/26",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/goods",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mantan-web.jp/article/20210611dog00m200021000c.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5644/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://avex.jp/suzukiemiko/news/detail.php?id=1092798",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IurtLeJSx9A",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5421737",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.avexnet.jp/contents/SZKEM-XXXX-XXXX/news/1093567",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1575153810",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1575153811",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1579021176",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1579021177",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1579021178",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=MyLBjwlYIUk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RxH4aMnlGSk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "鈴木瑛美子",
           "role": "vocals"
+        },
+        {
+          "name": "澤野弘之",
+          "role": "lyrics"
+        },
+        {
+          "name": "cAnON.",
+          "role": "lyrics"
+        },
+        {
+          "name": "澤野弘之",
+          "role": "composition"
+        },
+        {
+          "name": "澤野弘之",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -69712,35 +76978,433 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kingdom-3rd-season-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/music/detail.php?id=1018448",
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://www.mau2.com/anime/kingdom-3",
+            "https://www.mau2.com/anime/kingdom-3/ep/26",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://mantan-web.jp/article/20210611dog00m200021000c.html",
+            "https://cal.syoboi.jp/tid/5644/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/music/detail.php?id=1018448",
+            "https://avex.jp/suzukiemiko/news/detail.php?id=1092798",
+            "https://www.mau2.com/anime/kingdom-3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=IurtLeJSx9A",
+            "https://cal.syoboi.jp/tid/5644/goods",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/news/detail.php?id=1092798"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2-song-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.avexnet.jp/contents/SZKEM-XXXX-XXXX/news/1093567"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.avexnet.jp/contents/SZKEM-XXXX-XXXX/news/1093567"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2-song-tv-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/music/detail.php?id=1018448"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "avcd-61098-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/music/detail.php?id=1018448"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "avcd-61099"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1575153811"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1575153811"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/music/detail.php?id=1018448",
+            "https://music.apple.com/hk/album/1575153810"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1575153810"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1579021177"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1579021177"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1579021178"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1579021178"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.avexnet.jp/contents/SZKEM-XXXX-XXXX/news/1093567",
+            "https://music.apple.com/hk/album/1579021176"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1579021176"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/suzukiemiko/news/detail.php?id=1092798"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kingdom-3rd-season-ed-2-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=MyLBjwlYIUk"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "MyLBjwlYIUk"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=RxH4aMnlGSk",
+            "https://avex.jp/suzukiemiko/news/detail.php?id=1092798"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "RxH4aMnlGSk"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kingdom-anime.com/discography/detail.php?id=1019003&season=4",
+            "https://tower.jp/item/5421737"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "eyca-13800-2"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links",
-            "official_video",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "第三系列本曲原名、歌唱與OP／ED用途已核；逐話原播日期區分停播與續播後的使用季度，創作署名等可選欄位待補。",
-          "resumeWhen": "待權利方提供本曲尚缺的直接創作署名、可識別音源規格、官方影片、發行收錄及正版平台資料後補齊相應欄位；不由商品或影片數量推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "唱片方確認 TV anime ver. 與當時片尾同長，另有同版伴奏；逐話與商業母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "NHK 原TV第14–26話片尾，2021/7/19 起換曲，10/18 第26話仍使用。",
+      "recordings": [
+        {
+          "id": "kingdom-3rd-season-ed-2-song-full",
+          "title": "kIng",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kingdom-3rd-season-ed-2-song-tv-edit",
+          "title": "kIng TV anime ver.",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kingdom-3rd-season-ed-2-song-tv-instrumental",
+          "title": "kIng TV anime ver.（Instrumental）",
+          "kind": "instrumental",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "avcd-61098-b",
+          "title": "kIng",
+          "type": "single",
+          "date": {
+            "value": "2021-07-21",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木瑛美子",
+          "edition": "日本 CD＋DVD 盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "kIng",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-full"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-61098/B"
+        },
+        {
+          "id": "avcd-61099",
+          "title": "kIng",
+          "type": "single",
+          "date": {
+            "value": "2021-07-21",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木瑛美子",
+          "edition": "日本 CD 盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "kIng",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-full"
+            },
+            {
+              "title": "kIng TV anime ver.",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-tv-edit"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-61099"
+        },
+        {
+          "id": "apple-hk-1575153810",
+          "title": "kIng",
+          "type": "single",
+          "date": {
+            "value": "2021-07-21",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木瑛美子",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "kIng",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-full"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "apple-hk-1579021176",
+          "title": "kIng TV anime ver.",
+          "type": "single",
+          "date": {
+            "value": "2021-08-14",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木瑛美子",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "kIng TV anime ver.",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-tv-edit"
+            },
+            {
+              "title": "kIng TV anime ver.（Instrumental）",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kingdom-3rd-season-ed-2-song-tv-instrumental"
+            }
+          ],
+          "label": "avex trax"
+        },
+        {
+          "id": "eyca-13800-2",
+          "title": "TVアニメ「キングダム」MUSIC ALBUM",
+          "type": "compilation",
+          "date": {
+            "value": "2022-07-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "澤野弘之／KOHTA YAMAMOTO／関美奈子 ほか",
+          "edition": "日本 3CD 合輯",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "kIng",
+              "position": 12,
+              "disc": 3
+            }
+          ],
+          "label": "avex pictures",
+          "catalogNumber": "EYCA-13800～2"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "kIng｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1575153811",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1575153810",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-ed-2-song-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "kIng TV anime ver.｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1579021177",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1579021176",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-ed-2-song-tv-edit"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "kIng TV anime ver.（Instrumental）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1579021178",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1579021176",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kingdom-3rd-season-ed-2-song-tv-instrumental"
+        }
+      ],
+      "releaseDate": "2021-07-12"
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://www.nhk-ep.co.jp/wp-content/uploads/2020/04/Newsletter202004-05.pdf",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://en.wikipedia.org/wiki/List_of_Kingdom_%28Japanese_TV_series%29_episodes",
@@ -69748,6 +77412,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "en",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://news.pierrot.jp/kingdom1-2strm-info/",
+      "label": "動畫製作方日本 NHK 初次播出公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.nhk-ep.co.jp/assets/library/2021/06/annual-report-2020-1.pdf",
+      "label": "NHK 製作年報記錄停播及次年復播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://kingdom-anime.com/special/interview05.php",
+      "label": "動畫官網 2021 年第1話重播日期與時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://kingdom-anime.com/story/?season=3",
+      "label": "動畫官網全26話標題及話序",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5644/time",
+      "label": "NHK 原播逐話節目時間與重播標記",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1619765446",
+      "label": "第5話原播日期與時刻",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://animatetimes.com/news/details.php?id=1586152323",
+      "label": "日本 dTV 2020/4/6 首播後上架",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 1,
@@ -85264,7 +92977,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112641-zoGC8d6FaPXU.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112641-mKZe0zng0ndV.jpg",
-  "broadcastLabel": "TOKYO MX／群馬／栃木／BS11 2020/4/11(土)23:30原期TV；MBS深夜時刻與配信另列。",
+  "broadcastLabel": "日本原播 2020/4/11–6/27，TOKYO MX 等週六 23:30（JST），ABEMA 同時配信。MBS 原播首話為 4/11 26:38，終回改為 6/27 27:08（深夜節目表記法）。",
   "officialSiteUrl": "https://kaguya.love/2nd/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/49",
@@ -85310,7 +93023,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
@@ -85318,6 +93031,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-35277.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538139589",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538139684",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538139689",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.billboard-japan.com/d_news/detail/86983/2",
+          "label": "同期公開MV報導",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2Od7QCsyqkE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -85398,21 +93160,299 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://kaguya.love/2nd/music/opening/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2",
+            "https://anitubu.com/archives/post-35277.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5397"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538139684"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538139684"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538139689"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538139689"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://music.apple.com/hk/album/1538139589"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538139589"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=2Od7QCsyqkE",
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "2Od7QCsyqkE"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
-          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "已核單曲原版、TV Size、卡拉OK及純伴奏。原播片頭剪輯、單曲與香港合輯的母帶對應及平台完整播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第2–10話原TV片頭。第1、11、12話無例行片頭；第1、12話另在片尾使用本曲。",
+      "recordings": [
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理 (TV Size Version)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理 (カラオケ)",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental",
+          "title": "DADDY! DADDY! DO! (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releaseDate": "2020-04-15",
+      "releases": [
+        {
+          "id": "escl-5397",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+          "type": "single",
+          "date": {
+            "value": "2020-04-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木雅之",
+          "edition": "期間生產限定動畫盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full"
+            },
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理 (TV Size Version)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size"
+            },
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理 (カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke"
+            },
+            {
+              "title": "DADDY! DADDY! DO! (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5397"
+        },
+        {
+          "id": "apple-hk-1538139589",
+          "title": "ALL TIME ROCK 'N' ROLL",
+          "type": "album",
+          "date": {
+            "value": "2020-04-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木雅之",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DADDY ! DADDY ! DO ! (feat. Airi Suzuki)",
+              "position": 33,
+              "disc": 1
+            },
+            {
+              "title": "DADDY ! DADDY ! DO ! (カラオケ) [feat. Airi Suzuki]",
+              "position": 38,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "DADDY ! DADDY ! DO ! (feat. Airi Suzuki)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538139684",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538139589",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "DADDY ! DADDY ! DO ! (カラオケ) [feat. Airi Suzuki]｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538139689",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538139589",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -85452,7 +93492,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
@@ -85460,6 +93500,83 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://times.abema.tv/articles/-/7050832?page=1",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/5",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/AICL-3903",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1535633275",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535633276",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1535634291",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535634292",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1535634294",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.billboard-japan.com/d_news/detail/87444/2",
+          "label": "同期公開MV報導",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ncnHddqNqhM",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -85536,31 +93653,1209 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://kaguya.love/2nd/music/ending/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/",
+            "https://times.abema.tv/articles/-/7050832?page=1",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/5"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/",
+            "https://times.abema.tv/articles/-/7050832?page=1",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/AICL-3903"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-instrumental"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/7050832?page=1"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "aicl-3900-1"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "aicl-3902"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/AICL-3903"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "aicl-3903-4"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535633276"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1535633276"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/7050832?page=1",
+            "https://music.apple.com/hk/album/1535633275"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1535633275"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535634292"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1535634292"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1535634294"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1535634294"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/ending/",
+            "https://music.apple.com/hk/album/1535634291"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1535634291"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ncnHddqNqhM",
+            "https://www.sonymusic.co.jp/artist/harukafukuhara/discography/AICL-3903"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ncnHddqNqhM"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原名、演唱名義、本期用途與已確認季度已核對；音源、官方影片與發行品的逐項對應仍待補。",
-          "resumeWhen": "待權利方公開本曲可對應的音源、影片及發行項目後補核可選欄位。",
-          "checkedAt": "2026-10-24"
+          "note": "原唱單曲、動畫盤 TV EDIT 與伴奏分列。香港兩件發行的主唱音軌母帶差異及原播片尾剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第2–4、6–11話原TV片尾。第5話無片尾歌曲；第1、12話另用片頭曲作片尾。",
+      "recordings": [
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-full",
+          "title": "風に吹かれて",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-ed-1-song-tv-edit",
+          "title": "風に吹かれて TV EDIT",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-instrumental",
+          "title": "風に吹かれて (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releaseDate": "2020-04-26",
+      "releases": [
+        {
+          "id": "aicl-3900-1",
+          "title": "風に吹かれて",
+          "type": "single",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "福原遥",
+          "edition": "初回生產限定盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "風に吹かれて",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-full"
+            },
+            {
+              "title": "風に吹かれて (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "AICL-3900-1"
+        },
+        {
+          "id": "aicl-3902",
+          "title": "風に吹かれて",
+          "type": "single",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "福原遥",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "風に吹かれて",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-full"
+            },
+            {
+              "title": "風に吹かれて (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "AICL-3902"
+        },
+        {
+          "id": "aicl-3903-4",
+          "title": "風に吹かれて",
+          "type": "single",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "福原遥",
+          "edition": "期間生產限定盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "風に吹かれて",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-single-full"
+            },
+            {
+              "title": "風に吹かれて TV EDIT",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-ed-1-song-tv-edit"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "AICL-3903-4"
+        },
+        {
+          "id": "apple-hk-1535633275",
+          "title": "風に吹かれて",
+          "type": "single",
+          "date": {
+            "value": "2020-04-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "福原遥",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "風に吹かれて",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1535634291",
+          "title": "風に吹かれて",
+          "type": "single",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "福原遥",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "風に吹かれて",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "風に吹かれて Instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "風に吹かれて｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535633276",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1535633275",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "風に吹かれて｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535634292",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1535634291",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "風に吹かれて Instrumental｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1535634294",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1535634291",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "kaguya-sama-wa-kokurasetai-2-ed-2",
+      "titleJa": "DADDY! DADDY! DO! feat.鈴木愛理",
+      "artistDisplayName": "鈴木雅之",
+      "songId": "kaguya-sama-wa-kokurasetai-2-op-1-song",
+      "sources": [
+        {
+          "url": "https://kaguya.love/2nd/music/opening/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kaguya.love/news/?id=54439",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/1",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/12",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-35277.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kuro-koge.hatenablog.com/entry/2020/08/31/004852",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538139589",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538139684",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538139689",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "DADDY ! DADDY ! DO ! (feat. Airi Suzuki)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538139684",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538139589",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "DADDY ! DADDY ! DO ! (カラオケ) [feat. Airi Suzuki]｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538139689",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538139589",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://kaguya.love/news/?id=54439",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/1",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/12",
+            "https://anitubu.com/archives/post-35277.html",
+            "https://kuro-koge.hatenablog.com/entry/2020/08/31/004852"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "escl-5397"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538139684"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538139684"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538139689"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1538139689"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/music/opening/",
+            "https://music.apple.com/hk/album/1538139589"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1538139589"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第1、12話原TV片尾改用同一首片頭曲。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "鈴木雅之",
+          "role": "vocals"
+        },
+        {
+          "name": "鈴木愛理",
+          "role": "vocals"
+        },
+        {
+          "name": "水野良樹",
+          "role": "lyrics"
+        },
+        {
+          "name": "水野良樹",
+          "role": "composition"
+        },
+        {
+          "name": "本間昭光",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理 (TV Size Version)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理 (カラオケ)",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental",
+          "title": "DADDY! DADDY! DO! (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5397",
+          "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+          "type": "single",
+          "date": {
+            "value": "2020-04-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木雅之",
+          "edition": "期間生產限定動畫盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-full"
+            },
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理 (TV Size Version)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-tv-size"
+            },
+            {
+              "title": "DADDY! DADDY! DO! feat.鈴木愛理 (カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-karaoke"
+            },
+            {
+              "title": "DADDY! DADDY! DO! (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels Inc.",
+          "catalogNumber": "ESCL-5397"
+        },
+        {
+          "id": "apple-hk-1538139589",
+          "title": "ALL TIME ROCK 'N' ROLL",
+          "type": "album",
+          "date": {
+            "value": "2020-04-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木雅之",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DADDY ! DADDY ! DO ! (feat. Airi Suzuki)",
+              "position": 33,
+              "disc": 1
+            },
+            {
+              "title": "DADDY ! DADDY ! DO ! (カラオケ) [feat. Airi Suzuki]",
+              "position": 38,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "releaseDate": "2020-04-15",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "已核兩話片尾曲名與演唱名義。每話使用的剪輯是否對應發行的 TV Size Version 待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "kaguya-sama-wa-kokurasetai-2-in-1",
+      "titleJa": "やさしさの記憶",
+      "artistDisplayName": "maimie",
+      "songId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song",
+      "sources": [
+        {
+          "url": "https://times.abema.tv/articles/-/10021384",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kaguya.love/2nd/story/?id=07",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/7",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://keihaneoka.livedoor.blog/archives/52082503.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kaguya.love/2nd/bddvd/05.html",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://musicbrainz.org/release/ced67a9e-6b46-451d-a566-e8fa07b53569",
+          "label": "特典原聲 CD 主唱與伴奏曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kaguya.love/news/?id=62679",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1676889988",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1676890295",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1676890297",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "やさしさの記憶｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1676890295",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1676889988",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "やさしさの記憶 -Instrumental-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1676890297",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1676889988",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/10021384",
+            "https://kaguya.love/2nd/story/?id=07",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/10021384",
+            "https://keihaneoka.livedoor.blog/archives/52082503.html",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://keihaneoka.livedoor.blog/archives/52082503.html",
+            "https://times.abema.tv/articles/-/10021384",
+            "https://www.mau2.com/anime/kaguyasamahakokurasetai-2/ep/7"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://keihaneoka.livedoor.blog/archives/52082503.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://keihaneoka.livedoor.blog/archives/52082503.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/bddvd/05.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/bddvd/05.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anzx-13759-60"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/bddvd/05.html",
+            "https://musicbrainz.org/release/ced67a9e-6b46-451d-a566-e8fa07b53569"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anzx-13759-60"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/bddvd/05.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anzb-13759-60"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/2nd/bddvd/05.html",
+            "https://musicbrainz.org/release/ced67a9e-6b46-451d-a566-e8fa07b53569"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anzb-13759-60"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1676890295"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1676890295"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1676890297"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1676890297"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kaguya.love/news/?id=62679",
+            "https://music.apple.com/hk/album/1676889988"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1676889988"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "第7話「かぐや様♡アクアリウム」段落內，作為少女漫畫情境的遊戲廣告風插曲。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "maimie",
+          "role": "vocals"
+        },
+        {
+          "name": "くまのきよみ",
+          "role": "lyrics"
+        },
+        {
+          "name": "羽岡佳",
+          "role": "composition"
+        },
+        {
+          "name": "羽岡佳",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal",
+          "title": "やさしさの記憶",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental",
+          "title": "やさしさの記憶 -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releaseDate": "2020-10-28",
+      "releases": [
+        {
+          "id": "anzx-13759-60",
+          "title": "かぐや様は告らせたい？ 第5巻 オリジナルサウンドトラック vol.3",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-10-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "第5卷完全生產限定 Blu-ray+CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "やさしさの記憶",
+              "position": 13,
+              "disc": 2,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal"
+            },
+            {
+              "title": "やさしさの記憶 -Instrumental-",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental"
+            }
+          ],
+          "label": "Aniplex Inc.",
+          "catalogNumber": "ANZX-13759-60"
+        },
+        {
+          "id": "anzb-13759-60",
+          "title": "かぐや様は告らせたい？ 第5巻 オリジナルサウンドトラック vol.3",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-10-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "第5卷完全生產限定 DVD+CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "やさしさの記憶",
+              "position": 13,
+              "disc": 2,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal"
+            },
+            {
+              "title": "やさしさの記憶 -Instrumental-",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental"
+            }
+          ],
+          "label": "Aniplex Inc.",
+          "catalogNumber": "ANZB-13759-60"
+        },
+        {
+          "id": "apple-hk-1676889988",
+          "title": "KAGUYA Music Collection Season2",
+          "type": "soundtrack",
+          "date": {
+            "value": "2023-03-31",
+            "precision": "day"
+          },
+          "artistDisplayName": "羽岡佳",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "やさしさの記憶",
+              "position": 41,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-vocal"
+            },
+            {
+              "title": "やさしさの記憶 -Instrumental-",
+              "position": 42,
+              "disc": 1,
+              "recordingId": "kaguya-sama-wa-kokurasetai-2-yasashisa-no-kioku-song-soundtrack-instrumental"
+            }
+          ],
+          "label": "Aniplex Inc."
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "已核第7話用曲、影碟特典與香港數位原聲；劇中剪輯和可獨立播放的官方影片待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://kaguya.love/2nd/onair/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E8%BC%9D%E5%A4%9C%E5%A7%AC%E6%83%B3%E8%AE%93%E4%BA%BA%E5%91%8A%E7%99%BD%EF%BD%9E%E5%A4%A9%E6%89%8D%E5%80%91%E7%9A%84%E6%88%80%E6%84%9B%E9%A0%AD%E8%85%A6%E6%88%B0%EF%BD%9E_%28%E5%8B%95%E7%95%AB%29",
@@ -85568,6 +94863,34 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://kaguya.love/news/?id=54439",
+      "label": "製作方第12話首播日期與時間",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.aniplex.co.jp/lineup/kaguya2/news/detail/?id=54402",
+      "label": "Aniplex 終回同時配信公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://s.mxtv.jp/company/press/press2019_900001.pdf",
+      "label": "TOKYO MX 原期節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.allcinema.net/cinema/pdf/370172",
+      "label": "首末話日期與原播時段交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 6,
@@ -94849,7 +104172,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Kitsutsuki Tantei Dokoro",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108629-KZRQimMl3eGN.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108629-FOCCY5WmkVzh.jpg",
-  "broadcastLabel": "TOKYO MX 原2020初回",
+  "broadcastLabel": "日本原播 2020/4/13–6/29，TOKYO MX 週一 23:00（JST）。dアニメストア 4/14 起週二 12:00 配信。3/21特番與4/3 YouTube 上架僅公開第1話A段。",
   "officialSiteUrl": "https://kimikoe.com/kitsutsuki/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/58",
@@ -94874,7 +104197,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "AnimeThemes",
@@ -94884,11 +104207,11 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Lantis Channel 官方影片",
           "url": "https://www.youtube.com/watch?v=9UwL1XOKIDk",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80",
@@ -94902,13 +104225,81 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dA8UxC-Yqls",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://furukawamakoto.lantis.jp/news/news-media/1031/",
+          "label": "權利方確認初回、通常盤品番及CD實際發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1509423584",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1509423585",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://joshinweb.jp/dp/4540774907540.html",
+          "label": "原聲唱片兩碟曲序與品番交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1520174698",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1520174955",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "古川慎",
           "role": "vocals"
+        },
+        {
+          "name": "真崎エリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "山本恭平（Arte Refact）",
+          "role": "composition"
+        },
+        {
+          "name": "山本恭平（Arte Refact）",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -94979,24 +104370,420 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kitsutsuki-tantei-dokoro-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+            "https://www.youtube.com/watch?v=dA8UxC-Yqls",
+            "https://www.mau2.com/anime/kitutukitanteidokoro"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song-single-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song-soundtrack-tv-size"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dA8UxC-Yqls"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-op-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-34002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "catalog_number",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+            "https://furukawamakoto.lantis.jp/news/news-media/1031/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-34002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-24002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "catalog_number",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/",
+            "https://furukawamakoto.lantis.jp/news/news-media/1031/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-24002"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1509423585"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1509423585"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dA8UxC-Yqls",
+            "https://music.apple.com/jp/album/1509423584"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1509423584"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://joshinweb.jp/dp/4540774907540.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1520174955"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1520174955"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://music.apple.com/jp/album/1520174698"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1520174698"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=9UwL1XOKIDk",
+            "https://furukawamakoto.lantis.jp/discography/%E6%9C%AC%E6%97%A5%E3%83%A2%E8%AA%A0%E3%83%8B%E6%99%B4%E5%A4%A9%E4%B9%9F%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "9UwL1XOKIDk"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
-          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "官方短版MV與原聲的TV Size分列。香港Apple Music正確原唱曲目及完整播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第1–12話原TV片頭。",
+      "recordings": [
+        {
+          "id": "kitsutsuki-tantei-dokoro-op-1-song-single-full",
+          "title": "本日モ誠ニ晴天也",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kitsutsuki-tantei-dokoro-op-1-song-single-instrumental",
+          "title": "本日モ誠ニ晴天也 -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "kitsutsuki-tantei-dokoro-op-1-song-soundtrack-tv-size",
+          "title": "本日モ誠ニ晴天也 (TV Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releaseDate": "2020-05-13",
+      "releases": [
+        {
+          "id": "lacm-34002",
+          "title": "本日モ誠ニ晴天也",
+          "type": "single",
+          "date": {
+            "value": "2020-07-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "古川慎",
+          "edition": "初回限定盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "本日モ誠ニ晴天也",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-op-1-song-single-full"
+            },
+            {
+              "title": "本日モ誠ニ晴天也 -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-34002"
+        },
+        {
+          "id": "lacm-24002",
+          "title": "本日モ誠ニ晴天也",
+          "type": "single",
+          "date": {
+            "value": "2020-07-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "古川慎",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "本日モ誠ニ晴天也",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-op-1-song-single-full"
+            },
+            {
+              "title": "本日モ誠ニ晴天也 -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-24002"
+        },
+        {
+          "id": "apple-jp-1509423584",
+          "title": "本日モ誠ニ晴天也",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "古川慎",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "本日モ誠ニ晴天也",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9754-5",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本實體 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "本日モ誠ニ晴天也 (TV Size)",
+              "position": 18,
+              "disc": 2,
+              "recordingId": "kitsutsuki-tantei-dokoro-op-1-song-soundtrack-tv-size"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9754-5"
+        },
+        {
+          "id": "apple-jp-1520174698",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "本日モ誠ニ晴天也 (TV Size)",
+              "position": 18,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "本日モ誠ニ晴天也｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1509423585",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1509423584",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "本日モ誠ニ晴天也 (TV Size)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1520174955",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1520174698",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -95015,7 +104802,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "label": "AnimeThemes",
@@ -95025,18 +104812,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Lantis Channel 官方影片",
           "url": "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%95%84%E6%9C%A8%E9%B3%A5%E5%81%B5%E6%8E%A2%E6%89%80",
@@ -95050,13 +104837,118 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-38313.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://blog.livedoor.jp/jinomakusuweru/archives/5172475.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1591508731",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tower.jp/item/5022249",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1509418245",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1509418246",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://joshinweb.jp/dp/4540774907540.html",
+          "label": "原聲唱片兩碟曲序與品番交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1520174698",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1520174956",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "NOW ON AIR (飯野美紗子、片平美那、岩淵桃音、神戸光歩、鈴木陽斗実、田中有紀)",
           "role": "vocals"
+        },
+        {
+          "name": "吉井勇",
+          "role": "lyrics"
+        },
+        {
+          "name": "中山晋平",
+          "role": "composition"
+        },
+        {
+          "name": "伊藤賢",
+          "role": "arrangement"
+        },
+        {
+          "name": "飯野美紗子",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
+        },
+        {
+          "name": "片平美那",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
+        },
+        {
+          "name": "岩淵桃音",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
+        },
+        {
+          "name": "神戸光歩",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
+        },
+        {
+          "name": "鈴木陽斗実",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
+        },
+        {
+          "name": "田中有紀",
+          "role": "group_member",
+          "groupName": "NOW ON AIR"
         }
       ],
       "evidence": [
@@ -95150,24 +105042,422 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://www.mau2.com/anime/kitutukitanteidokoro",
+            "https://anitubu.com/archives/post-38313.html",
+            "https://blog.livedoor.jp/jinomakusuweru/archives/5172475.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://www.mau2.com/anime/kitutukitanteidokoro",
+            "https://www.animatetimes.com/news/details.php?id=1591508731"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://www.animatetimes.com/news/details.php?id=1591508731",
+            "https://tower.jp/item/5022249"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://tower.jp/item/5022249"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song-single-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song-soundtrack-tv-size"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nowonair/news_1580908500.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-34988"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://tower.jp/item/5022249"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-34988"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-14988"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk",
+            "https://tower.jp/item/5022249"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-14988"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1509418246"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1509418246"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
+            "https://music.apple.com/jp/album/1509418245"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1509418245"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://joshinweb.jp/dp/4540774907540.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1520174956"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1520174956"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://music.apple.com/jp/album/1520174698"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1520174698"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dq5sTEPn0Tk"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "dq5sTEPn0Tk"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原歌曲身分及本期用途季度已核；未新增音源或影片。",
-          "resumeWhen": "待本曲直接音源及發行細項再補；不從原影片推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "第9、10話實播片尾的剪輯與再編曲關係待核。香港Apple Music正確原唱曲目及完整播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第1–12話原TV片尾。第9、10話片尾呈現有變化，仍使用同一片尾曲。",
+      "recordings": [
+        {
+          "id": "kitsutsuki-tantei-dokoro-ed-1-song-single-full",
+          "title": "ゴンドラの唄",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "kitsutsuki-tantei-dokoro-ed-1-song-single-instrumental",
+          "title": "ゴンドラの唄 (instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "kitsutsuki-tantei-dokoro-ed-1-song-soundtrack-tv-size",
+          "title": "ゴンドラの唄 (TV Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releaseDate": "2020-05-13",
+      "releases": [
+        {
+          "id": "lacm-34988",
+          "title": "ゴンドラの唄",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "NOW ON AIR",
+          "edition": "初回限定盤 CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴンドラの唄",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-ed-1-song-single-full"
+            },
+            {
+              "title": "ゴンドラの唄 (instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-34988"
+        },
+        {
+          "id": "lacm-14988",
+          "title": "ゴンドラの唄",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "NOW ON AIR",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴンドラの唄",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-ed-1-song-single-full"
+            },
+            {
+              "title": "ゴンドラの唄 (instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "kitsutsuki-tantei-dokoro-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14988"
+        },
+        {
+          "id": "apple-jp-1509418245",
+          "title": "ゴンドラの唄",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "NOW ON AIR",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴンドラの唄",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9754-5",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本實體 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴンドラの唄 (TV Size)",
+              "position": 19,
+              "disc": 2,
+              "recordingId": "kitsutsuki-tantei-dokoro-ed-1-song-soundtrack-tv-size"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9754-5"
+        },
+        {
+          "id": "apple-jp-1520174698",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ゴンドラの唄 (TV Size)",
+              "position": 19,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ゴンドラの唄｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1509418246",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1509418245",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ゴンドラの唄 (TV Size)｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1520174956",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1520174698",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ]
     },
     {
       "id": "kitsutsuki-tantei-dokoro-in-1",
@@ -95175,8 +105465,36 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "sequence": 1,
       "titleJa": "旅路へ",
       "artistDisplayName": "若山牧水(CV.古川 慎)",
-      "credits": [],
-      "links": [],
+      "credits": [
+        {
+          "name": "若山牧水(CV.古川 慎)",
+          "role": "vocals"
+        },
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "高田龍一（MONACA）",
+          "role": "composition"
+        },
+        {
+          "name": "高田龍一（MONACA）",
+          "role": "arrangement"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "旅路へ｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1520174948",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1520174698",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
       "songId": "kitsutsuki-tantei-dokoro-in-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -95188,21 +105506,42 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.uta-net.com/song/288144/",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.mau2.com/anime/kitutukitanteidokoro",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://joshinweb.jp/dp/4540774907540.html",
+          "label": "原聲唱片兩碟曲序與品番交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1520174698",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1520174948",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "evidence": [
@@ -95273,34 +105612,199 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "kitsutsuki-tantei-dokoro-in-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://www.mau2.com/anime/kitutukitanteidokoro",
+            "https://www.uta-net.com/song/288144/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://www.mau2.com/anime/kitutukitanteidokoro",
+            "https://www.uta-net.com/song/288144/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://www.uta-net.com/song/288144/"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song-soundtrack-vocal"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "kitsutsuki-tantei-dokoro-in-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://joshinweb.jp/dp/4540774907540.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9754-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1520174948"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1520174948"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://kimikoe.com/kitsutsuki/",
+            "https://music.apple.com/jp/album/1520174698"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1520174698"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期第十首劇中歌身分、角色歌唱及春季用途已核；創作及音源發行細項待補。",
-          "resumeWhen": "待權利方本曲逐項創作署名與音源細項；不從OST收錄推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "唱片與日本Apple Music均標作第2碟第14曲；實播剪輯、香港直連及獨立官方影片待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第10話「幾山河」劇中由若山牧水演唱。",
+      "recordings": [
+        {
+          "id": "kitsutsuki-tantei-dokoro-in-1-song-soundtrack-vocal",
+          "title": "旅路へ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releaseDate": "2020-07-08",
+      "releases": [
+        {
+          "id": "laca-9754-5",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本實體 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "旅路へ",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "kitsutsuki-tantei-dokoro-in-1-song-soundtrack-vocal"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9754-5"
+        },
+        {
+          "id": "apple-jp-1520174698",
+          "title": "TVアニメ『啄木鳥探偵處』オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "高田龍一、高橋邦幸",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "旅路へ",
+              "position": 14,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://kimikoe.com/kitsutsuki/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.lantis.jp/artist/nowonair/news_1580908500.html",
@@ -95315,6 +105819,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "zh-Hant",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://s.mxtv.jp/jyushin/timetable/2004.pdf",
+      "label": "TOKYO MX 原期開播節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://fs2.magicalir.net/tdnet/2020/7552/20200402489213.pdf",
+      "label": "製作方合作企業首播時段公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000409.000031422.html",
+      "label": "影碟發行方說明節目僅先行播放第1話A段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.allcinema.net/cinema/pdf/367674",
+      "label": "開播日及終回日期交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://dengekionline.com/articles/40893/",
+      "label": "終回第12話及其原播日期",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 1,
@@ -101627,4 +112166,4 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
 
 export const curated2020SpringAnimeIds = [...curated2020SpringSeedRows.map(
   ({ anilistId }) => anilistId,
-), 8687, 966, 6149, -2020041201];
+), 8687, 966, 6149, -2020041201, 108628];
