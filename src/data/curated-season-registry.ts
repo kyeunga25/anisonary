@@ -420,7 +420,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "秋季動畫",
     titleJa: "2020年秋アニメ",
     seeds: curated2020FallSeeds,
-    animeIds: [...curated2020FallAnimeIds, 111310, 21, 112153, 114236, 110371, 103110, 112302, 114072, 113990, 114717, 114811, 116793, 118630, 112325, 113472, 112748, 235, -201723701, 110788]
+    animeIds: [...curated2020FallAnimeIds, 97938, 110349, 115656, 111310, 21, 112153, 114236, 110371, 103110, 112302, 114072, 113990, 114717, 114811, 116793, 118630, 112325, 113472, 112748, 235, -201723701, 110788]
   },
   {
     id: "2020-summer",
@@ -429,7 +429,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "夏季動畫",
     titleJa: "2020年夏アニメ",
     seeds: curated2020SummerSeeds,
-    animeIds: [...curated2020SummerAnimeIds, 111310, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341, 114233, 113472, 104462, 112748, -201723701,
+    animeIds: [...curated2020SummerAnimeIds, 97938, 110349, 115656, 111310, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341, 108522, 114233, 113472, 104462, 112748, -201723701,
  101239,
 110788,
 ]
@@ -453,7 +453,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2020年冬アニメ",
     seeds: curated2020WinterSeeds,
-    animeIds: [...curated2020WinterAnimeIds, 21, 112153, 235, 101239,
+    animeIds: [...curated2020WinterAnimeIds, 97938, 21, 112153, 235, 101239,
 103275, 107693, 101215, 108358, 108928, 104276,
 111082,
 101349, 104679,
@@ -468,7 +468,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "秋季動畫",
     titleJa: "2019年秋アニメ",
     seeds: curated2019FallSeeds,
-    animeIds: [...curated2019FallAnimeIds, 105333, 111144, 105310, 101348, 113472]
+    animeIds: [...curated2019FallAnimeIds, 97938, 105333, 111144, 105310, 101348, 113472]
   },
   {
     id: "2019-summer",
@@ -476,9 +476,9 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     quarter: "summer",
     titleZhHant: "夏季動畫",
     titleJa: "2019年夏アニメ",
-    coverageNote: "本季正在補充，目前收錄 42 套作品，包括 38 套 TV 與 4 套網絡連載。其餘作品及特殊歌曲版本仍待核對。",
+    coverageNote: "本季正在補充，目前收錄 43 套作品，包括 38 套 TV 與 5 套網絡連載。其餘作品及特殊歌曲版本仍待核對。",
     seeds: curated2019SummerSeeds,
-    animeIds: curated2019SummerAnimeIds
+    animeIds: [...curated2019SummerAnimeIds, 108146]
   }
 ] as const);
 

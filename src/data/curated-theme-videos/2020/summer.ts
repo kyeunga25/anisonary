@@ -1,6 +1,28 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SummerThemeVideos = {
+  "108146:ED:1": [
+    {
+      "youtubeVideoId": "aTFR1RkSEwE",
+      "title": "〈多次元トラベリング〉官方Art Track",
+      "channelName": "Purely Monster - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108146:OP:1": [
+    {
+      "youtubeVideoId": "jhlU0dcbxZU",
+      "title": "〈運命のラプソディー〉官方短版MV",
+      "channelName": "AniTone Music Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "113286:IN:1": [
     {
       "youtubeVideoId": "4e07bPckWXg",
