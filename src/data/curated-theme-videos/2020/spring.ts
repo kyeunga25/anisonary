@@ -1,6 +1,68 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "117096:ED:2": [
+    {
+      "youtubeVideoId": "lws7WM_va2g",
+      "title": "أغنية النهاية (جدتي) من أداء الفنانة رشا رزق",
+      "channelName": "Manga Productions",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "117096:OP:2": [
+    {
+      "youtubeVideoId": "HQT13cbUHtE",
+      "title": "أغنية شارة بداية مسلسل أساطير في قادم الزمان",
+      "channelName": "Manga Productions",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020041201:ED:1": [
+    {
+      "youtubeVideoId": "QwUqpdDCTno",
+      "title": "my ID｜圓谷官方無字片尾",
+      "channelName": "ウルトラマン公式 ULTRAMAN OFFICIAL by TSUBURAYA PROD.",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "U_QXPUEP5U0",
+      "title": "my ID｜Void_Chords 官方 MV",
+      "channelName": "Void_Chords",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020041201:OP:1": [
+    {
+      "youtubeVideoId": "afzrRKt5TAw",
+      "title": "Core Fade｜圓谷官方無字片頭",
+      "channelName": "ウルトラマン公式 ULTRAMAN OFFICIAL by TSUBURAYA PROD.",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "qoNTrhIKUMc",
+      "title": "Core Fade｜Lantis 官方 MV",
+      "channelName": "Lantis Global Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "113108:ED:2": [
     {
       "youtubeVideoId": "MyLBjwlYIUk",
@@ -917,7 +979,7 @@ export const curated2020SpringThemeVideos = {
     {
       youtubeVideoId: "wcQklA1wXRA",
       title: "アサティール　未来の昔ばなし",
-      type: "tv_size",
+      type: "other",
       channelName: "Manga Productions",
       officialStatus: "official",
       embeddable: true,
@@ -1299,23 +1361,33 @@ export const curated2020SpringThemeVideos = {
   ],
   "106154:OP:1": [
     {
-      youtubeVideoId: "fuXZMQAD9vU",
-      title: "ꉈꀧ꒒꒒ꁄꍈꍈꀧ꒦ꉈ ꉣꅔꎡꅔꁕꁄ - Fly with me",
-      type: "other",
-      channelName: "MILLENNIUM PARADE Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "fuXZMQAD9vU",
+      "title": "Fly with me｜millennium parade 官方 MV",
+      "type": "music_video",
+      "channelName": "MILLENNIUM PARADE Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "106154:ED:1": [
     {
-      youtubeVideoId: "JHY0PYZXvfU",
-      title: "Mili - sustain++; / Ghost In The Shell: SAC_2045 Ending Theme",
-      type: "other",
-      channelName: "Mili",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "JHY0PYZXvfU",
+      "title": "Mili - sustain++; / Ghost In The Shell: SAC_2045 Ending Theme",
+      "type": "other",
+      "channelName": "Mili",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "Wu4fVGsEn8s",
+      "title": "sustain++;（ending ver.）｜Mili 官方 MV",
+      "channelName": "Mili",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+    }
   ],
   "107294:OP:1": [
     {

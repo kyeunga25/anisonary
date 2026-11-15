@@ -5040,9 +5040,119 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "verifiedAt": "2026-11-07"
           }
         ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "id": "mairimashita-iruma-kun-4-ed-3",
+        "titleJa": "悪魔学校バビルス校歌",
+        "artistDisplayName": "悪魔学校バビルス 生徒の皆さん",
+        "songId": "mairimashita-iruma-kun-ed-2-song",
+        "sources": [
+          {
+            "url": "https://x.com/nep_irumakun/status/2103783650957685154",
+            "label": "動畫官方第24話片尾曲名、演唱及詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.nhk-character.com/chara/iruma/episode/ep24.html",
+            "label": "NHK Enterprises第24話正式集名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/mairimasitairumakun-4/ep/24",
+            "label": "第24話獨立逐話片尾曲名及演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/7770/time",
+            "label": "終回NHK Eテレ首播日期與時間",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://x.com/nep_irumakun/status/2103783650957685154",
+              "https://www.mau2.com/anime/mairimasitairumakun-4/ep/24"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mairimashita-iruma-kun-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://x.com/nep_irumakun/status/2103783650957685154",
+              "https://www.nhk-character.com/chara/iruma/episode/ep24.html",
+              "https://www.mau2.com/anime/mairimasitairumakun-4/ep/24",
+              "https://cal.syoboi.jp/tid/7770/time"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mairimashita-iruma-kun-4-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://x.com/nep_irumakun/status/2103783650957685154"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2026-summer"
+        ],
+        "usageLabel": "第4系列第24話「一番豪華な餞（はなむけ）を」特別片尾。NHK Eテレ於2026/9/26 18:25 JST首播。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "悪魔学校バビルス 生徒の皆さん",
+            "role": "vocals"
+          },
+          {
+            "name": "西修",
+            "role": "lyrics"
+          },
+          {
+            "name": "本間昭光",
+            "role": "composition"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "official_video",
+              "platform_availability"
+            ],
+            "note": "同曲曾用於第1系列。已核第4系列第24話放送署名，該話音源與既有原聲帶錄音的關係待核。",
+            "resumeWhen": "待第4系列原片尾、權利方獨立上架或錄音說明，確認剪輯、母帶、正版發行及地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       }
     ],
-    "metadataVerifiedAt": "2026-10-19",
+    "metadataVerifiedAt": "2026-11-16",
     "metadataSources": [
       {
         "label": "動畫官方網站：作品與播出資料",
@@ -5099,9 +5209,30 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "zh-Hant",
         "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.nhk-character.com/chara/iruma/episode/ep24.html",
+        "label": "NHK Enterprises第4系列第24話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://x.com/nep_irumakun/status/2103783650957685154",
+        "label": "動畫官方第24話特別片尾公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/7770/time",
+        "label": "NHK Eテレ原播逐話時刻及第24話終回",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
       }
     ],
-    "broadcastLabel": "日本TV第4系列2026年4月4日起NHK Eテレ每週六18:25；週五19:00為重播，4月6日起週一18:00為配信。MyVideo同版夏季逐話卡列25分鐘。第7話特殊ED與劇中演出分列。"
+    "broadcastLabel": "日本TV第4系列2026年4月4日起NHK Eテレ每週六18:25；週五19:00為重播，4月6日起週一18:00為配信。MyVideo同版夏季逐話卡列25分鐘。第7話特殊ED與劇中演出分列。第24話為2026年9月26日18:25 JST首播的終回，另用特別片尾。"
   },
   {"anilistId":200769,"id":"curated-200769","slug":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo","seasonIds":["2026-spring"],"startDate":"2026-04-04","titleJa":"最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？","titleZhHant":"最強的職業不是勇者也不是賢者好像是鑑定師（暫定）的樣子","titleRomaji":"Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx200769-8WkFkoFxc2fw.jpg","editorialWeekday":6,"broadcastTimeJst":"22:00","status":"finished","officialSiteUrl":"https://kanteishikari-anime.com/","anilistUrl":"https://anilist.co/anime/200769","imageSourceUrl":"https://anilist.co/anime/200769","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/662388"],"animeThemesUrl":"https://animethemes.moe/anime/saikyou_no_shokugyou_wa_yuusha_demo_kenja_demo_naku_kanteishi_kari_rashii_desu_yo","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{"type":"OP","sequence":1,"titleJa":"コンパスは透明","titleRomaji":"Compass wa Toumei","artistDisplayName":"緑仙","youtubeUrl":"https://www.youtube.com/watch?v=rm86UwJz8Ck","songId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1-song","sources":[{"url":"https://kanteishikari-anime.com/music.html","label":"動畫官網 MUSIC：主題曲、演唱與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.fmf-music.com/feat-works/%E7%B7%91%E4%BB%99-2/","label":"F.M.F 官方作品：コンパスは透明 完整創作（公開索引核對）","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://kanteishikari-anime.com/","label":"動畫官網 STAFF：OP／ED 曲名及演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90","label":"中文動畫條目：OP／ED 曲名及演唱交叉","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanteishikari-anime.com/music.html"],"verifiedAt":"2026-10-15","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanteishikari-anime.com/music.html"],"verifiedAt":"2026-10-15","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.fmf-music.com/feat-works/%E7%B7%91%E4%BB%99-2/"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1-song","fields":["title","artist"],"sourceUrls":["https://kanteishikari-anime.com/","https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-op-1","fields":["usage"],"sourceUrls":["https://kanteishikari-anime.com/","https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90"],"verifiedAt":"2026-11-07"}],"credits":[{"name":"緑仙","role":"vocals"},{"name":"緑仙","role":"lyrics"},{"name":"児玉雨子","role":"lyrics"},{"name":"eba","role":"composition"},{"name":"eba","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"もーいーかい？","titleRomaji":"Mo-ii-kai?","artistDisplayName":"ファントムシータ","youtubeUrl":"https://www.youtube.com/watch?v=6w3_R9Cfdp0","songId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1-song","sources":[{"url":"https://kanteishikari-anime.com/music.html","label":"動畫官網 MUSIC：主題曲、演唱與團隊","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://phantomsiita.com/news/detail/311","label":"ファントムシータ 官方：もーいーかい？ Music Video 與數位發行","role":"first_party","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://www.anisil.com/animes/6612-%E6%9C%80%E5%BC%B7%E3%81%AE%E8%81%B7%E6%A5%AD%E3%81%AF%E5%8B%87%E8%80%85%E3%81%A7%E3%82%82%E8%B3%A2%E8%80%85%E3%81%A7%E3%82%82%E3%81%AA%E3%81%8F%E9%91%91%E5%AE%9A%E5%A3%AB%28%E4%BB%AE%29%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%82%88%EF%BC%9F","label":"アニシル：もーいーかい？完整創作交叉核對（公開索引核對）","role":"cross_check","language":"ja","verifiedAt":"2026-10-15"},{"url":"https://kanteishikari-anime.com/","label":"動畫官網 STAFF：OP／ED 曲名及演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90","label":"中文動畫條目：OP／ED 曲名及演唱交叉","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-07"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://kanteishikari-anime.com/music.html"],"verifiedAt":"2026-10-15","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://kanteishikari-anime.com/music.html"],"verifiedAt":"2026-10-15","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://kanteishikari-anime.com/music.html"],"verifiedAt":"2026-10-15"},{"target":"link","fields":["url","type"],"sourceUrls":["https://phantomsiita.com/news/detail/311"],"verifiedAt":"2026-10-15","targetId":"https://www.youtube.com/watch?v=kGe-sxrAJIw"},{"target":"release","fields":["title","type","tracklist","date","edition"],"sourceUrls":["https://phantomsiita.com/news/detail/311"],"verifiedAt":"2026-10-15","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1-digital"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.anisil.com/animes/6612-%E6%9C%80%E5%BC%B7%E3%81%AE%E8%81%B7%E6%A5%AD%E3%81%AF%E5%8B%87%E8%80%85%E3%81%A7%E3%82%82%E8%B3%A2%E8%80%85%E3%81%A7%E3%82%82%E3%81%AA%E3%81%8F%E9%91%91%E5%AE%9A%E5%A3%AB%28%E4%BB%AE%29%E3%82%89%E3%81%97%E3%81%84%E3%81%A7%E3%81%99%E3%82%88%EF%BC%9F"],"verifiedAt":"2026-10-15"},{"target":"song","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1-song","fields":["title","artist"],"sourceUrls":["https://kanteishikari-anime.com/","https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90"],"verifiedAt":"2026-11-07"},{"target":"anime_use","targetId":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1","fields":["usage"],"sourceUrls":["https://kanteishikari-anime.com/","https://zh.wikipedia.org/wiki/%E6%9C%80%E5%BC%B7%E7%9A%84%E8%81%B7%E6%A5%AD%E4%B8%8D%E6%98%AF%E5%8B%87%E8%80%85%E4%B9%9F%E4%B8%8D%E6%98%AF%E8%B3%A2%E8%80%85%E5%A5%BD%E5%83%8F%E6%98%AF%E9%91%91%E5%AE%9A%E5%B8%AB%EF%BC%88%E6%9A%AB%E5%AE%9A%EF%BC%89%E7%9A%84%E6%A8%A3%E5%AD%90"],"verifiedAt":"2026-11-07"}],"credits":[{"name":"ファントムシータ","role":"vocals"},{"name":"もな","role":"group_member","groupName":"ファントムシータ"},{"name":"美雨","role":"group_member","groupName":"ファントムシータ"},{"name":"凛花","role":"group_member","groupName":"ファントムシータ"},{"name":"百花","role":"group_member","groupName":"ファントムシータ"},{"name":"ひとしずく×やま△","role":"lyrics"},{"name":"ひとしずく×やま△","role":"composition"},{"name":"ひとしずく×やま△","role":"arrangement"}],"links":[{"platform":"YouTube","label":"もーいーかい？ Official Music Video","url":"https://www.youtube.com/watch?v=kGe-sxrAJIw","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-15","availability":"unknown"}],"releases":[{"id":"saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-ed-1-digital","title":"もーいーかい？","artistDisplayName":"ファントムシータ","type":"single","tracks":[{"title":"もーいーかい？"}],"date":{"value":"2026-04-05","precision":"day"},"edition":"DIGITAL"}]}],"metadataVerifiedAt":"2026-07-25","metadataSources":[{"label":"動畫官方網站：作品與播出資料","url":"https://kanteishikari-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-07-25"},{"label":"AniList：作品識別與公開圖像","url":"https://anilist.co/anime/200769","language":"en","role":"identifier","verifiedAt":"2026-07-25"},{"label":"繁體中文季度列表交叉對照","url":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","language":"zh-Hant","role":"localized_cross_check","verifiedAt":"2026-07-25"},{"label":"AnimeThemes：OP／ED 曲目交叉核對","url":"https://animethemes.moe/anime/saikyou_no_shokugyou_wa_yuusha_demo_kenja_demo_naku_kanteishi_kari_rashii_desu_yo","language":"en","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"UZUREA：季度主題曲與官方影片索引","url":"https://uzurea.net/spring-2026-anime-theme-songs/","language":"ja","role":"theme_cross_check","verifiedAt":"2026-07-25"},{"label":"季度首播公開來源","url":"https://natalie.mu/comic/news/662388","language":"ja","role":"broadcast_cross_check","verifiedAt":"2026-07-25"},{"url":"https://kanteishikari-anime.com/onair.html","label":"同版本日本TV起點與先行WEB分列（完整常規槽／本體分鐘待核）：本作動畫官方網站（發表／資料提供；刊載：kanteishikari-anime.com）","role":"first_party","language":"ja","verifiedAt":"2026-10-31"},{"url":"https://www.hulu.jp/the-strongest-job-is-apparently-not-a-hero-or-a-sage-but-an-appraiser-provisional/assets","label":"Hulu 日本：本TV版第1–3話各23分鐘","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-11-07"}],"broadcastLabel":"日本TV：2026-04-04起TOKYO MX每週六22:00，BS朝日土25:00（翌日01:00），AT-X 4/9起木23:00。Hulu同版第1–3話各23分鐘，4/1先行WEB另列。"},
   {"anilistId":195600,"id":"curated-195600","slug":"yomi-no-tsugai","seasonIds":["2026-spring","2026-summer"],"startDate":"2026-04-04","titleJa":"黄泉のツガイ","titleZhHant":"黃泉使者","titleRomaji":"Yomi no Tsugai","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195600-moI0UFArtOme.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/195600-UxHvDXwzJxlP.jpg","editorialWeekday":6,"broadcastTimeJst":"23:30","status":"finished","officialSiteUrl":"https://yominotsugai.com/","anilistUrl":"https://anilist.co/anime/195600","imageSourceUrl":"https://anilist.co/anime/195600","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://natalie.mu/comic/news/658597"],"animeThemesUrl":"https://animethemes.moe/anime/yomi_no_tsugai","uzureaUrl":"https://uzurea.net/spring-2026-anime-theme-songs/","themes":[{
@@ -18466,7 +18597,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "朝日電視台原TV主題曲公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-12"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.tv-asahi.co.jp/shinchan/news/0086/",
@@ -18586,10 +18717,52 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/0064/index.html",
+          "label": "朝日電視台2020/5/16分集與故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/0068/",
+          "label": "朝日電視台2020/6/13分集與故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://post.tv-asahi.co.jp/post-112586/",
+          "label": "朝日電視台2020/3/7起安排電影宣傳片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1035",
+          "label": "第1035話逐話紀錄列本曲為片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1036",
+          "label": "第1036話逐話紀錄列本曲為片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/contents/news/0103/",
+          "label": "朝日電視台曾公開動畫片頭，現註明配信已結束",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭；10/3開始換曲",
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭，途中有停用例外。2020年春第1035話（5/16）、第1036話（6/13）已核；10/3換曲。",
       "evidence": [
         {
           "target": "song",
@@ -18854,6 +19027,22 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "snxq-78912"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0094/",
+            "https://www.tv-asahi.co.jp/shinchan/story/0064/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/story/0068/",
+            "https://post.tv-asahi.co.jp/post-112586/",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1035",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1036"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "crayon-shin-chan-op-1"
         }
       ],
       "credits": [
@@ -18882,9 +19071,9 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "use_quarters",
             "recording_format"
           ],
-          "note": "2018–2019使用範圍待相應季度盤點。原單曲、專輯與實際現場發行已分列；兩張錄音的混音關係仍待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
+          "note": "已核2020年春兩話的實際片頭。2018–2019其他季度及電影宣傳檔各話例外待逐集核對。原單曲、專輯與現場發行已分列，混音關係待核。朝日電視台當年公開的動畫片頭配信已結束。",
+          "resumeWhen": "待可辨識原播片頭或權利方逐話資料，另核原唱錄音版本關係及各地完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
       "recordings": [
@@ -20952,7 +21141,1319 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     }
   ]
 },
-  {"anilistId":6149,"id":"curated-6149","slug":"chibi-maruko-chan-1995","seasonIds":["2026-spring","2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-summer","2026-fall"],"startDate":"1995-01-08","titleJa":"ちびまる子ちゃん","titleRomaji":"Chibi Maruko-chan (1995)","editorialWeekday":7,"broadcastTimeJst":"18:00","broadcastLabel":"第2期日本TV：1995-01-08起・日曜18:00・フジテレビ系；2020–2026續播","metadataVerifiedAt":"2026-10-19","status":"airing","officialSiteUrl":"https://chibimaru.tv/","anilistUrl":"https://anilist.co/anime/6149","sourceReferenceUrls":["https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://chibimaru.tv/about/","label":"動畫官方：作品原名、時段、現行OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/story/1995/","label":"動畫官方：第2期第1話1995-01-08放送","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：兩期日本TV首播區分","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/6149","label":"AniList：1995年TV系列識別；首播日期以動畫官方為準","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"おどるポンポコリン","artistDisplayName":"ももいろクローバーZ","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall"],"songId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2025/008050.html","label":"動畫官方：2019年起ももいろクローバーZ演唱OP與2025年切換","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：ももいろクローバーZ演唱及使用期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.nippon-animation.co.jp/news/information/7599/","label":"日本アニメーション 主題曲及角色合唱公告","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.kingrecords.co.jp/cs/g/gKIZM-633/","label":"King Records 曲目及逐曲署名","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://chibimaru.tv/news/entry/2019/006259.html","label":"動畫官網正式動畫MV公告","language":"ja","role":"first_party","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","usageLabel":"日本TV OP（ももいろクローバーZ演唱）","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-op-1","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/","https://www.nippon-animation.co.jp/news/information/7599/"],"verifiedAt":"2026-11-07","targetId":"king-kizm-633-634"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://chibimaru.tv/news/entry/2019/006259.html"],"verifiedAt":"2026-11-07","targetId":"ovrRdVce9Mc"}],"credits":[{"name":"ももいろクローバーZ","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"織田哲郎","role":"composition"},{"name":"NARASAKI","role":"arrangement"},{"name":"ちびまる子ちゃんオールスターズ","role":"vocals"}],"recordings":[{"id":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original","title":"おどるポンポコリン","format":"unknown","kind":"vocal"},{"id":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental","title":"おどるポンポコリン off vocal ver.","format":"unknown","kind":"instrumental"}],"releases":[{"id":"king-kizm-633-634","title":"おどるポンポコリン","type":"single","artistDisplayName":"ももいろクローバーZ","date":{"value":"2019-08-28","precision":"day"},"tracks":[{"title":"おどるポンポコリン","recordingId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original","position":1},{"title":"おどるポンポコリン off vocal ver.","recordingId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental","position":4}],"label":"King Records","catalogNumber":"KIZM-633〜4","edition":"CD＋Blu-ray"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"}]},{"type":"OP","sequence":2,"titleJa":"おどるポンポコリン","artistDisplayName":"Ado","seasonIds":["2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2025/008050.html","label":"動畫官方：2025-12-28起Ado演唱OP及創作","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/","label":"動畫官方：現行OP","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：Ado演唱、原名及啟用日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2025-12-28起 日本TV OP（Ado演唱）","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-op-2","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"Ado","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"織田 哲郎","role":"composition"},{"name":"ヒャダイン","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"いつもの風景","artistDisplayName":"斉藤和義","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter"],"songId":"chibi-maruko-chan-1995-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2026/008102.html","label":"動畫官方：前任ED原名、演唱及約6年半使用","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：2019年起ED原名與演唱","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：2026年舊ED切換交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.kazuyoshi-saito.com/disco/66285","label":"斉藤和義 單曲兩版曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.chibimaru.tv/news/entry/2020/006436.html","label":"動畫官網 片尾曲及創作署名","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html","label":"Speedstar 專輯202020曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","usageLabel":"2019年起 日本TV ED；2026-03月切換前","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-ed-1-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-ed-1","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.chibimaru.tv/news/entry/2020/006436.html"],"verifiedAt":"2026-11-07"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-ed-1-song-original"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"victor-vizl-1670"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"victor-vicl-38560"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html"],"verifiedAt":"2026-11-07","targetId":"victor-vizl-2020"}],"credits":[{"name":"斉藤和義","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"斉藤和義","role":"composition"},{"name":"斉藤和義","role":"arrangement"}],"recordings":[{"id":"chibi-maruko-chan-1995-ed-1-song-original","title":"いつもの風景","format":"unknown","kind":"vocal"}],"releases":[{"id":"victor-vizl-1670","title":"いつもの風景","type":"single","artistDisplayName":"斉藤和義","date":{"value":"2019-11-20","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VIZL-1670","edition":"初回限定盤"},{"id":"victor-vicl-38560","title":"いつもの風景","type":"single","artistDisplayName":"斉藤和義","date":{"value":"2019-11-20","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VICL-38560","edition":"通常盤"},{"id":"victor-vizl-2020","title":"202020","type":"album","artistDisplayName":"斉藤和義","date":{"value":"2020-01-29","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":11,"disc":1}],"label":"Speedstar Records","catalogNumber":"VIZL-2020","edition":"初回限定盤CD＋DVD"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"}]},{"type":"ED","sequence":2,"titleJa":"パッパパラダイス","artistDisplayName":"宇多田ヒカル","seasonIds":["2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"chibi-maruko-chan-1995-ed-2-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2026/008102.html","label":"動畫官方：2026-03-29起新ED、原名、演唱及詞曲","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/","label":"動畫官方：現行ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.utadahikaru.jp/news/p3hxxu53k2/","label":"藝人官方：2026-03-29已放送ED與官方影片","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：ED原名、演唱、啟用日期交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2026-03-29起 日本TV ED","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-ed-2-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-ed-2","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/"],"verifiedAt":"2026-10-19"},{"target":"link","targetId":"https://www.youtube.com/watch?v=1Ld6fcdezyA","fields":["url","type"],"sourceUrls":["https://www.utadahikaru.jp/news/p3hxxu53k2/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"宇多田ヒカル","role":"vocals"},{"name":"宇多田ヒカル","role":"lyrics"},{"name":"宇多田ヒカル","role":"composition"}],"links":[{"platform":"YouTube","label":"パッパパラダイス 無字幕ED","url":"https://www.youtube.com/watch?v=1Ld6fcdezyA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-19","availability":"unknown"}]}]},
+  {
+    "anilistId": 6149,
+    "id": "curated-6149",
+    "slug": "chibi-maruko-chan-1995",
+    "seasonIds": [
+      "2026-spring",
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter",
+      "2021-spring",
+      "2021-summer",
+      "2021-fall",
+      "2022-winter",
+      "2022-spring",
+      "2022-summer",
+      "2022-fall",
+      "2023-winter",
+      "2023-spring",
+      "2023-summer",
+      "2023-fall",
+      "2024-winter",
+      "2024-spring",
+      "2024-summer",
+      "2024-fall",
+      "2025-winter",
+      "2025-spring",
+      "2025-summer",
+      "2025-fall",
+      "2026-winter",
+      "2026-summer",
+      "2026-fall"
+    ],
+    "startDate": "1995-01-08",
+    "titleJa": "ちびまる子ちゃん",
+    "titleRomaji": "Chibi Maruko-chan (1995)",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "18:00",
+    "broadcastLabel": "第2期日本TV：1995/1/8起，富士電視台系週日18:00。第1243話2020/4/26首播後，5/3至6/14改播舊話；第1244話於6/21恢復新作播出，重製舊腳本的十週企劃由此開始。",
+    "metadataVerifiedAt": "2026-11-16",
+    "status": "airing",
+    "officialSiteUrl": "https://chibimaru.tv/",
+    "anilistUrl": "https://anilist.co/anime/6149",
+    "sourceReferenceUrls": [
+      "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+      "https://www.animatetimes.com/news/details.php?id=1772672652"
+    ],
+    "verifiedAt": "2026-10-19",
+    "metadataSources": [
+      {
+        "url": "https://chibimaru.tv/about/",
+        "label": "動畫官方：作品原名、時段、現行OP／ED",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://chibimaru.tv/about/story/1995/",
+        "label": "動畫官方：第2期第1話1995-01-08放送",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1772672652",
+        "label": "Animate Times：兩期日本TV首播區分",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://anilist.co/anime/6149",
+        "label": "AniList：1995年TV系列識別；首播日期以動畫官方為準",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-10-19"
+      },
+      {
+        "url": "https://chibimaru.tv/about/story/2020/",
+        "label": "動畫官網2020年逐話檔案及重播標記",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chibimaru.tv/news/entry/2020/006454.html",
+        "label": "動畫官網新作停播、改播既有集數公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chibimaru.tv/news/entry/2020/006509.html",
+        "label": "動畫官網新作復播和十週企劃公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.cna.com.tw/news/amov/202006140026.aspx",
+        "label": "中央社報道2020年6月21日復播並重製既有腳本",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "おどるポンポコリン",
+        "artistDisplayName": "ももいろクローバーZ",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter",
+          "2022-spring",
+          "2022-summer",
+          "2022-fall",
+          "2023-winter",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-spring",
+          "2024-summer",
+          "2024-fall",
+          "2025-winter",
+          "2025-spring",
+          "2025-summer",
+          "2025-fall"
+        ],
+        "songId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://chibimaru.tv/news/entry/2025/008050.html",
+            "label": "動畫官方：2019年起ももいろクローバーZ演唱OP與2025年切換",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+            "label": "中文歌曲表：ももいろクローバーZ演唱及使用期間",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7599/",
+            "label": "日本アニメーション 主題曲及角色合唱公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.kingrecords.co.jp/cs/g/gKIZM-633/",
+            "label": "King Records 曲目及逐曲署名",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://chibimaru.tv/news/entry/2019/006259.html",
+            "label": "動畫官網正式動畫MV公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2019/006211.html",
+            "label": "動畫官網明列片頭歌名、演唱名義及角色合唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2020/006509.html",
+            "label": "動畫官網確認2020/6/21新作恢復及新製作形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-29/ep/1244",
+            "label": "第1244話逐話核對片頭及片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本TV OP（ももいろクローバーZ演唱）。2020/6/21新作復播第1244話沿用。",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2025/008050.html",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chibi-maruko-chan-1995-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2025/008050.html",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKIZM-633/"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKIZM-633/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKIZM-633/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKIZM-633/",
+              "https://www.nippon-animation.co.jp/news/information/7599/"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "king-kizm-633-634"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2019/006259.html"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "ovrRdVce9Mc"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2019/006211.html",
+              "https://www.chibimaru.tv/news/entry/2020/006509.html",
+              "https://www.mau2.com/anime/tibimarukochan-29/ep/1244"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-op-1"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ももいろクローバーZ",
+            "role": "vocals"
+          },
+          {
+            "name": "さくらももこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "織田哲郎",
+            "role": "composition"
+          },
+          {
+            "name": "NARASAKI",
+            "role": "arrangement"
+          },
+          {
+            "name": "ちびまる子ちゃんオールスターズ",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-original",
+            "title": "おどるポンポコリン",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental",
+            "title": "おどるポンポコリン off vocal ver.",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "king-kizm-633-634",
+            "title": "おどるポンポコリン",
+            "type": "single",
+            "artistDisplayName": "ももいろクローバーZ",
+            "date": {
+              "value": "2019-08-28",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "おどるポンポコリン",
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-original",
+                "position": 1
+              },
+              {
+                "title": "おどるポンポコリン off vocal ver.",
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental",
+                "position": 4
+              }
+            ],
+            "label": "King Records",
+            "catalogNumber": "KIZM-633〜4",
+            "edition": "CD＋Blu-ray"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。",
+            "resumeWhen": "唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。",
+            "checkedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "おどるポンポコリン",
+        "artistDisplayName": "Ado",
+        "seasonIds": [
+          "2025-fall",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "songId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://chibimaru.tv/news/entry/2025/008050.html",
+            "label": "動畫官方：2025-12-28起Ado演唱OP及創作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://chibimaru.tv/about/",
+            "label": "動畫官方：現行OP",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+            "label": "中文歌曲表：Ado演唱、原名及啟用日期",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "usageLabel": "2025-12-28起 日本TV OP（Ado演唱）",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2025/008050.html",
+              "https://chibimaru.tv/about/",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chibi-maruko-chan-1995-op-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2025/008050.html",
+              "https://chibimaru.tv/about/",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2025/008050.html",
+              "https://chibimaru.tv/about/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Ado",
+            "role": "vocals"
+          },
+          {
+            "name": "さくらももこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "織田 哲郎",
+            "role": "composition"
+          },
+          {
+            "name": "ヒャダイン",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "いつもの風景",
+        "artistDisplayName": "斉藤和義",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter",
+          "2022-spring",
+          "2022-summer",
+          "2022-fall",
+          "2023-winter",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-spring",
+          "2024-summer",
+          "2024-fall",
+          "2025-winter",
+          "2025-spring",
+          "2025-summer",
+          "2025-fall",
+          "2026-winter"
+        ],
+        "songId": "chibi-maruko-chan-1995-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://chibimaru.tv/news/entry/2026/008102.html",
+            "label": "動畫官方：前任ED原名、演唱及約6年半使用",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+            "label": "中文歌曲表：2019年起ED原名與演唱",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1772672652",
+            "label": "Animate Times：2026年舊ED切換交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.kazuyoshi-saito.com/disco/66285",
+            "label": "斉藤和義 單曲兩版曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2020/006436.html",
+            "label": "動畫官網 片尾曲及創作署名",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html",
+            "label": "Speedstar 專輯202020曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2019/006294.html",
+            "label": "動畫官網明列常規片尾歌名、演唱與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://chibimaru.tv/about/story/2020/",
+            "label": "動畫官網2020/5/17重播日期及話數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2021/006821.html",
+            "label": "動畫官網2021/5/16話數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2020/006509.html",
+            "label": "動畫官網確認2020/6/21新作恢復及新製作形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-29/ep/1244",
+            "label": "第1244話逐話核對片頭及片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.nikkansports.com/entertainment/news/202005170000483.html",
+            "label": "日刊體育確認2020/5/17的替換片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.daily.co.jp/gossip/2021/05/16/0014333642.shtml",
+            "label": "Daily Sports 確認2021/5/16的替換片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "2019年起 日本TV ED；2026年3月切換前。2020/6/21新作復播第1244話沿用。2020/5/17及2021/5/16已核的特別片尾另列。",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chibi-maruko-chan-1995-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2026/008102.html",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+              "https://www.animatetimes.com/news/details.php?id=1772672652"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chibi-maruko-chan-1995-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2026/008102.html",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+              "https://www.animatetimes.com/news/details.php?id=1772672652"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2020/006436.html"
+            ],
+            "verifiedAt": "2026-11-07"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kazuyoshi-saito.com/disco/66285"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "chibi-maruko-chan-1995-ed-1-song-original"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.kazuyoshi-saito.com/disco/66285"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "victor-vizl-1670"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.kazuyoshi-saito.com/disco/66285"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "victor-vicl-38560"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html"
+            ],
+            "verifiedAt": "2026-11-07",
+            "targetId": "victor-vizl-2020"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2019/006294.html",
+              "https://chibimaru.tv/about/story/2020/",
+              "https://www.chibimaru.tv/news/entry/2021/006821.html",
+              "https://www.chibimaru.tv/news/entry/2020/006509.html",
+              "https://www.mau2.com/anime/tibimarukochan-29/ep/1244",
+              "https://www.nikkansports.com/entertainment/news/202005170000483.html",
+              "https://www.daily.co.jp/gossip/2021/05/16/0014333642.shtml"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-ed-1"
+          }
+        ],
+        "credits": [
+          {
+            "name": "斉藤和義",
+            "role": "vocals"
+          },
+          {
+            "name": "さくらももこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "斉藤和義",
+            "role": "composition"
+          },
+          {
+            "name": "斉藤和義",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-ed-1-song-original",
+            "title": "いつもの風景",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "victor-vizl-1670",
+            "title": "いつもの風景",
+            "type": "single",
+            "artistDisplayName": "斉藤和義",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "いつもの風景",
+                "recordingId": "chibi-maruko-chan-1995-ed-1-song-original",
+                "position": 1
+              }
+            ],
+            "label": "Speedstar Records",
+            "catalogNumber": "VIZL-1670",
+            "edition": "初回限定盤"
+          },
+          {
+            "id": "victor-vicl-38560",
+            "title": "いつもの風景",
+            "type": "single",
+            "artistDisplayName": "斉藤和義",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "いつもの風景",
+                "recordingId": "chibi-maruko-chan-1995-ed-1-song-original",
+                "position": 1
+              }
+            ],
+            "label": "Speedstar Records",
+            "catalogNumber": "VICL-38560",
+            "edition": "通常盤"
+          },
+          {
+            "id": "victor-vizl-2020",
+            "title": "202020",
+            "type": "album",
+            "artistDisplayName": "斉藤和義",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "いつもの風景",
+                "recordingId": "chibi-maruko-chan-1995-ed-1-song-original",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "Speedstar Records",
+            "catalogNumber": "VIZL-2020",
+            "edition": "初回限定盤CD＋DVD"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。",
+            "resumeWhen": "唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。",
+            "checkedAt": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "パッパパラダイス",
+        "artistDisplayName": "宇多田ヒカル",
+        "seasonIds": [
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "songId": "chibi-maruko-chan-1995-ed-2-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://chibimaru.tv/news/entry/2026/008102.html",
+            "label": "動畫官方：2026-03-29起新ED、原名、演唱及詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://chibimaru.tv/about/",
+            "label": "動畫官方：現行ED",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.utadahikaru.jp/news/p3hxxu53k2/",
+            "label": "藝人官方：2026-03-29已放送ED與官方影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1772672652",
+            "label": "Animate Times：ED原名、演唱、啟用日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-10-19",
+        "usageLabel": "2026-03-29起 日本TV ED",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "chibi-maruko-chan-1995-ed-2-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2026/008102.html",
+              "https://chibimaru.tv/about/",
+              "https://www.utadahikaru.jp/news/p3hxxu53k2/",
+              "https://www.animatetimes.com/news/details.php?id=1772672652"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "chibi-maruko-chan-1995-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2026/008102.html",
+              "https://chibimaru.tv/about/",
+              "https://www.utadahikaru.jp/news/p3hxxu53k2/",
+              "https://www.animatetimes.com/news/details.php?id=1772672652"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2026/008102.html",
+              "https://chibimaru.tv/about/",
+              "https://www.utadahikaru.jp/news/p3hxxu53k2/"
+            ],
+            "verifiedAt": "2026-10-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://www.youtube.com/watch?v=1Ld6fcdezyA",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.utadahikaru.jp/news/p3hxxu53k2/"
+            ],
+            "verifiedAt": "2026-10-19"
+          }
+        ],
+        "credits": [
+          {
+            "name": "宇多田ヒカル",
+            "role": "vocals"
+          },
+          {
+            "name": "宇多田ヒカル",
+            "role": "lyrics"
+          },
+          {
+            "name": "宇多田ヒカル",
+            "role": "composition"
+          }
+        ],
+        "links": [
+          {
+            "platform": "YouTube",
+            "label": "パッパパラダイス 無字幕ED",
+            "url": "https://www.youtube.com/watch?v=1Ld6fcdezyA",
+            "linkType": "direct_track",
+            "region": "GLOBAL",
+            "verifiedAt": "2026-10-19",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-ed-3",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "走れ正直者",
+        "artistDisplayName": "西城秀樹",
+        "songId": "chibi-maruko-chan-1995-hashire-shoujikimono-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://chibimaru.tv/about/story/2020/",
+            "label": "動畫官網2020/5/17第1192話重播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2021/006821.html",
+            "label": "動畫官網2021/5/16第1288話新作播映及分話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://earth-corp.co.jp/HIDEKI/discography/",
+            "label": "西城秀樹官方曲目、原發行、演唱及動畫片尾身分",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/goods/dvd/001775.html",
+            "label": "動畫官網確認歌曲原名、作詞、作曲及編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.nikkansports.com/entertainment/news/202005170000483.html",
+            "label": "日刊體育2020/5/17播後確認西城秀樹演唱版用作片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.daily.co.jp/gossip/2021/05/16/0014333642.shtml",
+            "label": "Daily Sports 2021/5/16播後確認同曲替換常規片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-29",
+            "label": "逐話表列第1192話重播之片尾替換",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-30",
+            "label": "逐話表列第1288話的片尾替換",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blowup-forever.com/discography/single/single-66/",
+            "label": "單曲CD盤號和曲序交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.110107.com/s/oto/news/detail/TP03768",
+            "label": "Sony 官方配信發行與第23曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://earth-corp.co.jp/HIDEKI/special/hideki-singles-vol-1-vol-2/",
+            "label": "西城秀樹官方日本三碟版曲表，第二碟第10曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.110107.com/s/oto/news/detail/TP03825?ima=0000&oto=ROBO004",
+            "label": "Sony 官方日本三碟版發行與曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/6768565964",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/6768566361",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/discography/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html",
+              "https://www.nikkansports.com/entertainment/news/202005170000483.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-hashire-shoujikimono-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/discography/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/about/story/2020/",
+              "https://www.chibimaru.tv/news/entry/2021/006821.html",
+              "https://earth-corp.co.jp/HIDEKI/discography/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html",
+              "https://www.nikkansports.com/entertainment/news/202005170000483.html",
+              "https://www.daily.co.jp/gossip/2021/05/16/0014333642.shtml",
+              "https://www.mau2.com/anime/tibimarukochan-29",
+              "https://www.mau2.com/anime/tibimarukochan-30"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/discography/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-hashire-shoujikimono-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/discography/",
+              "https://www.110107.com/s/oto/news/detail/TP03768"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-hashire-shoujikimono-song-commercial"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/discography/",
+              "https://blowup-forever.com/discography/single/single-66/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvdr-36"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://earth-corp.co.jp/HIDEKI/special/hideki-singles-vol-1-vol-2/",
+              "https://www.110107.com/s/oto/news/detail/TP03825?ima=0000&oto=ROBO004"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "dqcl-3776"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/6768566361"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/6768566361"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.110107.com/s/oto/news/detail/TP03768",
+              "https://music.apple.com/hk/album/6768565964"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-6768565964"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "西城秀樹"
+          },
+          {
+            "role": "lyrics",
+            "name": "さくらももこ"
+          },
+          {
+            "role": "composition",
+            "name": "織田哲郎"
+          },
+          {
+            "role": "arrangement",
+            "name": "織田哲郎"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring",
+          "2021-spring"
+        ],
+        "usageLabel": "日本TV第2期特別片尾。2020/5/17第1192話〈まる子、偏食をする〉重播檔與2021/5/16第1288話〈お母さんの髪型〉首播檔已核。此曲也曾用於第1期常規片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "1991-04-21",
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-hashire-shoujikimono-song-commercial",
+            "title": "走れ正直者",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bvdr-36",
+            "title": "走れ正直者",
+            "type": "single",
+            "date": {
+              "value": "1991-04-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "西城秀樹",
+            "edition": "日本8cm CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "走れ正直者",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-hashire-shoujikimono-song-commercial"
+              }
+            ],
+            "label": "D.O.G HOUSE／BMGビクター",
+            "catalogNumber": "BVDR-36"
+          },
+          {
+            "id": "dqcl-3776",
+            "title": "HIDEKI SINGLES Vol.2",
+            "type": "compilation",
+            "date": {
+              "value": "2026-09-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "西城秀樹",
+            "edition": "日本三碟 Blu-spec CD2",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "走れ正直者",
+                "position": 10,
+                "disc": 2
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "DQCL-3776"
+          },
+          {
+            "id": "apple-hk-6768565964",
+            "title": "HIDEKI SINGLES Vol.2",
+            "type": "compilation",
+            "date": {
+              "value": "2026-05-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "西城秀樹",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "走れ正直者",
+                "position": 23,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "走れ正直者｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/6768566361",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-6768565964",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核兩次節目演唱名義與商業發行曲位。電視剪輯、合輯母帶及香港區完整播放待核。",
+            "resumeWhen": "待權利方開放可核對的原節目片尾、音源版別資料，或可從香港確認正版完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2026SpringAnimeIds = [180745, 210375, 198939, 194317, 201817, 180228, 199221, 186497, 181284, 179950, 210234, 195333, 209940, 202381, 170019, 182205, 196144, 183231, 198411, 171110, 184492, 200769, 195600, 196935, 196012, 202102, 190704, 196029, 206523, 177634, 197868, 178749, 179813, 201090, 202523, 192808, 197824, 147105, 189987, 206914, 197754, 207675, 195268, 199547, 169580, 186744, 158036, 202985, 206951, 189046, 199588, 182483, 177508, 177501, 202508, 187869, 169228, 199029, 185211, 198113, 195734, 204269, 202386, 206950, 182300, 182578, 196974, 194393, 205772, 196219, 188388, 21, 187989, 202957, 235, 158871, 142274, 190143, 8687, 966, 6149] as const;

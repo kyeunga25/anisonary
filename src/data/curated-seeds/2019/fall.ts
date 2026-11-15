@@ -7356,115 +7356,958 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
 },
   {
-    anilistId: 108040,
-    slug: "radiant-2",
-    startDate: "2019-10-02",
-    titleJa: "ラディアン2",
-    titleZhHant: "虛空魔境 第二季",
-    titleRomaji: "Radiant 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108040-FYeFAH75GZ0c.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108040-juy2tqQNhiMe.jpg",
-    broadcastLabel: "日本首播／時間未整理",
-    officialSiteUrl: "https://anime-radiant.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/radiant_2nd_season",
-    themes: [
+    "anilistId": 108040,
+    "slug": "radiant-2",
+    "startDate": "2019-10-02",
+    "titleJa": "ラディアン2",
+    "titleZhHant": "虛空魔境 第二季",
+    "titleRomaji": "Radiant 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108040-FYeFAH75GZ0c.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108040-juy2tqQNhiMe.jpg",
+    "broadcastLabel": "日本原TV於2019/10/2–2020/2/26在NHK Eテレ週三19:25–19:50 JST播出全21話，正版正篇約24分鐘。2019/12/25第13話後，2020/1/8播第14話。",
+    "animeThemesUrl": "https://animethemes.moe/anime/radiant_2nd_season",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "ナラク",
-        artistDisplayName: "Halo at 四畳半",
-
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
-    "checkedAt": "2026-10-31"
-  }
-],
-},
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ナラク",
+        "artistDisplayName": "Halo at 四畳半",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "逐話紀錄支持兩季常規用曲。第18話另有歌曲候選，使用位置與署名需正版正片掛字。",
+            "resumeWhen": "取得正版第18話原播／影碟片尾及音軌，核〈This Shadow Hand〉實際出現位置、演唱、創作名義及地區可播放性。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "id": "radiant-2-op-1",
+        "songId": "radiant-2-op-1-song",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5442/time",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/haloat4johan/discography/COKM-42529.html",
+            "label": "唱片方日本數位發行資料及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant-2/ep/18",
+            "label": "第18話交叉曲目表列本曲及額外劇中歌曲，待正片掛字",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/user/writer/todaysong.html?id=10189",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4990878",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1482088231",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1482088232",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491445348",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491445350",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6p1ihtNrWwY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Naraku｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1482088232",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1482088231",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Naraku｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491445350",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491445348",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+              "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html",
+              "https://www.mau2.com/anime/radiant-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+              "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html",
+              "https://www.mau2.com/anime/radiant-2",
+              "https://cal.syoboi.jp/tid/5442/time"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/haloat4johan/discography/COKM-42529.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+              "https://www.uta-net.com/user/writer/todaysong.html?id=10189",
+              "https://tower.jp/item/4990878"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/haloat4johan/discography/COKM-42529.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cokm-42529"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cocp-41004"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1482088232"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1482088232"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/haloat4johan/discography/COKM-42529.html",
+              "https://music.apple.com/hk/album/1482088231"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482088231"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491445350"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1491445350"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html",
+              "https://music.apple.com/hk/album/1491445348"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1491445348"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6p1ihtNrWwY",
+              "https://columbia.jp/artist-info/haloat4johan/discography/COCP-41004.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "6p1ihtNrWwY"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本NHK Eテレ原播第1–21話片頭（2019/10/2–2020/2/26，秋、冬兩季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2019-10-10",
+        "credits": [
+          {
+            "name": "Halo at 四畳半",
+            "role": "vocals"
+          },
+          {
+            "name": "渡井翔汰",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡井翔汰",
+            "role": "composition"
+          },
+          {
+            "name": "Halo at 四畳半",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "cokm-42529",
+            "title": "ナラク",
+            "type": "single",
+            "date": {
+              "value": "2019-10-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "Halo at 四畳半",
+            "edition": "日本數位單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ナラク",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア",
+            "catalogNumber": "COKM-42529"
+          },
+          {
+            "id": "cocp-41004",
+            "title": "ANATOMIES",
+            "type": "album",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Halo at 四畳半",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ナラク",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア",
+            "catalogNumber": "COCP-41004"
+          },
+          {
+            "id": "apple-hk-1482088231",
+            "title": "Naraku",
+            "type": "single",
+            "date": {
+              "value": "2019-10-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "Halo at 四畳半",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Naraku",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "apple-hk-1491445348",
+            "title": "Anatomies",
+            "type": "album",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Halo at 四畳半",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Naraku",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア"
+          }
+        ]
+      },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ちっとも知らなかった",
-        artistDisplayName: "NakamuraEmi",
-
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ちっとも知らなかった",
+        "artistDisplayName": "NakamuraEmi",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "逐話紀錄支持兩季常規用曲。第18話另有歌曲候選，使用位置與署名需正版正片掛字。",
+            "resumeWhen": "取得正版第18話原播／影碟片尾及音軌，核〈This Shadow Hand〉實際出現位置、演唱、創作名義及地區可播放性。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "id": "radiant-2-ed-1",
+        "songId": "radiant-2-ed-1-song",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/nakamuraemi/info/67483.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5442/time",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/nakamuraemi/discography/COKM-42531.html",
+            "label": "唱片方日本數位發行資料及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/radiant-2/ep/18",
+            "label": "第18話交叉曲目表列本曲及額外劇中歌曲，待正片掛字",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/interview/1910_nakamuraemi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4990893",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/nakamuraemi/discography/COCP-41047.html",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/nakamuraemi/discography/COZP-1613-4.html",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1482088376",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1482088377",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1493904825",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1493904828",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/nakamuraemi/movie/",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QUaYq9-_bcs",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Chittomo Shirana Katta｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1482088377",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1482088376",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Chittomo Shirana Katta｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1493904828",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1493904825",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+              "https://columbia.jp/artist-info/nakamuraemi/info/67483.html",
+              "https://www.mau2.com/anime/radiant-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+              "https://columbia.jp/artist-info/nakamuraemi/info/67483.html",
+              "https://www.mau2.com/anime/radiant-2",
+              "https://cal.syoboi.jp/tid/5442/time"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COKM-42531.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "radiant-2-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/info/67483.html",
+              "https://www.uta-net.com/interview/1910_nakamuraemi",
+              "https://tower.jp/item/4990893"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COKM-42531.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cokm-42531"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COCP-41047.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cocp-41047"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COZP-1613-4.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cozp-1613-1614"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1482088377"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1482088377"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COKM-42531.html",
+              "https://music.apple.com/hk/album/1482088376"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482088376"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1493904828"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1493904828"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/nakamuraemi/discography/COCP-41047.html",
+              "https://music.apple.com/hk/album/1493904825"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1493904825"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QUaYq9-_bcs",
+              "https://columbia.jp/artist-info/nakamuraemi/movie/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "QUaYq9-_bcs"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本NHK Eテレ原播第1–21話片尾（2019/10/2–2020/2/26，秋、冬兩季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2019-10-10",
+        "credits": [
+          {
+            "name": "NakamuraEmi",
+            "role": "vocals"
+          },
+          {
+            "name": "NakamuraEmi",
+            "role": "lyrics"
+          },
+          {
+            "name": "NakamuraEmi",
+            "role": "composition"
+          },
+          {
+            "name": "カワムラヒロシ",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "cokm-42531",
+            "title": "ちっとも知らなかった",
+            "type": "single",
+            "date": {
+              "value": "2019-10-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "NakamuraEmi",
+            "edition": "日本數位單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ちっとも知らなかった",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア",
+            "catalogNumber": "COKM-42531"
+          },
+          {
+            "id": "cocp-41047",
+            "title": "NIPPONNO ONNAWO UTAU BEST2",
+            "type": "compilation",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "NakamuraEmi",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ちっとも知らなかった",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア",
+            "catalogNumber": "COCP-41047"
+          },
+          {
+            "id": "cozp-1613-1614",
+            "title": "NIPPONNO ONNAWO UTAU BEST2",
+            "type": "compilation",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "NakamuraEmi",
+            "edition": "日本初回限定盤 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ちっとも知らなかった",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア",
+            "catalogNumber": "COZP-1613～1614"
+          },
+          {
+            "id": "apple-hk-1482088376",
+            "title": "Chittomo Shirana Katta",
+            "type": "single",
+            "date": {
+              "value": "2019-10-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "NakamuraEmi",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Chittomo Shirana Katta",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "apple-hk-1493904825",
+            "title": "Nipponno Onnawo Utau Best 2",
+            "type": "compilation",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "NakamuraEmi",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Chittomo Shirana Katta",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "日本コロムビア"
+          }
+        ]
+      }
     ],
-    "note": "本版日本TV的完整常規播出時段或單話長度仍待核對，歌曲基本證據尚未完成。",
-    "resumeWhen": "取得同版本完整播出時段或正版單話長度的直接資料後，再核歌曲原名、演唱名義與用途。",
-    "checkedAt": "2026-10-31"
-  }
-],
-},
+    "metadataSources": [
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/108040",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/radiant_2nd_season",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://thetv.jp/program/0000957311/",
+        "label": "播出交叉資料：WEBザテレビジョン",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/367287",
+        "label": "播出交叉資料：allcinema",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000516.000019470.html",
+        "label": "唱片方原期公告：本版10月2日首播、週三19:25、全21話與兩首主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.video.unext.jp/title/SID0042852",
+        "label": "授權日本正片與單話片長",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "label": "文化庁原期節目錄影表：NHK Eテレ週三19:25–19:50",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5442/time",
+        "label": "日本首播與逐集跨季日期，分開標有再播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/pdf/367287",
+        "label": "本版原電視首播與最終話日期交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/Radiant_%E8%99%9B%E7%A9%BA%E9%AD%94%E5%A2%83",
+        "label": "繁體作品、初次播出與第2系列分辨",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
     ],
-
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://anime-radiant.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter"
+    ],
+    "broadcastTimeJst": "19:25",
+    "editorialWeekday": 3,
+    "metadataVerifiedAt": "2026-11-16"
   },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/108040",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/radiant_2nd_season",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://thetv.jp/program/0000957311/",
-    "label": "播出交叉資料：WEBザテレビジョン",
-    "role": "broadcast_cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.allcinema.net/cinema/367287",
-    "label": "播出交叉資料：allcinema",
-    "role": "broadcast_cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-},
   {
     anilistId: 110811,
     slug: "urashimasakatasen-no-nichijou",
@@ -10286,7 +11129,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
   "titleZhHant": "機獸戰記 狂野爆發 ZERO",
   "titleRomaji": "Zoids Wild ZERO",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110788-2CGGh39Z2yUJ.png",
-  "broadcastLabel": "日本原播 2019-10-04 至 2020-10-16，東京電視網週五 17:55–18:25 JST（全50話）",
+  "broadcastLabel": "日本原播 2019-10-04 至 2020-10-16，東京電視網週五 17:55–18:25 JST（全50話）。2020/5/29起改播精選舊話，6/19第33話恢復原播。",
   "broadcastTimeJst": "17:55",
   "officialSiteUrl": "https://www.takaratomy.co.jp/products/anime-zoidswild-zero/",
   "animeThemesUrl": "https://animethemes.moe/anime/zoids_wild_zero",
@@ -10296,7 +11139,17 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "sequence": 1,
       "titleJa": "blue blue blue",
       "artistDisplayName": "Ivy to Fraudulent Game",
-      "followUp": [],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "補兩個日本原專輯版第3曲、香港數位專輯以及官方首話的核對入口。逐話資料另記首末話劇中使用。",
+          "resumeWhen": "在正版第1及第50話核對劇中使用位置、曲目掛字、原播錄音與唱片音軌、香港完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
       "sourceMode": "explicit",
       "sources": [
         {
@@ -10353,7 +11206,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "原TV逐話聲優資料庫：主題曲輪替及特別用曲交叉",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-07"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/index_3.html",
@@ -10382,9 +11235,58 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A025784/VIZL-1620.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A025784/VICL-65228.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1475455320",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1475455323",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.uta-net.com/song/273660/",
+          "label": "日本授權歌詞服務的本曲創作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.fanplus.co.jp/news/201908140381dec69",
+          "label": "同期9月實體前的單曲先行報導",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nrdeg201bs8",
+          "label": "タカラトミー官方常設第1話正片入口",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-16",
       "seasonIds": [
         "2019-fall",
         "2020-winter"
@@ -10499,9 +11401,141 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "uZm6X60vttk"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025784/VIZL-1620.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vizl-1620"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025784/VICL-65228.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "vicl-65228"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1475455323"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1475455323"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A025784/VIZL-1620.html",
+            "https://music.apple.com/hk/album/1475455320"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1475455320"
         }
       ],
-      "usageLabel": "第2–24話片頭曲"
+      "usageLabel": "第2–24話片頭曲",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Blue Blue Blue｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1475455323",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1475455320",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vizl-1620",
+          "title": "完全が無い",
+          "type": "album",
+          "date": {
+            "value": "2019-09-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Ivy to Fraudulent Game",
+          "edition": "日本完全生產限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "blue blue blue",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Getting Better",
+          "catalogNumber": "VIZL-1620"
+        },
+        {
+          "id": "vicl-65228",
+          "title": "完全が無い",
+          "type": "album",
+          "date": {
+            "value": "2019-09-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Ivy to Fraudulent Game",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "blue blue blue",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Getting Better",
+          "catalogNumber": "VICL-65228"
+        },
+        {
+          "id": "apple-hk-1475455320",
+          "title": "Kanzen ga Nai",
+          "type": "album",
+          "date": {
+            "value": "2019-09-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Ivy to Fraudulent Game",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Blue Blue Blue",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Getting Better"
+        }
+      ]
     },
     {
       "type": "OP",
@@ -10820,7 +11854,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "第一方曲目資料：千田葉月發行頁／TuneCore Japan",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-31"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://animemusicranking.com/ja/anime/88/",
@@ -10870,9 +11904,23 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1485383842",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1485383844",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-16",
       "seasonIds": [
         "2019-fall"
       ],
@@ -10982,6 +12030,43 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "zoids-wild-zero-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/az9BGAUf?lang=ja"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "zoids-wild-zero-ed-1-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1485383844"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1485383844"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/az9BGAUf?lang=ja",
+            "https://music.apple.com/hk/album/1485383842"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1485383842"
         }
       ],
       "credits": [
@@ -11002,7 +12087,42 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "arrangement"
         }
       ],
-      "usageLabel": "第1–12話片尾曲"
+      "usageLabel": "第1–12話片尾曲",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ヒカリ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1485383844",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1485383842",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releaseDate": "2019-11-01",
+      "releases": [
+        {
+          "id": "apple-hk-1485383842",
+          "title": "ヒカリ",
+          "type": "single",
+          "date": {
+            "value": "2019-11-01",
+            "precision": "day"
+          },
+          "artistDisplayName": "千田葉月",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ヒカリ",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "電通ミュージック・アンド・エンタテインメント"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -11273,7 +12393,17 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "sequence": 3,
       "titleJa": "夢の轍",
       "artistDisplayName": "H△G",
-      "followUp": [],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "官方MV用動畫畫面另剪。唱片公司另列加編專輯內的獨立不插電演出影像。",
+          "resumeWhen": "待核原電視剪輯、專輯音源與MV音源的對應，以及實際地區播放權。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
       "sourceMode": "explicit",
       "sources": [
         {
@@ -11352,9 +12482,65 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://dreamusic.co.jp/artist/hag/32433.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://dreamusic.co.jp/artist/hag/34331.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1502943381",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1502943392",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1551761260",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1551761274",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.crunchyroll.com/news/latest/2020/5/14/hg-releases-special-anime-mv-for-zoids-wild-zero-ed-song-featuring-the-main-heroine-sally",
+          "label": "串流方媒體核對官方動畫特別剪輯MV",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XXtkb-uhRbc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-16",
       "seasonIds": [
         "2020-spring",
         "2020-summer"
@@ -11457,9 +12643,248 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "zoids-wild-zero-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/32433.html"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/32433.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "zoids-wild-zero-ed-3-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/32433.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "nexr-1"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/34331.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "mucd-8148-8149"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1502943392"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1502943392"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/32433.html",
+            "https://music.apple.com/hk/album/1502943381"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1502943381"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1551761274"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1551761274"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://dreamusic.co.jp/artist/hag/34331.html",
+            "https://music.apple.com/hk/album/1551761260"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1551761260"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XXtkb-uhRbc"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "XXtkb-uhRbc"
         }
       ],
-      "usageLabel": "第25–37話片尾曲"
+      "usageLabel": "第25–37話片尾曲",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "夢の轍｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1502943392",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1502943381",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "夢の轍｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1551761274",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1551761260",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "credits": [
+        {
+          "name": "H△G",
+          "role": "vocals"
+        },
+        {
+          "name": "H△G",
+          "role": "lyrics"
+        },
+        {
+          "name": "H△G",
+          "role": "composition"
+        },
+        {
+          "name": "Anthurium",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2020-03-25",
+      "releases": [
+        {
+          "id": "nexr-1",
+          "title": "瞬きもせずに",
+          "type": "album",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "H△G",
+          "edition": "日本 Blu-ray Disc Album",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢の轍",
+              "position": 11,
+              "disc": 1
+            }
+          ],
+          "label": "DREAMUSIC",
+          "catalogNumber": "NEXR-1"
+        },
+        {
+          "id": "mucd-8148-8149",
+          "title": "瞬きもせずに＋",
+          "type": "album",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "H△G",
+          "edition": "日本初回限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢の轍",
+              "position": 11,
+              "disc": 1
+            }
+          ],
+          "label": "DREAMUSIC",
+          "catalogNumber": "MUCD-8148～8149"
+        },
+        {
+          "id": "apple-hk-1502943381",
+          "title": "瞬きもせずに",
+          "type": "album",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "H△G",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "夢の轍",
+              "position": 11,
+              "disc": 1
+            }
+          ],
+          "label": "DREAMUSIC"
+        },
+        {
+          "id": "apple-hk-1551761260",
+          "title": "瞬きもせずに+",
+          "type": "album",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "H△G",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "夢の轍",
+              "position": 11,
+              "disc": 1
+            }
+          ],
+          "label": "DREAMUSIC"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -11547,9 +12972,37 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://linkco.re/4X8hQHnZ?lang=ja",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1525192981",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1525193167",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.smile-co.jp/creator_release/page/104",
+          "label": "創作者事務所原單曲日期及作曲、編曲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-07",
+      "lastVerifiedAt": "2026-11-16",
       "seasonIds": [
         "2020-summer",
         "2020-fall"
@@ -11683,6 +13136,43 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-07",
           "targetId": "zoids-wild-zero-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/4X8hQHnZ?lang=ja"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "zoids-wild-zero-ed-4-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1525193167"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1525193167"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://linkco.re/4X8hQHnZ?lang=ja",
+            "https://music.apple.com/hk/album/1525192981"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1525192981"
         }
       ],
       "credits": [
@@ -11703,7 +13193,42 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "arrangement"
         }
       ],
-      "usageLabel": "第38–49話片尾曲"
+      "usageLabel": "第38–49話片尾曲",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "名もなき旅｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1525193167",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1525192981",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "releaseDate": "2020-08-11",
+      "releases": [
+        {
+          "id": "apple-hk-1525192981",
+          "title": "名もなき旅",
+          "type": "single",
+          "date": {
+            "value": "2020-08-11",
+            "precision": "day"
+          },
+          "artistDisplayName": "千田葉月",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "名もなき旅",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "電通ミュージック・アンド・エンタテインメント"
+        }
+      ]
     }
   ],
   "metadataSources": [
@@ -11782,7 +13307,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "label": "日本原TV逐話播出日期及常規17:55時段",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-11-07"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/episodes/",
@@ -11797,6 +13322,13 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-07"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/zoidswild-zero/news/",
+      "label": "テレビ東京：2020/5/29起編排精選舊話，暫緩第33話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "seasonIds": [
@@ -11805,7 +13337,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "2020-winter",
     "2020-spring",
     "2020-fall"
-  ]
+  ],
+  "metadataVerifiedAt": "2026-11-16"
 },
   {
     anilistId: 110789,
@@ -37458,8 +38991,8 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "fields": [
             "recordings"
           ],
-          "note": "原配信部分話無片頭，第三話另有未具名片尾資料。另有〈ころころ・ろーりん〉用於早期話數及終幕，終幕電視字幕列插曲、作者為浜崎博嗣，原配信逐話位置及實際演唱名義尚待核。",
-          "resumeWhen": "待日本原配信逐話片頭片尾、電視正片或官方 cue／商品列出演唱與曲名，核對個別例外和版本後再補。",
+          "note": "原配信部分話無片頭，第3話另有未具名片尾資料。〈ころころ・ろーりん〉已另列電視終回的插曲，早期話數及原配信另核。",
+          "resumeWhen": "待日本原配信逐話片頭片尾或官方 cue／商品表，核對個別例外和音軌版本。",
           "checkedAt": "2026-11-16"
         }
       ],
@@ -38148,6 +39681,172 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "note": "2020日本電視版OP2有正式完整音源及TV版。原動畫無字幕片頭公開入口仍待核。",
           "resumeWhen": "待製作方公開原日本地上波無字幕片頭，或核可實播剪輯與已發行TV版的音軌關係。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "mugen-no-juunin-immortal-in-1",
+      "titleJa": "ころころ・ろーりん",
+      "artistDisplayName": "山中悠喜、吉田舞香、藤野蒼生、松瀬吹蕗",
+      "songId": "mugen-no-juunin-immortal-in-1-song",
+      "sources": [
+        {
+          "url": "https://mugen-immortal.com/story/164/",
+          "label": "動畫製作方終幕分集",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://s.mxtv.jp/jyushin/timetable/2009.pdf",
+          "label": "TOKYO MX 2020年9月時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://mugen-immortal.com/streaming_onair/",
+          "label": "製作方分列原配信及日本地上波",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anitubu.com/archives/post-40784.html",
+          "label": "9/16電視直播紀錄包含原播畫面掛字，可核對曲名及四位演唱者",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5500",
+          "label": "逐話曲表及作詞、作曲交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.uk/index.php?title=%E6%97%A0%E9%99%90%E4%B9%8B%E4%BD%8F%E4%BA%BA&variant=zh-tw",
+          "label": "繁中終回曲名與演唱及作詞曲交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.primevideo.com/-/zh_TW/detail/0I1FLPJR5P008ZZEZY0YFF5M01?tr=tw",
+          "label": "原配信方終回為3/26，與日本地上波相隔",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.himawari.net/media/118781.html",
+          "role": "first_party",
+          "language": "ja",
+          "label": "演出者所屬機構的姓名表記",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5500/time",
+          "role": "cross_check",
+          "language": "ja",
+          "label": "TOKYO MX終幕9/15節目日25:35的精確時刻",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mugen-immortal.com/story/164/",
+            "https://anitubu.com/archives/post-40784.html",
+            "https://moegirl.uk/index.php?title=%E6%97%A0%E9%99%90%E4%B9%8B%E4%BD%8F%E4%BA%BA&variant=zh-tw"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "mugen-no-juunin-immortal-in-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://anitubu.com/archives/post-40784.html",
+            "https://cal.syoboi.jp/tid/5500",
+            "https://moegirl.uk/index.php?title=%E6%97%A0%E9%99%90%E4%B9%8B%E4%BD%8F%E4%BA%BA&variant=zh-tw",
+            "https://www.himawari.net/media/118781.html"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://mugen-immortal.com/story/164/",
+            "https://s.mxtv.jp/jyushin/timetable/2009.pdf",
+            "https://mugen-immortal.com/streaming_onair/",
+            "https://anitubu.com/archives/post-40784.html",
+            "https://cal.syoboi.jp/tid/5500",
+            "https://cal.syoboi.jp/tid/5500/time"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "mugen-no-juunin-immortal-in-1"
+        }
+      ],
+      "sourceMode": "explicit",
+      "versionLabel": "日本原電視終回",
+      "credits": [
+        {
+          "name": "山中悠喜",
+          "role": "vocals"
+        },
+        {
+          "name": "吉田舞香",
+          "role": "vocals"
+        },
+        {
+          "name": "藤野蒼生",
+          "role": "vocals"
+        },
+        {
+          "name": "松瀬吹蕗",
+          "role": "vocals"
+        },
+        {
+          "name": "浜崎博嗣",
+          "role": "lyrics"
+        },
+        {
+          "name": "浜崎博嗣",
+          "role": "composition"
+        }
+      ],
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "終幕（第24話）日本地上波劇中插曲。TOKYO MX 2020/9/15 25:35（翌日01:35 JST）；終回掛字明列插曲。",
+      "lastVerifiedAt": "2026-11-16",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "arrangement",
+            "recordings",
+            "releases",
+            "platform_links"
+          ],
+          "note": "可辨日本電視終回的原播掛字。第1、2話及3/26 Prime Video終回尚待本版詞曲及實唱比對。",
+          "resumeWhen": "待合法原配信或第一方逐話曲表、原播掛字確認早期話數、3月原配信演唱名義及其與電視版的關係。另查正式發行與音源。",
           "checkedAt": "2026-11-16"
         }
       ]
@@ -58271,7 +59970,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
   "titleRomaji": "Pocket Monsters (2019)",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112153-LK1lpFz3vlvl.png",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112153-01RDuvgGTXjp.jpg",
-  "broadcastLabel": "日本原TV：首回2019/11/17為17:30特別節目；初期週日18:00；第40話（2020/10/9）起改週五18:55。",
+  "broadcastLabel": "日本原TV：首回2019/11/17為17:30特別節目，初期週日18:00。第22話2020/4/19播出後，4/26–5/31改播舊話。第23話於6/7 18:00恢復首播，第40話（10/9）起改週五18:55。",
   "broadcastTimeJst": "18:00",
   "metadataSources": [
     {
@@ -58315,6 +60014,27 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_19.html",
+      "label": "東京電視台2020/4/26起改播舊話的原公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202006/25680_202006071800.html",
+      "label": "東京電視台6/7第23話首播時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.oricon.co.jp/news/2161787/",
+      "label": "同期報道核對2020/4/26延期及6/7恢復新話",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/pocketmonster/",
@@ -58403,7 +60123,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://pocketmonsters.net/episodes/viewep/2383/Music",
@@ -58453,6 +60173,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25680_202003291800.html",
+          "label": "東京電視台第19話時段及原播片頭、片尾名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202006/25680_202006071800.html",
+          "label": "東京電視台第23話復播時段及原播片頭、片尾名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -58515,7 +60249,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "vocals"
         }
       ],
-      "usageLabel": "第2–31話片頭｜第1話改在片尾位置",
+      "usageLabel": "第2–31話原TV片頭。2020年冬第19話、春季復播第23話沿用After the Rain版本；首話片尾位置另列。",
       "evidence": [
         {
           "target": "song",
@@ -58779,6 +60513,19 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "ajjN7eAnyZE"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25680_202003291800.html",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202006/25680_202006071800.html",
+            "https://www.mau2.com/anime/pocketmonster-r2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pocket-monsters-2019-op-1"
         }
       ],
       "followUp": [
@@ -58792,7 +60539,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-16",
       "releaseDate": "2019-12-15",
       "recordings": [
         {
@@ -60082,7 +61829,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://cal.syoboi.jp/tid/5501/subtitle",
@@ -60139,6 +61886,13 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25680_202003291800.html",
+          "label": "東京電視台第19話時段及原播片頭、片尾名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -60202,7 +61956,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "vocals"
         }
       ],
-      "usageLabel": "第2–19話及2020秋第40、42、44、46話等日本原TV片尾",
+      "usageLabel": "第2–19話及2020秋第40、42、44、46話等原TV片尾；第19話於2020/3/29播出。",
       "evidence": [
         {
           "target": "song",
@@ -60475,6 +62229,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "pgRfBigHj9c"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25680_202003291800.html",
+            "https://www.mau2.com/anime/pocketmonster-r2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pocket-monsters-2019-ed-1"
         }
       ],
       "followUp": [
@@ -60488,7 +62254,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-16",
       "releaseDate": "2019-11-25",
       "recordings": [
         {
@@ -60632,7 +62398,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://cal.syoboi.jp/tid/5501/subtitle",
@@ -60682,6 +62448,27 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25680_202004051800.html",
+          "label": "東京電視台第20話首播日期、時間與集名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.ttmnet.co.jp/theme/2020-4/",
+          "label": "東京電視台音樂出版部2020年4月曲表列本片尾及演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202006/25680_202006071800.html",
+          "label": "東京電視台第23話復播時段及原播片頭、片尾名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -60734,7 +62521,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "vocals"
         }
       ],
-      "usageLabel": "第20–39話及2020秋第41、43、45、47話等日本原TV片尾",
+      "usageLabel": "第20–39話及2020秋第41、43、45、47話等原TV片尾。第20話於2020/4/5播出；6/7第23話復播沿用。",
       "evidence": [
         {
           "target": "song",
@@ -60930,6 +62717,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "avE3-KomeWI"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202004/25680_202004051800.html",
+            "https://www.ttmnet.co.jp/theme/2020-4/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202006/25680_202006071800.html",
+            "https://www.mau2.com/anime/pocketmonster-r2"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pocket-monsters-2019-ed-2"
         }
       ],
       "followUp": [
@@ -60943,7 +62744,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-16",
       "releaseDate": "2020-04-05",
       "recordings": [
         {
@@ -62852,7 +64653,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "seasonIds": [
     "2019-fall",
     "2020-fall",

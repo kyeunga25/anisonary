@@ -12536,37 +12536,528 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-    anilistId: 116786,
-    slug: "beyblade-burst-sparking",
-    startDate: "2020-04-03",
-    titleJa: "ベイブレードバースト スパーキング",
-    titleZhHant: "戰鬥陀螺 爆烈世代 超王",
-    titleRomaji: "Beyblade Burst Sparking",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116786-ZIUM2E11AK0y.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116786-pFUeB9WaAtJs.jpg",
-    broadcastLabel: "日本首播／受疫情影響曾延期或停播",
-    officialSiteUrl: "https://beyblade.jp/campaign/5th/",
-    sourceReferenceUrls: [
+    "anilistId": 116786,
+    "slug": "beyblade-burst-sparking",
+    "startDate": "2020-04-03",
+    "titleJa": "ベイブレードバースト スパーキング",
+    "titleZhHant": "戰鬥陀螺 爆烈世代 超王",
+    "titleRomaji": "Beyblade Burst Sparking",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx116786-ZIUM2E11AK0y.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/116786-pFUeB9WaAtJs.jpg",
+    "broadcastLabel": "日本原網絡版2020/4/3–2021/3/19，通常週五16:00 JST；全52話。TOKYO MX自2020/10/5週一19:00–19:30兩話連播，2021/3/29終話。香港翡翠台2020/7/4起播。",
+    "officialSiteUrl": "https://beyblade.jp/campaign/5th/",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/329",
-      "https://acgsecrets.hk/bangumi/202004/",
+      "https://acgsecrets.hk/bangumi/202004/"
     ],
-    animeThemesUrl: "https://animethemes.moe/anime/beyblade_burst_super_king",
-    themes: [
+    "animeThemesUrl": "https://animethemes.moe/anime/beyblade_burst_super_king",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "スパーキング・レボリューション",
-        artistDisplayName: "土屋飛鳥・遠藤ナオキ",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "スパーキング・レボリューション",
+        "artistDisplayName": "土屋飛鳥・遠藤ナオキ",
+        "id": "beyblade-burst-sparking-op-1",
+        "songId": "beyblade-burst-sparking-op-1-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BABurst",
+            "label": "繁中曲名、歌曲版別及用法交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://beybladewiki.com/anime/music",
+            "label": "分開列出日本原版與英語版的主題曲",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.beyblade.jp/news/2418/",
+            "label": "版權方正式列原曲及演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.adkem.jp/works02/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0/",
+            "label": "製作方正式列日本版片頭曲及唱片品牌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://archive.beyblade.jp/news/2207/",
+            "label": "日本原網絡版首播時段",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.beyblade-fc.com/posts/sparking-ep",
+            "label": "日本原版正篇分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://archive2.beyblade.jp/news/2801/",
+            "label": "同一動畫在日本地上波兩話連播公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.mxtv.jp/bangumi/?date=20210329",
+            "label": "日本電視終回原節目表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myanimecheck.com/anime/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0",
+            "label": "原網絡版逐話首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lpm.yoshimoto.co.jp/16473/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://recochoku.jp/song/S1009062572/",
+            "label": "唱片方指向的日本正版數位單曲，標示0:47",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1509920579",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1509920581",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1509920579",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1509920581",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=sPI0UxkwDSk",
+            "label": "已核發行方授權的 Topic 曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.beyblade.jp/news/2418/",
+              "https://www.adkem.jp/works02/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0/",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BABurst",
+              "https://beybladewiki.com/anime/music"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "beyblade-burst-sparking-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.beyblade.jp/news/2418/",
+              "https://www.adkem.jp/works02/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0/",
+              "https://archive.beyblade.jp/news/2207/",
+              "https://www.beyblade-fc.com/posts/sparking-ep",
+              "https://archive2.beyblade.jp/news/2801/",
+              "https://s.mxtv.jp/bangumi/?date=20210329",
+              "https://myanimecheck.com/anime/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0",
+              "https://beybladewiki.com/anime/music"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "beyblade-burst-sparking-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.beyblade.jp/news/2418/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://lpm.yoshimoto.co.jp/16473/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "beyblade-burst-sparking-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lpm.yoshimoto.co.jp/16473/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "beyblade-burst-sparking-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1509920581"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1509920581"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lpm.yoshimoto.co.jp/16473/",
+              "https://music.apple.com/hk/album/1509920579"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1509920579"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1509920581"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1509920581"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lpm.yoshimoto.co.jp/16473/",
+              "https://music.apple.com/jp/album/1509920579"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1509920579"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=sPI0UxkwDSk",
+              "https://www.beyblade.jp/news/2418/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sPI0UxkwDSk"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スパーキング・レボリューション｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1509920581",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1509920579",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "beyblade-burst-sparking-op-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "スパーキング・レボリューション｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1509920581",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1509920579",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "beyblade-burst-sparking-op-1-song-digital"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter"
+        ],
+        "usageLabel": "日本原網絡版常規片頭。TOKYO MX另於2020秋至2021冬首播兩話連播版。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "土屋飛鳥",
+            "role": "vocals"
+          },
+          {
+            "name": "遠藤ナオキ",
+            "role": "vocals"
+          }
+        ],
+        "releaseDate": "2020-04-29",
+        "recordings": [
+          {
+            "id": "beyblade-burst-sparking-op-1-song-digital",
+            "title": "スパーキング・レボリューション",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1509920579",
+            "title": "スパーキング・レボリューション",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "土屋飛鳥・遠藤ナオキ",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "スパーキング・レボリューション",
+                "position": 1,
+                "recordingId": "beyblade-burst-sparking-op-1-song-digital"
+              }
+            ],
+            "label": "ADK Wonder Records"
+          },
+          {
+            "id": "apple-jp-1509920579",
+            "title": "スパーキング・レボリューション",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "土屋飛鳥・遠藤ナオキ",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スパーキング・レボリューション",
+                "position": 1,
+                "recordingId": "beyblade-burst-sparking-op-1-song-digital"
+              }
+            ],
+            "label": "ADK Wonder Records"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recording_format",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "日港單曲均為47秒，唱片方沒有標出完整或片頭剪輯版。原配信已核季度；香港配音版與兩話連播版各次剪輯待原畫面。",
+            "resumeWhen": "取得原片頭署名、權利方版別說明及香港原播掛字後補對應；完整播放須以香港播放環境檢查。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "スパーキング・レボリューション (インストゥルメンタル)",
-        artistDisplayName: "(インストゥルメンタル)",
-      },
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "スパーキング・レボリューション (インストゥルメンタル)",
+        "artistDisplayName": "(インストゥルメンタル)",
+        "id": "beyblade-burst-sparking-ed-1",
+        "songId": "beyblade-burst-sparking-op-1-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BABurst",
+            "label": "繁中曲名、歌曲版別及用法交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://beybladewiki.com/anime/music",
+            "label": "分開列出日本原版與英語版的主題曲",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.beyblade.jp/news/2418/",
+            "label": "版權方正式列原曲及演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.adkem.jp/works02/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0/",
+            "label": "製作方正式列日本版片頭曲及唱片品牌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.beyblade.jp/news/2418/",
+              "https://www.adkem.jp/works02/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0/",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BABurst",
+              "https://beybladewiki.com/anime/music"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "beyblade-burst-sparking-op-1-song"
+          }
+        ],
+        "links": [],
+        "sourceMode": "explicit",
+        "credits": [],
+        "seasonIds": [],
+        "versionLabel": "純音樂版",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "use_quarters",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_availability"
+            ],
+            "note": "繁中及英語交叉資料指向同曲器樂版。製作方只明列原曲片頭，正式單曲僅有歌唱版。",
+            "resumeWhen": "取得可辨識的日本原配信或電視版片尾、終回字幕或權利方錄音資料後核對用途及季度。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
+    "seasonIds": [
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "broadcastTimeJst": "16:00",
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://archive.beyblade.jp/news/2207/",
+        "label": "權利方公告原網絡版上架時間",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://archive2.beyblade.jp/news/2801/",
+        "label": "權利方公告日本地上波首播與每週兩話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://s.mxtv.jp/bangumi/?date=20210329",
+        "label": "TOKYO MX 終回節目表列第51、52話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://s.mxtv.jp/company/press/press2020_380001.pdf",
+        "label": "TOKYO MX 原季節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.beyblade-fc.com/posts/sparking-ep",
+        "label": "官方全52話標題",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.beyblade.jp/news/3338/",
+        "label": "官方原網絡版停止提供公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200714174316000_90793517.pdf",
+        "label": "香港翡翠台首播月與授權節目名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://myanimecheck.com/anime/%E3%83%99%E3%82%A4%E3%83%96%E3%83%AC%E3%83%BC%E3%83%89%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0",
+        "label": "網絡版原配信末話日期交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   }),
   spring2020Seed({
   "anilistId": 109856,
@@ -29398,7 +29889,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleZhHant": "阿薩里爾未來的民間故事",
   "titleRomaji": "Asatir: Mirai no Mukashibanashi",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117096-Ealg1PSeoeqh.jpg",
-  "broadcastLabel": "2020年4月4日08:00 J:テレ日本初放送",
+  "broadcastLabel": "日本語電視版：J:テレ於2020/4/4起週六08:00–08:30 JST，至6/27，全13話。阿拉伯語電視版：MBC1於1/24起週五16:00（沙烏地時間）原播，至4/17。",
   "officialSiteUrl": "https://prtimes.jp/main/html/rd/p/000001122.000007676.html",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/301",
@@ -29435,7 +29926,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=wcQklA1wXRA",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/tag/details.php?id=9568",
@@ -29482,6 +29973,18 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "asatir-mirai-no-mukashibanashi-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=wcQklA1wXRA"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "wcQklA1wXRA"
         }
       ],
       "followUp": [
@@ -29496,9 +29999,9 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "releases",
             "platform_links"
           ],
-          "note": "本曲身分與本期用途尚待直接第一方確認；原用途ID/名義保留。",
-          "resumeWhen": "待2020日本語原期官方歌曲credit可直接取得，確認本期曲名/演唱/OPED用途；不將2024續期同名曲直接套回。",
-          "checkedAt": "2026-10-24"
+          "note": "2020日語首季影片簡介為節目宣傳，使用的歌曲及剪輯待核。",
+          "resumeWhen": "待2020日語首季原版正片掛字或製作方歌曲表。續篇同名片頭的署名另見第2期。",
+          "checkedAt": "2026-11-16"
         }
       ],
       "lastVerifiedAt": "2026-10-24"
@@ -29540,6 +30043,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://newsreleases.jcom.co.jp/files/file/81631_print.pdf",
+          "label": "日本播出方原版節目表及播出時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -29586,15 +30096,492 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "releases",
             "platform_links"
           ],
-          "note": "本曲身分與本期用途尚待直接第一方確認；原用途ID/名義保留。",
-          "resumeWhen": "待2020日本語原期官方歌曲credit可直接取得，確認本期曲名/演唱/OPED用途；不將2024續期同名曲直接套回。",
-          "checkedAt": "2026-10-24"
+          "note": "已核實日本初播季度；本曲仍需日語首季官方歌曲署名。",
+          "resumeWhen": "待 J:テレ、正式日語正片片尾掛字或製作方曲表，確認何話用此曲及另一候選片尾。",
+          "checkedAt": "2026-11-16"
         }
       ],
       "lastVerifiedAt": "2026-10-24"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "id": "asatir-mirai-no-mukashibanashi-op-2",
+      "titleJa": "في قادم الزمان - المقدمة",
+      "artistDisplayName": "رشا رزق（Rasha Rizk）",
+      "songId": "asatir-mirai-no-mukashibanashi-op-2-song",
+      "sources": [
+        {
+          "url": "https://play.anghami.com/album/1010305312",
+          "label": "Anghami 正版兩曲發行及曲序",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://play.anghami.com/song/67092511",
+          "label": "Anghami 原名、演唱及數位曲目",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HQT13cbUHtE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://manga.com.sa/ar/news-ar/1181/",
+          "label": "共同製作方 MBC1 阿語原播公告",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetvdb.com/series/astyr-fy-kdm-lzmn/seasons/official/1",
+          "label": "MBC 原播逐話日期，含4/17終回",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ajel.sa/entertainment/cmglzy",
+          "label": "阿拉伯語同期報道明列本曲用途及演唱",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Anghami",
+          "label": "Anghami 曲目",
+          "url": "https://play.anghami.com/song/67092511",
+          "linkType": "direct_track",
+          "availability": "unknown",
+          "region": "UNKNOWN",
+          "releaseId": "anghami-1010305312",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "asatir-mirai-no-mukashibanashi-op-2-anghami-vocal"
+        },
+        {
+          "platform": "Anghami",
+          "label": "Anghami 原聲發行",
+          "url": "https://play.anghami.com/album/1010305312",
+          "linkType": "direct_album",
+          "availability": "unknown",
+          "region": "UNKNOWN",
+          "releaseId": "anghami-1010305312",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092511"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://play.anghami.com/song/67092511"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/album/1010305312"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://play.anghami.com/album/1010305312"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092511"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-2-anghami-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/album/1010305312",
+            "https://play.anghami.com/song/67092511"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anghami-1010305312"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=HQT13cbUHtE"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "HQT13cbUHtE"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092511",
+            "https://www.youtube.com/watch?v=HQT13cbUHtE",
+            "https://ajel.sa/entertainment/cmglzy"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092511",
+            "https://www.youtube.com/watch?v=HQT13cbUHtE",
+            "https://ajel.sa/entertainment/cmglzy"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://manga.com.sa/ar/news-ar/1181/",
+            "https://www.youtube.com/watch?v=HQT13cbUHtE",
+            "https://play.anghami.com/song/67092511",
+            "https://ajel.sa/entertainment/cmglzy",
+            "https://thetvdb.com/series/astyr-fy-kdm-lzmn/seasons/official/1"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-op-2"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleRomaji": "Fi Qadim Azzaman - Opening",
+      "versionLabel": "阿拉伯語原版",
+      "credits": [
+        {
+          "name": "رشا رزق",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "asatir-mirai-no-mukashibanashi-op-2-anghami-vocal",
+          "title": "في قادم الزمان - المقدمة",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "anghami-1010305312",
+          "title": "في قادم الزمان",
+          "type": "soundtrack",
+          "artistDisplayName": "رشا رزق（Rasha Rizk）",
+          "date": {
+            "value": "2020-01",
+            "precision": "month"
+          },
+          "edition": "Anghami 數位發行",
+          "tracks": [
+            {
+              "title": "في قادم الزمان - المقدمة",
+              "position": 1,
+              "recordingId": "asatir-mirai-no-mukashibanashi-op-2-anghami-vocal"
+            }
+          ]
+        }
+      ],
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring"
+      ],
+      "usageLabel": "MBC1 阿拉伯語原播版片頭。首播期由1月跨至4月。",
+      "lastVerifiedAt": "2026-11-16",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recording_format",
+            "video_metadata",
+            "platform_availability"
+          ],
+          "note": "已核對阿語原播用途、演唱及 Anghami 原聲曲目。未確認逐話例外、影片與串流音源的剪輯關係。",
+          "resumeWhen": "待權利方逐話正片署名、作詞曲編或音源版本說明，及 Anghami 地區完整播放可核。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "asatir-mirai-no-mukashibanashi-ed-2",
+      "titleJa": "في قادم الزمان - النهاية",
+      "artistDisplayName": "رشا رزق（Rasha Rizk）",
+      "songId": "asatir-mirai-no-mukashibanashi-ed-2-song",
+      "sources": [
+        {
+          "url": "https://play.anghami.com/album/1010305312",
+          "label": "Anghami 正版兩曲發行及曲序",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://play.anghami.com/song/67092512",
+          "label": "Anghami 原名、演唱及數位曲目",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lws7WM_va2g",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://manga.com.sa/ar/news-ar/1181/",
+          "label": "共同製作方 MBC1 阿語原播公告",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetvdb.com/series/astyr-fy-kdm-lzmn/seasons/official/1",
+          "label": "MBC 原播逐話日期，含4/17終回",
+          "role": "cross_check",
+          "language": "multi",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.e-ir.info/pdf/108160",
+          "label": "獨立研究確認首季阿語片尾由 Rasha Rizk 演唱",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Anghami",
+          "label": "Anghami 曲目",
+          "url": "https://play.anghami.com/song/67092512",
+          "linkType": "direct_track",
+          "availability": "unknown",
+          "region": "UNKNOWN",
+          "releaseId": "anghami-1010305312",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "asatir-mirai-no-mukashibanashi-ed-2-anghami-vocal"
+        },
+        {
+          "platform": "Anghami",
+          "label": "Anghami 原聲發行",
+          "url": "https://play.anghami.com/album/1010305312",
+          "linkType": "direct_album",
+          "availability": "unknown",
+          "region": "UNKNOWN",
+          "releaseId": "anghami-1010305312",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092512"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://play.anghami.com/song/67092512"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/album/1010305312"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://play.anghami.com/album/1010305312"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092512"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-ed-2-anghami-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "artist",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/album/1010305312",
+            "https://play.anghami.com/song/67092512"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "anghami-1010305312"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=lws7WM_va2g"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lws7WM_va2g"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092512",
+            "https://www.youtube.com/watch?v=lws7WM_va2g",
+            "https://www.e-ir.info/pdf/108160"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://play.anghami.com/song/67092512",
+            "https://www.youtube.com/watch?v=lws7WM_va2g",
+            "https://www.e-ir.info/pdf/108160"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://manga.com.sa/ar/news-ar/1181/",
+            "https://www.youtube.com/watch?v=lws7WM_va2g",
+            "https://play.anghami.com/song/67092512",
+            "https://www.e-ir.info/pdf/108160",
+            "https://thetvdb.com/series/astyr-fy-kdm-lzmn/seasons/official/1"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "asatir-mirai-no-mukashibanashi-ed-2"
+        }
+      ],
+      "sourceMode": "explicit",
+      "titleRomaji": "Fi Qadim Azzaman - Closing",
+      "versionLabel": "阿拉伯語原版",
+      "credits": [
+        {
+          "name": "رشا رزق",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "asatir-mirai-no-mukashibanashi-ed-2-anghami-vocal",
+          "title": "في قادم الزمان - النهاية",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "anghami-1010305312",
+          "title": "في قادم الزمان",
+          "type": "soundtrack",
+          "artistDisplayName": "رشا رزق（Rasha Rizk）",
+          "date": {
+            "value": "2020-01",
+            "precision": "month"
+          },
+          "edition": "Anghami 數位發行",
+          "tracks": [
+            {
+              "title": "في قادم الزمان - النهاية",
+              "position": 2,
+              "recordingId": "asatir-mirai-no-mukashibanashi-ed-2-anghami-vocal"
+            }
+          ]
+        }
+      ],
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "MBC1 阿拉伯語原播版片尾。製作方影片明列第1話，題名〈جدتي〉。",
+      "lastVerifiedAt": "2026-11-16",
+      "followUp": [
+        {
+          "fields": [
+            "use_quarters",
+            "lyrics",
+            "composition",
+            "arrangement",
+            "recording_format",
+            "video_metadata",
+            "platform_availability"
+          ],
+          "note": "製作方影片明列第1話片尾；其後各話用法、影片與串流音源的剪輯關係待核。",
+          "resumeWhen": "待4月播出的第11–13話阿語原版片尾掛字、權利方逐話曲表或音源版本說明，另核 Anghami 地區完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
     }
   ],
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://prtimes.jp/main/html/rd/p/000001122.000007676.html",
@@ -29609,12 +30596,41 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://manga.com.sa/ar/news-ar/1181/",
+      "label": "共同製作方公布 MBC1 阿語原播時段及全13話",
+      "role": "first_party",
+      "language": "multi",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://newsreleases.jcom.co.jp/files/file/81631_print.pdf",
+      "label": "J:COM 日本版播出時段及全部集數",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://thetvdb.com/series/astyr-fy-kdm-lzmn/seasons/official/1",
+      "label": "MBC 阿語原播逐話日期交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "multi",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.animatetimes.com/news/details.php?id=1585705070",
+      "label": "日本首播公告與分集時間交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "editorialWeekday": 6,
   "broadcastTimeJst": "08:00",
   "seasonIds": [
-    "2020-spring"
+    "2020-spring",
+    "2020-winter"
   ]
 }),
   spring2020Seed({
@@ -44136,95 +45152,1050 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-  "anilistId": 111323,
-  "slug": "gal-to-kyouryuu",
-  "startDate": "2020-04-05",
-  "titleJa": "ギャルと恐竜",
-  "titleZhHant": "辣妹與恐龍",
-  "titleRomaji": "Gal to Kyouryuu",
-  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111323-quqYgAchD9PM.png",
-  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111323-6VubjN9ROpKb.jpg",
-  "broadcastLabel": "日本TV混合形式：前半動畫／後半實寫；原2020-04-04（土）25:00–25:30 MX等為全節目槽，非動畫淨片長。動畫本體分鐘仍待直接資料；アニマックス特別版另分。",
-  "officialSiteUrl": "https://www.galkyo.com/",
-  "sourceReferenceUrls": [
-    "https://youranimes.tw/animes/372",
-    "https://acgsecrets.hk/bangumi/202004/"
-  ],
-  "animeThemesUrl": "https://animethemes.moe/anime/gal_to_kyouryuu",
-  "themes": [
-    {
-      "type": "OP",
-      "sequence": 1,
-      "titleJa": "恐竜あげみざわ☆",
-      "artistDisplayName": "恐竜フレンズ [楓 (CV.島袋美由利)、山田 (CV.夏吉ゆうこ)、先パイ (CV.工藤夕希)、翔太 (CV.山下誠一郎)]"
-    },
-    {
-      "type": "ED",
-      "sequence": 1,
-      "titleJa": "Peaceful Days",
-      "artistDisplayName": "高橋竜子 (高橋洋子)"
-    }
-  ],
-  "metadataVerifiedAt": "2026-11-05",
-  "metadataSources": [
-    {
-      "label": "動畫官方網站：作品與播出資料",
-      "url": "https://www.galkyo.com/",
-      "language": "ja",
-      "role": "first_party",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "label": "AniList：作品識別與公開圖像",
-      "url": "https://anilist.co/anime/111323",
-      "language": "en",
-      "role": "identifier",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "label": "繁體中文季度列表交叉對照",
-      "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-      "language": "zh-Hant",
-      "role": "localized_cross_check",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "label": "AnimeThemes：OP／ED 曲目交叉核對",
-      "url": "https://animethemes.moe/anime/gal_to_kyouryuu",
-      "language": "en",
-      "role": "theme_cross_check",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "label": "季度首播公開來源",
-      "url": "https://youranimes.tw/animes/372",
-      "language": "zh-Hant",
-      "role": "broadcast_cross_check",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "label": "季度首播公開來源",
-      "url": "https://acgsecrets.hk/bangumi/202004/",
-      "language": "zh-Hant",
-      "role": "broadcast_cross_check",
-      "verifiedAt": "2026-09-02"
-    },
-    {
-      "url": "https://times.abema.tv/articles/-/7054395",
-      "label": "ABEMA原2020/5/18報道：同版動畫／實寫分段，16分附近為內容點位而非動畫片長",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-05"
-    },
-    {
-      "url": "https://dengekionline.com/articles/28201/",
-      "label": "電撃原2020/3/4報道：前半動畫／後半實寫的30分鐘節目，特別版另分",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-11-05"
-    }
-  ]
-}),
+    "anilistId": 111323,
+    "slug": "gal-to-kyouryuu",
+    "startDate": "2020-04-05",
+    "titleJa": "ギャルと恐竜",
+    "titleZhHant": "辣妹與恐龍",
+    "titleRomaji": "Gal to Kyouryuu",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111323-quqYgAchD9PM.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/111323-6VubjN9ROpKb.jpg",
+    "broadcastLabel": "日本TOKYO MX／BS11動畫與真人混合節目，正篇12話。第1–7話於2020/4/5–5/17週日01:00 JST首播，5/24起原檔重播第1–5話。10/4週日01:30 JST從第1話復播，第8–12話新集於11/22–12/20首播。電視編排為30分鐘節目槽，授權合併正片約24分鐘，動畫為當中的一部分；アニマックス特別版分開。",
+    "officialSiteUrl": "https://www.galkyo.com/",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/372",
+      "https://acgsecrets.hk/bangumi/202004/"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/gal_to_kyouryuu",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "恐竜あげみざわ☆",
+        "artistDisplayName": "恐竜フレンズ [楓 (CV.島袋美由利)、山田 (CV.夏吉ゆうこ)、先パイ (CV.工藤夕希)、翔太 (CV.山下誠一郎)]",
+        "id": "gal-to-kyouryuu-op-1",
+        "songId": "gal-to-kyouryuu-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anisonlist.net/gal-dino/",
+            "label": "原日本TV片頭片尾均列第1–12話",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633/time",
+            "label": "東京與BS11逐話含延播、重播與秋季復播",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://galkyo.com/staff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bs11.jp/anime/galkyo/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Dia4b1vjn-w",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1586017773",
+            "label": "同期報導：2020/4/5兩首主題曲同日發行及演唱名義",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/track/ccc9491554d29c660c33",
+            "label": "正版日本平台的正式歌曲與完整曲長",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lnk.to/galkyo",
+            "label": "權利方雙主題歌發行入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/cdaa4019f6bff89a1f91",
+            "label": "日本正版平台核對發行曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://www.bs11.jp/anime/galkyo/",
+              "https://www.youtube.com/watch?v=Dia4b1vjn-w",
+              "https://anisonlist.net/gal-dino/",
+              "https://cal.syoboi.jp/tid/5633/time",
+              "https://cal.syoboi.jp/tid/5633"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://cal.syoboi.jp/tid/5633"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://cal.syoboi.jp/tid/5633"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/track/ccc9491554d29c660c33",
+              "https://www.animatetimes.com/news/details.php?id=1586017773"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/track/ccc9491554d29c660c33"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-1-song-jp-digital-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/album/cdaa4019f6bff89a1f91"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-ed-digital-single"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring",
+          "2020-fall"
+        ],
+        "usageLabel": "日本原TV第1–12話片頭，第1–7話春季首播、第8–12話秋季首播。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "恐竜フレンズ",
+            "role": "vocals"
+          },
+          {
+            "name": "島袋美由利",
+            "role": "vocals"
+          },
+          {
+            "name": "夏吉ゆうこ",
+            "role": "vocals"
+          },
+          {
+            "name": "工藤夕希",
+            "role": "vocals"
+          },
+          {
+            "name": "山下誠一郎",
+            "role": "vocals"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "lyrics"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "composition"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "arrangement"
+          }
+        ],
+        "releaseDate": "2020-04-05",
+        "recordings": [
+          {
+            "id": "gal-to-kyouryuu-op-1-song-jp-digital-single-full",
+            "title": "恐竜あげみざわ☆",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "gal-to-kyouryuu-op-ed-digital-single",
+            "title": "恐竜あげみざわ☆/Peaceful Days",
+            "type": "single",
+            "date": {
+              "value": "2020-04-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "恐竜フレンズ／高橋竜子",
+            "edition": "日本數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "恐竜あげみざわ☆",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gal-to-kyouryuu-op-1-song-jp-digital-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "official_video"
+            ],
+            "note": "已核日本數位完整曲。原播剪輯正式音源、香港區逐曲播放與仍可播放的官方無字幕影片待核。",
+            "resumeWhen": "待權利方重新提供片頭／片尾影片、明列播出剪輯的曲目，或香港區可核曲位。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Peaceful Days",
+        "artistDisplayName": "高橋竜子",
+        "id": "gal-to-kyouryuu-ed-1",
+        "songId": "gal-to-kyouryuu-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anisonlist.net/gal-dino/",
+            "label": "原日本TV片頭片尾均列第1–12話",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633/time",
+            "label": "東京與BS11逐話含延播、重播與秋季復播",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://galkyo.com/staff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.galkyo.com/news/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1586017773",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/track/52df922dff0f04604c34",
+            "label": "正版日本平台的正式歌曲與完整曲長",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lnk.to/galkyo",
+            "label": "權利方雙主題歌發行入口",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/cdaa4019f6bff89a1f91",
+            "label": "日本正版平台核對發行曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://www.galkyo.com/news/",
+              "https://anisonlist.net/gal-dino/",
+              "https://cal.syoboi.jp/tid/5633/time",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://www.animatetimes.com/news/details.php?id=1586017773"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://www.animatetimes.com/news/details.php?id=1586017773"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://galkyo.com/staff/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://www.animatetimes.com/news/details.php?id=1586017773"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/track/52df922dff0f04604c34",
+              "https://www.animatetimes.com/news/details.php?id=1586017773"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/track/52df922dff0f04604c34"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-ed-1-song-jp-digital-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/galkyo",
+              "https://s.awa.fm/album/cdaa4019f6bff89a1f91"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-op-ed-digital-single"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring",
+          "2020-fall"
+        ],
+        "usageLabel": "日本原TV第1–12話片尾，第1–7話春季首播、第8–12話秋季首播。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "高橋竜子",
+            "role": "vocals"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "lyrics"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "composition"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "arrangement"
+          }
+        ],
+        "releaseDate": "2020-04-05",
+        "recordings": [
+          {
+            "id": "gal-to-kyouryuu-ed-1-song-jp-digital-single-full",
+            "title": "Peaceful Days",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "gal-to-kyouryuu-op-ed-digital-single",
+            "title": "恐竜あげみざわ☆/Peaceful Days",
+            "type": "single",
+            "date": {
+              "value": "2020-04-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "恐竜フレンズ／高橋竜子",
+            "edition": "日本數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Peaceful Days",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gal-to-kyouryuu-ed-1-song-jp-digital-single-full"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "official_video"
+            ],
+            "note": "已核日本數位完整曲。原播剪輯正式音源、香港區逐曲播放與仍可播放的官方無字幕影片待核。",
+            "resumeWhen": "待權利方重新提供片頭／片尾影片、明列播出剪輯的曲目，或香港區可核曲位。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "gal-to-kyouryuu-in-1",
+        "titleJa": "Let's play again",
+        "artistDisplayName": "ナオタロー（CV：畠中祐）",
+        "songId": "gal-to-kyouryuu-in-1-song",
+        "sources": [
+          {
+            "url": "https://www.spaceneko.com/jp/works/2570/",
+            "label": "動畫工作室列第7-1段、首播日及角色聲優",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633",
+            "label": "逐話歌曲表列第7話插曲及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1015027907/",
+            "label": "日本正版原聲帶列曲名、曲位及角色演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.galkyo.com/news/",
+            "label": "動畫製作方公布原聲帶發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633/time",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lnk.to/kyoryu_soundtrack",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.spaceneko.com/jp/works/2570/",
+              "https://www.galkyo.com/news/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/",
+              "https://cal.syoboi.jp/tid/5633/time"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://www.spaceneko.com/jp/works/2570/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.galkyo.com/news/",
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-1-song-jp-soundtrack-character"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.galkyo.com/news/",
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-original-soundtrack"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "日本原TV第7話（2020/5/17 JST）動畫段落「しんぱいだな」的插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ナオタロー（CV：畠中祐）",
+            "role": "vocals"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "lyrics"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "composition"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "arrangement"
+          }
+        ],
+        "releaseDate": "2020-12-19",
+        "recordings": [
+          {
+            "id": "gal-to-kyouryuu-in-1-song-jp-soundtrack-character",
+            "title": "Let's play again",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "gal-to-kyouryuu-original-soundtrack",
+            "title": "ギャルと恐竜 サウンドトラック集",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-12-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "ギャルと恐竜",
+            "edition": "日本數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's play again",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "gal-to-kyouryuu-in-1-song-jp-soundtrack-character"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原聲帶角色演唱曲位。原聲帶音軌與TV實播剪輯的完整對應、香港區逐曲供應待核。",
+            "resumeWhen": "待有權利方分區曲目或可辨認的正式原播剪輯來源。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "gal-to-kyouryuu-in-2",
+        "titleJa": "僕はダイナマイト",
+        "artistDisplayName": "ナオタロー（CV：畠中祐）",
+        "songId": "gal-to-kyouryuu-in-2-song",
+        "sources": [
+          {
+            "url": "https://www.spaceneko.com/jp/works/2570/",
+            "label": "動畫工作室列第7-1段、首播日及角色聲優",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633",
+            "label": "逐話歌曲表列第7話插曲及演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1015027907/",
+            "label": "日本正版原聲帶列曲名、曲位及角色演唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.galkyo.com/news/",
+            "label": "動畫製作方公布原聲帶發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5633/time",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lnk.to/kyoryu_soundtrack",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.spaceneko.com/jp/works/2570/",
+              "https://www.galkyo.com/news/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/",
+              "https://cal.syoboi.jp/tid/5633/time"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://www.spaceneko.com/jp/works/2570/",
+              "https://cal.syoboi.jp/tid/5633",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.galkyo.com/news/",
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-in-2-song-jp-soundtrack-character"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.galkyo.com/news/",
+              "https://lnk.to/kyoryu_soundtrack",
+              "https://recochoku.jp/album/A1015027907/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "gal-to-kyouryuu-original-soundtrack"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "日本原TV第7話（2020/5/17 JST）動畫段落「しんぱいだな」的插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ナオタロー（CV：畠中祐）",
+            "role": "vocals"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "lyrics"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "composition"
+          },
+          {
+            "name": "吟（BUSTED ROSE）",
+            "role": "arrangement"
+          }
+        ],
+        "releaseDate": "2020-12-19",
+        "recordings": [
+          {
+            "id": "gal-to-kyouryuu-in-2-song-jp-soundtrack-character",
+            "title": "僕はダイナマイト",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "gal-to-kyouryuu-original-soundtrack",
+            "title": "ギャルと恐竜 サウンドトラック集",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-12-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "ギャルと恐竜",
+            "edition": "日本數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "僕はダイナマイト",
+                "position": 18,
+                "disc": 1,
+                "recordingId": "gal-to-kyouryuu-in-2-song-jp-soundtrack-character"
+              }
+            ],
+            "label": "KING RECORDS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原聲帶角色演唱曲位。原聲帶音軌與TV實播剪輯的完整對應、香港區逐曲供應待核。",
+            "resumeWhen": "待有權利方分區曲目或可辨認的正式原播剪輯來源。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.galkyo.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/111323",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/gal_to_kyouryuu",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://youranimes.tw/animes/372",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/202004/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://times.abema.tv/articles/-/7054395",
+        "label": "ABEMA原2020/5/18報道：同版動畫／實寫分段，16分附近為內容點位而非動畫片長",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "url": "https://dengekionline.com/articles/28201/",
+        "label": "電撃原2020/3/4報道：前半動畫／後半實寫的30分鐘節目，特別版另分",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-05"
+      },
+      {
+        "url": "https://www.galkyo.com/news/",
+        "label": "動畫官方首播、延期、復播及正篇第8–12話播出公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.galkyo.com/onair/",
+        "label": "動畫官方播出與アニマックス特別版資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.bs11.jp/anime/galkyo/",
+        "label": "日本原播電視台的節目資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://s.mxtv.jp/company/press/press2020_380001.pdf",
+        "label": "TOKYO MX 2020秋改編表：10/3節目日起週六25:30",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.b-ch.com/titles/6880/001",
+        "label": "Bandai Channel授權第1話合併正片約24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.b-ch.com/titles/6880/012",
+        "label": "Bandai Channel授權第12話合併正片約24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Dia4b1vjn-w",
+        "label": "講談社授權第1話動畫段落分開發行",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://gnn.gamer.com.tw/detail.php?sn=204174",
+        "label": "台灣授權平台分列《辣妹與恐龍》和《辣妹與恐龍 真人版》",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5633/time",
+        "label": "TOKYO MX／BS11逐話播出日期及重播紀錄",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://news.gamebase.com.tw/news/detail/99347036",
+        "label": "繁中同期交叉：10月復播首集",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "seasonIds": [
+      "2020-spring",
+      "2020-fall"
+    ],
+    "broadcastTimeJst": "01:00",
+    "editorialWeekday": 7
+  }),
   spring2020Seed({
   "anilistId": 113570,
   "slug": "shachou-battle-no-jikan-desu",
@@ -94900,5710 +96871,6155 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   spring2020Seed({
-  "anilistId": 113051,
-  "slug": "argonavis-from-bang-dream",
-  "startDate": "2020-04-11",
-  "titleJa": "アルゴナビス from BanG Dream!",
-  "titleZhHant": "ARGONAVIS from BanG Dream！",
-  "titleRomaji": "ARGONAVIS from BanG Dream!",
-  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113051-R2V4aqfv0pau.png",
-  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113051-O0OIEfTcXrQY.jpg",
-  "broadcastLabel": "MBS／TBS系週五25:25（翌日01:25 JST）原播，4/11起第1–12話；第13話於7/4播出。終回前7/3晚另有特番及第12話重播。",
-  "officialSiteUrl": "https://bushiroad.com/media/11496",
-  "sourceReferenceUrls": [
-    "https://youranimes.tw/animes/428",
-    "https://acgsecrets.hk/bangumi/202004/"
-  ],
-  "animeThemesUrl": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-  "themes": [
-    {
-      "type": "OP",
-      "sequence": 1,
-      "titleJa": "星がはじまる",
-      "artistDisplayName": "Argonavis",
-      "id": "argonavis-from-bang-dream-op-1",
-      "songId": "argonavis-from-bang-dream-op-1-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://bushiroad.com/media/11496",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "AnimeThemes",
-          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-          "language": "en",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://bushiroad.com/media/10724",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.mbs.jp/argonavis/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807282109?i=1807282111",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807282109",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1807282111",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=UyMplaC2wZg",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "Argonavis",
-          "role": "vocals"
-        },
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "田淵智也",
-          "role": "lyrics"
-        },
-        {
-          "name": "田淵智也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-1"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.mbs.jp/argonavis/",
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.mbs.jp/argonavis/",
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-1-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-1-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10259"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10260"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1807282111"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1807282111"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1807282109?i=1807282111",
-            "https://music.apple.com/hk/album/1807282109"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1807282109"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=UyMplaC2wZg"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "UyMplaC2wZg"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第1–6、10、12話片頭",
-      "releaseDate": "2020-04-29",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-op-1-song-commercial-full",
-          "title": "星がはじまる",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10259",
-          "title": "星がはじまる",
-          "type": "single",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+    "anilistId": 113051,
+    "slug": "argonavis-from-bang-dream",
+    "startDate": "2020-04-11",
+    "titleJa": "アルゴナビス from BanG Dream!",
+    "titleZhHant": "ARGONAVIS from BanG Dream！",
+    "titleRomaji": "ARGONAVIS from BanG Dream!",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113051-R2V4aqfv0pau.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113051-O0OIEfTcXrQY.jpg",
+    "broadcastLabel": "MBS／TBS系週五25:25（翌日01:25 JST）原播，4/11起第1–11話。第12話延後至6/27 01:40 JST，第13話於7/4 01:25 JST首播。終回前7/3晚另有特番及第12話重播。",
+    "officialSiteUrl": "https://bushiroad.com/media/11496",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/428",
+      "https://acgsecrets.hk/bangumi/202004/"
+    ],
+    "animeThemesUrl": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "星がはじまる",
+        "artistDisplayName": "Argonavis",
+        "id": "argonavis-from-bang-dream-op-1",
+        "songId": "argonavis-from-bang-dream-op-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://bushiroad.com/media/11496",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "星がはじまる",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10259"
-        },
-        {
-          "id": "brmm-10260",
-          "title": "星がはじまる",
-          "type": "single",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "星がはじまる",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10260"
-        },
-        {
-          "id": "apple-hk-1807282109",
-          "title": "星がはじまる",
-          "type": "ep",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+          {
+            "url": "https://bushiroad.com/media/10724",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "星がはじまる",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "星がはじまる｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1807282111",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1807282109",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
-        }
-      ]
-    },
-    {
-      "type": "OP",
-      "sequence": 2,
-      "titleJa": "SCATTER",
-      "artistDisplayName": "GYROAXIA",
-      "id": "argonavis-from-bang-dream-op-2",
-      "songId": "argonavis-from-bang-dream-op-2-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://bushiroad.com/media/11496",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "AnimeThemes",
-          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-          "language": "en",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://bushiroad.com/media/10724",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.mbs.jp/argonavis/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462?i=1806586464",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1806586464",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/11078",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=TffBBsY0ZGs",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "GYROAXIA",
-          "role": "vocals"
-        },
-        {
-          "name": "SHiNNOSUKE",
-          "role": "lyrics"
-        },
-        {
-          "name": "UZ",
-          "role": "composition"
-        },
-        {
-          "name": "UZ",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-2"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-op-2"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.mbs.jp/argonavis/",
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.mbs.jp/argonavis/",
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10270"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10271"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1806586464"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1806586464"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806586462?i=1806586464",
-            "https://music.apple.com/hk/album/1806586462"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1806586462"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/11078"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=TffBBsY0ZGs"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "TffBBsY0ZGs"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第7–9、11話片頭",
-      "releaseDate": "2020-05-09",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-op-2-song-commercial-full",
-          "title": "SCATTER",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10270",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-24"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10270"
-        },
-        {
-          "id": "brmm-10271",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "url": "https://www.mbs.jp/argonavis/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10271"
-        },
-        {
-          "id": "apple-hk-1806586462",
-          "title": "SCATTER",
-          "type": "ep",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "SCATTER｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1806586464",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1806586462",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 1,
-      "titleJa": "雨上がりの坂道",
-      "artistDisplayName": "Argonavis",
-      "id": "argonavis-from-bang-dream-ed-1",
-      "songId": "argonavis-from-bang-dream-ed-1-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring",
-        "2020-summer"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://bushiroad.com/media/11496",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "AnimeThemes",
-          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-          "language": "en",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://bushiroad.com/media/10724",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://bushiroad.com/media/12015",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711?i=1800385946",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1800385946",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "Argonavis",
-          "role": "vocals"
-        },
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-1"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724",
-            "https://bushiroad.com/media/12015",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724",
-            "https://bushiroad.com/media/12015",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-1-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10286"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10287"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1800385946"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1800385946"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1800384711?i=1800385946",
-            "https://music.apple.com/hk/album/1800384711"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1800384711"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第1–2、4–6、10、12–13話片尾；第13話於7/4首播",
-      "releaseDate": "2020-08-12",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-ed-1-song-commercial-full",
-          "title": "雨上がりの坂道",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10286",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "雨上がりの坂道",
-              "position": 10,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10286"
-        },
-        {
-          "id": "brmm-10287",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "雨上がりの坂道",
-              "position": 10,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10287"
-        },
-        {
-          "id": "apple-hk-1800384711",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/album/1807282109?i=1807282111",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "雨上がりの坂道",
-              "position": 10,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "雨上がりの坂道｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1800385946",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1800384711",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 2,
-      "titleJa": "ゴールライン",
-      "artistDisplayName": "Argonavis",
-      "id": "argonavis-from-bang-dream-ed-2",
-      "songId": "argonavis-from-bang-dream-ed-2-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "sources": [
-        {
-          "url": "https://bushiroad.com/media/11496",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "label": "AnimeThemes",
-          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-          "language": "en",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=u4DoJjCVt5c",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/3",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1810509618?i=1810509866",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1810509618",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1810509866",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "Argonavis",
-          "role": "vocals"
-        },
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/11496"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-2-song"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-2-song"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=u4DoJjCVt5c",
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/3",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=u4DoJjCVt5c",
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/3",
-            "https://cal.syoboi.jp/tid/5637"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10178"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10179"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1810509866"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1810509866"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1810509618?i=1810509866",
-            "https://music.apple.com/hk/album/1810509618"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1810509618"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=u4DoJjCVt5c"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "u4DoJjCVt5c"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第3話劇中演出用作特別片尾",
-      "releaseDate": "2019-02-20",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-ed-2-song-commercial-full",
-          "title": "ゴールライン",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10178",
-          "title": "ゴールライン",
-          "type": "single",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/album/1807282109",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10178"
-        },
-        {
-          "id": "brmm-10179",
-          "title": "ゴールライン",
-          "type": "single",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/song/1807282111",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10179"
-        },
-        {
-          "id": "apple-hk-1810509618",
-          "title": "ゴールライン",
-          "type": "ep",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "url": "https://www.youtube.com/watch?v=UyMplaC2wZg",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Argonavis",
+            "role": "vocals"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "ゴールライン｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1810509866",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1810509618",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 3,
-      "titleJa": "LIAR",
-      "artistDisplayName": "GYROAXIA",
-      "id": "argonavis-from-bang-dream-ed-3",
-      "songId": "argonavis-from-bang-dream-ed-3-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://bushiroad.com/media/11496",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "AnimeThemes",
-          "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
-          "language": "en",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://bushiroad.com/media/10724",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://animeanime.jp/article/2020/07/03/54766_3.html",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462?i=1806586469",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1806586469",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "GYROAXIA",
-          "role": "vocals"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "lyrics"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "composition"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-3-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-3"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-3-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "argonavis-from-bang-dream-ed-3"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637",
-            "https://animeanime.jp/article/2020/07/03/54766_3.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-3-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/10724",
-            "https://www.mau2.com/anime/argonavis",
-            "https://cal.syoboi.jp/tid/5637",
-            "https://animeanime.jp/article/2020/07/03/54766_3.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-3"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-3-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10270"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10271"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1806586469"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1806586469"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806586462?i=1806586469",
-            "https://music.apple.com/hk/album/1806586462"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1806586462"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第7、9、11話片尾",
-      "releaseDate": "2020-06-10",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-ed-3-song-commercial-full",
-          "title": "LIAR",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10270",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "name": "中村航",
+            "role": "lyrics"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "LIAR",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10270"
-        },
-        {
-          "id": "brmm-10271",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "name": "田淵智也",
+            "role": "lyrics"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "LIAR",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10271"
-        },
-        {
-          "id": "apple-hk-1806586462",
-          "title": "SCATTER",
-          "type": "ep",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "name": "田淵智也",
+            "role": "composition"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "LIAR",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "LIAR｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1806586469",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1806586462",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 4,
-      "id": "argonavis-from-bang-dream-ed-4",
-      "titleJa": "MANIFESTO",
-      "artistDisplayName": "GYROAXIA",
-      "songId": "argonavis-from-bang-dream-manifesto-song",
-      "sources": [
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/8",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://cal.syoboi.jp/tid/5637",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://home.gamer.com.tw/artwork.php?sn=4799852",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://ashdahero.com/contents/7416",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1811501269?i=1811501624",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1811501269",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1811501624",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=k3eQd6iGGpQ",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "MANIFESTO｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1811501624",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1811501269",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/8",
-            "https://cal.syoboi.jp/tid/5637",
-            "https://home.gamer.com.tw/artwork.php?sn=4799852"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-manifesto-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/8",
-            "https://cal.syoboi.jp/tid/5637",
-            "https://home.gamer.com.tw/artwork.php?sn=4799852"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-4"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://ashdahero.com/contents/7416"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-manifesto-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10250"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10251"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1811501624"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1811501624"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1811501269?i=1811501624",
-            "https://music.apple.com/hk/album/1811501269"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1811501269"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=k3eQd6iGGpQ"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "k3eQd6iGGpQ"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第8話劇中樂隊演出帶入片尾",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "ASH DA HERO",
-          "role": "lyrics"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "composition"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "arrangement"
-        },
-        {
-          "name": "脇眞富（Arte Refact）",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-01-15",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-manifesto-song-commercial-full",
-          "title": "MANIFESTO",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10250",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-1-song"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "MANIFESTO",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10250"
-        },
-        {
-          "id": "brmm-10251",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-1"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "MANIFESTO",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10251"
-        },
-        {
-          "id": "apple-hk-1811501269",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-1-song"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "MANIFESTO",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 1,
-      "id": "argonavis-from-bang-dream-in-1",
-      "titleJa": "ゴールライン",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-ed-2-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=731JCAPBGBI",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=exoGcMA-nS0",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1810509618?i=1810509866",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1810509618",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1810509866",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "ゴールライン｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1810509866",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1810509618",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=731JCAPBGBI",
-            "https://www.youtube.com/watch?v=exoGcMA-nS0",
-            "https://www.mau2.com/anime/argonavis",
-            "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=731JCAPBGBI",
-            "https://www.youtube.com/watch?v=exoGcMA-nS0",
-            "https://www.mau2.com/anime/argonavis",
-            "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-1"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10178"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10179"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1810509866"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1810509866"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1810509618?i=1810509866",
-            "https://music.apple.com/hk/album/1810509618"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1810509618"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=731JCAPBGBI"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "731JCAPBGBI"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=exoGcMA-nS0"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "exoGcMA-nS0"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第2、11、12話劇中樂隊表演",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "已核實的第2、11、12話與第3話特別片尾分列。其他話數有交叉候選。",
-          "resumeWhen": "待第1、6–8話實際音樂段落或原播掛字，確認有無片段或重現。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-ed-2-song-commercial-full",
-          "title": "ゴールライン",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10178",
-          "title": "ゴールライン",
-          "type": "single",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-1"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10178"
-        },
-        {
-          "id": "brmm-10179",
-          "title": "ゴールライン",
-          "type": "single",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10179"
-        },
-        {
-          "id": "apple-hk-1810509618",
-          "title": "ゴールライン",
-          "type": "ep",
-          "date": {
-            "value": "2019-02-20",
-            "precision": "day"
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/",
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-1-song"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ゴールライン",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "releaseDate": "2019-02-20"
-    },
-    {
-      "type": "IN",
-      "sequence": 2,
-      "id": "argonavis-from-bang-dream-in-2",
-      "titleJa": "SCATTER",
-      "artistDisplayName": "GYROAXIA",
-      "songId": "argonavis-from-bang-dream-op-2-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=oPGn9pJxrU4",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mbs.jp/argonavis/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/5",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462?i=1806586464",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1806586464",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "SCATTER｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1806586464",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1806586462",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=oPGn9pJxrU4",
-            "https://www.mbs.jp/argonavis/",
-            "https://www.mau2.com/anime/argonavis/ep/5"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=oPGn9pJxrU4",
-            "https://www.mbs.jp/argonavis/",
-            "https://www.mau2.com/anime/argonavis/ep/5"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-2"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.mbs.jp/argonavis/"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10270"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10271"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1806586464"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1806586464"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806586462?i=1806586464",
-            "https://music.apple.com/hk/album/1806586462"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1806586462"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=oPGn9pJxrU4"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "oPGn9pJxrU4"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第5話劇中演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "SHiNNOSUKE",
-          "role": "lyrics"
-        },
-        {
-          "name": "UZ",
-          "role": "composition"
-        },
-        {
-          "name": "UZ",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "第5話片段由企劃方公開。逐話資料另列第12話。",
-          "resumeWhen": "待第12話原播音軌或字幕確認另一段用途。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-op-2-song-commercial-full",
-          "title": "SCATTER",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10270",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/",
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-1"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10270"
-        },
-        {
-          "id": "brmm-10271",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-1-song"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10271"
-        },
-        {
-          "id": "apple-hk-1806586462",
-          "title": "SCATTER",
-          "type": "ep",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-1-song-commercial-full"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "SCATTER",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ],
-      "releaseDate": "2020-05-09"
-    },
-    {
-      "type": "IN",
-      "sequence": 3,
-      "id": "argonavis-from-bang-dream-in-3",
-      "titleJa": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
-      "artistDisplayName": "七星 蓮（CV.伊藤昌弘）",
-      "songId": "argonavis-from-bang-dream-star-five-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/1",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-            "https://www.mau2.com/anime/argonavis/ep/1",
-            "https://lastbreath.hatenablog.com/entry/2020/06/22/070359"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-star-five-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-            "https://www.mau2.com/anime/argonavis/ep/1",
-            "https://lastbreath.hatenablog.com/entry/2020/06/22/070359"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-3"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "OS8xeWEtx6g"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第1話七星蓮的卡拉OK獨唱",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "高橋諒",
-          "role": "composition"
-        },
-        {
-          "name": "高橋諒",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "動畫第一話為七星蓮獨唱；Argonavis 名義發行的團版列於同曲另一用途。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 4,
-      "id": "argonavis-from-bang-dream-in-4",
-      "titleJa": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-star-five-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807964294?i=1807964296",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/11",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807964294",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1807964296",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "超夢宙閃隊〈スターファイブ〉より愛を込めて｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1807964296",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1807964294",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-star-five-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-            "https://music.apple.com/hk/album/1807964294?i=1807964296",
-            "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
-            "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
-            "https://www.mau2.com/anime/argonavis/ep/11"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-star-five-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g",
-            "https://music.apple.com/hk/album/1807964294?i=1807964296",
-            "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
-            "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
-            "https://www.mau2.com/anime/argonavis/ep/11"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-4"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=OS8xeWEtx6g"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1807964294?i=1807964296"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-star-five-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1807964294?i=1807964296"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-star-five-song-commercial-full"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1807964296"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1807964296"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1807964294?i=1807964296",
-            "https://music.apple.com/hk/album/1807964294"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1807964294"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第11話 Argonavis 五人於 Live 咖啡廳演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "高橋諒",
-          "role": "composition"
-        },
-        {
-          "name": "高橋諒",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "同期中文、日文逐場記錄及逐話曲目支持第11話。原單宣傳曾記第12話，實播剪輯與商業團版關係待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2021-01-05",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-star-five-song-commercial-full",
-          "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "apple-hk-1807964294",
-          "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
-          "type": "single",
-          "date": {
-            "value": "2021-01-05",
-            "precision": "day"
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10259"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-star-five-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 5,
-      "id": "argonavis-from-bang-dream-in-5",
-      "titleJa": "Steady Goes!",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-steady-goes-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=6VHdQyaGKzU",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/4",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/5",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807282109?i=1807282112",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1807282109",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1807282112",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Steady Goes!｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1807282112",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1807282109",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=6VHdQyaGKzU",
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/4",
-            "https://www.mau2.com/anime/argonavis/ep/5"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-steady-goes-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=6VHdQyaGKzU",
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/4",
-            "https://www.mau2.com/anime/argonavis/ep/5"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-5"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-steady-goes-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10259"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10260"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1807282112"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1807282112"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1807282109?i=1807282112",
-            "https://music.apple.com/hk/album/1807282109"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1807282109"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=6VHdQyaGKzU"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "6VHdQyaGKzU"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第4–5話劇中演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "廣澤優也（HANO）",
-          "role": "composition"
-        },
-        {
-          "name": "廣澤優也（HANO）",
-          "role": "arrangement"
-        },
-        {
-          "name": "青木宏憲（HANO）",
-          "role": "composition"
-        },
-        {
-          "name": "青木宏憲（HANO）",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-04-29",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-steady-goes-song-commercial-full",
-          "title": "Steady Goes!",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10259",
-          "title": "星がはじまる",
-          "type": "single",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10260"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Steady Goes!",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10259"
-        },
-        {
-          "id": "brmm-10260",
-          "title": "星がはじまる",
-          "type": "single",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1807282111"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1807282111"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Steady Goes!",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10260"
-        },
-        {
-          "id": "apple-hk-1807282109",
-          "title": "星がはじまる",
-          "type": "ep",
-          "date": {
-            "value": "2020-04-29",
-            "precision": "day"
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1807282109?i=1807282111",
+              "https://music.apple.com/hk/album/1807282109"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1807282109"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Steady Goes!",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 6,
-      "id": "argonavis-from-bang-dream-in-6",
-      "titleJa": "流星雨",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-ryuseiu-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=heK0pg3qOzI",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/6",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711?i=1800385369",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1800385369",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "流星雨｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1800385369",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1800384711",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=heK0pg3qOzI",
-            "https://bushiroad.com/media/12528",
-            "https://www.mau2.com/anime/argonavis/ep/6"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ryuseiu-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=heK0pg3qOzI",
-            "https://bushiroad.com/media/12528",
-            "https://www.mau2.com/anime/argonavis/ep/6"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-6"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=heK0pg3qOzI",
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ryuseiu-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10286"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10287"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1800385369"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1800385369"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1800384711?i=1800385369",
-            "https://music.apple.com/hk/album/1800384711"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1800384711"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=heK0pg3qOzI"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "heK0pg3qOzI"
-        }
-      ],
-      "sourceMode": "explicit",
-      "versionLabel": "Acoustic Ver.",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第6話劇中演出 Acoustic Ver.",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "正式專輯收錄 Acoustic Ver.，2019單曲另有普通版。劇中演出與專輯母帶關係待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-08-12",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-ryuseiu-song-commercial-full",
-          "title": "流星雨（Acoustic Ver.）",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10286",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=UyMplaC2wZg"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "UyMplaC2wZg"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–6、10、12話片頭",
+        "releaseDate": "2020-04-29",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-op-1-song-commercial-full",
+            "title": "星がはじまる",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10259",
+            "title": "星がはじまる",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "星がはじまる",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10259"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "流星雨（Acoustic Ver.）",
-              "position": 7,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10286"
-        },
-        {
-          "id": "brmm-10287",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "id": "brmm-10260",
+            "title": "星がはじまる",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "星がはじまる",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10260"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "流星雨（Acoustic Ver.）",
-              "position": 7,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10287"
-        },
-        {
-          "id": "apple-hk-1800384711",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "id": "apple-hk-1807282109",
+            "title": "星がはじまる",
+            "type": "ep",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "星がはじまる",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "星がはじまる｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1807282111",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1807282109",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-op-1-song-commercial-full"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "SCATTER",
+        "artistDisplayName": "GYROAXIA",
+        "id": "argonavis-from-bang-dream-op-2",
+        "songId": "argonavis-from-bang-dream-op-2-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://bushiroad.com/media/11496",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "流星雨（Acoustic Ver.）",
-              "position": 7,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 7,
-      "id": "argonavis-from-bang-dream-in-7",
-      "titleJa": "STARTING OVER",
-      "artistDisplayName": "Argonavis feat. 旭 那由多 from GYROAXIA",
-      "songId": "argonavis-from-bang-dream-starting-over-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=XWAEc29C8gQ",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/8",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806300866?i=1806300867",
-          "label": "權利方本曲最早已核商業發行",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806300866",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1806300867",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "STARTING OVER｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1806300867",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1806300866",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=XWAEc29C8gQ",
-            "https://www.mau2.com/anime/argonavis/ep/8"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starting-over-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=XWAEc29C8gQ",
-            "https://www.mau2.com/anime/argonavis/ep/8"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-7"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=XWAEc29C8gQ"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806300866?i=1806300867"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starting-over-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806300866?i=1806300867"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1806300867"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1806300867"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806300866?i=1806300867",
-            "https://music.apple.com/hk/album/1806300866"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1806300866"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=XWAEc29C8gQ"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "XWAEc29C8gQ"
-        }
-      ],
-      "sourceMode": "explicit",
-      "versionLabel": "feat. 旭 那由多 from GYROAXIA",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第8話和旭 那由多的劇中演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "lyrics"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "另有 Argonavis 原唱版發行。此用途及所附配信限旭 那由多參演版，劇中演出與單曲母帶關係待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-06-15",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-starting-over-song-commercial-full",
-          "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "apple-hk-1806300866",
-          "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
-          "type": "single",
-          "date": {
-            "value": "2020-06-15",
-            "precision": "day"
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 8,
-      "id": "argonavis-from-bang-dream-in-8",
-      "titleJa": "Starry Line",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-starry-line-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=ANc_EbOEojg",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/11496",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/9",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711?i=1800384721",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1800384721",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Starry Line｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1800384721",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1800384711",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=ANc_EbOEojg",
-            "https://bushiroad.com/media/11496",
-            "https://www.mau2.com/anime/argonavis/ep/9"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starry-line-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=ANc_EbOEojg",
-            "https://bushiroad.com/media/11496",
-            "https://www.mau2.com/anime/argonavis/ep/9"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-8"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starry-line-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10286"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10287"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1800384721"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1800384721"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1800384711?i=1800384721",
-            "https://music.apple.com/hk/album/1800384711"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1800384711"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=ANc_EbOEojg"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "ANc_EbOEojg"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第9話劇中演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "田淵智也",
-          "role": "lyrics"
-        },
-        {
-          "name": "田淵智也",
-          "role": "composition"
-        },
-        {
-          "name": "栁舘周平",
-          "role": "composition"
-        },
-        {
-          "name": "栁舘周平",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-08-12",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-starry-line-song-commercial-full",
-          "title": "Starry Line",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10286",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://bushiroad.com/media/10724",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Starry Line",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10286"
-        },
-        {
-          "id": "brmm-10287",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-24"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Starry Line",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10287"
-        },
-        {
-          "id": "apple-hk-1800384711",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://www.mbs.jp/argonavis/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Starry Line",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 9,
-      "id": "argonavis-from-bang-dream-in-9",
-      "titleJa": "AGAIN",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-again-song",
-      "sources": [
-        {
-          "url": "https://www.youtube.com/watch?v=xkuMcJJKMZo",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/11496",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/10",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711?i=1800385351",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1800385351",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "AGAIN｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1800385351",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1800384711",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=xkuMcJJKMZo",
-            "https://bushiroad.com/media/11496",
-            "https://www.mau2.com/anime/argonavis/ep/10"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-again-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=xkuMcJJKMZo",
-            "https://bushiroad.com/media/11496",
-            "https://www.mau2.com/anime/argonavis/ep/10"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-9"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-again-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-again-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10286"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10287"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1800385351"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1800385351"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1800384711?i=1800385351",
-            "https://music.apple.com/hk/album/1800384711"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1800384711"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=xkuMcJJKMZo"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xkuMcJJKMZo"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第10話劇中演出",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "SHiNNOSUKE",
-          "role": "composition"
-        },
-        {
-          "name": "YOUSAY",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-08-12",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-again-song-commercial-full",
-          "title": "AGAIN",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10286",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "AGAIN",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10286"
-        },
-        {
-          "id": "brmm-10287",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "AGAIN",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10287"
-        },
-        {
-          "id": "apple-hk-1800384711",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "AGAIN",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 10,
-      "id": "argonavis-from-bang-dream-in-10",
-      "titleJa": "VOICE",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-voice-song",
-      "sources": [
-        {
-          "url": "https://bushiroad.com/media/12015",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mbs.jp/argonavis/select/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/13",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1811501269?i=1811501602",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1811501269",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1811501602",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "VOICE｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1811501602",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1811501269",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12015",
-            "https://www.mbs.jp/argonavis/select/",
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/13",
-            "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
-            "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-voice-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12015",
-            "https://www.mbs.jp/argonavis/select/",
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
-            "https://www.mau2.com/anime/argonavis/ep/13",
-            "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
-            "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-10"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-voice-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-voice-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10250"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10251"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1811501602"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1811501602"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1811501269?i=1811501602",
-            "https://music.apple.com/hk/album/1811501269"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1811501269"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-summer"
-      ],
-      "usageLabel": "第13話音樂節舞台上的劇中演出；7/4原播",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "逐話資料對開頭分類有分歧，已確認此曲是舞台演出。",
-          "resumeWhen": "待第13話原版掛字，確認有無另外作為片頭。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-01-15",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-voice-song-commercial-full",
-          "title": "VOICE",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10250",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/album/1806586462?i=1806586464",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "VOICE",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10250"
-        },
-        {
-          "id": "brmm-10251",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/album/1806586462",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "VOICE",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10251"
-        },
-        {
-          "id": "apple-hk-1811501269",
-          "title": "VOICE/MANIFESTO",
-          "type": "ep",
-          "date": {
-            "value": "2020-01-15",
-            "precision": "day"
+          {
+            "url": "https://music.apple.com/hk/song/1806586464",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis／GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "VOICE",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 11,
-      "id": "argonavis-from-bang-dream-in-11",
-      "titleJa": "Pray",
-      "artistDisplayName": "Argonavis",
-      "songId": "argonavis-from-bang-dream-pray-song",
-      "sources": [
-        {
-          "url": "https://bushiroad.com/media/12015",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mbs.jp/argonavis/select/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://bushiroad.com/media/12528",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis/ep/13",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://xaircraft.jp/argo-13",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711?i=1800385597",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1800384711",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1800385597",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "Pray｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1800385597",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1800384711",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12015",
-            "https://www.mbs.jp/argonavis/select/",
-            "https://bushiroad.com/media/12528",
-            "https://www.mau2.com/anime/argonavis/ep/13",
-            "https://xaircraft.jp/argo-13"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-pray-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12015",
-            "https://www.mbs.jp/argonavis/select/",
-            "https://bushiroad.com/media/12528",
-            "https://www.mau2.com/anime/argonavis/ep/13",
-            "https://xaircraft.jp/argo-13"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-11"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-pray-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-pray-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10286"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://bushiroad.com/media/12528"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10287"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1800385597"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1800385597"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1800384711?i=1800385597",
-            "https://music.apple.com/hk/album/1800384711"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1800384711"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-summer"
-      ],
-      "usageLabel": "第13話為萬浬演唱的劇中歌；7/4原播",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "中村航",
-          "role": "lyrics"
-        },
-        {
-          "name": "Shinji（シド）",
-          "role": "composition"
-        },
-        {
-          "name": "渡辺拓也",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-08-12",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-pray-song-commercial-full",
-          "title": "Pray",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10286",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://bushiroad.com/media/11078",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Pray",
-              "position": 8,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10286"
-        },
-        {
-          "id": "brmm-10287",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "url": "https://www.youtube.com/watch?v=TffBBsY0ZGs",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GYROAXIA",
+            "role": "vocals"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "Pray",
-              "position": 8,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10287"
-        },
-        {
-          "id": "apple-hk-1800384711",
-          "title": "Starry Line",
-          "type": "album",
-          "date": {
-            "value": "2020-08-12",
-            "precision": "day"
+          {
+            "name": "SHiNNOSUKE",
+            "role": "lyrics"
           },
-          "artistDisplayName": "Argonavis",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "Pray",
-              "position": 8,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    },
-    {
-      "type": "IN",
-      "sequence": 12,
-      "id": "argonavis-from-bang-dream-in-12",
-      "titleJa": "REVOLUTION",
-      "artistDisplayName": "GYROAXIA",
-      "songId": "argonavis-from-bang-dream-revolution-song",
-      "sources": [
-        {
-          "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.mau2.com/anime/argonavis",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462?i=1806586465",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1806586462",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1806586465",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "REVOLUTION｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1806586465",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1806586462",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-            "https://www.mau2.com/anime/argonavis",
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-revolution-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
-            "https://www.mau2.com/anime/argonavis",
-            "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-in-12"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-revolution-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "argonavis-from-bang-dream-revolution-song-commercial-full"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10270"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "brmm-10271"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1806586465"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1806586465"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1806586462?i=1806586465",
-            "https://music.apple.com/hk/album/1806586462"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1806586462"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "第1、6話劇中用曲",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "ASH DA HERO",
-          "role": "lyrics"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "composition"
-        },
-        {
-          "name": "ASH DA HERO",
-          "role": "arrangement"
-        },
-        {
-          "name": "山本恭平（Arte Refact）",
-          "role": "arrangement"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability"
-          ],
-          "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "releaseDate": "2020-06-10",
-      "recordings": [
-        {
-          "id": "argonavis-from-bang-dream-revolution-song-commercial-full",
-          "title": "REVOLUTION",
-          "kind": "vocal",
-          "format": "full"
-        }
-      ],
-      "releases": [
-        {
-          "id": "brmm-10270",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "name": "UZ",
+            "role": "composition"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "Blu-ray付生産限定盤 CD+BD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "REVOLUTION",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10270"
-        },
-        {
-          "id": "brmm-10271",
-          "title": "SCATTER",
-          "type": "single",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "name": "UZ",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "通常盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "REVOLUTION",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music",
-          "catalogNumber": "BRMM-10271"
-        },
-        {
-          "id": "apple-hk-1806586462",
-          "title": "SCATTER",
-          "type": "ep",
-          "date": {
-            "value": "2020-06-10",
-            "precision": "day"
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-2"
           },
-          "artistDisplayName": "GYROAXIA",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "REVOLUTION",
-              "position": 2,
-              "disc": 1,
-              "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
-            }
-          ],
-          "label": "Bushiroad Music"
-        }
-      ]
-    }
-  ],
-  "metadataVerifiedAt": "2026-09-02",
-  "metadataSources": [
-    {
-      "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
-      "label": "原期TV播出日期交叉資料；僅日期時分",
-      "role": "broadcast_cross_check",
-      "language": "zh-Hant",
-      "verifiedAt": "2026-10-24"
-    },
-    {
-      "url": "https://www.mbs.jp/argonavis/",
-      "label": "MBS原播作品及片頭署名",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://bushiroad.com/news/2020/3205",
-      "label": "製作委員會首播時段",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://bushiroad.com/media/12015",
-      "label": "7/3深夜25:25播第13話及終回前特番",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://cal.syoboi.jp/tid/5637",
-      "label": "原播逐話時間及主題曲",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://www.mau2.com/anime/argonavis",
-      "label": "逐話片頭、片尾與劇中用曲",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    }
-  ],
-  "seasonIds": [
-    "2020-spring",
-    "2020-summer"
-  ],
-  "broadcastTimeJst": "01:25"
-}),
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/",
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/",
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10270"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10271"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806586464"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1806586464"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806586462?i=1806586464",
+              "https://music.apple.com/hk/album/1806586462"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1806586462"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/11078"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=TffBBsY0ZGs"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "TffBBsY0ZGs"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第7–9、11話片頭",
+        "releaseDate": "2020-05-09",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-op-2-song-commercial-full",
+            "title": "SCATTER",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10270",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10270"
+          },
+          {
+            "id": "brmm-10271",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10271"
+          },
+          {
+            "id": "apple-hk-1806586462",
+            "title": "SCATTER",
+            "type": "ep",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "SCATTER｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806586464",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806586462",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "雨上がりの坂道",
+        "artistDisplayName": "Argonavis",
+        "id": "argonavis-from-bang-dream-ed-1",
+        "songId": "argonavis-from-bang-dream-ed-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://bushiroad.com/media/11496",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://bushiroad.com/media/10724",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "url": "https://bushiroad.com/media/12015",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711?i=1800385946",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1800385946",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Argonavis",
+            "role": "vocals"
+          },
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724",
+              "https://bushiroad.com/media/12015",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724",
+              "https://bushiroad.com/media/12015",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10286"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1800385946"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1800385946"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1800384711?i=1800385946",
+              "https://music.apple.com/hk/album/1800384711"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1800384711"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第1–2、4–6、10、12–13話片尾；第13話於7/4首播",
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-ed-1-song-commercial-full",
+            "title": "雨上がりの坂道",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10286",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "雨上がりの坂道",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10286"
+          },
+          {
+            "id": "brmm-10287",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "雨上がりの坂道",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10287"
+          },
+          {
+            "id": "apple-hk-1800384711",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "雨上がりの坂道",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "雨上がりの坂道｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1800385946",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1800384711",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-ed-1-song-commercial-full"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "ゴールライン",
+        "artistDisplayName": "Argonavis",
+        "id": "argonavis-from-bang-dream-ed-2",
+        "songId": "argonavis-from-bang-dream-ed-2-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "sources": [
+          {
+            "url": "https://bushiroad.com/media/11496",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=u4DoJjCVt5c",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1810509618?i=1810509866",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1810509618",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1810509866",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Argonavis",
+            "role": "vocals"
+          },
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/11496"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-2-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-2-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=u4DoJjCVt5c",
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/3",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=u4DoJjCVt5c",
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/3",
+              "https://cal.syoboi.jp/tid/5637"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10178"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10179"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1810509866"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1810509866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1810509618?i=1810509866",
+              "https://music.apple.com/hk/album/1810509618"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1810509618"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=u4DoJjCVt5c"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "u4DoJjCVt5c"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第3話劇中演出用作特別片尾",
+        "releaseDate": "2019-02-20",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-ed-2-song-commercial-full",
+            "title": "ゴールライン",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10178",
+            "title": "ゴールライン",
+            "type": "single",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10178"
+          },
+          {
+            "id": "brmm-10179",
+            "title": "ゴールライン",
+            "type": "single",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10179"
+          },
+          {
+            "id": "apple-hk-1810509618",
+            "title": "ゴールライン",
+            "type": "ep",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ゴールライン｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1810509866",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1810509618",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "LIAR",
+        "artistDisplayName": "GYROAXIA",
+        "id": "argonavis-from-bang-dream-ed-3",
+        "songId": "argonavis-from-bang-dream-ed-3-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://bushiroad.com/media/11496",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/argonavis_from_bang_dream",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://bushiroad.com/media/10724",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://animeanime.jp/article/2020/07/03/54766_3.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462?i=1806586469",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1806586469",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GYROAXIA",
+            "role": "vocals"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "composition"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "argonavis-from-bang-dream-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724"
+            ],
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637",
+              "https://animeanime.jp/article/2020/07/03/54766_3.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10724",
+              "https://www.mau2.com/anime/argonavis",
+              "https://cal.syoboi.jp/tid/5637",
+              "https://animeanime.jp/article/2020/07/03/54766_3.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-3-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10270"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10271"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806586469"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1806586469"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806586462?i=1806586469",
+              "https://music.apple.com/hk/album/1806586462"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1806586462"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "第7、9、11話片尾",
+        "releaseDate": "2020-06-10",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-ed-3-song-commercial-full",
+            "title": "LIAR",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10270",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "LIAR",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10270"
+          },
+          {
+            "id": "brmm-10271",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "LIAR",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10271"
+          },
+          {
+            "id": "apple-hk-1806586462",
+            "title": "SCATTER",
+            "type": "ep",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "LIAR",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "LIAR｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806586469",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806586462",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-ed-3-song-commercial-full"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "id": "argonavis-from-bang-dream-ed-4",
+        "titleJa": "MANIFESTO",
+        "artistDisplayName": "GYROAXIA",
+        "songId": "argonavis-from-bang-dream-manifesto-song",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/8",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5637",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://home.gamer.com.tw/artwork.php?sn=4799852",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ashdahero.com/contents/7416",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269?i=1811501624",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811501624",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=k3eQd6iGGpQ",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "MANIFESTO｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811501624",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811501269",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/8",
+              "https://cal.syoboi.jp/tid/5637",
+              "https://home.gamer.com.tw/artwork.php?sn=4799852"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-manifesto-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/8",
+              "https://cal.syoboi.jp/tid/5637",
+              "https://home.gamer.com.tw/artwork.php?sn=4799852"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ashdahero.com/contents/7416"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-manifesto-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10250"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10251"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811501624"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811501624"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1811501269?i=1811501624",
+              "https://music.apple.com/hk/album/1811501269"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1811501269"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=k3eQd6iGGpQ"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "k3eQd6iGGpQ"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第8話劇中樂隊演出帶入片尾",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "ASH DA HERO",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "composition"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "arrangement"
+          },
+          {
+            "name": "脇眞富（Arte Refact）",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-01-15",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-manifesto-song-commercial-full",
+            "title": "MANIFESTO",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10250",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10250"
+          },
+          {
+            "id": "brmm-10251",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10251"
+          },
+          {
+            "id": "apple-hk-1811501269",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "argonavis-from-bang-dream-in-1",
+        "titleJa": "ゴールライン",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-ed-2-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=731JCAPBGBI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=exoGcMA-nS0",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001585.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1810509618?i=1810509866",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1810509618",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1810509866",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mbs.jp/argonavis/select/",
+            "label": "MBS原播第8話共演場景",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/8",
+            "label": "第8話逐話記錄明列本曲為插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sites.google.com/media-arts.ac.jp/ma05048/%E3%83%96%E3%83%AD%E3%82%B0/%E3%82%A2%E3%83%8B%E3%83%A1%E8%AA%9E%E3%82%8A/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%8A%E3%83%93%E3%82%B9-from-bang-dream",
+            "label": "第8話場景回顧確認在共演舞台演唱本曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ゴールライン｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1810509866",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1810509618",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=731JCAPBGBI",
+              "https://www.youtube.com/watch?v=exoGcMA-nS0",
+              "https://www.mau2.com/anime/argonavis",
+              "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=731JCAPBGBI",
+              "https://www.youtube.com/watch?v=exoGcMA-nS0",
+              "https://www.mau2.com/anime/argonavis",
+              "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10178"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001585.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10179"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1810509866"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1810509866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1810509618?i=1810509866",
+              "https://music.apple.com/hk/album/1810509618"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1810509618"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=731JCAPBGBI"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "731JCAPBGBI"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=exoGcMA-nS0"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "exoGcMA-nS0"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/select/",
+              "https://www.mau2.com/anime/argonavis/ep/8",
+              "https://sites.google.com/media-arts.ac.jp/ma05048/%E3%83%96%E3%83%AD%E3%82%B0/%E3%82%A2%E3%83%8B%E3%83%A1%E8%AA%9E%E3%82%8A/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%8A%E3%83%93%E3%82%B9-from-bang-dream"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "argonavis-from-bang-dream-in-1"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第2、8、11、12話劇中樂隊表演。第8話在兩團共演的舞台上演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "第2、8、11、12話的劇中用途與第3話特別片尾分列。第1、6、7話另有候選使用。",
+            "resumeWhen": "待BRMM-10426第1話、BRMM-10430第6–7話正式正片掛字或音樂段落，核對候選用曲、演唱及商業音源關係，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-ed-2-song-commercial-full",
+            "title": "ゴールライン",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10178",
+            "title": "ゴールライン",
+            "type": "single",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10178"
+          },
+          {
+            "id": "brmm-10179",
+            "title": "ゴールライン",
+            "type": "single",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10179"
+          },
+          {
+            "id": "apple-hk-1810509618",
+            "title": "ゴールライン",
+            "type": "ep",
+            "date": {
+              "value": "2019-02-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ゴールライン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ed-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "releaseDate": "2019-02-20"
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "argonavis-from-bang-dream-in-2",
+        "titleJa": "SCATTER",
+        "artistDisplayName": "GYROAXIA",
+        "songId": "argonavis-from-bang-dream-op-2-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=oPGn9pJxrU4",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mbs.jp/argonavis/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/5",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462?i=1806586464",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1806586464",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "SCATTER｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806586464",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806586462",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oPGn9pJxrU4",
+              "https://www.mbs.jp/argonavis/",
+              "https://www.mau2.com/anime/argonavis/ep/5"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oPGn9pJxrU4",
+              "https://www.mbs.jp/argonavis/",
+              "https://www.mau2.com/anime/argonavis/ep/5"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10270"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10271"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806586464"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1806586464"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806586462?i=1806586464",
+              "https://music.apple.com/hk/album/1806586462"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1806586462"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oPGn9pJxrU4"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "oPGn9pJxrU4"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第5話劇中演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "SHiNNOSUKE",
+            "role": "lyrics"
+          },
+          {
+            "name": "UZ",
+            "role": "composition"
+          },
+          {
+            "name": "UZ",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "第5話片段由企劃方公開。逐話資料另列第12話。",
+            "resumeWhen": "待第12話原播音軌或字幕確認另一段用途。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-op-2-song-commercial-full",
+            "title": "SCATTER",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10270",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10270"
+          },
+          {
+            "id": "brmm-10271",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10271"
+          },
+          {
+            "id": "apple-hk-1806586462",
+            "title": "SCATTER",
+            "type": "ep",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "SCATTER",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-op-2-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "releaseDate": "2020-05-09"
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "argonavis-from-bang-dream-in-3",
+        "titleJa": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
+        "artistDisplayName": "七星 蓮（CV.伊藤昌弘）",
+        "songId": "argonavis-from-bang-dream-star-five-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+              "https://www.mau2.com/anime/argonavis/ep/1",
+              "https://lastbreath.hatenablog.com/entry/2020/06/22/070359"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-star-five-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+              "https://www.mau2.com/anime/argonavis/ep/1",
+              "https://lastbreath.hatenablog.com/entry/2020/06/22/070359"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "OS8xeWEtx6g"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第1話七星蓮的卡拉OK獨唱",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "高橋諒",
+            "role": "composition"
+          },
+          {
+            "name": "高橋諒",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "動畫第一話為七星蓮獨唱；Argonavis 名義發行的團版列於同曲另一用途。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "argonavis-from-bang-dream-in-4",
+        "titleJa": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-star-five-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1807964294?i=1807964296",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/11",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1807964294",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1807964296",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "超夢宙閃隊〈スターファイブ〉より愛を込めて｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1807964296",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1807964294",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-star-five-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+              "https://music.apple.com/hk/album/1807964294?i=1807964296",
+              "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
+              "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
+              "https://www.mau2.com/anime/argonavis/ep/11"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-star-five-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g",
+              "https://music.apple.com/hk/album/1807964294?i=1807964296",
+              "https://forum.gamer.com.tw/C.php?bsn=47099&snA=758",
+              "https://lastbreath.hatenablog.com/entry/2020/06/22/070359",
+              "https://www.mau2.com/anime/argonavis/ep/11"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OS8xeWEtx6g"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1807964294?i=1807964296"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-star-five-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1807964294?i=1807964296"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-star-five-song-commercial-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1807964296"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1807964296"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1807964294?i=1807964296",
+              "https://music.apple.com/hk/album/1807964294"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1807964294"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第11話 Argonavis 五人於 Live 咖啡廳演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "高橋諒",
+            "role": "composition"
+          },
+          {
+            "name": "高橋諒",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "同期中文、日文逐場記錄及逐話曲目支持第11話。原單宣傳曾記第12話，實播剪輯與商業團版關係待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2021-01-05",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-star-five-song-commercial-full",
+            "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1807964294",
+            "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
+            "type": "single",
+            "date": {
+              "value": "2021-01-05",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "超夢宙閃隊〈スターファイブ〉より愛を込めて",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-star-five-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "argonavis-from-bang-dream-in-5",
+        "titleJa": "Steady Goes!",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-steady-goes-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=6VHdQyaGKzU",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/4",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/5",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1807282109?i=1807282112",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1807282109",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1807282112",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Steady Goes!｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1807282112",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1807282109",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6VHdQyaGKzU",
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/4",
+              "https://www.mau2.com/anime/argonavis/ep/5"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-steady-goes-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6VHdQyaGKzU",
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/4",
+              "https://www.mau2.com/anime/argonavis/ep/5"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-steady-goes-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10259"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002768.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10260"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1807282112"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1807282112"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1807282109?i=1807282112",
+              "https://music.apple.com/hk/album/1807282109"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1807282109"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6VHdQyaGKzU"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "6VHdQyaGKzU"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第4–5話劇中演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "廣澤優也（HANO）",
+            "role": "composition"
+          },
+          {
+            "name": "廣澤優也（HANO）",
+            "role": "arrangement"
+          },
+          {
+            "name": "青木宏憲（HANO）",
+            "role": "composition"
+          },
+          {
+            "name": "青木宏憲（HANO）",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-04-29",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-steady-goes-song-commercial-full",
+            "title": "Steady Goes!",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10259",
+            "title": "星がはじまる",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Steady Goes!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10259"
+          },
+          {
+            "id": "brmm-10260",
+            "title": "星がはじまる",
+            "type": "single",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Steady Goes!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10260"
+          },
+          {
+            "id": "apple-hk-1807282109",
+            "title": "星がはじまる",
+            "type": "ep",
+            "date": {
+              "value": "2020-04-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Steady Goes!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-steady-goes-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "id": "argonavis-from-bang-dream-in-6",
+        "titleJa": "流星雨",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-ryuseiu-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=heK0pg3qOzI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/6",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711?i=1800385369",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1800385369",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "流星雨｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1800385369",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1800384711",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=heK0pg3qOzI",
+              "https://bushiroad.com/media/12528",
+              "https://www.mau2.com/anime/argonavis/ep/6"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ryuseiu-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=heK0pg3qOzI",
+              "https://bushiroad.com/media/12528",
+              "https://www.mau2.com/anime/argonavis/ep/6"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=heK0pg3qOzI",
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ryuseiu-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10286"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1800385369"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1800385369"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1800384711?i=1800385369",
+              "https://music.apple.com/hk/album/1800384711"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1800384711"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=heK0pg3qOzI"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "heK0pg3qOzI"
+          }
+        ],
+        "sourceMode": "explicit",
+        "versionLabel": "Acoustic Ver.",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第6話劇中演出 Acoustic Ver.",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "正式專輯收錄 Acoustic Ver.，2019單曲另有普通版。劇中演出與專輯母帶關係待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-ryuseiu-song-commercial-full",
+            "title": "流星雨（Acoustic Ver.）",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10286",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "流星雨（Acoustic Ver.）",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10286"
+          },
+          {
+            "id": "brmm-10287",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "流星雨（Acoustic Ver.）",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10287"
+          },
+          {
+            "id": "apple-hk-1800384711",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "流星雨（Acoustic Ver.）",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-ryuseiu-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "id": "argonavis-from-bang-dream-in-7",
+        "titleJa": "STARTING OVER",
+        "artistDisplayName": "Argonavis feat. 旭 那由多 from GYROAXIA",
+        "songId": "argonavis-from-bang-dream-starting-over-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=XWAEc29C8gQ",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/8",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806300866?i=1806300867",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806300866",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1806300867",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "STARTING OVER｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806300867",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806300866",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=XWAEc29C8gQ",
+              "https://www.mau2.com/anime/argonavis/ep/8"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starting-over-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=XWAEc29C8gQ",
+              "https://www.mau2.com/anime/argonavis/ep/8"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=XWAEc29C8gQ"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806300866?i=1806300867"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starting-over-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806300866?i=1806300867"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806300867"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1806300867"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806300866?i=1806300867",
+              "https://music.apple.com/hk/album/1806300866"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1806300866"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=XWAEc29C8gQ"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "XWAEc29C8gQ"
+          }
+        ],
+        "sourceMode": "explicit",
+        "versionLabel": "feat. 旭 那由多 from GYROAXIA",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第8話和旭 那由多的劇中演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "另有 Argonavis 原唱版發行。此用途及所附配信限旭 那由多參演版，劇中演出與單曲母帶關係待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-06-15",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-starting-over-song-commercial-full",
+            "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1806300866",
+            "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
+            "type": "single",
+            "date": {
+              "value": "2020-06-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "STARTING OVER feat.旭 那由多 from GYROAXIA",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-starting-over-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 8,
+        "id": "argonavis-from-bang-dream-in-8",
+        "titleJa": "Starry Line",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-starry-line-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=ANc_EbOEojg",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/11496",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/9",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711?i=1800384721",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1800384721",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Starry Line｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1800384721",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1800384711",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ANc_EbOEojg",
+              "https://bushiroad.com/media/11496",
+              "https://www.mau2.com/anime/argonavis/ep/9"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starry-line-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ANc_EbOEojg",
+              "https://bushiroad.com/media/11496",
+              "https://www.mau2.com/anime/argonavis/ep/9"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-8"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starry-line-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10286"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1800384721"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1800384721"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1800384711?i=1800384721",
+              "https://music.apple.com/hk/album/1800384711"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1800384711"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ANc_EbOEojg"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "ANc_EbOEojg"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第9話劇中演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "田淵智也",
+            "role": "lyrics"
+          },
+          {
+            "name": "田淵智也",
+            "role": "composition"
+          },
+          {
+            "name": "栁舘周平",
+            "role": "composition"
+          },
+          {
+            "name": "栁舘周平",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-starry-line-song-commercial-full",
+            "title": "Starry Line",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10286",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Starry Line",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10286"
+          },
+          {
+            "id": "brmm-10287",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Starry Line",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10287"
+          },
+          {
+            "id": "apple-hk-1800384711",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Starry Line",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-starry-line-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 9,
+        "id": "argonavis-from-bang-dream-in-9",
+        "titleJa": "AGAIN",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-again-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=xkuMcJJKMZo",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/11496",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/10",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711?i=1800385351",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1800385351",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "AGAIN｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1800385351",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1800384711",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xkuMcJJKMZo",
+              "https://bushiroad.com/media/11496",
+              "https://www.mau2.com/anime/argonavis/ep/10"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-again-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xkuMcJJKMZo",
+              "https://bushiroad.com/media/11496",
+              "https://www.mau2.com/anime/argonavis/ep/10"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-again-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-again-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10286"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1800385351"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1800385351"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1800384711?i=1800385351",
+              "https://music.apple.com/hk/album/1800384711"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1800384711"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xkuMcJJKMZo"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xkuMcJJKMZo"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第10話劇中演出",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "SHiNNOSUKE",
+            "role": "composition"
+          },
+          {
+            "name": "YOUSAY",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-again-song-commercial-full",
+            "title": "AGAIN",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10286",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "AGAIN",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10286"
+          },
+          {
+            "id": "brmm-10287",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "AGAIN",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10287"
+          },
+          {
+            "id": "apple-hk-1800384711",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "AGAIN",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-again-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 10,
+        "id": "argonavis-from-bang-dream-in-10",
+        "titleJa": "VOICE",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-voice-song",
+        "sources": [
+          {
+            "url": "https://bushiroad.com/media/12015",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mbs.jp/argonavis/select/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/13",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269?i=1811501602",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811501602",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad-music.com/musics/brmm-10251/",
+            "label": "唱片公司明列Argonavis五人演唱及單曲第1曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "VOICE｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811501602",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811501269",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12015",
+              "https://www.mbs.jp/argonavis/select/",
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/13",
+              "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
+              "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-voice-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12015",
+              "https://www.mbs.jp/argonavis/select/",
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+              "https://www.mau2.com/anime/argonavis/ep/13",
+              "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
+              "https://forum.gamer.com.tw/Co.php?bsn=60037&sn=1061986"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-10"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-voice-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-voice-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10250"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10251"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811501602"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811501602"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1811501269?i=1811501602",
+              "https://music.apple.com/hk/album/1811501269"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1811501269"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mbs.jp/argonavis/select/",
+              "https://www.animatetimes.com/news/details.php?id=1646720392&p=7",
+              "https://www.mau2.com/anime/argonavis/ep/13"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "argonavis-from-bang-dream-in-10"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第13話開段的音樂節舞台上，Argonavis演唱；7/4原播。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "第13話劇中演唱已核。另有索引把開段舞台列為片頭，用途分類待原版確證。",
+            "resumeWhen": "待BRMM-10434第13話正式正片掛字或權利方逐話曲表，確認開段和獨立片頭的關係，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "releaseDate": "2020-01-15",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-voice-song-commercial-full",
+            "title": "VOICE",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10250",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "VOICE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10250"
+          },
+          {
+            "id": "brmm-10251",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "VOICE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10251"
+          },
+          {
+            "id": "apple-hk-1811501269",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "VOICE",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-voice-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 11,
+        "id": "argonavis-from-bang-dream-in-11",
+        "titleJa": "Pray",
+        "artistDisplayName": "Argonavis",
+        "songId": "argonavis-from-bang-dream-pray-song",
+        "sources": [
+          {
+            "url": "https://bushiroad.com/media/12015",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mbs.jp/argonavis/select/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad.com/media/12528",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/13",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://xaircraft.jp/argo-13",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711?i=1800385597",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1800384711",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1800385597",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Pray｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1800385597",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1800384711",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12015",
+              "https://www.mbs.jp/argonavis/select/",
+              "https://bushiroad.com/media/12528",
+              "https://www.mau2.com/anime/argonavis/ep/13",
+              "https://xaircraft.jp/argo-13"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-pray-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12015",
+              "https://www.mbs.jp/argonavis/select/",
+              "https://bushiroad.com/media/12528",
+              "https://www.mau2.com/anime/argonavis/ep/13",
+              "https://xaircraft.jp/argo-13"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-11"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-pray-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-pray-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10286"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/12528"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1800385597"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1800385597"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1800384711?i=1800385597",
+              "https://music.apple.com/hk/album/1800384711"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1800384711"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第13話為萬浬演唱的劇中歌；7/4原播",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "Shinji（シド）",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺拓也",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-pray-song-commercial-full",
+            "title": "Pray",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10286",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Pray",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10286"
+          },
+          {
+            "id": "brmm-10287",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Pray",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10287"
+          },
+          {
+            "id": "apple-hk-1800384711",
+            "title": "Starry Line",
+            "type": "album",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Pray",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-pray-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 12,
+        "id": "argonavis-from-bang-dream-in-12",
+        "titleJa": "REVOLUTION",
+        "artistDisplayName": "GYROAXIA",
+        "songId": "argonavis-from-bang-dream-revolution-song",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462?i=1806586465",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806586462",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1806586465",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "REVOLUTION｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806586465",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806586462",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+              "https://www.mau2.com/anime/argonavis",
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-revolution-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html",
+              "https://www.mau2.com/anime/argonavis",
+              "https://zh.wikipedia.org/wiki/From_ARGONAVIS"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-in-12"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-revolution-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-revolution-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10270"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000003017.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10271"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806586465"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1806586465"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1806586462?i=1806586465",
+              "https://music.apple.com/hk/album/1806586462"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1806586462"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第1、6話劇中用曲",
+        "lastVerifiedAt": "2026-11-15",
+        "credits": [
+          {
+            "name": "ASH DA HERO",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "composition"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "arrangement"
+          },
+          {
+            "name": "山本恭平（Arte Refact）",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "發行音源與動畫中的演出或剪輯分列，原播母帶對應待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "releaseDate": "2020-06-10",
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-revolution-song-commercial-full",
+            "title": "REVOLUTION",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10270",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "REVOLUTION",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10270"
+          },
+          {
+            "id": "brmm-10271",
+            "title": "SCATTER",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "REVOLUTION",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10271"
+          },
+          {
+            "id": "apple-hk-1806586462",
+            "title": "SCATTER",
+            "type": "ep",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "REVOLUTION",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-revolution-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 13,
+        "id": "argonavis-from-bang-dream-in-13",
+        "titleJa": "MANIFESTO",
+        "artistDisplayName": "GYROAXIA",
+        "songId": "argonavis-from-bang-dream-manifesto-song",
+        "sources": [
+          {
+            "url": "https://bushiroad-music.com/musics/brmm-10251/",
+            "label": "Bushiroad Music原單曲第2曲及GYROAXIA演唱名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime.argo-bdp.com/story/",
+            "label": "動畫官網第7話故事和配對樂隊",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://argo-bdp.com/music/post-8929/",
+            "label": "企劃官方曲表列詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/argonavis/ep/7",
+            "label": "第7話逐話表將本曲列為劇中歌",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sites.google.com/media-arts.ac.jp/ma05048/%E3%83%96%E3%83%AD%E3%82%B0/%E3%82%A2%E3%83%8B%E3%83%A1%E8%AA%9E%E3%82%8A/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%8A%E3%83%93%E3%82%B9-from-bang-dream",
+            "label": "第7話場景回顧明列GYROAXIA在片頭後的舞台演出",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.mynavi.jp/article/Sunaga_Anison-11/",
+            "label": "動畫同期音樂專文確認本曲為原TV插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002532.000014827.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269?i=1811501624",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1811501269",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1811501624",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://bushiroad-music.com/677/",
+            "label": "Bushiroad Music原數位單曲發行公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "MANIFESTO｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1811501624",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1811501269",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10251/",
+              "https://www.mau2.com/anime/argonavis/ep/7",
+              "https://news.mynavi.jp/article/Sunaga_Anison-11/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "argonavis-from-bang-dream-manifesto-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.argo-bdp.com/story/",
+              "https://bushiroad-music.com/musics/brmm-10251/",
+              "https://www.mau2.com/anime/argonavis/ep/7",
+              "https://sites.google.com/media-arts.ac.jp/ma05048/%E3%83%96%E3%83%AD%E3%82%B0/%E3%82%A2%E3%83%8B%E3%83%A1%E8%AA%9E%E3%82%8A/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%8A%E3%83%93%E3%82%B9-from-bang-dream",
+              "https://news.mynavi.jp/article/Sunaga_Anison-11/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "argonavis-from-bang-dream-in-13"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-8929/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10250"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002532.000014827.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "brmm-10251"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1811501624"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1811501624"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1811501269?i=1811501624",
+              "https://music.apple.com/hk/album/1811501269",
+              "https://bushiroad-music.com/677/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1811501269"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10251/",
+              "https://bushiroad-music.com/677/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "argonavis-from-bang-dream-manifesto-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "第7話片頭後，劇中GYROAXIA舞台演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ASH DA HERO",
+            "role": "lyrics"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "composition"
+          },
+          {
+            "name": "ASH DA HERO",
+            "role": "arrangement"
+          },
+          {
+            "name": "脇眞富（Arte Refact）",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "argonavis-from-bang-dream-manifesto-song-commercial-full",
+            "title": "MANIFESTO",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10250",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "Blu-ray付生産限定盤 CD+BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10250"
+          },
+          {
+            "id": "brmm-10251",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10251"
+          },
+          {
+            "id": "apple-hk-1811501269",
+            "title": "VOICE/MANIFESTO",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis／GYROAXIA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "MANIFESTO",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "argonavis-from-bang-dream-manifesto-song-commercial-full"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "releaseDate": "2020-01-15",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "第7話劇中歌與第8話特別片尾共用曲目。實體和數位商業音源另列，第10話仍為候選。",
+            "resumeWhen": "待BRMM-10432第10話正式正片掛字或演出段落，核對第7、10話音源與商業發行關係，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://zh.wikipedia.org/wiki/From_ARGONAVIS",
+        "label": "原期TV播出日期交叉資料；僅日期時分",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-10-24"
+      },
+      {
+        "url": "https://www.mbs.jp/argonavis/",
+        "label": "MBS原播作品及片頭署名",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://bushiroad.com/news/2020/3205",
+        "label": "製作委員會首播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://bushiroad.com/media/12015",
+        "label": "7/3深夜25:25播第13話及終回前特番",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5637",
+        "label": "原播逐話時間及主題曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.mau2.com/anime/argonavis",
+        "label": "逐話片頭、片尾與劇中用曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://anime.argo-bdp.com/on-air/",
+        "label": "動畫官網MBS／TBS系原播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime.argo-bdp.com/news/news-335/",
+        "label": "動畫官網第12話延後至6/26節目日25:40",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://argo-bdp.com/music/post-17983/",
+        "label": "2021-07-14限定盤BRMM-10426所附原TV動畫第1–2話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://argo-bdp.com/music/post-17997/",
+        "label": "2021-07-14限定盤BRMM-10428所附原TV動畫第3–4話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://argo-bdp.com/music/post-18017/",
+        "label": "2021-07-14限定盤BRMM-10430所附原TV動畫第5–7話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://argo-bdp.com/music/post-18037/",
+        "label": "2021-07-14限定盤BRMM-10432所附原TV動畫第8–10話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://argo-bdp.com/music/post-18051/",
+        "label": "2021-07-14限定盤BRMM-10434所附原TV動畫第11–13話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5637/time",
+        "label": "MBS／TBS原播逐話時段，包括第12話調整及7月第13話",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "seasonIds": [
+      "2020-spring",
+      "2020-summer"
+    ],
+    "broadcastTimeJst": "01:25"
+  }),
   spring2020Seed({
   "anilistId": 114043,
   "slug": "shokugeki-no-souma-gou-no-sara",
@@ -106051,1504 +108467,3001 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
     ],
   }),
   spring2020Seed({
-    anilistId: 106154,
-    slug: "koukaku-kidoutai-sac-2045",
-    startDate: "2020-04-23",
-    titleJa: "攻殻機動隊 SAC_2045",
-    titleZhHant: "攻殼機動隊：SAC_2045",
-    titleRomaji: "Koukaku Kidoutai: SAC_2045",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106154-14XxxKUUwh13.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106154-JDhZHkfHVsMK.jpg",
-    broadcastLabel: "全球網絡首播",
-    officialSiteUrl: "https://www.ghostintheshell-sac2045.jp/",
-    sourceReferenceUrls: [
+    "anilistId": 106154,
+    "slug": "koukaku-kidoutai-sac-2045",
+    "startDate": "2020-04-23",
+    "titleJa": "攻殻機動隊 SAC_2045",
+    "titleZhHant": "攻殼機動隊：SAC_2045",
+    "titleRomaji": "Koukaku Kidoutai: SAC_2045",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx106154-14XxxKUUwh13.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/106154-JDhZHkfHVsMK.jpg",
+    "broadcastLabel": "Netflix 第一季於2020/4/23一次上架全12話。日本WOWOW Prime於2026/3/28 23:45 JST首次電視連播全季，第12話3/29 05:15播出；7/29 01:15起重播全季。劇場長片《永續戰爭》另於2021/11/12日本上映，2022/5/9起在Netflix配信。",
+    "officialSiteUrl": "https://www.ghostintheshell-sac2045.jp/",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/57",
-      "https://acgsecrets.hk/bangumi/202004/",
+      "https://acgsecrets.hk/bangumi/202004/"
     ],
-    animeThemesUrl: "https://animethemes.moe/anime/ghost_in_the_shell_sac_2045",
-    themes: [
+    "animeThemesUrl": "https://animethemes.moe/anime/ghost_in_the_shell_sac_2045",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Fly with me",
-        artistDisplayName: "millennium parade × ghost in the shell: SAC_2045",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Fly with me",
+        "artistDisplayName": "millennium parade × ghost in the shell: SAC_2045",
+        "id": "koukaku-kidoutai-sac-2045-op-1",
+        "sourceMode": "explicit",
+        "songId": "koukaku-kidoutai-sac-2045-op-1-song",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Fly with Me｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1741280549",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1741280548",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Fly with Me - Steve Aoki Neon Future Remix｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1741280550",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1741280548",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-steve-aoki-neon-future-remix"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.skyperfectv.co.jp/program/detail/?uid=c31753823",
+            "label": "WOWOW Prime夏季第6話EPG的片頭及片尾署名存檔",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ghostintheshell-sac2045.jp/music/season1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ghostintheshell-sac2045.jp/news/341.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://theghostintheshell.jp/products/sac_2045-wowwow",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202603.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202607.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.skyperfectv.co.jp/program/search/?q=%E8%BF%91%E6%9C%AA%E6%9D%A5",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000147054/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/News/A026679/2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026679/VTZL-174.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/millenniumparade/discography/buy/BVJL-35",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1741280548",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1741280549",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1741280550",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fuXZMQAD9vU",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.production-ig.co.jp/works/ghost-in-the-shell-sac-2045-movie/",
+            "label": "Production I.G劇場版主題歌及專屬Dolby Atmos混音",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/",
+              "https://www.ghostintheshell-sac2045.jp/news/341.html",
+              "https://theghostintheshell.jp/products/sac_2045-wowwow",
+              "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202603.pdf",
+              "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202607.pdf",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+              "https://www.skyperfectv.co.jp/program/detail/?uid=c31753823",
+              "https://www.skyperfectv.co.jp/program/search/?q=%E8%BF%91%E6%9C%AA%E6%9D%A5",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/",
+              "https://www.jvcmusic.co.jp/flyingdog/-/News/A026679/2.html",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/News/A026679/2.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song-opening-ver"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026679/VTZL-174.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song-steve-aoki-neon-future-remix"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/millenniumparade/discography/buy/BVJL-35"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song-millennium-parade-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026679/VTZL-174.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vtzl-174"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vtjl-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/millenniumparade/discography/buy/BVJL-35"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvjl-35"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1741280549"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1741280549"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1741280550"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1741280550"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/",
+              "https://music.apple.com/hk/album/1741280548"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1741280548"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fuXZMQAD9vU",
+              "https://www.ghostintheshell-sac2045.jp/music/season1/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fuXZMQAD9vU"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring",
+          "2026-winter",
+          "2026-summer"
+        ],
+        "usageLabel": "Netflix第一季第1–12話片頭（2020/4/23同日上架）。2026年日本WOWOW Prime全季電視首播及夏季連播，節目資料列同一組片頭、片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "millennium parade × ghost in the shell: SAC_2045",
+            "role": "vocals"
+          },
+          {
+            "name": "ermhoi",
+            "role": "lyrics"
+          },
+          {
+            "name": "Daiki Tsuneta",
+            "role": "composition"
+          },
+          {
+            "name": "Daiki Tsuneta",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full",
+            "title": "Fly with me",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "name": "ermhoi",
+                "role": "vocals"
+              },
+              {
+                "name": "HIMI",
+                "role": "vocals"
+              },
+              {
+                "name": "Cota Mori",
+                "role": "vocals"
+              },
+              {
+                "name": "Kento Nagatsuka(WONK)",
+                "role": "vocals"
+              },
+              {
+                "name": "Shu Sasaki",
+                "role": "other"
+              }
+            ]
+          },
+          {
+            "id": "koukaku-kidoutai-sac-2045-op-1-song-opening-ver",
+            "title": "Fly with me（opening ver.）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "koukaku-kidoutai-sac-2045-op-1-song-steve-aoki-neon-future-remix",
+            "title": "Fly with me - Steve Aoki Neon Future Remix",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "koukaku-kidoutai-sac-2045-op-1-song-millennium-parade-live",
+            "title": "Fly with me - Live",
+            "kind": "live",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtzl-174",
+            "title": "Fly with me",
+            "type": "single",
+            "date": {
+              "value": "2020-05-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "millennium parade × ghost in the shell: SAC_2045",
+            "edition": "日本CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Fly with me",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+              },
+              {
+                "title": "Fly with me - Steve Aoki Neon Future Remix",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-steve-aoki-neon-future-remix"
+              }
+            ],
+            "label": "FlyingDog",
+            "catalogNumber": "VTZL-174"
+          },
+          {
+            "id": "vtjl-4",
+            "title": "THEME SONGS + O.S.T.",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "攻殻機動隊 SAC_2045",
+            "edition": "日本限定黑膠 A面",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Fly with me",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+              },
+              {
+                "title": "Fly with me（opening ver.）",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-opening-ver"
+              }
+            ],
+            "label": "FlyingDog",
+            "catalogNumber": "VTJL-4"
+          },
+          {
+            "id": "bvjl-35",
+            "title": "Fly with me",
+            "type": "single",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "millennium parade",
+            "edition": "Sony日本限定黑膠",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Fly with me",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+              },
+              {
+                "title": "Fly with me - Live",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-millennium-parade-live"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "BVJL-35"
+          },
+          {
+            "id": "apple-hk-1741280548",
+            "title": "Fly with Me",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "millennium parade × ghost in the shell: SAC_2045",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Fly with Me",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-flyingdog-studio-full"
+              },
+              {
+                "title": "Fly with Me - Steve Aoki Neon Future Remix",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-op-1-song-steve-aoki-neon-future-remix"
+              }
+            ],
+            "label": "FlyingDog"
+          }
+        ],
+        "releaseDate": "2020-04-22",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "劇場版《永續戰爭》另用完整Dolby Atmos混音為主題歌。WOWOW逐集剪輯、合輯母帶及香港Sony現場版仍待比對。",
+            "resumeWhen": "待第一方影片或錄音說明可直接對照WOWOW片頭及原版，或確定Sony不同版在香港的正式曲目。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "sustain++;",
-        artistDisplayName: "Mili",
-      },
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "sustain++;",
+        "artistDisplayName": "Mili",
+        "id": "koukaku-kidoutai-sac-2045-ed-1",
+        "sourceMode": "explicit",
+        "songId": "koukaku-kidoutai-sac-2045-ed-1-song",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Sustain++;(Ending Ver.)~[Ghost In The Shell: Sac_2045] Ending Theme｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1506548757",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1506548756",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Sustain++;｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1515096588",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1515096587",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.skyperfectv.co.jp/program/detail/?uid=c31753823",
+            "label": "WOWOW Prime夏季第6話EPG的片頭及片尾署名存檔",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ghostintheshell-sac2045.jp/music/season1/ending.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ghostintheshell-sac2045.jp/news/341.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://theghostintheshell.jp/products/sac_2045-wowwow",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202603.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202607.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.skyperfectv.co.jp/program/search/?q=%E8%BF%91%E6%9C%AA%E6%9D%A5",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000147054/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026694/VTCL-35322.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://jvcmusic.lnk.to/mili_sustainending",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1506548756",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1506548757",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1515096587",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1515096588",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ghostintheshell-sac2045.jp/news/104.html",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Wu4fVGsEn8s",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JHY0PYZXvfU",
+            "label": "Mili官方歌曲影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/ending.html",
+              "https://www.ghostintheshell-sac2045.jp/news/341.html",
+              "https://theghostintheshell.jp/products/sac_2045-wowwow",
+              "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202603.pdf",
+              "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202607.pdf",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+              "https://www.skyperfectv.co.jp/program/detail/?uid=c31753823",
+              "https://www.skyperfectv.co.jp/program/search/?q=%E8%BF%91%E6%9C%AA%E6%9D%A5",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/ending.html",
+              "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25461012&workId=25461",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode1/",
+              "https://www.tvguide.or.jp/db/anime/ghostintheshell/sac2045_1/episode12/",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/ending.html",
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026694/VTCL-35322.html",
+              "https://www.lisani.jp/0000147054/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026694/VTCL-35322.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026694/VTCL-35322.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026694/VTCL-35322.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vtcl-35322"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vtjl-4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1506548757"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1506548757"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://jvcmusic.lnk.to/mili_sustainending",
+              "https://music.apple.com/hk/album/1506548756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1506548756"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1515096588"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1515096588"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ghostintheshell-sac2045.jp/music/season1/ending.html",
+              "https://music.apple.com/hk/album/1515096587"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1515096587"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://jvcmusic.lnk.to/mili_sustainending"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://jvcmusic.lnk.to/mili_sustainending",
+              "https://www.lisani.jp/0000147054/",
+              "https://music.apple.com/hk/song/1506548757"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Wu4fVGsEn8s",
+              "https://www.ghostintheshell-sac2045.jp/news/104.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "Wu4fVGsEn8s"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTJL-4.html",
+              "https://www.ghostintheshell-sac2045.jp/news/104.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+          }
+        ],
+        "seasonIds": [
+          "2020-spring",
+          "2026-winter",
+          "2026-summer"
+        ],
+        "usageLabel": "Netflix第一季第1–12話片尾（2020/4/23同日上架）。2026年日本WOWOW Prime全季電視首播及夏季連播，節目資料列同一組片頭、片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Mili",
+            "role": "vocals"
+          },
+          {
+            "name": "Cassie Wei",
+            "role": "lyrics"
+          },
+          {
+            "name": "Yamato Kasai",
+            "role": "composition"
+          },
+          {
+            "name": "Cassie Wei",
+            "role": "composition"
+          },
+          {
+            "name": "Yamato Kasai",
+            "role": "arrangement"
+          },
+          {
+            "name": "Yukihito Mitomo",
+            "role": "arrangement"
+          },
+          {
+            "name": "Shoto Yoshida",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full",
+            "title": "sustain++;",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver",
+            "title": "sustain++;（ending ver.）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-instrumental",
+            "title": "sustain++;（instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35322",
+            "title": "Intrauterine Education",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "Mili",
+            "edition": "日本概念單曲CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "sustain++;",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full"
+              },
+              {
+                "title": "sustain++;（instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-instrumental"
+              }
+            ],
+            "label": "FlyingDog",
+            "catalogNumber": "VTCL-35322"
+          },
+          {
+            "id": "vtjl-4",
+            "title": "THEME SONGS + O.S.T.",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "攻殻機動隊 SAC_2045",
+            "edition": "日本限定黑膠 A面",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "sustain++;",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full"
+              },
+              {
+                "title": "sustain++;（ending ver.）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+              }
+            ],
+            "label": "FlyingDog",
+            "catalogNumber": "VTJL-4"
+          },
+          {
+            "id": "apple-hk-1506548756",
+            "title": "Sustain++;(Ending Ver.)~[Ghost In The Shell: Sac_2045] Ending Theme",
+            "type": "single",
+            "date": {
+              "value": "2020-04-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "Mili",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Sustain++;(Ending Ver.)~[Ghost In The Shell: Sac_2045] Ending Theme",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-ending-ver"
+              }
+            ],
+            "label": "FlyingDog"
+          },
+          {
+            "id": "apple-hk-1515096587",
+            "title": "Intrauterine Education",
+            "type": "single",
+            "date": {
+              "value": "2020-06-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "Mili",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Sustain++;",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "koukaku-kidoutai-sac-2045-ed-1-song-intrauterine-education-full"
+              }
+            ],
+            "label": "FlyingDog"
+          }
+        ],
+        "releaseDate": "2020-04-22",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "完整音源與ending ver.均有官方商品。WOWOW各話實播剪輯及劇場版是否曾用本曲待核。",
+            "resumeWhen": "待WOWOW、劇場版正片或權利方逐話掛字核對片尾的實際剪輯及位置。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
+    "seasonIds": [
+      "2020-spring",
+      "2026-winter",
+      "2026-summer"
+    ],
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://www.ghostintheshell-sac2045.jp/news/341.html",
+        "label": "動畫公式第一季Netflix上架及全12話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.ghostintheshell-sac2045.jp/streaming/",
+        "label": "動畫官方原正篇租看範圍與獨立劇場版入口",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://theghostintheshell.jp/products/sac_2045-wowwow",
+        "label": "動畫權利方WOWOW首輪電視放送",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.wowow.co.jp/detail/206510",
+        "label": "WOWOW第一季正式節目頁",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202603.pdf",
+        "label": "WOWOW Prime三月首播與第1至12話分話節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.wowow.co.jp/dpm/pdf/wowow_magazine202607.pdf",
+        "label": "WOWOW Prime七月全季分話重播表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://tv.apple.com/jp/episode/no-noise-no-life--%E6%8C%81%E7%B6%9A%E5%8F%AF%E8%83%BD%E6%88%A6%E4%BA%89/umc.cmc.4xxmhvaljfgtxkmibbocqfp3v",
+        "label": "Apple TV日本同作第一話公開日期及24分鐘片長",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.production-ig.co.jp/works/ghost-in-the-shell-sac-2045-movie/",
+        "label": "Production I.G劇場版再剪輯與獨有主題歌混音",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.ghostintheshell-sac2045.jp/news/1961.html",
+        "label": "動畫官網劇場版Netflix正式上架日",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.skyperfectv.co.jp/program/search/?q=%E8%BF%91%E6%9C%AA%E6%9D%A5",
+        "label": "平台EPG交叉WOWOW Prime夏季第1至12話",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.netflix.com/hk/title/81030224",
+        "label": "Netflix香港繁中正式影集條目",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.netflix.com/hk/title/81513128",
+        "label": "Netflix香港繁中獨立劇場版條目",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   }),
   spring2020Seed({
-  "anilistId": 124341,
-  "slug": "arad-gyakuten-no-wa",
-  "startDate": "2020-07-04",
-  "titleJa": "アラド：逆転の輪",
-  "titleZhHant": "阿拉德：逆轉之輪",
-  "titleRomaji": "Arad: Gyakuten no Wa",
-  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124341-HFlKVdhZ9lDS.png",
-  "broadcastLabel": "日本テレビ東京週五25:53（翌日01:53 JST），7/4首播第0話序章，7/11起播第1–12話，最終話9/26改於02:03。日本あにてれ10/9上架；騰訊視頻4/23先行上架兩種配音序篇。",
-  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
-  "sourceReferenceUrls": [
-    "https://acgsecrets.hk/bangumi/202004/"
-  ],
-  "themes": [
-    {
-      "type": "OP",
-      "sequence": 1,
-      "titleJa": "ORATIO",
-      "artistDisplayName": "新田恵海",
-      "id": "arad-gyakuten-no-wa-op-1",
-      "songId": "arad-gyakuten-no-wa-op-1-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-summer"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "公開歌曲資料：用途與演唱者交叉核對",
-          "url": "https://myanimelist.net/anime/38416",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://anime.eiga.com/program/108739/",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://straycats.co.jp/release/xnst-30003/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://thetv.jp/program/0000984650/plot/",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://straycats.co.jp/release/xnst-10021/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=FkRD-GTr2Vo",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1502683489",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1502683496",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1541274615",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1541274616",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "新田恵海",
-          "role": "vocals"
-        },
-        {
-          "name": "真崎エリカ",
-          "role": "lyrics"
-        },
-        {
-          "name": "本多友紀（Arte Refact）",
-          "role": "composition"
-        },
-        {
-          "name": "本多友紀（Arte Refact）",
-          "role": "arrangement"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-op-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-op-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://anime.eiga.com/program/108739/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-op-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://anime.eiga.com/program/108739/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-op-1"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
-            "https://straycats.co.jp/release/xnst-30003/",
-            "https://thetv.jp/program/0000984650/plot/",
-            "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-            "https://straycats.co.jp/release/xnst-10021/",
-            "https://www.youtube.com/watch?v=FkRD-GTr2Vo",
-            "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
-            "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1-song"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10021/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10021/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10021/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10021/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xnst-10021"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1502683496"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1502683496"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10021/",
-            "https://music.apple.com/hk/album/1502683489"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1502683489"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xnst-30003-4"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1541274616"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1541274616"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/",
-            "https://music.apple.com/hk/album/1541274615"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1541274615"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=FkRD-GTr2Vo"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "FkRD-GTr2Vo"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "日本電視版常規用途、正式TV size、原盤完整版與無字幕片段分列。播方部分單話節目頁沿用全季主題曲欄。",
-          "resumeWhen": "待可核日本原播第0、1及12話的實際畫面或逐話音樂署名，確認是否有省略或改剪。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "日本電視版常規片頭（2020夏）",
-      "releaseDate": "2020-03-25",
-      "recordings": [
-        {
-          "id": "arad-gyakuten-no-wa-op-1-song-original-single-full",
-          "title": "ORATIO",
-          "kind": "vocal",
-          "format": "full"
-        },
-        {
-          "id": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal",
-          "title": "ORATIO（Off Vocal）",
-          "kind": "instrumental",
-          "format": "unknown"
-        },
-        {
-          "id": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size",
-          "title": "ORATIO（TV size）",
-          "kind": "vocal",
-          "format": "tv"
-        }
-      ],
-      "releases": [
-        {
-          "id": "xnst-10021",
-          "title": "Sing Ring",
-          "type": "single",
-          "date": {
-            "value": "2020-03-25",
-            "precision": "day"
+    "anilistId": 124341,
+    "slug": "arad-gyakuten-no-wa",
+    "startDate": "2020-07-04",
+    "titleJa": "アラド：逆転の輪",
+    "titleZhHant": "阿拉德：逆轉之輪",
+    "titleRomaji": "Arad: Gyakuten no Wa",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx124341-HFlKVdhZ9lDS.png",
+    "broadcastLabel": "日本テレビ東京週五25:53（翌日01:53 JST），7/4首播第0話序章，7/11起播第1–12話，最終話9/26改於02:03。日本あにてれ10/9上架；騰訊視頻4/23先行上架兩種配音序篇。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+    "sourceReferenceUrls": [
+      "https://acgsecrets.hk/bangumi/202004/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ORATIO",
+        "artistDisplayName": "新田恵海",
+        "id": "arad-gyakuten-no-wa-op-1",
+        "songId": "arad-gyakuten-no-wa-op-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "新田恵海",
-          "edition": "CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ORATIO",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
+          {
+            "label": "公開歌曲資料：用途與演唱者交叉核對",
+            "url": "https://myanimelist.net/anime/38416",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://anime.eiga.com/program/108739/",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://straycats.co.jp/release/xnst-30003/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://thetv.jp/program/0000984650/plot/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://straycats.co.jp/release/xnst-10021/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FkRD-GTr2Vo",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1502683489",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1502683496",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1541274615",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1541274616",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "新田恵海",
+            "role": "vocals"
+          },
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "本多友紀（Arte Refact）",
+            "role": "composition"
+          },
+          {
+            "name": "本多友紀（Arte Refact）",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.eiga.com/program/108739/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.eiga.com/program/108739/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
+              "https://straycats.co.jp/release/xnst-30003/",
+              "https://thetv.jp/program/0000984650/plot/",
+              "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+              "https://straycats.co.jp/release/xnst-10021/",
+              "https://www.youtube.com/watch?v=FkRD-GTr2Vo",
+              "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
+              "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10021/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10021/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10021/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10021/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xnst-10021"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1502683496"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1502683496"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10021/",
+              "https://music.apple.com/hk/album/1502683489"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1502683489"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xnst-30003-4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1541274616"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1541274616"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/",
+              "https://music.apple.com/hk/album/1541274615"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1541274615"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FkRD-GTr2Vo"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "FkRD-GTr2Vo"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "日本電視版常規用途、正式TV size、原盤完整版與無字幕片段分列。播方部分單話節目頁沿用全季主題曲欄。",
+            "resumeWhen": "待可核日本原播第0、1及12話的實際畫面或逐話音樂署名，確認是否有省略或改剪。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "日本電視版常規片頭（2020夏）",
+        "releaseDate": "2020-03-25",
+        "recordings": [
+          {
+            "id": "arad-gyakuten-no-wa-op-1-song-original-single-full",
+            "title": "ORATIO",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal",
+            "title": "ORATIO（Off Vocal）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size",
+            "title": "ORATIO（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "xnst-10021",
+            "title": "Sing Ring",
+            "type": "single",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
             },
-            {
-              "title": "ORATIO（Off Vocal）",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal"
-            }
-          ],
-          "label": "Stray Cats",
-          "catalogNumber": "xnst-10021"
-        },
-        {
-          "id": "apple-hk-1502683489",
-          "title": "Sing Ring",
-          "type": "ep",
-          "date": {
-            "value": "2020-03-25",
-            "precision": "day"
+            "artistDisplayName": "新田恵海",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ORATIO",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
+              },
+              {
+                "title": "ORATIO（Off Vocal）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-off-vocal"
+              }
+            ],
+            "label": "Stray Cats",
+            "catalogNumber": "xnst-10021"
           },
-          "artistDisplayName": "新田恵海",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ORATIO",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
-            }
-          ],
-          "label": "Stray Cats"
-        },
-        {
-          "id": "xnst-30003-4",
-          "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
-          "type": "soundtrack",
-          "date": {
-            "value": "2020-11-18",
-            "precision": "day"
-          },
-          "artistDisplayName": "新田恵海",
-          "edition": "2CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "ORATIO（TV size）",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
-            }
-          ],
-          "label": "Stray Cats",
-          "catalogNumber": "XNST-30003-4"
-        },
-        {
-          "id": "apple-hk-1541274615",
-          "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
-          "type": "soundtrack",
-          "date": {
-            "value": "2020-11-18",
-            "precision": "day"
-          },
-          "artistDisplayName": "新田恵海",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "ORATIO（TV size）",
-              "position": 1,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
-            }
-          ],
-          "label": "Stray Cats"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "ORATIO｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1502683496",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1502683489",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "ORATIO（TV size）｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1541274616",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1541274615",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 1,
-      "titleJa": "朝焼けアプローチ",
-      "artistDisplayName": "Prima Porta",
-      "id": "arad-gyakuten-no-wa-ed-1",
-      "songId": "arad-gyakuten-no-wa-ed-1-song",
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-summer"
-      ],
-      "sources": [
-        {
-          "label": "動畫官方網站",
-          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
-          "language": "ja",
-          "role": "first_party",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "label": "公開歌曲資料：用途與演唱者交叉核對",
-          "url": "https://myanimelist.net/anime/38416",
-          "language": "ja",
-          "role": "cross_check",
-          "verifiedAt": "2026-09-02"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://anime.eiga.com/program/108739/",
-          "label": "本曲逐欄交叉資料；未明欄位不作證",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://straycats.co.jp/release/xnst-30003/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://thetv.jp/program/0000984650/plot/",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://straycats.co.jp/release/xnst-10022/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=Y_sZrVkPz0c",
-          "label": "權利方官方影片及簡介",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://straycats.co.jp/release/xnst-10023/",
-          "label": "權利方實體發行日期、曲序及版別",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1491447775",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1491447971",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1491448049?i=1491448126",
-          "label": "權利方配信日期及版本說明",
-          "role": "first_party",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1491448049",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1491448126",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/album/1541274615",
-          "label": "Apple Music HK 區發行與曲序",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://music.apple.com/hk/song/1541274848",
-          "label": "Apple Music HK 區曲目",
-          "role": "cross_check",
-          "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "credits": [
-        {
-          "name": "Prima Porta",
-          "role": "vocals"
-        },
-        {
-          "name": "真崎エリカ",
-          "role": "lyrics"
-        },
-        {
-          "name": "川崎里実",
-          "role": "composition"
-        },
-        {
-          "name": "増田武史",
-          "role": "arrangement"
-        },
-        {
-          "name": "大西亜玖璃",
-          "role": "vocals"
-        },
-        {
-          "name": "相良茉優",
-          "role": "vocals"
-        },
-        {
-          "name": "内田秀",
-          "role": "vocals"
-        },
-        {
-          "name": "高柳知葉",
-          "role": "vocals"
-        },
-        {
-          "name": "首藤志奈",
-          "role": "vocals"
-        }
-      ],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-ed-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://anime.eiga.com/program/108739/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://anime.eiga.com/program/108739/"
-          ],
-          "verifiedAt": "2026-10-24",
-          "targetId": "arad-gyakuten-no-wa-ed-1"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
-          ],
-          "verifiedAt": "2026-10-24"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
-            "https://straycats.co.jp/release/xnst-30003/",
-            "https://thetv.jp/program/0000984650/plot/",
-            "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
-            "https://straycats.co.jp/release/xnst-10022/",
-            "https://www.youtube.com/watch?v=Y_sZrVkPz0c",
-            "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
-            "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10022/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10022/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10022/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
-        },
-        {
-          "target": "recording",
-          "fields": [
-            "title",
-            "kind",
-            "format"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10022/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xnst-10022"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10023/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xnst-10023"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1491447971"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1491447971"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-10022/",
-            "https://music.apple.com/hk/album/1491447775"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1491447775"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1491448126"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1491448126"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/album/1491448049?i=1491448126",
-            "https://music.apple.com/hk/album/1491448049"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1491448049"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition",
-            "catalog_number"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "xnst-30003-4"
-        },
-        {
-          "target": "link",
-          "fields": [
-            "url"
-          ],
-          "sourceUrls": [
-            "https://music.apple.com/hk/song/1541274848"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "https://music.apple.com/hk/song/1541274848"
-        },
-        {
-          "target": "release",
-          "fields": [
-            "title",
-            "date",
-            "tracklist",
-            "edition"
-          ],
-          "sourceUrls": [
-            "https://straycats.co.jp/release/xnst-30003/",
-            "https://music.apple.com/hk/album/1541274615"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "apple-hk-1541274615"
-        },
-        {
-          "target": "video",
-          "fields": [
-            "type"
-          ],
-          "sourceUrls": [
-            "https://www.youtube.com/watch?v=Y_sZrVkPz0c"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "Y_sZrVkPz0c"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "日本電視版常規用途、正式TV size、原盤完整版與無字幕片段分列。播方部分單話節目頁沿用全季主題曲欄。",
-          "resumeWhen": "待可核日本原播第0、1及12話的實際畫面或逐話音樂署名，確認是否有省略或改剪。",
-          "checkedAt": "2026-11-15"
-        }
-      ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "日本電視版常規片尾（2020夏）",
-      "releaseDate": "2019-12-25",
-      "recordings": [
-        {
-          "id": "arad-gyakuten-no-wa-ed-1-song-original-single-full",
-          "title": "朝焼けアプローチ",
-          "kind": "vocal",
-          "format": "full"
-        },
-        {
-          "id": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal",
-          "title": "朝焼けアプローチ（Off Vocal）",
-          "kind": "instrumental",
-          "format": "unknown"
-        },
-        {
-          "id": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size",
-          "title": "朝焼けアプローチ（TV size）",
-          "kind": "vocal",
-          "format": "tv"
-        }
-      ],
-      "releases": [
-        {
-          "id": "xnst-10022",
-          "title": "CALL&GOAL!",
-          "type": "single",
-          "date": {
-            "value": "2019-12-25",
-            "precision": "day"
-          },
-          "artistDisplayName": "Prima Porta",
-          "edition": "Prima Porta盤 CD+DVD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+          {
+            "id": "apple-hk-1502683489",
+            "title": "Sing Ring",
+            "type": "ep",
+            "date": {
+              "value": "2020-03-25",
+              "precision": "day"
             },
-            {
-              "title": "朝焼けアプローチ（Off Vocal）",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
-            }
-          ],
-          "label": "Stray Cats",
-          "catalogNumber": "xnst-10022"
-        },
-        {
-          "id": "xnst-10023",
-          "title": "CALL&GOAL!",
-          "type": "single",
-          "date": {
-            "value": "2019-12-25",
-            "precision": "day"
+            "artistDisplayName": "新田恵海",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ORATIO",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
+              }
+            ],
+            "label": "Stray Cats"
           },
-          "artistDisplayName": "Prima Porta",
-          "edition": "GO GO!ブロンコス盤 CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+          {
+            "id": "xnst-30003-4",
+            "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-11-18",
+              "precision": "day"
             },
-            {
-              "title": "朝焼けアプローチ（Off Vocal）",
-              "position": 6,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
-            }
-          ],
-          "label": "Stray Cats",
-          "catalogNumber": "xnst-10023"
-        },
-        {
-          "id": "apple-hk-1491447775",
-          "title": "CALL&GOAL!",
-          "type": "ep",
-          "date": {
-            "value": "2019-12-25",
-            "precision": "day"
+            "artistDisplayName": "新田恵海",
+            "edition": "2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ORATIO（TV size）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
+              }
+            ],
+            "label": "Stray Cats",
+            "catalogNumber": "XNST-30003-4"
           },
-          "artistDisplayName": "Prima Porta",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
-            }
-          ],
-          "label": "Stray Cats"
-        },
-        {
-          "id": "apple-hk-1491448049",
-          "title": "CALL&GOAL!（GO GO!ブロンコス盤）",
-          "type": "ep",
-          "date": {
-            "value": "2019-12-25",
-            "precision": "day"
+          {
+            "id": "apple-hk-1541274615",
+            "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-11-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "新田恵海",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ORATIO（TV size）",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
+              }
+            ],
+            "label": "Stray Cats"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ORATIO｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1502683496",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1502683489",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "arad-gyakuten-no-wa-op-1-song-original-single-full"
           },
-          "artistDisplayName": "Prima Porta",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ",
-              "position": 3,
-              "disc": 1,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
-            }
-          ],
-          "label": "Stray Cats"
-        },
-        {
-          "id": "xnst-30003-4",
-          "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
-          "type": "soundtrack",
-          "date": {
-            "value": "2020-11-18",
-            "precision": "day"
+          {
+            "platform": "Apple Music",
+            "label": "ORATIO（TV size）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1541274616",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1541274615",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "arad-gyakuten-no-wa-op-1-song-original-soundtrack-tv-size"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "朝焼けアプローチ",
+        "artistDisplayName": "Prima Porta",
+        "id": "arad-gyakuten-no-wa-ed-1",
+        "songId": "arad-gyakuten-no-wa-ed-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Prima Porta",
-          "edition": "2CD",
-          "region": "JP",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ（TV size）",
-              "position": 23,
-              "disc": 2,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
-            }
-          ],
-          "label": "Stray Cats",
-          "catalogNumber": "XNST-30003-4"
-        },
-        {
-          "id": "apple-hk-1541274615",
-          "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
-          "type": "soundtrack",
-          "date": {
-            "value": "2020-11-18",
-            "precision": "day"
+          {
+            "label": "公開歌曲資料：用途與演唱者交叉核對",
+            "url": "https://myanimelist.net/anime/38416",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
           },
-          "artistDisplayName": "Prima Porta",
-          "edition": "香港區數位版",
-          "region": "HK",
-          "tracks": [
-            {
-              "title": "朝焼けアプローチ（TV size）",
-              "position": 23,
-              "disc": 2,
-              "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
-            }
-          ],
-          "label": "Stray Cats"
-        }
-      ],
-      "links": [
-        {
-          "platform": "Apple Music",
-          "label": "朝焼けアプローチ｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1491447971",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1491447775",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "朝焼けアプローチ｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1491448126",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1491448049",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
-        },
-        {
-          "platform": "Apple Music",
-          "label": "朝焼けアプローチ（TV size）｜Apple Music HK",
-          "url": "https://music.apple.com/hk/song/1541274848",
-          "linkType": "direct_track",
-          "region": "HK",
-          "releaseId": "apple-hk-1541274615",
-          "availability": "unknown",
-          "verifiedAt": "2026-11-15",
-          "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
-        }
-      ]
-    },
-    {
-      "type": "OP",
-      "sequence": 2,
-      "id": "arad-gyakuten-no-wa-op-2",
-      "titleJa": "祈愿之泪",
-      "artistDisplayName": "祈Inory",
-      "songId": "arad-gyakuten-no-wa-op-2-song",
-      "sources": [
-        {
-          "url": "https://www.bilibili.com/video/BV1FJ411h7GA/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "zh-Hans",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://ol.gamersky.com/z/dnf/202001/1253240.shtml",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "zh-Hans",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://ol.gamersky.com/z/dnf/202004/1282592.shtml",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "zh-Hans",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://www.bilibili.com/video/BV1FJ411h7GA/",
-            "https://ol.gamersky.com/z/dnf/202001/1253240.shtml"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://www.bilibili.com/video/BV1FJ411h7GA/",
-            "https://ol.gamersky.com/z/dnf/202001/1253240.shtml",
-            "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-op-2"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://www.bilibili.com/video/BV1FJ411h7GA/",
-            "https://ol.gamersky.com/z/dnf/202001/1253240.shtml"
-          ],
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "國語網播版片頭｜騰訊視頻4/23開播",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "祈Inory",
-          "role": "vocals"
-        }
-      ],
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "中國國語版季級用途已確認。逐話片頭、片尾或夏季特篇實際延用、商業音源及可用地區待核。",
-          "resumeWhen": "以正版單話片頭片尾的實際署名及正式商品曲目再核。",
-          "checkedAt": "2026-11-15"
-        }
-      ]
-    },
-    {
-      "type": "ED",
-      "sequence": 2,
-      "id": "arad-gyakuten-no-wa-ed-2",
-      "titleJa": "晨曦",
-      "artistDisplayName": "SING女团",
-      "songId": "arad-gyakuten-no-wa-ed-2-song",
-      "sources": [
-        {
-          "url": "https://star.tom.com/202004/1003605979.html",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
-          "language": "zh-Hans",
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "url": "https://ol.gamersky.com/z/dnf/202004/1282592.shtml",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
-          "role": "cross_check",
-          "language": "zh-Hans",
-          "verifiedAt": "2026-11-15"
-        }
-      ],
-      "links": [],
-      "evidence": [
-        {
-          "target": "song",
-          "fields": [
-            "title",
-            "artist"
-          ],
-          "sourceUrls": [
-            "https://star.tom.com/202004/1003605979.html",
-            "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-2-song"
-        },
-        {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://star.tom.com/202004/1003605979.html",
-            "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-2"
-        },
-        {
-          "target": "credits",
-          "fields": [
-            "credits"
-          ],
-          "sourceUrls": [
-            "https://star.tom.com/202004/1003605979.html",
-            "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
-          ],
-          "verifiedAt": "2026-11-15"
-        },
-        {
-          "target": "song",
-          "fields": [
-            "date"
-          ],
-          "sourceUrls": [
-            "https://star.tom.com/202004/1003605979.html"
-          ],
-          "verifiedAt": "2026-11-15",
-          "targetId": "arad-gyakuten-no-wa-ed-2-song"
-        }
-      ],
-      "sourceMode": "explicit",
-      "seasonIds": [
-        "2020-spring"
-      ],
-      "usageLabel": "國語網播版片尾｜騰訊視頻4/23開播",
-      "lastVerifiedAt": "2026-11-15",
-      "credits": [
-        {
-          "name": "SING女团",
-          "role": "vocals"
-        }
-      ],
-      "releaseDate": "2020-04-23",
-      "followUp": [
-        {
-          "fields": [
-            "recordings",
-            "platform_availability",
-            "use_quarters"
-          ],
-          "note": "中國國語版季級用途已確認。逐話片頭、片尾或夏季特篇實際延用、商業音源及可用地區待核。",
-          "resumeWhen": "以正版單話片頭片尾的實際署名及正式商品曲目再核。",
-          "checkedAt": "2026-11-15"
-        }
-      ]
-    }
-  ],
-  "metadataVerifiedAt": "2026-09-02",
-  "metadataSources": [
-    {
-      "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/onair/",
-      "label": "第一方原期TV播出日期資料；僅日期時分",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://anime.eiga.com/program/108739/",
-      "label": "原期TV播出日期交叉資料；僅日期時分",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-10-24"
-    },
-    {
-      "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/episodes/",
-      "label": "日本電視第0話至第12話",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
-      "label": "第12話日本原播改至週五26:03",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://thetv.jp/program/0000984650/plot/",
-      "label": "同時期日本原播的第0話序章及正篇",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://www.animatetimes.com/news/details.php?id=1600325176",
-      "label": "製作委員回顧中國先行與10/9日本串流",
-      "role": "broadcast_cross_check",
-      "language": "ja",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://www.friendly-land.com/tw/works.php?uid=94",
-      "label": "共同製作方的繁體中文片名與本版資料",
-      "role": "first_party",
-      "language": "zh-Hant",
-      "verifiedAt": "2026-11-15"
-    },
-    {
-      "url": "https://dnf.qq.com/cp/a20200413comic/",
-      "label": "中國原配信企劃",
-      "role": "first_party",
-      "language": "zh-Hans",
-      "verifiedAt": "2026-11-15"
-    }
-  ],
-  "editorialWeekday": 6,
-  "broadcastTimeJst": "01:53",
-  "seasonIds": [
-    "2020-spring",
-    "2020-summer"
-  ]
-}),
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+            "label": "第一方本曲資料；支持欄位依逐曲證據",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://anime.eiga.com/program/108739/",
+            "label": "本曲逐欄交叉資料；未明欄位不作證",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://straycats.co.jp/release/xnst-30003/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://thetv.jp/program/0000984650/plot/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://straycats.co.jp/release/xnst-10022/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Y_sZrVkPz0c",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://straycats.co.jp/release/xnst-10023/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491447775",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491447971",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491448049?i=1491448126",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491448049",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491448126",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1541274615",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1541274848",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Prima Porta",
+            "role": "vocals"
+          },
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "川崎里実",
+            "role": "composition"
+          },
+          {
+            "name": "増田武史",
+            "role": "arrangement"
+          },
+          {
+            "name": "大西亜玖璃",
+            "role": "vocals"
+          },
+          {
+            "name": "相良茉優",
+            "role": "vocals"
+          },
+          {
+            "name": "内田秀",
+            "role": "vocals"
+          },
+          {
+            "name": "高柳知葉",
+            "role": "vocals"
+          },
+          {
+            "name": "首藤志奈",
+            "role": "vocals"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.eiga.com/program/108739/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.eiga.com/program/108739/"
+            ],
+            "verifiedAt": "2026-10-24",
+            "targetId": "arad-gyakuten-no-wa-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/"
+            ],
+            "verifiedAt": "2026-10-24"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
+              "https://straycats.co.jp/release/xnst-30003/",
+              "https://thetv.jp/program/0000984650/plot/",
+              "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/arad_gia/staff/",
+              "https://straycats.co.jp/release/xnst-10022/",
+              "https://www.youtube.com/watch?v=Y_sZrVkPz0c",
+              "https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx",
+              "https://www.uta-net.com/user/search/anime_list_2.html?tno=14580"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10022/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10022/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10022/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10022/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xnst-10022"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10023/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xnst-10023"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491447971"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1491447971"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-10022/",
+              "https://music.apple.com/hk/album/1491447775"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1491447775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491448126"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1491448126"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1491448049?i=1491448126",
+              "https://music.apple.com/hk/album/1491448049"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1491448049"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "xnst-30003-4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1541274848"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "https://music.apple.com/hk/song/1541274848"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://straycats.co.jp/release/xnst-30003/",
+              "https://music.apple.com/hk/album/1541274615"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "apple-hk-1541274615"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Y_sZrVkPz0c"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "Y_sZrVkPz0c"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "日本電視版常規用途、正式TV size、原盤完整版與無字幕片段分列。播方部分單話節目頁沿用全季主題曲欄。",
+            "resumeWhen": "待可核日本原播第0、1及12話的實際畫面或逐話音樂署名，確認是否有省略或改剪。",
+            "checkedAt": "2026-11-15"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-15",
+        "usageLabel": "日本電視版常規片尾（2020夏）",
+        "releaseDate": "2019-12-25",
+        "recordings": [
+          {
+            "id": "arad-gyakuten-no-wa-ed-1-song-original-single-full",
+            "title": "朝焼けアプローチ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal",
+            "title": "朝焼けアプローチ（Off Vocal）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size",
+            "title": "朝焼けアプローチ（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "xnst-10022",
+            "title": "CALL&GOAL!",
+            "type": "single",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "Prima Porta盤 CD+DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+              },
+              {
+                "title": "朝焼けアプローチ（Off Vocal）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
+              }
+            ],
+            "label": "Stray Cats",
+            "catalogNumber": "xnst-10022"
+          },
+          {
+            "id": "xnst-10023",
+            "title": "CALL&GOAL!",
+            "type": "single",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "GO GO!ブロンコス盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+              },
+              {
+                "title": "朝焼けアプローチ（Off Vocal）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-off-vocal"
+              }
+            ],
+            "label": "Stray Cats",
+            "catalogNumber": "xnst-10023"
+          },
+          {
+            "id": "apple-hk-1491447775",
+            "title": "CALL&GOAL!",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+              }
+            ],
+            "label": "Stray Cats"
+          },
+          {
+            "id": "apple-hk-1491448049",
+            "title": "CALL&GOAL!（GO GO!ブロンコス盤）",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+              }
+            ],
+            "label": "Stray Cats"
+          },
+          {
+            "id": "xnst-30003-4",
+            "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-11-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ（TV size）",
+                "position": 23,
+                "disc": 2,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
+              }
+            ],
+            "label": "Stray Cats",
+            "catalogNumber": "XNST-30003-4"
+          },
+          {
+            "id": "apple-hk-1541274615",
+            "title": "TVアニメ「アラド：逆転の輪」オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-11-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Prima Porta",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "朝焼けアプローチ（TV size）",
+                "position": 23,
+                "disc": 2,
+                "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
+              }
+            ],
+            "label": "Stray Cats"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "朝焼けアプローチ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491447971",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491447775",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "朝焼けアプローチ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491448126",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491448049",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "朝焼けアプローチ（TV size）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1541274848",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1541274615",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-15",
+            "recordingId": "arad-gyakuten-no-wa-ed-1-song-original-soundtrack-tv-size"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "id": "arad-gyakuten-no-wa-op-2",
+        "titleJa": "祈愿之泪",
+        "artistDisplayName": "祈Inory",
+        "songId": "arad-gyakuten-no-wa-op-2-song",
+        "sources": [
+          {
+            "url": "https://www.bilibili.com/video/BV1FJ411h7GA/",
+            "label": "DNF遊戲官方帳號發布普通話片頭歌曲短片",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ol.gamersky.com/z/dnf/202001/1253240.shtml",
+            "label": "轉載官方公眾號的片頭曲名、演唱及2019年12月30日MV首發",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ol.gamersky.com/z/dnf/202004/1282592.shtml",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-15"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://www.bilibili.com/video/BV1FJ411h7GA/",
+            "platform": "bilibili",
+            "label": "官方普通話片頭曲公開短片",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.bilibili.com/video/BV1FJ411h7GA/",
+              "https://ol.gamersky.com/z/dnf/202001/1253240.shtml"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bilibili.com/video/BV1FJ411h7GA/",
+              "https://ol.gamersky.com/z/dnf/202001/1253240.shtml",
+              "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.bilibili.com/video/BV1FJ411h7GA/",
+              "https://ol.gamersky.com/z/dnf/202001/1253240.shtml"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "link",
+            "targetId": "https://www.bilibili.com/video/BV1FJ411h7GA/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.bilibili.com/video/BV1FJ411h7GA/",
+              "https://ol.gamersky.com/z/dnf/202001/1253240.shtml"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "國語網播版片頭｜騰訊視頻4/23開播",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "祈Inory",
+            "role": "vocals"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "releases",
+              "platform_availability"
+            ],
+            "note": "國語片頭推廣短片已核。原正片剪輯、7月第9–12話及特篇實際片頭、商業發行及地區播放待核。",
+            "resumeWhen": "取得騰訊版正片的片頭畫面或逐話署名，以及仍可讀的唱片正式曲目。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "id": "arad-gyakuten-no-wa-ed-2",
+        "titleJa": "晨曦",
+        "artistDisplayName": "SING女团",
+        "songId": "arad-gyakuten-no-wa-ed-2-song",
+        "sources": [
+          {
+            "url": "https://star.tom.com/202004/1003605979.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://ol.gamersky.com/z/dnf/202004/1282592.shtml",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+            "label": "騰訊原發行單曲QQ音樂日期、廠牌、兩首曲序與國語片尾用途",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr",
+            "label": "QQ音樂曲目、演唱、發行日期及片尾用途",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/songDetail/003N7iOw31HPII",
+            "label": "QQ音樂同單曲伴奏曲目",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/mv/a0033y0wpm1",
+            "label": "QQ音樂正式MV及國語片尾曲簡介",
+            "role": "first_party",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+            "platform": "QQ 音樂",
+            "label": "正式數位單曲",
+            "linkType": "direct_album",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "releaseId": "qq-music-001u8j6f0hvqpg"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr",
+            "platform": "QQ 音樂",
+            "label": "原唱完整版",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "arad-gyakuten-no-wa-ed-2-song-qq-vocal",
+            "releaseId": "qq-music-001u8j6f0hvqpg"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/songDetail/003N7iOw31HPII",
+            "platform": "QQ 音樂",
+            "label": "伴奏",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "arad-gyakuten-no-wa-ed-2-song-qq-instrumental",
+            "releaseId": "qq-music-001u8j6f0hvqpg"
+          },
+          {
+            "url": "https://y.qq.com/n/ryqq_v2/mv/a0033y0wpm1",
+            "platform": "QQ 音樂",
+            "label": "官方 MV",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://star.tom.com/202004/1003605979.html",
+              "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://star.tom.com/202004/1003605979.html",
+              "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://star.tom.com/202004/1003605979.html",
+              "https://ol.gamersky.com/z/dnf/202004/1282592.shtml"
+            ],
+            "verifiedAt": "2026-11-15"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://star.tom.com/202004/1003605979.html"
+            ],
+            "verifiedAt": "2026-11-15",
+            "targetId": "arad-gyakuten-no-wa-ed-2-song"
+          },
+          {
+            "target": "song",
+            "targetId": "arad-gyakuten-no-wa-ed-2-song",
+            "fields": [
+              "title",
+              "artist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr",
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "arad-gyakuten-no-wa-ed-2",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+              "https://y.qq.com/n/ryqq_v2/mv/a0033y0wpm1"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "targetId": "arad-gyakuten-no-wa-ed-2-song-qq-vocal",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+              "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "targetId": "arad-gyakuten-no-wa-ed-2-song-qq-instrumental",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+              "https://y.qq.com/n/ryqq_v2/songDetail/003N7iOw31HPII"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "targetId": "qq-music-001u8j6f0hvqpg",
+            "fields": [
+              "title",
+              "type",
+              "artist",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "targetId": "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "targetId": "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/songDetail/000nYOyZ3lNZRr",
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "targetId": "https://y.qq.com/n/ryqq_v2/songDetail/003N7iOw31HPII",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/songDetail/003N7iOw31HPII",
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "targetId": "https://y.qq.com/n/ryqq_v2/mv/a0033y0wpm1",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://y.qq.com/n/ryqq_v2/albumDetail/001u8J6F0HvqPg",
+              "https://y.qq.com/n/ryqq_v2/mv/a0033y0wpm1"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "國語網播版片尾｜騰訊視頻4/23開播",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "SING女团",
+            "role": "vocals"
+          }
+        ],
+        "releaseDate": "2020-04-23",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "國語片尾原唱、伴奏及官方MV已核。原正片剪輯、7月第9–12話及特篇片尾、完整錄音署名和播放地區待核。",
+            "resumeWhen": "取得騰訊版正片的片尾畫面或逐話署名，或附完整詞曲編的唱片方曲目。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "arad-gyakuten-no-wa-ed-2-song-qq-vocal",
+            "title": "晨曦",
+            "format": "full",
+            "kind": "vocal"
+          },
+          {
+            "id": "arad-gyakuten-no-wa-ed-2-song-qq-instrumental",
+            "title": "晨曦 (伴奏)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "qq-music-001u8j6f0hvqpg",
+            "title": "DNF官方动画第二季",
+            "type": "single",
+            "artistDisplayName": "SING女团",
+            "label": "腾讯",
+            "region": "UNKNOWN",
+            "date": {
+              "value": "2020-04-23",
+              "precision": "day"
+            },
+            "edition": "QQ 音樂數位單曲",
+            "tracks": [
+              {
+                "title": "晨曦",
+                "recordingId": "arad-gyakuten-no-wa-ed-2-song-qq-vocal",
+                "disc": 1,
+                "position": 1
+              },
+              {
+                "title": "晨曦 (伴奏)",
+                "recordingId": "arad-gyakuten-no-wa-ed-2-song-qq-instrumental",
+                "disc": 1,
+                "position": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-09-02",
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/onair/",
+        "label": "第一方原期TV播出日期資料；僅日期時分",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://anime.eiga.com/program/108739/",
+        "label": "原期TV播出日期交叉資料；僅日期時分",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-24"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/arad_gia/episodes/",
+        "label": "日本電視第0話至第12話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25995_202009252553.html",
+        "label": "第12話日本原播改至週五26:03",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://thetv.jp/program/0000984650/plot/",
+        "label": "同時期日本原播的第0話序章及正篇",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1600325176",
+        "label": "製作委員回顧中國先行與10/9日本串流",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://www.friendly-land.com/tw/works.php?uid=94",
+        "label": "共同製作方的繁體中文片名與本版資料",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-15"
+      },
+      {
+        "url": "https://dnf.qq.com/cp/a20200413comic/",
+        "label": "中國原配信企劃",
+        "role": "first_party",
+        "language": "zh-Hans",
+        "verifiedAt": "2026-11-15"
+      }
+    ],
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "01:53",
+    "seasonIds": [
+      "2020-spring",
+      "2020-summer"
+    ]
+  }),
   spring2020Seed({
     anilistId: 113906,
     slug: "bang-dream-garupa-pico-oomori",
@@ -111840,15 +115753,16 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
   "id": "curated-tsuburaya-ultraman-tv-2020",
   "slug": "ultraman-tv-2020",
   "seasonIds": [
-    "2020-spring"
+    "2020-spring",
+    "2020-summer"
   ],
   "verifiedAt": "2026-11-05",
-  "metadataVerifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-16",
   "titleJa": "ULTRAMAN",
   "startDate": "2020-04-12",
   "editorialWeekday": 7,
   "broadcastTimeJst": "23:00",
-  "broadcastLabel": "原第1系列2019年4月Netflix配信；日本TV版2020-04-12起TOKYO MX週日23:00–23:30（JST）。此入口日期為首次TV，30分鐘為完整節目槽而非淨片長；與Season 2／FINAL分開。",
+  "broadcastLabel": "同一原系列第1期於2019-04-01由Netflix一次上架全13話。日本TV首輪第1–13話於2020-04-12至07-05逢週日23:00–23:30 JST在TOKYO MX播出。BS11節目日為04-14至07-07逢週二24:30 JST（曆日翌週三00:30）。30分鐘為電視節目槽。",
   "status": "finished",
   "officialSiteUrl": "https://anime.heros-ultraman.com/music/",
   "identifierSource": {
@@ -111889,6 +115803,69 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
       "language": "ja",
       "role": "broadcast_cross_check",
       "verifiedAt": "2026-11-05"
+    },
+    {
+      "url": "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+      "label": "動畫製作方全13話、2019配信與2020電視首輪各台時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.bs11.jp/anime/ultraman/",
+      "label": "BS11電視版片頭與片尾主管道",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=afzrRKt5TAw",
+      "label": "圓谷原期無字片頭及電視播出時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://anime.heros-ultraman.com/onair/",
+      "label": "正版OTT原系列各話另於日本週一正午上架",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5661/time",
+      "label": "第1–13話逐話日本TV時段含第13話7月5日",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.animatetimes.com/tag/details.php?id=9101",
+      "label": "TOKYO MX全13話首播起訖與雙曲用途",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.asapyondiary.com/entry/2020/07/07/202426",
+      "label": "同期觀眾紀錄第12、13話連續播出",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://tsuburaya-prod.com/news/1123",
+      "label": "圓谷原期公告日本及全球Netflix 4月1日與中國大陸4月2日",
+      "role": "first_party",
+      "language": "en",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.bilibili.com/bangumi/media/md21971025",
+      "label": "中國大陸原語正版全13話，4月2日上架",
+      "role": "first_party",
+      "language": "zh-Hans",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "themes": [
@@ -111900,9 +115877,10 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "Core Fade",
       "artistDisplayName": "OLDCODEX",
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "2020年日本電視版全13話片頭。第13話於7月5日23:00 JST在TOKYO MX首播。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -111910,7 +115888,7 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://skream.jp/news/2020/07/void_chords_interview.php",
@@ -111924,7 +115902,105 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/ultraman/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.lantis.jp/artist/oldcodex/news_1585911600.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=afzrRKt5TAw",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5661/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://masaki-bouken.com/archives/heroes-ultraman-anime-01.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=9101",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.lantis.jp/release-item/LACA-9758.html",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/6818711193",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/6818711194",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1751714367",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1751714180",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qoNTrhIKUMc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -111959,18 +116035,6 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "targetId": "ultraman-tv-2020-op-1-song"
         },
         {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://anime.heros-ultraman.com/music/",
-            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html"
-          ],
-          "verifiedAt": "2026-11-05",
-          "targetId": "ultraman-tv-2020-op-1"
-        },
-        {
           "target": "song",
           "fields": [
             "title",
@@ -111983,17 +116047,6 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "targetId": "ultraman-tv-2020-op-1-song"
         },
         {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://skream.jp/news/2020/07/void_chords_interview.php"
-          ],
-          "verifiedAt": "2026-11-05",
-          "targetId": "ultraman-tv-2020-op-1"
-        },
-        {
           "target": "credits",
           "fields": [
             "credits"
@@ -112002,27 +116055,385 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
             "https://anime.heros-ultraman.com/music/"
           ],
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+            "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+            "https://www.bs11.jp/anime/ultraman/",
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html",
+            "https://www.youtube.com/watch?v=afzrRKt5TAw",
+            "https://cal.syoboi.jp/tid/5661/time",
+            "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+            "https://masaki-bouken.com/archives/heroes-ultraman-anime-01.html",
+            "https://www.animatetimes.com/tag/details.php?id=9101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/",
+            "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html",
+            "https://www.youtube.com/watch?v=afzrRKt5TAw",
+            "https://cal.syoboi.jp/tid/5661/time",
+            "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+            "https://masaki-bouken.com/archives/heroes-ultraman-anime-01.html",
+            "https://www.animatetimes.com/tag/details.php?id=9101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-op-1-song-commercial"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-op-1-song-anime-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-34992"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-14992"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/6818711194"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/6818711194"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html",
+            "https://music.apple.com/hk/album/6818711193"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-6818711193"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9758-laca-9759"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1751714367"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1751714367"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://music.apple.com/hk/album/1751714180"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1751714180"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=afzrRKt5TAw"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "afzrRKt5TAw"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=afzrRKt5TAw"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "afzrRKt5TAw"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=qoNTrhIKUMc"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "qoNTrhIKUMc"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=qoNTrhIKUMc",
+            "https://www.lantis.jp/artist/oldcodex/news_1585911600.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "qoNTrhIKUMc"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
-        },
-        {
-          "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "已核兩版實體單曲、香港單曲及原聲帶Anime Size。無字片頭和MV另列，電視各話與商業剪輯的母帶關係待核。",
+          "resumeWhen": "待權利方音源對應或原播實際音軌比對，並核實香港服務完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Core Fade｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/6818711194",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-6818711193",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-op-1-song-commercial"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Core Fade (Anime Size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1751714367",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1751714180",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-op-1-song-anime-size"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "releaseDate": "2020-04-22",
+      "recordings": [
+        {
+          "id": "ultraman-tv-2020-op-1-song-commercial",
+          "title": "Core Fade",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "ultraman-tv-2020-op-1-song-anime-size",
+          "title": "Core Fade (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-34992",
+          "title": "Core Fade",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "OLDCODEX",
+          "edition": "初回限定盤 CD＋Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Core Fade",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-op-1-song-commercial"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-34992"
+        },
+        {
+          "id": "lacm-14992",
+          "title": "Core Fade",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "OLDCODEX",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Core Fade",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-op-1-song-commercial"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14992"
+        },
+        {
+          "id": "apple-hk-6818711193",
+          "title": "Core Fade",
+          "type": "single",
+          "date": {
+            "value": "2020-04-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "OLDCODEX",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Core Fade",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-op-1-song-commercial"
+            }
+          ],
+          "label": "Earkth"
+        },
+        {
+          "id": "laca-9758-laca-9759",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "日本雙碟CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Core Fade (Anime Size)",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-op-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9758～LACA-9759"
+        },
+        {
+          "id": "apple-hk-1751714180",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Core Fade (Anime Size)",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-op-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis"
         }
       ]
     },
@@ -112034,9 +116445,10 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
       "titleJa": "my ID",
       "artistDisplayName": "Void_Chords feat. Ryohei & Foggy-D",
       "seasonIds": [
-        "2020-spring"
+        "2020-spring",
+        "2020-summer"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "2020年日本電視版全13話片尾。第13話於7月5日23:00 JST在TOKYO MX首播。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -112044,7 +116456,7 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://skream.jp/news/2020/07/void_chords_interview.php",
@@ -112058,14 +116470,150 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.bs11.jp/anime/ultraman/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://void-chords.lantis.jp/discography/my-id/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QwUqpdDCTno",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5661/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/tag/details.php?id=9101",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1510294965",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1510294968",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.lantis.jp/release-item/LACA-9758.html",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.lantis.jp/void_chords/news/detail/news_2023062101.html",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://void-chords.lantis.jp/news/138/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1751714368",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1751714180",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1839153459",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1839153462",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1839153464",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1839153465",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=U_QXPUEP5U0",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://lategra.co.jp/works/detail/1948/",
+          "label": "權利方官方影片及對應形態",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
-        {
-          "name": "Void_Chords feat. Ryohei & Foggy-D",
-          "role": "vocals"
-        },
         {
           "name": "Konnie Aoki",
           "role": "lyrics"
@@ -112077,6 +116625,14 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
         {
           "name": "高橋諒",
           "role": "arrangement"
+        },
+        {
+          "name": "Ryohei",
+          "role": "vocals"
+        },
+        {
+          "name": "Foggy-D",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -112093,18 +116649,6 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "targetId": "ultraman-tv-2020-ed-1-song"
         },
         {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://anime.heros-ultraman.com/music/",
-            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html"
-          ],
-          "verifiedAt": "2026-11-05",
-          "targetId": "ultraman-tv-2020-ed-1"
-        },
-        {
           "target": "song",
           "fields": [
             "title",
@@ -112117,17 +116661,6 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
           "targetId": "ultraman-tv-2020-ed-1-song"
         },
         {
-          "target": "anime_use",
-          "fields": [
-            "usage"
-          ],
-          "sourceUrls": [
-            "https://skream.jp/news/2020/07/void_chords_interview.php"
-          ],
-          "verifiedAt": "2026-11-05",
-          "targetId": "ultraman-tv-2020-ed-1"
-        },
-        {
           "target": "credits",
           "fields": [
             "credits"
@@ -112136,27 +116669,827 @@ export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
             "https://anime.heros-ultraman.com/music/"
           ],
           "verifiedAt": "2026-11-05"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://prtimes.jp/main/html/rd/p/000000089.000033128.html",
+            "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+            "https://www.bs11.jp/anime/ultraman/",
+            "https://void-chords.lantis.jp/discography/my-id/",
+            "https://www.youtube.com/watch?v=QwUqpdDCTno",
+            "https://cal.syoboi.jp/tid/5661/time",
+            "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+            "https://www.animatetimes.com/tag/details.php?id=9101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/",
+            "https://www.production-ig.co.jp/hotnews/2020/032701.html",
+            "https://void-chords.lantis.jp/discography/my-id/",
+            "https://www.youtube.com/watch?v=QwUqpdDCTno",
+            "https://cal.syoboi.jp/tid/5661/time",
+            "https://www.tvguide.or.jp/db/anime/ultraman/season1/episode13/",
+            "https://www.animatetimes.com/tag/details.php?id=9101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://void-chords.lantis.jp/discography/my-id/"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/album/1510294965",
+            "https://www.youtube.com/watch?v=QwUqpdDCTno"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://void-chords.lantis.jp/discography/my-id/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song-commercial"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song-anime-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://void-chords.lantis.jp/discography/my-id/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/void_chords/news/detail/news_2023062101.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-ed-1-song-capturelight-drum-and-bass-remix"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://void-chords.lantis.jp/news/138/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "lacm-14999"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1510294968"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1510294968"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://void-chords.lantis.jp/discography/my-id/",
+            "https://music.apple.com/jp/album/1510294965"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1510294965"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9758-laca-9759"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1751714368"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1751714368"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://music.apple.com/hk/album/1751714180"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1751714180"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839153462"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1839153462"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839153464"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1839153464"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839153465"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1839153465"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/void_chords/news/detail/news_2023062101.html",
+            "https://music.apple.com/hk/album/1839153459"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1839153459"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=QwUqpdDCTno"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "QwUqpdDCTno"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=QwUqpdDCTno"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "QwUqpdDCTno"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=U_QXPUEP5U0"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "U_QXPUEP5U0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=U_QXPUEP5U0",
+            "https://lategra.co.jp/works/detail/1948/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "U_QXPUEP5U0"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
+            "recordings",
+            "platform_availability"
           ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
+          "note": "日本原數位單曲為5月13日，實體CD延至7月22日。香港曲目來自原聲帶及2023年LZC-2416混音單曲。",
+          "resumeWhen": "待可查原電視剪輯／母帶對應、原雙曲單曲香港頁，並按地區核對完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "my ID｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1510294968",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1510294965",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-ed-1-song-commercial"
         },
+        {
+          "platform": "Apple Music",
+          "label": "my ID (Anime Size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1751714368",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1751714180",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-ed-1-song-anime-size"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "my ID｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1839153462",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1839153459",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-ed-1-song-commercial"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "my ID (Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1839153464",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1839153459",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-ed-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "my ID (Capturelight Drum and Bass Remix)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1839153465",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1839153459",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-ed-1-song-capturelight-drum-and-bass-remix"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "releaseDate": "2020-05-13",
+      "recordings": [
+        {
+          "id": "ultraman-tv-2020-ed-1-song-commercial",
+          "title": "my ID",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "ultraman-tv-2020-ed-1-song-anime-size",
+          "title": "my ID (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "ultraman-tv-2020-ed-1-song-instrumental",
+          "title": "my ID (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "ultraman-tv-2020-ed-1-song-capturelight-drum-and-bass-remix",
+          "title": "my ID (Capturelight Drum and Bass Remix)",
+          "kind": "remix",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14999",
+          "title": "my ID",
+          "type": "single",
+          "date": {
+            "value": "2020-07-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Void_Chords feat. Ryohei & Foggy-D",
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "my ID",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-commercial"
+            },
+            {
+              "title": "my ID (Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-instrumental"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14999"
+        },
+        {
+          "id": "apple-jp-1510294965",
+          "title": "my ID",
+          "type": "single",
+          "date": {
+            "value": "2020-05-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Void_Chords feat. Ryohei & Foggy-D",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "my ID",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-commercial"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9758-laca-9759",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "日本雙碟CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "my ID (Anime Size)",
+              "position": 25,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-ed-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9758～LACA-9759"
+        },
+        {
+          "id": "apple-hk-1751714180",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "my ID (Anime Size)",
+              "position": 25,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-ed-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "apple-hk-1839153459",
+          "title": "my ID (Capturelight Drum and Bass Remix)",
+          "type": "single",
+          "date": {
+            "value": "2023-07-05",
+            "precision": "day"
+          },
+          "artistDisplayName": "Void_Chords feat. Ryohei & Foggy-D",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "my ID",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-commercial"
+            },
+            {
+              "title": "my ID (Instrumental)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-instrumental"
+            },
+            {
+              "title": "my ID (Capturelight Drum and Bass Remix)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "ultraman-tv-2020-ed-1-song-capturelight-drum-and-bass-remix"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "ultraman-tv-2020-in-1",
+      "titleJa": "星の欠片",
+      "artistDisplayName": "佐山レナ（CV.諸星すみれ）",
+      "songId": "ultraman-tv-2020-hoshi-no-kakera-song",
+      "sources": [
+        {
+          "url": "https://www.lantis.jp/release-item/LACA-9758.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://s.animeanime.jp/article/2020/01/10/50842.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5661/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ameblo.jp/u3z-armgddn/entry-12599694958.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://s.animeanime.jp/article/2020/01/07/50779.html?pickup_list_click4=true",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anisons.blog.jp/archives/7257759.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anime.heros-ultraman.com/music/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://toyamamusicforce.com/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://animestyle.jp/2020/07/21/17835/",
+          "label": "同期原聲帶專文確認收錄完整角色歌",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1751714365",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1751714180",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "星の欠片｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1751714365",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1751714180",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://s.animeanime.jp/article/2020/01/10/50842.html",
+            "https://cal.syoboi.jp/tid/5661/time",
+            "https://ameblo.jp/u3z-armgddn/entry-12599694958.html",
+            "https://s.animeanime.jp/article/2020/01/07/50779.html?pickup_list_click4=true",
+            "https://anisons.blog.jp/archives/7257759.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://anime.heros-ultraman.com/music/",
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://s.animeanime.jp/article/2020/01/10/50842.html",
+            "https://ameblo.jp/u3z-armgddn/entry-12599694958.html",
+            "https://anisons.blog.jp/archives/7257759.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-hoshi-no-kakera-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://toyamamusicforce.com/",
+            "https://anisons.blog.jp/archives/7257759.html",
+            "https://cal.syoboi.jp/tid/5661/time"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-hoshi-no-kakera-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format",
+            "title"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://animestyle.jp/2020/07/21/17835/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "laca-9758-laca-9759"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1751714365"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1751714365"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.lantis.jp/release-item/LACA-9758.html",
+            "https://music.apple.com/hk/album/1751714180"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1751714180"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring"
+      ],
+      "usageLabel": "2020年日本電視版第7話（5月24日TOKYO MX首播），佐山レナ在レナフェス現場演唱。",
+      "lastVerifiedAt": "2026-11-16",
+      "credits": [
+        {
+          "name": "諸星すみれ",
+          "role": "vocals"
+        },
+        {
+          "name": "原田雄一",
+          "role": "lyrics"
+        },
+        {
+          "name": "原田雄一",
+          "role": "composition"
+        },
+        {
+          "name": "原田雄一",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2020-07-08",
+      "recordings": [
+        {
+          "id": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full",
+          "title": "星の欠片",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "laca-9758-laca-9759",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "日本雙碟CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "星の欠片",
+              "position": 22,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9758～LACA-9759"
+        },
+        {
+          "id": "apple-hk-1751714180",
+          "title": "ULTRAMAN ORIGINAL SOUNDTRACK",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "戸田信子×陣内一真",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "星の欠片",
+              "position": 22,
+              "disc": 2,
+              "recordingId": "ultraman-tv-2020-hoshi-no-kakera-song-soundtrack-full"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "第7話現場演唱與原聲帶完整角色歌已核。第5話候選仍待核對播出片段與實際音源。",
+          "resumeWhen": "待權利方第5話掛字、可公開查閱的授權演唱段落或另一獨立場景證據，並核香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ]
     }

@@ -1,6 +1,39 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+  "110788:ED:3": [
+    {
+      "youtubeVideoId": "XXtkb-uhRbc",
+      "title": "夢の轍｜H△G 官方動畫特別剪輯 MV",
+      "channelName": "H△G",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108040:ED:1": [
+    {
+      "youtubeVideoId": "QUaYq9-_bcs",
+      "title": "ちっとも知らなかった｜NakamuraEmi 官方 MV",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108040:OP:1": [
+    {
+      "youtubeVideoId": "6p1ihtNrWwY",
+      "title": "ナラク｜Halo at 四畳半 官方 MV",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "100780:ED:3": [
     {
       "youtubeVideoId": "ohFxsyrQQ68",

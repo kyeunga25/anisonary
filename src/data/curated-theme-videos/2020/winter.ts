@@ -1,6 +1,174 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "108852:OP:1": [
+    {
+      "youtubeVideoId": "AsTbulk4JFw",
+      "title": "HiHi Jets「情熱ジャンボリー」(JOHNNYS' Experience in TOKYO DOME CITY HALL)",
+      "channelName": "ジュニアCHANNEL",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113242:ED:3": [
+    {
+      "youtubeVideoId": "6kSN1uxadrc",
+      "title": "カーテンコールを揺らして｜佐々木李子官方 Art Track",
+      "channelName": "佐々木李子",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113242:ED:1": [
+    {
+      "youtubeVideoId": "FD28ngq7xk8",
+      "title": "ココロノキャンバス｜ビリケン官方 MV",
+      "channelName": "solblade",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113242:OP:3": [
+    {
+      "youtubeVideoId": "kXvPJmMKsic",
+      "title": "てっぺんニューデイズ｜祭nine. 官方 MV",
+      "channelName": "テイチクエンタテインメント",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108625:OP:2": [
+    {
+      "youtubeVideoId": "kEc2Yu-bTJY",
+      "title": "キラリスト・ジュエリスト｜avex 官方短版試聽",
+      "channelName": "avex pictures",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108625:OP:1": [
+    {
+      "youtubeVideoId": "nrNA0Pt4-YM",
+      "title": "ダイヤモンドスマイル｜avex 官方短版 MV",
+      "channelName": "avex pictures",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "oE_aZvgwqis",
+      "title": "ダイヤモンドスマイル｜單曲官方音軌",
+      "channelName": "Run Girls, Run! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kiratto-prichan-season-2-op-1-song-commercial"
+    }
+  ],
+  "108617:IN:1": [
+    {
+      "youtubeVideoId": "Z4iTmgQ09nA",
+      "title": "TVアニメ「ソマリと森の神様」第２弾PV",
+      "channelName": "TVアニメ「ソマリと森の神様」公式",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "1960:ED:4": [
+    {
+      "youtubeVideoId": "GUTHk7IjI6A",
+      "title": "ドレミファ アンパンマン（テレビサイズver.）",
+      "channelName": "VAP OFFICIAL MUSIC CHANNEL",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "sore-ike-anpanman-ed-4-song-vap-tv-size"
+    }
+  ],
+  "1960:ED:3": [
+    {
+      "youtubeVideoId": "y6lqPw8T9G4",
+      "title": "サンサンたいそう（テレビサイズver.）",
+      "channelName": "VAP OFFICIAL MUSIC CHANNEL",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "sore-ike-anpanman-ed-3-song-vap-tv-size"
+    }
+  ],
+  "1960:ED:2": [
+    {
+      "youtubeVideoId": "CaqHOvgAnO0",
+      "title": "アンパンマンたいそう（テレビサイズver.）",
+      "channelName": "VAP OFFICIAL MUSIC CHANNEL",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "sore-ike-anpanman-ed-2-song-vap-tv-size"
+    }
+  ],
+  "1960:ED:1": [
+    {
+      "youtubeVideoId": "STZ9rOXCJEY",
+      "title": "勇気りんりん（テレビサイズver.）",
+      "channelName": "VAP OFFICIAL MUSIC CHANNEL",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "sore-ike-anpanman-ed-1-song-vap-tv-size"
+    }
+  ],
+  "1960:OP:1": [
+    {
+      "youtubeVideoId": "5mLape5F0Fw",
+      "title": "アンパンマンのマーチ（テレビサイズver.）",
+      "channelName": "VAP OFFICIAL MUSIC CHANNEL",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "sore-ike-anpanman-op-1-song-vap-tv-size"
+    }
+  ],
+  "109586:OP:1": [
+    {
+      "youtubeVideoId": "9OIiaxFLvAc",
+      "title": "Be ZERO｜官方 MV",
+      "channelName": "Hilcrhyme",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "H_nPS_fB_so",
+      "title": "Be ZERO｜單曲 Art Track",
+      "channelName": "Hilcrhyme",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mushikago-no-cagaster-op-1-song-digital"
+    }
+  ],
   "112686:ED:2": [
     {
       "youtubeVideoId": "Rkkp398hHqU",
@@ -1861,6 +2029,15 @@ export const curated2020WinterThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ZYyLqIToGxU",
+      "title": "大宇宙ランデブー｜妖Tube 官方片頭影片",
+      "channelName": "妖怪ウォッチ 公式チャンネル 妖Tube",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     }
   ],
   "113472:OP:3": [
@@ -1902,6 +2079,15 @@ export const curated2020WinterThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown",
       "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song-artist-video-audio"
+    },
+    {
+      "youtubeVideoId": "1kK8hFe-GWU",
+      "title": "宇宙神秘ブギ｜BANDAI SPIRITS 官方片尾影片",
+      "channelName": "BANDAI SPIRITS / バンダイスピリッツ",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     }
   ],
   "113472:ED:11": [
