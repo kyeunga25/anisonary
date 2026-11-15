@@ -17545,8 +17545,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18044,8 +18044,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18171,8 +18171,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18508,8 +18508,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18608,8 +18608,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18708,8 +18708,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -18815,8 +18815,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -19152,8 +19152,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -19261,8 +19261,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/20057/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期活動報導及逐話參與名義",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -25026,8 +25026,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/29621/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期報導的各台第12話時分",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -25097,6 +25097,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.youtube.com/watch?v=0UdDMs8VZXg",
           "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://plunderer-info.com/special/?id=castcomment&mode=detail",
+          "label": "製作方公布4月1日起播後半季",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -25193,7 +25200,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://dengekionline.com/articles/29621/",
             "https://www.mau2.com/anime/plunderer",
             "https://zh.wikipedia.org/wiki/%E6%8E%A0%E5%A5%AA%E8%80%85_%28%E6%BC%AB%E7%95%AB%29",
-            "https://anitubu.com/archives/post-38340.html"
+            "https://anitubu.com/archives/post-38340.html",
+            "https://plunderer-info.com/special/?id=castcomment&mode=detail"
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "plunderer-op-2"
@@ -26176,8 +26184,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://dengekionline.com/articles/29621/",
-          "label": "作品方、放送方或唱片公司正式資料",
-          "role": "first_party",
+          "label": "電撃オンライン同期報導的各台第12話時分",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
@@ -26261,6 +26269,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.youtube.com/watch?v=5PfhIcc5pnQ",
           "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://plunderer-info.com/special/?id=castcomment&mode=detail",
+          "label": "製作方公布4月1日起播後半季",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -26357,7 +26372,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://dengekionline.com/articles/29621/",
             "https://www.mau2.com/anime/plunderer",
             "https://zh.wikipedia.org/wiki/%E6%8E%A0%E5%A5%AA%E8%80%85_%28%E6%BC%AB%E7%95%AB%29",
-            "https://anitubu.com/archives/post-38340.html"
+            "https://anitubu.com/archives/post-38340.html",
+            "https://plunderer-info.com/special/?id=castcomment&mode=detail"
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "plunderer-ed-2"
@@ -27408,15 +27424,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     },
     {
       "url": "https://dengekionline.com/articles/29621/",
-      "label": "KADOKAWA 旗下電撃オンライン逐台列第12話首播時段",
-      "role": "first_party",
+      "label": "電撃オンライン同期報導逐台列第12話首播時段",
+      "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://dengekionline.com/articles/41214/",
-      "label": "KADOKAWA 旗下電撃オンライン終回及地上波時段",
-      "role": "first_party",
+      "label": "電撃オンライン同期報導終回及地上波時段",
+      "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-16"
     },
@@ -27445,6 +27461,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "url": "https://en.wikipedia.org/wiki/Plunderer_(manga)",
       "label": "2019年12月海外部分市場前兩話限時先行",
       "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://plunderer-info.com/special/?id=castcomment&mode=detail",
+      "label": "製作方公布4月1日起播後半季",
+      "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-16"
     }
