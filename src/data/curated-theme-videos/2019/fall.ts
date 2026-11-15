@@ -1,6 +1,83 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+  "108358:IN:1": [
+    {
+      "youtubeVideoId": "NOxlLIhONik",
+      "title": "Our Fighting｜SEGA 遊戲原聲 Art Track",
+      "channelName": "SEGA SOUND TEAM - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-game-ost-vocal"
+    }
+  ],
+  "108358:ED:3": [
+    {
+      "youtubeVideoId": "8m9ZJ_YovCE",
+      "title": "UniVerse／それいゆ -Dear Destiny-｜官方雙曲試聽",
+      "channelName": "FRONTIERWORKS",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108358:OP:2": [
+    {
+      "youtubeVideoId": "8m9ZJ_YovCE",
+      "title": "UniVerse／それいゆ -Dear Destiny-｜官方雙曲試聽",
+      "channelName": "FRONTIERWORKS",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101349:ED:4": [
+    {
+      "youtubeVideoId": "9MA75ixKMIc",
+      "title": "The Next New World That No One Knows",
+      "channelName": "Q-MHz - Topic",
+      "type": "art_track",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "babylon-ed-4-song-digital"
+    },
+    {
+      "youtubeVideoId": "-rwgsuXeWAg",
+      "title": "TVアニメ「バビロン」第3章「曲がる世界」直前 最新PV",
+      "channelName": "TWIN ENGINE",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104679:ED:1": [
+    {
+      "youtubeVideoId": "yltWu72Idlo",
+      "title": "TVアニメ『ライフル・イズ・ビューティフル』OPED試聴動画",
+      "channelName": "ライフリング4公式チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104679:OP:1": [
+    {
+      "youtubeVideoId": "yltWu72Idlo",
+      "title": "TVアニメ『ライフル・イズ・ビューティフル』OPED試聴動画",
+      "channelName": "ライフリング4公式チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "104276:IN:3": [
     {
       "youtubeVideoId": "GgwUenaQqlM",
@@ -191,13 +268,13 @@ export const curated2019FallThemeVideos = {
   ],
   "103275:OP:1": [
     {
-      youtubeVideoId: "HX0EahM6568",
-      title: "UNISON SQUARE GARDEN「Phantom Joke」ショートver.",
-      type: "tv_size",
-      channelName: "unisonsgofficial",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "HX0EahM6568",
+      "title": "Phantom Joke｜官方短版 MV",
+      "type": "music_video",
+      "channelName": "unisonsgofficial",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "103275:ED:1": [
     {
