@@ -70062,50 +70062,1508 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 110613,
-    id: "curated-110613",
-    slug: "oda-cinnamon-nobunaga",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "織田シナモン信長",
-    titleZhHant: "織田肉桂信長",
-    titleRomaji: "Oda Cinnamon Nobunaga",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110613-UVk4CINXaRnX.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110613-vA1AClZLd6yp.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://nobunaga-cinnamon.com/",
-    anilistUrl: "https://anilist.co/anime/110613",
-    imageSourceUrl: "https://anilist.co/anime/110613",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
+    "anilistId": 110613,
+    "id": "curated-110613",
+    "slug": "oda-cinnamon-nobunaga",
+    "seasonIds": [
+      "2020-winter"
+    ],
+    "startDate": "2020-01-11",
+    "titleJa": "織田シナモン信長",
+    "titleZhHant": "織田肉桂信長",
+    "titleRomaji": "Oda Cinnamon Nobunaga",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110613-UVk4CINXaRnX.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110613-vA1AClZLd6yp.jpg",
+    "editorialWeekday": 6,
+    "broadcastLabel": "テレビ東京原TV全12話，2020/1/10–3/27週五25:23（實曆1/11–3/28週六01:23 JST）。あにてれ與dTV於1/11 12:00開始配信。",
+    "status": "finished",
+    "officialSiteUrl": "https://shinamon-nobunaga.com/",
+    "anilistUrl": "https://anilist.co/anime/110613",
+    "imageSourceUrl": "https://anilist.co/anime/110613",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/217",
       "https://acgsecrets.hk/anime/43/",
-      "https://annict.com/works/6815",
+      "https://annict.com/works/6815"
     ],
-    animeThemesUrl: "https://animethemes.moe/anime/oda_cinnamon_nobunaga",
-    themes: [
+    "animeThemesUrl": "https://animethemes.moe/anime/oda_cinnamon_nobunaga",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Sunny Sunny Girl◎",
-        artistDisplayName: "熊田茜音",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Sunny Sunny Girl◎",
+        "artistDisplayName": "熊田茜音",
+        "id": "oda-cinnamon-nobunaga-op-1",
+        "songId": "oda-cinnamon-nobunaga-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/caststaff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/280605/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032071",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1838420416",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1838420425",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=UR-9lPGxUmA",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Sunny Sunny Girl◎｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1838420425",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1838420416",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.uta-net.com/song/280605/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14962"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14963"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032071"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-35933"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-15933"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1838420425"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1838420425"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072",
+              "https://music.apple.com/hk/album/1838420416"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1838420416"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=UR-9lPGxUmA"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "UR-9lPGxUmA"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第1–12話片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "こだまさおり",
+            "role": "lyrics"
+          },
+          {
+            "name": "山口朗彦",
+            "role": "composition"
+          },
+          {
+            "name": "山口朗彦",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-op-1-song-single-full",
+            "title": "Sunny Sunny Girl◎",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "oda-cinnamon-nobunaga-op-1-song-single-instrumental",
+            "title": "Sunny Sunny Girl◎（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14962",
+            "title": "Sunny Sunny Girl◎",
+            "type": "single",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本藝人盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+              },
+              {
+                "title": "Sunny Sunny Girl◎（Instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14962"
+          },
+          {
+            "id": "lacm-14963",
+            "title": "Sunny Sunny Girl◎",
+            "type": "single",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本動畫盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+              },
+              {
+                "title": "Sunny Sunny Girl◎（Instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14963"
+          },
+          {
+            "id": "laca-35933",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本初回限定盤 CD＋BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-35933"
+          },
+          {
+            "id": "laca-15933",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-15933"
+          },
+          {
+            "id": "apple-hk-1838420416",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "releaseDate": "2020-01-29"
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "犬生は一度きり",
-        titleRomaji: "Inu-sei wa Ichido Kiri",
-        artistDisplayName:
-          "シナモン（CV：堀内賢雄）、ブー（CV：古川登志夫）、ラッキー（CV：玄田哲章）",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "犬生は一度きり",
+        "titleRomaji": "Inu-sei wa Ichido Kiri",
+        "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+        "id": "oda-cinnamon-nobunaga-ed-1",
+        "songId": "oda-cinnamon-nobunaga-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/caststaff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281632/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054964",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498055046",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YN4BTya4W0k",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "犬生は一度きり｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054964",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "犬生は一度きり (Inst Ver.)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498055046",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.uta-net.com/song/281632/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054964"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054964"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498055046"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498055046"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YN4BTya4W0k",
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "YN4BTya4W0k"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第1–12話片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "堀内犬友",
+            "role": "vocals"
+          },
+          {
+            "name": "犬川登志夫",
+            "role": "vocals"
+          },
+          {
+            "name": "犬田哲章",
+            "role": "vocals"
+          },
+          {
+            "name": "SEAMO",
+            "role": "lyrics"
+          },
+          {
+            "name": "SEAMO",
+            "role": "composition"
+          },
+          {
+            "name": "Shintaro“Growth”Izutsu",
+            "role": "composition"
+          },
+          {
+            "name": "杉田直司",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "櫻犬孝宏",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "犬上和彦",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "鈴村犬一",
+            "role": "other",
+            "groupName": "合いの手"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental",
+            "title": "犬生は一度きり (Inst Ver.)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "oda-cinnamon-nobunaga-ed-1-song-single-vocal",
+            "title": "犬生は一度きり",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "犬生は一度きり",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+              },
+              {
+                "title": "犬生は一度きり (Inst Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "犬生は一度きり",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+              },
+              {
+                "title": "犬生は一度きり (Inst Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
       },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "oda-cinnamon-nobunaga-in-1",
+        "titleJa": "エターナルずんだ、えだまめフォーエバー",
+        "artistDisplayName": "伊達組",
+        "songId": "oda-cinnamon-nobunaga-in-1-song",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/7039975?page=1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281630/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054979",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "エターナルずんだ、えだまめフォーエバー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054979",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7039975?page=1",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7039975?page=1",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://www.uta-net.com/song/281630/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054979"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054979"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第4話插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "畠中祐",
+            "role": "vocals"
+          },
+          {
+            "name": "小笠原仁",
+            "role": "vocals"
+          },
+          {
+            "name": "橘龍丸",
+            "role": "vocals"
+          },
+          {
+            "name": "寺島惇太",
+            "role": "vocals"
+          },
+          {
+            "name": "沖野晃司",
+            "role": "vocals"
+          },
+          {
+            "name": "高橋伸也",
+            "role": "vocals"
+          },
+          {
+            "name": "目黒川うな",
+            "role": "lyrics"
+          },
+          {
+            "name": "中村博",
+            "role": "composition"
+          },
+          {
+            "name": "中村博",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-in-1-song-single-vocal",
+            "title": "エターナルずんだ、えだまめフォーエバー",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "エターナルずんだ、えだまめフォーエバー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "エターナルずんだ、えだまめフォーエバー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "oda-cinnamon-nobunaga-in-2",
+        "titleJa": "尻尾越しのアイラブユー",
+        "artistDisplayName": "ホイップ（中尾隆聖犬）",
+        "songId": "oda-cinnamon-nobunaga-in-2-song",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/7041935?page=1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281631/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054972",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "尻尾越しのアイラブユー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054972",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7041935?page=1",
+              "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7041935?page=1",
+              "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://www.uta-net.com/song/281631/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054972"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054972"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第6話插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "中尾隆聖犬",
+            "role": "vocals"
+          },
+          {
+            "name": "目黒川うな",
+            "role": "lyrics"
+          },
+          {
+            "name": "中村博",
+            "role": "composition"
+          },
+          {
+            "name": "中村博",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-in-2-song-single-vocal",
+            "title": "尻尾越しのアイラブユー",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "尻尾越しのアイラブユー",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "尻尾越しのアイラブユー",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
+      }
     ],
-    verifiedAt: "2026-09-02",
+    "verifiedAt": "2026-09-02",
+    "broadcastTimeJst": "01:23",
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://shinamon-nobunaga.com/onair/",
+        "label": "製作方首播與日本同季配信時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+        "label": "電視東京原期首話播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+        "label": "電視東京原期終回播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/shinamon-nobunaga/episodes/",
+        "label": "電視台原期全12話節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://tv.apple.com/jp/show/umc.cmc.6t5rxcqcrmyzhrxprrbeol8yu",
+        "label": "日本正版目錄單話約24分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.bilibili.com/bangumi/media/md28233772/",
+        "label": "港澳台正版片名及全12話",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=14812",
+        "label": "台灣正版片名及分集",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   },
   {
   "anilistId": 111501,
@@ -104485,7 +105943,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "titleRomaji": "7SEEDS 2",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112686-vZCeCpw9oYB4.jpg",
   "editorialWeekday": 1,
-  "broadcastLabel": "第2期TOKYO MX原TV；Netflix2020/3/26首發分開",
+  "broadcastLabel": "第13–24話於2020-03-26全球Netflix首發（2020冬）。日本地上波TOKYO MX於2021-01-04至03-22逢週一22:30–23:00 JST首播（2021冬）；BSフジ於2021年4月至6月另播。",
   "status": "finished",
   "officialSiteUrl": "https://7seeds.jp/",
   "anilistUrl": "https://anilist.co/anime/112686",
@@ -104506,6 +105964,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "songId": "7seeds-2-op-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
+        "2020-winter",
         "2021-winter"
       ],
       "sources": [
@@ -104528,7 +105987,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/7SEEDS",
@@ -104550,6 +106009,132 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版片頭及兩首片尾的逐話對照",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/musics/8724/music_products/9991",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://st-kai.jp/works/7seeds/",
+          "label": "製作公司確認第二季Netflix首發日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1604023685",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.uta-net.com/tieup/14552/?target=art",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://sp.universal-music.co.jp/kamishiraishi-mone/note/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1498546978",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1498547197",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1526408729",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1526409075",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-7565/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/contents/300968",
+          "label": "權利方確認完整MV或採用此曲之第二季宣傳影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6d74CgjbeC8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/contents/305824",
+          "label": "權利方確認完整MV或採用此曲之第二季宣傳影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VoNZeFRDT3o",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -104649,22 +106234,333 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://7seeds.jp/news/29.php"
           ],
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/musics/8724/music_products/9991",
+            "https://7seeds.jp/news/29.php",
+            "https://st-kai.jp/works/7seeds/",
+            "https://www.animatetimes.com/news/details.php?id=1604023685",
+            "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+            "https://kamishiraishimone.com/musics/8724/music_products/9991",
+            "https://www.uta-net.com/tieup/14552/?target=art",
+            "https://www.animatetimes.com/news/details.php?id=1604023685"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/kamishiraishi-mone/note/",
+            "https://www.uta-net.com/tieup/14552/?target=art"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song-single-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1498547197"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1498547197"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+            "https://music.apple.com/hk/album/1498546978"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1498546978"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1526409075"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1526409075"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/",
+            "https://music.apple.com/hk/album/1526408729"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1526408729"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-2210"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-7565/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-7565"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6d74CgjbeC8"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "6d74CgjbeC8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/contents/300968",
+            "https://www.youtube.com/watch?v=6d74CgjbeC8"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "6d74CgjbeC8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VoNZeFRDT3o"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "VoNZeFRDT3o"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/contents/305824",
+            "https://www.youtube.com/watch?v=VoNZeFRDT3o"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "VoNZeFRDT3o"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
-          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
-          "checkedAt": "2026-10-26"
+          "note": "數位單曲與note專輯曲目均已核，平台曲長略有差異。兩版母帶與正片片頭剪輯待核。",
+          "resumeWhen": "待權利方或可比對片段確認正片剪輯、不同載體母帶與香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "From The Seeds｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1498547197",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1498546978",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-op-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "From The Seeds｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1526409075",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1526408729",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "usageLabel": "Netflix原版第13–24話期間的片頭曲，2021年TOKYO MX播出版沿用本期片頭曲。",
+      "releaseDate": "2020-02-25",
+      "recordings": [
+        {
+          "id": "7seeds-2-op-1-song-single-vocal",
+          "title": "From The Seeds",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1498546978",
+          "title": "From the Seeds",
+          "type": "single",
+          "date": {
+            "value": "2020-02-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "7seeds-2-op-1-song-single-vocal"
+            }
+          ],
+          "label": "Universal J"
+        },
+        {
+          "id": "apple-hk-1526408729",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J"
+        },
+        {
+          "id": "upch-2210",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-2210"
+        },
+        {
+          "id": "upch-7565",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "初回限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-7565"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -104675,6 +106571,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "songId": "7seeds-2-ed-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
+        "2020-winter",
         "2021-winter"
       ],
       "sources": [
@@ -104719,12 +106616,101 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版逐話對照，常規片尾第13–23話",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cidergirl.jp/contents/287914",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/news/39.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1604023685",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.uta-net.com/tieup/14552/?target=art",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XpYFmO5RT5k",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-7550/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1489899101",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1489899109",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "サイダーガール",
           "role": "vocals"
+        },
+        {
+          "name": "知",
+          "role": "lyrics"
+        },
+        {
+          "name": "知",
+          "role": "composition"
+        },
+        {
+          "name": "akkin",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -104796,36 +106782,254 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-26",
           "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cidergirl.jp/contents/287914",
+            "https://7seeds.jp/news/39.php",
+            "https://www.animatetimes.com/news/details.php?id=1604023685",
+            "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cidergirl.jp/contents/287914",
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+            "https://www.uta-net.com/tieup/14552/?target=art",
+            "https://www.animatetimes.com/news/details.php?id=1604023685"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XpYFmO5RT5k",
+            "https://www.uta-net.com/tieup/14552/?target=art"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song-album-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-2204"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-7550/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-7550"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1489899109"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1489899109"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+            "https://music.apple.com/hk/album/1489899101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1489899101"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XpYFmO5RT5k"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "XpYFmO5RT5k"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
-          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
-          "checkedAt": "2026-10-26"
+          "note": "改版公告明示更換片尾映像。日本TV逐話畫面、實播剪輯及Netflix目前採用的映像待核。",
+          "resumeWhen": "待權利方或可比對片段確認正片剪輯、不同載體母帶與香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "シンクロ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1489899109",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1489899101",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-ed-1-song-album-vocal"
+        }
+      ],
+      "usageLabel": "Netflix原版第13–23話片尾。2021年TOKYO MX播出版的常規片尾曲。製作方於2021-01-04公布重製第二季片尾映像。",
+      "releaseDate": "2020-01-15",
+      "recordings": [
+        {
+          "id": "7seeds-2-ed-1-song-album-vocal",
+          "title": "シンクロ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "upch-2204",
+          "title": "SODA POP FANCLUB 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-2204"
+        },
+        {
+          "id": "upch-7550",
+          "title": "SODA POP FANCLUB 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "初回限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-7550"
+        },
+        {
+          "id": "apple-hk-1489899101",
+          "title": "Soda Pop Fanclub 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J"
+        }
+      ]
     },
     {
       "type": "ED",
       "sequence": 2,
       "titleJa": "生きてゆく",
       "titleRomaji": "Ikite Yuku",
-      "artistDisplayName": "Lovin' You",
+      "artistDisplayName": "lovinyuu",
       "id": "7seeds-2-ed-2",
       "songId": "7seeds-2-ed-2-song",
       "sourceMode": "explicit",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-winter"
+      ],
       "sources": [
         {
           "label": "動畫官方網站",
@@ -104846,34 +107050,102 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rkkp398hHqU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/905573",
+          "label": "有限会社クリーク提供的官方原聲帶第39曲與歌唱署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://creekltd.com/category/artist/michiru/",
+          "label": "原聲帶權利方及作編曲家對 Netflix 作品的音樂製作資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版分集對照，第二季末集使用本曲",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/news/31.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anison.online/anime/591",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1581373117",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1581374515",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
-          "name": "Lovin' You",
+          "name": "lovinyuu",
           "role": "vocals"
+        },
+        {
+          "name": "Yukio Takahashi",
+          "role": "lyrics"
+        },
+        {
+          "name": "未知瑠",
+          "role": "composition"
         }
       ],
       "evidence": [
         {
-          "target": "song",
+          "target": "anime_use",
           "fields": [
-            "title",
-            "artist"
+            "usage"
           ],
           "sourceUrls": [
-            "https://ja.wikipedia.org/wiki/7SEEDS"
+            "https://ototoy.jp/_/default/p/905573",
+            "https://7seeds.jp/news/31.php",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+            "https://ja.wikipedia.org/wiki/7SEEDS",
+            "https://anison.online/anime/591",
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
           ],
-          "verifiedAt": "2026-10-26",
-          "targetId": "7seeds-2-ed-2-song"
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2"
         },
         {
           "target": "song",
@@ -104882,49 +107154,180 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "artist"
           ],
           "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+            "https://ototoy.jp/_/default/p/905573",
+            "https://ja.wikipedia.org/wiki/7SEEDS",
+            "https://anison.online/anime/591"
           ],
-          "verifiedAt": "2026-10-26",
+          "verifiedAt": "2026-11-16",
           "targetId": "7seeds-2-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://www.youtube.com/watch?v=Rkkp398hHqU",
+            "https://anison.online/anime/591"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2-song-soundtrack-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1581374515"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1581374515"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://music.apple.com/hk/album/1581373117"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1581373117"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Rkkp398hHqU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "Rkkp398hHqU"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://creekltd.com/category/artist/michiru/",
+            "https://www.youtube.com/watch?v=Rkkp398hHqU",
+            "https://music.apple.com/hk/album/1581373117"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1581373117"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "basic_evidence",
             "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "recordings",
+            "arrangement",
+            "platform_availability"
           ],
-          "note": "曲名生きてゆく與現有演唱文字保留；交叉來源列ラビンユー及第24話ED，但尚缺本期權利方逐曲身分與用途正證。",
-          "resumeWhen": "待本期權利方公開生きてゆく的演唱名義及第24話用途說明後重核。",
-          "checkedAt": "2026-10-26"
+          "note": "原聲帶供稿用lovinyuu歌唱名義，平台另與未知瑠共同列名。商業版約1分53秒。日本冬季報導亦列為ED2。TOKYO MX及BSフジ第24話實際掛字、原聲帶實體曲序及編曲署名仍待核實。",
+          "resumeWhen": "待合法版本第24話片尾掛字、原聲帶附冊或權利方逐曲署名，並核香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "生きてゆく｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1581374515",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1581373117",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+        }
+      ],
+      "usageLabel": "Netflix原版第24話（第二季第12話）特別片尾。日本地上波終話片尾待逐版核實。",
+      "releaseDate": "2021-01-27",
+      "recordings": [
+        {
+          "id": "7seeds-2-ed-2-song-soundtrack-vocal",
+          "title": "生きてゆく",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1581373117",
+          "title": "7SEEDS (Original Soundtrack)",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "生きてゆく",
+              "position": 39,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+            }
+          ],
+          "label": "有限会社クリーク"
+        }
+      ]
     }
   ],
   "verifiedAt": "2026-09-02",
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://7seeds.jp/onair/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-26"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://7seeds.jp/news/31.php",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-26"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
@@ -104932,6 +107335,62 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://flowers.shogakukan.co.jp/1538/",
+      "label": "原作出版社確認TOKYO MX播出第13–24話及BSフジ次輪",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/news/39.php",
+      "label": "2021年1月4日製作方決定重新製作第二季片尾映像",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/blu-ray/",
+      "label": "第二季第13–24話與下卷影碟特典內容",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.bsfuji.tv/top/info/img/shubetsu/ncinfo_2104_2109.pdf",
+      "label": "BSフジ2021年春季實際播出節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5899/time",
+      "label": "TOKYO MX首末話、BSフジ次輪及個別延時",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://thetvdb.com/series/7seeds/allseasons/official",
+      "label": "Netflix第13–24話同日首發交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "label": "繁體中文日本地上波第2期首末播日期",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.netflix.com/hk/title/80183051",
+      "label": "Netflix香港作品頁與第二部預告",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "broadcastTimeJst": "22:30"
@@ -105921,12 +108380,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "2020-winter"
   ],
   "verifiedAt": "2026-11-05",
-  "metadataVerifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-16",
   "titleJa": "7SEEDS",
   "startDate": "2020-01-14",
   "editorialWeekday": 2,
   "broadcastTimeJst": "23:00",
-  "broadcastLabel": "原第1期第1–12話2019-06-28先於Netflix配信；日本TV自2020-01-14起TOKYO MX週二23:00（JST）、BSフジ節目日週二24:00。此入口日期為首次TV；同第1期官方重播表明列12個獨立30分鐘槽，1月首輪結束時刻與淨片長仍待核；與第2期分開。",
+  "broadcastLabel": "第1期全12話先於2019/6/28在Netflix配信。日本首輪電視於TOKYO MX 2020/1/14–3/31每週二23:00–23:30 JST；BSフジ同一節目日週二24:00，終回實曆4/1 00:00。此入口按TOKYO MX首輪歸入2020年冬季。",
   "status": "finished",
   "officialSiteUrl": "https://www.gonzo.co.jp/works/7seeds/index.html",
   "identifierSource": {
@@ -105935,7 +108394,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "language": "ja"
   },
   "sourceReferenceUrls": [
-    "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+    "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
     "https://7seeds.jp/news/38.php",
     "https://www.animatetimes.com/news/details.php?id=1574831139"
   ],
@@ -105945,28 +108404,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "GONZO官方：原第1期作品、音樂與2019配信資料",
       "language": "ja",
       "role": "identifier",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
-      "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
-      "label": "小学館官方：第1期第1–12話與2020首次TV對應",
+      "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+      "label": "TOKYO MX原期第1話及2020年1月14日播出日期",
       "language": "ja",
       "role": "first_party",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://7seeds.jp/news/38.php",
       "label": "動畫官方：同第1期12個獨立30分鐘重播槽；不作1月首輪結束時刻",
       "language": "ja",
       "role": "first_party",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
       "label": "第1期2020 TV開始日期／時刻及音樂交叉核對",
       "language": "ja",
       "role": "broadcast_cross_check",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/story/",
+      "label": "製作方第一期第1–12話及終回原文集名",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://s.mxtv.jp/jyushin/timetable/2003.pdf",
+      "label": "TOKYO MX 2020年3月正式基本節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-1uIFWVTlho",
+      "label": "製作方日本首輪電視開播播出預告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://myanimecheck.com/anime/7SEEDS",
+      "label": "TOKYO MX 首輪全12話日期與第12話",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://thetv.jp/program/selection/323/p2/",
+      "label": "同期 TOKYO MX 首輪終回日時與節目槽",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://bsnewanime.hatenablog.com/entry/2020/03/31/001000",
+      "label": "同期 BSフジ 3/31 24:00 終回排檔",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.netflix.com/hk/title/80183051",
+      "label": "Netflix 香港正式繁中題名與合法觀看頁",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "themes": [
@@ -105980,7 +108488,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "第1期日本首輪TV片頭。第一期第1–12話的原版逐話資料列本曲。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -105988,27 +108496,137 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
           "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
           "language": "ja",
           "role": "cross_check",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
-          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animesonglyrics.com/7-seeds/ark",
+          "label": "第一期公開配信版逐話主題曲交叉資料",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://weixiaoacg.com/anime/7seeds/",
+          "label": "繁中同期版本、配信及主題曲交叉資料",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://sp.universal-music.co.jp/amatsuki/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/7seeds",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetv.jp/program/selection/323/p2/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-5112/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-9117/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-9118/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1466194122",
+          "label": "Apple Music 香港區 EP 上架日期及曲位",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1466194266",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/blu-ray/",
+          "label": "第一期影碟另收無字幕片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-1uIFWVTlho",
+          "label": "製作方地上波首輪預告，音樂為〈Ark〉",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anime-song-info.com/7seeds-2nd-op-ed-202004-spring/",
+          "label": "日本早期配信日期待查線索",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "天月-あまつき-",
           "role": "vocals"
+        },
+        {
+          "name": "天月-あまつき-",
+          "role": "lyrics"
+        },
+        {
+          "name": "天月-あまつき-",
+          "role": "composition"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -106031,7 +108649,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "sourceUrls": [
             "https://www.gonzo.co.jp/works/7seeds/index.html",
-            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html"
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-op-1"
@@ -106058,27 +108676,276 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://sp.universal-music.co.jp/amatsuki/",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.animesonglyrics.com/7-seeds/ark",
+            "https://weixiaoacg.com/anime/7seeds/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+            "https://sp.universal-music.co.jp/amatsuki/",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.mau2.com/anime/7seeds",
+            "https://www.animesonglyrics.com/7-seeds/ark",
+            "https://thetv.jp/program/selection/323/p2/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+            "https://www.animesonglyrics.com/7-seeds/ark"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/amatsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1-song-single-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-5112/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-5112"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-9117/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9117"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-9118/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9118"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1466194266"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1466194266"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1466194122"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1466194122"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=8ZZMKYuJltU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=8ZZMKYuJltU"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
-        },
-        {
-          "fields": [
-            "recordings",
+            "recording_format",
             "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "片頭曲已核日本三款 CD 及香港 EP 曲位。6月13日先行配信的日期、首輪TV剪輯及影碟無字幕版與原曲的對應待核。官方 MV 已有直接入口。",
+          "resumeWhen": "待權利方先行配信資料、首輪原播逐話畫面或可核影碟版別與香港完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "recordings": [
+        {
+          "id": "7seeds-tv-2020-op-1-song-single-full",
+          "title": "Ark",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "uicz-5112",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-5112"
+        },
+        {
+          "id": "uicz-9117",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本初回限定盤 A CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9117"
+        },
+        {
+          "id": "uicz-9118",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本初回限定盤 B CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9118"
+        },
+        {
+          "id": "apple-hk-1466194122",
+          "title": "Starlight Kiseki / Ark",
+          "type": "ep",
+          "date": {
+            "value": "2019-06-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Ark｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1466194266",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1466194122",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+        },
+        {
+          "platform": "YouTube",
+          "label": "Ark｜天月-あまつき- 官方 MV",
+          "url": "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
         }
       ]
     },
@@ -106092,7 +108959,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "第1期日本首輪TV片尾。第一期第1–12話的原版逐話資料列本曲。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -106100,27 +108967,165 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
           "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
           "language": "ja",
           "role": "cross_check",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
-          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animesonglyrics.com/7-seeds/wish",
+          "label": "第一期公開配信版逐話主題曲交叉資料",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://weixiaoacg.com/anime/7seeds/",
+          "label": "繁中同期版本、配信及主題曲交叉資料",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.majiko.net/news/?id=245",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/7seeds",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetv.jp/program/selection/323/p2/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/",
+          "label": "唱片公司公開〈WISH〉官方 MV 與第一期配信日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.majiko.net/news/?id=271",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-4453/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-9119/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-9120/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1465881786",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1465882066",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z2tyyEbtJko",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1601932105",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1601932336",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GCN8DiOL_gM",
+          "label": "WISH｜majiko 官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/blu-ray/",
+          "label": "第一期影碟另收無字幕片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tiwaha.blog.fc2.com/blog-entry-5681.html",
+          "label": "BSフジ 第一季終回首輪節目及劇中演奏同期交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "majiko",
           "role": "vocals"
+        },
+        {
+          "name": "majiko",
+          "role": "lyrics"
+        },
+        {
+          "name": "横山裕章",
+          "role": "composition"
+        },
+        {
+          "name": "横山裕章",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -106143,7 +109148,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "sourceUrls": [
             "https://www.gonzo.co.jp/works/7seeds/index.html",
-            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html"
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-ed-1"
@@ -106170,31 +109175,392 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.animesonglyrics.com/7-seeds/wish",
+            "https://weixiaoacg.com/anime/7seeds/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.mau2.com/anime/7seeds",
+            "https://www.animesonglyrics.com/7-seeds/wish",
+            "https://thetv.jp/program/selection/323/p2/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animesonglyrics.com/7-seeds/wish"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song-album-full"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.majiko.net/news/?id=271"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-4453/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-4453"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-9119/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9119"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-9120/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9120-9121"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1465882066"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1465882066"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/",
+            "https://music.apple.com/hk/album/1465881786"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1465881786"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song-live-2019"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1601932336"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1601932336"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko",
+            "https://music.apple.com/hk/album/1601932105"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1601932105"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GCN8DiOL_gM"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=GCN8DiOL_gM"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=z2tyyEbtJko"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
-        },
-        {
-          "fields": [
-            "recordings",
+            "recording_format",
             "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "已核原曲、現場錄音及香港曲位。原播片尾剪輯與發行母帶待核；終回另曲片尾未見可證紀錄。官方 MV 及現場錄音已有直接入口。",
+          "resumeWhen": "待首輪電視播出片尾掛字、可核影碟剪輯及香港完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "recordings": [
+        {
+          "id": "7seeds-tv-2020-ed-1-song-album-full",
+          "title": "WISH",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "7seeds-tv-2020-ed-1-song-live-2019",
+          "title": "Wish (2019 Live Version)",
+          "kind": "live",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2019-06-05",
+      "releases": [
+        {
+          "id": "uicz-4453",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-4453"
+        },
+        {
+          "id": "uicz-9119",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本初回限定盤 A CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9119"
+        },
+        {
+          "id": "uicz-9120-9121",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本初回限定盤 B 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9120/1"
+        },
+        {
+          "id": "apple-hk-1465881786",
+          "title": "Sabishii Hitoga Ichiban Erainda",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Wish",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN"
+        },
+        {
+          "id": "apple-hk-1601932105",
+          "title": "Live 2019",
+          "type": "album",
+          "date": {
+            "value": "2022-01-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Wish (2019 Live Version)",
+              "position": 9,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
+            }
+          ],
+          "label": "USM JAPAN"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Wish｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1465882066",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1465881786",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Wish (2019 Live Version)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1601932336",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1601932105",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
+        },
+        {
+          "platform": "YouTube",
+          "label": "WISH｜majiko 官方 MV",
+          "url": "https://www.youtube.com/watch?v=GCN8DiOL_gM",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "YouTube",
+          "label": "Wish (2019 Live Version)｜Universal Music 授權現場錄音",
+          "url": "https://www.youtube.com/watch?v=z2tyyEbtJko",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
         }
       ]
     }
-  ]
+  ],
+  "titleZhHant": "7SEEDS 幻海奇情"
 },
 ];
 

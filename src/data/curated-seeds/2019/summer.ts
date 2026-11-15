@@ -21,7 +21,7 @@ function summer2019Seed({
   return {
     ...row,
     id: `curated-${row.anilistId}`,
-    seasonIds: row.anilistId === 105333 ? ["2019-summer", "2019-fall"] : row.anilistId === 111144 ? ["2019-summer", "2019-fall", "2020-winter"] : row.anilistId === 105310 || row.anilistId === 101348 ? ["2019-summer", "2019-fall"] : ["2019-summer"],
+    seasonIds: row.anilistId === 100891 ? ["2019-summer", "2020-winter"] : row.anilistId === 105333 ? ["2019-summer", "2019-fall"] : row.anilistId === 111144 ? ["2019-summer", "2019-fall", "2020-winter"] : row.anilistId === 105310 || row.anilistId === 101348 ? ["2019-summer", "2019-fall"] : ["2019-summer"],
     editorialWeekday: weekday || 7,
     status: "finished",
     anilistUrl: `https://anilist.co/anime/${row.anilistId}`,
@@ -6180,367 +6180,6407 @@ metadataVerifiedAt: "2026-09-07",
     ]
   },
   {
-    anilistId: 100891,
-    slug: "kengan-ashura",
-    sourceReferenceUrls: [...summer2019ReferenceUrls, "https://shogakukan-comic.jp/news/19676"],
-    startDate: "2019-07-31",
-    titleJa: "ケンガンアシュラ",
-    titleZhHant: "拳願阿修羅",
-    titleRomaji: "Kengan Ashura",
-    officialSiteUrl: "https://kengan.net/",
-    animeThemesUrl: "https://animethemes.moe/anime/kengan_ashura",
-    identifierSource: {
-      label: "AnimeThemes：作品識別交叉連結",
-      url: "https://api.animethemes.moe/anime/kengan_ashura?include=resources",
-      language: "en"
+    "anilistId": 100891,
+    "slug": "kengan-ashura",
+    "sourceReferenceUrls": [
+      "https://acgsecrets.hk/bangumi/201907/",
+      "https://www.kansou.me/archive/2019_summer.html",
+      "https://shogakukan-comic.jp/news/19676"
+    ],
+    "startDate": "2019-07-31",
+    "titleJa": "ケンガンアシュラ",
+    "titleZhHant": "拳願阿修羅",
+    "titleRomaji": "Kengan Ashura",
+    "officialSiteUrl": "https://kengan.net/",
+    "animeThemesUrl": "https://animethemes.moe/anime/kengan_ashura",
+    "identifierSource": {
+      "label": "AnimeThemes：作品識別交叉連結",
+      "url": "https://api.animethemes.moe/anime/kengan_ashura?include=resources",
+      "language": "en"
     },
-    broadcastLabel: "日本網絡首播／時間未整理",
-    themes: [
+    "broadcastLabel": "Netflix 於2019-07-31一次上架第1–12話。TOKYO MX 電視版自2020-01-10至03-27每週五25:35 JST，曆日為01-11至03-28每週六01:35。BS日テレ於01-14–03-31每週二25:30 JST 播出第1–12話。",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "KING & ASHLEY",
-        artistDisplayName: "MY FIRST STORY",
-        releaseDate: "2019-07-04"
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "KING & ASHLEY",
+        "artistDisplayName": "MY FIRST STORY",
+        "releaseDate": "2019-07-04",
+        "id": "kengan-ashura-op-1",
+        "songId": "kengan-ashura-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文原配信與電視版主題曲對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myfirststory.net/contents/283632",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.ponycanyon.co.jp/2019/08/33809",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5546",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1575459199",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myfirststory.net/contents/254098",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OxNeZiOr_zs",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.oricon.co.jp/prof/561163/lyrics/61119/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myfirststory.net/musics/8640",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1470204065",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1470204067",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "日本唱片商《The Anthems》雙碟實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587392",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NLlv6q_qV98",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/news/index00120000.html",
+            "label": "權利方公開的影片形式或唱片收錄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://myfirststory.net/contents/283632",
+              "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+              "https://news.ponycanyon.co.jp/2019/08/33809",
+              "https://cal.syoboi.jp/tid/5546",
+              "https://www.animatetimes.com/news/details.php?id=1575459199"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://myfirststory.net/contents/283632",
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://cal.syoboi.jp/tid/5546"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://myfirststory.net/contents/254098"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OxNeZiOr_zs",
+              "https://www.oricon.co.jp/prof/561163/lyrics/61119/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://myfirststory.net/musics/8640"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-op-1-song-commercial"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1470204067"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1470204067"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://myfirststory.net/musics/8640",
+              "https://music.apple.com/hk/album/1470204065"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1470204065"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587392"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587392"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=NLlv6q_qV98"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "NLlv6q_qV98"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=NLlv6q_qV98",
+              "https://kengan.net/news/index00120000.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "NLlv6q_qV98"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OxNeZiOr_zs"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "OxNeZiOr_zs"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OxNeZiOr_zs",
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "OxNeZiOr_zs"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "KING & ASHLEY｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1470204067",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1470204065",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-op-1-song-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "KING & ASHLEY｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587392",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-summer",
+          "2020-winter"
+        ],
+        "usageLabel": "2019年Netflix版及2020年日本電視版第1–12話片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Hiro",
+            "role": "lyrics"
+          },
+          {
+            "name": "Nob",
+            "role": "composition"
+          },
+          {
+            "name": "Sho",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kengan-ashura-op-1-song-commercial",
+            "title": "KING & ASHLEY",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1470204065",
+            "title": "KING & ASHLEY",
+            "type": "single",
+            "date": {
+              "value": "2019-07-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "MY FIRST STORY",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "KING & ASHLEY",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kengan-ashura-op-1-song-commercial"
+              }
+            ],
+            "label": "INTACT MUSIC ENTERTAINMENT INC."
+          },
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "KING & ASHLEY",
+                "disc": 1,
+                "position": 1
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "KING & ASHLEY",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "recording_format",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原商業單曲、主題曲合輯和官方無字片頭。作品官網片頭曲欄的創作署名與下一段片頭曲重複。",
+            "resumeWhen": "待原唱或唱片公司逐曲編曲、原配信與電視剪輯／同母帶說明，並核實香港播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Born This Way",
-        artistDisplayName: "BAD HOP",
-        versionLabel: "YZERR・Vingo・Bark 演唱版",
-        credits: [
-          { name: "YZERR", role: "vocals" },
-          { name: "Vingo", role: "vocals" },
-          { name: "Bark", role: "vocals" }
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Born This Way",
+        "artistDisplayName": "BAD HOP",
+        "versionLabel": "YZERR・Vingo・Bark 演唱版",
+        "credits": [
+          {
+            "name": "YZERR",
+            "role": "vocals"
+          },
+          {
+            "name": "Vingo",
+            "role": "vocals"
+          },
+          {
+            "name": "Bark",
+            "role": "vocals"
+          },
+          {
+            "name": "YZERR",
+            "role": "lyrics"
+          },
+          {
+            "name": "Vingo",
+            "role": "lyrics"
+          },
+          {
+            "name": "Bark",
+            "role": "lyrics"
+          }
+        ],
+        "id": "kengan-ashura-ed-1",
+        "songId": "kengan-ashura-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文原配信與電視版主題曲對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/ed.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.ponycanyon.co.jp/2019/08/33809",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5546",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1575459199",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=MFWtLMi03_g",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.joysound.com/web/search/song/767364",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fzTIu7x4Lv4",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lnk.to/BH_BTW",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1470194202",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1470194207",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1470194211",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "日本唱片商《The Anthems》雙碟實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587493",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tdTd0hvo-qU",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/news/index00120000.html",
+            "label": "權利方公開的影片形式或唱片收錄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=5SuTkMNIV1o",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/ed.html",
+              "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+              "https://news.ponycanyon.co.jp/2019/08/33809",
+              "https://cal.syoboi.jp/tid/5546",
+              "https://www.animatetimes.com/news/details.php?id=1575459199"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/ed.html",
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://cal.syoboi.jp/tid/5546"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g",
+              "https://www.joysound.com/web/search/song/767364"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fzTIu7x4Lv4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song-tv-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fzTIu7x4Lv4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-ed-1-song-tv-edit"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1470194207"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1470194207"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1470194211"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1470194211"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://lnk.to/BH_BTW",
+              "https://music.apple.com/hk/album/1470194202"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1470194202"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587493"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587493"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tdTd0hvo-qU"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tdTd0hvo-qU"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tdTd0hvo-qU",
+              "https://kengan.net/news/index00120000.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tdTd0hvo-qU"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "MFWtLMi03_g"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=MFWtLMi03_g",
+              "https://lnk.to/BH_BTW"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "MFWtLMi03_g"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fzTIu7x4Lv4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fzTIu7x4Lv4"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fzTIu7x4Lv4",
+              "https://lnk.to/BH_BTW"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fzTIu7x4Lv4"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5SuTkMNIV1o"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "5SuTkMNIV1o"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5SuTkMNIV1o",
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "5SuTkMNIV1o"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Born This Way (feat. YZERR, Vingo & Bark)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1470194207",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1470194202",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-ed-1-song-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Born This Way (TV Edit) [feat. YZERR, Vingo & Bark]｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1470194211",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1470194202",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-ed-1-song-tv-edit"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Born This Way (feat. YZERR, Vingo & Bark)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587493",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-summer",
+          "2020-winter"
+        ],
+        "usageLabel": "2019年Netflix版及2020年日本電視版第1–12話片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2019-07-04",
+        "recordings": [
+          {
+            "id": "kengan-ashura-ed-1-song-commercial",
+            "title": "Born This Way (feat. YZERR, Vingo & Bark)",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Km",
+                "role": "composition"
+              }
+            ]
+          },
+          {
+            "id": "kengan-ashura-ed-1-song-tv-edit",
+            "title": "Born This Way (TV Edit) [feat. YZERR, Vingo & Bark]",
+            "kind": "vocal",
+            "format": "tv",
+            "credits": [
+              {
+                "name": "Jacob Lethal Beats",
+                "role": "composition"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1470194202",
+            "title": "Born This Way (feat. YZERR, Vingo & Bark)",
+            "type": "single",
+            "date": {
+              "value": "2019-07-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "BAD HOP",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Born This Way (feat. YZERR, Vingo & Bark)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kengan-ashura-ed-1-song-commercial"
+              },
+              {
+                "title": "Born This Way (TV Edit) [feat. YZERR, Vingo & Bark]",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kengan-ashura-ed-1-song-tv-edit"
+              }
+            ],
+            "label": "PONY CANYON / Solomon I&I Production"
+          },
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Born This Way (feat. YZERR, Vingo & Bark)",
+                "disc": 2,
+                "position": 15
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Born This Way (feat. YZERR, Vingo & Bark)",
+                "position": 15,
+                "disc": 2
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "composition",
+              "arrangement",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "2019單曲原版與TV Edit均已核，作曲者按音源分別保存。合輯和無字片尾未連到同一錄音。",
+            "resumeWhen": "待權利方核對Netflix／電視實播剪輯、商業版編曲、合輯母帶及香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
         ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "kengan-ashura-in-1",
+        "titleJa": "Falling down",
+        "artistDisplayName": "Sho from MY FIRST STORY",
+        "songId": "kengan-ashura-in-1-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/08.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://myfirststory.net/contents/283632",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733748/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587393",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Falling down｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587393",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-1-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/08.html",
+              "https://myfirststory.net/contents/283632",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733748/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://myfirststory.net/contents/283632",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-1-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-1-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587393"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587393"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第8話，今井コスモ的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-1-song-anthems",
+            "title": "Falling down",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Falling down",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "kengan-ashura-in-1-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Falling down",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-1-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "kengan-ashura-in-2",
+        "titleJa": "Make Me Crazy",
+        "artistDisplayName": "UNDEAD CORPORATION",
+        "songId": "kengan-ashura-in-2-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/08.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733748/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "日本唱片商《The Anthems》雙碟實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587395",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Make Me Crazy｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587395",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/08.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733748/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-2-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587395"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587395"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第8話，アダム・ダッドリー的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Make Me Crazy",
+                "disc": 1,
+                "position": 3
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Make Me Crazy",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "kengan-ashura-in-3",
+        "titleJa": "Behavior observation",
+        "artistDisplayName": "高山淳",
+        "songId": "kengan-ashura-in-3-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/09.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587401",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Behavior observation｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587401",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-3-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/09.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-3-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-3-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-3-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587401"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587401"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第9話，河野春男的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-3-song-anthems",
+            "title": "Behavior observation",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Behavior observation",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "kengan-ashura-in-3-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Behavior observation",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-3-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "kengan-ashura-in-4",
+        "titleJa": "万華鏡",
+        "artistDisplayName": "RagDöllz",
+        "songId": "kengan-ashura-in-4-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/09.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587404",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Mp5s4YJK-gE",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "万華鏡｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587404",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-4-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/09.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-4-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-4-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-4-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587404"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587404"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Mp5s4YJK-gE"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "Mp5s4YJK-gE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Mp5s4YJK-gE",
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "Mp5s4YJK-gE"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第9話，阿古谷清秋的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-4-song-anthems",
+            "title": "万華鏡",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "万華鏡",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "kengan-ashura-in-4-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "万華鏡",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-4-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "kengan-ashura-in-5",
+        "titleJa": "in your face",
+        "artistDisplayName": "PABLO",
+        "songId": "kengan-ashura-in-5-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "日本唱片商《The Anthems》雙碟實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587408",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "in your face｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587408",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/10.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-5-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587408"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587408"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第10話，呉雷庵的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "in your face",
+                "disc": 1,
+                "position": 6
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "in your face",
+                "position": 6,
+                "disc": 1
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "id": "kengan-ashura-in-6",
+        "titleJa": "FUTURE DESTINATION",
+        "artistDisplayName": "KellySIMONZ",
+        "songId": "kengan-ashura-in-6-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587410",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "FUTURE DESTINATION｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587410",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-6-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/10.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-6"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-6-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-6-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-6-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587410"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587410"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第10話，茂吉・ロビンソン的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-6-song-anthems",
+            "title": "FUTURE DESTINATION",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "FUTURE DESTINATION",
+                "disc": 1,
+                "position": 7,
+                "recordingId": "kengan-ashura-in-6-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "FUTURE DESTINATION",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-6-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "id": "kengan-ashura-in-7",
+        "titleJa": "The Animal Fighter",
+        "artistDisplayName": "藤澤健至",
+        "songId": "kengan-ashura-in-7-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733760/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587413",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "The Animal Fighter｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587413",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-7-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/11.html",
+              "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733760/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-7"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-7-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-7-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-7-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587413"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587413"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第11話，十鬼蛇王馬的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-7-song-anthems",
+            "title": "The Animal Fighter",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "The Animal Fighter",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "kengan-ashura-in-7-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "The Animal Fighter",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-7-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 8,
+        "id": "kengan-ashura-in-8",
+        "titleJa": "Black Phantom",
+        "artistDisplayName": "片山修志",
+        "songId": "kengan-ashura-in-8-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733760/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587416",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Black Phantom｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587416",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-8-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/11.html",
+              "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733760/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-8"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://team-max.co.jp/2020/06/04/kengan-the-anthems/",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-8-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-8-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-8-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587416"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587416"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第11話，因幡良的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-8-song-anthems",
+            "title": "Black Phantom",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Black Phantom",
+                "disc": 1,
+                "position": 9,
+                "recordingId": "kengan-ashura-in-8-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Black Phantom",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-8-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 9,
+        "id": "kengan-ashura-in-9",
+        "titleJa": "BATTLE OF GUILD",
+        "artistDisplayName": "FROZEN CAKE BAR",
+        "songId": "kengan-ashura-in-9-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.muevo.jp/campaigns/2894",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animegeek.com/kengan-ashura-season-2-release-date-netflix-kengan-ashura-part-2-sequel-manga-story-ending-spoilers/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733764/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587419",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "BATTLE OF GUILD｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587419",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-9-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://www.muevo.jp/campaigns/2894",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.animegeek.com/kengan-ashura-season-2-release-date-netflix-kengan-ashura-part-2-sequel-manga-story-ending-spoilers/",
+              "https://www.imdb.com/title/tt10733764/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-9"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.muevo.jp/campaigns/2894",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-9-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-9-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-9-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587419"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587419"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第12話，沢田慶三郎的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-9-song-anthems",
+            "title": "BATTLE OF GUILD",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BATTLE OF GUILD",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "kengan-ashura-in-9-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "BATTLE OF GUILD",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-9-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 10,
+        "id": "kengan-ashura-in-10",
+        "titleJa": "Future",
+        "artistDisplayName": "SIRENT SCREEM",
+        "songId": "kengan-ashura-in-10-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.delicesetferocites.com/kengan-ashura-gros-son-made-japan/",
+            "label": "獨立音樂專文對Julius與前半入場影片的交叉核對",
+            "role": "cross_check",
+            "language": "multi",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animegeek.com/kengan-ashura-season-2-release-date-netflix-kengan-ashura-part-2-sequel-manga-story-ending-spoilers/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "日本唱片商《The Anthems》雙碟實體曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587422",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Future｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587422",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.animegeek.com/kengan-ashura-season-2-release-date-netflix-kengan-ashura-part-2-sequel-manga-story-ending-spoilers/",
+              "https://www.delicesetferocites.com/kengan-ashura-gros-son-made-japan/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-10"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-10-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587422"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587422"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第12話，ユリウス・ラインホルト的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Future",
+                "disc": 1,
+                "position": 11
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Future",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 11,
+        "id": "kengan-ashura-in-11",
+        "titleJa": "Axis of Hate",
+        "artistDisplayName": "DEVIL WITHIN",
+        "songId": "kengan-ashura-in-11-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/12.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733764/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587427",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://linkco.re/Ehf3hphP?lang=ja",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1458761100",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1458761292",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Axis of Hate｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587427",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-11-song-anthems"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Axis of Hate｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1458761292",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1458761100",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/12.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733764/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-11"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-11-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-11-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-11-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587427"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587427"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Ehf3hphP?lang=ja"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-11-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Ehf3hphP?lang=ja",
+              "https://www.imdb.com/title/tt10733764/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1458761292"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1458761292"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Ehf3hphP?lang=ja",
+              "https://music.apple.com/hk/album/1458761100"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1458761100"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第12話，ムテバ・ギゼンガ的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-11-song-anthems",
+            "title": "Axis of Hate",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Axis of Hate",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kengan-ashura-in-11-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Axis of Hate",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-11-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1458761100",
+            "title": "DARK SUPREMACY",
+            "type": "album",
+            "date": {
+              "value": "2019-04-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "DEVIL WITHIN",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Axis of Hate",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "Ichigeki Record"
+          }
+        ],
+        "releaseDate": "2019-04-10",
+        "credits": [
+          {
+            "name": "Micu",
+            "role": "lyrics"
+          },
+          {
+            "name": "Kensuke",
+            "role": "composition"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 12,
+        "id": "kengan-ashura-in-12",
+        "titleJa": "冥土への祈り",
+        "artistDisplayName": "マグダラ呪念",
+        "songId": "kengan-ashura-in-12-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+            "label": "繁體中文逐話曲目與角色入場對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/music/anthems.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=laAq30ByTk8",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://kengan.net/story/12.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt10733764/fullcredits/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4998980",
+            "label": "原合輯曲序與聲樂／演奏分類交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004897",
+            "label": "唱片公司《The Anthems》發行日、品番與產品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496587391",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496587431",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "冥土への祈り｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496587431",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496587391",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kengan-ashura-in-12-song-anthems"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://www.youtube.com/watch?v=laAq30ByTk8",
+              "https://kengan.net/story/12.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2",
+              "https://www.imdb.com/title/tt10733764/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-12"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85#%E4%BD%BF%E7%94%A8%E6%9B%B2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-12-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-12-song-anthems"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kengan-ashura-in-12-song-anthems"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "catalog_number",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004897",
+              "https://kengan.net/music/anthems.html",
+              "https://tower.jp/item/4998980"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pcca-04897"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496587431"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496587431"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://kengan.net/music/anthems.html",
+              "https://music.apple.com/hk/album/1496587391"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496587391"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年Netflix版第12話，目黒正樹的劇中入場曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "kengan-ashura-in-12-song-anthems",
+            "title": "冥土への祈り",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pcca-04897",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本雙碟CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "冥土への祈り",
+                "disc": 1,
+                "position": 13,
+                "recordingId": "kengan-ashura-in-12-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON",
+            "catalogNumber": "PCCA.04897"
+          },
+          {
+            "id": "apple-hk-1496587391",
+            "title": "The Anthems",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "冥土への祈り",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kengan-ashura-in-12-song-anthems"
+              }
+            ],
+            "label": "PONY CANYON"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核原Netflix該話入場及商業曲位；日本電視剪輯的逐曲沿用與正片段落版本仍待核。",
+            "resumeWhen": "待可查閱的日本電視首輪該話入場段落、掛字或權利方用曲表，並核對香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://shogakukan-comic.jp/news/19676",
+        "label": "小學館原配信公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://news.ponycanyon.co.jp/2019/08/33809",
+        "label": "首期原配信日及兩段集數的權利方公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://myfirststory.net/contents/283632",
+        "label": "日本電視首播日期與各台時段的原唱公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.bs4.jp/kengan/",
+        "label": "BS日テレ日本TV第1–12話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.adkem.jp/works02/%E3%82%B1%E3%83%B3%E3%82%AC%E3%83%B3%E3%82%A2%E3%82%B7%E3%83%A5%E3%83%A9/",
+        "label": "製作方日本TV首輪與各段主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1575459199",
+        "label": "原配信與 TOKYO MX 首輪電視時段的同期報導",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5546/time",
+        "label": "TOKYO MX 第1–12話各話實播日期與時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.netflix.com/hk/title/80992228",
+        "label": "Netflix 香港正版節目入口及每話分鐘數",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E6%8B%B3%E9%A1%98%E9%98%BF%E4%BF%AE%E7%BE%85",
+        "label": "繁體中文原配信、作品分段與集數交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
       }
     ]
   },
   {
-    anilistId: 111144,
-    slug: "cardfight-vanguard-shinemon-hen",
+    "anilistId": 111144,
+    "slug": "cardfight-vanguard-shinemon-hen",
     sourceReferenceUrls: [...summer2019ReferenceUrls, "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"],
-    startDate: "2019-08-24",
-    titleJa: "カードファイト!! ヴァンガード 新右衛門編",
-    titleZhHant: "卡片戰鬥先導者 新右衛門篇",
-    titleRomaji: "Cardfight!! Vanguard: Shinemon-hen",
-    officialSiteUrl: "https://anime.cf-vanguard.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
-    identifierSource: {
-      label: "AnimeThemes：作品識別交叉連結",
-      url: "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
-      language: "en"
+    "startDate": "2019-08-24",
+    "titleJa": "カードファイト!! ヴァンガード 新右衛門編",
+    "titleZhHant": "卡片戰鬥先導者 新右衛門篇",
+    "titleRomaji": "Cardfight!! Vanguard: Shinemon-hen",
+    "officialSiteUrl": "https://anime.cf-vanguard.com/",
+    "animeThemesUrl": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+    "identifierSource": {
+      "label": "AnimeThemes：作品識別交叉連結",
+      "url": "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
+      "language": "en"
     },
-    broadcastTimeJst: "08:00",
-    themes: [
+    "broadcastTimeJst": "08:00",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Lead the way",
-        artistDisplayName: "相羽あいな",
-        releaseDate: "2019-10-16",
-"followUp": [],
-"songId": "cardfight-vanguard-shinemon-hen-op-1-song",
-"seasonIds": [
-  "2019-summer",
-  "2019-fall",
-  "2020-winter"
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
-    "url": "https://bushiroad-music.com/musics/brmm-10211/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "ブシロード公式チャンネル 官方影片",
-    "url": "https://www.youtube.com/watch?v=YwssMJO4T8s",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "動畫官方網站",
-    "url": "https://anime.cf-vanguard.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
-    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "アニメイトタイムズ：原文歌曲與用途",
-    "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
-    "language": "ja",
-    "role": "cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "cardfight-vanguard-shinemon-hen-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/news/details.php?id=1566534108"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "cardfight-vanguard-shinemon-hen-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/news/details.php?id=1566534108"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Lead the way",
+        "artistDisplayName": "相羽あいな",
+        "releaseDate": "2019-10-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "已知第19話是編號回顧。逐話表將該話列作「曲なし」，常規曲目總表仍涵蓋該話。",
+            "resumeWhen": "待可查閱的日本原播或授權第19話開場／結尾，核對各欄實際用曲與剪輯。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "songId": "cardfight-vanguard-shinemon-hen-op-1-song",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
+            "url": "https://bushiroad-music.com/musics/brmm-10211/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-07"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YwssMJO4T8s",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://anime.cf-vanguard.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-07"
+          },
+          {
+            "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
+            "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "label": "アニメイトタイムズ：原文歌曲與用途",
+            "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://bushiroad.com/media/8521",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bushiroad.com/media/10674",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5409/goods",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1809060311",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809060316",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809060545",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1566534108"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1566534108"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/8521",
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://bushiroad.com/media/10674",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/8521",
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YwssMJO4T8s",
+              "https://cal.syoboi.jp/tid/5409/goods"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10211"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809060316"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809060316"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809060545"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809060545"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://music.apple.com/hk/album/1809060311"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1809060311"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YwssMJO4T8s",
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "YwssMJO4T8s"
+          }
+        ],
+        "id": "cardfight-vanguard-shinemon-hen-op-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Lead the way｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809060316",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809060311",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Lead the way -instrumental-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809060545",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809060311",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+          }
+        ],
+        "usageLabel": "第1–18、20–29、31話片頭。第30話移至片尾。第19話回顧的片頭及片尾待原版覆核。",
+        "credits": [
+          {
+            "name": "相羽あいな",
+            "role": "vocals"
+          },
+          {
+            "name": "RUCCA",
+            "role": "lyrics"
+          },
+          {
+            "name": "上松範康",
+            "role": "composition"
+          },
+          {
+            "name": "菊田大介",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal",
+            "title": "Lead the way",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental",
+            "title": "Lead the way -instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10211",
+            "title": "Lead the way",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽あいな",
+            "edition": "Blu-ray付生產限定盤 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10211"
+          },
+          {
+            "id": "brmm-10212",
+            "title": "Lead the way",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽あいな",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10212"
+          },
+          {
+            "id": "apple-hk-1809060311",
+            "title": "Lead the way",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽亞衣奈",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "ギフト",
-        artistDisplayName: "Argonavis",
-        releaseDate: "2019-08-21",
-        credits: [
-          { name: "Argonavis", role: "vocals" },
-          { name: "中村航", role: "lyrics" },
-          { name: "白神真志朗", role: "composition" },
-          { name: "廣澤優也", role: "arrangement" }
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ギフト",
+        "artistDisplayName": "Argonavis",
+        "releaseDate": "2019-08-21",
+        "credits": [
+          {
+            "name": "Argonavis",
+            "role": "vocals"
+          },
+          {
+            "name": "中村航",
+            "role": "lyrics"
+          },
+          {
+            "name": "白神真志朗",
+            "role": "composition"
+          },
+          {
+            "name": "廣澤優也",
+            "role": "arrangement"
+          }
         ],
-"followUp": [],
-"songId": "cardfight-vanguard-shinemon-hen-ed-1-song",
-"seasonIds": [
-  "2019-summer",
-  "2019-fall"
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
-    "url": "https://argo-bdp.com/music/post-2702/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "動畫官方網站",
-    "url": "https://anime.cf-vanguard.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
-    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "アニメイトタイムズ：原文歌曲與用途",
-    "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
-    "language": "ja",
-    "role": "cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/news/details.php?id=1566534108"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/news/details.php?id=1566534108"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第19話為編號回顧。逐話表列「曲なし」，常規片尾總表範圍則延至第19話。實體唱片另收伴奏。",
+            "resumeWhen": "待可查閱的日本原播或授權第19話結尾，並核對香港伴奏正式曲目。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "songId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "《卡片戰鬥先導者 新右衛門篇》第一方音樂資料：曲目、用途與演唱版本",
+            "url": "https://argo-bdp.com/music/post-2702/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-07"
+          },
+          {
+            "label": "動畫官方網站",
+            "url": "https://anime.cf-vanguard.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-07"
+          },
+          {
+            "label": "株式会社ブシロード（刊載：PR TIMES）：原文歌曲與用途",
+            "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "label": "アニメイトタイムズ：原文歌曲與用途",
+            "url": "https://www.animatetimes.com/news/details.php?id=1566534108",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://bushiroad.com/media/8521",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-osaka.co.jp/onair/detail/oaid=1795612/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5409/goods",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bushiroad-music.com/topics/567/",
+            "label": "權利方配信日期及版本說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1806604111",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1806604114",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JttNiFDRIbI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dqNNB180oDY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002051.000014827.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1566534108"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/news/details.php?id=1566534108"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/8521",
+              "https://argo-bdp.com/music/post-2702/",
+              "https://www.tv-osaka.co.jp/onair/detail/oaid=1795612/",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://cal.syoboi.jp/tid/5409/goods"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/",
+              "https://cal.syoboi.jp/tid/5409/goods"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10206"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://argo-bdp.com/music/post-2702/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10207"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1806604114"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1806604114"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/567/",
+              "https://music.apple.com/hk/album/1806604111"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1806604111"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/567/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=JttNiFDRIbI"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "JttNiFDRIbI"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=dqNNB180oDY"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-1-song-voice-concert-live"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=dqNNB180oDY"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "dqNNB180oDY"
+          }
+        ],
+        "id": "cardfight-vanguard-shinemon-hen-ed-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ギフト｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1806604114",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1806604111",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal"
+          }
+        ],
+        "usageLabel": "第1–18話片尾。第19話回顧的片尾待原版覆核。",
+        "recordings": [
+          {
+            "id": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal",
+            "title": "ギフト",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-ed-1-song-single-instrumental",
+            "title": "ギフト（instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-ed-1-song-voice-concert-live",
+            "title": "ギフト（2nd LIVE「VOICE -星空の下の約束-」）",
+            "kind": "live",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10206",
+            "title": "STARTING OVER/ギフト",
+            "type": "single",
+            "date": {
+              "value": "2019-08-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "Blu-ray付生產限定盤 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ギフト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal"
+              },
+              {
+                "title": "ギフト（instrumental）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10206"
+          },
+          {
+            "id": "brmm-10207",
+            "title": "STARTING OVER/ギフト",
+            "type": "single",
+            "date": {
+              "value": "2019-08-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ギフト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal"
+              },
+              {
+                "title": "ギフト（instrumental）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10207"
+          },
+          {
+            "id": "apple-hk-1806604111",
+            "title": "STARTING OVER/ギフト",
+            "type": "ep",
+            "date": {
+              "value": "2019-08-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "Argonavis",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ギフト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-single-vocal"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "ぼくらのターン",
-        artistDisplayName: "虹のコンキスタドール",
-        versionLabel: "2020-01-11 起片尾曲",
-        releaseDate: "2020-01-22",
-        credits: [
-          { name: "虹のコンキスタドール", role: "vocals" },
-          { name: "浅野尚志", role: "lyrics" },
-          { name: "浅野尚志", role: "composition" },
-          { name: "浅野尚志", role: "arrangement" }
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "ぼくらのターン",
+        "artistDisplayName": "虹のコンキスタドール",
+        "releaseDate": "2020-01-22",
+        "credits": [
+          {
+            "name": "虹のコンキスタドール",
+            "role": "vocals"
+          },
+          {
+            "name": "浅野尚志",
+            "role": "lyrics"
+          },
+          {
+            "name": "浅野尚志",
+            "role": "composition"
+          },
+          {
+            "name": "浅野尚志",
+            "role": "arrangement"
+          }
         ],
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本曲原文曲名、完整演唱名義及片尾用途仍待本篇第一方資料核對，實際使用季度亦待確認。",
-    "resumeWhen": "取得《新右衛門編》公開第一方資料明確列出此曲原名、完整演唱名義及片尾用途，並與本篇日本原播日期相互對應後補充。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "已核原單曲、伴奏及冬季實際片尾用曲。",
+            "resumeWhen": "待製作方發行片尾 TV 剪輯或確認原播剪輯與商業母帶的關係。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "id": "cardfight-vanguard-shinemon-hen-ed-2",
+        "songId": "cardfight-vanguard-shinemon-hen-ed-2-song",
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+              "https://anime.cf-vanguard.com/vg2018-if/story/r20/",
+              "https://bushiroad.com/media/10674",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+              "https://thetv.jp/news/detail/210526/p2/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+              "https://2zicon.tokyo/discography/bokuranoturn2020/",
+              "https://www.uta-net.com/song/280463/",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+              "https://www.uta-net.com/song/280463/",
+              "https://tower.jp/item/4977567"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://2zicon.tokyo/discography/bokuranoturn2020/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://2zicon.tokyo/discography/bokuranoturn2020/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://2zicon.tokyo/discography/bokuranoturn2020/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kizm-645"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+              "https://tower.jp/item/4977567"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kizm-645"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1494454750"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1494454750"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1494454751"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1494454751"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://2zicon.tokyo/discography/bokuranoturn2020/",
+              "https://music.apple.com/hk/album/1494454625"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1494454625"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://2zicon.tokyo/discography/bokuranoturn2020/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-2-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+              "https://2zicon.tokyo/discography/bokuranoturn2020/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "jlX_8QPjZmY"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ぼくらのターン｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1494454750",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1494454625",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ぼくらのターン inst｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1494454751",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1494454625",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-instrumental"
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jlX_8QPjZmY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime.cf-vanguard.com/vg2018-if/story/r20/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bushiroad.com/media/10674",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://thetv.jp/news/detail/210526/p2/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://2zicon.tokyo/discography/bokuranoturn2020/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/280463/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977567",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1494454625",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1494454750",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1494454751",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "第20–29、31話片尾，於第20話（2020/1/11）換入。第30話改用特別片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "cardfight-vanguard-shinemon-hen-ed-2-song-single-vocal",
+            "title": "ぼくらのターン",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-ed-2-song-single-instrumental",
+            "title": "ぼくらのターン inst",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kizm-645",
+            "title": "ぼくらのターン",
+            "type": "single",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "虹のコンキスタドール",
+            "edition": "CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ぼくらのターン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-vocal"
+              },
+              {
+                "title": "ぼくらのターン inst",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "King Records",
+            "catalogNumber": "KIZM-645"
+          },
+          {
+            "id": "apple-hk-1494454625",
+            "title": "BOKURA NO TURN",
+            "type": "single",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "NIJI NO CONQUISTADOR",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ぼくらのターン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-vocal"
+              },
+              {
+                "title": "ぼくらのターン inst",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-ed-2-song-single-instrumental"
+              }
+            ],
+            "label": "King Records"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "id": "cardfight-vanguard-shinemon-hen-ed-3",
+        "titleJa": "Lead the way",
+        "artistDisplayName": "相羽あいな",
+        "songId": "cardfight-vanguard-shinemon-hen-op-1-song",
+        "sources": [
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%89%87%E6%88%B0%E9%AC%A5%E5%85%88%E5%B0%8E%E8%80%85",
+            "label": "繁中歌曲表記載第30話片尾替換",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bushiroad.com/media/10627",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bushiroad-music.com/musics/brmm-10211/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.b-ch.com/titles/6584/044",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YwssMJO4T8s",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5409/goods",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1809060311",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809060316",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809060545",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Lead the way｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809060316",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809060311",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Lead the way -instrumental-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809060545",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809060311",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad.com/media/10627",
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://www.b-ch.com/titles/6584/044",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+              "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%89%87%E6%88%B0%E9%AC%A5%E5%85%88%E5%B0%8E%E8%80%85"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://www.youtube.com/watch?v=YwssMJO4T8s",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YwssMJO4T8s",
+              "https://cal.syoboi.jp/tid/5409/goods"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10211"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "brmm-10212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809060316"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809060316"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809060545"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809060545"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/musics/brmm-10211/",
+              "https://music.apple.com/hk/album/1809060311"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1809060311"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第30話（2020/3/21）特別片尾，同話省略片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "相羽あいな",
+            "role": "vocals"
+          },
+          {
+            "name": "RUCCA",
+            "role": "lyrics"
+          },
+          {
+            "name": "上松範康",
+            "role": "composition"
+          },
+          {
+            "name": "菊田大介",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal",
+            "title": "Lead the way",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental",
+            "title": "Lead the way -instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "brmm-10211",
+            "title": "Lead the way",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽あいな",
+            "edition": "Blu-ray付生產限定盤 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10211"
+          },
+          {
+            "id": "brmm-10212",
+            "title": "Lead the way",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽あいな",
+            "edition": "通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music",
+            "catalogNumber": "BRMM-10212"
+          },
+          {
+            "id": "apple-hk-1809060311",
+            "title": "Lead the way",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "相羽亞衣奈",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Lead the way",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-vocal"
+              },
+              {
+                "title": "Lead the way -instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "releaseDate": "2019-10-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "official_video"
+            ],
+            "note": "第30話片尾沿用常規片頭歌曲。",
+            "resumeWhen": "待權利方提供可查閱的原期第30話片尾或發行資訊，辨別正片片尾剪輯的錄音與長度。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "cardfight-vanguard-shinemon-hen-in-1",
+        "titleJa": "マーメイド・グラフィティ",
+        "artistDisplayName": "高蔵寺ヒトミ（CV：伊藤彩沙）",
+        "songId": "cardfight-vanguard-shinemon-hen-in-1-song",
+        "sources": [
+          {
+            "url": "https://bushiroad-music.com/topics/658/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cf-vanguard.com/wordpress/wp-content/uploads/weekly_vg_191119.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime.cf-vanguard.com/vg2018-if/story/r20/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blog.livedoor.jp/shusekichilovers-genius/archives/39503699.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://globe-eb.com/song2019.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1809350647",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809350657",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1809350659",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "マーメイド・グラフィティ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809350657",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809350647",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "マーメイド・グラフィティ (instrumental)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1809350659",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1809350647",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/",
+              "https://cf-vanguard.com/wordpress/wp-content/uploads/weekly_vg_191119.pdf",
+              "https://anime.cf-vanguard.com/vg2018-if/story/r20/",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)",
+              "https://blog.livedoor.jp/shusekichilovers-genius/archives/39503699.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/",
+              "https://globe-eb.com/song2019.html",
+              "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://globe-eb.com/song2019.html",
+              "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%95%E3%82%A1%E3%82%A4%E3%83%88!!_%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%AC%E3%83%BC%E3%83%89_(2018%E5%B9%B4%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1)"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809350657"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809350657"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1809350659"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1809350659"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/",
+              "https://music.apple.com/hk/album/1809350647"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1809350647"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/",
+              "https://music.apple.com/hk/song/1809350659"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://bushiroad-music.com/topics/658/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cardfight-vanguard-shinemon-hen-in-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "第18話（2019/12/21）由高蔵寺ヒトミ演唱，第20話（2020/1/11）在車內播放。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "高蔵寺ヒトミ（CV：伊藤彩沙）",
+            "role": "vocals"
+          },
+          {
+            "name": "磯谷佳江",
+            "role": "lyrics"
+          },
+          {
+            "name": "小野貴光",
+            "role": "composition"
+          },
+          {
+            "name": "玉木千尋",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-vocal",
+            "title": "マーメイド・グラフィティ",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-instrumental",
+            "title": "マーメイド・グラフィティ (instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1809350647",
+            "title": "マーメイド・グラフィティ",
+            "type": "single",
+            "date": {
+              "value": "2019-12-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "高蔵寺ヒトミ(CV:伊藤彩沙)",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "マーメイド・グラフィティ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-vocal"
+              },
+              {
+                "title": "マーメイド・グラフィティ (instrumental)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "cardfight-vanguard-shinemon-hen-in-1-song-digital-single-instrumental"
+              }
+            ],
+            "label": "Bushiroad Music"
+          }
+        ],
+        "releaseDate": "2019-12-22",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "official_video"
+            ],
+            "note": "已核兩次劇中使用的演唱名義及正式原曲／伴奏曲目。",
+            "resumeWhen": "待原期片段或製作方錄音說明，核對兩話用曲與正式數位錄音的剪輯關係。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       }
     ],
-"broadcastLabel": "2019年日本TV《新右衛門編》，官方公告8月24日週六08:00起播。一般《ヴァンガード》節目表另列08:00–08:30時段，配合本篇日本原播話數資料核對版別；節目時段非淨片長，本篇原播跨至2020年3月；英語版及重播另計。",
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://anime.cf-vanguard.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "AnimeThemes：作品識別交叉連結",
-    "url": "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://youranimes.tw/bangumi/201907",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201907/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_summer.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-07"
-  },
-  {
-    "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：一般Vanguard節目時段（編名另以公告及原播話數核對，非淨長）",
-    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "Wikipedia：本篇日本原播話數與日期交叉資料（英語版另列）",
-    "url": "https://en.wikipedia.org/wiki/Cardfight!!_Vanguard:_Shinemon",
-    "language": "en",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
+    "broadcastLabel": "日本原TV全31話，2019/8/24–2020/3/28。テレビ愛知・テレビ東京系列週六08:00–08:30 JST，BSテレ東 11:00，Abemaビデオ 21:00網路首播，YouTube ヴァンガードch 23:30。第1–6話屬2019夏，第7–19話屬2019秋，第20–31話屬2020冬。第19話為編號回顧，2020/1/4停播。3/8另有未編號特番。",
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://anime.cf-vanguard.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "AnimeThemes：作品識別交叉連結",
+        "url": "https://api.animethemes.moe/anime/cardfight_vanguard_shinemon_hen?include=resources",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://youranimes.tw/bangumi/201907",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/cardfight_vanguard_shinemon_hen",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201907/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_summer.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://prtimes.jp/main/html/rd/p/000002051.000014827.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "label": "メディア芸術コンソーシアムJV事務局（刊載：文化庁公開報告書）：一般Vanguard節目時段（編名另以公告及原播話數核對，非淨長）",
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "Wikipedia：本篇日本原播話數與日期交叉資料（英語版另列）",
+        "url": "https://en.wikipedia.org/wiki/Cardfight!!_Vanguard:_Shinemon",
+        "language": "en",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://bushiroad.com/media/8521",
+        "label": "製作方同版日本原TV首播、同日配信與各台時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime.cf-vanguard.com/vg2018-if/story/cat/shinemon/",
+        "label": "動畫官方新右衛門篇日本原播集目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-osaka.co.jp/onair/detail/oaid=1795612/",
+        "label": "テレビ大阪原播集數19及08:00–08:30時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime.cf-vanguard.com/vg2018-if/story/r20/",
+        "label": "動畫官方第20話日本原播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://bushiroad.com/media/10627",
+        "label": "製作方原期第30話播映預告與時刻",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://bushiroad.com/media/10674",
+        "label": "製作方第31話原期終映及配信時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime.cf-vanguard.com/vg2018-if/topics/2020/03/04/2298/",
+        "label": "動畫官方3月8日獨立特別節目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5409/time",
+        "label": "日本TV逐話首播、1月4日停播及重播區間",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://bangumi.tv/subject/290591/ep",
+        "label": "中文逐話首播日交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hans",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-16"
   },
   {
     anilistId: 102427,

@@ -178,7 +178,8 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   expect(await results.first().locator(".song-row__song").textContent()).not.toBe(firstTitle);
   await page.locator(".playlist-filters summary").click();
   await page.getByRole("combobox", { name: "排序", exact: true }).selectOption("oldest");
-  await expect(results.first().locator(".song-row__season")).toHaveText("2019 夏季");
+  const oldestSeason = curatedSeasons.at(-1)!;
+  await expect(results.first().locator(".song-row__season")).toHaveText(`${oldestSeason.year} ${oldestSeason.titleZhHant.replace("動畫", "")}`);
   await page.getByRole("combobox", { name: "排序", exact: true }).selectOption("newest");
   await expect(results.first().locator(".song-row__season")).toHaveText(`${curatedSeasons[0]!.year} ${curatedSeasons[0]!.titleZhHant.replace("動畫", "")}`);
   await page.getByRole("combobox", { name: "年份", exact: true }).selectOption("2026");

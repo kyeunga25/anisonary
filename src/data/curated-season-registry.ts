@@ -1,3 +1,4 @@
+import { curated2018SpringAnimeIds, curated2018SpringSeeds } from "@/data/curated-seeds/2018/spring";
 import { curatedAnimeKey } from "@/data/curated-seeds/types";
 import { curated2026FallAnimeIds, curated2026FallSeeds } from "@/data/curated-seeds/2026/fall";
 import {
@@ -291,7 +292,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "春季動畫",
     titleJa: "2024年春アニメ",
     seeds: curated2024SpringSeeds,
-    animeIds: [...curated2024SpringAnimeIds.slice(0, 84), 153518, 139518, 147850, 153818, 155645, 162985, 151639, 164204, 165254, 163024, 158871, 21, 235,-202424102]
+    animeIds: [...curated2024SpringAnimeIds.slice(0, 84), 153518, 139518, 147850, 153818, 155645, 162985, 151639, 164204, 165254, 163024, 158871, 21, 235,-202424102, 20628, 100780]
   },
   {
     id: "2024-winter",
@@ -300,7 +301,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleZhHant: "冬季動畫",
     titleJa: "2024年冬アニメ",
     seeds: curated2024WinterSeeds,
-    animeIds: [...curated2024WinterAnimeIds, 146493, 148862, 151970, 154116, 154587, 158791, 161645, 163024, 160514, 162209, 142599, 163256, 158871, 157883, 21, 235, 159926]
+    animeIds: [...curated2024WinterAnimeIds, 146493, 148862, 151970, 154116, 154587, 158791, 161645, 163024, 160514, 162209, 142599, 163256, 158871, 157883, 21, 235, 159926, 20628]
   },
   {
     id: "2023-fall",
@@ -432,6 +433,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     animeIds: [...curated2020SummerAnimeIds, 97938, 110349, 115656, 111310, 21, 112153, 235, 112302, 114072, 114411, 113990, 114717, 114811, 109019, 111762, 116793, 118630, 112325, 112444, 113051, 114043, 114402, 114888, 124341, 108522, 114233, 113472, 104462, 112748, -201723701,
  101239,
 110788,
+100780, 109616
 ]
   },
   {
@@ -444,7 +446,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     animeIds: [...curated2020SpringAnimeIds, 21, 112153, 235, 113472, 98515, 101168, 104462, 107420, 106625, 107651, 112748, 110354, 101239,
 104276,
 
-  109616, 111048, -201723701, 110788, 101634]
+  109616, 111048, -201723701, 110788, 101634, 100780, 20628, 110786]
   },
   {
     id: "2020-winter",
@@ -459,7 +461,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
 101349, 104679,
 111144,
 
-  100780, 110788]
+  100780, 110788, 104159, 110786, 103638, 100891, 109616]
   },
   {
     id: "2019-fall",
@@ -476,9 +478,19 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     quarter: "summer",
     titleZhHant: "夏季動畫",
     titleJa: "2019年夏アニメ",
-    coverageNote: "本季正在補充，目前收錄 43 套作品，包括 38 套 TV 與 5 套網絡連載。其餘作品及特殊歌曲版本仍待核對。",
+    coverageNote: "本季正在補充，目前收錄 44 套作品，包括 38 套 TV、5 套網絡連載及 1 套劇場先行作品。其餘作品及特殊歌曲版本仍待核對。",
     seeds: curated2019SummerSeeds,
-    animeIds: [...curated2019SummerAnimeIds, 108146]
+    animeIds: [...curated2019SummerAnimeIds, 108146, 100780]
+  },
+  {
+    id: "2018-spring",
+    year: 2018,
+    quarter: "spring",
+    titleZhHant: "春季動畫",
+    titleJa: "2018年春アニメ",
+    coverageNote: "本季先收錄已核對的《銀河英雄傳說：全新命題 邂逅》，其餘作品與歌曲仍待盤點。",
+    seeds: curated2018SpringSeeds,
+    animeIds: curated2018SpringAnimeIds
   }
 ] as const);
 

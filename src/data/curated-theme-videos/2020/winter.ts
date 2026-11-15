@@ -1,6 +1,72 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "112686:ED:2": [
+    {
+      "youtubeVideoId": "Rkkp398hHqU",
+      "title": "生きてゆく",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+    }
+  ],
+  "112686:ED:1": [
+    {
+      "youtubeVideoId": "XpYFmO5RT5k",
+      "title": "Synchro",
+      "channelName": "サイダーガール",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "7seeds-2-ed-1-song-album-vocal"
+    }
+  ],
+  "112686:OP:1": [
+    {
+      "youtubeVideoId": "6d74CgjbeC8",
+      "title": "上白石萌音 - 「From The Seeds」（Full Ver.）",
+      "channelName": "MONEofficialVEVO",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "VoNZeFRDT3o",
+      "title": "アニメ『7SEEDS』 第2期PV",
+      "channelName": "TVアニメ『7SEEDS』公式",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110613:ED:1": [
+    {
+      "youtubeVideoId": "YN4BTya4W0k",
+      "title": "犬生は一度きり｜官方試聽（含兩首插曲）",
+      "channelName": "avex pictures",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110613:OP:1": [
+    {
+      "youtubeVideoId": "UR-9lPGxUmA",
+      "title": "Sunny Sunny Girl◎｜唱片公司官方 MV",
+      "channelName": "Lantis Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "101634:IN:14": [
     {
       "youtubeVideoId": "J0d1QI74S6U",
