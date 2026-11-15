@@ -265,6 +265,15 @@ export const curated2020SummerThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {
+      youtubeVideoId: "PN0Nu9oDAJw",
+      title: "TVアニメ「Re:ゼロから始める異世界生活」2nd season EDテーマ「Memento」アニメMV",
+      type: "music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
   ],
   "110353:OP:1": [
     {

@@ -9,6 +9,15 @@ export const curated2021WinterThemeVideos = {
       channelName: "DIALOGUE＋Official Channel",
       officialStatus: "official",
       embeddable: true
+    },
+    {
+      youtubeVideoId: "gsKKUARdgE0",
+      title: "人生イージー？｜《弱角友崎同學》官方片頭影像",
+      type: "other",
+      channelName: "TVアニメ「弱キャラ友崎くん」公式チャンネル",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
     }
   ],
   "112443:ED:1": [
@@ -29,6 +38,17 @@ export const curated2021WinterThemeVideos = {
       channelName: "DIALOGUE＋Official Channel",
       officialStatus: "official",
       embeddable: true
+    }
+  ],
+  "109010:OP:1": [
+    {
+      youtubeVideoId: "qrr_u2KITxI",
+      title: "《ICHU偶像進行曲》第四彈PV｜一番星の歌～未来のレジェンド伝説～",
+      type: "pv",
+      channelName: "TWIN ENGINE",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
     }
   ],
   "109010:OP:2": [
@@ -109,7 +129,16 @@ export const curated2021WinterThemeVideos = {
       channelName: "KADOKAWAanime",
       officialStatus: "official",
       embeddable: true
-    }
+    },
+    {
+      youtubeVideoId: "PN0Nu9oDAJw",
+      title: "TVアニメ「Re:ゼロから始める異世界生活」2nd season EDテーマ「Memento」アニメMV",
+      type: "music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
   ],
   "124131:ED:1": [
     {
@@ -159,7 +188,8 @@ export const curated2021WinterThemeVideos = {
       channelName: "神山羊 / Yoh Kamiyama",
       officialStatus: "official",
       embeddable: true
-    }
+    },
+    {"youtubeVideoId":"Gt8_9xhgew4","title":"色香水 (CORSAK Remix)｜SACRA BEATS","type":"music_video","channelName":"SACRA MUSIC","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"horimiya-op-1-song-corsak-remix"},
   ],
   "124080:ED:1": [
     {
@@ -241,10 +271,11 @@ export const curated2021WinterThemeVideos = {
     {
       youtubeVideoId: "IeZFEkHZku4",
       title: "TVアニメ『WIXOSS DIVA(A)LIVE』 OP",
-      type: "other",
+      type: "tv_size",
       channelName: "Warner Bros. Japan Anime",
       officialStatus: "official",
       embeddable: true,
+      recordingId: "wixoss-diva-a-live-op-1-song-tv-size",
     },
   ],
   "124223:OP:1": [
@@ -267,6 +298,9 @@ export const curated2021WinterThemeVideos = {
       embeddable: true,
     },
   ],
+  "116287:OP:1": [
+    {"youtubeVideoId":"ey_9CIQQHXo","title":"醜い生き物｜CHiCO with HoneyWorks 官方MV","type":"music_video","channelName":"CHiCO / CHiCO with HoneyWorks","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
   "116287:ED:1": [
     {
       youtubeVideoId: "lZr3KjqajrA",
@@ -277,6 +311,7 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"KkkstvyEr4I","title":"You & Me (Night Tempo Melting Groove Mix)｜官方歌詞影片","type":"lyric_video","channelName":"佐藤ミキ Official YouTube Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"ura-sekai-picnic-ed-1-song-night-tempo-remix"},
   ],
   "106503:ED:1": [
     {
@@ -509,6 +544,13 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"YHmDVYZOdbc","title":"Chase the core (TV Size)｜唱片方 Art Track","type":"art_track","channelName":"Takao Sakuma - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"skate-leading-stars-op-1-song-soundtrack-tv-size"},
+  ],
+  "113585:ED:1": [
+    {"youtubeVideoId":"CytLhooGfFg","title":"JUMP｜仲村宗悟官方MV","type":"full_music_video","channelName":"仲村宗悟 Official Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+  ],
+  "112649:OP:1": [
+    {"youtubeVideoId":"9OfHcJTY7KY","title":"たとえばそれは勇気の魔法｜官方試聽MV","type":"music_video","channelName":"NBCUniversal Anime/Music","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "112649:ED:1": [
     {
@@ -520,6 +562,8 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"BxKg6L1_oI0","title":"I’mpossible？｜官方試聽MV","type":"music_video","channelName":"NBCUniversal Anime/Music","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
+    {"youtubeVideoId":"INCqW4UdU84","title":"I’mpossible？｜官方舞蹈版MV","type":"music_video","channelName":"NBCUniversal Anime/Music","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "125428:OP:1": [
     {
@@ -940,6 +984,7 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"SvTb43SY460","title":"〈Seize The Day〉｜官方無字幕片頭","type":"creditless_op","channelName":"FURYU Pictures Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "104459:ED:1": [
     {
@@ -951,6 +996,7 @@ export const curated2021WinterThemeVideos = {
       officialStatus: "official",
       embeddable: true,
     },
+    {"youtubeVideoId":"qJ-Kx7IKYEA","title":"〈はるのとなり〉｜官方無字幕片尾","type":"creditless_ed","channelName":"FURYU Pictures Channel","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"},
   ],
   "119661:OP:1": [
     {
@@ -969,6 +1015,59 @@ export const curated2021WinterThemeVideos = {
       title:
         "TVアニメ「Re:ゼロから始める異世界生活」2nd season 後期EDテーマ「Believe in you」 nonoc 視聴動画",
       type: "other",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "119661:ED:3": [
+    {
+      youtubeVideoId: "p8X5hG51jbA",
+      title: "TVアニメ「Re:ゼロから始める異世界生活」2nd season 後期OPテーマ「Long shot」MV",
+      type: "full_music_video",
+      channelName: "KADOKAWAanime",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
+  "119661:IN:1": [
+    {
+      youtubeVideoId: "4LpNmCo2mEU",
+      title: "Door",
+      type: "art_track",
+      channelName: "エミリア（CV：高橋李依） - Topic",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
+  ],
+  "119661:IN:2": [
+    {
+      youtubeVideoId: "C9r6v3DjvHo",
+      title: "あなたの知らないこと",
+      type: "art_track",
+      channelName: "Release - Topic",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
+  ],
+  "119661:IN:3": [
+    {
+      youtubeVideoId: "C5yc0FPP7po",
+      title: "STRAIGHT BET",
+      type: "art_track",
+      channelName: "MYTH & ROID - Topic",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
+  ],
+  "119661:IN:4": [
+    {
+      youtubeVideoId: "uaRnwnmqrws",
+      title: "TVアニメ「Re:ゼロから始める異世界生活」2nd season OPテーマ「Realize」Music Video (Full size)",
+      type: "full_music_video",
       channelName: "KADOKAWAanime",
       officialStatus: "official",
       embeddable: true,
@@ -1224,4 +1323,59 @@ export const curated2021WinterThemeVideos = {
   "126905:ED:1": [{"youtubeVideoId":"5oFA5iwNkXs","title":"「トロピカル～ジュ！プリキュア」エンディング主題歌「トロピカ Ｉ・Ｎ・Ｇ」（ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "126905:ED:2": [{"youtubeVideoId":"gLGe8w0vuNg","title":"「トロピカル～ジュ！プリキュア」後期エンディング主題歌「あこがれ Go My Way!!」（ノンテロップver)","type":"creditless_ed","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "126905:OP:1": [{"youtubeVideoId":"jZk_rwLgsC4","title":"「トロピカル～ジュ！プリキュア」オープニング主題歌「Viva! Spark!トロピカル～ジュ！プリキュア」（ノンテロップver)","type":"creditless_op","channelName":"プリキュア公式YouTubeチャンネル","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "119123:OP:1": [
+    {
+      youtubeVideoId: "CxE6Yfj9AwA",
+      title: "Dream hopper｜逢田梨香子官方MV",
+      type: "music_video",
+      channelName: "逢田梨香子 / りきゃこ",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    },
+    {
+      youtubeVideoId: "Myd0wmJa8Pw",
+      title: "Dream hopper｜The night before Nostalgic官方實況",
+      type: "live",
+      channelName: "逢田梨香子 / りきゃこ",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+      recordingId: "soukou-musume-senki-op-1-song-live-2022-05-01"
+    }
+  ],
+  "119123:ED:1": [
+    {
+      youtubeVideoId: "UX8_xSOZfUc",
+      title: "コンパスソング｜鹿乃官方MV",
+      type: "music_video",
+      channelName: "鹿乃 / Kano official channel",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    }
+  ],
+  "119123:ED:2": [
+    {
+      youtubeVideoId: "CxE6Yfj9AwA",
+      title: "Dream hopper｜逢田梨香子官方MV",
+      type: "music_video",
+      channelName: "逢田梨香子 / りきゃこ",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown"
+    },
+    {
+      youtubeVideoId: "Myd0wmJa8Pw",
+      title: "Dream hopper｜The night before Nostalgic官方實況",
+      type: "live",
+      channelName: "逢田梨香子 / りきゃこ",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+      recordingId: "soukou-musume-senki-op-1-song-live-2022-05-01"
+    }
+  ],
+  "123785:OP:1": [{"youtubeVideoId":"Ej3UYgg2Nnw","title":"プレイタの傷 (yuzen Remix)｜官方音源","type":"art_track","channelName":"嵐柴エイジ（CV：髙坂篤志）ほか - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"praeter-no-kizu-op-1-song-yuzen-remix"}],
+  "123785:ED:1": [{"youtubeVideoId":"wigApYkxzUs","title":"BUSTLING SHOW (yuzen Remix)｜官方音源","type":"art_track","channelName":"嵐柴エイジ（CV：髙坂篤志）ほか - Topic","officialStatus":"official","embeddable":false,"embedAvailability":"unknown","recordingId":"praeter-no-kizu-ed-1-song-yuzen-remix"}],
 } satisfies CuratedThemeVideoOverrideMap;
