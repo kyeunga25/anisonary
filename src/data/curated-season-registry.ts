@@ -444,7 +444,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     animeIds: [...curated2020SpringAnimeIds, 21, 112153, 235, 113472, 98515, 101168, 104462, 107420, 106625, 107651, 112748, 110354, 101239,
 104276,
 
-  109616, 111048, -201723701, 110788]
+  109616, 111048, -201723701, 110788, 101634]
   },
   {
     id: "2020-winter",

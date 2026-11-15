@@ -7335,413 +7335,3082 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     ],
   },
   {
-    anilistId: 103275,
-    slug: "fate-grand-order-zettai-majuu-sensen-babylonia",
-    startDate: "2019-10-05",
-    titleJa: "Fate/Grand Order -絶対魔獣戦線バビロニア-",
-    titleZhHant: "Fate/Grand Order -絕對魔獸戰線巴比倫尼亞-",
-    titleRomaji: "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103275-SN0wwshS3tWA.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103275-9vSzr7YzbXQb.jpg",
-    broadcastLabel: "2019年10月5日起日本TV播出；週六23:30–翌日00:00為30分鐘完整節目槽，非本體淨長；2020年1月續第2季度。",
-    officialSiteUrl: "https://anime.fate-go.jp/ep7-tv/",
-    animeThemesUrl:
-      "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
-    themes: [
+    "anilistId": 103275,
+    "slug": "fate-grand-order-zettai-majuu-sensen-babylonia",
+    "startDate": "2019-10-05",
+    "titleJa": "Fate/Grand Order -絶対魔獣戦線バビロニア-",
+    "titleZhHant": "Fate/Grand Order -絕對魔獸戰線巴比倫尼亞-",
+    "titleRomaji": "Fate/Grand Order: Zettai Majuu Sensen Babylonia",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103275-SN0wwshS3tWA.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103275-9vSzr7YzbXQb.jpg",
+    "broadcastLabel": "TOKYO MX 日本原TV 2019/10/5–2020/3/21週六23:30 JST，第1–21話。後段第12話起為2020冬。前傳第0話8/3活動首映、8月先行配信，12/31於年末特番地上波首播。",
+    "officialSiteUrl": "https://anime.fate-go.jp/ep7-tv/",
+    "animeThemesUrl": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Phantom Joke",
-        artistDisplayName: "UNISON SQUARE GARDEN",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://anime.fate-go.jp/ep7-tv/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "unisonsgofficial 官方影片",
-    "url": "https://www.youtube.com/watch?v=HX0EahM6568",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://unison-s-g.com/15th/16thsingle/",
-    "label": "第一方曲目資料：UNISON SQUARE GARDEN公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anison.online/anime/1211",
-    "label": "歌曲交叉資料：アニソン・オンライン",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
-"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://unison-s-g.com/15th/16thsingle/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://unison-s-g.com/15th/16thsingle/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Phantom Joke",
+        "artistDisplayName": "UNISON SQUARE GARDEN",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "保留原TV逐話與已核發行。",
+            "resumeWhen": "待原期音軌及公開完整版播放檢查。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://anime.fate-go.jp/ep7-tv/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HX0EahM6568",
+            "label": "藝人經紀公司確認的官方上架影片，公開播放待核",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://unison-s-g.com/15th/16thsingle/",
+            "label": "第一方曲目資料：UNISON SQUARE GARDEN公式サイト",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anison.online/anime/1211",
+            "label": "歌曲交叉資料：アニソン・オンライン",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480479449",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480479450",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sma.co.jp/s/sma/news/detail/85955?ima=0000",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tfcc-89674"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tfcc-89675"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480479450"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1480479450"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://music.apple.com/hk/album/1480479449"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1480479449"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=HX0EahM6568",
+              "https://www.sma.co.jp/s/sma/news/detail/85955?ima=0000"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "HX0EahM6568"
+          }
+        ],
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Phantom Joke｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1480479450",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1480479449",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+          }
+        ],
+        "usageLabel": "日本原TV跨2019秋與2020冬的片頭曲。第1話移至片尾段落，正規片頭見第2–7、9–12、14–20話。",
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full",
+            "title": "Phantom Joke",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "credits": [
+          {
+            "name": "UNISON SQUARE GARDEN",
+            "role": "vocals"
+          },
+          {
+            "name": "田淵智也",
+            "role": "lyrics"
+          },
+          {
+            "name": "田淵智也",
+            "role": "composition"
+          },
+          {
+            "name": "UNISON SQUARE GARDEN",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "tfcc-89674",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "日本初回盤 CD＋2 LIVE CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFCC-89674"
+          },
+          {
+            "id": "tfcc-89675",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFCC-89675"
+          },
+          {
+            "id": "apple-hk-1480479449",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ],
+        "releaseDate": "2019-10-08"
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "星が降るユメ",
-        artistDisplayName: "藍井エイル",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核2019秋用途；原cour跨2020年界的最後用曲日期仍待逐話確認，不以cour標籤代實際季度。",
-    "resumeWhen": "取得同版本原話數用曲與日本播出日期的直接資料，確認跨年交界後再補用途季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://anime.fate-go.jp/ep7-tv/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "藍井エイル Official YouTube Channel 官方影片",
-    "url": "https://www.youtube.com/watch?v=LYWX6LXSv7c",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.sonymusic.co.jp/artist/aoieir/info/510405",
-    "label": "第一方曲目資料：ソニーミュージック：藍井エイル",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anison.online/anime/1211",
-    "label": "歌曲交叉資料：アニソン・オンライン",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
-  }
-],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "星が降るユメ",
+        "artistDisplayName": "藍井エイル",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "保留原TV逐話與已核發行。",
+            "resumeWhen": "待原期音軌及公開完整版播放檢查。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://anime.fate-go.jp/ep7-tv/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "藍井エイル Official YouTube Channel 官方影片",
+            "url": "https://www.youtube.com/watch?v=LYWX6LXSv7c",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/aoieir/info/510405",
+            "label": "第一方曲目資料：ソニーミュージック：藍井エイル",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anison.online/anime/1211",
+            "label": "歌曲交叉資料：アニソン・オンライン",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/aoieir/info/512749",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538287156",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538287157",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1537904460",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1537904461",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1537904464",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/510405"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512749"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-anime-edition-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vvcl-1573-1574"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vvcl-1575"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vvcl-1576-1577"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538287157"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538287157"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+              "https://music.apple.com/hk/album/1538287156"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538287156"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1537904461"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1537904461"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1537904464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1537904464"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/aoieir/info/512186",
+              "https://music.apple.com/hk/album/1537904460"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1537904460"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1538287156"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song"
+          }
+        ],
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "星が降るユメ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538287157",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538287156",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "星が降るユメ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1537904461",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1537904460",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "星が降るユメ -Instrumental-｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1537904464",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1537904460",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental"
+          }
+        ],
+        "usageLabel": "日本原TV第2–6、8–11話片尾。",
+        "credits": [
+          {
+            "name": "藍井エイル",
+            "role": "vocals"
+          },
+          {
+            "name": "Eir",
+            "role": "lyrics"
+          },
+          {
+            "name": "TAMATE BOX",
+            "role": "composition"
+          },
+          {
+            "name": "TAMATE BOX",
+            "role": "arrangement"
+          },
+          {
+            "name": "三谷秀甫",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full",
+            "title": "星が降るユメ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental",
+            "title": "星が降るユメ -Instrumental-",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-anime-edition-tv-size",
+            "title": "星が降るユメ -TV size ver.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vvcl-1573-1574",
+            "title": "星が降るユメ",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "藍井エイル",
+            "edition": "日本初回盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "星が降るユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+              },
+              {
+                "title": "星が降るユメ -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "SACRA MUSIC",
+            "catalogNumber": "VVCL-1573～1574"
+          },
+          {
+            "id": "vvcl-1575",
+            "title": "星が降るユメ",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "藍井エイル",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "星が降るユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+              },
+              {
+                "title": "星が降るユメ -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "SACRA MUSIC",
+            "catalogNumber": "VVCL-1575"
+          },
+          {
+            "id": "vvcl-1576-1577",
+            "title": "星が降るユメ",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "藍井エイル",
+            "edition": "日本期間限定動畫盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "星が降るユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+              },
+              {
+                "title": "星が降るユメ -TV size ver.-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-anime-edition-tv-size"
+              }
+            ],
+            "label": "SACRA MUSIC",
+            "catalogNumber": "VVCL-1576～1577"
+          },
+          {
+            "id": "apple-hk-1538287156",
+            "title": "星が降るユメ",
+            "type": "single",
+            "date": {
+              "value": "2019-10-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "藍井エイル",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "星が降るユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+              }
+            ],
+            "label": "SACRA MUSIC"
+          },
+          {
+            "id": "apple-hk-1537904460",
+            "title": "星が降るユメ",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "藍井エイル",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "星が降るユメ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-full"
+              },
+              {
+                "title": "星が降るユメ -Instrumental-",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "SACRA MUSIC"
+          }
+        ],
+        "releaseDate": "2019-10-19"
       },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "Prover",
-        artistDisplayName: "milet",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://anime.fate-go.jp/ep7-tv/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "milet Official YouTube Channel 官方影片",
-    "url": "https://www.youtube.com/watch?v=5qftJ2P3lrQ",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.sonymusic.co.jp/artist/milet_music/info/513977",
-    "label": "第一方曲目資料：ソニーミュージック：milet",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://anison.online/anime/1211",
-    "label": "歌曲交叉資料：アニソン・オンライン",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter"
-],
-"songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://anison.online/anime/1211"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
-  }
-],
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Prover",
+        "artistDisplayName": "milet",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "保留原TV逐話與已核發行。",
+            "resumeWhen": "待原期音軌及公開完整版播放檢查。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://anime.fate-go.jp/ep7-tv/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "milet Official YouTube Channel 官方影片",
+            "url": "https://www.youtube.com/watch?v=5qftJ2P3lrQ",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/513977",
+            "label": "第一方曲目資料：ソニーミュージック：milet",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://anison.online/anime/1211",
+            "label": "歌曲交叉資料：アニソン・オンライン",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1544028152",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1544028154",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538265322",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538265547",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515470",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/513977"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anison.online/anime/1211"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2535-2536"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2537"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1544028154"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1544028154"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://music.apple.com/hk/album/1544028152"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1544028152"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2570"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538265547"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538265547"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+              "https://music.apple.com/hk/album/1538265322"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538265322"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515470"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song"
+          }
+        ],
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Prover｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1544028154",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1544028152",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Prover｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538265547",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538265322",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "usageLabel": "日本原TV第12–15、17–21話片尾。第16話另用〈Tell me〉。",
+        "credits": [
+          {
+            "name": "milet",
+            "role": "vocals"
+          },
+          {
+            "name": "milet",
+            "role": "lyrics"
+          },
+          {
+            "name": "TomoLow",
+            "role": "lyrics"
+          },
+          {
+            "name": "milet",
+            "role": "composition"
+          },
+          {
+            "name": "TomoLow",
+            "role": "composition"
+          },
+          {
+            "name": "TomoLow",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full",
+            "title": "Prover",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secl-2535-2536",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本初回盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Prover",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2535～2536"
+          },
+          {
+            "id": "secl-2537",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Prover",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2537"
+          },
+          {
+            "id": "apple-hk-1544028152",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Prover",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-2-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          },
+          {
+            "id": "secl-2570",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Prover",
+                "position": 14,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2570"
+          },
+          {
+            "id": "apple-hk-1538265322",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Prover",
+                "position": 14,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ],
+        "releaseDate": "2020-02-17"
       },
       {
-        type: "ED",
-        sequence: 3,
-        titleJa: "Tell me",
-        artistDisplayName: "milet",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本曲第一方資料目前列為特別主題歌，原片尾曲用途仍待核對。",
-    "resumeWhen": "取得本版逐話片尾曲或明確片尾用途的第一方資料後補充。",
-    "checkedAt": "2026-10-31"
-  },
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
-    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "Tell me",
+        "artistDisplayName": "milet",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "保留原TV逐話與已核發行。",
+            "resumeWhen": "待原期音軌及公開完整版播放檢查。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3",
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song",
+        "sources": [
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515728",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281920/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1544028152",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1544028155",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538265322",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538265334",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515389",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515728",
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515728",
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.anisil.com/animes/4593",
+              "https://www.uta-net.com/song/281920/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2535-2536"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2537"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1544028155"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1544028155"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://music.apple.com/hk/album/1544028152"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1544028152"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2570"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538265334"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538265334"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+              "https://music.apple.com/hk/album/1538265322"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538265322"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515389"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Tell me｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1544028155",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1544028152",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Tell me｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538265334",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538265322",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "usageLabel": "日本原TV第16話特殊片尾；第19話另作劇中插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "milet",
+            "role": "vocals"
+          },
+          {
+            "name": "milet",
+            "role": "lyrics"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "lyrics"
+          },
+          {
+            "name": "milet",
+            "role": "composition"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "composition"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full",
+            "title": "Tell me",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secl-2535-2536",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本初回盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2535～2536"
+          },
+          {
+            "id": "secl-2537",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2537"
+          },
+          {
+            "id": "apple-hk-1544028152",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          },
+          {
+            "id": "secl-2570",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2570"
+          },
+          {
+            "id": "apple-hk-1538265322",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ],
+        "releaseDate": "2020-02-10"
       },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-4",
+        "titleJa": "Phantom Joke",
+        "artistDisplayName": "UNISON SQUARE GARDEN",
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song",
+        "sources": [
+          {
+            "url": "https://unison-s-g.com/15th/16thsingle/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://fategrandorder.fandom.com/wiki/Absolute_Demonic_Battlefront%3A_Babylonia/Episode_1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480479449",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480479450",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Phantom Joke｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1480479450",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1480479449",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://fategrandorder.fandom.com/wiki/Absolute_Demonic_Battlefront%3A_Babylonia/Episode_1"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://fategrandorder.fandom.com/wiki/Absolute_Demonic_Battlefront%3A_Babylonia/Episode_1"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tfcc-89674"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tfcc-89675"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480479450"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1480479450"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/",
+              "https://music.apple.com/hk/album/1480479449"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1480479449"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://unison-s-g.com/15th/16thsingle/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "日本原TV第1話片尾段落使用常規片頭曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "UNISON SQUARE GARDEN",
+            "role": "vocals"
+          },
+          {
+            "name": "田淵智也",
+            "role": "lyrics"
+          },
+          {
+            "name": "田淵智也",
+            "role": "composition"
+          },
+          {
+            "name": "UNISON SQUARE GARDEN",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full",
+            "title": "Phantom Joke",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "tfcc-89674",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "日本初回盤 CD＋2 LIVE CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFCC-89674"
+          },
+          {
+            "id": "tfcc-89675",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFCC-89675"
+          },
+          {
+            "id": "apple-hk-1480479449",
+            "title": "Phantom Joke",
+            "type": "single",
+            "date": {
+              "value": "2019-10-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "UNISON SQUARE GARDEN",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Phantom Joke",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-op-1-song-single-full"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ],
+        "releaseDate": "2019-10-08",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "與常規片頭共用歌曲ID。",
+            "resumeWhen": "待原期原音與唱片剪輯比對。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1",
+        "titleJa": "色彩",
+        "artistDisplayName": "坂本真綾",
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song",
+        "sources": [
+          {
+            "url": "https://anime.fate-go.jp/ep7-tv/tv/special/report/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/maaya/30th/yourbest/interview.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/956687958",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/956694091",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "色彩｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/956694091",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-956687958",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song-single-full"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://anime.fate-go.jp/ep7-tv/tv/special/report/",
+              "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://anime.fate-go.jp/ep7-tv/tv/special/report/",
+              "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html",
+              "https://www.mau2.com/anime/fategrandorder-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/maaya/30th/yourbest/interview.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vtcl-35199"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/956694091"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/956694091"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html",
+              "https://music.apple.com/hk/album/956687958"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-956687958"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/flyingdog/-/SampleStreamMeta/VTCL-35199/-/-/2/A.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "前傳第0話高潮段落插曲，與遊戲第1部主題同曲。2019/8先行公開，2019/12/31地上波首播。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "坂本真綾",
+            "role": "vocals"
+          },
+          {
+            "name": "坂本真綾",
+            "role": "lyrics"
+          },
+          {
+            "name": "la la larks",
+            "role": "composition"
+          },
+          {
+            "name": "la la larks",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song-single-full",
+            "title": "色彩",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vtcl-35199",
+            "title": "幸せについて私が知っている５つの方法／色彩",
+            "type": "single",
+            "date": {
+              "value": "2015-01-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "坂本真綾",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "色彩",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song-single-full"
+              }
+            ],
+            "label": "FlyingDog",
+            "catalogNumber": "VTCL-35199"
+          },
+          {
+            "id": "apple-hk-956687958",
+            "title": "幸せについて私が知っている５つの方法／色彩",
+            "type": "single",
+            "date": {
+              "value": "2015-01-28",
+              "precision": "day"
+            },
+            "artistDisplayName": "坂本真綾",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "色彩",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-1-song-single-full"
+              }
+            ],
+            "label": "FlyingDog"
+          }
+        ],
+        "releaseDate": "2015-01-28",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第0話前傳用曲與遊戲曲同歌，保存原始商業發行。",
+            "resumeWhen": "待第0話剪輯比對及可公開合法純曲影片。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "fate-grand-order-zettai-majuu-sensen-babylonia-in-2",
+        "titleJa": "Tell me",
+        "artistDisplayName": "milet",
+        "songId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song",
+        "sources": [
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fategrandorder-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.newton.com.tw/wiki/Fate/Grand%20Order%20-%E7%B5%95%E5%B0%8D%E9%AD%94%E7%8D%B8%E6%88%B0%E7%B7%9A%E5%B7%B4%E6%AF%94%E5%80%AB%E5%B0%BC%E4%BA%9E-",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281920/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4593",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1544028152",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1544028155",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1538265322",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1538265334",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/milet_music/info/515389",
+            "label": "唱片公司公布〈Tell me〉先行配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Tell me｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1544028155",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1544028152",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Tell me｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1538265334",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1538265322",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.newton.com.tw/wiki/Fate/Grand%20Order%20-%E7%B5%95%E5%B0%8D%E9%AD%94%E7%8D%B8%E6%88%B0%E7%B7%9A%E5%B7%B4%E6%AF%94%E5%80%AB%E5%B0%BC%E4%BA%9E-"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515164",
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.mau2.com/anime/fategrandorder-3",
+              "https://www.newton.com.tw/wiki/Fate/Grand%20Order%20-%E7%B5%95%E5%B0%8D%E9%AD%94%E7%8D%B8%E6%88%B0%E7%B7%9A%E5%B7%B4%E6%AF%94%E5%80%AB%E5%B0%BC%E4%BA%9E-"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://www.uta-net.com/song/281920/",
+              "https://www.anisil.com/animes/4593"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2535-2536"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2537"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2537"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1544028155"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1544028155"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/SECL-2535",
+              "https://music.apple.com/hk/album/1544028152"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1544028152"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "secl-2570"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1538265334"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1538265334"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/discography/buy/SECL-2570",
+              "https://music.apple.com/hk/album/1538265322"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1538265322"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/milet_music/info/515389"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第19話插曲；第16話另作特殊片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "milet",
+            "role": "vocals"
+          },
+          {
+            "name": "milet",
+            "role": "lyrics"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "lyrics"
+          },
+          {
+            "name": "milet",
+            "role": "composition"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "composition"
+          },
+          {
+            "name": "Ryosuke “Dr.R” Sakai",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full",
+            "title": "Tell me",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "secl-2535-2536",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本初回盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2535～2536"
+          },
+          {
+            "id": "secl-2537",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2537"
+          },
+          {
+            "id": "apple-hk-1544028152",
+            "title": "Prover / Tell me",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-grand-order-zettai-majuu-sensen-babylonia-ed-3-song-ep-full"
+              }
+            ],
+            "label": "Sony Music Labels"
+          },
+          {
+            "id": "secl-2570",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels",
+            "catalogNumber": "SECL-2570"
+          },
+          {
+            "id": "apple-hk-1538265322",
+            "title": "eyes",
+            "type": "album",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "artistDisplayName": "milet",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Tell me",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "Sony Music Labels"
+          }
+        ],
+        "releaseDate": "2020-02-10",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第19話逐話記錄標示為插曲。",
+            "resumeWhen": "待原期實際剪輯及音源核對。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://anime.fate-go.jp/ep7-tv/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/103275",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://unison-s-g.com/15th/16thsingle/",
-    "label": "第一方播出資料：UNISON SQUARE GARDEN公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
-    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
-    "role": "broadcast_cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://anime.fate-go.jp/ep7-tv/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/103275",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/fategrand_order_zettai_majuu_sensen_babylonia",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://unison-s-g.com/15th/16thsingle/",
+        "label": "第一方播出資料：UNISON SQUARE GARDEN公式サイト",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://anime.fate-go.jp/ep7-tv/news/?id=51276",
+        "label": "官方原期 TOKYO MX 時刻",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+        "label": "TOKYO MX 年末地上波第0話首播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime.fate-go.jp/ep7-tv/tv/special/report/",
+        "label": "官方首映活動",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://weixiaoacg.com/anime/fate-grand-order-zettai-majuu-sensen-babylonia/",
+        "label": "繁中逐話首播日期",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.mau2.com/anime/fategrandorder-3",
+        "label": "本篇編號與逐話用曲",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter"
+    ],
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "23:30",
+    "metadataVerifiedAt": "2026-11-16"
   },
   {
     anilistId: 107346,
@@ -10933,162 +13602,1688 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 101349,
-    slug: "babylon",
-    startDate: "2019-10-07",
-    titleJa: "バビロン",
-    titleZhHant: "巴比倫",
-    titleRomaji: "Babylon",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101349-AWy5SjUS8mYZ.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101349-5LUS8ZRP4ZiM.jpg",
-    broadcastLabel: "2019年日本TV版，10月7日起週一22:00；完整22:00–22:30為30分節目槽，非淨長。前三話WEB先行另計；第三章延播跨2020年與各曲版本季度分開待核。",
-    officialSiteUrl: "https://babylon-anime.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/babylon",
-    themes: [
+    "anilistId": 101349,
+    "slug": "babylon",
+    "startDate": "2019-10-07",
+    "titleJa": "バビロン",
+    "titleZhHant": "巴比倫",
+    "titleRomaji": "Babylon",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101349-AWy5SjUS8mYZ.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101349-5LUS8ZRP4ZiM.jpg",
+    "broadcastLabel": "日本原TV第1–7話為2019年10月7日至11月18日 TOKYO MX 週一22:00（30分鐘節目槽）；期間安排重播，第8話12月30日22:00復播。第9–12話最早TV為AT-X 2020年1月7日至28日週二00:30，BS11同日02:00；TOKYO MX 1月8日至29日週三01:35。Prime Video日本先行為第1–3話10月7日約00:00一舉公開、第8話12月30日約00:00、第9–12話1月6日至27日週一約22:00。日期及時刻均為日本曆日／JST。",
+    "officialSiteUrl": "https://babylon-anime.com/",
+    "animeThemesUrl": "https://animethemes.moe/anime/babylon",
+    "themes": [
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Live and let die",
-        artistDisplayName: "Q-MHz feat. uloco.",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本用途原文曲名、精確演唱名義、版本或片頭／片尾分類仍有待核對欄位，已讀局部事實只作私有審閱，原名稱及來源日期保持。",
-    "resumeWhen": "章主題的交叉資料未獨立閉合精確ED用途；既有anison交叉反標OP，分類衝突保存待新直接曲表。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Live and let die",
+        "artistDisplayName": "Q-MHz feat. uloco.",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播片尾用途及已列商業發行已核。正片剪輯、配信版母帶關係及地區完整播放待核。",
+            "resumeWhen": "取得權利方片尾剪輯曲表或可依法直接對照音軌，再查相同錄音及香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "id": "babylon-ed-1",
+        "songId": "babylon-ed-1-song",
+        "sources": [
+          {
+            "url": "https://animethemes.moe/anime/babylon",
+            "label": "動畫各片尾剪輯與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw",
+            "label": "正篇使用、演唱及歌曲署名繁體中文交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.twinengine.jp/babylon/babylon-information/3695.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon/ep/1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://gesshokukaigi.jp/2019/?post_type=works",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://utaten.com/specialArticle/index/4422",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2070",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481441507",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481441511",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491312430",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491312431",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Live and let die｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1481441511",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1481441507",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-1-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Live and let die｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491312431",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491312430",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-1-song-digital"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://news.twinengine.jp/babylon/babylon-information/3695.html",
+              "https://www.mau2.com/anime/babylon",
+              "https://www.mau2.com/anime/babylon/ep/1",
+              "https://animethemes.moe/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://www.mau2.com/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://gesshokukaigi.jp/2019/?post_type=works",
+              "https://utaten.com/specialArticle/index/4422"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2070"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481441511"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1481441511"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2070",
+              "https://music.apple.com/hk/album/1481441507"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1481441507"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2070"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1481441507"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2070"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-1-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491312431"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1491312431"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://music.apple.com/hk/album/1491312430"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1491312430"
+          }
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "日本正篇第1–3話片尾，第1章「一滴の毒」。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Q-MHz feat. uloco.",
+            "role": "vocals"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "lyrics"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "composition"
+          },
+          {
+            "name": "月蝕會議",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "babylon-ed-1-song-digital",
+            "title": "Live and let die",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1481441507",
+            "title": "Live and let die",
+            "type": "single",
+            "date": {
+              "value": "2019-10-08",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz feat. uloco.",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Live and let die",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "babylon-ed-1-song-digital"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFDS-00563"
+          },
+          {
+            "id": "apple-hk-1491312430",
+            "title": "Babylon Theme Songs",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Live and let die",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "babylon-ed-1-song-digital"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ],
+        "releaseDate": "2019-10-08"
       },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "イノチ食ム魂",
-        artistDisplayName: "Q-MHz feat. 小松未可子",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本用途原文曲名、精確演唱名義、版本或片頭／片尾分類仍有待核對欄位，已讀局部事實只作私有審閱，原名稱及來源日期保持。",
-    "resumeWhen": "章主題的交叉資料未獨立閉合精確ED用途；既有anison交叉反標OP，分類衝突保存待新直接曲表。 原小松未可子與第一方Mikako Komatsu只保存交叉映射待個案審閱，不自動換名。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "イノチ食ム魂",
+        "artistDisplayName": "Q-MHz feat. Mikako Komatsu",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播片尾用途及已列商業發行已核。正片剪輯、配信版母帶關係及地區完整播放待核。",
+            "resumeWhen": "取得權利方片尾剪輯曲表或可依法直接對照音軌，再查相同錄音及香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "id": "babylon-ed-2",
+        "songId": "babylon-ed-2-song",
+        "sources": [
+          {
+            "url": "https://animethemes.moe/anime/babylon",
+            "label": "動畫各片尾剪輯與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw",
+            "label": "正篇使用、演唱及歌曲署名繁體中文交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/artist/q_mhz/news/detail/3760",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://utaten.com/specialArticle/index/4422",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2072",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1482898661",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1482898662",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491312430",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491312432",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "イノチ食ム魂｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1482898662",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1482898661",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-2-song-digital"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "イノチ食ム魂｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491312432",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491312430",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-2-song-digital"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.mau2.com/anime/babylon",
+              "https://animethemes.moe/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://www.mau2.com/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/artist/q_mhz/news/detail/3760",
+              "https://utaten.com/specialArticle/index/4422"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2072"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-2-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1482898662"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1482898662"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2072",
+              "https://music.apple.com/hk/album/1482898661"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482898661"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2072"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482898661"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2072"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-2-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491312432"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1491312432"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://music.apple.com/hk/album/1491312430"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1491312430"
+          }
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "日本正篇第4–6話片尾，第2章「選ばれた死」通常編曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Q-MHz feat. Mikako Komatsu",
+            "role": "vocals"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "lyrics"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "composition"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "babylon-ed-2-song-digital",
+            "title": "イノチ食ム魂",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1482898661",
+            "title": "イノチ食ム魂",
+            "type": "single",
+            "date": {
+              "value": "2019-10-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz feat. Mikako Komatsu",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "イノチ食ム魂",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "babylon-ed-2-song-digital"
+              }
+            ],
+            "label": "TOY'S FACTORY",
+            "catalogNumber": "TFDS-00568"
+          },
+          {
+            "id": "apple-hk-1491312430",
+            "title": "Babylon Theme Songs",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "イノチ食ム魂",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "babylon-ed-2-song-digital"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ],
+        "releaseDate": "2019-10-29"
       },
       {
-        type: "ED",
-        sequence: 3,
-        titleJa: "イノチ食ム魂（requiem ver.）",
-        artistDisplayName: "Q-MHz feat. 小松未可子",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本用途原文曲名、精確演唱名義、版本或片頭／片尾分類仍有待核對欄位，已讀局部事實只作私有審閱，原名稱及來源日期保持。",
-    "resumeWhen": "章主題的交叉資料未獨立閉合精確ED用途；既有anison交叉反標OP，分類衝突保存待新直接曲表。 原小松未可子與第一方Mikako Komatsu只保存交叉映射待個案審閱，不自動換名。 原（requiem ver.）與第一方 Requiem ver.排印及大小寫差保原。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "イノチ食ム魂 Requiem ver.",
+        "artistDisplayName": "Q-MHz feat. Mikako Komatsu",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播片尾用途及已列商業發行已核。正片剪輯、配信版母帶關係及地區完整播放待核。",
+            "resumeWhen": "取得權利方片尾剪輯曲表或可依法直接對照音軌，再查相同錄音及香港完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "id": "babylon-ed-3",
+        "songId": "babylon-ed-3-song",
+        "sources": [
+          {
+            "url": "https://animethemes.moe/anime/babylon",
+            "label": "動畫各片尾剪輯與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw",
+            "label": "正篇使用、演唱及歌曲署名繁體中文交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491312430",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491312433",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "イノチ食ム魂 (requiem ver.)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491312433",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491312430",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-3-song-requiem"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.mau2.com/anime/babylon",
+              "https://animethemes.moe/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://www.mau2.com/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-3-song-requiem"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-3-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491312433"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1491312433"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://music.apple.com/hk/album/1491312430"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1491312430"
+          }
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "日本正篇第7話特別片尾，第2章「選ばれた死」的 Requiem ver.。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Q-MHz feat. Mikako Komatsu",
+            "role": "vocals"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "lyrics"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "composition"
+          },
+          {
+            "name": "伊藤翼",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "babylon-ed-3-song-requiem",
+            "title": "イノチ食ム魂 (requiem ver.)",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2019-12-30",
+        "releases": [
+          {
+            "id": "apple-hk-1491312430",
+            "title": "Babylon Theme Songs",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "イノチ食ム魂 (requiem ver.)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "babylon-ed-3-song-requiem"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 4,
-        titleJa: "The next new world that no one knows（blood stained ver.）",
-        artistDisplayName: "Q-MHz feat. *Namirin",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence",
-      "use_quarters"
-    ],
-    "note": "本用途原文曲名、精確演唱名義、版本或片頭／片尾分類仍有待核對欄位，已讀局部事實只作私有審閱，原名稱及來源日期保持。",
-    "resumeWhen": "章主題的交叉資料未獨立閉合精確ED用途；既有anison交叉反標OP，分類衝突保存待新直接曲表。 原blood stained ver.尾綴在此第一方頁未明，不以普通三章曲代證版本。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "The next new world that no one knows（blood stained ver.）",
+        "artistDisplayName": "Q-MHz feat. *Namirin",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播使用 blood stained ver.。官方配信曲及 Art Track 只標無版本尾綴的曲名，本站分列此發行版本；原播版本的精確商業發行待核。",
+            "resumeWhen": "權利方明示 blood stained ver. 音源、母帶關係或有可核香港曲目時更新。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "id": "babylon-ed-4",
+        "songId": "babylon-ed-4-song",
+        "sources": [
+          {
+            "url": "https://animethemes.moe/anime/babylon",
+            "label": "動畫各片尾剪輯與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw",
+            "label": "正篇使用、演唱及歌曲署名繁體中文交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.twinengine.jp/babylon/babylon-information/5013.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon/ep/11",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/babylon/ep/12",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9MA75ixKMIc",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491312430",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491312435",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.twinengine.jp/babylon/babylon-information/5018.html",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=-rwgsuXeWAg",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://aniplaylist.com/Babylon",
+            "label": "第3章播出版本與無版本尾綴配信分列",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "The next new world that no one knows｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1491312435",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1491312430",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-ed-4-song-digital"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://news.twinengine.jp/babylon/babylon-information/5013.html",
+              "https://www.mau2.com/anime/babylon",
+              "https://www.mau2.com/anime/babylon/ep/11",
+              "https://www.mau2.com/anime/babylon/ep/12",
+              "https://animethemes.moe/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://www.mau2.com/anime/babylon",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.youtube.com/watch?v=9MA75ixKMIc",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-ed-4-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491312435"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1491312435"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toysfactory.co.jp/sp/artist/q_mhz/disco/2099",
+              "https://music.apple.com/hk/album/1491312430"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1491312430"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9MA75ixKMIc"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "9MA75ixKMIc"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=-rwgsuXeWAg",
+              "https://news.twinengine.jp/babylon/babylon-information/5018.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "-rwgsuXeWAg"
+          }
+        ],
+        "sourceMode": "explicit",
+        "usageLabel": "日本正篇第8–12話片尾，第3章「曲がる世界」的 blood stained ver.。第8話在2019年12月播出，第9–12話在2020年1月播出。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Q-MHz feat. *Namirin",
+            "role": "vocals"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "lyrics"
+          },
+          {
+            "name": "Q-MHz",
+            "role": "composition"
+          },
+          {
+            "name": "伊藤翼",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "babylon-ed-4-song-digital",
+            "title": "The next new world that no one knows",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1491312430",
+            "title": "Babylon Theme Songs",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "Q-MHz",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "The next new world that no one knows",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "babylon-ed-4-song-digital"
+              }
+            ],
+            "label": "TOY'S FACTORY"
+          }
+        ]
       },
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "babylon-op-1",
+        "titleJa": "Echoing",
+        "artistDisplayName": "やまだ豊 feat. Sysha",
+        "songId": "babylon-op-1-song",
+        "sources": [
+          {
+            "url": "https://open.spotify.com/intl-ja/album/6yAB5rIouoPYeZmbY0xKec",
+            "label": "原聲集第1碟第1曲及作曲家與參與者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.amazon.com/tracks/B083Y3J9HQ",
+            "label": "發行方 Amazon Records 商店原聲集曲序與 Sysha 名義",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw",
+            "label": "原聲集實體版本、曲序及署名繁體中文對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://babylon-anime.com/bd/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anime.digital/anime/babylon?tl=en",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://aniplaylist.com/Babylon",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1495143239",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1495143238",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Echoing (feat. Sysha)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1495143239",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1495143238",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "babylon-op-1-song-soundtrack"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://babylon-anime.com/bd/",
+              "https://www.anime.digital/anime/babylon?tl=en",
+              "https://aniplaylist.com/Babylon"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://www.anime.digital/anime/babylon?tl=en",
+              "https://open.spotify.com/intl-ja/album/6yAB5rIouoPYeZmbY0xKec",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://open.spotify.com/intl-ja/album/6yAB5rIouoPYeZmbY0xKec",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-op-1-song-soundtrack"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://open.spotify.com/intl-ja/album/6yAB5rIouoPYeZmbY0xKec"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-op-1-song-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "azrc-1131-1132"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://open.spotify.com/intl-ja/album/6yAB5rIouoPYeZmbY0xKec",
+              "https://moegirl.uk/index.php?title=%E5%B7%B4%E6%AF%94%E5%80%AB%28%E5%B0%8F%E8%AA%AA%29&variant=zh-tw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "azrc-1131-1132"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1495143239"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1495143239"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/",
+              "https://music.apple.com/hk/album/1495143238"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1495143238"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://babylon-anime.com/music/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "babylon-op-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [],
+        "usageLabel": "日本版片頭。個別正片話數及各季使用待核。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "やまだ豊",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "babylon-op-1-song-soundtrack",
+            "title": "Echoing (feat. Sysha)",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "azrc-1131-1132",
+            "title": "TVアニメ「バビロン」Original Soundtrack",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "やまだ豊",
+            "edition": "2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Echoing (feat. Sysha)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "babylon-op-1-song-soundtrack"
+              }
+            ],
+            "label": "Amazon Records",
+            "catalogNumber": "AZRC-1131/1132"
+          },
+          {
+            "id": "apple-hk-1495143238",
+            "title": "TVアニメ「バビロン」Original Soundtrack",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "やまだ豊",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Echoing (feat. Sysha)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "babylon-op-1-song-soundtrack"
+              }
+            ],
+            "label": "ツインエンジン"
+          }
+        ],
+        "releaseDate": "2020-01-22",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "作品方記載片頭音樂及無字幕特典，已核對應原聲集《Echoing》。逐話紀錄對短片頭的曲目記錄不足，尚待確認使用話數、精確季度、片頭剪輯與配信母帶。",
+            "resumeWhen": "取得權利方命名的無字幕片頭、原日本播出正片／正版播放或逐話公開掛字可確認播出分布及音源時續核。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://babylon-anime.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/101349",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/babylon",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "TVアニメ「バビロン」公式サイト：同版日本TV播出資料（完整槽依另列來源）",
-    "url": "https://babylon-anime.com/madogayabai/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "文化庁公開報告書／メディア芸術コンソーシアムJV事務局：同版完整30分鐘節目槽交叉對照（非淨長）",
-    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "Wikipedia：同版跨年續播（非歌曲使用季度）",
-    "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%93%E3%83%AD%E3%83%B3_(%E5%B0%8F%E8%AA%AC)",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter"
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://babylon-anime.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/101349",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/babylon",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "TVアニメ「バビロン」公式サイト：同版日本TV播出資料（完整槽依另列來源）",
+        "url": "https://babylon-anime.com/madogayabai/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "文化庁公開報告書／メディア芸術コンソーシアムJV事務局：同版完整30分鐘節目槽交叉對照（非淨長）",
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "Wikipedia：同版跨年續播（非歌曲使用季度）",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%93%E3%83%AD%E3%83%B3_(%E5%B0%8F%E8%AA%AC)",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://news.twinengine.jp/babylon/babylon-information/3695.html",
+        "label": "ツインエンジン日本原TV開播、時段、Prime Video第1–3話先行公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://news.twinengine.jp/babylon/babylon-information/4598.html",
+        "label": "ツインエンジン日本原TV第1–7話再放送及特別評論音軌公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://news.twinengine.jp/babylon/babylon-information/5013.html",
+        "label": "ツインエンジン第8–12話改期與日本TV／Prime Video時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://babylon-anime.com/bd/",
+        "label": "製作方Blu-ray全12話及無字幕片頭片尾特典",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1577348091",
+        "label": "同期逐話第8–12話及各平台原始放送時段對照",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.anime.digital/anime/babylon?tl=en",
+        "label": "正篇全12話與第1–8話初期時段日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-16"
   },
   {
     anilistId: 104158,
@@ -11202,532 +15397,3878 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 108358,
-    slug: "phantasy-star-online-2-episode-oracle",
-    startDate: "2019-10-07",
-    titleJa: "PHANTASY STAR ONLINE 2 EPISODE ORACLE",
-    titleZhHant: "夢幻之星 Online 2 Episode Oracle",
-    titleRomaji: "PHANTASY STAR ONLINE 2: EPISODE ORACLE",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
-    broadcastLabel: "2019年日本TV原作，TOKYO MX週一22:30–23:00為完整30分常規槽，非淨長；跨2020年冬播出，特殊ED用途另待核。",
-    officialSiteUrl: "https://pso2.jp/anime_eporacle/",
-    animeThemesUrl:
-      "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    themes: [
+    "anilistId": 108358,
+    "slug": "phantasy-star-online-2-episode-oracle",
+    "startDate": "2019-10-07",
+    "titleJa": "PHANTASY STAR ONLINE 2 EPISODE ORACLE",
+    "titleZhHant": "夢幻之星 Online 2 Episode Oracle",
+    "titleRomaji": "PHANTASY STAR ONLINE 2: EPISODE ORACLE",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108358-9Y0qXz0o101z.png",
+    "broadcastLabel": "2019/10/7–2020/3/30 正篇全25話。TOKYO MX 週一 22:30 JST，BS11 與 dアニメストア 23:30，AbemaTV 週二 01:30（節目表週一 25:30）。12/30 播出第12.5話總集篇，1/2 TOKYO MX 重播第1–12話，1/6 正篇第13話首播。",
+    "officialSiteUrl": "https://pso2.jp/anime_eporacle/",
+    "animeThemesUrl": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Destiny",
-        artistDisplayName: "Aimee Blackschleger",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核部分使用季度；本曲其餘季度仍待精確用曲資料核對。",
-    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充尚未核對的季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://pso2.jp/anime_eporacle/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.fwinc.co.jp/cd/53438/",
-    "label": "第一方曲目資料：フロンティアワークス",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
-    "label": "歌曲交叉資料：アニメイトタイムズ",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "phantasy-star-online-2-episode-oracle-op-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/53438/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/53438/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-1"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Destiny",
+        "artistDisplayName": "Aimee Blackschleger",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "SEGA 分別登記完整、TV size，主題歌 CD 收錄完整和伴奏。",
+            "resumeWhen": "待確認可用的香港數位曲目與精選原母帶資訊。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://pso2.jp/anime_eporacle/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.fwinc.co.jp/cd/53438/",
+            "label": "第一方曲目資料：フロンティアワークス",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+            "label": "歌曲交叉資料：アニメイトタイムズ",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-song/",
+            "label": "正式 TV size 配信商品交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sega.jp/topics/detail/190819_1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/special/03/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/27126/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/ctg_07.html",
+            "label": "Wave Master 原合輯品番及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "songId": "phantasy-star-online-2-episode-oracle-op-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://www.sega.jp/topics/detail/190819_1/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://www.fwinc.co.jp/cd/53438/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://cal.syoboi.jp/tid/5454/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/",
+              "https://anime-song-info.com/201910-autumn-anime-song/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ffcm-0094"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-takenobu-mitsuyoshi-cover"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-1-song-takenobu-mitsuyoshi-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/ctg_07.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          }
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-op-1",
+        "links": [],
+        "usageLabel": "第1–15話片頭。第13–15話在2020冬播出。",
+        "credits": [
+          {
+            "name": "Aimee Blackschleger",
+            "role": "vocals"
+          },
+          {
+            "name": "Runblebee",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "composition"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-1-song-original-full",
+            "title": "Destiny",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-1-song-tv-size",
+            "title": "Destiny (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-1-song-instrumental",
+            "title": "Destiny（Inst.）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-1-song-takenobu-mitsuyoshi-cover",
+            "title": "Destiny feat. Takenobu Mitsuyoshi",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "光吉猛修",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "ffcm-0094",
+            "title": "主題歌 Vol.1 Destiny / Timeless Fortune",
+            "type": "single",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "Aimee Blackschleger／有坂美香",
+            "edition": "日本主題歌 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Destiny",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-op-1-song-original-full"
+              },
+              {
+                "title": "Destiny（Inst.）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-op-1-song-instrumental"
+              }
+            ],
+            "label": "フロンティアワークス",
+            "catalogNumber": "FFCM-0094"
+          },
+          {
+            "id": "wwce-31471-4",
+            "title": "ファンタシースターボーカルコレクション",
+            "type": "compilation",
+            "date": {
+              "value": "2020-11-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本合輯 4CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Destiny",
+                "position": 18,
+                "disc": 4
+              },
+              {
+                "title": "Destiny feat. Takenobu Mitsuyoshi",
+                "position": 22,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-op-1-song-takenobu-mitsuyoshi-cover"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31471～4"
+          }
+        ]
       },
       {
-        type: "OP",
-        sequence: 2,
-        titleJa: "UniVerse",
-        artistDisplayName: "Aimee Blackschleger",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://pso2.jp/anime_eporacle/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.fwinc.co.jp/cd/56118/",
-    "label": "第一方曲目資料：フロンティアワークス",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
-    "label": "歌曲交叉資料：アニメイトタイムズ",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter"
-],
-"songId": "phantasy-star-online-2-episode-oracle-op-2-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/56118/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/56118/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-2"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-op-2"
-  }
-],
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "UniVerse",
+        "artistDisplayName": "Aimee Blackschleger",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "SEGA 分別登記完整、TV size，主題歌 CD 收錄完整和伴奏。",
+            "resumeWhen": "待確認可用的香港數位曲目與精選原母帶資訊。 另待確認第24話其他發行版片頭，AnimeThemes 對第24話另有登記。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://pso2.jp/anime_eporacle/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.fwinc.co.jp/cd/56118/",
+            "label": "第一方曲目資料：フロンティアワークス",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+            "label": "歌曲交叉資料：アニメイトタイムズ",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/pso2-2cool-op-ed-202001-winter/",
+            "label": "正式 TV size 配信商品交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anitubu.com/archives/post-34694.html",
+            "label": "第24話日本首播同期有觀眾明述略去片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/16/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/24/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/special/03/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8m9ZJ_YovCE",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/27126/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/ctg_07.html",
+            "label": "Wave Master 原合輯品番及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "songId": "phantasy-star-online-2-episode-oracle-op-2-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://pso2.jp/anime_eporacle/story/16/",
+              "https://pso2.jp/anime_eporacle/story/24/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://anitubu.com/archives/post-34694.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://www.fwinc.co.jp/cd/56118/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://cal.syoboi.jp/tid/5454/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/",
+              "https://anime-song-info.com/pso2-2cool-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-op-2-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ffcm-0095"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=8m9ZJ_YovCE",
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "8m9ZJ_YovCE"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/ctg_07.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          }
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-op-2",
+        "links": [],
+        "usageLabel": "第16–23話片頭。第16話於2020/1/27首播。原TV第24、25話省略片頭。",
+        "credits": [
+          {
+            "name": "Aimee Blackschleger",
+            "role": "vocals"
+          },
+          {
+            "name": "Runblebee",
+            "role": "lyrics"
+          },
+          {
+            "name": "堀田英邦",
+            "role": "composition"
+          },
+          {
+            "name": "堀田英邦",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-2-song-original-full",
+            "title": "UniVerse",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-2-song-tv-size",
+            "title": "UniVerse (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-op-2-song-instrumental",
+            "title": "UniVerse（Inst.）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ffcm-0095",
+            "title": "主題歌 Vol.2 UniVerse / それいゆ -Dear Destiny-",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "Aimee Blackschleger／桃井はるこ",
+            "edition": "日本主題歌 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "UniVerse",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-op-2-song-original-full"
+              },
+              {
+                "title": "UniVerse（Inst.）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-op-2-song-instrumental"
+              }
+            ],
+            "label": "フロンティアワークス",
+            "catalogNumber": "FFCM-0095"
+          },
+          {
+            "id": "wwce-31471-4",
+            "title": "ファンタシースターボーカルコレクション",
+            "type": "compilation",
+            "date": {
+              "value": "2020-11-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本合輯 4CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "UniVerse",
+                "position": 20,
+                "disc": 4
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31471～4"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Timeless Fortune",
-        artistDisplayName: "有坂美香",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核部分使用季度；本曲其餘季度仍待精確用曲資料核對。",
-    "resumeWhen": "取得同版本逐話用曲及播出日期的直接資料後，補充尚未核對的季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://pso2.jp/anime_eporacle/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.fwinc.co.jp/cd/53438/",
-    "label": "第一方曲目資料：フロンティアワークス",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
-    "label": "歌曲交叉資料：アニメイトタイムズ",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2019-fall"
-],
-"songId": "phantasy-star-online-2-episode-oracle-ed-1-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/53438/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/53438/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
-  }
-],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Timeless Fortune",
+        "artistDisplayName": "有坂美香",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "SEGA 分別登記完整、TV size，主題歌 CD 收錄完整和伴奏。",
+            "resumeWhen": "待確認可用的香港數位曲目與精選原母帶資訊。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://pso2.jp/anime_eporacle/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.fwinc.co.jp/cd/53438/",
+            "label": "第一方曲目資料：フロンティアワークス",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+            "label": "歌曲交叉資料：アニメイトタイムズ",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-song/",
+            "label": "正式 TV size 配信商品交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://phantasystar.fandom.com/wiki/Failure%27s_Greatest_Masterpiece_(Episode_Oracle)",
+            "label": "第23話分話歌名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sega.jp/topics/detail/190819_1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/special/03/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/27126/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/ctg_07.html",
+            "label": "Wave Master 原合輯品番及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "songId": "phantasy-star-online-2-episode-oracle-ed-1-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://www.sega.jp/topics/detail/190819_1/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://phantasystar.fandom.com/wiki/Failure%27s_Greatest_Masterpiece_(Episode_Oracle)"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://www.fwinc.co.jp/cd/53438/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/01/",
+              "https://cal.syoboi.jp/tid/5454/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/",
+              "https://anime-song-info.com/201910-autumn-anime-song/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/53438/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ffcm-0094"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/ctg_07.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          }
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-ed-1",
+        "links": [],
+        "usageLabel": "第1–9、11–15及23話片尾。第23話於2020/3/16再用本曲。",
+        "credits": [
+          {
+            "name": "有坂美香",
+            "role": "vocals"
+          },
+          {
+            "name": "山下慎一狼",
+            "role": "lyrics"
+          },
+          {
+            "name": "岩野道拓",
+            "role": "composition"
+          },
+          {
+            "name": "岩野道拓",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-1-song-original-full",
+            "title": "Timeless Fortune",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-1-song-tv-size",
+            "title": "Timeless Fortune (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-1-song-instrumental",
+            "title": "Timeless Fortune（Inst.）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ffcm-0094",
+            "title": "主題歌 Vol.1 Destiny / Timeless Fortune",
+            "type": "single",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "Aimee Blackschleger／有坂美香",
+            "edition": "日本主題歌 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Timeless Fortune",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-1-song-original-full"
+              },
+              {
+                "title": "Timeless Fortune（Inst.）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-1-song-instrumental"
+              }
+            ],
+            "label": "フロンティアワークス",
+            "catalogNumber": "FFCM-0094"
+          },
+          {
+            "id": "wwce-31471-4",
+            "title": "ファンタシースターボーカルコレクション",
+            "type": "compilation",
+            "date": {
+              "value": "2020-11-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本合輯 4CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Timeless Fortune",
+                "position": 19,
+                "disc": 4
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31471～4"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 2,
-        titleJa: "永遠のencore",
-        artistDisplayName: "クーナ（CV：喜多村英梨）",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
-    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
-    "checkedAt": "2026-10-31"
-  },
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
-    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "永遠のencore",
+        "artistDisplayName": "クーナ（CV：喜多村英梨）",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原作遊戲原聲、相關改編及動畫用途各有對應來源。",
+            "resumeWhen": "待可讀的分話版錄音署名或母帶資料，核對動畫使用剪輯與遊戲原聲是否相同。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-ed-2",
+        "songId": "phantasy-star-online-2-episode-oracle-ed-2-song",
+        "sources": [
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "label": "片頭片尾及集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/23731/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://blog.livedoor.jp/menuguildsystem/archives/1076411893.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1620494731",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620497804",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496048",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496615",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620497804",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore Orgel ver.｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496048",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore - Instrumental -｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496615",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://blog.livedoor.jp/menuguildsystem/archives/1076411893.html",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://blog.livedoor.jp/menuguildsystem/archives/1076411893.html",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://blog.livedoor.jp/menuguildsystem/archives/1076411893.html",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31306-9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620497804"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620497804"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496048"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496048"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496615"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496615"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://music.apple.com/hk/album/1620494731"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1620494731"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song"
+          }
+        ],
+        "usageLabel": "第10話（2019/12/9）特別片尾。第9話另有劇中演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "クーナ（CV：喜多村英梨）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal",
+            "title": "永遠のencore",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel",
+            "title": "永遠のencore Orgel ver.",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental",
+            "title": "永遠のencore - Instrumental -",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wwce-31306-9",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "永遠のencore",
+                "position": 15,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal"
+              },
+              {
+                "title": "永遠のencore Orgel ver.",
+                "position": 5,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel"
+              },
+              {
+                "title": "永遠のencore - Instrumental -",
+                "position": 15,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31306-9"
+          },
+          {
+            "id": "apple-hk-1620494731",
+            "title": "PHANTASY STAR ONLINE2 Original Soundtracks Vol. 2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "永遠のencore",
+                "position": 15,
+                "disc": 4
+              },
+              {
+                "title": "永遠のencore Orgel ver.",
+                "position": 5,
+                "disc": 3
+              },
+              {
+                "title": "永遠のencore - Instrumental -",
+                "position": 15,
+                "disc": 3
+              }
+            ],
+            "label": "SEGA"
+          }
+        ],
+        "releaseDate": "2013-11-27"
       },
       {
-        type: "ED",
-        sequence: 3,
-        titleJa: "それいゆ -Dear Destiny-",
-        artistDisplayName: "桃井はるこ",
-"followUp": [],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://pso2.jp/anime_eporacle/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://www.fwinc.co.jp/cd/56118/",
-    "label": "第一方曲目資料：フロンティアワークス",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "url": "https://www.animatetimes.com/tag/details.php?id=3508",
-    "label": "歌曲交叉資料：アニメイトタイムズ",
-    "role": "cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"seasonIds": [
-  "2020-winter"
-],
-"songId": "phantasy-star-online-2-episode-oracle-ed-3-song",
-"evidence": [
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/56118/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.fwinc.co.jp/cd/56118/"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
-  },
-  {
-    "target": "song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
-  },
-  {
-    "target": "anime_use",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.animatetimes.com/tag/details.php?id=3508"
-    ],
-    "verifiedAt": "2026-10-31",
-    "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
-  }
-],
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "それいゆ -Dear Destiny-",
+        "artistDisplayName": "桃井はるこ",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "SEGA 分別登記完整、TV size，主題歌 CD 收錄完整和伴奏。",
+            "resumeWhen": "待確認可用的香港數位曲目與精選原母帶資訊。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://pso2.jp/anime_eporacle/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.fwinc.co.jp/cd/56118/",
+            "label": "第一方曲目資料：フロンティアワークス",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+            "label": "歌曲交叉資料：アニメイトタイムズ",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ototoy.jp/_/default/p/3675690",
+            "label": "正式 TV size 配信商品交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/16/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/special/03/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8m9ZJ_YovCE",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/27126/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/ctg_07.html",
+            "label": "Wave Master 原合輯品番及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "songId": "phantasy-star-online-2-episode-oracle-ed-3-song",
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=3508"
+            ],
+            "verifiedAt": "2026-10-31",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://pso2.jp/anime_eporacle/story/16/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://www.fwinc.co.jp/cd/56118/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/bddvdcd/06/",
+              "https://cal.syoboi.jp/tid/5454/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song-original-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/special/03/",
+              "https://ototoy.jp/_/default/p/3675690"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-3-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ffcm-0095"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=8m9ZJ_YovCE",
+              "https://www.fwinc.co.jp/cd/56118/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "8m9ZJ_YovCE"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/players/news/27126/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/ctg_07.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31471-4"
+          }
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-ed-3",
+        "links": [],
+        "usageLabel": "第16–17、19–22及24話片尾。第24話於2020/3/23播出。",
+        "credits": [
+          {
+            "name": "桃井はるこ",
+            "role": "vocals"
+          },
+          {
+            "name": "桃井はるこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "桃井はるこ",
+            "role": "composition"
+          },
+          {
+            "name": "Haraddy",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-3-song-original-full",
+            "title": "それいゆ -Dear Destiny-",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-3-song-tv-size",
+            "title": "それいゆ -Dear Destiny- (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-3-song-instrumental",
+            "title": "それいゆ -Dear Destiny-（Inst.）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ffcm-0095",
+            "title": "主題歌 Vol.2 UniVerse / それいゆ -Dear Destiny-",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "Aimee Blackschleger／桃井はるこ",
+            "edition": "日本主題歌 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "それいゆ -Dear Destiny-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-3-song-original-full"
+              },
+              {
+                "title": "それいゆ -Dear Destiny-（Inst.）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-3-song-instrumental"
+              }
+            ],
+            "label": "フロンティアワークス",
+            "catalogNumber": "FFCM-0095"
+          },
+          {
+            "id": "wwce-31471-4",
+            "title": "ファンタシースターボーカルコレクション",
+            "type": "compilation",
+            "date": {
+              "value": "2020-11-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本合輯 4CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "それいゆ -Dear Destiny-",
+                "position": 21,
+                "disc": 4
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31471～4"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 4,
-        titleJa: "Living on like stars",
-        artistDisplayName: "有坂美香",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
-    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
-    "checkedAt": "2026-10-31"
-  },
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
-    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "Living on like stars",
+        "artistDisplayName": "有坂美香",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原作遊戲原聲、相關改編及動畫用途各有對應來源。",
+            "resumeWhen": "待可讀的分話版錄音署名或母帶資料，核對動畫使用剪輯與遊戲原聲是否相同。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-ed-4",
+        "songId": "phantasy-star-online-2-episode-oracle-ed-4-song",
+        "sources": [
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "label": "片頭片尾及集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://whereanime.com/artist/mika-arisaka",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/18/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sega.jp/topics/detail/180221_soft_3/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://watanabemika.net/discography/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1699515274",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1699516472",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1757979199",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1757984640",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Living On Like Stars｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1699516472",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1699515274",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Living on like stars - Another fate -｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1757984640",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1757979199",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/18/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+              "https://www.sega.jp/topics/detail/180221_soft_3/",
+              "https://watanabemika.net/discography/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://whereanime.com/artist/mika-arisaka",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/18/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+              "https://www.sega.jp/topics/detail/180221_soft_3/",
+              "https://watanabemika.net/discography/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://whereanime.com/artist/mika-arisaka",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/18/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+              "https://www.sega.jp/topics/detail/180221_soft_3/",
+              "https://watanabemika.net/discography/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://whereanime.com/artist/mika-arisaka",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-4-song-game-ost-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-4-song-another-fate"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31351-4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1699516472"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1699516472"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+              "https://music.apple.com/hk/album/1699515274"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1699515274"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31372-5"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1757984640"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1757984640"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+              "https://music.apple.com/hk/album/1757979199"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1757979199"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-4-song"
+          }
+        ],
+        "usageLabel": "第18話（2020/2/10）特別片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "有坂美香",
+            "role": "vocals"
+          },
+          {
+            "name": "渡邉美佳",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "composition"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-4-song-game-ost-vocal",
+            "title": "Living on like stars",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-4-song-another-fate",
+            "title": "Living on like stars - Another fate -",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wwce-31351-4",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.3",
+            "type": "soundtrack",
+            "date": {
+              "value": "2014-12-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Living on like stars",
+                "position": 5,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-4-song-game-ost-vocal"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31351-4"
+          },
+          {
+            "id": "apple-hk-1699515274",
+            "title": "Phantasy Star Online2 (Original Soundtracks Vol. 3)",
+            "type": "soundtrack",
+            "date": {
+              "value": "2014-12-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Living On Like Stars",
+                "position": 5,
+                "disc": 4
+              }
+            ],
+            "label": "SEGA"
+          },
+          {
+            "id": "wwce-31372-5",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.4",
+            "type": "soundtrack",
+            "date": {
+              "value": "2016-04-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Living on like stars - Another fate -",
+                "position": 12,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-4-song-another-fate"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31372-5"
+          },
+          {
+            "id": "apple-hk-1757979199",
+            "title": "Phantasy Star Online 2 (Original Soundtracks Vol. 4)",
+            "type": "soundtrack",
+            "date": {
+              "value": "2016-04-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA SOUND TEAM",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Living on like stars - Another fate -",
+                "position": 12,
+                "disc": 3
+              }
+            ],
+            "label": "SEGA"
+          }
+        ],
+        "releaseDate": "2014-12-24"
       },
       {
-        type: "ED",
-        sequence: 5,
-        titleJa: "Hello",
-        artistDisplayName: "Monique Dehaney",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本曲有歌曲或交叉資料，原動畫片尾曲用途仍待第一方直接資料核對。",
-    "resumeWhen": "取得本版逐話或逐曲第一方資料，明示曲名、演唱名義及片尾用途後補充。",
-    "checkedAt": "2026-10-31"
-  },
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "本曲使用季度仍待核對，暫不列入季度歌曲清單。",
-    "resumeWhen": "取得同版本明確用曲與日本播出日期的直接資料後補充使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"seasonIds": [],
+        "type": "ED",
+        "sequence": 5,
+        "titleJa": "Hello",
+        "artistDisplayName": "Monique Dehaney",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原作遊戲原聲、相關改編及動畫用途各有對應來源。",
+            "resumeWhen": "待可讀的分話版錄音署名或母帶資料，核對動畫使用剪輯與遊戲原聲是否相同。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "id": "phantasy-star-online-2-episode-oracle-ed-5",
+        "songId": "phantasy-star-online-2-episode-oracle-ed-5-song",
+        "sources": [
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "label": "片頭片尾及集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://phantasystar.fandom.com/wiki/The_Reason_for_Your_Birth_(Episode_Oracle)",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/25/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/27126/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1757979199",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1757986221",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Hello｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1757986221",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1757979199",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/25/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+              "https://pso2.jp/players/news/27126/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://phantasystar.fandom.com/wiki/The_Reason_for_Your_Birth_(Episode_Oracle)",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/25/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+              "https://pso2.jp/players/news/27126/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://phantasystar.fandom.com/wiki/The_Reason_for_Your_Birth_(Episode_Oracle)",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-5-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/25/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+              "https://pso2.jp/players/news/27126/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+              "https://phantasystar.fandom.com/wiki/The_Reason_for_Your_Birth_(Episode_Oracle)",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-5-song-game-ost-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31372-5"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1757986221"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1757986221"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html",
+              "https://music.apple.com/hk/album/1757979199"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1757979199"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31372/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-5-song"
+          }
+        ],
+        "usageLabel": "第25話（2020/3/30）終回特別片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Monique Dehaney",
+            "role": "vocals"
+          },
+          {
+            "name": "Runblebee",
+            "role": "lyrics"
+          },
+          {
+            "name": "床井健一",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-5-song-game-ost-vocal",
+            "title": "Hello",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wwce-31372-5",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.4",
+            "type": "soundtrack",
+            "date": {
+              "value": "2016-04-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Hello",
+                "position": 11,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-5-song-game-ost-vocal"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31372-5"
+          },
+          {
+            "id": "apple-hk-1757979199",
+            "title": "Phantasy Star Online 2 (Original Soundtracks Vol. 4)",
+            "type": "soundtrack",
+            "date": {
+              "value": "2016-04-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA SOUND TEAM",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Hello",
+                "position": 11,
+                "disc": 4
+              }
+            ],
+            "label": "SEGA"
+          }
+        ],
+        "releaseDate": "2016-04-13"
       },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "phantasy-star-online-2-episode-oracle-in-1",
+        "titleJa": "Our Fighting",
+        "artistDisplayName": "クーナ（CV：喜多村英梨）",
+        "songId": "phantasy-star-online-2-episode-oracle-in-1-song",
+        "sources": [
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "label": "片頭片尾及集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink",
+            "label": "中文分話劇中歌位置交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/04/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/23731/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1620494731",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620495268",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496039",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496043",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496044",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496612",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1699515274",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1699516476",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=NOxlLIhONik",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620495268",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting feat. Takenobu Mitsuyoshi｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496039",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting Instruments Session｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496043",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting Full Session｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496044",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting - Instrumental -｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496612",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Our Fighting ver. MIYABI｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1699516476",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1699515274",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/04/",
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/04/",
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/04/",
+              "https://pso2.jp/anime_eporacle/story/10/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song-game-ost-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song-feat-mitsuyoshi"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song-instruments-session"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song-game-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song-miyabi"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31306-9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620495268"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620495268"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496039"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496039"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496043"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496043"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496044"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496044"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496612"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496612"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://music.apple.com/hk/album/1620494731"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1620494731"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31351-4"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1699516476"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1699516476"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31351/index.html",
+              "https://music.apple.com/hk/album/1699515274"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1699515274"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=NOxlLIhONik",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "NOxlLIhONik"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第4話（2019/10/28）及第10話（12/9）劇中歌。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "クーナ（CV：喜多村英梨）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "composition"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原作遊戲原聲、相關改編及動畫用途各有對應來源。",
+            "resumeWhen": "待可讀的分話版錄音署名或母帶資料，核對動畫使用剪輯與遊戲原聲是否相同。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-in-1-song-game-ost-vocal",
+            "title": "Our Fighting",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-in-1-song-feat-mitsuyoshi",
+            "title": "Our Fighting feat. Takenobu Mitsuyoshi",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-in-1-song-instruments-session",
+            "title": "Our Fighting Instruments Session",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-in-1-song-game-instrumental",
+            "title": "Our Fighting - Instrumental -",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-in-1-song-miyabi",
+            "title": "Our Fighting ver. MIYABI",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wwce-31306-9",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Our Fighting",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-game-ost-vocal"
+              },
+              {
+                "title": "Our Fighting feat. Takenobu Mitsuyoshi",
+                "position": 2,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-feat-mitsuyoshi"
+              },
+              {
+                "title": "Our Fighting Instruments Session",
+                "position": 3,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-instruments-session"
+              },
+              {
+                "title": "Our Fighting Full Session",
+                "position": 4,
+                "disc": 3
+              },
+              {
+                "title": "Our Fighting - Instrumental -",
+                "position": 14,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-game-instrumental"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31306-9"
+          },
+          {
+            "id": "apple-hk-1620494731",
+            "title": "PHANTASY STAR ONLINE2 Original Soundtracks Vol. 2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Our Fighting",
+                "position": 1,
+                "disc": 2
+              },
+              {
+                "title": "Our Fighting feat. Takenobu Mitsuyoshi",
+                "position": 2,
+                "disc": 3
+              },
+              {
+                "title": "Our Fighting Instruments Session",
+                "position": 3,
+                "disc": 3
+              },
+              {
+                "title": "Our Fighting Full Session",
+                "position": 4,
+                "disc": 3
+              },
+              {
+                "title": "Our Fighting - Instrumental -",
+                "position": 14,
+                "disc": 3
+              }
+            ],
+            "label": "SEGA"
+          },
+          {
+            "id": "wwce-31351-4",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.3",
+            "type": "soundtrack",
+            "date": {
+              "value": "2014-12-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Our Fighting ver. MIYABI",
+                "position": 7,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-in-1-song-miyabi"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31351-4"
+          },
+          {
+            "id": "apple-hk-1699515274",
+            "title": "Phantasy Star Online2 (Original Soundtracks Vol. 3)",
+            "type": "soundtrack",
+            "date": {
+              "value": "2014-12-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Our Fighting ver. MIYABI",
+                "position": 7,
+                "disc": 4
+              }
+            ],
+            "label": "SEGA"
+          }
+        ],
+        "releaseDate": "2013-11-27"
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "phantasy-star-online-2-episode-oracle-in-2",
+        "titleJa": "永遠のencore",
+        "artistDisplayName": "クーナ（CV：喜多村英梨）",
+        "songId": "phantasy-star-online-2-episode-oracle-ed-2-song",
+        "sources": [
+          {
+            "url": "https://cal.syoboi.jp/tid/5454/subtitle",
+            "label": "日本原播逐話曲名、用途與演唱名義的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+            "label": "片頭片尾及集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+            "label": "同一動畫特別用途分話交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink",
+            "label": "中文分話劇中歌位置交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/anime_eporacle/story/09/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://pso2.jp/players/news/23731/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1620494731",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620497804",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496048",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1620496615",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620497804",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore Orgel ver.｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496048",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "永遠のencore - Instrumental -｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1620496615",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1620494731",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/09/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/09/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pso2.jp/anime_eporacle/story/09/",
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://pso2.jp/players/news/23731/",
+              "https://cal.syoboi.jp/tid/5454/subtitle",
+              "https://en.wikipedia.org/wiki/Phantasy_Star_Online_2",
+              "https://bkso.baidu.com/item/%E6%A2%A6%E5%B9%BB%E4%B9%8B%E6%98%9FOnline2%20EPISODE%20ORACLE/23339602?fromModule=lemma_inlink"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "wwce-31306-9"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620497804"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620497804"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496048"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496048"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1620496615"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1620496615"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html",
+              "https://music.apple.com/hk/album/1620494731"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1620494731"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.wave-master.com/ent/details/wwce/wwce31306/index.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "phantasy-star-online-2-episode-oracle-ed-2-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第9話（2019/12/2）劇中歌。第10話另為特別片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "クーナ（CV：喜多村英梨）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "小林秀聡",
+            "role": "composition"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原作遊戲原聲、相關改編及動畫用途各有對應來源。",
+            "resumeWhen": "待可讀的分話版錄音署名或母帶資料，核對動畫使用剪輯與遊戲原聲是否相同。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal",
+            "title": "永遠のencore",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel",
+            "title": "永遠のencore Orgel ver.",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental",
+            "title": "永遠のencore - Instrumental -",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "wwce-31306-9",
+            "title": "ファンタシースターオンライン2 オリジナルサウンドトラック Vol.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "日本原作遊戲原聲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "永遠のencore",
+                "position": 15,
+                "disc": 4,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-ost-vocal"
+              },
+              {
+                "title": "永遠のencore Orgel ver.",
+                "position": 5,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-orgel"
+              },
+              {
+                "title": "永遠のencore - Instrumental -",
+                "position": 15,
+                "disc": 3,
+                "recordingId": "phantasy-star-online-2-episode-oracle-ed-2-song-game-instrumental"
+              }
+            ],
+            "label": "ウェーブマスター",
+            "catalogNumber": "WWCE-31306-9"
+          },
+          {
+            "id": "apple-hk-1620494731",
+            "title": "PHANTASY STAR ONLINE2 Original Soundtracks Vol. 2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2013-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "SEGA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "永遠のencore",
+                "position": 15,
+                "disc": 4
+              },
+              {
+                "title": "永遠のencore Orgel ver.",
+                "position": 5,
+                "disc": 3
+              },
+              {
+                "title": "永遠のencore - Instrumental -",
+                "position": 15,
+                "disc": 3
+              }
+            ],
+            "label": "SEGA"
+          }
+        ],
+        "releaseDate": "2013-11-27"
+      }
     ],
-"metadataSources": [
-  {
-    "url": "https://pso2.jp/anime_eporacle/",
-    "label": "第一方播出資料：SEGA：エピソード・オラクル公式サイト",
-    "role": "first_party",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/108358",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
-    "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
-    "role": "broadcast_cross_check",
-    "language": "ja",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
+    "metadataSources": [
+      {
+        "url": "https://pso2.jp/anime_eporacle/",
+        "label": "第一方播出資料：SEGA：エピソード・オラクル公式サイト",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/108358",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/phantasy_star_online_2_episode_oracle",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "label": "播出交叉資料：メディア芸術コンソーシアムJV事務局",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://pso2.jp/anime_eporacle/onair/",
+        "label": "SEGA 原期電視與首輪配信時刻",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.sega.jp/topics/detail/190819_1/",
+        "label": "SEGA 原期首播與全25話公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+        "label": "TOKYO MX 新春重播前12話的節目公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5454/time",
+        "label": "TOKYO MX 正篇逐話日期及總集篇",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.animatetimes.com/tag/details.php?id=3508",
+        "label": "原期首播與終回日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://bangumi.org/seasons/546733?order=ASC",
+        "label": "獨立節目表核對第12.5話為總集篇",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter"
+    ],
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "22:30",
+    "metadataVerifiedAt": "2026-11-16"
   },
   {
     anilistId: 109562,
@@ -18408,290 +25949,3427 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 104679,
-    slug: "rifle-is-beautiful",
-    startDate: "2019-10-13",
-    titleJa: "ライフル・イズ・ビューティフル",
-    titleZhHant: "美妙射擊部",
-    titleRomaji: "Rifle Is Beautiful",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104679-wGUXfMYSRXSW.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104679-ROmxv23af4Vd.jpg",
-    broadcastLabel: "2019年日本TV，10月13日起週日23:00–23:30完整30分槽，非淨長；第12話跨2020年1月，實際用曲季度待核。",
-    officialSiteUrl: "https://chidori-high-school.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/rifle_is_beautiful",
-    themes: [
+    "anilistId": 104679,
+    "slug": "rifle-is-beautiful",
+    "startDate": "2019-10-13",
+    "titleJa": "ライフル・イズ・ビューティフル",
+    "titleZhHant": "美妙射擊部",
+    "titleRomaji": "Rifle Is Beautiful",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104679-wGUXfMYSRXSW.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104679-ROmxv23af4Vd.jpg",
+    "broadcastLabel": "TOKYO MX 日本原播，第1–11話 2019/10/13–12/29 每週日 23:00 JST，12/1 另播第7.5話總集篇。第12話改於 2020/1/18 週六 20:30 首播，1/23 12:00 起先行及單次付費配信，1/26 12:00 起訂閱配信。常規首輪日本 dアニメストア 自 2019/10/17 起配信。",
+    "officialSiteUrl": "https://chidori-high-school.com/",
+    "animeThemesUrl": "https://animethemes.moe/anime/rifle_is_beautiful",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Let's go! ライフリング4!!!!",
-        artistDisplayName: "ライフリング4",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核2019年秋日本TV用途；逐話及跨年最終話的實際用曲仍待直接核對，不推定其他季度。",
-    "resumeWhen": "取得同版本逐曲用話與日本實際播出日期的直接資料，核明最終話或完整使用範圍後再更新使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"songId": "rifle-is-beautiful-op-1-song",
-"seasonIds": [
-  "2019-fall"
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://chidori-high-school.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/rifle_is_beautiful",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "Lantis：歌曲原文與用途",
-    "url": "https://www.lantis.jp/title/rifle_beautiful/disco.html",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "Wikipedia：歌曲原文與用途",
-    "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB",
-    "language": "ja",
-    "role": "cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "rifle-is-beautiful-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lantis.jp/title/rifle_beautiful/disco.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "rifle-is-beautiful-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lantis.jp/title/rifle_beautiful/disco.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "rifle-is-beautiful-op-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "rifle-is-beautiful-op-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Let's go! ライフリング4!!!!",
+        "artistDisplayName": "ライフリング4",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核日本單曲、伴奏、原聲帶 TV size 和兩卷影碟的四個角色獨唱版本。第7.5話的片頭片尾、特典 CD 逐軌順序、角色獨唱的原播使用與香港平台曲位待核。 詞曲署名以單曲及創作者資料為準，動畫原聲帶商品頁的作詞轉錄不同。",
+            "resumeWhen": "取得第7.5話及正式播出版的可核字幕或音訊，或核對到香港音樂平台的指定曲位。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "songId": "rifle-is-beautiful-op-1-song",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://chidori-high-school.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/rifle_is_beautiful",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "Lantis：歌曲原文與用途",
+            "url": "https://www.lantis.jp/title/rifle_beautiful/disco.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "label": "Wikipedia：歌曲原文與用途",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8",
+            "label": "繁中主題曲及跨年原播交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yltWu72Idlo",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/1496.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/story/12/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/12",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://musicbrainz.org/cdtoc/HT4MAQur3lZnywrxCSpr.YyWtyQ-",
+            "label": "原聲帶光碟第2碟曲序核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1491172609",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1491172680",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.suruga-ya.jp/product/detail/428062434",
+            "label": "影碟特典 CD 曲目、演唱名義與品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://a-onstore.jp/item/item-1000216037/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.suruga-ya.com/ja/product/428062435",
+            "label": "影碟特典 CD 曲目、演唱名義與品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://a-onstore.jp/item/item-1000216038/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://supalove.com/works/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+            "label": "創作者經紀公司確認原聲帶 TV size 作詞、作曲、編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "rifle-is-beautiful-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/rifle_beautiful/disco.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "rifle-is-beautiful-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/rifle_beautiful/disco.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "rifle-is-beautiful-op-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "rifle-is-beautiful-op-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/",
+              "https://www.youtube.com/watch?v=yltWu72Idlo",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/",
+              "https://www.chidori-high-school.com/news/1496.html",
+              "https://www.chidori-high-school.com/story/12/",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/12",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.youtube.com/watch?v=yltWu72Idlo",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/op%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8Clets-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B0%EF%BC%94%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14938"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-ost-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-9698-9699"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1491172680"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1491172680"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://music.apple.com/jp/album/1491172609"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1491172609"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-hikari-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-hikari-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-izumi-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-izumi-solo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/",
+              "https://www.suruga-ya.jp/product/detail/428062434"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bcxa-1447"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-erika-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-erika-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-yukio-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-op-1-song-box-yukio-solo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/",
+              "https://www.suruga-ya.com/ja/product/428062435"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bcxa-1448"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=yltWu72Idlo"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "yltWu72Idlo"
+          }
+        ],
+        "id": "rifle-is-beautiful-op-1",
+        "usageLabel": "第1–11話日本原TV片頭，2020/1/18 播出的第12話終回沿用。",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "KOH",
+            "role": "lyrics"
+          },
+          {
+            "name": "KOH",
+            "role": "composition"
+          },
+          {
+            "name": "KOH",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-op-1-song-single-full",
+            "title": "Let's go! ライフリング4!!!!",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-single-instrumental",
+            "title": "Let's go! ライフリング4!!!!（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-ost-tv-size",
+            "title": "Let's go! ライフリング4!!!! (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-box-hikari-solo",
+            "title": "Let's go! ライフリング4!!!!（小倉ひかりソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Machico",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-box-izumi-solo",
+            "title": "Let's go! ライフリング4!!!!（渋沢泉水ソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "熊田茜音",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-box-erika-solo",
+            "title": "Let's go! ライフリング4!!!!（姪浜エリカソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "南早紀",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-op-1-song-box-yukio-solo",
+            "title": "Let's go! ライフリング4!!!!（五十嵐雪緒ソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "八巻アンナ",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releaseDate": "2019-10-23",
+        "releases": [
+          {
+            "id": "lacm-14938",
+            "title": "Let's go! ライフリング4!!!!",
+            "type": "single",
+            "date": {
+              "value": "2019-10-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本單曲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's go! ライフリング4!!!!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-single-full"
+              },
+              {
+                "title": "Let's go! ライフリング4!!!!（Instrumental）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14938"
+          },
+          {
+            "id": "laca-9698-9699",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本 2CD 原聲帶",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's go! ライフリング4!!!! (TVサイズ)",
+                "position": 19,
+                "disc": 2,
+                "recordingId": "rifle-is-beautiful-op-1-song-ost-tv-size"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-9698-9699"
+          },
+          {
+            "id": "apple-jp-1491172609",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's go! ライフリング4!!!! (TVサイズ)",
+                "position": 19,
+                "disc": 2
+              }
+            ],
+            "label": "Lantis"
+          },
+          {
+            "id": "bcxa-1447",
+            "title": "ライフリング４スペシャルCD vol.1",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本 Blu-ray BOX 1 封入特典 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's go! ライフリング4!!!!（小倉ひかりソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-box-hikari-solo"
+              },
+              {
+                "title": "Let's go! ライフリング4!!!!（渋沢泉水ソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-box-izumi-solo"
+              }
+            ],
+            "label": "バンダイナムコアーツ",
+            "catalogNumber": "BCXA-1447"
+          },
+          {
+            "id": "bcxa-1448",
+            "title": "ライフリング４スペシャルCD vol.2",
+            "type": "ep",
+            "date": {
+              "value": "2020-03-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本 Blu-ray BOX 2 封入特典 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Let's go! ライフリング4!!!!（姪浜エリカソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-box-erika-solo"
+              },
+              {
+                "title": "Let's go! ライフリング4!!!!（五十嵐雪緒ソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-op-1-song-box-yukio-solo"
+              }
+            ],
+            "label": "バンダイナムコアーツ",
+            "catalogNumber": "BCXA-1448"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Let's go! ライフリング4!!!! (TVサイズ)｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1491172680",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1491172609",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "夕焼けフレンズ",
-        artistDisplayName: "ライフリング4",
-"followUp": [
-  {
-    "fields": [
-      "use_quarters"
-    ],
-    "note": "已核2019年秋日本TV用途；逐話及跨年最終話的實際用曲仍待直接核對，不推定其他季度。",
-    "resumeWhen": "取得同版本逐曲用話與日本實際播出日期的直接資料，核明最終話或完整使用範圍後再更新使用季度。",
-    "checkedAt": "2026-10-31"
-  }
-],
-"songId": "rifle-is-beautiful-ed-1-song",
-"seasonIds": [
-  "2019-fall"
-],
-"sourceMode": "explicit",
-"sources": [
-  {
-    "label": "動畫官方網站",
-    "url": "https://chidori-high-school.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes",
-    "url": "https://animethemes.moe/anime/rifle_is_beautiful",
-    "language": "en",
-    "role": "cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "Lantis：歌曲原文與用途",
-    "url": "https://www.lantis.jp/title/rifle_beautiful/disco.html",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "Wikipedia：歌曲原文與用途",
-    "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB",
-    "language": "ja",
-    "role": "cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
-"lastVerifiedAt": "2026-10-31",
-"evidence": [
-  {
-    "target": "song",
-    "targetId": "rifle-is-beautiful-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://www.lantis.jp/title/rifle_beautiful/disco.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "rifle-is-beautiful-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://www.lantis.jp/title/rifle_beautiful/disco.html"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "song",
-    "targetId": "rifle-is-beautiful-ed-1-song",
-    "fields": [
-      "title",
-      "artist"
-    ],
-    "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
-    ],
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "target": "anime_use",
-    "targetId": "rifle-is-beautiful-ed-1",
-    "fields": [
-      "usage"
-    ],
-    "sourceUrls": [
-      "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
-    ],
-    "verifiedAt": "2026-10-31"
-  }
-],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "夕焼けフレンズ",
+        "artistDisplayName": "ライフリング4",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已核日本單曲、伴奏、原聲帶 TV size 和兩卷影碟的四個角色獨唱版本。第7.5話的片頭片尾、特典 CD 逐軌順序、角色獨唱的原播使用與香港平台曲位待核。 單曲另列坂東邑真為弦編曲。",
+            "resumeWhen": "取得第7.5話及正式播出版的可核字幕或音訊，或核對到香港音樂平台的指定曲位。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "songId": "rifle-is-beautiful-ed-1-song",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://chidori-high-school.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "AnimeThemes",
+            "url": "https://animethemes.moe/anime/rifle_is_beautiful",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "Lantis：歌曲原文與用途",
+            "url": "https://www.lantis.jp/title/rifle_beautiful/disco.html",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "label": "Wikipedia：歌曲原文與用途",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8",
+            "label": "繁中主題曲及跨年原播交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yltWu72Idlo",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/1496.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/story/12/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/12",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://musicbrainz.org/cdtoc/HT4MAQur3lZnywrxCSpr.YyWtyQ-",
+            "label": "原聲帶光碟第2碟曲序核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1491172609",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1491172681",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.suruga-ya.jp/product/detail/428062434",
+            "label": "影碟特典 CD 曲目、演唱名義與品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://a-onstore.jp/item/item-1000216037/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.suruga-ya.com/ja/product/428062435",
+            "label": "影碟特典 CD 曲目、演唱名義與品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://a-onstore.jp/item/item-1000216038/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "rifle-is-beautiful-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/rifle_beautiful/disco.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "rifle-is-beautiful-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.lantis.jp/title/rifle_beautiful/disco.html"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "targetId": "rifle-is-beautiful-ed-1-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "rifle-is-beautiful-ed-1",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB"
+            ],
+            "verifiedAt": "2026-10-31"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/",
+              "https://www.youtube.com/watch?v=yltWu72Idlo",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/",
+              "https://www.chidori-high-school.com/news/1496.html",
+              "https://www.chidori-high-school.com/story/12/",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/12",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.youtube.com/watch?v=yltWu72Idlo",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/ed%E4%B8%BB%E9%A1%8C%E6%AD%8C%E3%80%8C%E5%A4%95%E7%84%BC%E3%81%91%E3%83%95%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14940"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-ost-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-9698-9699"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1491172681"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1491172681"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://music.apple.com/jp/album/1491172609"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1491172609"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-hikari-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-hikari-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-izumi-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-izumi-solo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216037/",
+              "https://www.suruga-ya.jp/product/detail/428062434"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bcxa-1447"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-erika-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-erika-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-yukio-solo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-ed-1-song-box-yukio-solo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://a-onstore.jp/item/item-1000216038/",
+              "https://www.suruga-ya.com/ja/product/428062435"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bcxa-1448"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=yltWu72Idlo"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "yltWu72Idlo"
+          }
+        ],
+        "id": "rifle-is-beautiful-ed-1",
+        "usageLabel": "第1–11話日本原TV片尾，2020/1/18 播出的第12話終回沿用。",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "KOH",
+            "role": "composition"
+          },
+          {
+            "name": "KOH",
+            "role": "arrangement"
+          },
+          {
+            "name": "坂東邑真",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-ed-1-song-single-full",
+            "title": "夕焼けフレンズ",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-single-instrumental",
+            "title": "夕焼けフレンズ（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-ost-tv-size",
+            "title": "夕焼けフレンズ (TVサイズ)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-box-hikari-solo",
+            "title": "夕焼けフレンズ（小倉ひかりソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Machico",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-box-izumi-solo",
+            "title": "夕焼けフレンズ（渋沢泉水ソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "熊田茜音",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-box-erika-solo",
+            "title": "夕焼けフレンズ（姪浜エリカソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "南早紀",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "rifle-is-beautiful-ed-1-song-box-yukio-solo",
+            "title": "夕焼けフレンズ（五十嵐雪緒ソロVer.）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "八巻アンナ",
+                "role": "vocals"
+              }
+            ]
+          }
+        ],
+        "releaseDate": "2019-11-06",
+        "releases": [
+          {
+            "id": "lacm-14940",
+            "title": "夕焼けフレンズ",
+            "type": "single",
+            "date": {
+              "value": "2019-11-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本單曲 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夕焼けフレンズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-single-full"
+              },
+              {
+                "title": "夕焼けフレンズ（Instrumental）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14940"
+          },
+          {
+            "id": "laca-9698-9699",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本 2CD 原聲帶",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夕焼けフレンズ (TVサイズ)",
+                "position": 20,
+                "disc": 2,
+                "recordingId": "rifle-is-beautiful-ed-1-song-ost-tv-size"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-9698-9699"
+          },
+          {
+            "id": "apple-jp-1491172609",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夕焼けフレンズ (TVサイズ)",
+                "position": 20,
+                "disc": 2
+              }
+            ],
+            "label": "Lantis"
+          },
+          {
+            "id": "bcxa-1447",
+            "title": "ライフリング４スペシャルCD vol.1",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本 Blu-ray BOX 1 封入特典 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夕焼けフレンズ（小倉ひかりソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-box-hikari-solo"
+              },
+              {
+                "title": "夕焼けフレンズ（渋沢泉水ソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-box-izumi-solo"
+              }
+            ],
+            "label": "バンダイナムコアーツ",
+            "catalogNumber": "BCXA-1447"
+          },
+          {
+            "id": "bcxa-1448",
+            "title": "ライフリング４スペシャルCD vol.2",
+            "type": "ep",
+            "date": {
+              "value": "2020-03-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本 Blu-ray BOX 2 封入特典 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夕焼けフレンズ（姪浜エリカソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-box-erika-solo"
+              },
+              {
+                "title": "夕焼けフレンズ（五十嵐雪緒ソロVer.）",
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-ed-1-song-box-yukio-solo"
+              }
+            ],
+            "label": "バンダイナムコアーツ",
+            "catalogNumber": "BCXA-1448"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "夕焼けフレンズ (TVサイズ)｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1491172681",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1491172609",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ]
       },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "rifle-is-beautiful-in-1",
+        "titleJa": "GO! GO! ライフリング4!!!!",
+        "artistDisplayName": "ライフリング4",
+        "songId": "rifle-is-beautiful-in-1-song",
+        "sources": [
+          {
+            "url": "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+            "label": "中文逐話插曲交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://supalove.com/works/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.livedoor.com/article/detail/16551283/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000131241/?show_more=1",
+            "label": "演出現場報導明示販售結成紀念單曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/rifling4/staffblog/",
+            "label": "權利方本曲最早已核商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.suruga-ya.jp/product/other/120133745",
+            "label": "首發會場限定 CD 日期與品番",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://musicbrainz.org/cdtoc/HT4MAQur3lZnywrxCSpr.YyWtyQ-",
+            "label": "原聲帶光碟第2碟曲序核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1491172609",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1491172682",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "GO! GO! ライフリング4!!!!｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1491172682",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1491172609",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/",
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/1",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/",
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/1",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+              "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/",
+              "https://supalove.com/works/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://news.livedoor.com/article/detail/16551283/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/rifling4/staffblog/",
+              "https://www.lisani.jp/0000131241/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-1-song-event-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-1-song-event-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E3%80%90%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E4%BC%9A%E5%A0%B4%E9%99%90%E5%AE%9A%E3%80%91%E3%80%8Cgo-go%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AA%E3%83%B3%E3%82%B04%EF%BC%8Fbright-day-stand-up/",
+              "https://www.chidori-high-school.com/rifling4/staffblog/",
+              "https://www.suruga-ya.jp/product/other/120133745",
+              "https://www.lisani.jp/0000131241/?show_more=1"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacz-10024"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-9698-9699"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1491172682"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1491172682"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8E%E3%83%A9%E3%82%A4%E3%83%95%E3%83%AB%E3%83%BB%E3%82%A4%E3%82%BA%E3%83%BB%E3%83%93%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%95%E3%83%AB%E3%80%8F%E3%82%AA%E3%83%AA/",
+              "https://music.apple.com/jp/album/1491172609"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1491172609"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第1話日本原TV插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "KOH",
+            "role": "lyrics"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "KOH",
+            "role": "composition"
+          },
+          {
+            "name": "KOH",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "releaseDate": "2019-06-01",
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-in-1-song-event-full",
+            "title": "GO! GO! ライフリング4!!!!",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-in-1-song-event-instrumental",
+            "title": "GO! GO! ライフリング4!!!!（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacz-10024",
+            "title": "GO! GO!ライフリング４!!!!／Bright day, Stand up!",
+            "type": "single",
+            "date": {
+              "value": "2019-06-01",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本活動會場限定 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "GO! GO! ライフリング4!!!!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-1-song-event-full"
+              },
+              {
+                "title": "GO! GO! ライフリング4!!!!（Instrumental）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-1-song-event-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACZ-10024"
+          },
+          {
+            "id": "laca-9698-9699",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本 2CD 原聲帶",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "GO! GO! ライフリング4!!!!",
+                "position": 21,
+                "disc": 2
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-9698-9699"
+          },
+          {
+            "id": "apple-jp-1491172609",
+            "title": "TVアニメ『ライフル・イズ・ビューティフル』オリジナルサウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "宝野聡史",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "GO! GO! ライフリング4!!!!",
+                "position": 21,
+                "disc": 2
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "首發會場盤與原聲帶均收錄。兩張發行品的母帶與原播剪輯對應待核，香港曲位待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "rifle-is-beautiful-in-2",
+        "titleJa": "BiRiRi×SENSATION",
+        "artistDisplayName": "ライフリング4",
+        "songId": "rifle-is-beautiful-in-2-song",
+        "sources": [
+          {
+            "url": "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+            "label": "中文逐話插曲交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1488711093",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1488711094",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "BiRiRi×SENSATION｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1488711094",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1488711093",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/3",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/3",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/3"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-2-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-2-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-2-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14911"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1488711094"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1488711094"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://music.apple.com/jp/album/1488711093"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1488711093"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第3話日本原TV插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "KOH",
+            "role": "composition"
+          },
+          {
+            "name": "KOH",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-in-2-song-single-full",
+            "title": "BiRiRi×SENSATION",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-in-2-song-single-instrumental",
+            "title": "BiRiRi×SENSATION（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2019-12-04",
+        "releases": [
+          {
+            "id": "lacm-14911",
+            "title": "GO! GO! Music vol.1",
+            "type": "single",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本實體 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BiRiRi×SENSATION",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-2-song-single-full"
+              },
+              {
+                "title": "BiRiRi×SENSATION（Instrumental）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-2-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14911"
+          },
+          {
+            "id": "apple-jp-1488711093",
+            "title": "GO! GO! Music vol.1",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "BiRiRi×SENSATION",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "日本實體版另收伴奏，日本數位版已核正曲曲位。原播剪輯及香港平台曲位待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "rifle-is-beautiful-in-3",
+        "titleJa": "Get started.",
+        "artistDisplayName": "ライフリング4",
+        "songId": "rifle-is-beautiful-in-3-song",
+        "sources": [
+          {
+            "url": "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+            "label": "中文逐話插曲交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/5",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1488711093",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1488711307",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Get started.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1488711307",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1488711093",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/5",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/5",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/5"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-3-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-3-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-3-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14911"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1488711307"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1488711307"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-1%E3%80%8D/",
+              "https://music.apple.com/jp/album/1488711093"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1488711093"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第5話日本原TV插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "小久保祐希",
+            "role": "composition"
+          },
+          {
+            "name": "YUU for YOU",
+            "role": "composition"
+          },
+          {
+            "name": "YUU for YOU",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-in-3-song-single-full",
+            "title": "Get started.",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-in-3-song-single-instrumental",
+            "title": "Get started.（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2019-12-04",
+        "releases": [
+          {
+            "id": "lacm-14911",
+            "title": "GO! GO! Music vol.1",
+            "type": "single",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本實體 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Get started.",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-3-song-single-full"
+              },
+              {
+                "title": "Get started.（Instrumental）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-3-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14911"
+          },
+          {
+            "id": "apple-jp-1488711093",
+            "title": "GO! GO! Music vol.1",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Get started.",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "日本實體版另收伴奏，日本數位版已核正曲曲位。原播剪輯及香港平台曲位待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "rifle-is-beautiful-in-4",
+        "titleJa": "higher and higher!",
+        "artistDisplayName": "ライフリング4",
+        "songId": "rifle-is-beautiful-in-4-song",
+        "sources": [
+          {
+            "url": "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+            "label": "中文逐話插曲交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/9",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1492045493",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492045494",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "higher and higher!｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1492045494",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1492045493",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/9",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/9",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/9"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-4-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-4-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-4-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14958"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1492045494"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1492045494"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://music.apple.com/jp/album/1492045493"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1492045493"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第9話日本原TV插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "丸山真由子",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺徹",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-in-4-song-single-full",
+            "title": "higher and higher!",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-in-4-song-single-instrumental",
+            "title": "higher and higher!（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2020-01-15",
+        "releases": [
+          {
+            "id": "lacm-14958",
+            "title": "GO! GO! Music vol.2",
+            "type": "single",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本實體 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "higher and higher!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-4-song-single-full"
+              },
+              {
+                "title": "higher and higher!（Instrumental）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-4-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14958"
+          },
+          {
+            "id": "apple-jp-1492045493",
+            "title": "GO! GO! Music vol.2",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "higher and higher!",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "日本實體版另收伴奏，日本數位版已核正曲曲位。原播剪輯及香港平台曲位待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "rifle-is-beautiful-in-5",
+        "titleJa": "Shangri-la",
+        "artistDisplayName": "ライフリング4",
+        "songId": "rifle-is-beautiful-in-5-song",
+        "sources": [
+          {
+            "url": "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8",
+            "label": "中文逐話插曲交叉資料",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/rifleisbeautiful/ep/11",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1492045493",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492045495",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Shangri-la｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1492045495",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1492045493",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/11",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/11",
+              "https://moegirl.uk/%E7%BE%8E%E5%A6%99%E7%AB%9E%E6%8A%80%E5%B0%84%E5%87%BB%E9%83%A8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+              "https://www.mau2.com/anime/rifleisbeautiful/ep/11"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-5-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-5-song-single-instrumental"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "rifle-is-beautiful-in-5-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14958"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1492045495"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1492045495"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.chidori-high-school.com/news/product/%E6%8C%BF%E5%85%A5%E6%AD%8C%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%80%8Cgo-go-music-vol-2%E3%80%8D/",
+              "https://music.apple.com/jp/album/1492045493"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1492045493"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "第11話日本原TV插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ライフリング4",
+            "role": "vocals"
+          },
+          {
+            "name": "Machico",
+            "role": "vocals"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "南早紀",
+            "role": "vocals"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "vocals"
+          },
+          {
+            "name": "宮崎まゆ",
+            "role": "lyrics"
+          },
+          {
+            "name": "家原正樹",
+            "role": "composition"
+          },
+          {
+            "name": "家原正樹",
+            "role": "arrangement"
+          },
+          {
+            "name": "Machico",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "熊田茜音",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "南早紀",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          },
+          {
+            "name": "八巻アンナ",
+            "role": "group_member",
+            "groupName": "ライフリング4"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "rifle-is-beautiful-in-5-song-single-full",
+            "title": "Shangri-la",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "rifle-is-beautiful-in-5-song-single-instrumental",
+            "title": "Shangri-la（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releaseDate": "2020-01-15",
+        "releases": [
+          {
+            "id": "lacm-14958",
+            "title": "GO! GO! Music vol.2",
+            "type": "single",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本實體 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Shangri-la",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-5-song-single-full"
+              },
+              {
+                "title": "Shangri-la（Instrumental）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "rifle-is-beautiful-in-5-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14958"
+          },
+          {
+            "id": "apple-jp-1492045493",
+            "title": "GO! GO! Music vol.2",
+            "type": "ep",
+            "date": {
+              "value": "2020-01-15",
+              "precision": "day"
+            },
+            "artistDisplayName": "ライフリング4",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Shangri-la",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "日本實體版另收伴奏，日本數位版已核正曲曲位。原播剪輯及香港平台曲位待核。",
+            "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-"seasonIds": [
-  "2019-fall",
-  "2020-winter"
-],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://chidori-high-school.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/104679",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/rifle_is_beautiful",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "TVアニメ「ライフル・イズ・ビューティフル」公式サイト：同版日本TV播出資料（完整槽依另列來源）",
-    "url": "https://www.chidori-high-school.com/onair/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "文化庁公開報告書／メディア芸術コンソーシアムJV事務局：同版完整30分鐘節目槽交叉對照（非淨長）",
-    "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  },
-  {
-    "label": "Wikipedia：同版跨年續播（非歌曲使用季度）",
-    "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8",
-    "language": "multi",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
+    "seasonIds": [
+      "2019-fall",
+      "2020-winter"
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://chidori-high-school.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/104679",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/rifle_is_beautiful",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "TVアニメ「ライフル・イズ・ビューティフル」公式サイト：同版日本TV播出資料（完整槽依另列來源）",
+        "url": "https://www.chidori-high-school.com/onair/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "label": "文化庁公開報告書／メディア芸術コンソーシアムJV事務局：同版完整30分鐘節目槽交叉對照（非淨長）",
+        "url": "https://mediag.bunka.go.jp/mediag_wp/wp-content/uploads/2020/04/38_jv4.pdf",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "label": "Wikipedia：同版跨年續播（非歌曲使用季度）",
+        "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%A6%99%E5%B0%84%E6%93%8A%E9%83%A8",
+        "language": "multi",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chidori-high-school.com/news/1496.html",
+        "label": "製作方終回改檔和電視及配信時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chidori-high-school.com/story/12/",
+        "label": "製作方原播終回",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chidori-high-school.com/story/07.5/",
+        "label": "官方第7.5話總集篇",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/9706?entry_id=6777",
+        "label": "製作方全12話及影碟發行",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/pdf/365839",
+        "label": "日本原播起訖",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://katsux2.blog.jp/archives/cat_50053640.html",
+        "label": "第7.5話 12/1 及第11話 12/29 同期原播記錄",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AgbX5OaOO-Y",
+        "label": "木棉花第12話及繁中正式作品名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://hamivideo.hinet.net/product/98311.do?cs=2",
+        "label": "台灣授權串流第7.5話旁番",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "broadcastTimeJst": "23:00",
+    "editorialWeekday": 7,
+    "metadataVerifiedAt": "2026-11-16"
   },
   {
     anilistId: 108759,

@@ -1,6 +1,705 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "101634:IN:14": [
+    {
+      "youtubeVideoId": "J0d1QI74S6U",
+      "title": "ゆら・ゆらRing-Dong-Dance｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:13": [
+    {
+      "youtubeVideoId": "zcmAo1mCFtU",
+      "title": "Dreamers Go!｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:12": [
+    {
+      "youtubeVideoId": "llD_yUgDOCw",
+      "title": "Don't be afraid!｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:11": [
+    {
+      "youtubeVideoId": "CHKGjqehu0E",
+      "title": "えがお・シング・あ・ソング｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:10": [
+    {
+      "youtubeVideoId": "skIGelqLRCU",
+      "title": "しゅわりん☆どり～みん｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:9": [
+    {
+      "youtubeVideoId": "O47jN5jzU1w",
+      "title": "UNSTOPPABLE｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:8": [
+    {
+      "youtubeVideoId": "1nwp8sJKsk0",
+      "title": "LOUDER｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:6": [
+    {
+      "youtubeVideoId": "reW_kvwRC10",
+      "title": "もういちど ルミナス｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:2": [
+    {
+      "youtubeVideoId": "O47jN5jzU1w",
+      "title": "R·I·O·T｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:IN:1": [
+    {
+      "youtubeVideoId": "_9tiKp5SjI8",
+      "title": "Determination Symphony｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101634:ED:3": [
+    {
+      "youtubeVideoId": "gsFUz0NTBUo",
+      "title": "夢を撃ち抜く瞬間に！｜三團片尾 Short Ver.",
+      "channelName": "Poppin'Party",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bang-dream-3rd-season-ed-1-song-three-band-ep13-short"
+    },
+    {
+      "youtubeVideoId": "mzOuj7SRALI",
+      "title": "夢を撃ち抜く瞬間に！｜三團 Full Ver.",
+      "channelName": "Poppin'Party",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bang-dream-3rd-season-ed-1-song-three-band-ep13-full"
+    }
+  ],
+  "101634:ED:2": [
+    {
+      "youtubeVideoId": "_FwBo7QVkkI",
+      "title": "FIRE BIRD｜官方單曲試聽",
+      "channelName": "バンドリちゃんねる☆",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "99807:IN:4": [
+    {
+      "youtubeVideoId": "DB98rK3xnbU",
+      "title": "22/7 3rd single『理解者』music video",
+      "channelName": "22/7 OFFICIAL YouTube CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "99807:IN:2": [
+    {
+      "youtubeVideoId": "X1pg-wBqSxU",
+      "title": "22/7 1st single『僕は存在していなかった』music video",
+      "channelName": "22/7 OFFICIAL YouTube CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "99807:IN:1": [
+    {
+      "youtubeVideoId": "79qPHlqistg",
+      "title": "22/7 2nd single『シャンプーの匂いがした』music video",
+      "channelName": "22/7 OFFICIAL YouTube CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109964:OP:1": [
+    {
+      "youtubeVideoId": "R6Z1Ctyj4q4",
+      "title": "フレンズ｜官方 MV",
+      "channelName": "wacci OFFICIAL YouTube CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "DPxwMxIn-PM",
+      "title": "フレンズ｜官方短版 MV",
+      "channelName": "wacci OFFICIAL YouTube CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "106479:IN:1": [
+    {
+      "youtubeVideoId": "aF-a06YjvDQ",
+      "title": "Good Night｜MAGES. 授權音源",
+      "channelName": "Rico Sasaki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-in-1-song-single-full"
+    }
+  ],
+  "101367:ED:1": [
+    {
+      "youtubeVideoId": "8Ypfuv2F2VI",
+      "title": "予測不能Days｜藝人官方影片",
+      "channelName": "渕上 舞Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101367:OP:1": [
+    {
+      "youtubeVideoId": "5Zndspe-BbQ",
+      "title": "Calling U｜Lantis 官方一段版 MV",
+      "channelName": "Lantis Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "VquuaZKMHyk",
+      "title": "Calling U｜NexTone 授權音源",
+      "channelName": "buzz★Vibes - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "majutsushi-orphen-hagure-tabi-op-1-song-single-full"
+    }
+  ],
+  "110615:IN:12": [
+    {
+      "youtubeVideoId": "msMhIcYpGVM",
+      "title": "最高のGood-bye｜官方歌詞影片",
+      "channelName": "ARP",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:11": [
+    {
+      "youtubeVideoId": "gX-YUWktwwo",
+      "title": "威信傳心｜官方影像",
+      "channelName": "ARP",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:10": [
+    {
+      "youtubeVideoId": "-lnGtFYK5Rs",
+      "title": "rrRrride On!!｜官方影像",
+      "channelName": "ARP",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:8": [
+    {
+      "youtubeVideoId": "wxr7ci6qL0E",
+      "title": "FANTASISTA｜官方影像",
+      "channelName": "ARP",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:7": [
+    {
+      "youtubeVideoId": "BCwCG0qnlrQ",
+      "title": "Tender Blue｜官方影像",
+      "channelName": "ARP",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:5": [
+    {
+      "youtubeVideoId": "MrErJohZrAw",
+      "title": "BlacK Sapphire｜官方影像",
+      "channelName": "Cross Bone - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "arp-backstage-pass-in-5-song-digital-single"
+    }
+  ],
+  "110615:IN:4": [
+    {
+      "youtubeVideoId": "ovZN2eXGBSQ",
+      "title": "Logical Dreamer｜官方歌詞影片",
+      "channelName": "ARP",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:3": [
+    {
+      "youtubeVideoId": "N9yYS58gT78",
+      "title": "THE KISS｜官方歌詞影片",
+      "channelName": "ARP",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:2": [
+    {
+      "youtubeVideoId": "QZ1CvVn07dw",
+      "title": "The World Is Mine｜官方歌詞影片",
+      "channelName": "ARP",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110615:IN:1": [
+    {
+      "youtubeVideoId": "YgovPrEfOO8",
+      "title": "The Show Must Go On｜官方影像",
+      "channelName": "Asmik Ace",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107067:IN:2": [
+    {
+      "youtubeVideoId": "GOGBNuL9Pk8",
+      "title": "チューリングラブ feat.Sou Last Episode ver.｜Sony Music 官方音軌",
+      "channelName": "NANAOAKARI - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song-last-episode"
+    }
+  ],
+  "107067:ED:1": [
+    {
+      "youtubeVideoId": "L-MVk5I6wjo",
+      "title": "チューリングラブ feat.Sou / ナナヲアカリ",
+      "channelName": "ナナヲアカリ OFFICIAL",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song-full"
+    },
+    {
+      "youtubeVideoId": "Mtx6pIDdbgA",
+      "title": "【歌ってみた】チューリングラブ -雪村×氷室ver.-【TVアニメリケ恋ED】",
+      "channelName": "メテオ・ポラリス公式チャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song-character"
+    },
+    {
+      "youtubeVideoId": "BVxUOXQeM34",
+      "title": "TVアニメ「理系が恋に落ちたので証明してみた。」Blu-ray特典映像「チューリングラブ」キャラVer.MVトレーラー",
+      "channelName": "メテオ・ポラリス公式チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-ed-1-song-character"
+    }
+  ],
+  "107067:OP:1": [
+    {
+      "youtubeVideoId": "UhHJc-pXlBw",
+      "title": "TVアニメ「理系が恋に落ちたので証明してみた。」OPムービートレーラー",
+      "channelName": "メテオ・ポラリス公式チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "al1_CZ3Gv8E",
+      "title": "雨宮天 『PARADOX』Music Video(short ver.)",
+      "channelName": "TrySail（麻倉もも・雨宮天・夏川椎菜）official YouTube channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "z0uDEu-QQYM",
+      "title": "雨宮天 - PARADOX / THE FIRST TAKE",
+      "channelName": "THE FIRST TAKE",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-op-1-song-first-take"
+    }
+  ],
+  "112293:ED:1": [
+    {
+      "youtubeVideoId": "enAd0wfp_GE",
+      "title": "オオカミブルース｜官方無字幕片尾",
+      "channelName": "Cygames公式チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "112293:OP:1": [
+    {
+      "youtubeVideoId": "-YG7sAaTRsw",
+      "title": "学園壮観Zoo｜官方無字幕片頭",
+      "channelName": "Cygames公式チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111501:OP:1": [
+    {
+      "youtubeVideoId": "tW1-pn10biY",
+      "title": "LION｜官方完整 MV",
+      "channelName": "坂口有望(さかぐちあみ)",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "runway-de-waratte-op-1-song-single-full"
+    },
+    {
+      "youtubeVideoId": "1F7oi7KsET8",
+      "title": "LION｜官方短版 MV",
+      "channelName": "坂口有望(さかぐちあみ)",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104936:OP:1": [
+    {
+      "youtubeVideoId": "z9mTpkJAU6o",
+      "title": "Take mo' Chance｜Being官方音源",
+      "channelName": "all at once - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-op-1-song-12cm-full"
+    },
+    {
+      "youtubeVideoId": "7DR1E7E2gc0",
+      "title": "《ぼくはか》官方PV第2彈｜含本曲片段",
+      "channelName": "東映ビデオ",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108463:ED:1": [
+    {
+      "youtubeVideoId": "7wOD-9jwbJQ",
+      "title": "Tiny Light｜TBS 無字幕片尾",
+      "channelName": "TBSアニメ",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "l62lVoFbmMA",
+      "title": "Tiny Light（TV Size）｜官方音源",
+      "channelName": "鬼頭明里 Official Artist Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "jibaku-shounen-hanako-kun-ed-1-song-tv-size"
+    },
+    {
+      "youtubeVideoId": "gGLp3pvuHRU",
+      "title": "Tiny Light｜STYLE 官方音源",
+      "channelName": "鬼頭明里 Official Artist Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108463:OP:1": [
+    {
+      "youtubeVideoId": "xZg1WdILT0o",
+      "title": "No.7｜TBS 第1話無字幕片頭",
+      "channelName": "TBSアニメ",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "yExFsoZRA8k",
+      "title": "No.7｜Pony Canyon 官方完整 MV",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108617:ED:1": [
+    {
+      "youtubeVideoId": "5XmRVuJMsyY",
+      "title": "水瀬いのり「ココロソマリ」MUSIC CLIP",
+      "channelName": "水瀬いのり",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108617:OP:1": [
+    {
+      "youtubeVideoId": "R-PpoRaZQio",
+      "title": "ありがとうはこっちの言葉｜Music Video",
+      "channelName": "SPOTTED PRODUCTIONS",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "GQ6Btmz7SeA",
+      "title": "ありがとうはこっちの言葉｜Universal Music 官方全曲音軌",
+      "channelName": "森山直太朗",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "somali-to-mori-no-kamisama-op-1-song-full"
+    },
+    {
+      "youtubeVideoId": "cGAs0DgTtm0",
+      "title": "ありがとうはこっちの言葉（TV version）｜Universal Music 官方音軌",
+      "channelName": "森山直太朗",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "somali-to-mori-no-kamisama-op-1-song-tv-edit"
+    }
+  ],
+  "111951:ED:1": [
+    {
+      "youtubeVideoId": "jBZE87A3iWw",
+      "title": "Only For You",
+      "channelName": "Da-iCE Official YouTube Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "housekishou-richard-shi-no-nazo-kantei-ed-1-song-digital-full"
+    },
+    {
+      "youtubeVideoId": "y-zuy_FPN6M",
+      "title": "Da-iCE - 「Only for you」(Audio) from 2019.12.18 New Single「BACK TO BACK」",
+      "channelName": "Da-iCE Official YouTube Channel",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111951:OP:1": [
+    {
+      "youtubeVideoId": "Est7aCOPFCc",
+      "title": "宝石の生まれるとき",
+      "channelName": "yanaginagi - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "5jp9e_gmFyY",
+      "title": "宝石の生まれるとき（TV 動畫 OP 主題曲）15秒 SPOT",
+      "channelName": "avex pictures",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107201:IN:1": [
+    {
+      "youtubeVideoId": "39bDpBDWDYM",
+      "title": "火炎放射器とわたし｜第4話插曲官方 PV",
+      "channelName": "「虚構推理」公式",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107201:ED:1": [
+    {
+      "youtubeVideoId": "7utAfa2SzMU",
+      "title": "LAST DANCE｜官方 MV",
+      "channelName": "宮野真守",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107201:OP:1": [
+    {
+      "youtubeVideoId": "A3Xts1HXj-Q",
+      "title": "モノノケ・イン・ザ・フィクション｜官方單曲預告",
+      "channelName": "嘘とカメレオンofficial",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104391:IN:2": [
+    {
+      "youtubeVideoId": "F3iaZO0RV1c",
+      "title": "ずっと ChamJam｜官方特別 MV",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104391:ED:2": [
+    {
+      "youtubeVideoId": "jvmru9lsCTM",
+      "title": "♡桃色片想い♡｜えりぴよ＆舞菜官方剪輯",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104391:ED:1": [
+    {
+      "youtubeVideoId": "smqq5wQa9XE",
+      "title": "♡桃色片想い♡｜官方無字幕動畫映像",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104391:OP:1": [
+    {
+      "youtubeVideoId": "jLpT6aS8qqc",
+      "title": "Clover wish｜官方無字幕動畫映像",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "106863:IN:2": [
     {
       "youtubeVideoId": "p90VxhKQd1o",
@@ -469,14 +1168,23 @@ export const curated2020WinterThemeVideos = {
   ],
   "99807:ED:1": [
     {
-      youtubeVideoId: "QK_DuHHT4UU",
-      title:
-        "22/7 5th single『空のエメラルド』music video（TV Anime『22/7』Ending Theme）",
-      type: "full_music_video",
-      channelName: "22/7 OFFICIAL YouTube CHANNEL",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "QK_DuHHT4UU",
+      "title": "22/7 5th single『空のエメラルド』music video（TV Anime『22/7』Ending Theme）",
+      "type": "full_music_video",
+      "channelName": "22/7 OFFICIAL YouTube CHANNEL",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "hsVR9m836ns",
+      "title": "22/7『空のエメラルド』＠Zepp Tokyo（2020.02.27）",
+      "channelName": "22/7 OFFICIAL YouTube CHANNEL",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "22-7-ed-1-song-zepp-tokyo-2020"
+    }
   ],
   "99807:ED:2": [
     {
@@ -644,33 +1352,43 @@ export const curated2020WinterThemeVideos = {
   ],
   "104936:ED:1": [
     {
-      youtubeVideoId: "NBo6SDUAW0Y",
-      title: "A応P「FREEDOMでムダに無敵!!」FULL Ver.",
-      type: "full_music_video",
-      channelName: "A応P",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "NBo6SDUAW0Y",
+      "title": "FREEDOMでムダに無敵!!｜官方完整版 MV",
+      "type": "full_music_video",
+      "channelName": "A応P",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "boku-no-tonari-ni-ankoku-hakaishin-ga-imasu-ed-1-song-single-full"
     },
+    {
+      "youtubeVideoId": "a4cEkbcmN6A",
+      "title": "FREEDOMでムダに無敵!!｜官方單曲CM",
+      "channelName": "A応P",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "110615:OP:1": [
     {
-      youtubeVideoId: "j8aeMLKJu3g",
-      title: 'TVアニメ「ARP Backstage Pass」OP映像 "Burn it up"',
-      type: "creditless_op",
-      channelName: "Asmik Ace",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "j8aeMLKJu3g",
+      "title": "Burn it up｜Asmik Ace 官方無字幕片頭",
+      "type": "creditless_op",
+      "channelName": "Asmik Ace",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "110615:ED:1": [
     {
-      youtubeVideoId: "YQak15eNH7I",
-      title: 'TVアニメ「ARP Backstage Pass」ED映像 "Celebrate Good Time"',
-      type: "creditless_ed",
-      channelName: "Asmik Ace",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "YQak15eNH7I",
+      "title": "Celebrate Good Time｜Asmik Ace 官方無字幕片尾",
+      "type": "creditless_ed",
+      "channelName": "Asmik Ace",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "108092:OP:1": [
     {

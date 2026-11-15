@@ -490,15 +490,23 @@ test.describe("independent search index delivery", () => {
     const timings = () => cachedPage.evaluate(() => (performance.getEntriesByType("resource") as PerformanceResourceTiming[])
       .filter((entry) => new URL(entry.name).pathname.startsWith("/search-index/"))
       .map((entry) => ({ path: new URL(entry.name).pathname, transfer: entry.transferSize, encoded: entry.encodedBodySize })));
+    const query = "鏈鋸人 KICK BACK";
+    const results = cachedPage.locator("[data-catalog-result]");
+    const expectSongResult = async () => {
+      await expect(cachedPage.locator("[data-catalog-search]")).toHaveAttribute("data-search-state", "ready");
+      await expect(results).toHaveCount(1);
+      await expect(results.locator(".song-row__song strong")).toHaveText("KICK BACK");
+      await expect(results.locator("a")).toHaveAttribute("href", /\/anime\/chainsaw-man\//);
+    };
     try {
       await cachedPage.goto(`${origin}/search/`);
       const assetResponse = cachedPage.waitForResponse((response) => new URL(response.url()).pathname.startsWith("/search-index/"));
-      await cachedPage.getByRole("searchbox").fill("KICK BACK");
+      await cachedPage.getByRole("searchbox").fill(query);
       const response = await assetResponse;
       expect(response.headers()["cache-control"]).toBe("public, max-age=31536000, immutable");
       expect(response.headers()["x-robots-tag"]).toBe("noindex");
       expect(response.headers()["content-encoding"]).toBe("gzip");
-      await expect(cachedPage.locator("[data-catalog-result]")).toHaveCount(1);
+      await expectSongResult();
       const first = await timings();
       expect(first.length).toBeGreaterThan(0);
       expect(first.every((entry) => entry.transfer > 0 && entry.encoded > 0)).toBe(true);
@@ -518,9 +526,8 @@ test.describe("independent search index delivery", () => {
       await expect(cachedPage.locator("main")).toBeVisible();
       await expect(cachedPage.locator("[data-catalog-search]")).toHaveAttribute("data-search-ready", "true");
       expect(await timings()).toEqual([]);
-      await cachedPage.getByRole("searchbox").fill("KICK BACK");
-      await expect(cachedPage.locator("[data-catalog-result]")).toHaveCount(1);
-      await expect(cachedPage.locator("[data-catalog-search]")).toHaveAttribute("data-search-state", "ready");
+      await cachedPage.getByRole("searchbox").fill(query);
+      await expectSongResult();
       const second = await timings();
       expect(second.length).toBe(first.length);
       expect(second.every((entry) => entry.transfer === 0 && entry.encoded > 0)).toBe(true);
