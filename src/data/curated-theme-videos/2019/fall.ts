@@ -1,6 +1,59 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+  "112153:ED:5": [
+    {
+      "youtubeVideoId": "Ga2G1wyI-3o",
+      "title": "〈ふしぎなふしぎな生きもの〉劇場版主題歌MV",
+      "channelName": "ポケモン公式YouTubeチャンネル",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "112153:ED:2": [
+    {
+      "youtubeVideoId": "avE3-KomeWI",
+      "title": "〈ポケモンしりとり〉官方片尾｜ミュウ→ザマゼンタ",
+      "channelName": "ポケモン公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "112153:OP:2": [
+    {
+      "youtubeVideoId": "BXu56e-NZj8",
+      "title": "西川くんとキリショー〈1・2・3〉動畫合作MV",
+      "channelName": "西川貴教",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "wy2Z7YbJgdc",
+      "title": "西川くんとキリショー〈1・2・3〉藝人MV",
+      "channelName": "西川貴教",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "112153:OP:1": [
+    {
+      "youtubeVideoId": "ajjN7eAnyZE",
+      "title": "After the Rain〈1・2・3〉官方MV",
+      "channelName": "まふまふちゃんねる",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "101239:OP:1": [
     {
       youtubeVideoId: "J5b_S_nHjmY",
@@ -567,14 +620,23 @@ export const curated2019FallThemeVideos = {
   ],
   "112153:ED:1": [
     {
-      youtubeVideoId: "pgRfBigHj9c",
-      title:
-        "【公式】「ポケモンしりとり（フルサイズVer.）」アニメ「ポケットモンスター」EDテーマ",
-      type: "other",
-      channelName: "ポケモン公式YouTubeチャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "uvOfXoQxT2o",
+      "title": "〈ポケモンしりとり〉官方片尾｜ピカチュウ→ミュウ",
+      "channelName": "ポケモン公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     },
+    {
+      "youtubeVideoId": "pgRfBigHj9c",
+      "title": "〈ポケモンしりとり〉合併全長官方影片",
+      "channelName": "ポケモン公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "pocket-monsters-2019-ed-1-song-combined-full"
+    }
   ],
   "105246:OP:1": [
     {

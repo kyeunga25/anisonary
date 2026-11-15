@@ -20,7 +20,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "titleRomaji": "Youkai Watch Jam: Youkai Gakuen Y - N to no Souguu",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113472-eCohv2grT8J4.png",
   "editorialWeekday": 5,
-  "broadcastLabel": "2019年12月27日18:00 テレビ東京系初回；通常金曜18:25、2021年4月2日第63話終",
+  "broadcastLabel": "日本原TV第1話2019/12/27 18:00 JST；常規週五18:25；第50話17:55，2021/4/2第63話完。",
   "status": "finished",
   "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/",
   "anilistUrl": "https://anilist.co/anime/113472",
@@ -74,7 +74,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
@@ -219,6 +219,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.youtube.com/watch?v=H_rd_qjk6sI",
           "label": "【妖怪ウォッチOP】ギンギラ銀河／すとぷり【ナユタン星人】",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000269.000059399.html",
+          "label": "權利方精選收錄及詞曲編",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -491,21 +498,50 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "H_rd_qjk6sI"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+            "https://www.stpr.com/discography/artist/2/detail/78/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-9011"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recording_format",
+            "recordings",
             "platform_availability"
           ],
-          "note": "第37及52話另有本曲作片尾的逐話資料，保留逐話原播核對；香港版精選與原專輯曲目時長略異。",
-          "resumeWhen": "待各版母帶與原播剪輯對照、香港登入後的完整播放可核。待第37、52話正版片尾或製作方明列，再登記特別片尾。",
+          "note": "遊戲片尾與動畫原用法分立，另有第37、52話特殊片尾；原播掛字有待核實。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第1–28話片頭曲",
+      "usageLabel": "第1–28話常規片頭；第37、52話另見特殊片尾線索",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next",
@@ -574,6 +610,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "STPR Records"
+        },
+        {
+          "id": "stpr-9011",
+          "title": "すとろべりーねくすとっ！",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "すとぷり",
+          "edition": "初回限定ライブ映像盤B（CD+DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "STPR Records",
+          "catalogNumber": "STPR-9011"
         }
       ],
       "links": [
@@ -649,7 +706,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://cal.syoboi.jp/tid/5549/subtitle",
@@ -738,6 +795,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.youtube.com/watch?v=sB7X6EtVtgo",
           "label": "【妖怪学園Y】大宇宙ランデブー／すとぷり【ナユタン星人】",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/stpr/n/nfca2a44ef516",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://store.stpr.com/products/stpr-1009",
+          "label": "權利方實體發行日期、曲序及版別",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -955,21 +1026,62 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "sB7X6EtVtgo"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://note.com/stpr/n/nfca2a44ef516",
+            "https://www.stpr.com/discography/artist/2/detail/68/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.stpr.com/products/stpr-1009"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-1009"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://store.stpr.com/products/stpr-1009",
+            "https://www.stpr.com/discography/artist/2/detail/68/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-1009"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recording_format",
+            "recordings",
             "platform_availability"
           ],
-          "note": "香港單曲與專輯曲目時長有差異，專輯曲目暫不連到單曲音源；第63話結局場景有播曲紀錄，片尾分類另待核。",
-          "resumeWhen": "待動畫版剪輯、唱片母帶對應、終回授權正片字幕或香港登入後的完整播放可核。",
+          "note": "第58話劇中音樂有續查資料；末話第63話特殊片尾另記為待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第29–51話片頭曲",
+      "usageLabel": "第29–51話常規片頭；第52話未配置常規片頭",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single",
@@ -1017,6 +1129,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "STPR Records"
+        },
+        {
+          "id": "stpr-1009",
+          "title": "Strawberry Prince",
+          "type": "album",
+          "date": {
+            "value": "2020-11-11",
+            "precision": "day"
+          },
+          "artistDisplayName": "すとぷり",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "大宇宙ランデブー",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "STPR Records",
+          "catalogNumber": "STPR-1009"
         }
       ],
       "links": [
@@ -1167,6 +1300,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=ip1Jk6ahD1k",
           "label": "【妖怪学園Y】いにしえロマンティック/P丸様。feat.YSPクラブ【ナユタン星人】",
           "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://open.spotify.com/track/3B0ycsAFuMmjNCoSrHIA7z",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
         }
@@ -1350,22 +1497,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "ip1Jk6ahD1k"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/staff/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/3B0ycsAFuMmjNCoSrHIA7z"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://open.spotify.com/track/3B0ycsAFuMmjNCoSrHIA7z"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
-            "recording_format",
+            "recordings",
             "platform_availability"
           ],
-          "note": "《Sunny!!》第9軌有ナユタン星人編曲署名；動畫署名目前只確認詞曲。香港單曲與專輯曲目時長及平台演唱欄不同。",
-          "resumeWhen": "待動畫編曲署名、動畫剪輯與各版母帶對照、香港登入後的完整播放可核。",
+          "note": "高等部預排及逐話曲表一致。音樂發行與實際TV剪輯的對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第53–63話片頭曲",
+      "usageLabel": "第53–63話高等部片頭（2021/1/22起）",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-3-song-digital-single",
@@ -1455,6 +1626,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1556015178",
           "availability": "unknown",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Spotify",
+          "label": "いにしえロマンティック｜Spotify",
+          "url": "https://open.spotify.com/track/3B0ycsAFuMmjNCoSrHIA7z",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "releaseDate": "2021-01-23"
@@ -1525,6 +1705,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-osaka.co.jp/onair/detail/oaid=1795589/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-start/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://anime-research.seesaa.net/article/473264910.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -1545,6 +1746,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/topics/191223.html",
+            "https://www.tv-osaka.co.jp/onair/detail/oaid=1795589/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://kakkon.net/gakuen-y-start/",
+            "https://anime-research.seesaa.net/article/473264910.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-1-song"
         }
       ],
       "followUp": [
@@ -1552,20 +1769,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "fields": [
             "basic_evidence",
             "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "東京電視台確認第1話於2019年12月27日播出。逐話表列本曲，製作方公告另列角色配音。",
-          "resumeWhen": "待從Level-5或其他正版的第1話畫面核對片尾署名，確認用曲名義與詞曲。",
+          "note": "原播回顧列角色演唱及末段；待正式掛字確認原曲、創作署名及片尾配置。",
+          "resumeWhen": "待權利方第1話原片尾可辨識或有正式逐話用曲紀錄。",
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "逐話紀錄列第1話（2019/12/27）特殊片尾"
     },
     {
       "type": "ED",
@@ -1682,7 +1895,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=LyB2gFCd6eo",
-          "label": "【映画 妖怪学園Y】Y学園へ行こう ワイワイ編【ろん】",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "權利方影片上架及形式說明",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -1781,23 +2001,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "LyB2gFCd6eo"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=LyB2gFCd6eo"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song-rights-holder-mv-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=LyB2gFCd6eo",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "LyB2gFCd6eo"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability",
+            "recording_format"
           ],
-          "note": "本曲與其餘四首輪替片尾共用歌詞，各有作曲及演唱名義；官方影片為電影企劃MV。",
-          "resumeWhen": "待官方獨立發行資料、TV音源版本或香港正版曲目出現。",
+          "note": "輪播各編共享歌詞，旋律與演唱者分開。未核可商購或可等同原播剪輯的錄音。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第2、6、11、17、22、28、33話片尾曲"
+      "usageLabel": "第2、6、11、17、22、28、33話片尾曲",
+      "versionLabel": "ワイワイ編｜共通歌詞、各編獨立作曲與演唱",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song-rights-holder-mv-audio",
+          "title": "Y学園へ行こう ワイワイ編（官方MV演唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -1914,7 +2166,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=PZkwcpPg0FI",
-          "label": "【映画 妖怪学園Y】Y学園へ行こう 疾走編【96猫】",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "權利方影片上架及形式說明",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -2013,23 +2272,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "PZkwcpPg0FI"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=PZkwcpPg0FI"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song-rights-holder-mv-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=PZkwcpPg0FI",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "PZkwcpPg0FI"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability",
+            "recording_format"
           ],
-          "note": "本曲與其餘四首輪替片尾共用歌詞，各有作曲及演唱名義；官方影片為電影企劃MV。",
-          "resumeWhen": "待官方獨立發行資料、TV音源版本或香港正版曲目出現。",
+          "note": "輪播各編共享歌詞，旋律與演唱者分開。未核可商購或可等同原播剪輯的錄音。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第3、7、12、18、23、29、36話片尾曲"
+      "usageLabel": "第3、7、12、18、23、29、36話片尾曲",
+      "versionLabel": "疾走編｜共通歌詞、各編獨立作曲與演唱",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song-rights-holder-mv-audio",
+          "title": "Y学園へ行こう 疾走編（官方MV演唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -2146,7 +2437,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=5VGHV9BBoJ8",
-          "label": "【映画 妖怪学園Y】Y学園へ行こう 青春ロック編【＋α／あるふぁきゅん。】",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "權利方影片上架及形式說明",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -2245,23 +2543,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "5VGHV9BBoJ8"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=5VGHV9BBoJ8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song-rights-holder-mv-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=5VGHV9BBoJ8",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "5VGHV9BBoJ8"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability",
+            "recording_format"
           ],
-          "note": "本曲與其餘四首輪替片尾共用歌詞，各有作曲及演唱名義；官方影片為電影企劃MV。",
-          "resumeWhen": "待官方獨立發行資料、TV音源版本或香港正版曲目出現。",
+          "note": "輪播各編共享歌詞，旋律與演唱者分開。未核可商購或可等同原播剪輯的錄音。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第4、9、13、19、26、30話片尾曲"
+      "usageLabel": "第4、9、13、19、26、30話片尾曲",
+      "versionLabel": "青春ロック編｜共通歌詞、各編獨立作曲與演唱",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song-rights-holder-mv-audio",
+          "title": "Y学園へ行こう 青春ロック編（官方MV演唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -2416,6 +2746,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Apple Music 香港曲目入口",
           "role": "cross_check",
           "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25709_201912280700.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
           "verifiedAt": "2026-11-15"
         }
       ],
@@ -2609,22 +2953,35 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "https://music.apple.com/hk/song/1489406918"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+            "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25709_201912280700.html",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
-            "recording_format",
+            "recordings",
             "platform_availability"
           ],
-          "note": "已核莉犬個人專輯收錄及電影企劃MV，DVD無字幕片尾另列為來源。",
-          "resumeWhen": "待各版母帶與原播剪輯對照、香港登入後的完整播放可核。",
+          "note": "官方把本篇列為五首輪替片尾之一。已發行《タイムカプセル》原曲與原播剪輯仍待比對。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第5、10、15、21、24、32話片尾曲",
+      "usageLabel": "第5、10、15、21、24、32話TV片尾；同曲另用於2019劇場版",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song-time-capsule",
@@ -2689,7 +3046,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song-time-capsule"
         }
       ],
-      "releaseDate": "2019-12-11"
+      "releaseDate": "2019-12-11",
+      "versionLabel": "学園ドタバタ編｜共通歌詞、各編獨立作曲與演唱"
     },
     {
       "type": "ED",
@@ -2744,7 +3102,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=OkitvMxxs40",
-          "label": "Level-5 官方片尾",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -2802,6 +3160,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "url": "https://cal.syoboi.jp/tid/5549/subtitle",
           "label": "逐話主題曲交叉記錄",
           "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Is-Bu5wX5aY",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
         }
@@ -2889,23 +3261,64 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://cal.syoboi.jp/tid/5549/subtitle"
           ],
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=OkitvMxxs40"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6-song-level5-published-ed-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=OkitvMxxs40"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "OkitvMxxs40"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Is-Bu5wX5aY",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Is-Bu5wX5aY"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "第8話起輪替，未找到獨立發行。Level-5公開的是片尾影片。",
-          "resumeWhen": "待動畫編曲署名、正式音源及香港正版曲目出現。",
+          "note": "兩個官方影片的標示時長相同，實際剪輯和商購錄音待核。第38話有劇中接入片尾的線索。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第8、16、25、35、38、42、43、45話片尾曲"
+      "usageLabel": "第8、16、25、35、38、42、43、45話片尾曲",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6-song-level5-published-ed-audio",
+          "title": "リターントゥ地球（公開片尾影片音源）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -3021,7 +3434,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=WTvG6Zkath4",
-          "label": "【映画 妖怪学園Y】Y学園へ行こう 8bit編【そらる】",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25709_201912280700.html",
+          "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -3037,12 +3464,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "name": "ピノリーノ"
         },
         {
-          "role": "composition",
-          "name": "ねこうどん"
+          "name": "ねこうどん（近藤嶺）",
+          "role": "composition"
         },
         {
-          "role": "arrangement",
-          "name": "ねこうどん（近藤嶺）"
+          "name": "ねこうどん（近藤嶺）",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -3167,22 +3594,66 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "WTvG6Zkath4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=WTvG6Zkath4"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song-rights-holder-mv-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=WTvG6Zkath4",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "WTvG6Zkath4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://reikondoh.com/info.html",
+            "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25709_201912280700.html"
+          ],
+          "verifiedAt": "2026-11-15"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability",
+            "recording_format"
           ],
-          "note": "本曲與其餘四首輪替片尾共用歌詞，各有作曲及演唱名義；官方影片為電影企劃MV。",
-          "resumeWhen": "待官方獨立發行資料、TV音源版本或香港正版曲目出現。",
+          "note": "輪播各編共享歌詞，旋律與演唱者分開。未核可商購或可等同原播剪輯的錄音。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第14、20、27、31話片尾曲"
+      "usageLabel": "第14、20、27、31話片尾曲",
+      "versionLabel": "8bit編｜共通歌詞、各編獨立作曲與演唱",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song-rights-holder-mv-audio",
+          "title": "Y学園へ行こう 8bit編（官方MV演唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -3221,7 +3692,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=ElmwkIvfaAY",
-          "label": "P丸様。官方影片與詞曲",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -3451,17 +3922,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "vB7DGvJhui8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ElmwkIvfaAY"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ElmwkIvfaAY"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
-            "recording_format",
+            "recordings",
             "platform_availability"
           ],
-          "note": "動畫用曲維持角色名義，專輯及Art Track按發行名義。原播各話剪輯仍待比對。",
-          "resumeWhen": "待各版母帶與原播剪輯對照、香港登入後的完整播放可核。",
+          "note": "角色名義及唱片錄音已核；不同話的原TV用段、原播音軌與各官方上架的對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
@@ -3538,7 +4019,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "sequence": 9,
       "titleJa": "キラボシ共和国国歌",
       "titleRomaji": "Kiraboshi Kyouwakoku Kokka",
-      "artistDisplayName": "山本そな、小金はな、熊田たまき、小林けんしん、太宰府主婦合唱府“ODEN”",
+      "artistDisplayName": "山本そな、小金はな、熊田たまき、小林けんしん、大宰府主婦合唱部“ODEN”",
       "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9",
       "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song",
       "sourceMode": "explicit",
@@ -3583,7 +4064,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=jF9nFneYqzc",
-          "label": "Level-5 官方片尾",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -3615,13 +4096,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://x.com/game_yokai/status/1316945944567447555",
+          "label": "製作方公告：公開影片為特別版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pZXsyy7tfgs",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
-        {
-          "role": "vocals",
-          "name": "山本そな、小金はな、熊田たまき、小林けんしん、太宰府主婦合唱府“ODEN”"
-        },
         {
           "role": "lyrics",
           "name": "日野晃博"
@@ -3629,6 +4127,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "role": "composition",
           "name": "西郷憲一郎"
+        },
+        {
+          "name": "山本そな",
+          "role": "vocals"
+        },
+        {
+          "name": "小金はな",
+          "role": "vocals"
+        },
+        {
+          "name": "熊田たまき",
+          "role": "vocals"
+        },
+        {
+          "name": "小林けんしん",
+          "role": "vocals"
+        },
+        {
+          "name": "大宰府主婦合唱部“ODEN”",
+          "role": "vocals"
         }
       ],
       "evidence": [
@@ -3696,24 +4214,103 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://kakkon.net/gakuen-y-39th-ep/"
           ],
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jF9nFneYqzc"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jF9nFneYqzc",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://kakkon.net/gakuen-y-39th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jF9nFneYqzc",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jF9nFneYqzc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song-special-video-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jF9nFneYqzc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "jF9nFneYqzc"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=pZXsyy7tfgs",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pZXsyy7tfgs"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "第39、40話列片尾。製作人確認第39話特別片尾採童聲；完整演唱名單及合唱團字形沿逐話曲表，待核對片尾字幕。",
-          "resumeWhen": "待第一方片尾字幕核實正式演唱列名，並確認是否有獨立發行。",
+          "note": "原播第39、40話與公佈日10/16分列。官方文字明示YouTube特別版，原播剪輯與第43話劇中用法仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第39、40話片尾曲"
+      "usageLabel": "第39、40話原TV片尾（2020/10/2、10/9）",
+      "versionLabel": "官方影片特別版與原播片尾分列",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song-special-video-audio",
+          "title": "キラボシ共和国国歌（官方影片特別版）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -3762,7 +4359,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://www.youtube.com/watch?v=7pLcL_FKUIg",
@@ -3773,7 +4370,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.youtube.com/watch?v=L2NknelL6mE",
-          "label": "【妖怪学園Y】宇宙神秘ブギ／莉犬",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -3795,6 +4392,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202101/25709_202101081825.html",
           "label": "東京電視台第51話播出日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/stpr/n/n7cf2a13006cf",
+          "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -3933,23 +4544,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.youtube.com/watch?v=L2NknelL6mE"
           ],
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/",
+            "https://note.com/stpr/n/n7cf2a13006cf",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=L2NknelL6mE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song-artist-video-audio"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=L2NknelL6mE",
+            "https://note.com/stpr/n/n7cf2a13006cf"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "L2NknelL6mE"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability",
+            "platform_links",
+            "releases"
           ],
-          "note": "Level-5 無字幕片尾與莉犬官方影片已核對，未取得獨立發行或編曲署名。",
-          "resumeWhen": "待獨立正規發行或逐曲編曲資料，以及合適的香港曲目入口。",
+          "note": "Level-5的無字幕片尾與藝人官方製作的影片均可核，正式商購錄音待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第47–51話片尾曲"
+      "usageLabel": "第47–51話片尾｜第47話自2020/12/4播出；獨立網路第49.5話另計",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song-artist-video-audio",
+          "title": "宇宙神秘ブギ（莉犬官方影片演唱）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -4037,6 +4694,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://www.youtube.com/watch?v=B44jbby77wc",
           "label": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『ＹＳＰ！』",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-63th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ORosDMI2zpc",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
@@ -4168,23 +4846,1020 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "B44jbby77wc"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/staff/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle",
+            "https://kakkon.net/gakuen-y-63th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-11"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ORosDMI2zpc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ORosDMI2zpc"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters",
             "recordings",
-            "releases",
+            "platform_availability",
             "platform_links"
           ],
-          "note": "第63話節目表仍列本曲，同期觀後紀錄指出結局場景另播〈大宇宙ランデブー〉。本曲先保留已相符的冬季用曲。",
-          "resumeWhen": "待第63話正版片尾字幕或製作方逐話資料可驗，再處理春季用途；獨立曲目發行仍待核。",
+          "note": "LEVEL5ch與BANDAI SPIRITS分別有上架。唱片版、原播剪輯及兩支影片的畫面差異待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
         }
       ],
       "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第53–62話片尾曲"
+      "usageLabel": "第53–62話高等部片尾（2021/1/22–3/26）"
+    },
+    {
+      "type": "ED",
+      "sequence": 12,
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-12",
+      "titleJa": "ギンギラ銀河",
+      "artistDisplayName": "すとぷり",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song",
+      "sources": [
+        {
+          "url": "https://www.stpr.com/discography/artist/2/detail/78/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5549/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-52th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://strawberryprinceforever.stpr.com/",
+          "label": "STPR 精選專輯Happy碟第5軌",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://store.stpr.com/products/stpr-1006",
+          "label": "STPR 日本通常盤資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1492388645",
+          "label": "Apple Music 香港發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1492388990",
+          "label": "Apple Music 香港曲目入口",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1786321560",
+          "label": "Apple Music 香港發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1786321573",
+          "label": "Apple Music 香港曲目入口",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Gingira Ginga｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1492388990",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1492388645",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Gingira Ginga｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1786321573",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1786321560",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle",
+            "https://kakkon.net/gakuen-y-52th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/",
+            "https://store.stpr.com/products/stpr-1006"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-1006"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/",
+            "https://music.apple.com/hk/album/1492388645"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1492388645"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1492388990"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1492388990"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/",
+            "https://music.apple.com/hk/album/1786321560"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1786321560"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1786321573"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1786321573"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-9011"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "usageLabel": "兩份逐話曲表列第37、52話特殊片尾",
+      "lastVerifiedAt": "2026-11-15",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "第37話2020/9/18、第52話2021/1/15，兩話有片尾線索；第38話仍待獨立核對。",
+          "resumeWhen": "待權利方正片可辨識片尾掛字或正式逐話公告。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next",
+          "title": "ギンギラ銀河",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "stpr-1006",
+          "title": "すとろべりーねくすとっ！",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "すとぷり",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 2,
+              "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next"
+            }
+          ],
+          "label": "STPR Records",
+          "catalogNumber": "STPR-1006"
+        },
+        {
+          "id": "apple-hk-1492388645",
+          "title": "すとろべりーねくすとっ！",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "Strawberry Prince",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Gingira Ginga",
+              "position": 2,
+              "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next"
+            }
+          ],
+          "label": "STPR Records"
+        },
+        {
+          "id": "apple-hk-1786321560",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "artistDisplayName": "Strawberry Prince",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Gingira Ginga",
+              "position": 5
+            }
+          ],
+          "label": "STPR Records"
+        },
+        {
+          "id": "stpr-9011",
+          "title": "すとろべりーねくすとっ！",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "すとぷり",
+          "edition": "初回限定ライブ映像盤B（CD+DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "STPR Records",
+          "catalogNumber": "STPR-9011"
+        }
+      ],
+      "releaseDate": "2020-01-15"
+    },
+    {
+      "type": "ED",
+      "sequence": 13,
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-13",
+      "titleJa": "大宇宙ランデブー",
+      "artistDisplayName": "すとぷり",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song",
+      "sources": [
+        {
+          "url": "https://www.stpr.com/discography/artist/2/detail/68/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5549/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-63th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.stpr.com/discography/artist/2/detail/70/",
+          "label": "STPR 數位單曲發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1525160123",
+          "label": "Apple Music 香港發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1525160125",
+          "label": "Apple Music 香港曲目入口",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537700813",
+          "label": "Apple Music 香港發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537700820",
+          "label": "Apple Music 香港曲目入口",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://store.stpr.com/products/stpr-1009",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Daiuchu Rendezvous｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1525160125",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1525160123",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Daiuchu Rendezvous｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537700820",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537700813",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/68/",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+            "https://www.mau2.com/anime/youkaigakueny",
+            "https://cal.syoboi.jp/tid/5549/subtitle",
+            "https://kakkon.net/gakuen-y-63th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/70/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/70/",
+            "https://music.apple.com/hk/album/1525160123"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1525160123"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1525160125"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1525160125"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/68/",
+            "https://music.apple.com/hk/album/1537700813"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537700813"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537700820"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537700820"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://store.stpr.com/products/stpr-1009"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-1009"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://store.stpr.com/products/stpr-1009",
+            "https://www.stpr.com/discography/artist/2/detail/68/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "stpr-1009"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [],
+      "usageLabel": "逐話曲表列第63話（2021/4/2）特別片尾",
+      "lastVerifiedAt": "2026-11-15",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "同期回顧確認結局回憶段用曲，台表音樂欄則列高等部常規曲。",
+          "resumeWhen": "待第63話原片尾掛字或權利方明示特別片尾。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single",
+          "title": "大宇宙ランデブー",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1525160123",
+          "title": "大宇宙ランデブー",
+          "type": "single",
+          "date": {
+            "value": "2020-08-10",
+            "precision": "day"
+          },
+          "artistDisplayName": "Strawberry Prince",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Daiuchu Rendezvous",
+              "position": 1,
+              "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single"
+            }
+          ],
+          "label": "STPR Records"
+        },
+        {
+          "id": "apple-hk-1537700813",
+          "title": "Strawberry Prince",
+          "type": "album",
+          "date": {
+            "value": "2020-11-11",
+            "precision": "day"
+          },
+          "artistDisplayName": "Strawberry Prince",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Daiuchu Rendezvous",
+              "position": 4
+            }
+          ],
+          "label": "STPR Records"
+        },
+        {
+          "id": "stpr-1009",
+          "title": "Strawberry Prince",
+          "type": "album",
+          "date": {
+            "value": "2020-11-11",
+            "precision": "day"
+          },
+          "artistDisplayName": "すとぷり",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "大宇宙ランデブー",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "STPR Records",
+          "catalogNumber": "STPR-1009"
+        }
+      ],
+      "releaseDate": "2020-08-10"
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-in-1",
+      "titleJa": "Y学園校歌",
+      "artistDisplayName": "寺刃ジンペイたち（作中の斉唱）",
+      "songId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25709_202012251755.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ncn8Z-m5-rk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-50th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-63th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/level5/products/uk1aa-00479/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/level5/products/uk1aa-00478/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1547759950",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1547760613",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1547766194",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1547766833",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Y学園校歌 -ワイワイ学園生活-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1547760613",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1547759950",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-tv-soundtrack-version"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Y学園校歌（劇場原聲帶收錄）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1547766833",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1547766194",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-movie-soundtrack-version"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25709_202012251755.html",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+            "https://www.youtube.com/watch?v=ncn8Z-m5-rk",
+            "https://kakkon.net/gakuen-y-50th-ep/",
+            "https://kakkon.net/gakuen-y-63th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+            "https://www.universal-music.co.jp/level5/products/uk1aa-00479/",
+            "https://www.youtube.com/watch?v=ncn8Z-m5-rk",
+            "https://kakkon.net/gakuen-y-50th-ep/",
+            "https://kakkon.net/gakuen-y-63th-ep/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ncn8Z-m5-rk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-official-submission-demo"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ncn8Z-m5-rk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ncn8Z-m5-rk"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/level5/products/uk1aa-00479/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-tv-soundtrack-version"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/level5/products/uk1aa-00478/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-movie-soundtrack-version"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1547760613"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1547760613"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/level5/products/uk1aa-00479/",
+            "https://music.apple.com/hk/album/1547759950"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1547759950"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1547766833"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1547766833"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/level5/products/uk1aa-00478/",
+            "https://music.apple.com/hk/album/1547766194"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1547766194"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall",
+        "2021-spring"
+      ],
+      "usageLabel": "第50、63話劇中校歌斉唱｜個別演唱聲優待核",
+      "lastVerifiedAt": "2026-11-15",
+      "recordings": [
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-official-submission-demo",
+          "title": "Y学園校歌（官方徵集示範）",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-tv-soundtrack-version",
+          "title": "Y学園校歌 -ワイワイ学園生活-",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-movie-soundtrack-version",
+          "title": "Y学園校歌（劇場原聲帶收錄）",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1547759950",
+          "title": "妖怪学園Y ～Nとの遭遇～（オリジナル・サウンドトラック）",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "西郷憲一郎withレベルファイブ・サウンドチーム",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Y学園校歌 -ワイワイ学園生活-",
+              "position": 30,
+              "disc": 1,
+              "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-tv-soundtrack-version"
+            }
+          ],
+          "label": "Universal Sigma"
+        },
+        {
+          "id": "apple-hk-1547766194",
+          "title": "妖怪学園Y 猫はHEROになれるか（オリジナル・サウンドトラック）",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "西郷憲一郎withレベルファイブ・サウンドチーム",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Y学園校歌（劇場原聲帶收錄）",
+              "position": 63,
+              "disc": 1,
+              "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-movie-soundtrack-version"
+            }
+          ],
+          "label": "Universal Sigma"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "兩話的正片斉唱有權利方資料，但電視及電影原聲署名各屬發行；徵集示範也分列。待核第50話片尾掛字及參與合唱者。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "verifiedAt": "2026-09-02",
@@ -4215,6 +5890,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_7.html",
       "label": "東京電視台第1至3話原播日期",
       "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+      "label": "東京電視台秋季逐話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25709_202012251755.html",
+      "label": "第50話特別首播時分",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201215/",
+      "label": "第53話高等部開播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5549/time",
+      "label": "跨季度逐話原播",
+      "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-15"
     }

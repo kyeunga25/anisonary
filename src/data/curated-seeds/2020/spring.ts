@@ -12545,7 +12545,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "IDOLiSH7: Second BEAT!",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx103110-tmjraaFRlEt5.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/103110-LBD6QsNabGhj.jpg",
-  "broadcastLabel": "日本首播／受疫情影響曾延期或停播",
+  "broadcastLabel": "日本TV首播：4/5週日22:30第1–2話連播；4/19第4話後延期；10/4週日23:00由第3話重播，10/18第5話新播。",
   "officialSiteUrl": "https://idolish7.com/aninana/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/95",
@@ -12607,6 +12607,76 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/news/2020/9220",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1115",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818946128",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818946129",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959009",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -12733,21 +12803,304 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://idolish7.com/aninana/news/?p=1401"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://idolish7.com/aninana/news/?p=1155",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song-anime-size"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/news/?p=1115"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14997"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818946129"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818946129"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://music.apple.com/hk/album/1818946128"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818946128"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959009"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959009"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期曲名、正式歌唱與用途季度已核。",
-          "resumeWhen": "待直接音源與正版發行細項資料可核再補，不由影片或專輯推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核日本原期使用位置及正式發行；原播使用音軌與商業版本的精確對應待驗。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第2–10、12–13話片頭；第15話改作片尾",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-op-1-song-single-full",
+          "title": "DiSCOVER THE FUTURE",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "idolish7-second-beat-op-1-song-anime-size",
+          "title": "DiSCOVER THE FUTURE (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releaseDate": "2020-05-27",
+      "releases": [
+        {
+          "id": "lacm-14997",
+          "title": "DiSCOVER THE FUTURE",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14997"
+        },
+        {
+          "id": "apple-hk-1818946128",
+          "title": "DiSCOVER THE FUTURE",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-op-1-song-single-full"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE (Anime Size)",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE (Anime Size)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-op-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "DiSCOVER THE FUTURE｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818946129",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818946128",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "DiSCOVER THE FUTURE (Anime Size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959009",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-op-1-song-anime-size"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -12803,6 +13156,76 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/news/2020/9220",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1115",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818946323",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818946564",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959014",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -12925,21 +13348,304 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://idolish7.com/aninana/news/?p=1401"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://idolish7.com/aninana/news/?p=1155",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-1-song-anime-size"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/news/?p=1115"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14998"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818946564"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818946564"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://music.apple.com/hk/album/1818946323"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818946323"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959014"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959014"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期曲名、正式歌唱與用途季度已核。",
-          "resumeWhen": "待直接音源與正版發行細項資料可核再補，不由影片或專輯推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核日本原期使用位置及正式發行；原播使用音軌與商業版本的精確對應待驗。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第2–4、6–9、11、13–14話片尾",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-ed-1-song-single-full",
+          "title": "ミライノーツを奏でて",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "idolish7-second-beat-ed-1-song-anime-size",
+          "title": "ミライノーツを奏でて (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releaseDate": "2020-06-03",
+      "releases": [
+        {
+          "id": "lacm-14998",
+          "title": "ミライノーツを奏でて",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライノーツを奏でて",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14998"
+        },
+        {
+          "id": "apple-hk-1818946323",
+          "title": "ミライノーツを奏でて",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライノーツを奏でて",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-ed-1-song-single-full"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ミライノーツを奏でて (Anime Size)",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ミライノーツを奏でて (Anime Size)",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-ed-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ミライノーツを奏でて｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818946564",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818946323",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ミライノーツを奏でて (Anime Size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959014",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-1-song-anime-size"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -12985,6 +13691,62 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-35657/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/amane_i7love/n/nffd9624b1869",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ameblo.jp/ikimonlife/entry-12632605054.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818820884",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818820909",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -13051,6 +13813,97 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://idolish7.com/news/2017/5843"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle",
+            "https://note.com/amane_i7love/n/nffd9624b1869",
+            "https://ameblo.jp/ikimonlife/entry-12632605054.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-2-song-regality-original"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-35657"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818820909"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818820909"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/",
+            "https://music.apple.com/hk/album/1818820884"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818820884"
         }
       ],
       "followUp": [
@@ -13059,15 +13912,87 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "basic_evidence",
             "use_quarters",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本曲TRIGGER身分已核；本期第5話片尾僅交叉直接列明，第一方他期片尾資料不挪用。",
-          "resumeWhen": "待Second BEAT第5話官方本曲片尾credit；不由Vibrato或遊戲原曲商品授本期ED。",
-          "checkedAt": "2026-10-24"
+          "note": "第5話原播位置有獨立逐話曲表及同期回顧，REGALITY確認歌手及正式曲名。原播掛字與剪輯待核。",
+          "resumeWhen": "待原播第5話片尾掛字或製作方逐話音樂說明。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第5話特別片尾（2020/10/18原TV）",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-ed-2-song-regality-original",
+          "title": "DESTINY",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "草野将史",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releaseDate": "2017-09-20",
+      "releases": [
+        {
+          "id": "laca-35657",
+          "title": "REGALITY",
+          "type": "album",
+          "date": {
+            "value": "2017-09-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER",
+          "edition": "豪華盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DESTINY",
+              "position": 11,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-35657"
+        },
+        {
+          "id": "apple-hk-1818820884",
+          "title": "REGALITY",
+          "type": "album",
+          "date": {
+            "value": "2017-09-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DESTINY",
+              "position": 11,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-ed-2-song-regality-original"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "DESTINY｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818820909",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818820884",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-2-song-regality-original"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -13122,6 +14047,48 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959094",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -13243,21 +14210,190 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://idolish7.com/aninana/news/?p=1401"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://idolish7.com/aninana/news/?p=1155",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-3-song-soundtrack-version"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-3-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959094"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959094"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "官方明本期第10話ED、正式歌唱Re:vale；個別唱者不由cast推定，中文單曲歌手欄不授團體名義。",
-          "resumeWhen": "待直接音源與正版發行細項資料可核再補，不由影片或專輯推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "第10話片尾，正式原聲帶以Re:vale署名。若原播掛字或權利方確認個別演唱，補錄音層級名單。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第10話特別片尾（2020/11/22原TV）",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-ed-3-song-soundtrack-version",
+          "title": "It's ALL-for you-",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2021-01-13",
+      "releases": [
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "It's ALL-for you-",
+              "position": 8,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "It's ALL-for you-",
+              "position": 8,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-ed-3-song-soundtrack-version"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "It's ALL-for you-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959094",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-3-song-soundtrack-version"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -13267,7 +14403,9 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       "id": "idolish7-second-beat-ed-4",
       "songId": "idolish7-second-beat-ed-4-song",
       "sourceMode": "explicit",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-fall"
+      ],
       "sources": [
         {
           "label": "動畫官方網站",
@@ -13303,12 +14441,94 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/products/?p=17413",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-35657/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818820884",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818820896",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959095",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "TRIGGER",
           "role": "vocals"
+        },
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "Shinnosuke",
+          "role": "composition"
+        },
+        {
+          "name": "加藤達也",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -13334,26 +14554,325 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "idolish7-second-beat-ed-4-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=17413",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=17413",
+            "https://idolish7.com/aninana/news/?p=1155",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-4-song-regality-original"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-4-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/",
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-35657"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818820896"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818820896"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-35657/",
+            "https://music.apple.com/hk/album/1818820884"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818820884"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-ed-4-song-tv-symphonic"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959095"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959095"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "官方第12話無字幕片尾標本曲；另一第一方明同話交響版插曲，交叉頁只列插曲，精確版本/片尾交叉尚待核。",
-          "resumeWhen": "待本期第12話原片尾歌唱credit與獨立精確片尾交叉，釐清原標題與交響版；不轉型、不新增重複用途或錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "第12話無字幕片尾列在Blu-ray第6卷；原聲帶列Symphonic Edition並標「挿入歌」，目前只登記已證實的片尾用途。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第12話特別片尾｜Symphonic Edition（2020/12/6原TV）",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-ed-4-song-regality-original",
+          "title": "Last Dimension～引き金をひくのは誰だ～",
+          "kind": "vocal",
+          "format": "full",
+          "credits": [
+            {
+              "name": "Shinnosuke",
+              "role": "arrangement"
+            }
+          ]
+        },
+        {
+          "id": "idolish7-second-beat-ed-4-song-tv-symphonic",
+          "title": "Last Dimension (Symphonic Edition)",
+          "kind": "vocal",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "加藤達也",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releaseDate": "2017-09-20",
+      "releases": [
+        {
+          "id": "laca-35657",
+          "title": "REGALITY",
+          "type": "album",
+          "date": {
+            "value": "2017-09-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER",
+          "edition": "豪華盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Last Dimension～引き金をひくのは誰だ～",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-35657"
+        },
+        {
+          "id": "apple-hk-1818820884",
+          "title": "REGALITY",
+          "type": "album",
+          "date": {
+            "value": "2017-09-20",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Last Dimension～引き金をひくのは誰だ～",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-ed-4-song-regality-original"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Last Dimension (Symphonic Edition)",
+              "position": 9,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Last Dimension (Symphonic Edition)",
+              "position": 9,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-ed-4-song-tv-symphonic"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Last Dimension～引き金をひくのは誰だ～｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818820896",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818820884",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-4-song-regality-original"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Last Dimension (Symphonic Edition)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959095",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-ed-4-song-tv-symphonic"
+        }
+      ]
     },
     {
       "id": "idolish7-second-beat-in-1",
@@ -13375,7 +14894,19 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "arrangement"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "激情｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959102",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-in-1-song-soundtrack-version"
+        }
+      ],
       "songId": "idolish7-second-beat-in-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -13402,6 +14933,48 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959102",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "evidence": [
@@ -13483,29 +15056,2064 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             "https://idolish7.com/aninana/news/?p=1401"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://idolish7.com/aninana/news/?p=1155",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-1-song-soundtrack-version"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959102"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959102"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期插曲用途與正式曲名、歌唱名義已核。",
-          "resumeWhen": "待正版音源及發行細項逐項核；不繼承其他用途媒體或推新錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "已核日本原期使用位置及正式發行；原播使用音軌與商業版本的精確對應待驗。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第15話劇中演唱（2020/12/27原TV）",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-in-1-song-soundtrack-version",
+          "title": "激情",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2021-01-13",
+      "releases": [
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "TRIGGER & IDOLiSH7",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "激情",
+              "position": 16,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "激情",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-in-1-song-soundtrack-version"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "id": "idolish7-second-beat-ed-5",
+      "titleJa": "DiSCOVER THE FUTURE",
+      "artistDisplayName": "IDOLiSH7",
+      "songId": "idolish7-second-beat-op-1-song",
+      "sources": [
+        {
+          "label": "動畫官方網站",
+          "url": "https://idolish7.com/aninana/",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/idolish7_second_beat",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1401",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-9784/",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/IDOLiSH7",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://idolish7.com/news/2020/9220",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5608/subtitle",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1155",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1115",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818946128",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818946129",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818959003",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818959009",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "DiSCOVER THE FUTURE｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818946129",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818946128",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-op-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "DiSCOVER THE FUTURE (Anime Size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818959009",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818959003",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-op-1-song-anime-size"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/news/?p=1401"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9784/"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://zh.wikipedia.org/wiki/IDOLiSH7"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/5608"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/news/?p=1401"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song-anime-size"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/news/?p=1115"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14997"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818946129"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818946129"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://music.apple.com/hk/album/1818946128"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818946128"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818959009"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818959009"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179",
+            "https://music.apple.com/hk/album/1818959003"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818959003"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/news/2020/9220",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://cal.syoboi.jp/tid/5608/subtitle"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-op-1-song"
+        }
+      ],
+      "sourceMode": "explicit",
+      "credits": [
+        {
+          "name": "IDOLiSH7",
+          "role": "vocals"
+        },
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "kz",
+          "role": "composition"
+        },
+        {
+          "name": "kz",
+          "role": "arrangement"
+        },
+        {
+          "name": "真部 裕",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-op-1-song-single-full",
+          "title": "DiSCOVER THE FUTURE",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "idolish7-second-beat-op-1-song-anime-size",
+          "title": "DiSCOVER THE FUTURE (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14997",
+          "title": "DiSCOVER THE FUTURE",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14997"
+        },
+        {
+          "id": "apple-hk-1818946128",
+          "title": "DiSCOVER THE FUTURE",
+          "type": "single",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-op-1-song-single-full"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "IDOLiSH7",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE (Anime Size)",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        },
+        {
+          "id": "apple-hk-1818959003",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤達也",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "DiSCOVER THE FUTURE (Anime Size)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-op-1-song-anime-size"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "releaseDate": "2020-05-27",
+      "seasonIds": [],
+      "usageLabel": "第15話特別片尾（2020/12/27原TV）",
+      "lastVerifiedAt": "2026-11-15",
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence",
+            "use_quarters",
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原片頭歌曲用於終回片尾；已確認原單曲及原聲帶Anime Size，終回剪輯待核。",
+          "resumeWhen": "待原播第15話片尾掛字或官方分集公告明示片尾使用。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "idolish7-second-beat-in-2",
+      "titleJa": "SILVER SKY",
+      "artistDisplayName": "Re:vale",
+      "songId": "idolish7-second-beat-silver-sky-song",
+      "sources": [
+        {
+          "url": "https://idolish7.com/products/?p=13081",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://utaten.com/specialArticle/index/4975",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_CvDxDyZkpk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818828311",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818828312",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/news/?p=1125",
+          "label": "Blu-ray第1話先行活動無字幕演唱版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "SILVER SKY｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818828312",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818828311",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-silver-sky-song-original-single-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081",
+            "https://utaten.com/specialArticle/index/4975",
+            "https://www.mau2.com/anime/idolishsevensecondbeat"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-silver-sky-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=_CvDxDyZkpk",
+            "https://idolish7.com/products/?p=13081",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://utaten.com/specialArticle/index/4975"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-silver-sky-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-silver-sky-song-original-single-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14494"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818828312"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818828312"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081",
+            "https://music.apple.com/hk/album/1818828311"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818828311"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-spring",
+        "2020-fall"
+      ],
+      "usageLabel": "第1、10話插曲｜第10話回憶場景",
+      "lastVerifiedAt": "2026-11-15",
+      "releaseDate": "2016-06-22",
+      "credits": [
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "網本ナオノブ",
+          "role": "composition"
+        },
+        {
+          "name": "網本ナオノブ",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-silver-sky-song-original-single-full",
+          "title": "SILVER SKY",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14494",
+          "title": "SILVER SKY",
+          "type": "single",
+          "date": {
+            "value": "2016-06-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SILVER SKY",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14494"
+        },
+        {
+          "id": "apple-hk-1818828311",
+          "title": "SILVER SKY",
+          "type": "single",
+          "date": {
+            "value": "2016-06-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SILVER SKY",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-silver-sky-song-original-single-full"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "第1話有先行活動無字幕演唱影像；第10話演唱名義與重用的精確錄音仍待辨識。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "id": "idolish7-second-beat-in-3",
+      "titleJa": "フレフレ！青春賛歌",
+      "artistDisplayName": "和泉一織（増田俊樹）、七瀬陸（小野賢章）、九条天（斉藤壮馬）",
+      "songId": "idolish7-second-beat-furefure-song",
+      "sources": [
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-9647/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/amane_i7love/n/nffd9624b1869",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818802672",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818802846",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "フレフレ！青春賛歌｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818802846",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818802672",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-furefure-song-collection-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-furefure-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-furefure-song-collection-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9647-8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818802846"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818802846"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://music.apple.com/hk/album/1818802672"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818802672"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第15話劇中演唱｜Shuffle Unit",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "山田竜平",
+          "role": "composition"
+        },
+        {
+          "name": "山田竜平",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-furefure-song-collection-full",
+          "title": "フレフレ！青春賛歌",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "laca-9647-8",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "和泉一織（増田俊樹）、七瀬陸（小野賢章）、九条天（斉藤壮馬）",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "フレフレ！青春賛歌",
+              "position": 3,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9647～8"
+        },
+        {
+          "id": "apple-hk-1818802672",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "和泉一織（増田俊樹）、七瀬陸（小野賢章）、九条天（斉藤壮馬）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "フレフレ！青春賛歌",
+              "position": 3,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-furefure-song-collection-full"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "權利方確認三組演出與原作發行；動畫劇中演唱和一般原作錄音的精確配對仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "id": "idolish7-second-beat-in-4",
+      "titleJa": "男子タルモノ！〜MATSURI〜",
+      "artistDisplayName": "二階堂大和（白井悠介）、和泉三月（代永翼）、六弥ナギ（江口拓也）、八乙女楽（羽多野渉）",
+      "songId": "idolish7-second-beat-matsuri-song",
+      "sources": [
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-9647/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/amane_i7love/n/nffd9624b1869",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818802672",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818802848",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "男子タルモノ！〜MATSURI〜｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818802848",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818802672",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-matsuri-song-collection-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-matsuri-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-matsuri-song-collection-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9647-8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818802848"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818802848"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://music.apple.com/hk/album/1818802672"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818802672"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第15話劇中演唱｜Shuffle Unit",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "木下智哉",
+          "role": "composition"
+        },
+        {
+          "name": "木下智哉",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-matsuri-song-collection-full",
+          "title": "男子タルモノ！〜MATSURI〜",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "laca-9647-8",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "二階堂大和（白井悠介）、和泉三月（代永翼）、六弥ナギ（江口拓也）、八乙女楽（羽多野渉）",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "男子タルモノ！〜MATSURI〜",
+              "position": 4,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9647～8"
+        },
+        {
+          "id": "apple-hk-1818802672",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "二階堂大和（白井悠介）、和泉三月（代永翼）、六弥ナギ（江口拓也）、八乙女楽（羽多野渉）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "男子タルモノ！〜MATSURI〜",
+              "position": 4,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-matsuri-song-collection-full"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "權利方確認三組演出與原作發行；動畫劇中演唱和一般原作錄音的精確配對仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 5,
+      "id": "idolish7-second-beat-in-5",
+      "titleJa": "LOVE&GAME",
+      "artistDisplayName": "四葉環（KENN）、逢坂壮五（阿部敦）、十龍之介（佐藤拓也）",
+      "songId": "idolish7-second-beat-love-and-game-song",
+      "sources": [
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-9647/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/amane_i7love/n/nffd9624b1869",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818802672",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818802849",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "LOVE&GAME｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818802849",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818802672",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-love-and-game-song-collection-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-love-and-game-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-love-and-game-song-collection-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9647-8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818802849"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818802849"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://music.apple.com/hk/album/1818802672"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818802672"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第15話劇中演唱｜Shuffle Unit",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "結城アイラ",
+          "role": "lyrics"
+        },
+        {
+          "name": "木下智哉",
+          "role": "composition"
+        },
+        {
+          "name": "陶山 隼",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-love-and-game-song-collection-full",
+          "title": "LOVE&GAME",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "laca-9647-8",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "四葉環（KENN）、逢坂壮五（阿部敦）、十龍之介（佐藤拓也）",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "LOVE&GAME",
+              "position": 5,
+              "disc": 2
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9647～8"
+        },
+        {
+          "id": "apple-hk-1818802672",
+          "title": "アイドリッシュセブン Collection Album vol.1",
+          "type": "compilation",
+          "date": {
+            "value": "2018-09-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "四葉環（KENN）、逢坂壮五（阿部敦）、十龍之介（佐藤拓也）",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "LOVE&GAME",
+              "position": 5,
+              "disc": 2,
+              "recordingId": "idolish7-second-beat-love-and-game-song-collection-full"
+            }
+          ],
+          "label": "Lantis"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "權利方確認三組演出與原作發行；動畫劇中演唱和一般原作錄音的精確配對仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 6,
+      "id": "idolish7-second-beat-in-6",
+      "titleJa": "Dis one.",
+      "artistDisplayName": "Re:vale",
+      "songId": "idolish7-second-beat-dis-one-song",
+      "sources": [
+        {
+          "url": "https://idolish7.com/products/?p=13081",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.lantis.jp/discography/laca-9647/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/idolishsevensecondbeat",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://note.com/amane_i7love/n/nffd9624b1869",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://idolish7.com/aninana/discography/?p=1179",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1818828311",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1818828318",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Dis one.｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1818828318",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1818828311",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "idolish7-second-beat-dis-one-song-original-single-full"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081",
+            "https://idolish7.lantis.jp/discography/laca-9647/",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-dis-one-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/tbs-ch/item/a0386/",
+            "https://idolish7.com/products/?p=13081",
+            "https://www.mau2.com/anime/idolishsevensecondbeat",
+            "https://note.com/amane_i7love/n/nffd9624b1869"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-in-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081",
+            "https://idolish7.lantis.jp/discography/laca-9647/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-dis-one-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-dis-one-song-original-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-dis-one-song-instrumental-soundtrack"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "lacm-14494"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1818828318"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1818828318"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/products/?p=13081",
+            "https://music.apple.com/hk/album/1818828311"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1818828311"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "laca-9784-5"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://idolish7.com/aninana/discography/?p=1179"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "idolish7-second-beat-dis-one-song-instrumental-soundtrack"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第8、15話插曲",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "真崎エリカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中俊亮",
+          "role": "composition"
+        },
+        {
+          "name": "田中俊亮",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2016-06-22",
+      "recordings": [
+        {
+          "id": "idolish7-second-beat-dis-one-song-original-single-full",
+          "title": "Dis one.",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "idolish7-second-beat-dis-one-song-instrumental-soundtrack",
+          "title": "Dis one. (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "蓮尾理之",
+              "role": "arrangement"
+            }
+          ]
+        }
+      ],
+      "releases": [
+        {
+          "id": "lacm-14494",
+          "title": "SILVER SKY",
+          "type": "single",
+          "date": {
+            "value": "2016-06-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dis one.",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACM-14494"
+        },
+        {
+          "id": "apple-hk-1818828311",
+          "title": "SILVER SKY",
+          "type": "single",
+          "date": {
+            "value": "2016-06-22",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Dis one.",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-dis-one-song-original-single-full"
+            }
+          ],
+          "label": "Lantis"
+        },
+        {
+          "id": "laca-9784-5",
+          "title": "BEYOND THE SHiNE",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-13",
+            "precision": "day"
+          },
+          "artistDisplayName": "Re:vale",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Dis one. (Instrumental)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "idolish7-second-beat-dis-one-song-instrumental-soundtrack"
+            }
+          ],
+          "label": "Lantis",
+          "catalogNumber": "LACA-9784～5"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原作演唱與動畫原聲帶伴奏分列；第8、15話畫面所用錄音待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
-  "metadataSources": [],
+  "metadataSources": [
+    {
+      "url": "https://idolish7.com/aninana/wp-content/uploads/2020/03/c772af3b7fd10faf8c2f8ec7baf85824.pdf",
+      "label": "首播台表與第1、2話連播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://idolish7.com/news/2020/9103",
+      "label": "第5話起延期公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://idolish7.com/aninana/news/?p=1155",
+      "label": "秋季復播與同時配信",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://idolish7.com/aninana/news/?p=951",
+      "label": "首話限時先行配信",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5608/time",
+      "label": "原TV春季首播、秋季重播及新話時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
   "seasonIds": [
     "2020-spring",
     "2020-fall"
-  ]
+  ],
+  "editorialWeekday": 7,
+  "broadcastTimeJst": "22:30"
 }),
   spring2020Seed({
   "anilistId": 104647,
