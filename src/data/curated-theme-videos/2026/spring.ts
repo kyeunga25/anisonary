@@ -1,6 +1,69 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SpringThemeVideos = {
+  "966:ED:1": [
+    {
+      "youtubeVideoId": "TSQx9lyMnug",
+      "title": "レキシ〈ギガアイシテル〉官方MV",
+      "channelName": "レキシ",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "8687:ED:4": [
+    {
+      "youtubeVideoId": "6lnS-8FVod4",
+      "title": "Official髭男dism〈Universe〉官方MV",
+      "channelName": "Official髭男dism",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "8687:ED:3": [
+    {
+      "youtubeVideoId": "hkBbUf4oGfA",
+      "title": "菅田将暉〈虹〉官方MV",
+      "channelName": "菅田将暉 Official Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "6ot3r31nU4s",
+      "title": "《STAND BY ME 哆啦A夢 2》電影主題歌PV",
+      "channelName": "【公式】ドラえもん / 藤子・F・不二雄チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "8687:ED:2": [
+    {
+      "youtubeVideoId": "wT6cs3L3bR8",
+      "title": "《哆啦A夢》原TV〈Birthday〉片尾畫面（含歌詞）",
+      "channelName": "【公式】ドラえもん / 藤子・F・不二雄チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "eUmdKhcs7xk",
+      "title": "Mr.Children〈Birthday〉官方音軌",
+      "channelName": "TOY'S FACTORY",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "doraemon-2005-birthday-song-double-a-original"
+    }
+  ],
   "205772:ED:1": [
     {
       youtubeVideoId: "wM3E9LXHmu0",
@@ -173,7 +236,33 @@ export const curated2026SpringThemeVideos = {
     },
   ],
   "6149:OP:1": [{"youtubeVideoId":"ovrRdVce9Mc","title":"おどるポンポコリン 官方動畫MV","channelName":"Momoiro Clover Z Channel","type":"music_video","officialStatus":"official","embeddable":false}],
-  "8687:OP:1": [{"youtubeVideoId":"Wt5AhyH6BRE","title":"ドラえもん 官方無字幕OP","channelName":"ドラえもん公式YouTubeチャンネル","type":"creditless_op","officialStatus":"official","embeddable":false},{"youtubeVideoId":"ypRTzt1KrF8","title":"ドラえもん 官方MV","channelName":"Gen Hoshino","type":"music_video","officialStatus":"official","embeddable":false}],
+  "8687:OP:1": [
+    {
+      "youtubeVideoId": "Wt5AhyH6BRE",
+      "title": "ドラえもん 官方無字幕OP",
+      "channelName": "ドラえもん公式YouTubeチャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false
+    },
+    {
+      "youtubeVideoId": "ypRTzt1KrF8",
+      "title": "ドラえもん 官方MV",
+      "channelName": "Gen Hoshino",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false
+    },
+    {
+      "youtubeVideoId": "tDqktj-2BPs",
+      "title": "星野源〈ドラえもん〉《のび太の新恐竜》特別片頭畫面",
+      "channelName": "tvasahi",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "966:OP:2": [{"youtubeVideoId":"xFFdgK7gvlc","title":"スーパースター 官方MV","channelName":"ケツメイシ","type":"music_video","officialStatus":"official","embeddable":false}],
   "966:OP:1": [{"youtubeVideoId":"YoLQPuIdGks","title":"ゆず「マスカット」Music Video","channelName":"yuzuofficial","type":"music_video","officialStatus":"official","embeddable":false}],
   "966:OP:3": [{"youtubeVideoId":"cl9eAbLyGFo","title":"アニメ「クレヨンしんちゃん」ノンクレジットオープニング｜FRUITS ZIPPER「はちゃめちゃわちゃライフ！」","channelName":"【アニメ】クレヨンしんちゃん公式チャンネル","type":"creditless_op","officialStatus":"official","embeddable":false}],

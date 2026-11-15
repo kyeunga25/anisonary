@@ -11,13 +11,13 @@
 | 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
 | 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
 | 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 完成第492批《半妖的夜叉姬》兩季及《闇影詩章》的逐話用曲與正式發行。固定2007–2026，資料截止2026-10-14。 |
-| 下批位置 | 正式驗收第487–492批後，第493批核對《炎炎消防隊 貳之章》（`curated-114236`）與《暮蟬悲鳴時 業》（`curated-114446`）的特殊片尾、跨季集數及原播插曲。 |
+| 本輪目標 | 第498批核對《哆啦A夢》、《蠟筆小新》和《妖怪學園Y》在2020秋前後的原TV片頭片尾輪替、特殊用途和正式發行。固定2007–2026，資料截止2026-10-14。 |
+| 下批位置 | 第499批接續2020夏標準TV，先核對《Lapis Re:LiGHTs》（`curated-104937`）、《魔王學院的不適任者》（`curated-112301`）、《果然我的青春戀愛喜劇搞錯了。完》（`curated-108489`）。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 第478–486批已正式發布。第487–492批有105筆不同用途達集中發布門檻，正進行固定候選的完整驗收。 |
-| 接續位置 | 正式基線 `e736d9984aacd69615f2fe3f6b6bf7cdebde858f`／[`batch486-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch486-basics)。 |
-| 發布提交 | 第486批 Workers 正式版本 `4835fd27-0cd5-4a5e-b323-b82169e54c49`。2,103份API、80份HTML、100張歌曲卡、11次手機海報牆鍵盤導覽及正式API契約建置均通過。 |
-| 本機提交 | 第492批新增3筆及更新11筆既有用途，資料提交 `db2f61d`，發行對應校正 `45acdef`。 |
+| 執行狀態 | 第487–492批105筆用途已經 [PR #302](https://github.com/kyeunga25/anisonary/pull/302) 正式發布並驗收。第493–498批已本機驗收，集中發布集合累計102／100筆不同歌曲用途，進入發布驗收。長期目標執行中。 |
+| 接續位置 | 正式基線 `bda4ceefd47c8eb0f05019e5c576b21c272d0912`／[`batch492-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch492-basics)。 |
+| 發布提交 | 第492批 Workers 正式版本 `ef9dfd81-0829-4455-a45f-efadde2dcb71`。2,103份API、77份HTML、105張歌曲卡、9次手機海報牆鍵盤導覽及正式API契約建置均通過。 |
+| 本機提交 | 第498批新增12筆及更新20筆既有用途，資料提交 `9c95e42`。 |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -18869,3 +18869,107 @@ Firefox驗收43張歌曲卡、99項發行關係及131條曲序、14條影片連�
 本機更新11筆既有用途及新增3筆用途、1個歌曲ID、27個音源ID、40個發行品ID及7支官方影片。全目錄2,072作、5,545筆用途、4,706個歌曲ID，1,145筆有基本欄位或季度待核。27項單元、2,148頁建置、統計及公開邊界通過。Firefox驗收14張歌曲卡、48項發行關係、70條曲序、10個影片入口、72次季度搜尋及8次390px無JavaScript海報牆鍵盤導覽；同意前零YouTube連線。
 
 本機資料提交 `db2f61d`，發行對應校正 `45acdef`。比對第486批正式產物，第487–492批累積9作105筆不同用途，含74筆新增、31筆更新。2,103份公開JSON有2,085份位元組一致。
+
+
+## 2026-11-15 第487–492批正式發布
+
+[PR #302](https://github.com/kyeunga25/anisonary/pull/302) 已合併至 `bda4ceefd47c8eb0f05019e5c576b21c272d0912`，正式 Workers 版本 `ef9dfd81-0829-4455-a45f-efadde2dcb71`，發布 [`batch492-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch492-basics)。相對第486批，9作共有105筆不同歌曲用途更新，其中74筆新增、31筆更新。
+
+固定候選的本機完整驗收、GitHub quality、Workers 預覽和正式部署均通過。預覽與正式 CI 的4,356個公開產物逐檔一致。預覽及[正式站](https://anisonary.k-y.cc/)的2,103份公開API、77份頁面各與 CI 產物逐位元組相符。正式瀏覽器驗收105張歌曲卡、193項直接音樂連結、2項季度搜尋、9次390px手機鍵盤海報牆導覽；同意前零YouTube連線，同意後使用私隱加強版嵌入。未知頁面與API回應404。正式公開API契約及以該API重建2,148頁均通過。
+
+
+## 2026-11-15 第493批：《炎炎消防隊 貳之章》與《暮蟬悲鳴時 業》
+
+《炎炎消防隊 貳之章》（`curated-114236`）2020年7月4日01:55 JST首播，第1–13話屬2020夏，第14–24話屬2020秋。前期Aimer〈SPARK-AGAIN〉、サイダーガール〈ID〉均用於第1–13話。後期KANA-BOON〈Torch of Liberty〉作第14–24話片頭，PELICAN FANCLUB〈ディザイア〉作第14–23話片尾。第24話片尾換回第一季片頭曲Mrs. GREEN APPLE〈インフェルノ〉，沿用既有ED3和同曲ID。 [官方首播公告](https://fireforce-anime.jp/season2/news/detail.php?d=200624_01) · [前期音樂](https://fireforce-anime.jp/season2/music/) · [後期音樂](https://fireforce-anime.jp/season2/music/2nd.php) · [ABEMA終回](https://times.abema.tv/articles/-/8637760?page=1) · [逐話曲表](https://www.mau2.com/anime/enennoshouboutai-2)
+
+《暮蟬悲鳴時 業》（`curated-114446`）2020年10月1日23:30 JST首播。第14話改在2021年1月8日00:30 JST播出。 [官方時段](https://higurashianime.com/news/article_0010.html) · [繁中正版](https://www.linetv.tw/drama/11959/eps/1) · [逐話曲表](https://www.mau2.com/anime/higurasinonakukoroni-r2) · [逐話排期交叉](https://cal.syoboi.jp/tid/5757)
+
+| 公開用途ID尾碼 | 日本原播 |
+| --- | --- |
+| `op-1` | 亜咲花〈I believe what you said〉第2–4、6–7、10–11、14–18、20–23話片頭 |
+| `ed-1` | 島みやえい子〈ひぐらしのなく頃に〉第1話特別片尾，沿用2006年版片頭歌曲 |
+| `ed-2` | 彩音〈神様のシンドローム〉第2–7、9–17話片尾 |
+| `ed-3` | 彩音〈不規則性エントロピー〉第18–23話片尾，包含使用插曲的第19話 |
+| `ed-4` | 第24話〈I believe what you said〉作特別片尾，沿用片頭歌曲ID |
+| `in-1` | 第19話〈オレンジ色の風〉為古手梨花（田村ゆかり）與北条沙都子（かないみか）的二重唱。作詞澪，作曲、編曲鳥海剛史 |
+
+終回與首話的實際播出音軌和已發行版本之對應仍待核。《業》首話的舊版片頭影像明示出處；第19話插曲待官方原聲曲表、正式音源或權利方影片。〈ディザイア〉兩個數位版本的時長不同，先分列發行入口。保留對應已證的正式單曲、動畫尺寸、伴奏及精選輯曲位，並區分無字幕動畫、MV與官方音軌。 [《業》導演訪談](https://febri.jp/topics/higurashianime_director_interview/) · [製作方二重唱公告](https://x.com/office_passione/status/1359917617335697411) · [MAGES.唱片](https://music.ani-tone.com/higurashi/) · [2006年發行公告](https://07th-expansion.net/hi_aj/kokuti/2004_2006.htm) · [Aimer動畫盤曲序](https://www.sonymusic.co.jp/artist/aimer/info/519739) · [KANA-BOON動畫盤曲序](https://sp.kanaboon.jp/discography/detail/36/) · [彩音官方Art Track](https://www.youtube.com/watch?v=MlHEEcIUofY)
+
+資料提交 `7e75490`。對照第492批正式產物，本機新增2筆不同用途、1個歌曲ID、19個音源ID、25個發行品ID、3個新官方影片ID及20個香港Apple Music直接曲目入口，更新9筆既有用途。2,103份公開JSON有2,099份位元組一致，差異為兩部詳情和兩季索引。全目錄為2,072作、5,547筆用途及4,707個已登記歌曲ID，1,143筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計及公開邊界通過。Firefox驗收11張歌曲卡、33項發行關係、50條曲序、12個影片入口、23處香港曲目入口、30次季度搜尋和4次390px無JavaScript海報牆鍵盤導覽。同意前零YouTube連線。以香港商店曲目逐一核對發行、日期與曲位。公開影片頁的選集名稱與官方上架描述已查閱。完整地區播放及播出剪輯仍待核。
+
+
+## 2026-11-15 第494批：三部2020秋作品的原播用曲
+
+《請問您今天要來點兔子嗎？ BLOOM》（`curated-104198`）於2020年10月10日21:30 JST在AT-X首播，TOKYO MX、BS11與ABEMA同日22:00；全12話。〈天空カフェテリア〉在第2–12話作片頭，第1話於片尾位置播出，保留原片頭曲名義並註明位置。第2–11話的片尾為チマメ隊〈なかよし！○！なかよし！〉。第12話採Petit Rabbit's〈ユメ＜ウツツ→ハッピータイム〉，既有ED2補掛2020秋、詞曲編與官方片尾。另保存兩首常規主題曲的角色獨唱、TV尺寸、原聲帶鋼琴版本、2021年重新編曲與選定正版曲位。 [官方播出公告](https://gochiusa.com/bloom/news/n00370000.html) · [逐話曲表](https://www.mau2.com/anime/gochuumonhausagidesuka-3) · [第12話官方片尾](https://www.youtube.com/watch?v=ewh2hBpjKeM) · [官方唱片](https://gochiusa.com/bloom/cd/oped.html) · [十周年曲目](https://gochiusa.com/10th/cd/album.html)
+
+《無能力者娜娜》（`curated-117343`）於2020年10月4日21:30 JST在AT-X首播，TOKYO MX同日22:00；全13話。富田美憂〈Broken Sky〉作第2–8、10–12話片頭。新增第1話特別片尾用途 `munou-na-nana-ed-2`，沿用既有歌曲ID。藤川千愛〈バケモノと呼ばれて〉為第2–13話片尾，第9、13話接續劇情。補創作署名、先行數位單曲及正式發行，兩個〈バケモノと呼ばれて〉數位項目有時長差異，分列發行位置。 [官方播出](https://munounanana.com/onair/) · [逐話曲表](https://cal.syoboi.jp/tid/5766/subtitle) · [終回官方對談](https://munounanana.com/special/interview.html) · [唱片公司](https://columbia.jp/artist-info/fujikawachiai/discography/COCP-41340.html)
+
+《惡玉Drive》（`curated-116566`）於2020年10月8日21:30 JST在AT-X首播；全12話。第2–11話片頭為SPARK!!SOUND!!SHOW!!〈STEAL!!〉，片尾為浦島坂田船〈Ready〉。新增 `akudama-drive-ed-2` 的第1話特別片尾及 `akudama-drive-in-1` 的第12話插曲，兩者與原片頭共用歌曲ID。兩支既有NBC影片依權利方公告更正為無字幕片頭／片尾。〈STEAL!!〉原版與2023年《音樂》按實際另列發行及曲位，〈Ready〉原單曲與緒方恵美的2023年翻唱分列。 [原TV逐話曲表](https://www.mau2.com/anime/akudamadrive) · [第1話同期原播](https://anitubu.com/archives/post-41348.html) · [終回同期原播](https://anitubu.com/archives/post-44125.html) · [權利方無字幕影片公告](https://prtimes.jp/main/html/rd/p/000000692.000016719.html) · [〈Ready〉製作人署名](https://www.kenthe390.jp/posts/10156570/) · [翻唱發行](https://breathearts.jp/information/155.html)
+
+YouTube官方影片標題、說明與Bilibili正版分集頁已交叉查閱。看片地區可用性及原播精確剪輯仍待確認。〈STEAL!!〉2020首版編曲待權利方署名。未核得可新增的《BLOOM》或《無能力者娜娜》具名演唱插曲。
+
+資料提交 `397721c`。新增3筆歌曲用途、更新7筆既有用途，三筆新增均沿用既有歌曲ID。本批新增28個音源ID、27個發行品ID、3個官方影片ID及24個香港Apple Music直接曲目入口。對照第492批正式產物，第493–494批累計5作、21個不同用途ID，其中5筆新增。2,103份公開JSON有2,096份位元組一致。全目錄2,072作、5,550筆用途、4,707個已登記歌曲ID，1,142筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計與公開邊界通過。Firefox核對10張歌曲卡、47項發行關係、76條曲序、12個影片入口、32處香港曲目入口、7次季度搜尋、3次390px無JavaScript海報牆鍵盤導覽及同意前零YouTube連線。香港曲目的發行、日期與曲位逐一對帳。
+
+
+## 2026-11-15 第495批：特殊片頭、片尾與插曲
+
+《我立於百萬生命之上》（`curated-116242`）2020年10月2日22:00 JST在TOKYO MX首播；第1話先播いらすとや「ワケあり版」，通常版於10月4日22:30在該台播出。原TV共12話，12月25日為第1話重播。〈Anti world〉列第1–10、12話片頭，〈カルペ・ディエム〉列第1–12話片尾，第10話有Liyuu真人影像的特別呈現。第11話限定片頭〈Dear My MAJIHA Sisters〉補2020秋；Lantis公開影片是利用片頭素材製作的全長試聽，唱片列出的Anime Size另存。原聲帶第二碟補第1–6曲的對應音軌，當中 #3–6 是限定片頭題曲的四種版本。首話兩種畫面版本的歌曲掛字仍待直接核對。 [首播編成](https://s.mxtv.jp/company/press/press2020_380001.pdf) · [通常版公告](https://1000000-lives.com/news/archives/35) · [第11話Lantis影片](https://www.youtube.com/watch?v=UbN6OLItRSQ) · [第10話歌手資料](https://liyuu0109.com/topics/carpediem) · [正式原聲帶](https://1000000-lives.com/music/soundtrack/)
+
+《排球少年!! 第四季：TO THE TOP 後半部》（`curated-113538`）為全季第14–25話。首話2020年10月3日02:25 JST播出，MBS終回為12月19日02:25。〈突破口〉用於第14–25話片頭，〈One Day〉用於第14–24話片尾。第25話改用第一季片頭歌曲SPYAIR〈イマジネーション〉，既有ED2補2020秋；ABEMA自家配信版標示片尾約19分30秒開始。原單曲、動畫盤及2023年新演唱的發行分列，2020原播採用的錄音與剪輯留待原播音軌或正式說明。 [MBS官方分集](https://www.mbs.jp/haikyu/select/index-4th.shtml) · [ABEMA終回](https://times.abema.tv/articles/-/8638826?page=1) · [One Day動畫盤](https://www.sonymusic.co.jp/artist/spyair/info/523810) · [新錄版公告](https://www.sonymusic.co.jp/artist/spyair/info/556276)
+
+《戰翼的希格德莉法》（`curated-116173`）於2020年10月3日23:30首播一小時第1話，11月28日播獨立回顧第8.5話，12月26日第12話完結。非例行用途如下：
+
+| 公開用途ID | 原播證據 |
+| --- | --- |
+| `senyoku-no-sigrdrifa-ed-2` | 第4話片尾〈Fly high〉，六車・宮古（稗田寧々）演唱；Aniplex公布影片及數位發行。 |
+| `senyoku-no-sigrdrifa-ed-3` | 第1話片尾〈Higher's High〉；第2–12話作常規片頭，兩個用途共用歌曲ID。 |
+| `senyoku-no-sigrdrifa-in-1` | 第11話插曲〈ほしのかけら〉，歌手、曲序與官方MV已核。 |
+| `senyoku-no-sigrdrifa-in-2` | 第3、10、12話〈クラウディアの子守唄〉，クラウディア・ブラフォード（山村響）演唱；第6卷附錄CD確認收錄。 |
+
+〈サヨナラナミダ〉為第2、3、5–12話常規片尾；先行數位、原單曲曲位與動畫尺寸已分列。〈Fly high〉保留Aniplex官方發行入口，香港可用直達曲目待核。第8.5話的音樂用法未確認。 [同播回顧編排](https://abema.tv/channels/abema-anime/slots/AafZZUp8GKw5Z1) · [逐話曲表](https://cal.syoboi.jp/tid/5759/subtitle) · [Fly high公告](https://sigururi.com/news/?id=55454) · [第11話插曲公告](https://www.sma.co.jp/s/sma/news/detail/91902?ima=0000) · [第6卷附錄](https://sigururi.com/bddvd/vol06/)
+
+第495批資料提交 `5eec06f`。新增2筆用途、1個歌曲ID、28個音源ID、36個發行品ID、8個官方影片ID與31個地區直接曲目（香港20、日本11），更新10筆既有用途。對照第492批正式產物，第493–495批累計8部、33筆不同用途，其中7筆新增。2,103份公開JSON有2,093份位元組一致。全目錄2,072作、5,552筆用途、4,708個已登記歌曲ID，1,139筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計和公開邊界通過。Firefox驗收12張歌曲卡、46項發行關係、75條曲序、14個影片入口、11次季度搜尋及3次390px無JavaScript海報牆鍵盤導覽，同意前零YouTube連線。核對公開影片元資料、Bilibili和ABEMA劇集入口；實際原播播放及各地區可用性仍待另驗。
+
+## 2026-11-15 第496批：2020秋逐話片尾及同曲異版
+
+《池袋西口公園》（`curated-111324`）在AT-X於2020年10月6日21:00 JST首播，全12話。〈ニードルノット〉為第1–12話片頭。〈after song〉用於第1–3、5–6、9、11–12話；第4、8、10話換用〈思うまま〉，第8與第10話由演唱樂團當日發文確認。第7話為清春2020年再錄的〈忘却の空 (25th Anniversary Ver.)〉，正式發行曲位與2000年SADS實寫版原曲、2019年自翻唱分辨。另補片頭首發、標明Album Ver.及現場錄音，以及相關官方MV和音軌。 [官網樂曲頁](https://iwgp-anime.com/music/) · [第8話樂團公告](https://x.com/innosent_info/status/1331266267966148608) · [第10話樂團公告](https://x.com/innosent_info/status/1336339374112272390) · [第7話製作方公告](https://iwgp-anime.com/news/https-iwgp-anime-com-news-n2011-18) · [Pony Canyon發行](https://ps.ponycanyon.co.jp/kiyoharu/album/)
+
+《前說！MAESETSU》（`curated-110632`）於10月4日23:30先播獨立特番第0幕，10月11日23:30 JST於AT-X播首個正篇。〈サイン〉作第1話片頭，〈ピッピッピハッピー〉自第2話使用。〈いかがわしいバイキング〉已核第2–4、6–11話片尾，第1、12話的具體編排仍待核。第5話為〈静かな戦士〉，富田純基的演出版最終移出附錄CD；円広志原唱的發行與官方音軌另列，第7、10話的劇中使用仍待可辨識原播或正式曲表。新增第6話つんどら〈オリジネーション〉（`maesetsu-in-1`）及第2卷附錄CD。 [官方時段](https://maesetsu.jp/onair/) · [第0幕](https://maesetsu.jp/story/00.html) · [編曲者曲目資料](https://mullahnin.jimdofree.com/) · [製作方附錄更正](https://maesetsu.jp/news/index00950000.html) · [第2卷附錄](https://maesetsu.jp/bd/02.html) · [官方無字幕片頭](https://www.youtube.com/watch?v=ok8T6FOwZRs)
+
+《A3! SEASON AUTUMN & WINTER》（`curated-111145`）由2020年10月13日00:00 JST起播第13–24話，冬組從第19話開始。〈Circle of Seasons〉的兩組TV尺寸與全員、角色獨唱及原聲帶版本分列。秋組〈ZERO LIMIT〉為第13–18話片尾，冬組〈Thawing〉為第19–23話片尾。第24話使用A3ders!〈MANKAI☆開花宣言〉，沿用既有特殊片尾用途與原遊戲歌曲，播出所用剪輯待核。 [原播官網](https://www.a3-animation.jp/) · [TBS分集](https://www.tbs.co.jp/tbs-ch/item/a0376/) · [第24話逐話曲表](https://www.mau2.com/anime/a3-2/ep/24) · [Pony Canyon原遊戲單曲](https://a3.ponycanyon.co.jp/mankai/) · [官方PV](https://www.youtube.com/watch?v=o2h77BNJPjE)
+
+資料提交 `8aab235`。新增1筆用途、1個歌曲ID、34個音源ID、28個發行品ID、10個官方影片ID及36個香港Apple Music直接曲目入口，更新12筆既有用途。對照第492批正式產物，第493–496批累計11部、46筆不同用途，其中8筆新增。2,103份公開JSON有2,090份位元組一致。全目錄2,072作、5,553筆用途、4,709個已登記歌曲ID，1,136筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計及公開邊界通過。Firefox驗收13張歌曲卡、38項發行關係、64條曲序、10個影片入口、13次季度搜尋、3次390px無JavaScript海報牆鍵盤導覽，同意前零YouTube連線。逐一核對36條香港曲目的發行、日期、碟號及曲位。已查Bilibili分集入口與YouTube官方試聽說明；本次播放器未開始播放，完整原播音軌及各地區播放可用性待核。 [Bilibili第8話](https://www.bilibili.com/bangumi/play/ep639686) · [官方片尾曲試聽](https://www.youtube.com/watch?v=F0Mw1kMpgyo)
+
+## 2026-11-15 第497批：復播、跨季度與特殊用曲
+
+《IDOLiSH7 偶像星願 Second BEAT!》（`curated-103110`）於2020年4月5日週日22:30 JST由TOKYO MX等台連播第1、2話。第4話後延播，10月4、11日23:00重播第3、4話，10月18日新播第5話。第12話的官方無字幕片尾確認〈Last Dimension〉，原聲帶確認該話使用Symphonic Edition。第10話〈It's ALL-for you-〉採原聲帶署名Re:vale，個別人聲待原播掛字。新增〈SILVER SKY〉、三首Shuffle Unit歌曲及〈Dis one.〉等5筆插曲用途，第15話另有既存的〈激情〉。較早集數的其它具名插曲仍待第二份逐話證據或正式掛字。 [官方首播資料](https://idolish7.com/aninana/wp-content/uploads/2020/03/c772af3b7fd10faf8c2f8ec7baf85824.pdf) · [官方復播公告](https://idolish7.com/aninana/news/?p=1155) · [官方第12話無字幕片尾](https://idolish7.com/products/?p=17413) · [正式原聲帶](https://idolish7.com/aninana/discography/?p=1179) · [TBS分集](https://www.tbs.co.jp/tbs-ch/item/a0386/) · [Shuffle Unit正式曲序](https://idolish7.lantis.jp/discography/laca-9647/)
+
+《寶可夢 旅途》（`curated-112153`）第39話於2020年9月27日週日18:00播出，第40話於10月9日週五18:55新時段首播。第40話官方節目表列西川くんとキリショー版〈1・2・3〉為片頭，逐話記錄及同期回顧指出閃電鳥對戰用After the Rain版。兩種〈ポケモンしりとり〉在第40–47話輪替；第48–54話原TV用トータス松本〈ふしぎなふしぎな生きもの〉，另列電影主題歌集及影片。After the Rain原單曲與2023年另版分列。作品資料與季頁標籤顯示兩個原播時段；海報牆的分組目前採作品的單一首播星期，跨季改檔的分組仍待支援。 [東京電視台改檔公告](https://www.tv-tokyo.co.jp/anime/pocketmonster/news/index_17.html) · [第40話原台表](https://www.tv-osaka.co.jp/onair/detail/oaid%3D1955048/) · [第40話逐話曲表](https://www.mau2.com/anime/pocketmonster-r2/ep/40) · [第40話同期觀看記錄](https://ameblo.jp/nanashi0712/entry-12627959380.html) · [第48話原台表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25680_202012041855.html) · [Sony合輯](https://www.sonymusic.co.jp/PR/pokemon/info/544028)
+
+《戀與製作人》（`curated-110371`）日語原TV首話於2020年7月16日00:00 JST首播，第12話於10月1日00:00 JST播出，電視台以週三24:00排表。〈鈍色の夜明け〉與〈舞い降りてきた雪〉涵蓋12話，依日本實際換日納入夏、秋兩季。新增第1話キラ（柿原徹也）〈恋心シークレット〉，核對原聲帶第2曲及先行數位單曲。ED的TV size與插曲於7月16日部分時段曾錯置，發行代理於7月17日恢復正確音源。Full、TV size、伴奏、現場發行及MAPPA無字幕片尾分列。普通話版三首的首方歌曲掛字與發行仍待續核。 [日本官方時段](https://koipro-anime.love/onair/) · [BS日テレ分集](https://www.bs4.jp/koipro/) · [公式插曲公告](https://koipro-anime.love/news/detail_0716_02.php) · [發行代理更正](https://www.nex-tone.co.jp/dd_notice_20200717/) · [正式原聲帶](https://music.ani-tone.com/release/DDCD-0002/) · [MAPPA無字幕ED](https://www.youtube.com/watch?v=chUJ-9mYvuo) · [WeTV普通話正片入口](https://wetv.vip/zh-cn/play/7dp8ndkhimk3rx5/y0034uih0nv-EP1)
+
+五筆用途保留逐話來源，待權利方掛字、分集用曲公告或可辨識的原播片段再掛季度。《IDOLiSH7》是 `idolish7-second-beat-ed-2`（第5話〈DESTINY〉）與 `idolish7-second-beat-ed-5`（第15話〈DiSCOVER THE FUTURE〉）；《寶可夢》是 `pocket-monsters-2019-ed-4`（第1話After the Rain）、`pocket-monsters-2019-in-2`（第40話After the Rain）與 `pocket-monsters-2019-ed-6`（第136話サトシ＆ゴウ）。首話既存的歌曲ID與用途ID均保留，首次片尾與常規片頭的發行音源可由共用錄音ID對照。 [《IDOLiSH7》逐話曲表](https://cal.syoboi.jp/tid/5608/subtitle) · [《寶可夢》第1話逐話曲表](https://www.mau2.com/anime/pocketmonster-r2) · [《寶可夢》第136話逐話曲表](https://www.mau2.com/anime/pocketmonster-r2-3?cast=cv)
+
+資料提交 `ce5b21a`。新增9筆（2片尾、7插曲），更新15筆用途。新增6個歌曲ID、30個音源ID、29個發行品ID、7個官方影片ID及27個不同Apple Music直接曲目（香港23、日本4）。對照第492批正式產物，第493–497批累計14作、70筆不同用途，其中17筆新增；2,103份公開JSON有2,076份位元組一致。本批三部作品的正式API仍與第492批基線一致。全目錄2,072作、5,562筆用途、4,715個已登記歌曲ID，1,136筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計及公開邊界通過。Firefox驗收24張歌曲卡、61項發行關係、63條曲序、10個影片入口、五季共29次歌曲搜尋、7次390px無JavaScript海報牆鍵盤導覽，同意前零YouTube連線。逐一對帳27個不同正版曲目的日期、碟號及曲位。Firefox可讀Bilibili、YouTube與WeTV節目頁或官方片尾說明；試播未開始，未取得原播掛字或各地區完整播放證據。
+
+## 2026-11-15 第498批：長篇TV的原播輪替與電影宣傳片尾
+
+《哆啦A夢》（`curated-8687`）週六17:00 JST原播。〈Birthday〉2020年10月3日仍作電影宣傳片尾，10月10日無歌曲片尾，10月17日改用〈虹〉。〈Universe〉於2021年1月9日接替，1月16日亦有劇中演出。增加2021年除夕剛田武翻唱版〈Universe〉，核對mao〈夢をかなえてドラえもん〉於2024年11月9日作片尾及11月16日片頭改版。星野源原片頭、電影畫面剪輯版及商品錄音分列。 [〈Birthday〉原台資料](https://dora-world.com/contents/1431) · [10月逐話記錄](https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html) · [〈虹〉原台資料](https://dora-world.com/contents/1637) · [〈Universe〉劇中演出](https://post.tv-asahi.co.jp/post-140396/) · [除夕原台資料](https://dora-world.com/contents/2211) · [2024年時段公告](https://dora-world.com/contents/3622)
+
+《蠟筆小新》（`curated-966`）週六16:30 JST原播，2020年9月26日為〈マスカット〉最後一話，10月3日轉為〈スーパースター〉，其原版及動畫片頭版商品曲序分列。〈ギガアイシテル〉為電影宣傳片尾，2020年8月8日恢復後延至10月3日，保存逐話例外。另補〈アクション仮面の唄〉及第1057話〈立て!カンタムロボ〉兩筆插曲。 [原台片頭更換](https://www.tv-asahi.co.jp/shinchan/news/0086/) · [片尾公告](https://post.tv-asahi.co.jp/post-112586/) · [正式合輯](https://columbia.jp/prod-info/COCX-33076-7/) · [第1057話逐話曲表](https://www.mau2.com/anime/crayonsinchan-29/ep/1057)
+
+《妖怪學園Y ～第N類接觸～》（`curated-113472`）常規時段為週五18:25，首播及第50話採特別時段。第39／40話〈キラボシ共和国国歌〉更正合唱團名義為大宰府主婦合唱部“ODEN”，保存正式影片所列的具名兒童與不同上傳內容。〈Y学園へ行こう〉五版同詞、各有曲調，既有歌曲ID與用曲保留。補第50／63話〈Y学園校歌〉劇中合唱，樣唱、TV原聲帶與電影原聲帶分列。第1話既有片尾及新增第37／52、63話兩筆特殊片尾保留入口，等可確認用途的權利方字幕或逐話來源才掛季度。第50話片尾演唱及第24話其他插曲尚待核對。 [官方五版企劃](https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/special/) · [官方國歌特別影片](https://www.youtube.com/watch?v=jF9nFneYqzc) · [東京電視台第50話](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25709_202012251755.html) · [第63話官方介紹](https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/) · [正式原聲帶](https://www.universal-music.co.jp/level5/products/uk1aa-00479/)
+
+資料提交 `9c95e42`。新增12筆用途（8片尾、4插曲），更新20筆；淨增7個歌曲ID、21個音源ID、27個發行品ID、12個官方影片ID與20個唯一正版平台URL。相對第492批正式產物，第493–498批共17作、102筆不同用途，其中29筆新增；2,103份公開JSON中有2,057份位元組一致。全目錄2,072作、5,574筆用途、4,722個已登記歌曲ID，1,136筆仍有基本欄位或季度待核。
+
+Node 22的27項單元、2,148頁建置、統計及公開邊界通過。Firefox驗收32張歌曲卡、71項發行關係、98條曲序、36個影片入口、九季共67次搜尋、8次390px無JavaScript海報牆鍵盤導覽，同意前零YouTube連線。直接核對31個香港、4個日本Apple Music曲目位置（分別為25、2個唯一連結，涵蓋本次及同日相關核對）。YouTube官方影片標題及簡介已核，Bilibili查找未取得可確認這批原播特殊片尾的官方影片。當次未取得完整播放或逐話掛字證據。

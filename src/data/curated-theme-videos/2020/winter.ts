@@ -1,6 +1,18 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "113472:IN:1": [
+    {
+      "youtubeVideoId": "ncn8Z-m5-rk",
+      "title": "〈Y学園校歌〉權利方徵集示範",
+      "channelName": "LEVEL5ch【公式】",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-official-submission-demo"
+    }
+  ],
   "112748:IN:2": [
     {
       "youtubeVideoId": "LaTuI49fV5A",
@@ -579,12 +591,13 @@ export const curated2020WinterThemeVideos = {
     },
     {
       "youtubeVideoId": "L2NknelL6mE",
-      "title": "【妖怪学園Y】宇宙神秘ブギ／莉犬",
+      "title": "莉犬〈宇宙神秘ブギ〉｜歌手官方影片",
       "type": "music_video",
       "channelName": "莉犬くん【すとぷり】",
       "officialStatus": "official",
       "embeddable": false,
-      "embedAvailability": "unknown"
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song-artist-video-audio"
     }
   ],
   "113472:ED:11": [
@@ -593,6 +606,15 @@ export const curated2020WinterThemeVideos = {
       "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『ＹＳＰ！』",
       "type": "other",
       "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ORosDMI2zpc",
+      "title": "キング・クリームソーダ〈ＹＳＰ！〉｜BANDAI SPIRITS官方上架",
+      "channelName": "BANDAI SPIRITS / バンダイスピリッツ",
+      "type": "other",
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
@@ -621,34 +643,37 @@ export const curated2020WinterThemeVideos = {
   "113472:ED:2": [
     {
       "youtubeVideoId": "LyB2gFCd6eo",
-      "title": "【映画 妖怪学園Y】Y学園へ行こう ワイワイ編【ろん】",
+      "title": "Y学園へ行こう ワイワイ編｜權利方MV",
       "type": "music_video",
       "channelName": "LEVEL5ch【公式】",
       "officialStatus": "official",
       "embeddable": false,
-      "embedAvailability": "unknown"
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2-song-rights-holder-mv-audio"
     }
   ],
   "113472:ED:3": [
     {
       "youtubeVideoId": "PZkwcpPg0FI",
-      "title": "【映画 妖怪学園Y】Y学園へ行こう 疾走編【96猫】",
+      "title": "Y学園へ行こう 疾走編｜權利方MV",
       "type": "music_video",
       "channelName": "LEVEL5ch【公式】",
       "officialStatus": "official",
       "embeddable": false,
-      "embedAvailability": "unknown"
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3-song-rights-holder-mv-audio"
     }
   ],
   "113472:ED:4": [
     {
       "youtubeVideoId": "5VGHV9BBoJ8",
-      "title": "【映画 妖怪学園Y】Y学園へ行こう 青春ロック編【＋α／あるふぁきゅん。】",
+      "title": "Y学園へ行こう 青春ロック編｜權利方MV",
       "type": "music_video",
       "channelName": "LEVEL5ch【公式】",
       "officialStatus": "official",
       "embeddable": false,
-      "embedAvailability": "unknown"
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4-song-rights-holder-mv-audio"
     }
   ],
   "113472:ED:5": [
@@ -665,9 +690,19 @@ export const curated2020WinterThemeVideos = {
   "113472:ED:6": [
     {
       "youtubeVideoId": "OkitvMxxs40",
-      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『リターントゥ地球』",
+      "title": "戸松遥〈リターントゥ地球〉｜LEVEL5ch官方片尾",
       "type": "other",
       "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-6-song-level5-published-ed-audio"
+    },
+    {
+      "youtubeVideoId": "Is-Bu5wX5aY",
+      "title": "戸松遥〈リターントゥ地球〉｜妖Tube官方上架",
+      "channelName": "妖怪ウォッチ 公式チャンネル 妖Tube",
+      "type": "other",
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
@@ -676,12 +711,13 @@ export const curated2020WinterThemeVideos = {
   "113472:ED:7": [
     {
       "youtubeVideoId": "WTvG6Zkath4",
-      "title": "【映画 妖怪学園Y】Y学園へ行こう 8bit編【そらる】",
+      "title": "Y学園へ行こう 8bit編｜權利方MV",
       "type": "music_video",
       "channelName": "LEVEL5ch【公式】",
       "officialStatus": "official",
       "embeddable": false,
-      "embedAvailability": "unknown"
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7-song-rights-holder-mv-audio"
     }
   ],
   "113472:ED:8": [
@@ -703,14 +739,33 @@ export const curated2020WinterThemeVideos = {
       "embeddable": false,
       "embedAvailability": "unknown",
       "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-8-song-sunny-album"
+    },
+    {
+      "youtubeVideoId": "ElmwkIvfaAY",
+      "title": "〈侵略魔少女エルゼメキア〉｜P丸様。官方上架",
+      "channelName": "P丸様。",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     }
   ],
   "113472:ED:9": [
     {
       "youtubeVideoId": "jF9nFneYqzc",
-      "title": "「妖怪学園Y ～Nとの遭遇～」エンディングテーマ『キラボシ共和国国歌』",
+      "title": "〈キラボシ共和国国歌〉｜LEVEL5ch公開特別版",
       "type": "other",
       "channelName": "LEVEL5ch【公式】",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-9-song-special-video-audio"
+    },
+    {
+      "youtubeVideoId": "pZXsyy7tfgs",
+      "title": "〈キラボシ共和国国歌〉｜妖Tube官方上架",
+      "channelName": "妖怪ウォッチ 公式チャンネル 妖Tube",
+      "type": "other",
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"

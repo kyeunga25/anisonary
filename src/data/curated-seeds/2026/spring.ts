@@ -14857,8 +14857,6101 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
 },
 
   {"anilistId":190143,"id":"curated-190143","slug":"shunkashuutou-daikousha-haru-no-mai","seasonIds":["2026-spring","2026-winter"],"startDate":"2026-03-29","titleJa":"春夏秋冬代行者 春の舞","titleRomaji":"Shunkashuutou Daikousha: Haru no Mai","editorialWeekday":6,"broadcastTimeJst":"24:00","broadcastLabel":"日本TV：2026-03-28土曜24:00（暦日3月29日）・TOKYO MXほか；24分・全14話、春季作品","status":"finished","officialSiteUrl":"https://4seasons-anime.com/","anilistUrl":"https://anilist.co/anime/190143","sourceReferenceUrls":["https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://4seasons-anime.com/onair/","label":"動畫官方：日本TV首播、深夜時段與配信分別","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：標準TV、全14話與播出期間","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/190143","label":"AniList：標準TV、24分鐘及14話識別","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"Petals feat. 夏背","artistDisplayName":"Orangestar","seasonIds":["2026-spring"],"songId":"shunkashuutou-daikousha-haru-no-mai-op-1-song","sourceMode":"explicit","sources":[{"url":"https://4seasons-anime.com/news/?article_id=69813","label":"動畫官方：OP／ED原名、名義、實際歌唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：OP／ED曲名、演唱名義與創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"日本TV OP","evidence":[{"target":"song","targetId":"shunkashuutou-daikousha-haru-no-mai-op-1-song","fields":["title","artist"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"shunkashuutou-daikousha-haru-no-mai-op-1","fields":["usage"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"夏背","role":"vocals"},{"name":"Orangestar","role":"lyrics"},{"name":"Orangestar","role":"composition"},{"name":"TAKU INOUE","role":"arrangement"},{"name":"永山ひろなお","role":"arrangement"},{"name":"Orangestar","role":"arrangement"}],"followUp":[{"fields":["use_quarters"],"note":"動畫首播暦日為3月29日；本曲先保存已確認春季用途，未由動畫首播日推定首話一定使用OP／ED。","resumeWhen":"取得3月29日第1話正片credit或官方逐集歌曲表時，再確認是否追加2026冬季用途。","checkedAt":"2026-10-19"}]},{"type":"ED","sequence":1,"titleJa":"花筏 feat. 夏背","artistDisplayName":"Orangestar","seasonIds":["2026-spring"],"songId":"shunkashuutou-daikousha-haru-no-mai-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://4seasons-anime.com/news/?article_id=69813","label":"動畫官方：OP／ED原名、名義、實際歌唱及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1775531219","label":"Animate Times：OP／ED曲名、演唱名義與創作交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"日本TV ED","evidence":[{"target":"song","targetId":"shunkashuutou-daikousha-haru-no-mai-ed-1-song","fields":["title","artist"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"shunkashuutou-daikousha-haru-no-mai-ed-1","fields":["usage"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813","https://www.animatetimes.com/news/details.php?id=1775531219"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://4seasons-anime.com/news/?article_id=69813"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"夏背","role":"vocals"},{"name":"Orangestar","role":"lyrics"},{"name":"Orangestar","role":"composition"},{"name":"TAKU INOUE","role":"arrangement"},{"name":"永山ひろなお","role":"arrangement"},{"name":"Orangestar","role":"arrangement"}],"followUp":[{"fields":["use_quarters"],"note":"動畫首播暦日為3月29日；本曲先保存已確認春季用途，未由動畫首播日推定首話一定使用OP／ED。","resumeWhen":"取得3月29日第1話正片credit或官方逐集歌曲表時，再確認是否追加2026冬季用途。","checkedAt":"2026-10-19"}]}]},
-  {"anilistId":8687,"id":"curated-8687","slug":"doraemon-2005","seasonIds":["2026-spring","2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-summer","2026-fall"],"startDate":"2005-04-15","titleJa":"ドラえもん","titleRomaji":"Doraemon (2005)","editorialWeekday":6,"broadcastTimeJst":"17:00","broadcastLabel":"2005-04-15開始のTVシリーズ；2019-10月より土曜17:00・テレビ朝日系、2020–2026續播","metadataVerifiedAt":"2026-10-19","status":"airing","officialSiteUrl":"https://www.tv-asahi.co.jp/doraemon/","anilistUrl":"https://anilist.co/anime/8687","sourceReferenceUrls":["https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://post.tv-asahi.co.jp/post-571877/","label":"テレビ朝日：日本TV放送時段","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://post.tv-asahi.co.jp/post-118037/","label":"テレビ朝日：2019年改時段與TV系列","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版索引：系列首播及TV歌曲期間","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/8687","label":"AniList：2005年標準TV系列識別","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"ドラえもん","artistDisplayName":"星野源","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall"],"songId":"doraemon-2005-op-1-song","sourceMode":"explicit","sources":[{"url":"https://post.tv-asahi.co.jp/post-118037/","label":"テレビ朝日：星野源演唱的常態TV OP及2020年改畫面","role":"first_party","language":"ja","verifiedAt":"2026-11-12"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版歌曲表：原名、演唱及TV期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html","label":"逐集交叉索引：2024秋OP切換前後","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://post.tv-asahi.co.jp/post-354343/","label":"テレビ朝日 2019年10月起用與末次播出","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html","label":"Speedstar 2018年單曲曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.hoshinogen.com/special/doraemon/","label":"星野源 特設頁與單曲兩款","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.youtube.com/watch?v=Wt5AhyH6BRE","label":"ドラえもん官方無字幕片頭","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://doraeiga.com/2018/","label":"電影官方列星野源詞曲編與菊池俊輔間奏作曲","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.uta-net.com/song/244910/","label":"原曲詞曲編及間奏作曲交叉核對","language":"ja","role":"cross_check","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"日本TV片頭，2019年10月起至2024-11-02","evidence":[{"target":"song","targetId":"doraemon-2005-op-1-song","fields":["title","artist"],"sourceUrls":["https://post.tv-asahi.co.jp/post-118037/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-op-1","fields":["usage"],"sourceUrls":["https://post.tv-asahi.co.jp/post-118037/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://post.tv-asahi.co.jp/post-354343/","https://www.youtube.com/watch?v=Wt5AhyH6BRE"],"verifiedAt":"2026-11-07","targetId":"doraemon-2005-op-1"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html"],"verifiedAt":"2026-11-07","targetId":"doraemon-2005-op-1-song-original"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html","https://www.hoshinogen.com/special/doraemon/"],"verifiedAt":"2026-11-07","targetId":"victor-vizl-1346"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html","https://www.hoshinogen.com/special/doraemon/"],"verifiedAt":"2026-11-07","targetId":"victor-vicl-37373"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.youtube.com/watch?v=Wt5AhyH6BRE"],"verifiedAt":"2026-11-07","targetId":"Wt5AhyH6BRE"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.hoshinogen.com/special/doraemon/"],"verifiedAt":"2026-11-07","targetId":"ypRTzt1KrF8"},{"target":"credits","fields":["credits"],"sourceUrls":["https://doraeiga.com/2018/","https://www.uta-net.com/song/244910/","https://post.tv-asahi.co.jp/post-118037/"],"verifiedAt":"2026-11-12"}],"recordings":[{"id":"doraemon-2005-op-1-song-original","title":"ドラえもん","format":"unknown","kind":"vocal"}],"releases":[{"id":"victor-vizl-1346","title":"ドラえもん","type":"single","artistDisplayName":"星野源","date":{"value":"2018-02-28","precision":"day"},"tracks":[{"title":"ドラえもん","recordingId":"doraemon-2005-op-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VIZL-1346","edition":"初回限定盤CD＋DVD"},{"id":"victor-vicl-37373","title":"ドラえもん","type":"single","artistDisplayName":"星野源","date":{"value":"2018-02-28","precision":"day"},"tracks":[{"title":"ドラえもん","recordingId":"doraemon-2005-op-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VICL-37373","edition":"通常盤CD"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"}],"credits":[{"name":"星野源","role":"vocals"},{"name":"星野源","role":"lyrics"},{"name":"星野源","role":"composition"},{"name":"菊池俊輔","role":"composition"},{"name":"星野源","role":"arrangement"}]},{"type":"OP","sequence":2,"titleJa":"夢をかなえてドラえもん","artistDisplayName":"mao","seasonIds":["2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"doraemon-2005-op-2-song","sourceMode":"explicit","sources":[{"url":"https://www.tv-asahi.co.jp/music-top/","label":"テレビ朝日官方音樂索引：現行歌曲與演唱名義","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://columbia.jp/doraemonthemesong/","label":"日本コロムビア：原名、mao演唱及TV歌曲身分","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","label":"中文2005年版歌曲表：原名、演唱及復歸期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html","label":"逐集交叉索引：2024-11-16起OP確認","role":"cross_check","language":"ja","verifiedAt":"2026-11-12"},{"url":"https://www.tv-asahi.co.jp/doraemon/staff/","label":"朝日電視台現行片頭、演唱及詞曲編署名","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://columbia.jp/prod-info/COCC-15982/","label":"日本Columbia原單曲、日期、歌唱及曲序","language":"ja","role":"first_party","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"2024年11月16日起恢復為日本TV常規片頭（mao演唱）","evidence":[{"target":"song","targetId":"doraemon-2005-op-2-song","fields":["title","artist"],"sourceUrls":["https://www.tv-asahi.co.jp/music-top/","https://columbia.jp/doraemonthemesong/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-op-2","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/music-top/","https://columbia.jp/doraemonthemesong/","https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/doraemon/staff/","https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-asahi.co.jp/doraemon/staff/","https://columbia.jp/prod-info/COCC-15982/"],"verifiedAt":"2026-11-12"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-15982/"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-op-2-song-single-vocal"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://columbia.jp/prod-info/COCC-15982/"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-op-2-song-instrumental"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://columbia.jp/prod-info/COCC-15982/"],"verifiedAt":"2026-11-12","targetId":"cocc-15982"}],"followUp":[{"fields":["use_quarters"],"note":"已核2024年11月回歸常規片頭。較早原播期間、個別替換及其他演唱版本待相應期間逐話盤點。","resumeWhen":"接續相應年度時依原話字幕或官方逐曲節目資料確認。","checkedAt":"2026-11-12"},{"fields":["recording_format","official_video","platform_links"],"note":"已核原單曲與卡拉OK。確切TV剪輯、官方影片及地區曲目待核。","resumeWhen":"取得唱片方或動畫製播方明示的相應版本時續補。","checkedAt":"2026-11-12"}],"credits":[{"name":"mao","role":"vocals"},{"name":"黒須克彦","role":"lyrics"},{"name":"黒須克彦","role":"composition"},{"name":"大久保薫","role":"arrangement"}],"recordings":[{"id":"doraemon-2005-op-2-song-single-vocal","title":"夢をかなえてドラえもん","format":"unknown","kind":"vocal"},{"id":"doraemon-2005-op-2-song-instrumental","title":"夢をかなえてドラえもん（オリジナル・カラオケ）","format":"unknown","kind":"instrumental"}],"releases":[{"id":"cocc-15982","title":"ドラえもん 主題歌","type":"single","artistDisplayName":"mao・水田わさび（ドラえもん）","date":{"value":"2007-07-04","precision":"day"},"tracks":[{"title":"夢をかなえてドラえもん","recordingId":"doraemon-2005-op-2-song-single-vocal","position":1,"disc":1},{"title":"夢をかなえてドラえもん（オリジナル・カラオケ）","recordingId":"doraemon-2005-op-2-song-instrumental","position":3,"disc":1}],"label":"日本コロムビア","catalogNumber":"COCC-15982","edition":"日本CD版"}]},{"type":"ED","sequence":1,"titleJa":"もしものがたり","artistDisplayName":"Tani Yuuki","seasonIds":["2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"doraemon-2005-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://post.tv-asahi.co.jp/post-571877/","label":"テレビ朝日：2025-10-04起新常態ED原名與演唱","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-asahi.co.jp/music-top/","label":"テレビ朝日官方音樂索引：現行ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.billboard-japan.com/d_news/detail/153977/2","label":"Billboard Japan：原名、演唱、TV ED及首播日交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.tv-asahi.co.jp/doraemon/staff/","label":"朝日電視台現行片尾、演唱及詞曲編署名","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.tv-asahi.co.jp/doraemon/news/0712/","label":"朝日電視台原片尾2025年10月4日啟用公告","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://taniyuuki.com/news/detail/56773","label":"Tani Yuuki配信、CD日期、三版品番及曲序","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.neowing.co.jp/product/KSCL-3623","label":"日本正版CD發行標籤及動畫盤曲序交叉核對","language":"ja","role":"cross_check","verifiedAt":"2026-11-12"},{"url":"https://www.dora-world.com/contents/4024","label":"哆啦A夢官方作品頁的片尾首播及用途","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.youtube.com/watch?v=hPJD9O3ZRbk","label":"Tani Yuuki官方頻道MV","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://kmu.lnk.to/Moshimonogatari","label":"官方指定配信入口","language":"multi","role":"first_party","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"2025年10月4日起日本TV常規片尾","evidence":[{"target":"song","targetId":"doraemon-2005-ed-1-song","fields":["title","artist"],"sourceUrls":["https://post.tv-asahi.co.jp/post-571877/","https://www.tv-asahi.co.jp/music-top/","https://www.billboard-japan.com/d_news/detail/153977/2"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"doraemon-2005-ed-1","fields":["usage"],"sourceUrls":["https://post.tv-asahi.co.jp/post-571877/","https://www.tv-asahi.co.jp/music-top/","https://www.billboard-japan.com/d_news/detail/153977/2"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/doraemon/staff/","https://www.tv-asahi.co.jp/doraemon/news/0712/","https://www.dora-world.com/contents/4024"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-asahi.co.jp/doraemon/staff/"],"verifiedAt":"2026-11-12"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://taniyuuki.com/news/detail/56773"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-ed-1-song-single-vocal"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://taniyuuki.com/news/detail/56773"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-ed-1-song-single-tv"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://taniyuuki.com/news/detail/56773"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-ed-1-song-instrumental"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://taniyuuki.com/news/detail/56773"],"verifiedAt":"2026-11-12","targetId":"doraemon-2005-ed-1-song-tv-instrumental"},{"target":"release","fields":["title","type","artist","date","tracklist","edition"],"sourceUrls":["https://taniyuuki.com/news/detail/56773"],"verifiedAt":"2026-11-12","targetId":"tani-yuuki-moshimonogatari-2025-digital"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://taniyuuki.com/news/detail/56773","https://www.neowing.co.jp/product/KSCL-3623"],"verifiedAt":"2026-11-12","targetId":"kscl-3621-22"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://taniyuuki.com/news/detail/56773","https://www.neowing.co.jp/product/KSCL-3623"],"verifiedAt":"2026-11-12","targetId":"kscl-3623-24"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://taniyuuki.com/news/detail/56773","https://www.neowing.co.jp/product/KSCL-3623"],"verifiedAt":"2026-11-12","targetId":"kscl-3625"},{"target":"link","fields":["url","type"],"sourceUrls":["https://kmu.lnk.to/Moshimonogatari"],"verifiedAt":"2026-11-12","targetId":"https://kmu.lnk.to/Moshimonogatari"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://taniyuuki.com/news/detail/56773","https://www.tv-asahi.co.jp/doraemon/news/0712/","https://www.youtube.com/watch?v=hPJD9O3ZRbk"],"verifiedAt":"2026-11-12","targetId":"hPJD9O3ZRbk"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"已核原期片尾、三個CD版及TV size。個別特別篇用曲與各地曲目可用性另按精確資料核對。","resumeWhen":"取得逐話音源對應或各地正版平台的確切曲目後補記。","checkedAt":"2026-11-12"}],"credits":[{"name":"Tani Yuuki","role":"vocals"},{"name":"Tani Yuuki","role":"lyrics"},{"name":"Tani Yuuki","role":"composition"},{"name":"Tani Yuuki","role":"arrangement"},{"name":"Ryo’LEFTY’Miyata","role":"arrangement"}],"recordings":[{"id":"doraemon-2005-ed-1-song-single-vocal","title":"もしものがたり","format":"unknown","kind":"vocal"},{"id":"doraemon-2005-ed-1-song-single-tv","title":"もしものがたり（TV size.）","format":"tv","kind":"vocal"},{"id":"doraemon-2005-ed-1-song-instrumental","title":"もしものがたり（Instrumental)","format":"unknown","kind":"instrumental"},{"id":"doraemon-2005-ed-1-song-tv-instrumental","title":"もしものがたり（TV size Instrumental）","format":"tv","kind":"instrumental"}],"releases":[{"id":"tani-yuuki-moshimonogatari-2025-digital","title":"もしものがたり","type":"single","artistDisplayName":"Tani Yuuki","date":{"value":"2025-10-03","precision":"day"},"tracks":[{"title":"もしものがたり","recordingId":"doraemon-2005-ed-1-song-single-vocal","position":1}],"label":"Ki/oon Music","edition":"配信"},{"id":"kscl-3621-22","title":"もしものがたり","type":"single","artistDisplayName":"Tani Yuuki","date":{"value":"2025-11-19","precision":"day"},"tracks":[{"title":"もしものがたり","recordingId":"doraemon-2005-ed-1-song-single-vocal","position":1,"disc":1}],"label":"Ki/oon Music","catalogNumber":"KSCL-3621～22","edition":"初回生産限定盤A"},{"id":"kscl-3623-24","title":"もしものがたり","type":"single","artistDisplayName":"Tani Yuuki","date":{"value":"2025-11-19","precision":"day"},"tracks":[{"title":"もしものがたり","recordingId":"doraemon-2005-ed-1-song-single-vocal","position":1,"disc":1},{"title":"もしものがたり（TV size.）","recordingId":"doraemon-2005-ed-1-song-single-tv","position":2,"disc":1},{"title":"もしものがたり（Instrumental)","recordingId":"doraemon-2005-ed-1-song-instrumental","position":3,"disc":1},{"title":"もしものがたり（TV size Instrumental）","recordingId":"doraemon-2005-ed-1-song-tv-instrumental","position":4,"disc":1}],"label":"Ki/oon Music","catalogNumber":"KSCL-3623～24","edition":"初回生産限定盤B"},{"id":"kscl-3625","title":"もしものがたり","type":"single","artistDisplayName":"Tani Yuuki","date":{"value":"2025-11-19","precision":"day"},"tracks":[{"title":"もしものがたり","recordingId":"doraemon-2005-ed-1-song-single-vocal","position":1,"disc":1},{"title":"もしものがたり（TV size.）","recordingId":"doraemon-2005-ed-1-song-single-tv","position":2,"disc":1},{"title":"もしものがたり（Instrumental)","recordingId":"doraemon-2005-ed-1-song-instrumental","position":3,"disc":1},{"title":"もしものがたり（TV size Instrumental）","recordingId":"doraemon-2005-ed-1-song-tv-instrumental","position":4,"disc":1}],"label":"Ki/oon Music","catalogNumber":"KSCL-3625","edition":"通常盤"}],"links":[{"platform":"官方配信","label":"もしものがたり 官方配信入口","url":"https://kmu.lnk.to/Moshimonogatari","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-11-12","availability":"unknown"}]}]},
-  {"anilistId":966,"id":"curated-966","slug":"crayon-shin-chan","seasonIds":["2026-spring","2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-summer","2026-fall"],"startDate":"1992-04-13","titleJa":"クレヨンしんちゃん","titleRomaji":"Crayon Shin-chan","editorialWeekday":6,"broadcastTimeJst":"16:30","broadcastLabel":"1992-04-13開始のTVシリーズ；現行土曜16:30・テレビ朝日系、2020–2026續播","metadataVerifiedAt":"2026-10-19","status":"airing","officialSiteUrl":"https://www.tv-asahi.co.jp/shinchan/","anilistUrl":"https://anilist.co/anime/966","sourceReferenceUrls":["https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","label":"テレビ朝日：系列及2025年以後續播","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://asobisystem.com/news/60935/","label":"藝人官方：日本TV時段","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)","label":"中文TV系列索引：首播與歌曲期間","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/966","label":"AniList：標準長篇TV識別","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"マスカット","artistDisplayName":"ゆず","seasonIds":["2020-winter","2020-spring","2020-summer"],"songId":"crayon-shin-chan-op-1-song","sourceMode":"explicit","sources":[{"url":"https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0","label":"ゆず官方：TV OP、原名、演唱與詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)","label":"中文TV歌曲表：原名、演唱及2020年輪替","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://yuzu-official.com/contents/information/10494973-2d97-44fb-836e-7e31acab0434","label":"ゆず官方公告本曲2018年7月6日起用","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.tv-asahi.co.jp/shinchan/contents/news/0094/","label":"朝日電視台原TV主題曲公告","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.tv-asahi.co.jp/shinchan/news/0086/","label":"朝日電視台2020年10月3日換曲","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8","label":"ゆず官方常規與會場限定發行","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884","label":"Toy’s Factory原單曲曲序與發行品番","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.oricon.co.jp/news/2117718/full/","label":"原單曲完整MV交叉資料","language":"ja","role":"cross_check","verifiedAt":"2026-11-12"},{"url":"https://www.youtube.com/watch?v=YoLQPuIdGks","label":"ゆず官方頻道完整MV","language":"ja","role":"first_party","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"2018年7月6日起日本TV常規片頭，2020年10月3日換曲","evidence":[{"target":"song","targetId":"crayon-shin-chan-op-1-song","fields":["title","artist"],"sourceUrls":["https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"crayon-shin-chan-op-1","fields":["usage"],"sourceUrls":["https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://yuzu-official.com/contents/information/10494973-2d97-44fb-836e-7e31acab0434","https://www.tv-asahi.co.jp/shinchan/contents/news/0094/","https://www.tv-asahi.co.jp/shinchan/news/0086/"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-1"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-1-song-single-vocal"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-1-song-instrumental"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884","https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8"],"verifiedAt":"2026-11-12","targetId":"sncc-89939"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884","https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8"],"verifiedAt":"2026-11-12","targetId":"sncp-89940"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.oricon.co.jp/news/2117718/full/","https://www.youtube.com/watch?v=YoLQPuIdGks"],"verifiedAt":"2026-11-12","targetId":"YoLQPuIdGks"}],"credits":[{"name":"ゆず","role":"vocals"},{"name":"北川悠仁","role":"lyrics"},{"name":"北川悠仁","role":"composition"},{"name":"TeddyLoid","role":"arrangement"}],"followUp":[{"fields":["use_quarters"],"note":"本期已核對2020年冬至夏的常規TV用途。2018年7月6日啟用至2019年末的季度會員留待相應年度逐季盤點。","resumeWhen":"接續2019及2018年季度盤點時，按首播、續播及逐曲資料補入已核季度。","checkedAt":"2026-11-12"},{"fields":["recording_format","platform_links"],"note":"已核原單曲及導引旋律卡拉OK。電視剪輯及正版平台逐曲連結待核。","resumeWhen":"唱片方公布獨立TV剪輯或正版平台確認同曲後續補。","checkedAt":"2026-11-12"}],"recordings":[{"id":"crayon-shin-chan-op-1-song-single-vocal","title":"マスカット","format":"unknown","kind":"vocal"},{"id":"crayon-shin-chan-op-1-song-instrumental","title":"マスカット(ガイドメロディー付きカラオケ)","format":"unknown","kind":"instrumental"}],"releases":[{"id":"sncc-89939","title":"マスカット","type":"single","artistDisplayName":"ゆず","date":{"value":"2018-08-01","precision":"day"},"tracks":[{"title":"マスカット","recordingId":"crayon-shin-chan-op-1-song-single-vocal","position":1,"disc":1},{"title":"マスカット(ガイドメロディー付きカラオケ)","recordingId":"crayon-shin-chan-op-1-song-instrumental","position":3,"disc":1}],"label":"TOY’S FACTORY","catalogNumber":"SNCC-89939","edition":"通常盤"},{"id":"sncp-89940","title":"マスカット","type":"single","artistDisplayName":"ゆず","date":{"value":"2018-08-01","precision":"day"},"tracks":[{"title":"マスカット","recordingId":"crayon-shin-chan-op-1-song-single-vocal","position":1,"disc":1},{"title":"マスカット(ガイドメロディー付きカラオケ)","recordingId":"crayon-shin-chan-op-1-song-instrumental","position":3,"disc":1}],"label":"TOY’S FACTORY","catalogNumber":"SNCP-89940","edition":"會場限定盤"}]},{"type":"OP","sequence":2,"titleJa":"スーパースター","artistDisplayName":"ケツメイシ","seasonIds":["2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer"],"songId":"crayon-shin-chan-op-2-song","sourceMode":"explicit","sources":[{"url":"https://www.tv-asahi.co.jp/shinchan/news/0081/","label":"テレビ朝日：新OP原名與演唱","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://avexnet.jp/release/1017828","label":"avex官方：2020-10-03起TV新主題曲","role":"first_party","language":"ja","verifiedAt":"2026-11-07"},{"url":"https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)","label":"中文TV歌曲表：原名、演唱及2020–2025使用期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","label":"テレビ朝日 2025年片頭更替日期","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.ketsume.com/news/detail.html?id=3730","label":"ケツメイシ 單曲各版與正式MV","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891","label":"ケツメイシ ケツノポリス12 曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://ketsumeishi.lnk.to/superstar","label":"スーパースター 官方平台入口","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.tv-asahi.co.jp/shinchan/news/0086/","label":"朝日電視台新片頭自2020年10月3日開始","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.pics.tokyo/works/crayon-shin-chan_op/","label":"片頭影像製作方列原TV片頭與歌曲","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://sp-m.mu-mo.net/lyric/5926953/","label":"Avex mu-mo作詞及共同作曲名義","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.uta-net.com/song/293059/","label":"原曲作詞及共同作曲交叉核對","language":"ja","role":"cross_check","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"日本TV常規片頭，2020年10月3日起；2025年10月4日換曲","evidence":[{"target":"song","targetId":"crayon-shin-chan-op-2-song","fields":["title","artist"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0081/","https://avexnet.jp/release/1017828","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"crayon-shin-chan-op-2","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0081/","https://avexnet.jp/release/1017828","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0081/","https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://avexnet.jp/release/1017828"],"verifiedAt":"2026-11-07","targetId":"crayon-shin-chan-op-2"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://avexnet.jp/release/1017828"],"verifiedAt":"2026-11-07","targetId":"crayon-shin-chan-op-2-song-original"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://avexnet.jp/release/1017828","https://www.ketsume.com/news/detail.html?id=3730"],"verifiedAt":"2026-11-07","targetId":"avex-avcd-94930-b"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.ketsume.com/news/detail.html?id=3730"],"verifiedAt":"2026-11-07","targetId":"avex-avcd-94931"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"],"verifiedAt":"2026-11-07","targetId":"avex-avcd-96878-b"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"],"verifiedAt":"2026-11-07","targetId":"avex-avcd-96879-b"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"],"verifiedAt":"2026-11-07","targetId":"avex-avcd-96880"},{"target":"link","fields":["url","type"],"sourceUrls":["https://ketsumeishi.lnk.to/superstar"],"verifiedAt":"2026-11-07","targetId":"https://ketsumeishi.lnk.to/superstar"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.ketsume.com/news/detail.html?id=3730"],"verifiedAt":"2026-11-07","targetId":"xFFdgK7gvlc"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0086/","https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.pics.tokyo/works/crayon-shin-chan_op/"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://sp-m.mu-mo.net/lyric/5926953/","https://www.uta-net.com/song/293059/"],"verifiedAt":"2026-11-12"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"},{"fields":["arrangement"],"note":"本曲詞曲名義已核，原錄音編曲名義仍待確認。","resumeWhen":"唱片內頁、唱片公司或參與製作人公布原錄音編曲署名時續補。","checkedAt":"2026-11-12"}],"recordings":[{"id":"crayon-shin-chan-op-2-song-original","title":"スーパースター","format":"unknown","kind":"vocal"}],"releases":[{"id":"avex-avcd-94930-b","title":"スーパースター / ヨクワラエ","type":"single","artistDisplayName":"ケツメイシ","date":{"value":"2020-11-04","precision":"day"},"tracks":[{"title":"スーパースター","recordingId":"crayon-shin-chan-op-2-song-original","position":1}],"label":"avex trax","catalogNumber":"AVCD-94930/B","edition":"通常盤CD＋DVD"},{"id":"avex-avcd-94931","title":"スーパースター","type":"single","artistDisplayName":"ケツメイシ","date":{"value":"2020-11-04","precision":"day"},"tracks":[{"title":"スーパースター","recordingId":"crayon-shin-chan-op-2-song-original","position":1}],"label":"avex trax","catalogNumber":"AVCD-94931","edition":"クレヨンしんちゃん盤CD"},{"id":"avex-avcd-96878-b","title":"ケツノポリス12","type":"album","artistDisplayName":"ケツメイシ","date":{"value":"2021-12-01","precision":"day"},"tracks":[{"title":"スーパースター"}],"label":"avex trax","catalogNumber":"AVCD-96878/B","edition":"CD＋DVD"},{"id":"avex-avcd-96879-b","title":"ケツノポリス12","type":"album","artistDisplayName":"ケツメイシ","date":{"value":"2021-12-01","precision":"day"},"tracks":[{"title":"スーパースター"}],"label":"avex trax","catalogNumber":"AVCD-96879/B","edition":"CD＋Blu-ray"},{"id":"avex-avcd-96880","title":"ケツノポリス12","type":"album","artistDisplayName":"ケツメイシ","date":{"value":"2021-12-01","precision":"day"},"tracks":[{"title":"スーパースター"}],"label":"avex trax","catalogNumber":"AVCD-96880","edition":"CD"}],"links":[{"platform":"Linkfire","label":"スーパースター 官方平台入口","url":"https://ketsumeishi.lnk.to/superstar","linkType":"official_landing_page","region":"JP","verifiedAt":"2026-11-07","availability":"unknown"}],"credits":[{"name":"ケツメイシ","role":"vocals"},{"name":"ケツメイシ","role":"lyrics"},{"name":"ケツメイシ","role":"composition"},{"name":"CHIVA","role":"composition"}]},{"type":"OP","sequence":3,"titleJa":"はちゃめちゃわちゃライフ！","artistDisplayName":"FRUITS ZIPPER","seasonIds":["2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"crayon-shin-chan-op-3-song","sourceMode":"explicit","sources":[{"url":"https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","label":"テレビ朝日：2025-10-04起新主題曲","role":"first_party","language":"ja","verifiedAt":"2026-11-12"},{"url":"https://www.tv-asahi.co.jp/shinchan/caststaff/","label":"テレビ朝日官方：現行主題曲及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-12"},{"url":"https://asobisystem.com/news/60935/","label":"藝人官方：本曲OP名義","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)","label":"中文TV歌曲表：演唱及2025年切換期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.tv-asahi.co.jp/shinchan/story/0390/","label":"朝日電視台2026年10月10日原TV節目頁","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://fruitszipper.asobisystem.com/discography/detail/5917/","label":"FRUITS ZIPPER原單曲配信日期與官方入口","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://fruitszipper.asobisystem.com/news/detail/55220","label":"FRUITS ZIPPER三個CD品番、曲序與動畫盤TV size","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://www.youtube.com/watch?v=cl9eAbLyGFo","label":"動畫官方頻道無字幕片頭","language":"ja","role":"first_party","verifiedAt":"2026-11-12"},{"url":"https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life","label":"官方指定配信入口","language":"multi","role":"first_party","verifiedAt":"2026-11-12"}],"lastVerifiedAt":"2026-11-12","usageLabel":"2025年10月4日起日本TV常規片頭；截至2026年10月14日仍用","evidence":[{"target":"song","targetId":"crayon-shin-chan-op-3-song","fields":["title","artist"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.tv-asahi.co.jp/shinchan/caststaff/","https://asobisystem.com/news/60935/","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"crayon-shin-chan-op-3","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.tv-asahi.co.jp/shinchan/caststaff/","https://asobisystem.com/news/60935/","https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.tv-asahi.co.jp/shinchan/caststaff/","https://asobisystem.com/news/60935/"],"verifiedAt":"2026-10-19"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.tv-asahi.co.jp/shinchan/caststaff/","https://www.tv-asahi.co.jp/shinchan/story/0390/","https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-3"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://fruitszipper.asobisystem.com/discography/detail/5917/","https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-3-song-single-vocal"},{"target":"recording","fields":["title","kind","format"],"sourceUrls":["https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"crayon-shin-chan-op-3-song-single-tv-size"},{"target":"release","fields":["title","type","artist","date","tracklist","edition"],"sourceUrls":["https://fruitszipper.asobisystem.com/discography/detail/5917/"],"verifiedAt":"2026-11-12","targetId":"fruits-zipper-hachamecha-wacha-life-2025-digital"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"klf-10021"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"klf-10022"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://fruitszipper.asobisystem.com/news/detail/55220"],"verifiedAt":"2026-11-12","targetId":"klf-10023"},{"target":"link","fields":["url","type"],"sourceUrls":["https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life"],"verifiedAt":"2026-11-12","targetId":"https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://www.tv-asahi.co.jp/shinchan/news/0333/index.html","https://www.tv-asahi.co.jp/shinchan/caststaff/","https://www.youtube.com/watch?v=cl9eAbLyGFo"],"verifiedAt":"2026-11-12","targetId":"cl9eAbLyGFo"}],"credits":[{"name":"FRUITS ZIPPER","role":"vocals"},{"name":"玉屋2060% (Wienners)","role":"lyrics"},{"name":"玉屋2060% (Wienners)","role":"composition"},{"name":"玉屋2060% (Wienners)","role":"arrangement"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"動畫盤另列TV size。無字幕片頭與發行錄音的精確對應、各地曲目仍待核。","resumeWhen":"取得逐話音源對應或各地正版平台的確切曲目後補記。","checkedAt":"2026-11-12"}],"recordings":[{"id":"crayon-shin-chan-op-3-song-single-vocal","title":"はちゃめちゃわちゃライフ！","format":"unknown","kind":"vocal"},{"id":"crayon-shin-chan-op-3-song-single-tv-size","title":"はちゃめちゃわちゃライフ！ -TV size-","format":"tv","kind":"vocal"}],"releases":[{"id":"fruits-zipper-hachamecha-wacha-life-2025-digital","title":"はちゃめちゃわちゃライフ！","type":"single","artistDisplayName":"FRUITS ZIPPER","date":{"value":"2025-10-04","precision":"day"},"tracks":[{"title":"はちゃめちゃわちゃライフ！","recordingId":"crayon-shin-chan-op-3-song-single-vocal","position":1}],"edition":"配信"},{"id":"klf-10021","title":"はちゃめちゃわちゃライフ！ / JAM","type":"single","artistDisplayName":"FRUITS ZIPPER","date":{"value":"2025-10-15","precision":"day"},"tracks":[{"title":"はちゃめちゃわちゃライフ！","recordingId":"crayon-shin-chan-op-3-song-single-vocal","position":1,"disc":1}],"catalogNumber":"KLF_10021","edition":"初回限定盤"},{"id":"klf-10022","title":"はちゃめちゃわちゃライフ！ / JAM","type":"single","artistDisplayName":"FRUITS ZIPPER","date":{"value":"2025-10-15","precision":"day"},"tracks":[{"title":"はちゃめちゃわちゃライフ！","recordingId":"crayon-shin-chan-op-3-song-single-vocal","position":1,"disc":1},{"title":"はちゃめちゃわちゃライフ！ -TV size-","recordingId":"crayon-shin-chan-op-3-song-single-tv-size","position":4,"disc":1}],"catalogNumber":"KLF_10022","edition":"クレヨンしんちゃん × FRUITS ZIPPER盤"},{"id":"klf-10023","title":"はちゃめちゃわちゃライフ！ / JAM","type":"single","artistDisplayName":"FRUITS ZIPPER","date":{"value":"2025-10-15","precision":"day"},"tracks":[{"title":"はちゃめちゃわちゃライフ！","recordingId":"crayon-shin-chan-op-3-song-single-vocal","position":1,"disc":1}],"catalogNumber":"KLF_10023","edition":"通常盤"}],"links":[{"platform":"官方配信","label":"はちゃめちゃわちゃライフ！ 官方配信入口","url":"https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life","linkType":"official_landing_page","region":"UNKNOWN","verifiedAt":"2026-11-12","availability":"unknown"}]}]},
+  {
+  "anilistId": 8687,
+  "id": "curated-8687",
+  "slug": "doraemon-2005",
+  "seasonIds": [
+    "2026-spring",
+    "2020-winter",
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring",
+    "2021-summer",
+    "2021-fall",
+    "2022-winter",
+    "2022-spring",
+    "2022-summer",
+    "2022-fall",
+    "2023-winter",
+    "2023-spring",
+    "2023-summer",
+    "2023-fall",
+    "2024-winter",
+    "2024-spring",
+    "2024-summer",
+    "2024-fall",
+    "2025-winter",
+    "2025-spring",
+    "2025-summer",
+    "2025-fall",
+    "2026-winter",
+    "2026-summer",
+    "2026-fall"
+  ],
+  "startDate": "2005-04-15",
+  "titleJa": "ドラえもん",
+  "titleRomaji": "Doraemon (2005)",
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "17:00",
+  "broadcastLabel": "日本TV系列2005/4/15開始；2019/10/5起朝日電視系週六17:00 JST，2020秋沿用。",
+  "metadataVerifiedAt": "2026-10-19",
+  "status": "airing",
+  "officialSiteUrl": "https://www.tv-asahi.co.jp/doraemon/",
+  "anilistUrl": "https://anilist.co/anime/8687",
+  "sourceReferenceUrls": [
+    "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)"
+  ],
+  "verifiedAt": "2026-10-19",
+  "metadataSources": [
+    {
+      "url": "https://post.tv-asahi.co.jp/post-571877/",
+      "label": "テレビ朝日：日本TV放送時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://post.tv-asahi.co.jp/post-118037/",
+      "label": "テレビ朝日：2019年改時段與TV系列",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+      "label": "中文2005年版索引：系列首播及TV歌曲期間",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://anilist.co/anime/8687",
+      "label": "AniList：2005年標準TV系列識別",
+      "role": "identifier",
+      "language": "en",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://company.tv-asahi.co.jp/hensei/2020/202004_kihon.pdf",
+      "label": "2020年朝日電視台週六正式時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2020",
+      "label": "朝日電視台2020年逐回日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html",
+      "label": "2020秋逐回片頭片尾及特別編排",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "ドラえもん",
+      "artistDisplayName": "星野源",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer",
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer",
+        "2021-fall",
+        "2022-winter",
+        "2022-spring",
+        "2022-summer",
+        "2022-fall",
+        "2023-winter",
+        "2023-spring",
+        "2023-summer",
+        "2023-fall",
+        "2024-winter",
+        "2024-spring",
+        "2024-summer",
+        "2024-fall"
+      ],
+      "songId": "doraemon-2005-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://post.tv-asahi.co.jp/post-118037/",
+          "label": "テレビ朝日：星野源演唱的常態TV OP及2020年改畫面",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "label": "中文2005年版歌曲表：原名、演唱及TV期間",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html",
+          "label": "逐集交叉索引：2024秋OP切換前後",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://post.tv-asahi.co.jp/post-354343/",
+          "label": "テレビ朝日 2019年10月起用與末次播出",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html",
+          "label": "Speedstar 2018年單曲曲目",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://www.hoshinogen.com/special/doraemon/",
+          "label": "星野源 特設頁與單曲兩款",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wt5AhyH6BRE",
+          "label": "ドラえもん官方無字幕片頭",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://doraeiga.com/2018/",
+          "label": "電影官方列星野源詞曲編與菊池俊輔間奏作曲",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.uta-net.com/song/244910/",
+          "label": "原曲詞曲編及間奏作曲交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://dora-world.com/contents/3622",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1348205543",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1348205599",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tDqktj-2BPs",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2019/10/5–2024/11/2日本TV常規片頭；2020/4/25起曾換用電影《のび太の新恐竜》題材畫面",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "doraemon-2005-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-118037/",
+            "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "doraemon-2005-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-118037/",
+            "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-354343/",
+            "https://www.youtube.com/watch?v=Wt5AhyH6BRE"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "doraemon-2005-op-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "doraemon-2005-op-1-song-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html",
+            "https://www.hoshinogen.com/special/doraemon/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "victor-vizl-1346"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A023121/VIZL-1346.html",
+            "https://www.hoshinogen.com/special/doraemon/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "victor-vicl-37373"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Wt5AhyH6BRE"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "Wt5AhyH6BRE"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.hoshinogen.com/special/doraemon/"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "ypRTzt1KrF8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://doraeiga.com/2018/",
+            "https://www.uta-net.com/song/244910/",
+            "https://post.tv-asahi.co.jp/post-118037/"
+          ],
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-118037/",
+            "https://dora-world.com/contents/3622",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.hoshinogen.com/special/doraemon/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-1-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1348205599"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1348205599"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.hoshinogen.com/special/doraemon/",
+            "https://music.apple.com/hk/album/1348205543"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1348205543"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=tDqktj-2BPs",
+            "https://post.tv-asahi.co.jp/post-118037/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tDqktj-2BPs"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-op-1-song-original",
+          "title": "ドラえもん",
+          "format": "unknown",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "victor-vizl-1346",
+          "title": "ドラえもん",
+          "type": "single",
+          "artistDisplayName": "星野源",
+          "date": {
+            "value": "2018-02-28",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "ドラえもん",
+              "recordingId": "doraemon-2005-op-1-song-original",
+              "position": 1
+            }
+          ],
+          "label": "Speedstar Records",
+          "catalogNumber": "VIZL-1346",
+          "edition": "初回限定盤CD＋DVD"
+        },
+        {
+          "id": "victor-vicl-37373",
+          "title": "ドラえもん",
+          "type": "single",
+          "artistDisplayName": "星野源",
+          "date": {
+            "value": "2018-02-28",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "ドラえもん",
+              "recordingId": "doraemon-2005-op-1-song-original",
+              "position": 1
+            }
+          ],
+          "label": "Speedstar Records",
+          "catalogNumber": "VICL-37373",
+          "edition": "通常盤CD"
+        },
+        {
+          "id": "apple-hk-1348205543",
+          "title": "ドラえもん",
+          "type": "single",
+          "date": {
+            "value": "2018-02-28",
+            "precision": "day"
+          },
+          "artistDisplayName": "星野源",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ドラえもん",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-1-song-original"
+            }
+          ],
+          "label": "SPEEDSTAR RECORDS"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2020電影宣傳時段曾更換同曲片頭畫面；商業單曲及原TV剪輯分列查核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "credits": [
+        {
+          "name": "星野源",
+          "role": "vocals"
+        },
+        {
+          "name": "星野源",
+          "role": "lyrics"
+        },
+        {
+          "name": "星野源",
+          "role": "composition"
+        },
+        {
+          "name": "菊池俊輔",
+          "role": "composition"
+        },
+        {
+          "name": "星野源",
+          "role": "arrangement"
+        }
+      ],
+      "id": "doraemon-2005-op-1",
+      "releaseDate": "2018-02-28",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ドラえもん｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1348205599",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1348205543",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-1-song-original"
+        }
+      ]
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "夢をかなえてドラえもん",
+      "artistDisplayName": "mao",
+      "seasonIds": [
+        "2024-fall",
+        "2025-winter",
+        "2025-spring",
+        "2025-summer",
+        "2025-fall",
+        "2026-winter",
+        "2026-spring",
+        "2026-summer",
+        "2026-fall"
+      ],
+      "songId": "doraemon-2005-op-2-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-asahi.co.jp/music-top/",
+          "label": "テレビ朝日官方音樂索引：現行歌曲與演唱名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://columbia.jp/doraemonthemesong/",
+          "label": "日本コロムビア：原名、mao演唱及TV歌曲身分",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+          "label": "中文2005年版歌曲表：原名、演唱及復歸期間",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html",
+          "label": "逐集交叉索引：2024-11-16起OP確認",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/staff/",
+          "label": "朝日電視台現行片頭、演唱及詞曲編署名",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-15982/",
+          "label": "日本Columbia原單曲、日期、歌唱及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://dora-world.com/contents/3622",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/938546901",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553963",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553966",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2024/11/16起恢復為日本TV常規片頭（mao）；11/9實播位置為片尾",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "doraemon-2005-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/music-top/",
+            "https://columbia.jp/doraemonthemesong/",
+            "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "doraemon-2005-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/music-top/",
+            "https://columbia.jp/doraemonthemesong/",
+            "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "cocc-15982"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/3622",
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553963"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553963"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553966"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553966"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemonthemesong/",
+            "https://music.apple.com/jp/album/938546901"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-938546901"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "use_quarters",
+            "official_video"
+          ],
+          "note": "2020秋原TV使用星野源版片頭。mao舊一輪及角色群唱版本待2007–2019各季逐話盤點。商購條目為日本地區。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "credits": [
+        {
+          "name": "mao",
+          "role": "vocals"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "lyrics"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "composition"
+        },
+        {
+          "name": "大久保薫",
+          "role": "arrangement"
+        },
+        {
+          "name": "ひまわりキッズ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-op-2-song-single-vocal",
+          "title": "夢をかなえてドラえもん",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "doraemon-2005-op-2-song-instrumental",
+          "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-15982",
+          "title": "ドラえもん 主題歌",
+          "type": "single",
+          "artistDisplayName": "mao・水田わさび（ドラえもん）",
+          "date": {
+            "value": "2007-07-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "recordingId": "doraemon-2005-op-2-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "recordingId": "doraemon-2005-op-2-song-instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-15982",
+          "edition": "日本CD版"
+        },
+        {
+          "id": "apple-jp-938546901",
+          "title": "夢をかなえてドラえもん",
+          "type": "single",
+          "date": {
+            "value": "2014-11-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "ドラえもん、のび太、しずか、ジャイアン、スネ夫、mao",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "id": "doraemon-2005-op-2",
+      "releaseDate": "2007-07-04",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553963",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553966",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-instrumental"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "もしものがたり",
+      "artistDisplayName": "Tani Yuuki",
+      "seasonIds": [
+        "2025-fall",
+        "2026-winter",
+        "2026-spring",
+        "2026-summer",
+        "2026-fall"
+      ],
+      "songId": "doraemon-2005-ed-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://post.tv-asahi.co.jp/post-571877/",
+          "label": "テレビ朝日：2025-10-04起新常態ED原名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/music-top/",
+          "label": "テレビ朝日官方音樂索引：現行ED",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.billboard-japan.com/d_news/detail/153977/2",
+          "label": "Billboard Japan：原名、演唱、TV ED及首播日交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/staff/",
+          "label": "朝日電視台現行片尾、演唱及詞曲編署名",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/news/0712/",
+          "label": "朝日電視台原片尾2025年10月4日啟用公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://taniyuuki.com/news/detail/56773",
+          "label": "Tani Yuuki配信、CD日期、三版品番及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.neowing.co.jp/product/KSCL-3623",
+          "label": "日本正版CD發行標籤及動畫盤曲序交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.dora-world.com/contents/4024",
+          "label": "哆啦A夢官方作品頁的片尾首播及用途",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hPJD9O3ZRbk",
+          "label": "Tani Yuuki官方頻道MV",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://kmu.lnk.to/Moshimonogatari",
+          "label": "官方指定配信入口",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1842800918",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1842800919",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-12",
+      "usageLabel": "2025年10月4日起日本TV常規片尾",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "doraemon-2005-ed-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-571877/",
+            "https://www.tv-asahi.co.jp/music-top/",
+            "https://www.billboard-japan.com/d_news/detail/153977/2"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "doraemon-2005-ed-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-571877/",
+            "https://www.tv-asahi.co.jp/music-top/",
+            "https://www.billboard-japan.com/d_news/detail/153977/2"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://www.tv-asahi.co.jp/doraemon/news/0712/",
+            "https://www.dora-world.com/contents/4024"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/"
+          ],
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-ed-1-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-ed-1-song-single-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-ed-1-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-ed-1-song-tv-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "tani-yuuki-moshimonogatari-2025-digital"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773",
+            "https://www.neowing.co.jp/product/KSCL-3623"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "kscl-3621-22"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773",
+            "https://www.neowing.co.jp/product/KSCL-3623"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "kscl-3623-24"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773",
+            "https://www.neowing.co.jp/product/KSCL-3623"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "kscl-3625"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://kmu.lnk.to/Moshimonogatari"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "https://kmu.lnk.to/Moshimonogatari"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773",
+            "https://www.tv-asahi.co.jp/doraemon/news/0712/",
+            "https://www.youtube.com/watch?v=hPJD9O3ZRbk"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "hPJD9O3ZRbk"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-1-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1842800919"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1842800919"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://taniyuuki.com/news/detail/56773",
+            "https://music.apple.com/hk/album/1842800918"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1842800918"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "已核三個CD版、TV size與香港單曲入口。TV原播剪輯與各地完整播放仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Tani Yuuki",
+          "role": "vocals"
+        },
+        {
+          "name": "Tani Yuuki",
+          "role": "lyrics"
+        },
+        {
+          "name": "Tani Yuuki",
+          "role": "composition"
+        },
+        {
+          "name": "Tani Yuuki",
+          "role": "arrangement"
+        },
+        {
+          "name": "Ryo’LEFTY’Miyata",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-ed-1-song-single-vocal",
+          "title": "もしものがたり",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "doraemon-2005-ed-1-song-single-tv",
+          "title": "もしものがたり（TV size.）",
+          "format": "tv",
+          "kind": "vocal"
+        },
+        {
+          "id": "doraemon-2005-ed-1-song-instrumental",
+          "title": "もしものがたり（Instrumental)",
+          "format": "unknown",
+          "kind": "instrumental"
+        },
+        {
+          "id": "doraemon-2005-ed-1-song-tv-instrumental",
+          "title": "もしものがたり（TV size Instrumental）",
+          "format": "tv",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "tani-yuuki-moshimonogatari-2025-digital",
+          "title": "もしものがたり",
+          "type": "single",
+          "artistDisplayName": "Tani Yuuki",
+          "date": {
+            "value": "2025-10-03",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "もしものがたり",
+              "recordingId": "doraemon-2005-ed-1-song-single-vocal",
+              "position": 1
+            }
+          ],
+          "label": "Ki/oon Music",
+          "edition": "配信"
+        },
+        {
+          "id": "kscl-3621-22",
+          "title": "もしものがたり",
+          "type": "single",
+          "artistDisplayName": "Tani Yuuki",
+          "date": {
+            "value": "2025-11-19",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "もしものがたり",
+              "recordingId": "doraemon-2005-ed-1-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Ki/oon Music",
+          "catalogNumber": "KSCL-3621～22",
+          "edition": "初回生産限定盤A"
+        },
+        {
+          "id": "kscl-3623-24",
+          "title": "もしものがたり",
+          "type": "single",
+          "artistDisplayName": "Tani Yuuki",
+          "date": {
+            "value": "2025-11-19",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "もしものがたり",
+              "recordingId": "doraemon-2005-ed-1-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（TV size.）",
+              "recordingId": "doraemon-2005-ed-1-song-single-tv",
+              "position": 2,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（Instrumental)",
+              "recordingId": "doraemon-2005-ed-1-song-instrumental",
+              "position": 3,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（TV size Instrumental）",
+              "recordingId": "doraemon-2005-ed-1-song-tv-instrumental",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Ki/oon Music",
+          "catalogNumber": "KSCL-3623～24",
+          "edition": "初回生産限定盤B"
+        },
+        {
+          "id": "kscl-3625",
+          "title": "もしものがたり",
+          "type": "single",
+          "artistDisplayName": "Tani Yuuki",
+          "date": {
+            "value": "2025-11-19",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "もしものがたり",
+              "recordingId": "doraemon-2005-ed-1-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（TV size.）",
+              "recordingId": "doraemon-2005-ed-1-song-single-tv",
+              "position": 2,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（Instrumental)",
+              "recordingId": "doraemon-2005-ed-1-song-instrumental",
+              "position": 3,
+              "disc": 1
+            },
+            {
+              "title": "もしものがたり（TV size Instrumental）",
+              "recordingId": "doraemon-2005-ed-1-song-tv-instrumental",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Ki/oon Music",
+          "catalogNumber": "KSCL-3625",
+          "edition": "通常盤"
+        },
+        {
+          "id": "apple-hk-1842800918",
+          "title": "もしものがたり",
+          "type": "single",
+          "date": {
+            "value": "2025-10-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "Tani Yuuki",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "もしものがたり",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-1-song-single-vocal"
+            }
+          ],
+          "label": "Sony Music Labels"
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方配信",
+          "label": "もしものがたり 官方配信入口",
+          "url": "https://kmu.lnk.to/Moshimonogatari",
+          "linkType": "official_landing_page",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-12",
+          "availability": "unknown"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "もしものがたり｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1842800919",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1842800918",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-ed-1-song-single-vocal"
+        }
+      ],
+      "id": "doraemon-2005-ed-1",
+      "releaseDate": "2025-10-03"
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "doraemon-2005-ed-2",
+      "titleJa": "Birthday",
+      "artistDisplayName": "Mr.Children",
+      "songId": "doraemon-2005-birthday-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/1431",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202001.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202004.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202007.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mrchildren.jp/disco/single/single38.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eUmdKhcs7xk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1499445340",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1499445341",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wT6cs3L3bR8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Birthday｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1499445341",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1499445340",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-birthday-song-double-a-original"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1431",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202001.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202004.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202007.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1431",
+            "https://www.mrchildren.jp/disco/single/single38.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202001.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-birthday-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=eUmdKhcs7xk",
+            "https://www.mrchildren.jp/disco/single/single38.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.mrchildren.jp/disco/single/single38.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-birthday-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.mrchildren.jp/disco/single/single38.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-birthday-song-double-a-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.mrchildren.jp/disco/single/single38.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "tfcc-89693"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1499445341"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1499445341"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.mrchildren.jp/disco/single/single38.html",
+            "https://music.apple.com/hk/album/1499445340"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1499445340"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=wT6cs3L3bR8",
+            "https://dora-world.com/contents/1431"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "wT6cs3L3bR8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=eUmdKhcs7xk"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "eUmdKhcs7xk"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer",
+        "2020-fall"
+      ],
+      "usageLabel": "2020/1/11第506回至10/3第543回｜新恐龍電影宣傳版片尾，個別特番除外",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "桜井和寿",
+          "role": "lyrics"
+        },
+        {
+          "name": "桜井和寿",
+          "role": "composition"
+        },
+        {
+          "name": "Mr.Children",
+          "role": "arrangement"
+        },
+        {
+          "name": "桜井和寿",
+          "role": "vocals"
+        }
+      ],
+      "releaseDate": "2020-03-04",
+      "recordings": [
+        {
+          "id": "doraemon-2005-birthday-song-double-a-original",
+          "title": "Birthday",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "tfcc-89693",
+          "title": "Birthday / 君と重ねたモノローグ",
+          "type": "single",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mr.Children",
+          "edition": "雙A面 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Birthday",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "TOY'S FACTORY",
+          "catalogNumber": "TFCC-89693"
+        },
+        {
+          "id": "apple-hk-1499445340",
+          "title": "Birthday / 君と重ねたモノローグ",
+          "type": "single",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mr.Children",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Birthday",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-birthday-song-double-a-original"
+            }
+          ],
+          "label": "TOY'S FACTORY"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2020/5/23片尾改用新電影畫面並有歌詞。原TV特番及正規回的實際曲表個別核對。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "id": "doraemon-2005-ed-3",
+      "titleJa": "虹",
+      "artistDisplayName": "菅田将暉",
+      "songId": "doraemon-2005-niji-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/1637",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://dora-world.com/contents/1749",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/masakisuda/info/523771",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/masakisuda/info/524266",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537793753",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537793754",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537793757",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hkBbUf4oGfA",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://dora-world.com/contents/1692",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6ot3r31nU4s",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "虹｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537793754",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537793753",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-niji-song-commercial-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "虹（Instrumental）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537793757",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537793753",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-niji-song-commercial-instrumental"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1637",
+            "https://dora-world.com/contents/1749",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1637",
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/523771",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202010.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-niji-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/523771",
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/523771"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-niji-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-niji-song-commercial-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-niji-song-commercial-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "escl-5467-8"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "escl-5469"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537793754"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537793754"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537793757"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537793757"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266",
+            "https://music.apple.com/hk/album/1537793753"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537793753"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=hkBbUf4oGfA",
+            "https://www.sonymusic.co.jp/artist/masakisuda/info/524266"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "hkBbUf4oGfA"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6ot3r31nU4s",
+            "https://dora-world.com/contents/1692"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "6ot3r31nU4s"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "2020/10/17第545回至12/26第555回，另12/31除夕特番｜STAND BY ME 2 宣傳片尾",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "石崎ひゅーい",
+          "role": "lyrics"
+        },
+        {
+          "name": "石崎ひゅーい",
+          "role": "composition"
+        },
+        {
+          "name": "トオミヨウ",
+          "role": "arrangement"
+        },
+        {
+          "name": "菅田将暉",
+          "role": "vocals"
+        }
+      ],
+      "releaseDate": "2020-11-10",
+      "recordings": [
+        {
+          "id": "doraemon-2005-niji-song-commercial-single",
+          "title": "虹",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "doraemon-2005-niji-song-commercial-instrumental",
+          "title": "虹（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "escl-5467-8",
+          "title": "虹",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "菅田将暉",
+          "edition": "初回限定 CD + DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "虹",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "虹（Instrumental）",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels",
+          "catalogNumber": "ESCL-5467～8"
+        },
+        {
+          "id": "escl-5469",
+          "title": "虹",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "菅田将暉",
+          "edition": "通常 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "虹",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "虹（Instrumental）",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels",
+          "catalogNumber": "ESCL-5469"
+        },
+        {
+          "id": "apple-hk-1537793753",
+          "title": "虹",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "菅田将暉",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "虹",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-niji-song-commercial-single"
+            },
+            {
+              "title": "虹（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "doraemon-2005-niji-song-commercial-instrumental"
+            }
+          ],
+          "label": "Sony Music Labels"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2020/10/10第544回未用歌曲片尾。10/17起有電影宣傳版片尾；已核宣傳素材及商業原唱不可推定為原TV剪輯。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 4,
+      "id": "doraemon-2005-ed-4",
+      "titleJa": "Universe",
+      "artistDisplayName": "Official髭男dism",
+      "songId": "doraemon-2005-universe-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/1770",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://post.tv-asahi.co.jp/post-140396/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202101.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202107.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202110.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202204.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://universe.ponycanyon.co.jp/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1553728283",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553728284",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553728285",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6lnS-8FVod4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Universe｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553728284",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1553728283",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-universe-song-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Universe（Instrumental）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553728285",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1553728283",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-universe-song-original-backing-track"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1770",
+            "https://post.tv-asahi.co.jp/post-140396/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202101.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202107.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202110.html",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202204.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/1770",
+            "https://universe.ponycanyon.co.jp/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202101.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song-original-backing-track"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-70553"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-06010"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-06011"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553728284"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1553728284"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553728285"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1553728285"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/",
+            "https://music.apple.com/hk/album/1553728283"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1553728283"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6lnS-8FVod4",
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "6lnS-8FVod4"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter",
+        "2021-spring",
+        "2021-summer",
+        "2021-fall",
+        "2022-winter",
+        "2022-spring"
+      ],
+      "usageLabel": "2021/1/9第556回至2022/5/7第623回｜日本原TV電影宣傳版片尾，個別特番除外",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "藤原聡",
+          "role": "lyrics"
+        },
+        {
+          "name": "藤原聡",
+          "role": "composition"
+        },
+        {
+          "name": "Official髭男dism",
+          "role": "arrangement"
+        }
+      ],
+      "releaseDate": "2021-01-09",
+      "recordings": [
+        {
+          "id": "doraemon-2005-universe-song-original-single",
+          "title": "Universe",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "doraemon-2005-universe-song-original-backing-track",
+          "title": "Universe（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pcca-70553",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "通常 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-70553"
+        },
+        {
+          "id": "pcca-06010",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "CD + Live Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-06010"
+        },
+        {
+          "id": "pcca-06011",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "CD + Live DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-06011"
+        },
+        {
+          "id": "apple-hk-1553728283",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-universe-song-original-single"
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-universe-song-original-backing-track"
+            }
+          ],
+          "label": "Pony Canyon"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "2021/9/4常規時段未用歌曲片尾；同日生日特番及12/31特番片尾分開。原長篇宣傳剪輯及各地播放待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "doraemon-2005-in-1",
+      "titleJa": "Universe",
+      "artistDisplayName": "Official髭男dism",
+      "songId": "doraemon-2005-universe-song",
+      "sources": [
+        {
+          "url": "https://post.tv-asahi.co.jp/post-140396/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://universe.ponycanyon.co.jp/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://doramatome.net/archives/30340",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202101.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1553728283",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553728284",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553728285",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Universe｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553728284",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1553728283",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-universe-song-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Universe（Instrumental）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553728285",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1553728283",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-universe-song-original-backing-track"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-140396/",
+            "https://universe.ponycanyon.co.jp/",
+            "https://doramatome.net/archives/30340"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-140396/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202101.html",
+            "https://doramatome.net/archives/30340"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song-original-backing-track"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-70553"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-06010"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pcca-06011"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553728284"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1553728284"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553728285"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1553728285"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://universe.ponycanyon.co.jp/",
+            "https://music.apple.com/hk/album/1553728283"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1553728283"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-winter"
+      ],
+      "usageLabel": "2021/1/16第557回「テレビとりもち」劇中演唱",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "藤原聡",
+          "role": "lyrics"
+        },
+        {
+          "name": "藤原聡",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-universe-song-original-single",
+          "title": "Universe",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "doraemon-2005-universe-song-original-backing-track",
+          "title": "Universe（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pcca-70553",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "通常 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-70553"
+        },
+        {
+          "id": "pcca-06010",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "CD + Live Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-06010"
+        },
+        {
+          "id": "pcca-06011",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "CD + Live DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCA-06011"
+        },
+        {
+          "id": "apple-hk-1553728283",
+          "title": "Universe",
+          "type": "single",
+          "date": {
+            "value": "2021-02-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Official髭男dism",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Universe",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-universe-song-original-single"
+            },
+            {
+              "title": "Universe（Instrumental）",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-universe-song-original-backing-track"
+            }
+          ],
+          "label": "Pony Canyon"
+        }
+      ],
+      "releaseDate": "2021-01-09",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "樂團成員本人角色演出，其中有被拉出電視的即興人聲；商業單曲供辨識原曲。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 6,
+      "id": "doraemon-2005-ed-6",
+      "titleJa": "Universe",
+      "artistDisplayName": "剛田武（CV：木村昴）",
+      "songId": "doraemon-2005-universe-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/2211",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/staff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202110.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://universe.ponycanyon.co.jp/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/2211",
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202110.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-universe-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/2211",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202110.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-6"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/2211",
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://universe.ponycanyon.co.jp/"
+          ],
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2021-fall"
+      ],
+      "usageLabel": "2021/12/31除夕特番片尾｜剛田武翻唱",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "木村昴",
+          "role": "vocals"
+        },
+        {
+          "name": "藤原聡",
+          "role": "lyrics"
+        },
+        {
+          "name": "藤原聡",
+          "role": "composition"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "releases",
+            "official_video"
+          ],
+          "note": "官方確認角色翻唱，逐回記錄確認歌名和片尾位置。翻唱錄音的正式發行待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 5,
+      "id": "doraemon-2005-ed-5",
+      "titleJa": "夢をかなえてドラえもん",
+      "artistDisplayName": "mao",
+      "songId": "doraemon-2005-op-2-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/3622",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/staff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-15982/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/doraemonthemesong/",
+          "label": "日本コロムビア：原名、mao演唱及TV歌曲身分",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/938546901",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553963",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553966",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553963",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553966",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-instrumental"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/3622",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-ed-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/3622",
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://columbia.jp/prod-info/COCC-15982/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "cocc-15982"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553963"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553963"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553966"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553966"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemonthemesong/",
+            "https://music.apple.com/jp/album/938546901"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-938546901"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2024-fall"
+      ],
+      "usageLabel": "2024/11/9第752回特別片尾｜電影45週年畫面",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "mao",
+          "role": "vocals"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "lyrics"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "composition"
+        },
+        {
+          "name": "大久保薫",
+          "role": "arrangement"
+        },
+        {
+          "name": "ひまわりキッズ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-op-2-song-single-vocal",
+          "title": "夢をかなえてドラえもん",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "doraemon-2005-op-2-song-instrumental",
+          "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-15982",
+          "title": "ドラえもん 主題歌",
+          "type": "single",
+          "artistDisplayName": "mao・水田わさび（ドラえもん）",
+          "date": {
+            "value": "2007-07-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "recordingId": "doraemon-2005-op-2-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "recordingId": "doraemon-2005-op-2-song-instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-15982",
+          "edition": "日本CD版"
+        },
+        {
+          "id": "apple-jp-938546901",
+          "title": "夢をかなえてドラえもん",
+          "type": "single",
+          "date": {
+            "value": "2014-11-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "ドラえもん、のび太、しずか、ジャイアン、スネ夫、mao",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "releaseDate": "2007-07-04",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "official_video"
+          ],
+          "note": "權利方的原公告緊接載有實播勘誤；原唱片及卡拉OK供曲目對照。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    }
+  ]
+},
+  {
+  "anilistId": 966,
+  "id": "curated-966",
+  "slug": "crayon-shin-chan",
+  "seasonIds": [
+    "2026-spring",
+    "2020-winter",
+    "2020-spring",
+    "2020-summer",
+    "2020-fall",
+    "2021-winter",
+    "2021-spring",
+    "2021-summer",
+    "2021-fall",
+    "2022-winter",
+    "2022-spring",
+    "2022-summer",
+    "2022-fall",
+    "2023-winter",
+    "2023-spring",
+    "2023-summer",
+    "2023-fall",
+    "2024-winter",
+    "2024-spring",
+    "2024-summer",
+    "2024-fall",
+    "2025-winter",
+    "2025-spring",
+    "2025-summer",
+    "2025-fall",
+    "2026-winter",
+    "2026-summer",
+    "2026-fall"
+  ],
+  "startDate": "1992-04-13",
+  "titleJa": "クレヨンしんちゃん",
+  "titleRomaji": "Crayon Shin-chan",
+  "editorialWeekday": 6,
+  "broadcastTimeJst": "16:30",
+  "broadcastLabel": "日本TV系列1992/4/13開始；2019/10/5起朝日電視系週六16:30 JST，2020秋沿用。",
+  "metadataVerifiedAt": "2026-10-19",
+  "status": "airing",
+  "officialSiteUrl": "https://www.tv-asahi.co.jp/shinchan/",
+  "anilistUrl": "https://anilist.co/anime/966",
+  "sourceReferenceUrls": [
+    "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+  ],
+  "verifiedAt": "2026-10-19",
+  "metadataSources": [
+    {
+      "url": "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+      "label": "テレビ朝日：系列及2025年以後續播",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://asobisystem.com/news/60935/",
+      "label": "藝人官方：日本TV時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+      "label": "中文TV系列索引：首播與歌曲期間",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://anilist.co/anime/966",
+      "label": "AniList：標準長篇TV識別",
+      "role": "identifier",
+      "language": "en",
+      "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://company.tv-asahi.co.jp/hensei/2020/202004_kihon.pdf",
+      "label": "朝日電視台2020年週六原TV時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/shinchan/story/bk/?y=2020",
+      "label": "朝日電視台2020年逐話故事",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.mau2.com/anime/crayonsinchan-29",
+      "label": "原語逐話片頭片尾與特殊用曲",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    }
+  ],
+  "themes": [
+    {
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "マスカット",
+      "artistDisplayName": "ゆず",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer"
+      ],
+      "songId": "crayon-shin-chan-op-1-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0",
+          "label": "ゆず官方：TV OP、原名、演唱與詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+          "label": "中文TV歌曲表：原名、演唱及2020年輪替",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/information/10494973-2d97-44fb-836e-7e31acab0434",
+          "label": "ゆず官方公告本曲2018年7月6日起用",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/contents/news/0094/",
+          "label": "朝日電視台原TV主題曲公告",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0086/",
+          "label": "朝日電視台2020年10月3日換曲",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8",
+          "label": "ゆず官方常規與會場限定發行",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884",
+          "label": "Toy’s Factory原單曲曲序與發行品番",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.oricon.co.jp/news/2117718/full/",
+          "label": "原單曲完整MV交叉資料",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YoLQPuIdGks",
+          "label": "ゆず官方頻道完整MV",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://ex-maniacs.tv-asahi.co.jp/ch/ex_maniacs/post-32065/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/discography/3d0444aa-19a3-4c13-bc22-e8db4a7d789f",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1612826444",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1612826456",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1612826709",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/information/7c6d984b-907f-42e8-a73b-49e40fa17a6a",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1610342176",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1610342884",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://webhook.yuzu-official.com/shop/products/sncc-86935",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/discography/fafd3486-a1ec-48fb-b43c-385d7ce6dd26",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭；10/3開始換曲",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "crayon-shin-chan-op-1-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "crayon-shin-chan-op-1",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/10494973-2d97-44fb-836e-7e31acab0434",
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0094/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0086/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-1-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-1-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884",
+            "https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "sncc-89939"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.toysfactory.co.jp/sp/artist/yuzu/disco/1884",
+            "https://yuzu-official.com/contents/information/8efda2c0-27bb-4ed4-a2db-9fc1d458b9b8"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "sncp-89940"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.oricon.co.jp/news/2117718/full/",
+            "https://www.youtube.com/watch?v=YoLQPuIdGks"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "YoLQPuIdGks"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ex-maniacs.tv-asahi.co.jp/ch/ex_maniacs/post-32065/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0086/",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
+            "https://www.mau2.com/anime/crayonsinchan-29"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/3d0444aa-19a3-4c13-bc22-e8db4a7d789f"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-1-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1612826456"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1612826456"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1612826709"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1612826709"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/3d0444aa-19a3-4c13-bc22-e8db4a7d789f",
+            "https://music.apple.com/hk/album/1612826444"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1612826444"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/7c6d984b-907f-42e8-a73b-49e40fa17a6a"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1610342884"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1610342884"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/7c6d984b-907f-42e8-a73b-49e40fa17a6a",
+            "https://music.apple.com/hk/album/1610342176"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1610342176"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://webhook.yuzu-official.com/shop/products/sncc-86935"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "sncc-86935"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/fafd3486-a1ec-48fb-b43c-385d7ce6dd26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-1-song-yuzunomi-2019-live"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/fafd3486-a1ec-48fb-b43c-385d7ce6dd26"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "snxq-78912"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ゆず",
+          "role": "vocals"
+        },
+        {
+          "name": "北川悠仁",
+          "role": "lyrics"
+        },
+        {
+          "name": "北川悠仁",
+          "role": "composition"
+        },
+        {
+          "name": "TeddyLoid",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "use_quarters",
+            "recording_format"
+          ],
+          "note": "2018–2019使用範圍待相應季度盤點。原單曲、專輯與實際現場發行已分列；兩張錄音的混音關係仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-op-1-song-single-vocal",
+          "title": "マスカット",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "crayon-shin-chan-op-1-song-instrumental",
+          "title": "マスカット(ガイドメロディー付きカラオケ)",
+          "format": "unknown",
+          "kind": "instrumental"
+        },
+        {
+          "id": "crayon-shin-chan-op-1-song-yuzutown-album-track",
+          "title": "マスカット（YUZUTOWN收錄）",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "crayon-shin-chan-op-1-song-yuzunomi-2019-live",
+          "title": "マスカット（ゆずのみ〜拍手喝祭〜）",
+          "kind": "live",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "sncc-89939",
+          "title": "マスカット",
+          "type": "single",
+          "artistDisplayName": "ゆず",
+          "date": {
+            "value": "2018-08-01",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "マスカット",
+              "recordingId": "crayon-shin-chan-op-1-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "マスカット(ガイドメロディー付きカラオケ)",
+              "recordingId": "crayon-shin-chan-op-1-song-instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "TOY’S FACTORY",
+          "catalogNumber": "SNCC-89939",
+          "edition": "通常盤"
+        },
+        {
+          "id": "sncp-89940",
+          "title": "マスカット",
+          "type": "single",
+          "artistDisplayName": "ゆず",
+          "date": {
+            "value": "2018-08-01",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "マスカット",
+              "recordingId": "crayon-shin-chan-op-1-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "マスカット(ガイドメロディー付きカラオケ)",
+              "recordingId": "crayon-shin-chan-op-1-song-instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "TOY’S FACTORY",
+          "catalogNumber": "SNCP-89940",
+          "edition": "會場限定盤"
+        },
+        {
+          "id": "apple-hk-1612826444",
+          "title": "マスカット",
+          "type": "single",
+          "date": {
+            "value": "2018-08-01",
+            "precision": "day"
+          },
+          "artistDisplayName": "ゆず",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "マスカット",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-single-vocal"
+            },
+            {
+              "title": "マスカット(ガイドメロディー付きカラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-instrumental"
+            }
+          ],
+          "label": "SENHA"
+        },
+        {
+          "id": "apple-hk-1610342176",
+          "title": "YUZUTOWN",
+          "type": "album",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "ゆず",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "マスカット（YUZUTOWN收錄）",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+            }
+          ],
+          "label": "SENHA"
+        },
+        {
+          "id": "sncc-86935",
+          "title": "YUZUTOWN",
+          "type": "album",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "ゆず",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "マスカット",
+              "position": 12,
+              "disc": 1
+            }
+          ],
+          "label": "SENHA",
+          "catalogNumber": "SNCC-86935"
+        },
+        {
+          "id": "snxq-78912",
+          "title": "LIVE FILMS ゆずのみ〜拍手喝祭〜",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "ゆず",
+          "edition": "Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "マスカット（ゆずのみ〜拍手喝祭〜）",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-yuzunomi-2019-live"
+            }
+          ],
+          "label": "SENHA",
+          "catalogNumber": "SNXQ-78912"
+        }
+      ],
+      "id": "crayon-shin-chan-op-1",
+      "releaseDate": "2018-08-01",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "マスカット｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1612826456",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1612826444",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "マスカット(ガイドメロディー付きカラオケ)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1612826709",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1612826444",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-1-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "マスカット（YUZUTOWN收錄）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1610342884",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1610342176",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+        }
+      ]
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "スーパースター",
+      "artistDisplayName": "ケツメイシ",
+      "seasonIds": [
+        "2020-fall",
+        "2021-winter",
+        "2021-spring",
+        "2021-summer",
+        "2021-fall",
+        "2022-winter",
+        "2022-spring",
+        "2022-summer",
+        "2022-fall",
+        "2023-winter",
+        "2023-spring",
+        "2023-summer",
+        "2023-fall",
+        "2024-winter",
+        "2024-spring",
+        "2024-summer",
+        "2024-fall",
+        "2025-winter",
+        "2025-spring",
+        "2025-summer"
+      ],
+      "songId": "crayon-shin-chan-op-2-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0081/",
+          "label": "テレビ朝日：新OP原名與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://avexnet.jp/release/1017828",
+          "label": "avex官方：2020-10-03起TV新主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+          "label": "中文TV歌曲表：原名、演唱及2020–2025使用期間",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+          "label": "テレビ朝日 2025年片頭更替日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.ketsume.com/news/detail.html?id=3730",
+          "label": "ケツメイシ 單曲各版與正式MV",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891",
+          "label": "ケツメイシ ケツノポリス12 曲目",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-07"
+        },
+        {
+          "url": "https://ketsumeishi.lnk.to/superstar",
+          "label": "スーパースター 官方平台入口",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0086/",
+          "label": "朝日電視台新片頭自2020年10月3日開始",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.pics.tokyo/works/crayon-shin-chan_op/",
+          "label": "片頭影像製作方列原TV片頭與歌曲",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://sp-m.mu-mo.net/lyric/5926953/",
+          "label": "Avex mu-mo作詞及共同作曲名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.uta-net.com/song/293059/",
+          "label": "原曲作詞及共同作曲交叉核對",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537049839",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537049836",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537049837",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2020/10/3第1051話起日本TV常規片頭；2025/10/4換曲",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "crayon-shin-chan-op-2-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0081/",
+            "https://avexnet.jp/release/1017828",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "crayon-shin-chan-op-2",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0081/",
+            "https://avexnet.jp/release/1017828",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0081/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://avexnet.jp/release/1017828"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "crayon-shin-chan-op-2"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/release/1017828"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "crayon-shin-chan-op-2-song-original"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://avexnet.jp/release/1017828",
+            "https://www.ketsume.com/news/detail.html?id=3730"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "avex-avcd-94930-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/news/detail.html?id=3730"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "avex-avcd-94931"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "avex-avcd-96878-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "avex-avcd-96879-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/discography/detail.html?category=discography_album&id=3891"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "avex-avcd-96880"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ketsumeishi.lnk.to/superstar"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "https://ketsumeishi.lnk.to/superstar"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/news/detail.html?id=3730"
+          ],
+          "verifiedAt": "2026-11-07",
+          "targetId": "xFFdgK7gvlc"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0086/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.pics.tokyo/works/crayon-shin-chan_op/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sp-m.mu-mo.net/lyric/5926953/",
+            "https://www.uta-net.com/song/293059/"
+          ],
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0086/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0081/",
+            "https://www.mau2.com/anime/crayonsinchan-29"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/news/detail.html?id=3730"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-2-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.ketsume.com/news/detail.html?id=3730"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "avzd-94929"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://ketsumeishi.lnk.to/superstar"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-2-song-commercial-anime-opening"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://ketsumeishi.lnk.to/superstar",
+            "https://music.apple.com/hk/song/1537049839"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-2-song-commercial-anime-opening"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537049837"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537049837"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537049839"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1537049839"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ketsumeishi.lnk.to/superstar",
+            "https://music.apple.com/hk/album/1537049836"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1537049836"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "香港數位單曲第2曲明標動畫片頭版。通常盤DVD另列藝人MV與振付MV，與每週投稿的原播畫面分開。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-op-2-song-original",
+          "title": "スーパースター",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "crayon-shin-chan-op-2-song-commercial-anime-opening",
+          "title": "スーパースター アニメオープニングバージョン",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "avex-avcd-94930-b",
+          "title": "スーパースター / ヨクワラエ",
+          "type": "single",
+          "artistDisplayName": "ケツメイシ",
+          "date": {
+            "value": "2020-11-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "スーパースター",
+              "recordingId": "crayon-shin-chan-op-2-song-original",
+              "position": 1
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-94930/B",
+          "edition": "通常盤CD＋DVD"
+        },
+        {
+          "id": "avex-avcd-94931",
+          "title": "スーパースター",
+          "type": "single",
+          "artistDisplayName": "ケツメイシ",
+          "date": {
+            "value": "2020-11-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "スーパースター",
+              "recordingId": "crayon-shin-chan-op-2-song-original",
+              "position": 1
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-94931",
+          "edition": "クレヨンしんちゃん盤CD"
+        },
+        {
+          "id": "avex-avcd-96878-b",
+          "title": "ケツノポリス12",
+          "type": "album",
+          "artistDisplayName": "ケツメイシ",
+          "date": {
+            "value": "2021-12-01",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "スーパースター"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-96878/B",
+          "edition": "CD＋DVD"
+        },
+        {
+          "id": "avex-avcd-96879-b",
+          "title": "ケツノポリス12",
+          "type": "album",
+          "artistDisplayName": "ケツメイシ",
+          "date": {
+            "value": "2021-12-01",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "スーパースター"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-96879/B",
+          "edition": "CD＋Blu-ray"
+        },
+        {
+          "id": "avex-avcd-96880",
+          "title": "ケツノポリス12",
+          "type": "album",
+          "artistDisplayName": "ケツメイシ",
+          "date": {
+            "value": "2021-12-01",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "スーパースター"
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVCD-96880",
+          "edition": "CD"
+        },
+        {
+          "id": "avzd-94929",
+          "title": "スーパースター",
+          "type": "single",
+          "date": {
+            "value": "2020-11-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "ケツメイシ",
+          "edition": "クレヨンしんちゃん盤CD+グッズ",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "スーパースター",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "avex trax",
+          "catalogNumber": "AVZD-94929"
+        },
+        {
+          "id": "apple-hk-1537049836",
+          "title": "スーパースター",
+          "type": "single",
+          "date": {
+            "value": "2020-11-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "ケツメイシ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "スーパースター",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-2-song-original"
+            },
+            {
+              "title": "スーパースター アニメオープニングバージョン",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-2-song-commercial-anime-opening"
+            }
+          ],
+          "label": "avex trax"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Linkfire",
+          "label": "スーパースター 官方平台入口",
+          "url": "https://ketsumeishi.lnk.to/superstar",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-07",
+          "availability": "unknown"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "スーパースター｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537049837",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537049836",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-2-song-original"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "スーパースター アニメオープニングバージョン｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537049839",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1537049836",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-2-song-commercial-anime-opening"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ケツメイシ",
+          "role": "vocals"
+        },
+        {
+          "name": "ケツメイシ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ケツメイシ",
+          "role": "composition"
+        },
+        {
+          "name": "CHIVA",
+          "role": "composition"
+        }
+      ],
+      "id": "crayon-shin-chan-op-2",
+      "releaseDate": "2020-11-04"
+    },
+    {
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "はちゃめちゃわちゃライフ！",
+      "artistDisplayName": "FRUITS ZIPPER",
+      "seasonIds": [
+        "2025-fall",
+        "2026-winter",
+        "2026-spring",
+        "2026-summer",
+        "2026-fall"
+      ],
+      "songId": "crayon-shin-chan-op-3-song",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+          "label": "テレビ朝日：2025-10-04起新主題曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+          "label": "テレビ朝日官方：現行主題曲及詞曲編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://asobisystem.com/news/60935/",
+          "label": "藝人官方：本曲OP名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+          "label": "中文TV歌曲表：演唱及2025年切換期間",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/0390/",
+          "label": "朝日電視台2026年10月10日原TV節目頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://fruitszipper.asobisystem.com/discography/detail/5917/",
+          "label": "FRUITS ZIPPER原單曲配信日期與官方入口",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://fruitszipper.asobisystem.com/news/detail/55220",
+          "label": "FRUITS ZIPPER三個CD品番、曲序與動畫盤TV size",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cl9eAbLyGFo",
+          "label": "動畫官方頻道無字幕片頭",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life",
+          "label": "官方指定配信入口",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-12"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1839370631",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1839370630",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1839370635",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-12",
+      "usageLabel": "2025年10月4日起日本TV常規片頭；截至2026年10月14日仍用",
+      "evidence": [
+        {
+          "target": "song",
+          "targetId": "crayon-shin-chan-op-3-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+            "https://asobisystem.com/news/60935/",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "crayon-shin-chan-op-3",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+            "https://asobisystem.com/news/60935/",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+            "https://asobisystem.com/news/60935/"
+          ],
+          "verifiedAt": "2026-10-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+            "https://www.tv-asahi.co.jp/shinchan/story/0390/",
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-3"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/discography/detail/5917/",
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-3-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "crayon-shin-chan-op-3-song-single-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/discography/detail/5917/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "fruits-zipper-hachamecha-wacha-life-2025-digital"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "klf-10021"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "klf-10022"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/news/detail/55220"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "klf-10023"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0333/index.html",
+            "https://www.tv-asahi.co.jp/shinchan/caststaff/",
+            "https://www.youtube.com/watch?v=cl9eAbLyGFo"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "cl9eAbLyGFo"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839370631"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-op-3-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839370631"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1839370631"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1839370635"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1839370635"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fruitszipper.asobisystem.com/news/detail/55220",
+            "https://music.apple.com/hk/album/1839370630"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1839370630"
+        }
+      ],
+      "credits": [
+        {
+          "name": "FRUITS ZIPPER",
+          "role": "vocals"
+        },
+        {
+          "name": "玉屋2060% (Wienners)",
+          "role": "lyrics"
+        },
+        {
+          "name": "玉屋2060% (Wienners)",
+          "role": "composition"
+        },
+        {
+          "name": "玉屋2060% (Wienners)",
+          "role": "arrangement"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "香港數位版TV size為第5曲，實體動畫盤為第4曲。官方無字幕片頭的精確母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-op-3-song-single-vocal",
+          "title": "はちゃめちゃわちゃライフ！",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "crayon-shin-chan-op-3-song-single-tv-size",
+          "title": "はちゃめちゃわちゃライフ！ -TV size-",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "fruits-zipper-hachamecha-wacha-life-2025-digital",
+          "title": "はちゃめちゃわちゃライフ！",
+          "type": "single",
+          "artistDisplayName": "FRUITS ZIPPER",
+          "date": {
+            "value": "2025-10-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "はちゃめちゃわちゃライフ！",
+              "recordingId": "crayon-shin-chan-op-3-song-single-vocal",
+              "position": 1
+            }
+          ],
+          "edition": "配信"
+        },
+        {
+          "id": "klf-10021",
+          "title": "はちゃめちゃわちゃライフ！ / JAM",
+          "type": "single",
+          "artistDisplayName": "FRUITS ZIPPER",
+          "date": {
+            "value": "2025-10-15",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "はちゃめちゃわちゃライフ！",
+              "recordingId": "crayon-shin-chan-op-3-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "KLF_10021",
+          "edition": "初回限定盤"
+        },
+        {
+          "id": "klf-10022",
+          "title": "はちゃめちゃわちゃライフ！ / JAM",
+          "type": "single",
+          "artistDisplayName": "FRUITS ZIPPER",
+          "date": {
+            "value": "2025-10-15",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "はちゃめちゃわちゃライフ！",
+              "recordingId": "crayon-shin-chan-op-3-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "はちゃめちゃわちゃライフ！ -TV size-",
+              "recordingId": "crayon-shin-chan-op-3-song-single-tv-size",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "KLF_10022",
+          "edition": "クレヨンしんちゃん × FRUITS ZIPPER盤"
+        },
+        {
+          "id": "klf-10023",
+          "title": "はちゃめちゃわちゃライフ！ / JAM",
+          "type": "single",
+          "artistDisplayName": "FRUITS ZIPPER",
+          "date": {
+            "value": "2025-10-15",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "はちゃめちゃわちゃライフ！",
+              "recordingId": "crayon-shin-chan-op-3-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "KLF_10023",
+          "edition": "通常盤"
+        },
+        {
+          "id": "apple-hk-1839370630",
+          "title": "はちゃめちゃわちゃライフ！ / JAM",
+          "type": "single",
+          "date": {
+            "value": "2025-10-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "FRUITS ZIPPER",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "はちゃめちゃわちゃライフ！",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-3-song-single-vocal"
+            },
+            {
+              "title": "はちゃめちゃわちゃライフ！ -TV size-",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-3-song-single-tv-size"
+            }
+          ],
+          "label": "KAWAII LAB."
+        }
+      ],
+      "links": [
+        {
+          "platform": "官方配信",
+          "label": "はちゃめちゃわちゃライフ！ 官方配信入口",
+          "url": "https://kawaii-lab.lnk.to/Hacha_Mecha_Wacha_Life",
+          "linkType": "official_landing_page",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-12",
+          "availability": "unknown"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "はちゃめちゃわちゃライフ！｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1839370631",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1839370630",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-3-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "はちゃめちゃわちゃライフ！ -TV size-｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1839370635",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1839370630",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-op-3-song-single-tv-size"
+        }
+      ],
+      "id": "crayon-shin-chan-op-3",
+      "releaseDate": "2025-10-04"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "id": "crayon-shin-chan-ed-1",
+      "titleJa": "ギガアイシテル",
+      "artistDisplayName": "レキシ",
+      "songId": "crayon-shin-chan-giga-aishiteru-song",
+      "sources": [
+        {
+          "url": "https://post.tv-asahi.co.jp/post-112586/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0089/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://shinchan-movie.com/2020/song/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Profile/A027062.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37538.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1528695988",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1528695989",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TSQx9lyMnug",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ギガアイシテル｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1528695989",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1528695988",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "crayon-shin-chan-giga-aishiteru-song-commercial-single"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-112586/",
+            "https://www.tv-asahi.co.jp/shinchan/news/0089/",
+            "https://www.mau2.com/anime/crayonsinchan-29",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1050"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-112586/",
+            "https://shinchan-movie.com/2020/song/",
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html",
+            "https://www.mau2.com/anime/crayonsinchan-29"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-giga-aishiteru-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html",
+            "https://www.jvcmusic.co.jp/-/Profile/A027062.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://shinchan-movie.com/2020/song/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-giga-aishiteru-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-giga-aishiteru-song-commercial-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vicl-37539"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37538.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "vicl-37538"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1528695989"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1528695989"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://shinchan-movie.com/2020/song/",
+            "https://music.apple.com/hk/album/1528695988"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1528695988"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=TSQx9lyMnug",
+            "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-37539.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "TSQx9lyMnug"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter",
+        "2020-spring",
+        "2020-summer",
+        "2020-fall"
+      ],
+      "usageLabel": "2020/3/7起電影宣傳片尾；夏季8/8恢復，至10/3第1051話，部分播出例外",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "レキシ",
+          "role": "vocals"
+        },
+        {
+          "name": "minan（MC旧石器）",
+          "role": "vocals"
+        }
+      ],
+      "releaseDate": "2020-09-11",
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-giga-aishiteru-song-commercial-single",
+          "title": "ギガアイシテル",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "vicl-37539",
+          "title": "ギガアイシテル",
+          "type": "single",
+          "date": {
+            "value": "2020-09-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "レキシ",
+          "edition": "クレヨンしんちゃん盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギガアイシテル",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Colourful Records",
+          "catalogNumber": "VICL-37539"
+        },
+        {
+          "id": "vicl-37538",
+          "title": "ギガアイシテル",
+          "type": "single",
+          "date": {
+            "value": "2020-09-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "レキシ",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギガアイシテル",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Colourful Records",
+          "catalogNumber": "VICL-37538"
+        },
+        {
+          "id": "apple-hk-1528695988",
+          "title": "ギガアイシテル",
+          "type": "single",
+          "date": {
+            "value": "2020-09-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "レキシ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ギガアイシテル",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-giga-aishiteru-song-commercial-single"
+            }
+          ],
+          "label": "Colourful Records"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "前週2/29的預告用法與3/7起片尾分開。原TV電影促銷剪輯的商購項目待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "crayon-shin-chan-in-1",
+      "titleJa": "アクション仮面の唄",
+      "artistDisplayName": "アクション仮面 with 祐天寺少年少女合唱団",
+      "songId": "crayon-shin-chan-action-kamen-song-song",
+      "sources": [
+        {
+          "url": "https://columbia.jp/prod-info/COCX-33076-7/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.uta-net.com/song/11524/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
+            "https://www.mau2.com/anime/crayonsinchan-29",
+            "https://www.uta-net.com/song/11524/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.uta-net.com/song/11524/",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1050"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-action-kamen-song-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.uta-net.com/song/11524/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-action-kamen-song-song-character-best"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-33076-7"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer",
+        "2020-fall"
+      ],
+      "usageLabel": "2020年夏、秋多回劇中使用，包括第1050、1051、1059話",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "本郷満",
+          "role": "lyrics"
+        },
+        {
+          "name": "浅田有理",
+          "role": "lyrics"
+        },
+        {
+          "name": "荒川敏行",
+          "role": "composition"
+        },
+        {
+          "name": "飛澤宏元",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-action-kamen-song-song-character-best",
+          "title": "アクション仮面の唄",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-33076-7",
+          "title": "クレヨンしんちゃん キャラクター・ソング・ベスト!",
+          "type": "compilation",
+          "date": {
+            "value": "2005-02-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "V.A.",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "アクション仮面の唄",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-action-kamen-song-song-character-best"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-33076～7"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "已核原唱片的角色歌曲；2020年逐話位置由分集曲表支持，實際畫面或剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "crayon-shin-chan-in-2",
+      "titleJa": "立て!カンタムロボ",
+      "artistDisplayName": "ダイナマイトSHU",
+      "songId": "crayon-shin-chan-kantam-robo-song",
+      "sources": [
+        {
+          "url": "https://columbia.jp/prod-info/COCX-33076-7/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1057",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-29",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/song/129842",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1057",
+            "https://www.mau2.com/anime/crayonsinchan-29",
+            "https://www.joysound.com/web/search/song/129842"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.joysound.com/web/search/song/129842",
+            "https://www.mau2.com/anime/crayonsinchan-29/ep/1057"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-kantam-robo-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.joysound.com/web/search/song/129842"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "crayon-shin-chan-kantam-robo-song-character-best"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "cocx-33076-7"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-fall"
+      ],
+      "usageLabel": "第1057話插曲（2020/11/14）",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "里乃塚玲央",
+          "role": "lyrics"
+        },
+        {
+          "name": "真崎修",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-kantam-robo-song-character-best",
+          "title": "立て!カンタムロボ",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-33076-7",
+          "title": "クレヨンしんちゃん キャラクター・ソング・ベスト!",
+          "type": "compilation",
+          "date": {
+            "value": "2005-02-23",
+            "precision": "day"
+          },
+          "artistDisplayName": "V.A.",
+          "edition": "2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "立て!カンタムロボ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-kantam-robo-song-character-best"
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCX-33076～7"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "已核原唱片的角色歌曲；2020年逐話位置由分集曲表支持，實際畫面或剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
+    }
+  ]
+},
   {"anilistId":6149,"id":"curated-6149","slug":"chibi-maruko-chan-1995","seasonIds":["2026-spring","2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter","2026-summer","2026-fall"],"startDate":"1995-01-08","titleJa":"ちびまる子ちゃん","titleRomaji":"Chibi Maruko-chan (1995)","editorialWeekday":7,"broadcastTimeJst":"18:00","broadcastLabel":"第2期日本TV：1995-01-08起・日曜18:00・フジテレビ系；2020–2026續播","metadataVerifiedAt":"2026-10-19","status":"airing","officialSiteUrl":"https://chibimaru.tv/","anilistUrl":"https://anilist.co/anime/6149","sourceReferenceUrls":["https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19","metadataSources":[{"url":"https://chibimaru.tv/about/","label":"動畫官方：作品原名、時段、現行OP／ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/story/1995/","label":"動畫官方：第2期第1話1995-01-08放送","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：兩期日本TV首播區分","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://anilist.co/anime/6149","label":"AniList：1995年TV系列識別；首播日期以動畫官方為準","role":"identifier","language":"en","verifiedAt":"2026-10-19"}],"themes":[{"type":"OP","sequence":1,"titleJa":"おどるポンポコリン","artistDisplayName":"ももいろクローバーZ","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall"],"songId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2025/008050.html","label":"動畫官方：2019年起ももいろクローバーZ演唱OP與2025年切換","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：ももいろクローバーZ演唱及使用期間","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.nippon-animation.co.jp/news/information/7599/","label":"日本アニメーション 主題曲及角色合唱公告","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.kingrecords.co.jp/cs/g/gKIZM-633/","label":"King Records 曲目及逐曲署名","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://chibimaru.tv/news/entry/2019/006259.html","label":"動畫官網正式動畫MV公告","language":"ja","role":"first_party","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","usageLabel":"日本TV OP（ももいろクローバーZ演唱）","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-op-1","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kingrecords.co.jp/cs/g/gKIZM-633/","https://www.nippon-animation.co.jp/news/information/7599/"],"verifiedAt":"2026-11-07","targetId":"king-kizm-633-634"},{"target":"video","fields":["title","type","url"],"sourceUrls":["https://chibimaru.tv/news/entry/2019/006259.html"],"verifiedAt":"2026-11-07","targetId":"ovrRdVce9Mc"}],"credits":[{"name":"ももいろクローバーZ","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"織田哲郎","role":"composition"},{"name":"NARASAKI","role":"arrangement"},{"name":"ちびまる子ちゃんオールスターズ","role":"vocals"}],"recordings":[{"id":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original","title":"おどるポンポコリン","format":"unknown","kind":"vocal"},{"id":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental","title":"おどるポンポコリン off vocal ver.","format":"unknown","kind":"instrumental"}],"releases":[{"id":"king-kizm-633-634","title":"おどるポンポコリン","type":"single","artistDisplayName":"ももいろクローバーZ","date":{"value":"2019-08-28","precision":"day"},"tracks":[{"title":"おどるポンポコリン","recordingId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-original","position":1},{"title":"おどるポンポコリン off vocal ver.","recordingId":"chibi-maruko-chan-1995-odoru-ponpokorin-song-instrumental","position":4}],"label":"King Records","catalogNumber":"KIZM-633〜4","edition":"CD＋Blu-ray"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"}]},{"type":"OP","sequence":2,"titleJa":"おどるポンポコリン","artistDisplayName":"Ado","seasonIds":["2025-fall","2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2025/008050.html","label":"動畫官方：2025-12-28起Ado演唱OP及創作","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/","label":"動畫官方：現行OP","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：Ado演唱、原名及啟用日期","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2025-12-28起 日本TV OP（Ado演唱）","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-odoru-ponpokorin-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-op-2","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://chibimaru.tv/news/entry/2025/008050.html","https://chibimaru.tv/about/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"Ado","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"織田 哲郎","role":"composition"},{"name":"ヒャダイン","role":"arrangement"}]},{"type":"ED","sequence":1,"titleJa":"いつもの風景","artistDisplayName":"斉藤和義","seasonIds":["2020-winter","2020-spring","2020-summer","2020-fall","2021-winter","2021-spring","2021-summer","2021-fall","2022-winter","2022-spring","2022-summer","2022-fall","2023-winter","2023-spring","2023-summer","2023-fall","2024-winter","2024-spring","2024-summer","2024-fall","2025-winter","2025-spring","2025-summer","2025-fall","2026-winter"],"songId":"chibi-maruko-chan-1995-ed-1-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2026/008102.html","label":"動畫官方：前任ED原名、演唱及約6年半使用","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","label":"中文歌曲表：2019年起ED原名與演唱","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：2026年舊ED切換交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.kazuyoshi-saito.com/disco/66285","label":"斉藤和義 單曲兩版曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.chibimaru.tv/news/entry/2020/006436.html","label":"動畫官網 片尾曲及創作署名","language":"ja","role":"first_party","verifiedAt":"2026-11-07"},{"url":"https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html","label":"Speedstar 專輯202020曲目","language":"ja","role":"first_party","verifiedAt":"2026-11-07"}],"lastVerifiedAt":"2026-11-07","usageLabel":"2019年起 日本TV ED；2026-03月切換前","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-ed-1-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-ed-1","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://www.chibimaru.tv/news/entry/2020/006436.html"],"verifiedAt":"2026-11-07"},{"target":"recording","fields":["title","kind"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"chibi-maruko-chan-1995-ed-1-song-original"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"victor-vizl-1670"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.kazuyoshi-saito.com/disco/66285"],"verifiedAt":"2026-11-07","targetId":"victor-vicl-38560"},{"target":"release","fields":["title","type","artist","date","tracklist","catalog_number","edition"],"sourceUrls":["https://www.jvcmusic.co.jp/-/Discography/A013689/VIZL-2020.html"],"verifiedAt":"2026-11-07","targetId":"victor-vizl-2020"}],"credits":[{"name":"斉藤和義","role":"vocals"},{"name":"さくらももこ","role":"lyrics"},{"name":"斉藤和義","role":"composition"},{"name":"斉藤和義","role":"arrangement"}],"recordings":[{"id":"chibi-maruko-chan-1995-ed-1-song-original","title":"いつもの風景","format":"unknown","kind":"vocal"}],"releases":[{"id":"victor-vizl-1670","title":"いつもの風景","type":"single","artistDisplayName":"斉藤和義","date":{"value":"2019-11-20","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VIZL-1670","edition":"初回限定盤"},{"id":"victor-vicl-38560","title":"いつもの風景","type":"single","artistDisplayName":"斉藤和義","date":{"value":"2019-11-20","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":1}],"label":"Speedstar Records","catalogNumber":"VICL-38560","edition":"通常盤"},{"id":"victor-vizl-2020","title":"202020","type":"album","artistDisplayName":"斉藤和義","date":{"value":"2020-01-29","precision":"day"},"tracks":[{"title":"いつもの風景","recordingId":"chibi-maruko-chan-1995-ed-1-song-original","position":11,"disc":1}],"label":"Speedstar Records","catalogNumber":"VIZL-2020","edition":"初回限定盤CD＋DVD"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"保留已核對的發行與音源；平台入口及有無另外發行的電視剪輯分開記錄。","resumeWhen":"唱片公司公布本曲另行發行的TV剪輯，或正版平台有可直接核對的地區曲目時續補。","checkedAt":"2026-11-07"}]},{"type":"ED","sequence":2,"titleJa":"パッパパラダイス","artistDisplayName":"宇多田ヒカル","seasonIds":["2026-winter","2026-spring","2026-summer","2026-fall"],"songId":"chibi-maruko-chan-1995-ed-2-song","sourceMode":"explicit","sources":[{"url":"https://chibimaru.tv/news/entry/2026/008102.html","label":"動畫官方：2026-03-29起新ED、原名、演唱及詞曲","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://chibimaru.tv/about/","label":"動畫官方：現行ED","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.utadahikaru.jp/news/p3hxxu53k2/","label":"藝人官方：2026-03-29已放送ED與官方影片","role":"first_party","language":"ja","verifiedAt":"2026-10-19"},{"url":"https://www.animatetimes.com/news/details.php?id=1772672652","label":"Animate Times：ED原名、演唱、啟用日期交叉核對","role":"cross_check","language":"ja","verifiedAt":"2026-10-19"}],"lastVerifiedAt":"2026-10-19","usageLabel":"2026-03-29起 日本TV ED","evidence":[{"target":"song","targetId":"chibi-maruko-chan-1995-ed-2-song","fields":["title","artist"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"anime_use","targetId":"chibi-maruko-chan-1995-ed-2","fields":["usage"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/","https://www.animatetimes.com/news/details.php?id=1772672652"],"verifiedAt":"2026-10-19"},{"target":"credits","fields":["credits"],"sourceUrls":["https://chibimaru.tv/news/entry/2026/008102.html","https://chibimaru.tv/about/","https://www.utadahikaru.jp/news/p3hxxu53k2/"],"verifiedAt":"2026-10-19"},{"target":"link","targetId":"https://www.youtube.com/watch?v=1Ld6fcdezyA","fields":["url","type"],"sourceUrls":["https://www.utadahikaru.jp/news/p3hxxu53k2/"],"verifiedAt":"2026-10-19"}],"credits":[{"name":"宇多田ヒカル","role":"vocals"},{"name":"宇多田ヒカル","role":"lyrics"},{"name":"宇多田ヒカル","role":"composition"}],"links":[{"platform":"YouTube","label":"パッパパラダイス 無字幕ED","url":"https://www.youtube.com/watch?v=1Ld6fcdezyA","linkType":"direct_track","region":"GLOBAL","verifiedAt":"2026-10-19","availability":"unknown"}]}]},
 ];
 

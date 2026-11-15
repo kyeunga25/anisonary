@@ -1549,18 +1549,18 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "炎炎ノ消防隊 官方影片",
           "url": "https://www.youtube.com/watch?v=5cAXZQgiw_k",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://fireforce-anime.jp/season2/music/",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
@@ -1575,12 +1575,84 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/enennoshouboutai-2",
+          "label": "逐話曲目、用曲時段或首播交叉記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://ageha.agehasprings.com/archives/ageha_work/1545",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://api.uta-net.com/song/290612/",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538262061",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/aimer/info/519739",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538262060",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/aimer/info/520537",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dZ0Jt1zYj7g",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "Aimer",
           "role": "vocals"
+        },
+        {
+          "name": "aimerrhythm",
+          "role": "lyrics"
+        },
+        {
+          "name": "飛内将大",
+          "role": "composition"
+        },
+        {
+          "name": "飛内将大",
+          "role": "arrangement"
+        },
+        {
+          "name": "玉井健二",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -1652,24 +1724,225 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "enen-no-shouboutai-ni-no-shou-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/",
+            "https://www.mau2.com/anime/enennoshouboutai-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ageha.agehasprings.com/archives/ageha_work/1545",
+            "https://api.uta-net.com/song/290612/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538262061"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/aimer/info/519739"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/aimer/info/519739"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/aimer/info/519739"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "secl-2608-2609"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538262061"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1538262061"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/aimer/info/519739",
+            "https://music.apple.com/hk/album/1538262060"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1538262060"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=5cAXZQgiw_k",
+            "https://www.sonymusic.co.jp/artist/aimer/info/519739"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "5cAXZQgiw_k"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dZ0Jt1zYj7g",
+            "https://www.sonymusic.co.jp/artist/aimer/info/520537"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "dZ0Jt1zYj7g"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "已核對原曲名、正式名義及本期用途；逐人歌唱與創作未由團員或cast推定。",
-          "resumeWhen": "待本曲第一方逐角色創作或歌唱署名與正版音源資料再補詳細。",
-          "checkedAt": "2026-10-24"
+          "note": "正式發行與原播集數已核；獨立播出剪輯及跨發行母帶關係待核。",
+          "resumeWhen": "待權利方另列播出時使用的音軌，並按地區確認完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–13話",
+      "releaseDate": "2020-07-04",
+      "recordings": [
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-op-1-song-single-full",
+          "title": "SPARK-AGAIN",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-op-1-song-single-tv-size",
+          "title": "SPARK-AGAIN (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "secl-2608-2609",
+          "title": "SPARK-AGAIN",
+          "type": "single",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "artistDisplayName": "Aimer",
+          "edition": "期間生產限定動畫盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "SPARK-AGAIN",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-full"
+            },
+            {
+              "title": "SPARK-AGAIN (TV size)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-tv-size"
+            }
+          ],
+          "label": "SME Records",
+          "catalogNumber": "SECL-2608～2609"
+        },
+        {
+          "id": "apple-hk-1538262060",
+          "title": "SPARK-AGAIN",
+          "type": "single",
+          "date": {
+            "value": "2020-09-09",
+            "precision": "day"
+          },
+          "artistDisplayName": "Aimer",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "SPARK-AGAIN",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-full"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "SPARK-AGAIN｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538262061",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1538262060",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "enen-no-shouboutai-ni-no-shou-op-1-song-single-full"
+        }
+      ]
     },
     {
       "type": "OP",
@@ -1709,7 +1982,7 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
@@ -1724,12 +1997,73 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fireforce-anime.jp/season2/news/detail.php?d=200926_03",
+          "label": "動畫、發行方或原播節目資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/enennoshouboutai-2",
+          "label": "逐話曲目、用曲時段或首播交叉記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://sp.kanaboon.jp/discography/detail/36/",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1539133583",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.anisil.com/animes/4810-%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A%20%E5%BC%90%E3%83%8E%E7%AB%A0",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://sp.kanaboon.jp/news/detail/1756/",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1539133582",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "KANA-BOON",
           "role": "vocals"
+        },
+        {
+          "name": "谷口鮪",
+          "role": "lyrics"
+        },
+        {
+          "name": "谷口鮪",
+          "role": "composition"
+        },
+        {
+          "name": "KANA-BOON",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -1801,24 +2135,228 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "enen-no-shouboutai-ni-no-shou-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/2nd.php",
+            "https://fireforce-anime.jp/season2/news/detail.php?d=200926_03",
+            "https://www.mau2.com/anime/enennoshouboutai-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/",
+            "https://music.apple.com/hk/song/1539133583",
+            "https://www.anisil.com/animes/4810-%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A%20%E5%BC%90%E3%83%8E%E7%AB%A0"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/news/detail/1756/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kscl-3268-3269"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1539133583"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1539133583"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://sp.kanaboon.jp/discography/detail/36/",
+            "https://music.apple.com/hk/album/1539133582"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1539133582"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "已核對原曲名、正式名義及本期用途；逐人歌唱與創作未由團員或cast推定。",
-          "resumeWhen": "待本曲第一方逐角色創作或歌唱署名與正版音源資料再補詳細。",
-          "checkedAt": "2026-10-24"
+          "note": "正式發行與原播集數已核；獨立播出剪輯及跨發行母帶關係待核。",
+          "resumeWhen": "待權利方另列播出時使用的音軌，並按地區確認完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–24話",
+      "releaseDate": "2020-10-17",
+      "recordings": [
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-op-2-song-single-full",
+          "title": "Torch of Liberty",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size",
+          "title": "Torch of Liberty (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size-instrumental",
+          "title": "Torch of Liberty (Anime Size Instrumental)",
+          "kind": "instrumental",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kscl-3268-3269",
+          "title": "Torch of Liberty",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "KANA-BOON",
+          "edition": "期間生產限定動畫盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Torch of Liberty",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-full"
+            },
+            {
+              "title": "Torch of Liberty (Anime Size)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size"
+            },
+            {
+              "title": "Torch of Liberty (Anime Size Instrumental)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-anime-size-instrumental"
+            }
+          ],
+          "label": "Ki/oon Music",
+          "catalogNumber": "KSCL-3268～3269"
+        },
+        {
+          "id": "apple-hk-1539133582",
+          "title": "Torch of Liberty",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "KANA-BOON",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Torch of Liberty",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-full"
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Torch of Liberty｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1539133583",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1539133582",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "enen-no-shouboutai-ni-no-shou-op-2-song-single-full"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -1847,18 +2385,18 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "サイダーガール 官方影片",
           "url": "https://www.youtube.com/watch?v=Lavdgx5xHZg",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://fireforce-anime.jp/season2/music/",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
@@ -1873,12 +2411,105 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/enennoshouboutai-2",
+          "label": "逐話曲目、用曲時段或首播交叉記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CGOJ_atAmjs",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://contents.oricon.co.jp/special/55089/",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/up1as-01300/",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-5974/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-7569/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1519539398",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1519539420",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1529231735",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1529232007",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/news/2020-07-03/",
+          "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "サイダーガール",
           "role": "vocals"
+        },
+        {
+          "name": "Yurin",
+          "role": "lyrics"
+        },
+        {
+          "name": "Yurin",
+          "role": "composition"
+        },
+        {
+          "name": "サイダーガール",
+          "role": "arrangement"
+        },
+        {
+          "name": "Yuzuru Kusugo",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -1950,24 +2581,291 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "enen-no-shouboutai-ni-no-shou-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/",
+            "https://www.mau2.com/anime/enennoshouboutai-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CGOJ_atAmjs",
+            "https://contents.oricon.co.jp/special/55089/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/up1as-01300/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/up1as-01300/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-1-song-single-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-5974/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "upch-5974"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-7569/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "upch-7569"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1519539420"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1519539420"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/up1as-01300/",
+            "https://music.apple.com/hk/album/1519539398"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1519539398"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1529232007"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1529232007"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-5974/",
+            "https://music.apple.com/hk/album/1529231735"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1529231735"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Lavdgx5xHZg",
+            "https://www.universal-music.co.jp/cidergirl/news/2020-07-03/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Lavdgx5xHZg"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CGOJ_atAmjs",
+            "https://www.universal-music.co.jp/cidergirl/products/up1as-01300/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "CGOJ_atAmjs"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "已核對原曲名、正式名義及本期用途；逐人歌唱與創作未由團員或cast推定。",
-          "resumeWhen": "待本曲第一方逐角色創作或歌唱署名與正版音源資料再補詳細。",
-          "checkedAt": "2026-10-24"
+          "note": "正式發行與原播集數已核；獨立播出剪輯及跨發行母帶關係待核。",
+          "resumeWhen": "待權利方另列播出時使用的音軌，並按地區確認完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–13話",
+      "releaseDate": "2020-07-04",
+      "recordings": [
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-ed-1-song-single-full",
+          "title": "ID",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "upch-5974",
+          "title": "落陽／ID",
+          "type": "single",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ID",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "UNIVERSAL J",
+          "catalogNumber": "UPCH-5974"
+        },
+        {
+          "id": "upch-7569",
+          "title": "ID／落陽",
+          "type": "single",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "期間限定動畫盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ID",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "UNIVERSAL J",
+          "catalogNumber": "UPCH-7569"
+        },
+        {
+          "id": "apple-hk-1519539398",
+          "title": "ID",
+          "type": "single",
+          "date": {
+            "value": "2020-07-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ID",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-ed-1-song-single-full"
+            }
+          ],
+          "label": "UNIVERSAL J"
+        },
+        {
+          "id": "apple-hk-1529231735",
+          "title": "落陽／ID",
+          "type": "single",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ID",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "UNIVERSAL J"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ID｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1519539420",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1519539398",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "enen-no-shouboutai-ni-no-shou-ed-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ID｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1529232007",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1529231735",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -2007,7 +2905,7 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E7%82%8E%E7%82%8E%E3%83%8E%E6%B6%88%E9%98%B2%E9%9A%8A",
@@ -2022,12 +2920,84 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://fireforce-anime.jp/season2/news/detail.php?d=200926_03",
+          "label": "動畫、發行方或原播節目資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/enennoshouboutai-2",
+          "label": "逐話曲目、用曲時段或首播交叉記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1531660995",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1539133999",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://artist.cdjournal.com/d/-/4120091257",
+          "label": "期間限定動畫盤實體曲序交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=KSCL000003283",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1531660990",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1539133997",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "PELICAN FANCLUB",
           "role": "vocals"
+        },
+        {
+          "name": "エンドウアンリ",
+          "role": "lyrics"
+        },
+        {
+          "name": "エンドウアンリ",
+          "role": "composition"
+        },
+        {
+          "name": "PELICAN FANCLUB",
+          "role": "arrangement"
+        },
+        {
+          "name": "谷口鮪",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -2099,24 +3069,261 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "enen-no-shouboutai-ni-no-shou-ed-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/2nd.php",
+            "https://fireforce-anime.jp/season2/news/detail.php?d=200926_03",
+            "https://www.mau2.com/anime/enennoshouboutai-2"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1531660995",
+            "https://music.apple.com/hk/song/1539133999"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1531660995"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=KSCL000003283"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=KSCL000003283"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusicshop.jp/m/item/itemShw.php?cd=KSCL000003283"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "kscl-3283-3284"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1531660995"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1531660995"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/2nd.php",
+            "https://music.apple.com/hk/album/1531660990"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1531660990"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1539133999"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1539133999"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://fireforce-anime.jp/season2/music/2nd.php",
+            "https://music.apple.com/hk/album/1539133997"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1539133997"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "已核對原曲名、正式名義及本期用途；逐人歌唱與創作未由團員或cast推定。",
-          "resumeWhen": "待本曲第一方逐角色創作或歌唱署名與正版音源資料再補詳細。",
-          "checkedAt": "2026-10-24"
+          "note": "先行與正式數位發行的曲目時長有差異，兩條入口及動畫短版各存證。",
+          "resumeWhen": "待權利方目錄明列兩筆數位曲目的母帶關係，再對應錄音。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第14–23話",
+      "releaseDate": "2020-10-03",
+      "recordings": [
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size",
+          "title": "ディザイア (Anime Size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size-instrumental",
+          "title": "ディザイア (Anime Size Instrumental)",
+          "kind": "instrumental",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kscl-3283-3284",
+          "title": "ディザイア",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "PELICAN FANCLUB",
+          "edition": "期間生產限定動畫盤（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ディザイア",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "ディザイア (Anime Size)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size"
+            },
+            {
+              "title": "ディザイア (Anime Size Instrumental)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-ed-2-song-single-anime-size-instrumental"
+            }
+          ],
+          "label": "Ki/oon Music",
+          "catalogNumber": "KSCL-3283～3284"
+        },
+        {
+          "id": "apple-hk-1531660990",
+          "title": "ディザイア",
+          "type": "single",
+          "date": {
+            "value": "2020-10-03",
+            "precision": "day"
+          },
+          "artistDisplayName": "PELICAN FANCLUB",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ディザイア",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        },
+        {
+          "id": "apple-hk-1539133997",
+          "title": "ディザイア",
+          "type": "single",
+          "date": {
+            "value": "2020-11-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "PELICAN FANCLUB",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ディザイア",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "label": "Sony Music Labels Inc."
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ディザイア｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1531660995",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1531660990",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "ディザイア｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1539133999",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1539133997",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -2126,7 +3333,9 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "id": "enen-no-shouboutai-ni-no-shou-ed-3",
       "songId": "enen-no-shouboutai-ni-no-shou-ed-3-song",
       "sourceMode": "explicit",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-fall"
+      ],
       "sources": [
         {
           "label": "動畫官方網站",
@@ -2169,12 +3378,94 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://mrsgreenapple.com/discography/detail/135/",
+          "label": "權利方原曲名與正式演唱名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/enennoshouboutai-2/ep/24",
+          "label": "歌曲原名及演唱名義交叉來源",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://times.abema.tv/articles/-/8637760?page=1",
+          "label": "動畫、發行方或原播節目資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://fireforce-anime.jp/season2/story/24.php",
+          "label": "動畫、發行方或原播節目資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1471459432",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.uta-net.com/song/270752/",
+          "label": "唱片署名或逐話創作與演唱角色",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1471459431",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://sp.universal-music.co.jp/mrsgreenapple/attitude/",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1475232910",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1475233528",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "Mrs. GREEN APPLE",
           "role": "vocals"
+        },
+        {
+          "name": "大森元貴",
+          "role": "lyrics"
+        },
+        {
+          "name": "大森元貴",
+          "role": "composition"
+        },
+        {
+          "name": "大森元貴",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -2201,26 +3492,245 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://mrsgreenapple.com/discography/detail/135/",
+            "https://www.mau2.com/anime/enennoshouboutai-2/ep/24"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/8637760?page=1",
+            "https://fireforce-anime.jp/season2/story/24.php",
+            "https://www.mau2.com/anime/enennoshouboutai-2/ep/24"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1471459432",
+            "https://www.uta-net.com/song/270752/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://mrsgreenapple.com/discography/detail/135/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mrsgreenapple.com/discography/detail/135/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "enen-no-shouboutai-ni-no-shou-ed-3-song-single-full"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1471459432"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1471459432"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://mrsgreenapple.com/discography/detail/135/",
+            "https://music.apple.com/hk/album/1471459431"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1471459431"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1475233528"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1475233528"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/mrsgreenapple/attitude/",
+            "https://music.apple.com/hk/album/1475232910"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1475232910"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/mrsgreenapple/attitude/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "upch-20531"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "歌曲身分已核，弐ノ章最終話片尾分類尚缺第一方直接資料。",
-          "resumeWhen": "待本期最終話官方片尾說明、原播出字幕資料或權利方明文列本曲為片尾，再核用途與季度。",
-          "checkedAt": "2026-10-24"
+          "note": "第24話片尾沿用第一季片頭歌曲。已有原單曲、專輯及官方MV。",
+          "resumeWhen": "待可辨識的原播片尾或權利方音軌說明，核對實際剪輯。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第24話特別片尾",
+      "releaseDate": "2019-07-18",
+      "recordings": [
+        {
+          "id": "enen-no-shouboutai-ni-no-shou-ed-3-song-single-full",
+          "title": "インフェルノ",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "インフェルノ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1471459432",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1471459431",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "enen-no-shouboutai-ni-no-shou-ed-3-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "インフェルノ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1475233528",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1475232910",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1471459431",
+          "title": "インフェルノ",
+          "type": "single",
+          "date": {
+            "value": "2019-07-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mrs. GREEN APPLE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "インフェルノ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "enen-no-shouboutai-ni-no-shou-ed-3-song-single-full"
+            }
+          ],
+          "label": "EMI Records"
+        },
+        {
+          "id": "apple-hk-1475232910",
+          "title": "Attitude",
+          "type": "album",
+          "date": {
+            "value": "2019-10-01",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mrs. GREEN APPLE",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "インフェルノ",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "EMI Records"
+        },
+        {
+          "id": "upch-20531",
+          "title": "Attitude",
+          "type": "album",
+          "date": {
+            "value": "2019-10-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mrs. GREEN APPLE",
+          "edition": "通常盤（CD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "インフェルノ",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "EMI Records",
+          "catalogNumber": "UPCH-20531"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -7280,7 +8790,7 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
   "titleRomaji": "Koi to Producer: EVOL×LOVE",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110371-iQC5FQ6FuTuX.png",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110371-u9vKhGyX8E77.jpg",
-  "broadcastLabel": "2020年7月16日00:00 TOKYO MX等原首播（公告7/15 24:00換日）",
+  "broadcastLabel": "日本TV：首話2020/7/16（四）00:00 JST，終話10/1（四）00:00；電視台表記為7/15至9/30週三24:00。部分網播同步。",
   "officialSiteUrl": "https://koipro-anime.love/",
   "sourceReferenceUrls": [
     "https://youranimes.tw/animes/2737",
@@ -7298,7 +8808,8 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "songId": "koi-to-producer-evol-love-op-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-summer"
+        "2020-summer",
+        "2020-fall"
       ],
       "sources": [
         {
@@ -7316,18 +8827,18 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "UNIVERSAL MUSIC JAPAN 官方影片",
           "url": "https://www.youtube.com/watch?v=mdu-q549G94",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://koipro-anime.love/news/detail_0615_02.php",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
@@ -7342,6 +8853,69 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24106001&workId=24106",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/koitoproducer",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bs4.jp/koipro/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/yutaro-miura/tz11nljw87fjc",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/miura_yutaro/news/2020-07-11/",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1521760424",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1521760429",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.ani-tone.com/release/DDCD-0002/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/652608",
+          "label": "日本唱片商品資料：完整曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -7352,6 +8926,14 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
         {
           "name": "三浦祐太朗",
           "role": "lyrics"
+        },
+        {
+          "name": "佐々倉有吾",
+          "role": "composition"
+        },
+        {
+          "name": "Carlos K.",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -7433,24 +9015,234 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
             "https://koipro-anime.love/news/detail_0615_02.php"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24106001&workId=24106",
+            "https://www.mau2.com/anime/koitoproducer"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://www.bs4.jp/koipro/",
+            "https://www.mau2.com/anime/koitoproducer"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://www.qobuz.com/jp-ja/album/yutaro-miura/tz11nljw87fjc"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/miura_yutaro/news/2020-07-11/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/miura_yutaro/news/2020-07-11/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-op-1-song-original-digital-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1521760429"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1521760429"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/miura_yutaro/news/2020-07-11/",
+            "https://music.apple.com/hk/album/1521760424"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1521760424"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-op-1-song-soundtrack-tv-size"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/652608",
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=mdu-q549G94",
+            "https://www.universal-music.co.jp/miura_yutaro/news/2020-07-11/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "mdu-q549G94"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原曲名、正式名義及夏季用途已核；末話跨秋的實際使用尚待逐曲資料。",
-          "resumeWhen": "待10月1日末話官方逐曲片頭片尾credit直接明本曲使用，再核秋季；不以全作播出季別補滿。",
-          "checkedAt": "2026-10-24"
+          "note": "日語錄音的原單曲、原聲帶TV size和官方宣傳短片已區分；普通話版另有〈晨昏〉。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話日語版片頭｜第12話日本時間10/1 00:00",
+      "releaseDate": "2020-07-16",
+      "recordings": [
+        {
+          "id": "koi-to-producer-evol-love-op-1-song-original-digital-single",
+          "title": "鈍色の夜明け",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "koi-to-producer-evol-love-op-1-song-soundtrack-tv-size",
+          "title": "鈍色の夜明け（TV size）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "鈍色の夜明け｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1521760429",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1521760424",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "koi-to-producer-evol-love-op-1-song-original-digital-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1521760424",
+          "title": "鈍色の夜明け",
+          "type": "single",
+          "date": {
+            "value": "2020-07-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "三浦祐太朗",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "鈍色の夜明け",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-op-1-song-original-digital-single"
+            }
+          ],
+          "label": "Virgin Music"
+        },
+        {
+          "id": "ddcd-0002",
+          "title": "恋とプロデューサー～EVOL×LOVE～ オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤裕介",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "鈍色の夜明け（TV size）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-op-1-song-soundtrack-tv-size"
+            }
+          ],
+          "label": "Digital Double",
+          "catalogNumber": "DDCD-0002"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -7462,7 +9254,8 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "songId": "koi-to-producer-evol-love-ed-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
-        "2020-summer"
+        "2020-summer",
+        "2020-fall"
       ],
       "sources": [
         {
@@ -7480,18 +9273,18 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "Digital Double -デジタルダブル- 官方影片",
           "url": "https://www.youtube.com/watch?v=F_sCcKMT3H4",
-          "language": "ja",
+          "label": "權利方官方影片及簡介",
           "role": "first_party",
-          "verifiedAt": "2026-09-02"
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://koipro-anime.love/news/detail_0615_02.php",
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
@@ -7506,12 +9299,143 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24106001&workId=24106",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/koitoproducer",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.bs4.jp/koipro/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1594437053",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.nex-tone.co.jp/dd_notice_20200717/",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1522826345",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1522826676",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://koipro-anime.love/news/detail_0711_01.php",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1526649995",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1526650416",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1526650418",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/652608",
+          "label": "日本唱片商品資料：完整曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.ani-tone.com/release/DDCD-0002/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.ani-tone.com/release/DDXD-0001/",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=chUJ-9mYvuo",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.konomi-suzuki.net/posts/discography/qifert",
+          "label": "歌手官方單曲日期、版別與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.konomi-suzuki.net/pages/ULTRA_FLASH",
+          "label": "歌手官方曲詞與錄音編曲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
-          "name": "恋とプロデューサー featuring 鈴木このみ",
+          "name": "鈴木このみ",
           "role": "vocals"
+        },
+        {
+          "name": "中島卓偉",
+          "role": "lyrics"
+        },
+        {
+          "name": "中島卓偉",
+          "role": "composition"
+        },
+        {
+          "name": "荒幡亮平",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -7582,25 +9506,747 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "koi-to-producer-evol-love-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24106001&workId=24106",
+            "https://www.mau2.com/anime/koitoproducer"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://www.bs4.jp/koipro/",
+            "https://www.mau2.com/anime/koitoproducer"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0615_02.php",
+            "https://www.animatetimes.com/news/details.php?id=1594437053"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song-original-tv-size"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1594437053",
+            "https://www.konomi-suzuki.net/posts/discography/qifert"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song-original-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1594437053",
+            "https://www.konomi-suzuki.net/posts/discography/qifert"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song-original-single-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1522826676"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1522826676"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/",
+            "https://music.apple.com/hk/album/1522826345"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1522826345"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1526650416"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1526650416"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1526650418"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1526650418"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0711_01.php",
+            "https://music.apple.com/hk/album/1526649995"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1526649995"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1594437053",
+            "https://www.konomi-suzuki.net/posts/discography/qifert"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0001"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/652608",
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDXD-0001/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-ed-1-song-line-cube-2020-live"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDXD-0001/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddxd-0001"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=F_sCcKMT3H4",
+            "https://koipro-anime.love/news/detail_0711_01.php"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "F_sCcKMT3H4"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=chUJ-9mYvuo"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "chUJ-9mYvuo"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.konomi-suzuki.net/pages/ULTRA_FLASH"
+          ],
+          "verifiedAt": "2026-11-15"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement",
             "recordings",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原曲名、正式名義及夏季用途已核；末話跨秋的實際使用尚待逐曲資料。",
-          "resumeWhen": "待10月1日末話官方逐曲片頭片尾credit直接明本曲使用，再核秋季；不以全作播出季別補滿。",
-          "checkedAt": "2026-10-24"
+          "note": "普通話版另有〈梦的旅航〉。Apple標示TV size日期7/16，發行代理說明當日部分時段內容錯置，7/17恢復正確音源。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第1–12話日語版片尾｜第12話日本時間10/1 00:00",
+      "releaseDate": "2020-07-17",
+      "recordings": [
+        {
+          "id": "koi-to-producer-evol-love-ed-1-song-original-tv-size",
+          "title": "舞い降りてきた雪（TV size）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "koi-to-producer-evol-love-ed-1-song-original-single-full",
+          "title": "舞い降りてきた雪",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "koi-to-producer-evol-love-ed-1-song-original-single-instrumental",
+          "title": "舞い降りてきた雪 INST",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "koi-to-producer-evol-love-ed-1-song-line-cube-2020-live",
+          "title": "舞い降りてきた雪（2020/10/9 LINE CUBE SHIBUYA）",
+          "kind": "live",
+          "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "舞い降りてきた雪（TV size）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1522826676",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1522826345",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "koi-to-producer-evol-love-ed-1-song-original-tv-size"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "舞い降りてきた雪｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1526650416",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1526649995",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "koi-to-producer-evol-love-ed-1-song-original-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "舞い降りてきた雪 INST｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1526650418",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1526649995",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "koi-to-producer-evol-love-ed-1-song-original-single-instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1522826345",
+          "title": "舞い降りてきた雪（TV size）",
+          "type": "single",
+          "date": {
+            "value": "2020-07-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "恋とプロデューサー featuring Konomi Suzuki",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "舞い降りてきた雪（TV size）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-ed-1-song-original-tv-size"
+            }
+          ],
+          "label": "Digital Double"
+        },
+        {
+          "id": "apple-hk-1526649995",
+          "title": "舞い降りてきた雪",
+          "type": "single",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "恋とプロデューサー featuring Konomi Suzuki",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "舞い降りてきた雪",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-ed-1-song-original-single-full"
+            },
+            {
+              "title": "舞い降りてきた雪 INST",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-ed-1-song-original-single-instrumental"
+            }
+          ],
+          "label": "Digital Double"
+        },
+        {
+          "id": "ddcd-0001",
+          "title": "舞い降りてきた雪",
+          "type": "single",
+          "date": {
+            "value": "2020-09-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "恋とプロデューサー featuring Konomi Suzuki",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "舞い降りてきた雪",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "舞い降りてきた雪 INST",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "Digital Double",
+          "catalogNumber": "DDCD-0001"
+        },
+        {
+          "id": "ddcd-0002",
+          "title": "恋とプロデューサー～EVOL×LOVE～ オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤裕介",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "舞い降りてきた雪（TV size）",
+              "position": 40,
+              "disc": 1
+            }
+          ],
+          "label": "Digital Double",
+          "catalogNumber": "DDCD-0002"
+        },
+        {
+          "id": "ddxd-0001",
+          "title": "鈴木このみ Live 2020 ～Single Collection～",
+          "type": "album",
+          "date": {
+            "value": "2021-03-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "鈴木このみ",
+          "edition": "Blu-ray",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "舞い降りてきた雪（2020/10/9 LINE CUBE SHIBUYA）",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-ed-1-song-line-cube-2020-live"
+            }
+          ],
+          "label": "Digital Double",
+          "catalogNumber": "DDXD-0001"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 1,
+      "id": "koi-to-producer-evol-love-in-1",
+      "titleJa": "恋心シークレット",
+      "artistDisplayName": "キラ（柿原徹也）",
+      "songId": "koi-to-producer-evol-love-koigokoro-secret-song",
+      "sources": [
+        {
+          "url": "https://koipro-anime.love/news/detail_0716_02.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://koipro-anime.love/news/detail_0717_01.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://utaten.com/lyric/mi20090408/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.ani-tone.com/release/DDCD-0002/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://wapbaike.baidu.com/item/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA/23610842",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hans",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.nex-tone.co.jp/dd_notice_20200717/",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1522826369",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1522826370",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.billboard-japan.com/goods/detail/652608",
+          "label": "日本唱片商品資料：完整曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "恋心シークレット｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1522826370",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1522826369",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "koi-to-producer-evol-love-koigokoro-secret-song-original-character-song"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0716_02.php",
+            "https://koipro-anime.love/news/detail_0717_01.php",
+            "https://utaten.com/lyric/mi20090408/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-koigokoro-secret-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0716_02.php",
+            "https://music.ani-tone.com/release/DDCD-0002/",
+            "https://wapbaike.baidu.com/item/%E6%81%8B%E4%B8%8E%E5%88%B6%E4%BD%9C%E4%BA%BA/23610842",
+            "https://utaten.com/lyric/mi20090408/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://koipro-anime.love/news/detail_0717_01.php",
+            "https://utaten.com/lyric/mi20090408/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-koigokoro-secret-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "koi-to-producer-evol-love-koigokoro-secret-song-original-character-song"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1522826370"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1522826370"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.nex-tone.co.jp/dd_notice_20200717/",
+            "https://music.apple.com/hk/album/1522826369"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1522826369"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.billboard-japan.com/goods/detail/652608",
+            "https://music.ani-tone.com/release/DDCD-0002/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ddcd-0002"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-summer"
+      ],
+      "usageLabel": "第1話日語版插曲｜キラ角色歌",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "柿原徹也",
+          "role": "vocals"
+        },
+        {
+          "name": "TATSUNE",
+          "role": "lyrics"
+        },
+        {
+          "name": "原一博",
+          "role": "composition"
+        }
+      ],
+      "releaseDate": "2020-07-17",
+      "recordings": [
+        {
+          "id": "koi-to-producer-evol-love-koigokoro-secret-song-original-character-song",
+          "title": "恋心シークレット",
+          "kind": "character",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1522826369",
+          "title": "恋心シークレット",
+          "type": "single",
+          "date": {
+            "value": "2020-07-16",
+            "precision": "day"
+          },
+          "artistDisplayName": "キラ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "恋心シークレット",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "koi-to-producer-evol-love-koigokoro-secret-song-original-character-song"
+            }
+          ],
+          "label": "Digital Double"
+        },
+        {
+          "id": "ddcd-0002",
+          "title": "恋とプロデューサー～EVOL×LOVE～ オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-09-30",
+            "precision": "day"
+          },
+          "artistDisplayName": "加藤裕介",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "恋心シークレット",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "label": "Digital Double",
+          "catalogNumber": "DDCD-0002"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability",
+            "official_video",
+            "arrangement"
+          ],
+          "note": "動畫官網明示為劇中插曲，中文分集資料標第1話。中文配音版為邊江〈Gravity〉；原播剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "metadataVerifiedAt": "2026-09-02",
@@ -7610,7 +10256,7 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://ja.wikipedia.org/wiki/%E6%81%8B%E3%81%A8%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B5%E3%83%BC%E3%80%9CEVOL%C3%97LOVE%E3%80%9C",
@@ -7618,6 +10264,13 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://www.bs4.jp/koipro/",
+      "label": "電視台各話原播日期與節目時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
   ],
   "editorialWeekday": 4,

@@ -1,6 +1,224 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020FallThemeVideos = {
+  "110632:ED:2": [
+    {
+      "youtubeVideoId": "tv1mCFRJxp0",
+      "title": "円広志〈静かな戦士〉原唱官方音軌",
+      "channelName": "Hiroshi Madoka - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "maesetsu-ed-2-song-madoka-original"
+    }
+  ],
+  "110632:OP:2": [
+    {
+      "youtubeVideoId": "ok8T6FOwZRs",
+      "title": "《前說！》官方無字幕片頭｜ピッピッピハッピー",
+      "channelName": "KADOKAWAanime",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111145:ED:3": [
+    {
+      "youtubeVideoId": "wrq0v9zttsw",
+      "title": "A3ders!〈MANKAI☆開花宣言〉遊戲尺寸官方音軌",
+      "channelName": "A3ders! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "a3-season-autumn-winter-ed-3-song-game-size"
+    }
+  ],
+  "111145:OP:1": [
+    {
+      "youtubeVideoId": "o2h77BNJPjE",
+      "title": "《A3!》秋冬篇官方PV｜Circle of Seasons",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111324:ED:3": [
+    {
+      "youtubeVideoId": "-HqW1j4J4Xg",
+      "title": "清春〈忘却の空 (25th Anniversary Ver.)〉官方音軌",
+      "channelName": "Kiyoharu - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "ikebukuro-west-gate-park-ed-3-song-anniversary-2020-vocal"
+    }
+  ],
+  "111324:ED:2": [
+    {
+      "youtubeVideoId": "F2hlMK0HwRM",
+      "title": "INNOSENT in FORMAL〈思うまま〉官方3DCG MV",
+      "channelName": "INNOSENT in FORMAL",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "KRL3z06DwHw",
+      "title": "INNOSENT in FORMAL〈思うまま〉官方2D MV",
+      "channelName": "INNOSENT in FORMAL",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111324:ED:1": [
+    {
+      "youtubeVideoId": "Ai1qSS5as24",
+      "title": "INNOSENT in FORMAL〈after song〉官方真人MV",
+      "channelName": "INNOSENT in FORMAL",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "5w8ekWHCiE8",
+      "title": "INNOSENT in FORMAL〈after song〉官方3DCG MV",
+      "channelName": "INNOSENT in FORMAL",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111324:OP:1": [
+    {
+      "youtubeVideoId": "D9RoDq7h1WQ",
+      "title": "THE PINBALLS〈ニードルノット〉官方MV",
+      "channelName": "THE PINBALLS",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "116173:ED:2": [
+    {
+      "youtubeVideoId": "Z9GJDXN8OmI",
+      "title": "《戰翼的希格德莉法》第4話特別片尾〈Fly high〉",
+      "channelName": "アニプレックス チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "116173:IN:1": [
+    {
+      "youtubeVideoId": "TCzb_khFylw",
+      "title": "スピラ・スピカ〈ほしのかけら〉官方MV",
+      "channelName": "スピラ・スピカ Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113538:ED:2": [
+    {
+      "youtubeVideoId": "wDIUyyQqQ_M",
+      "title": "SPYAIR〈イマジネーション〉2014年官方MV｜原歌曲",
+      "channelName": "SPYAIR Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "116242:OP:2": [
+    {
+      "youtubeVideoId": "UbN6OLItRSQ",
+      "title": "第11話特別片頭素材｜全長試聽〈Dear My MAJIHA Sisters〉",
+      "channelName": "Lantis Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "116566:IN:1": [
+    {
+      "youtubeVideoId": "R3oP2z49cyk",
+      "title": "SPARK!!SOUND!!SHOW!!〈STEAL!!〉官方MV｜原歌曲",
+      "channelName": "sparksoundshow",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "116566:ED:2": [
+    {
+      "youtubeVideoId": "R3oP2z49cyk",
+      "title": "SPARK!!SOUND!!SHOW!!〈STEAL!!〉官方MV｜原歌曲",
+      "channelName": "sparksoundshow",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "117343:ED:2": [
+    {
+      "youtubeVideoId": "DXL7xIqytMU",
+      "title": "富田美憂〈Broken Sky〉官方MV｜原歌曲",
+      "channelName": "富田美憂 Miyu Tomita -Music Channel-",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "104198:ED:2": [
+    {
+      "youtubeVideoId": "ewh2hBpjKeM",
+      "title": "《請問您今天要來點兔子嗎？ BLOOM》第12話官方片尾",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114446:ED:4": [
+    {
+      "youtubeVideoId": "KFHxOryOgls",
+      "title": "亜咲花〈I believe what you said〉官方MV｜原歌曲",
+      "channelName": "亜咲花公式チャンネル",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": true
+    }
+  ],
+  "114446:ED:3": [
+    {
+      "youtubeVideoId": "MlHEEcIUofY",
+      "title": "彩音〈不規則性エントロピー〉官方音軌",
+      "channelName": "彩音 -Ayane Official YouTube Channel-",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "higurashi-no-naku-koro-ni-gou-ed-3-song-single-full"
+    }
+  ],
   "118399:OP:2": [
     {
       "youtubeVideoId": "V1l3knlckOI",
@@ -83,24 +301,24 @@ export const curated2020FallThemeVideos = {
   ],
   "114446:ED:1": [
     {
-      youtubeVideoId: "V9nV4SHbcBA",
-      title:
-        "TVアニメ「ひぐらしのなく頃に」 OP映像 (島みやえい子／ひぐらしのなく頃に）【NBCユニバーサルAnime✕Music30周年記念OP/ED毎日投稿企画】",
-      type: "other",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "V9nV4SHbcBA",
+      "title": "2006年版《暮蟬悲鳴時》官方片頭影像｜原歌曲",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "114446:ED:2": [
     {
-      youtubeVideoId: "Baly3XgFxJk",
-      title: "神様のシンドローム",
-      type: "official_audio",
-      channelName: "彩音 -Ayane Official YouTube Channel-",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "Baly3XgFxJk",
+      "title": "彩音〈神様のシンドローム〉官方音軌",
+      "channelName": "彩音 -Ayane Official YouTube Channel-",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "higurashi-no-naku-koro-ni-gou-ed-2-song-single-full"
+    }
   ],
   "112479:OP:1": [
     {
@@ -176,24 +394,50 @@ export const curated2020FallThemeVideos = {
   ],
   "116242:OP:1": [
     {
-      youtubeVideoId: "5n__ccerSLw",
-      title: "【2020年10月番組】TVアニメ『100万の命の上に俺は立っている』OP",
-      type: "other",
-      channelName: "Warner Bros. Japan Anime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "5n__ccerSLw",
+      "title": "《我立於百萬生命之上》官方片頭影像",
+      "channelName": "Warner Bros. Japan Anime",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "2DHmEaULN24",
+      "title": "高槻かなこ〈Anti world〉官方MV",
+      "channelName": "高槻かなこ Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "116242:ED:1": [
     {
-      youtubeVideoId: "r661EfWGjk0",
-      title:
-        "【10/2（金）放送開始】TVアニメ「100万の命の上に俺は立っている」ED映像",
-      type: "other",
-      channelName: "Warner Bros. Japan Anime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "r661EfWGjk0",
+      "title": "《我立於百萬生命之上》官方片尾影像",
+      "channelName": "Warner Bros. Japan Anime",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "bRcrjKyIGA0",
+      "title": "《我立於百萬生命之上》第10話真人特別片尾",
+      "channelName": "Warner Bros. Japan Anime",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "8mNGQMKW3GE",
+      "title": "Liyuu〈カルペ・ディエム〉官方MV",
+      "channelName": "Lantis Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "112124:OP:1": [
     {
@@ -272,14 +516,22 @@ export const curated2020FallThemeVideos = {
   ],
   "113538:ED:1": [
     {
-      youtubeVideoId: "GbQq0kMfqpQ",
-      title:
-        "『ハイキュー!! TO THE TOP』第2クールティザーPV～「One Day」Ver.～",
-      type: "other",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "GbQq0kMfqpQ",
+      "title": "《排球少年!! TO THE TOP》後半部預告｜One Day",
+      "channelName": "TOHO animation",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "IdUUam2H1y0",
+      "title": "SPYAIR〈One Day〉官方MV",
+      "channelName": "SPYAIR Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "113970:OP:1": [
     {
@@ -545,25 +797,32 @@ export const curated2020FallThemeVideos = {
   ],
   "116566:OP:1": [
     {
-      youtubeVideoId: "j0ApnbauFvE",
-      title:
-        "TVアニメ「アクダマドライブ」OPムービー／OPテーマ：SPARK!!SOUND!!SHOW!!「STEAL!!」",
-      type: "other",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "j0ApnbauFvE",
+      "title": "《惡玉Drive》無字幕片頭｜STEAL!!",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "R3oP2z49cyk",
+      "title": "SPARK!!SOUND!!SHOW!!〈STEAL!!〉官方MV",
+      "channelName": "sparksoundshow",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "116566:ED:1": [
     {
-      youtubeVideoId: "J-BYnP_CUkU",
-      title:
-        "TVアニメ「アクダマドライブ」EDムービー／EDテーマ：浦島坂田船「Ready」",
-      type: "other",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "J-BYnP_CUkU",
+      "title": "《惡玉Drive》無字幕片尾｜Ready",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "109287:ED:1": [
     {
@@ -587,14 +846,22 @@ export const curated2020FallThemeVideos = {
   ],
   "104198:ED:1": [
     {
-      youtubeVideoId: "z79m6XWo4VU",
-      title:
-        "TVアニメ「ご注文はうさぎですか？ BLOOM」 ED映像（なかよし！○！なかよし！／チマメ隊）【NBCユニバーサルAnime✕Music30周年記念OP/ED毎日投稿企画】",
-      type: "other",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "z79m6XWo4VU",
+      "title": "《請問您今天要來點兔子嗎？ BLOOM》官方片尾影像",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "rBqHuyzWzck",
+      "title": "《請問您今天要來點兔子嗎？ BLOOM》常規無字幕片尾",
+      "channelName": "ごちうさ公式チャンネル/ご注文はうさぎですか?",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "114124:OP:1": [
     {

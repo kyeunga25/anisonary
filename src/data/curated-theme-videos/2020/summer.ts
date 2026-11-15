@@ -109,14 +109,22 @@ export const curated2020SummerThemeVideos = {
   ],
   "114236:OP:1": [
     {
-      youtubeVideoId: "5cAXZQgiw_k",
-      title:
-        "【期間限定】『炎炎ノ消防隊　弐ノ章』ノンクレジットオープニング映像 | Aimer「SPARK-AGAIN」",
-      type: "creditless_op",
-      channelName: "炎炎ノ消防隊",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "5cAXZQgiw_k",
+      "title": "《炎炎消防隊 貳之章》前期無字幕片頭｜SPARK-AGAIN",
+      "channelName": "炎炎ノ消防隊",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "dZ0Jt1zYj7g",
+      "title": "Aimer〈SPARK-AGAIN〉官方MV",
+      "channelName": "Aimer Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "114236:OP:2": [
     {
@@ -131,13 +139,23 @@ export const curated2020SummerThemeVideos = {
   ],
   "114236:ED:1": [
     {
-      youtubeVideoId: "Lavdgx5xHZg",
-      title: "サイダーガール “ID” Music Video",
-      type: "full_music_video",
-      channelName: "サイダーガール",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "Lavdgx5xHZg",
+      "title": "サイダーガール〈ID〉官方MV",
+      "channelName": "サイダーガール",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "CGOJ_atAmjs",
+      "title": "サイダーガール〈ID〉官方音軌",
+      "channelName": "サイダーガール",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "enen-no-shouboutai-ni-no-shou-ed-1-song-single-full"
+    }
   ],
   "114236:ED:2": [
     {
@@ -495,25 +513,32 @@ export const curated2020SummerThemeVideos = {
   ],
   "110371:OP:1": [
     {
-      youtubeVideoId: "mdu-q549G94",
-      title:
-        "三浦祐太朗「鈍色の夜明け」Promotion Video Short ver. （「恋とプロデューサー〜EVOL×LOVE〜」ver.）",
-      type: "other",
-      channelName: "UNIVERSAL MUSIC JAPAN",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "mdu-q549G94",
+      "title": "三浦祐太朗〈鈍色の夜明け〉動畫素材宣傳短片",
+      "channelName": "UNIVERSAL MUSIC JAPAN",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "110371:ED:1": [
     {
-      youtubeVideoId: "F_sCcKMT3H4",
-      title:
-        "【鈴木このみ】『舞い降りてきた雪』恋とプロデューサー featuring Konomi Suzuki TVアニメ「恋とプロデューサー～EVOL × LOVE～」EDテーマ PV",
-      type: "other",
-      channelName: "Digital Double -デジタルダブル-",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "F_sCcKMT3H4",
+      "title": "〈舞い降りてきた雪〉Digital Double官方PV",
+      "channelName": "Digital Double -デジタルダブル-",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "chUJ-9mYvuo",
+      "title": "〈舞い降りてきた雪〉MAPPA無字幕片尾",
+      "channelName": "MAPPA CHANNEL",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "120046:OP:1": [
     {
