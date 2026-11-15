@@ -1,6 +1,35 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "104462:IN:1": [
+    {
+      "youtubeVideoId": "Jeil_Nav8KQ",
+      "title": "sajou no hana〈ここにいたい〉藝人MV",
+      "channelName": "sajou no hana Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "s0KMD0X-Nhc",
+      "title": "sajou no hana〈ここにいたい〉原單曲Art Track",
+      "channelName": "sajou no hana - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ZdBNntIo0Kk",
+      "title": "第15話插曲〈ここにいたい〉官方動畫PV",
+      "channelName": "とあるプロジェクト公式toaru.project",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "113472:IN:1": [
     {
       "youtubeVideoId": "ncn8Z-m5-rk",
@@ -138,46 +167,79 @@ export const curated2020WinterThemeVideos = {
   ],
   "104462:OP:1": [
     {
-      youtubeVideoId: "RjWvdPxq-kw",
-      title: "TVアニメ「とある科学の超電磁砲T」OP映像",
-      type: "creditless_op",
-      channelName: "Warner Bros. Japan Anime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "RjWvdPxq-kw",
+      "title": "TVアニメ「とある科学の超電磁砲T」OP映像",
+      "type": "creditless_op",
+      "channelName": "Warner Bros. Japan Anime",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "olAOVxVLMB4",
+      "title": "fripSide〈final phase〉官方短版MV",
+      "channelName": "NBCUniversal Anime/Music",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104462:OP:2": [
     {
-      youtubeVideoId: "Ud8muRt82kI",
-      title:
-        "TVアニメ『とある科学の超電磁砲T』新OP映像（fripSide／dual existence）",
-      type: "creditless_op",
-      channelName: "とあるプロジェクト公式toaru.project",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "Ud8muRt82kI",
+      "title": "TVアニメ『とある科学の超電磁砲T』新OP映像（fripSide／dual existence）",
+      "type": "creditless_op",
+      "channelName": "とあるプロジェクト公式toaru.project",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "pFpn-iCVGJ8",
+      "title": "fripSide〈dual existence〉官方短版MV",
+      "channelName": "fripSide Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104462:ED:1": [
     {
-      youtubeVideoId: "xuo3MpsN_MA",
-      title:
-        "TVアニメ『とある科学の超電磁砲T』ED映像（岸田教団&THE明星ロケッツ／nameless story）",
-      type: "creditless_ed",
-      channelName: "とあるプロジェクト公式toaru.project",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "xuo3MpsN_MA",
+      "title": "TVアニメ『とある科学の超電磁砲T』ED映像（岸田教団&THE明星ロケッツ／nameless story）",
+      "type": "creditless_ed",
+      "channelName": "とあるプロジェクト公式toaru.project",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "jbpcXLcchrA",
+      "title": "岸田教団＆THE明星ロケッツ〈nameless story〉藝人官方影片",
+      "channelName": "岸田教団&THE明星ロケッツ 公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104462:ED:2": [
     {
-      youtubeVideoId: "u3FzrcYC5ds",
-      title:
-        "TVアニメ『とある科学の超電磁砲T』新ED映像（sajou no hana／青嵐のあとで）",
-      type: "creditless_ed",
-      channelName: "とあるプロジェクト公式toaru.project",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "u3FzrcYC5ds",
+      "title": "TVアニメ『とある科学の超電磁砲T』新ED映像（sajou no hana／青嵐のあとで）",
+      "type": "creditless_ed",
+      "channelName": "とあるプロジェクト公式toaru.project",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "gTFeQHPLmNE",
+      "title": "sajou no hana〈青嵐のあとで〉藝人MV",
+      "channelName": "sajou no hana Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104936:ED:1": [
     {

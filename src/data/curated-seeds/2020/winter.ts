@@ -13530,7 +13530,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx104462-KrVWRvPcR7ci.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/104462-ZOXmV3cAQt8G.jpg",
   "editorialWeekday": 5,
-  "broadcastLabel": "原TV1/10首播；首日精確分鐘另待原放送公告核定",
+  "broadcastLabel": "1/10起AT-X週五22:00 JST首播，TOKYO MX／ABEMA翌日01:05同步。冬第1–9話、春第10–15話，前兩季精選後7/17重播第15話；7/24復播新第16話並換曲，9/25第25話完結。1/5第1話另有影院先行。",
   "status": "finished",
   "officialSiteUrl": "https://toaru-project.com/railgun_3/",
   "anilistUrl": "https://anilist.co/anime/104462",
@@ -13583,7 +13583,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%B8%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2_%28%E5%8B%95%E7%95%AB%29",
@@ -13591,12 +13591,80 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5527/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=olAOVxVLMB4",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801707402?i=1801707403",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1805000939",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1805000940",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801707402",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801707403",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "fripSide",
           "role": "vocals"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "lyrics"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "composition"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -13645,25 +13713,329 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "toaru-kagaku-no-railgun-t-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://www.mau2.com/anime/toarukagakunorailgunt",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://www.youtube.com/watch?v=olAOVxVLMB4",
+            "https://www.mau2.com/anime/toarukagakunorailgunt"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801707402?i=1801707403"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0603"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0604"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1805000940"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1805000940"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://music.apple.com/hk/album/1805000939"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1805000939"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801707403"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801707403"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801707402?i=1801707403",
+            "https://music.apple.com/hk/album/1801707402"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801707402"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=olAOVxVLMB4"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "olAOVxVLMB4"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "原期第一方逐曲名義與獨立用途交叉核對；既有影音和用途序號保留。",
-          "resumeWhen": "待未核可選資料有本曲精確正證後續補；不由影片或商品新增錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "日本實體、香港完整版、正式TVsize與官方MV分列。香港完整版EP的商品日期與單曲及官方原盤有異，商品日期留空；各話實播混音待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第2–15話片頭；第1話使用片頭畫面作片尾",
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single",
+          "title": "final phase",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental",
+          "title": "final phase（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize",
+          "title": "final phase（TVsize）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gnca-0603",
+          "title": "final phase",
+          "type": "single",
+          "date": {
+            "value": "2020-02-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            },
+            {
+              "title": "final phase（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0603"
+        },
+        {
+          "id": "gnca-0604",
+          "title": "final phase",
+          "type": "single",
+          "date": {
+            "value": "2020-02-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            },
+            {
+              "title": "final phase（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0604"
+        },
+        {
+          "id": "apple-hk-1805000939",
+          "title": "final phase",
+          "type": "ep",
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "apple-hk-1801707402",
+          "title": "final phase（TVsize）",
+          "type": "single",
+          "date": {
+            "value": "2022-09-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "final phase（TVsize）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "final phase｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1805000940",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1805000939",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "final phase（TVsize）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801707403",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801707402",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+        }
+      ]
     },
     {
       "type": "OP",
@@ -13703,7 +14075,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%B8%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2_%28%E5%8B%95%E7%95%AB%29",
@@ -13711,12 +14083,87 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index01230000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5527/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pFpn-iCVGJ8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801709237?i=1801709238",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1804999952",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1804999954",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801709237",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801709238",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
         {
           "name": "fripSide",
           "role": "vocals"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "lyrics"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "composition"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -13765,25 +14212,330 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-24",
           "targetId": "toaru-kagaku-no-railgun-t-op-2"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/news/index01230000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://www.youtube.com/watch?v=pFpn-iCVGJ8",
+            "https://www.mau2.com/anime/toarukagakunorailgunt"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-2-song-single-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801709237?i=1801709238"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-2-song-released-tvsize"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0608"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0609"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1804999954"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1804999954"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://music.apple.com/hk/album/1804999952"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1804999952"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801709238"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801709238"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801709237?i=1801709238",
+            "https://music.apple.com/hk/album/1801709237"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801709237"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=pFpn-iCVGJ8"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "pFpn-iCVGJ8"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "原期第一方逐曲名義與獨立用途交叉核對；既有影音和用途序號保留。",
-          "resumeWhen": "待未核可選資料有本曲精確正證後續補；不由影片或商品新增錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "日本實體、香港完整版、正式TVsize與官方MV分列。香港完整版EP的商品日期與單曲及官方原盤有異，商品日期留空；各話實播混音待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第16–24話片頭；第25話省略片頭",
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single",
+          "title": "dual existence",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-2-song-single-instrumental",
+          "title": "dual existence（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-2-song-released-tvsize",
+          "title": "dual existence（TVsize）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gnca-0608",
+          "title": "dual existence",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "dual existence",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single"
+            },
+            {
+              "title": "dual existence（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0608"
+        },
+        {
+          "id": "gnca-0609",
+          "title": "dual existence",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "dual existence",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single"
+            },
+            {
+              "title": "dual existence（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0609"
+        },
+        {
+          "id": "apple-hk-1804999952",
+          "title": "dual existence",
+          "type": "ep",
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "dual existence",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "apple-hk-1801709237",
+          "title": "dual existence（TVsize）",
+          "type": "single",
+          "date": {
+            "value": "2020-07-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "dual existence（TVsize）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-released-tvsize"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "dual existence｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1804999954",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1804999952",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "dual existence（TVsize）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801709238",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801709237",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-2-song-released-tvsize"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -13824,7 +14576,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%B8%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2_%28%E5%8B%95%E7%95%AB%29",
@@ -13832,6 +14584,48 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5527/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1490555698",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1490555699",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jbpcXLcchrA",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -13916,22 +14710,240 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://toaru-project.com/railgun_t/music/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1490555699"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1490555699"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html",
+            "https://music.apple.com/jp/album/1490555698"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1490555698"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "1000757475"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://whv-amusic.com/kisidakyoudan/sp/discography/single/index00130000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "1000757476"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=jbpcXLcchrA"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "jbpcXLcchrA"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期第一方逐曲名義與獨立用途交叉核對；既有影音和用途序號保留。",
-          "resumeWhen": "待未核可選資料有本曲精確正證後續補；不由影片或商品新增錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "正式原盤與官方影片分列，香港直接原盤及各話TV剪輯仍待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第2–15話片尾，第1話改用〈final phase〉",
+      "releaseDate": "2020-01-29",
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single",
+          "title": "nameless story",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "nameless story｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1490555699",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1490555698",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-jp-1490555698",
+          "title": "nameless story",
+          "type": "ep",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "岸田教団＆THE明星ロケッツ",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "nameless story",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment"
+        },
+        {
+          "id": "1000757475",
+          "title": "nameless story",
+          "type": "single",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "岸田教団＆THE明星ロケッツ",
+          "edition": "藝人盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "nameless story",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment",
+          "catalogNumber": "1000757475"
+        },
+        {
+          "id": "1000757476",
+          "title": "nameless story",
+          "type": "single",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "岸田教団＆THE明星ロケッツ",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "nameless story",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-ed-1-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment",
+          "catalogNumber": "1000757476"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -13972,7 +14984,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%B8%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2_%28%E5%8B%95%E7%95%AB%29",
@@ -13980,6 +14992,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index01330000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt/ep/25",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index00920000.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1512370717",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1512370718",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gTFeQHPLmNE",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "credits": [
@@ -14060,22 +15121,197 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://toaru-project.com/railgun_t/music/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/news/index01330000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt",
+            "https://www.mau2.com/anime/toarukagakunorailgunt/ep/25"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/news/index01330000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index01330000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-2-song-2020-original-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index00920000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "1000764975"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1512370718"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1512370718"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index00920000.html",
+            "https://music.apple.com/jp/album/1512370717"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1512370717"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=gTFeQHPLmNE"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gTFeQHPLmNE"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "原期第一方逐曲名義與獨立用途交叉核對；既有影音和用途序號保留。",
-          "resumeWhen": "待未核可選資料有本曲精確正證後續補；不由影片或商品新增錄音。",
-          "checkedAt": "2026-10-24"
+          "note": "單曲配信日與8/19實體改期各自記錄。日本數位商品仍標原排期，商品日期留空；香港直接商品與實播剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第16–25話片尾；第25話省略片頭，片尾沿用此曲",
+      "releaseDate": "2020-07-25",
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-ed-2-song-2020-original-single",
+          "title": "青嵐のあとで",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "1000764975",
+          "title": "青嵐のあとで",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "sajou no hana",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "青嵐のあとで",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-ed-2-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment",
+          "catalogNumber": "1000764975"
+        },
+        {
+          "id": "apple-jp-1512370717",
+          "title": "青嵐のあとで",
+          "type": "ep",
+          "artistDisplayName": "sajou no hana",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "青嵐のあとで",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-ed-2-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "青嵐のあとで｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1512370718",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1512370717",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-ed-2-song-2020-original-single"
+        }
+      ]
     },
     {
       "id": "toaru-kagaku-no-railgun-t-in-1",
@@ -14097,7 +15333,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "arrangement"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ここにいたい｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1512370719",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1512370717",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-in-1-song-2020-original-single"
+        }
+      ],
       "songId": "toaru-kagaku-no-railgun-t-in-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
@@ -14109,7 +15357,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-24"
+          "verifiedAt": "2026-11-15"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E7%A7%91%E5%AD%B8%E8%B6%85%E9%9B%BB%E7%A3%81%E7%A0%B2_%28%E5%8B%95%E7%95%AB%29",
@@ -14117,6 +15365,76 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index01160000.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt/ep/15",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5527/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index00930000.html",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/news/index00920000.html",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1512370717",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1512370719",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Jeil_Nav8KQ",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=s0KMD0X-Nhc",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZdBNntIo0Kk",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
         }
       ],
       "evidence": [
@@ -14175,22 +15493,613 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://toaru-project.com/railgun_t/music/"
           ],
           "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/news/index01160000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt/ep/15",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-in-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/news/index01160000.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt/ep/15"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-in-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index00930000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-in-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-in-1-song-2020-original-single"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index00920000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "1000764975"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1512370719"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/1512370719"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/news/index00920000.html",
+            "https://music.apple.com/jp/album/1512370717"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-1512370717"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Jeil_Nav8KQ"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "Jeil_Nav8KQ"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=s0KMD0X-Nhc"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "s0KMD0X-Nhc"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZdBNntIo0Kk",
+            "https://toaru-project.com/railgun_t/news/index01160000.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "ZdBNntIo0Kk"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "本期插曲用途及歌唱名義有逐曲證據；正式音源與發行連結尚待補齊。",
-          "resumeWhen": "待本曲正式音源、發行與平台資料有精確證據後逐欄續補。",
-          "checkedAt": "2026-10-24"
+          "note": "單曲配信日與8/19實體改期各自記錄。日本數位商品仍標原排期，商品日期留空；香港直接商品與實播剪輯待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-10-24"
+      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第15話（5/22 AT-X首播）插曲；7/17重播不另列首次用途季度",
+      "releaseDate": "2020-05-23",
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-in-1-song-2020-original-single",
+          "title": "ここにいたい",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "1000764975",
+          "title": "青嵐のあとで",
+          "type": "single",
+          "date": {
+            "value": "2020-08-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "sajou no hana",
+          "edition": "CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ここにいたい",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-in-1-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment",
+          "catalogNumber": "1000764975"
+        },
+        {
+          "id": "apple-jp-1512370717",
+          "title": "青嵐のあとで",
+          "type": "ep",
+          "artistDisplayName": "sajou no hana",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ここにいたい",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-in-1-song-2020-original-single"
+            }
+          ],
+          "label": "Warner Bros. Home Entertainment"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 3,
+      "id": "toaru-kagaku-no-railgun-t-ed-3",
+      "titleJa": "final phase",
+      "artistDisplayName": "fripSide",
+      "songId": "toaru-kagaku-no-railgun-t-op-1-song",
+      "sources": [
+        {
+          "url": "https://toaru-project.com/railgun_t/music/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://toaru-project.com/railgun_t/special/report.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/toarukagakunorailgunt/ep/1",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5527/time",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801707402?i=1801707403",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1805000939",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1805000940",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1801707402",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1801707403",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-15"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "final phase｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1805000940",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1805000939",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "final phase（TVsize）｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1801707403",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1801707402",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://toaru-project.com/railgun_t/special/report.html",
+            "https://www.mau2.com/anime/toarukagakunorailgunt/ep/1",
+            "https://cal.syoboi.jp/tid/5527/time"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://www.mau2.com/anime/toarukagakunorailgunt/ep/1"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801707402?i=1801707403"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0603"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "gnca-0604"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1805000940"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1805000940"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://toaru-project.com/railgun_t/music/",
+            "https://music.apple.com/hk/album/1805000939"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1805000939"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1801707403"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/hk/song/1801707403"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1801707402?i=1801707403",
+            "https://music.apple.com/hk/album/1801707402"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-hk-1801707402"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第1話（1/10）片尾；常規片頭畫面移至結尾",
+      "lastVerifiedAt": "2026-11-15",
+      "credits": [
+        {
+          "name": "fripSide",
+          "role": "vocals"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "lyrics"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "composition"
+        },
+        {
+          "name": "八木沼悟志",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single",
+          "title": "final phase",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental",
+          "title": "final phase（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize",
+          "title": "final phase（TVsize）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gnca-0603",
+          "title": "final phase",
+          "type": "single",
+          "date": {
+            "value": "2020-02-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "初回限定盤CD+DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            },
+            {
+              "title": "final phase（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0603"
+        },
+        {
+          "id": "gnca-0604",
+          "title": "final phase",
+          "type": "single",
+          "date": {
+            "value": "2020-02-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            },
+            {
+              "title": "final phase（Instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan",
+          "catalogNumber": "GNCA-0604"
+        },
+        {
+          "id": "apple-hk-1805000939",
+          "title": "final phase",
+          "type": "ep",
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "final phase",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-2020-original-single"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "apple-hk-1801707402",
+          "title": "final phase（TVsize）",
+          "type": "single",
+          "date": {
+            "value": "2022-09-06",
+            "precision": "day"
+          },
+          "artistDisplayName": "fripSide",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "final phase（TVsize）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "toaru-kagaku-no-railgun-t-op-1-song-released-tvsize"
+            }
+          ],
+          "label": "NBCUniversal Entertainment Japan"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "片頭畫面在首話結尾播出。實際音源剪輯與正式TVsize母帶對應待核。",
+          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "checkedAt": "2026-11-15"
+        }
+      ]
     }
   ],
   "verifiedAt": "2026-09-02",
@@ -14201,14 +16110,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://toaru-project.com/railgun_t/news/index00910000.html",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-15"
     },
     {
       "url": "https://dengekionline.com/articles/37282/",
@@ -14223,8 +16132,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "en",
       "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://toaru-project.com/railgun_t/news/index00100000.html",
+      "label": "原首播及ABEMA同步時間",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.at-x.com/pdf/program/8bb4c555df8c49649eee5c94c376b179.pdf",
+      "label": "AT-X末話時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5527/time",
+      "label": "逐話首播、重播與日期更動",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-15"
     }
-  ]
+  ],
+  "broadcastTimeJst": "22:00"
 },
   {
   "anilistId": 108463,

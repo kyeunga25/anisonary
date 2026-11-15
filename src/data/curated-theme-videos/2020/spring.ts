@@ -1,6 +1,293 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "111762:IN:2": [
+    {
+      "youtubeVideoId": "O6H2ehdKtqE",
+      "title": "〈馳せる未来〉原聲帶Art Track",
+      "channelName": "Masaru Yokoyama - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fruits-basket-2nd-season-ed-2-song-2020-sound-collection"
+    }
+  ],
+  "111762:ED:3": [
+    {
+      "youtubeVideoId": "xi2cefj5pOU",
+      "title": "MONKEY MAJIK〈Eden〉動畫片尾畫面特別MV",
+      "channelName": "MONKEY MAJIK OFFICIAL CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111762:ED:1": [
+    {
+      "youtubeVideoId": "Qwd4oXZ5HS0",
+      "title": "THE CHARM PARK〈ad meliora〉官方片尾影像版本",
+      "channelName": "THE CHARM PARK",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "MTgTdDTzUYM",
+      "title": "〈ad meliora〉acoustic mix官方Art Track",
+      "channelName": "THE CHARM PARK - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fruits-basket-2nd-season-ed-1-song-acoustic-mix"
+    }
+  ],
+  "111762:OP:2": [
+    {
+      "youtubeVideoId": "ik0GKdDJgH0",
+      "title": "土岐麻子〈HOME〉動畫片頭畫面特別MV",
+      "channelName": "土岐麻子",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ti62cJ_3oEM",
+      "title": "土岐麻子〈HOME〉藝人MV",
+      "channelName": "土岐麻子",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111762:OP:1": [
+    {
+      "youtubeVideoId": "qEIeyDGV_6c",
+      "title": "〈プリズム〉官方動畫片頭版本",
+      "channelName": "avex",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "RM2OEFjKCuk",
+      "title": "AmPm feat. みゆな〈プリズム〉官方歌詞影片",
+      "channelName": "AmPm",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114233:ED:2": [
+    {
+      "youtubeVideoId": "vhpECHtZTlM",
+      "title": "〈ハートフル〉官方特別PV",
+      "channelName": "ガンダムチャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114233:OP:1": [
+    {
+      "youtubeVideoId": "Mdu9Zgp-QRc",
+      "title": "PENGUIN RESEARCH〈HATENA〉原單曲Art Track",
+      "channelName": "PENGUIN RESEARCH - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-op-1-song-2020-digital-single"
+    },
+    {
+      "youtubeVideoId": "UW1a3h9Hlf4",
+      "title": "〈HATENA〉《逆光備忘録》版本Art Track",
+      "channelName": "PENGUIN RESEARCH - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109019:ED:1": [
+    {
+      "youtubeVideoId": "_Maiqyj7MN8",
+      "title": "《放學後堤防日誌》官方片尾映像〈釣りの世界へ〉",
+      "channelName": "FlyingDog",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109019:OP:1": [
+    {
+      "youtubeVideoId": "OsJKNZfNgqo",
+      "title": "《放學後堤防日誌》官方片頭映像〈SEA HORIZON〉",
+      "channelName": "FlyingDog",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "tVhJk1pPh5U",
+      "title": "海野高校ていぼう部〈SEA HORIZON〉官方短版MV",
+      "channelName": "FlyingDog",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114043:IN:1": [
+    {
+      "youtubeVideoId": "ZiR6LEHPoJI",
+      "title": "nano.RIPE〈スノードロップ〉官方短版MV",
+      "channelName": "Lantis Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114043:ED:1": [
+    {
+      "youtubeVideoId": "b58RjUp_Ie0",
+      "title": "渕上舞〈Crossing Road〉官方短版影片",
+      "channelName": "渕上 舞Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "wWzdUEPWnD8",
+      "title": "渕上舞〈Crossing Road〉原單曲Art Track",
+      "channelName": "Mai Fuchigami - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "shokugeki-no-souma-gou-no-sara-ed-1-song-2020-original-single"
+    }
+  ],
+  "114043:OP:1": [
+    {
+      "youtubeVideoId": "x5mDp8V15ug",
+      "title": "nano.RIPE〈ラストチャプター〉官方試聽",
+      "channelName": "Lantis Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "I9bXbD-TpnU",
+      "title": "nano.RIPE〈ラストチャプター〉專輯Art Track",
+      "channelName": "nano.RIPE - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "114888:ED:1": [
+    {
+      "youtubeVideoId": "djcRSEmnvZ8",
+      "title": "OKAMOTO’S〈Welcome My Friend〉官方MV",
+      "channelName": "OKAMOTO'S Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "bd-O2NzTPhY",
+      "title": "OKAMOTO’S〈Welcome My Friend〉EP Art Track",
+      "channelName": "OKAMOTO'S Official YouTube Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2020-welcome-my-friend-ep"
+    },
+    {
+      "youtubeVideoId": "AWxk7ZsB54c",
+      "title": "OKAMOTO’S〈Welcome My Friend〉KNO WHERE Art Track",
+      "channelName": "OKAMOTO'S Official YouTube Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-2021-kno-where-track"
+    },
+    {
+      "youtubeVideoId": "js05ruSiGZU",
+      "title": "OKAMOTO’S〈Welcome My Friend〉THE FIRST TAKE FES現場",
+      "channelName": "THE FIRST TAKE",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "KGD4VU9PbTk",
+      "title": "OKAMOTO’S〈Welcome My Friend〉From THE FIRST TAKE Art Track",
+      "channelName": "OKAMOTO'S Official YouTube Channel",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fugou-keiji-balance-unlimited-ed-1-song-the-first-take-fes"
+    }
+  ],
+  "114888:OP:1": [
+    {
+      "youtubeVideoId": "VUrSsrAnq8M",
+      "title": "SixTONES〈NAVIGATOR〉官方MV（YouTube剪輯）",
+      "channelName": "SixTONES",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "DrW38T_v6tI",
+      "title": "SixTONES〈NAVIGATOR〉日語歌詞影片",
+      "channelName": "SixTONES",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "lmzETi6GsB0",
+      "title": "SixTONES〈NAVIGATOR〉英語歌詞影片",
+      "channelName": "SixTONES",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "GpPHTvQ10gg",
+      "title": "《富豪刑警》7月復播主PV（使用〈NAVIGATOR〉）",
+      "channelName": "アニプレックス チャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "112325:IN:1": [
     {
       "youtubeVideoId": "bcUQr7fhumQ",
@@ -28,24 +315,43 @@ export const curated2020SpringThemeVideos = {
   ],
   "112444:OP:1": [
     {
-      youtubeVideoId: "sQTd5GZmR3A",
-      title: "Mia REGINA /  I got it! Music Video [short ver.]",
-      type: "tv_size",
-      channelName: "Lantis Channel",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "sQTd5GZmR3A",
+      "title": "Mia REGINA〈I got it!〉官方短版MV",
+      "type": "music_video",
+      "channelName": "Lantis Channel",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "f56Rv8D0mrc",
+      "title": "Mia REGINA〈I got it!〉原單曲Art Track",
+      "channelName": "Mia REGINA - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "appare-ranman-op-1-song-2020-original-single"
+    }
   ],
   "112444:ED:1": [
     {
-      youtubeVideoId: "HSaLtkKk-GE",
-      title:
-        "森久保祥太郎 - I'm Nobody（TVアニメ「天晴爛漫！」エンディング主題歌） Music Video short ver.",
-      type: "tv_size",
-      channelName: "Lantis Channel",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "HSaLtkKk-GE",
+      "title": "森久保祥太郎〈I’m Nobody〉官方短版MV",
+      "type": "music_video",
+      "channelName": "Lantis Channel",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "Hn0xzD14A7Y",
+      "title": "森久保祥太郎〈I’m Nobody〉原單曲Art Track",
+      "channelName": "Showtaro Morikubo - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "appare-ranman-ed-1-song-2020-digital-single"
+    }
   ],
   "110547:OP:1": [
     {
@@ -933,12 +1239,12 @@ export const curated2020SpringThemeVideos = {
   ],
   "112302:ED:1": [
     {
-      youtubeVideoId: "swxyb2OhCY0",
-      title: "SHE'S - One【MV】",
-      type: "music_video",
-      channelName: "SHE'S Channel",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "swxyb2OhCY0",
+      "title": "SHE'S - One【MV】",
+      "type": "music_video",
+      "channelName": "SHE'S Channel",
+      "officialStatus": "official",
+      "embeddable": true
     },
     {
       "youtubeVideoId": "Yl0gWzSSKrA",
@@ -949,6 +1255,15 @@ export const curated2020SpringThemeVideos = {
       "embeddable": true,
       "recordingId": "major-2nd-season-2-ed-1-song-official-audio"
     },
+    {
+      "youtubeVideoId": "lMEByegO77o",
+      "title": "SHE’S〈One〉《棒球大聯盟2nd》版官方短預告",
+      "channelName": "SHE'S Channel",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "112302:ED:2": [
     {
@@ -1078,14 +1393,31 @@ export const curated2020SpringThemeVideos = {
   ],
   "114411:ED:1": [
     {
-      youtubeVideoId: "7l1KCVLev60",
-      title:
-        "TVアニメ「文豪とアルケミスト〜審判ノ歯車〜」 ED映像（藪の中のジンテーゼ ／南條愛乃）【NBCユニバーサルAnime✕Music30周年記念OP/ED毎日投稿企画】",
-      type: "creditless_ed",
-      channelName: "NBCUniversal Anime/Music",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "7l1KCVLev60",
+      "title": "TVアニメ「文豪とアルケミスト〜審判ノ歯車〜」 ED映像（藪の中のジンテーゼ ／南條愛乃）【NBCユニバーサルAnime✕Music30周年記念OP/ED毎日投稿企画】",
+      "type": "creditless_ed",
+      "channelName": "NBCUniversal Anime/Music",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "ZDUUBrt1_2s",
+      "title": "南條愛乃〈藪の中のジンテーゼ〉官方短版MV",
+      "channelName": "南條愛乃 Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "GDF5SAJMsT4",
+      "title": "南條愛乃〈藪の中のジンテーゼ〉官方完整版MV",
+      "channelName": "南條愛乃 Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "112534:OP:1": [
     {
