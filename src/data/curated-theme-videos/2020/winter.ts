@@ -1,6 +1,407 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "106863:IN:2": [
+    {
+      "youtubeVideoId": "p90VxhKQd1o",
+      "title": "君とWitches☆彡｜メイプル＆シナモン 官方短版",
+      "channelName": "avex pictures",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "106863:ED:2": [
+    {
+      "youtubeVideoId": "r5rrd06agVM",
+      "title": "ホントノココロ｜avex 官方短版",
+      "channelName": "avex pictures",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "106863:ED:1": [
+    {
+      "youtubeVideoId": "0Xcu9TMHxrA",
+      "title": "陽だまりの香り｜官方片尾畫面比較",
+      "channelName": "avex pictures",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "106863:OP:1": [
+    {
+      "youtubeVideoId": "U3maZmoM3YQ",
+      "title": "Shiny Happy Days｜官方片頭畫面比較",
+      "channelName": "avex pictures",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110350:IN:6": [
+    {
+      "youtubeVideoId": "-N2qioNGR_Y",
+      "title": "Butterfly",
+      "channelName": "MIYAVI",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "id-invaded-in-6-song-original-full"
+    }
+  ],
+  "110350:IN:2": [
+    {
+      "youtubeVideoId": "q5bpq8a9CCo",
+      "title": "Samurai 45",
+      "channelName": "MIYAVI",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "id-invaded-in-2-song-original-full"
+    }
+  ],
+  "110350:ED:1": [
+    {
+      "youtubeVideoId": "Ugk-kFdKECo",
+      "title": "Other Side",
+      "channelName": "MIYAVI",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "15FKY0uXro0",
+      "title": "Other Side",
+      "channelName": "MIYAVI",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "id-invaded-ed-1-song-original-full"
+    }
+  ],
+  "110350:OP:1": [
+    {
+      "youtubeVideoId": "Bd5ptxUujYA",
+      "title": "Sou「ミスターフィクサー」MV \"Mr.Fixer\"",
+      "channelName": "Sou",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108628:ED:3": [
+    {
+      "youtubeVideoId": "S0-YJXPkoQg",
+      "title": "Every Fight｜官方唱片 CM",
+      "channelName": "number24",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108628:ED:2": [
+    {
+      "youtubeVideoId": "8oIv4RkzaA0",
+      "title": "COMICAL TRY!!｜官方唱片 CM",
+      "channelName": "number24",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108628:ED:1": [
+    {
+      "youtubeVideoId": "3bwmnAMumUg",
+      "title": "君といるなら｜官方唱片 CM",
+      "channelName": "number24",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108628:OP:1": [
+    {
+      "youtubeVideoId": "54biCqSCTHs",
+      "title": "SET!｜官方唱片 CM",
+      "channelName": "number24",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "uxF1YxfqIRY",
+      "title": "SET!｜官方動畫片頭",
+      "channelName": "number24",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104051:ED:2": [
+    {
+      "youtubeVideoId": "kC71rY1GrPw",
+      "title": "ニグレド｜官方 MV 預告",
+      "channelName": "HIGHWAY STAR Official YouTube Channel",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104051:ED:1": [
+    {
+      "youtubeVideoId": "SY4J6YFrFMA",
+      "title": "アリシア｜官方完整 MV",
+      "channelName": "ClariS Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104051:OP:1": [
+    {
+      "youtubeVideoId": "aJzOm46_MlI",
+      "title": "ごまかし｜官方 MV YouTube 剪輯",
+      "channelName": "TrySail（麻倉もも・雨宮天・夏川椎菜）official YouTube channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109298:ED:1": [
+    {
+      "youtubeVideoId": "gauEUNi0X_U",
+      "title": "名前のない青｜官方 MV",
+      "channelName": "神様、僕は気づいてしまった",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109298:OP:1": [
+    {
+      "youtubeVideoId": "76sNmqMzUuI",
+      "title": "Easy Breezy｜官方 MV",
+      "channelName": "chelmico",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "PriNj4gtwBs",
+      "title": "Easy Breezy｜官方音軌",
+      "channelName": "chelmico - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101350:ED:1": [
+    {
+      "youtubeVideoId": "ZVCj13vjIig",
+      "title": "image _____｜官方 MV",
+      "channelName": "眩暈SIREN Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "6vcXDN17F_s",
+      "title": "image _____｜官方動畫片尾",
+      "channelName": "TWIN ENGINE",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101350:OP:1": [
+    {
+      "youtubeVideoId": "AdYmTMfnH4I",
+      "title": "蝶の飛ぶ水槽｜官方 MV",
+      "channelName": "凛として時雨 / TK",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "AIRSBfIs6xc",
+      "title": "蝶の飛ぶ水槽｜官方動畫片頭",
+      "channelName": "TWIN ENGINE",
+      "type": "tv_size",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "106625:IN:3": [
+    {
+      "youtubeVideoId": "GswpIEDMn0c",
+      "title": "稲荷崎応援曲②｜NexTone 官方音軌",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "haikyuu-to-the-top-in-3-song-brass-band"
+    }
+  ],
+  "106625:IN:2": [
+    {
+      "youtubeVideoId": "xaNg8lcGa2M",
+      "title": "稲荷崎応援曲①｜NexTone 官方音軌",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "haikyuu-to-the-top-in-2-song-brass-band"
+    }
+  ],
+  "106625:IN:1": [
+    {
+      "youtubeVideoId": "OcU2NOnHSFw",
+      "title": "PHOENIX -吹奏楽 Ver.-｜NexTone 官方音軌",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "haikyuu-to-the-top-op-1-song-brass-band"
+    }
+  ],
+  "101168:ED:2": [
+    {
+      "youtubeVideoId": "5PfhIcc5pnQ",
+      "title": "陽菜(CV:本泉莉奈)、リィン(CV:小澤亜李)、ナナ(CV:伊藤静) / Reason of Life(TVアニメ「プランダラ」エンディング・テーマ)｜單段試聽",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101168:ED:1": [
+    {
+      "youtubeVideoId": "h08TIHE6PiI",
+      "title": "陽菜(CV:本泉莉奈) / Countless days(TVアニメ「プランダラ」エンディング・テーマ)｜單段試聽",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101168:OP:2": [
+    {
+      "youtubeVideoId": "0UdDMs8VZXg",
+      "title": "【MV】伊藤美来 / 孤高の光 Lonely dark(TVアニメ「プランダラ」第2クールオープニング・テーマ)",
+      "channelName": "伊藤美来 Official Music Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101168:OP:1": [
+    {
+      "youtubeVideoId": "PR64AW9ISGk",
+      "title": "【MV】伊藤美来 / Plunderer(TVアニメ「プランダラ」オープニング・テーマ)",
+      "channelName": "伊藤美来 Official Music Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107420:ED:1": [
+    {
+      "youtubeVideoId": "W5XBtuCHnVo",
+      "title": "Reverb｜官方 MV",
+      "channelName": "内田彩 - Aya Uchida",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "zgFahuB-1Go",
+      "title": "Reverb｜動畫片尾歌詞版",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107420:OP:1": [
+    {
+      "youtubeVideoId": "h_PAa9zmB3o",
+      "title": "Unbreakable｜官方 MV",
+      "channelName": "悠木碧 - Aoi Yuki",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107651:OP:1": [
+    {
+      "youtubeVideoId": "JFySSje7lWA",
+      "title": "Act! Addict! Actors!｜SEASON SPRING 本PV 第2弾",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110354:ED:1": [
+    {
+      "youtubeVideoId": "WWTFfEnMCCc",
+      "title": "TVアニメ『BNA ビー・エヌ・エー』ノンクレジットエンディング映像　／ 『NIGHT RUNNING』Shin Sakiura feat. AAAMYYY",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110354:OP:1": [
+    {
+      "youtubeVideoId": "3Okzra8Anr4",
+      "title": "TVアニメ『BNA ビー・エヌ・エー』ノンクレジットオープニング映像 ／ 『Ready to』影森みちる（CV：諸星すみれ）",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "104462:IN:1": [
     {
       "youtubeVideoId": "Jeil_Nav8KQ",
@@ -273,23 +674,42 @@ export const curated2020WinterThemeVideos = {
   ],
   "108092:OP:1": [
     {
-      youtubeVideoId: "nIM0u59Le1k",
-      title: "東山奈央「歩いていこう！」ミュージックビデオ（Short Ver.）",
-      type: "tv_size",
-      channelName: "Nao Toyama",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "nIM0u59Le1k",
+      "title": "東山奈央「歩いていこう！」ミュージックビデオ（Short Ver.）",
+      "type": "music_video",
+      "channelName": "東山奈央",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "RaHVqxvximc",
+      "title": "歩いていこう！｜FlyingDog 官方音軌",
+      "channelName": "Nao Toyama - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "koisuru-asteroid-op-1-song-full"
+    }
   ],
   "108092:ED:1": [
     {
-      youtubeVideoId: "NlwRV_TJLSw",
-      title: "鈴木みのり「夜空」",
-      type: "full_music_video",
-      channelName: "鈴木みのり",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "NlwRV_TJLSw",
+      "title": "鈴木みのり「夜空」",
+      "type": "full_music_video",
+      "channelName": "鈴木みのり",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "Ct-zSVAldXc",
+      "title": "鈴木みのり - 『夜空』（Short Ver.）",
+      "channelName": "鈴木みのり",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "108092:ED:2": [
     {
@@ -343,44 +763,63 @@ export const curated2020WinterThemeVideos = {
   ],
   "105190:OP:1": [
     {
-      youtubeVideoId: "FjdvgI_jVP8",
-      title: "ASCA「CHAIN」（アニメ「ダーウィンズゲーム」OP）",
-      type: "full_music_video",
-      channelName: "ASCA Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "FjdvgI_jVP8",
+      "title": "ASCA 「CHAIN」 (Anime「ダーウィンズゲーム(Darwins Game)」OP)",
+      "type": "full_music_video",
+      "channelName": "ASCA Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "105190:ED:1": [
     {
-      youtubeVideoId: "v2BV5mU3X-4",
-      title: "綾野ましろ『Alive』Music Video",
-      type: "full_music_video",
-      channelName: "綾野ましろ official YouTube channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "v2BV5mU3X-4",
+      "title": "綾野ましろ 『Alive』Music Video",
+      "type": "full_music_video",
+      "channelName": "綾野ましろ official YouTube channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "105228:OP:1": [
     {
-      youtubeVideoId: "iH_YJde1yps",
-      title: "TVアニメ『ドロヘドロ』ノンクレジットオープニング映像",
-      type: "creditless_op",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "iH_YJde1yps",
+      "title": "TVアニメ『ドロヘドロ』ノンクレジットオープニング映像",
+      "type": "creditless_op",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "BK0tDxrzUOc",
+      "title": "Welcome トゥ 混沌",
+      "channelName": "(K)NoW_NAME - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "dorohedoro-op-1-song-full"
+    }
   ],
   "105228:ED:1": [
     {
-      youtubeVideoId: "BA_JgFXNxck",
-      title:
-        "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「Who am I ?」",
-      type: "creditless_ed",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "BA_JgFXNxck",
+      "title": "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「Who am I ?」",
+      "type": "creditless_ed",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "6hR65d-n_Ao",
+      "title": "Who am I ?",
+      "channelName": "(K)NoW_NAME - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "dorohedoro-ed-1-song-full"
+    }
   ],
   "105228:ED:2": [
     {
@@ -395,13 +834,23 @@ export const curated2020WinterThemeVideos = {
   ],
   "105228:ED:3": [
     {
-      youtubeVideoId: "KY3MyHAFc68",
-      title: "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「D.D.D.D」",
-      type: "creditless_ed",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "KY3MyHAFc68",
+      "title": "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「D.D.D.D」",
+      "type": "creditless_ed",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "hF7QDvrBT9Q",
+      "title": "D.D.D.D.",
+      "channelName": "(K)NoW_NAME - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "dorohedoro-ed-3-song-full"
+    }
   ],
   "105228:ED:4": [
     {
@@ -427,33 +876,43 @@ export const curated2020WinterThemeVideos = {
   ],
   "105228:ED:6": [
     {
-      youtubeVideoId: "eVEWqzmJQG4",
-      title: "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「404」",
-      type: "creditless_ed",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "eVEWqzmJQG4",
+      "title": "TVアニメ『ドロヘドロ』ノンクレジットエンディング映像「404」",
+      "type": "creditless_ed",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "fpZpNdOXQYU",
+      "title": "404",
+      "channelName": "(K)NoW_NAME - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "dorohedoro-ed-6-song-full"
+    }
   ],
   "108450:OP:1": [
     {
-      youtubeVideoId: "6LZSjZL7c-U",
-      title: "神山羊 - 群青【Music Video】",
-      type: "full_music_video",
-      channelName: "神山羊 / Yoh Kamiyama",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "6LZSjZL7c-U",
+      "title": "群青｜官方 MV",
+      "type": "music_video",
+      "channelName": "神山羊",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "108450:ED:1": [
     {
-      youtubeVideoId: "B7HeN3JO9OI",
-      title: "赤い公園「絶対零度」Music Video",
-      type: "full_music_video",
-      channelName: "赤い公園 Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "B7HeN3JO9OI",
+      "title": "絶対零度｜官方 MV",
+      "type": "music_video",
+      "channelName": "赤い公園",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "106625:OP:1": [
     {
@@ -477,24 +936,23 @@ export const curated2020WinterThemeVideos = {
   ],
   "98515:OP:1": [
     {
-      youtubeVideoId: "6cjqLpr27ss",
-      title:
-        "Liyuu - Magic Words（TVアニメ「はてな☆イリュージョン」OP主題歌）1cho. ver",
-      type: "tv_size",
-      channelName: "Lantis Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "6cjqLpr27ss",
+      "title": "Magic Words｜官方短版 MV（1cho. ver）",
+      "type": "music_video",
+      "channelName": "Lantis Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "98515:ED:1": [
     {
-      youtubeVideoId: "pmCuXLOCIt4",
-      title: "鈴木愛奈 - ヒカリイロの歌",
-      type: "full_music_video",
-      channelName: "Aina Suzuki Official Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "pmCuXLOCIt4",
+      "title": "ヒカリイロの歌｜官方完整版 MV",
+      "type": "full_music_video",
+      "channelName": "鈴木愛奈 Official Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "112748:OP:1": [
     {

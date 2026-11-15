@@ -1,6 +1,110 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "113108:ED:2": [
+    {
+      "youtubeVideoId": "MyLBjwlYIUk",
+      "title": "kIng｜官方無字幕片尾",
+      "channelName": "TVアニメ「キングダム」公式YouTube Channel",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "RxH4aMnlGSk",
+      "title": "鈴木瑛美子 / kIng Music Video",
+      "channelName": "鈴木瑛美子",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113108:ED:1": [
+    {
+      "youtubeVideoId": "-kuD4lUkcRw",
+      "title": "Deep inside｜官方無字幕片尾",
+      "channelName": "TVアニメ「キングダム」公式YouTube Channel",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "Ve-RU-vzMlc",
+      "title": "waterweed - Deep inside (Music Video)",
+      "channelName": "maximum10",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113108:OP:2": [
+    {
+      "youtubeVideoId": "YKF1V9Upu1U",
+      "title": "STACKiNG｜官方無字幕片頭",
+      "channelName": "TVアニメ「キングダム」公式YouTube Channel",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "f_6uaeq1dLU",
+      "title": "BiSH / STACKiNG [OFFiCiAL ViDEO]",
+      "channelName": "BiSH",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113108:OP:1": [
+    {
+      "youtubeVideoId": "lHZBBE4a02s",
+      "title": "TOMORROW｜官方無字幕片頭",
+      "channelName": "TVアニメ「キングダム」公式YouTube Channel",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "0_5tgikzOJg",
+      "title": "BiSH / TOMORROW [OFFiCiAL ViDEO]",
+      "channelName": "BiSH",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113693:IN:2": [
+    {
+      "youtubeVideoId": "VNgDUpue_Co",
+      "title": "秋の実り / マイン（cv：井口裕香）（Official Audio）",
+      "channelName": "FlyingDog",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "honzuki-no-gekokujou-2-in-2-song-ost-vocal"
+    }
+  ],
+  "113693:IN:1": [
+    {
+      "youtubeVideoId": "cbDtKG0Qos8",
+      "title": "夏の緑",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "honzuki-no-gekokujou-2-in-1-song-ost-vocal"
+    }
+  ],
   "109856:ED:11": [
     {
       "youtubeVideoId": "r7IVr5DSGmQ",
@@ -1009,25 +1113,41 @@ export const curated2020SpringThemeVideos = {
   ],
   "112641:OP:1": [
     {
-      youtubeVideoId: "4NEbSnuL6GA",
-      title:
-        "TVアニメ『かぐや様は告らせたい？ ～天才たちの恋愛頭脳戦～』オープニング映像 ♪鈴木雅之「DADDY ! DADDY ! DO ! feat. 鈴木愛理」",
-      type: "creditless_op",
-      channelName: "アニプレックス チャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "4NEbSnuL6GA",
+      "title": "TVアニメ『かぐや様は告らせたい？ ～天才たちの恋愛頭脳戦～』オープニング映像 ♪鈴木雅之「DADDY ! DADDY ! DO ! feat. 鈴木愛理」",
+      "type": "creditless_op",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "2Od7QCsyqkE",
+      "title": "鈴木雅之『DADDY ! DADDY ! DO ! feat. 鈴木愛理』",
+      "channelName": "Sony Music (Japan)",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "112641:ED:1": [
     {
-      youtubeVideoId: "l0Z6_6fi-HI",
-      title:
-        "TVアニメ『かぐや様は告らせたい？～天才たちの恋愛頭脳戦～』エンディング映像 ♪福原 遥「風に吹かれて」",
-      type: "creditless_ed",
-      channelName: "アニプレックス チャンネル",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "l0Z6_6fi-HI",
+      "title": "TVアニメ『かぐや様は告らせたい？～天才たちの恋愛頭脳戦～』エンディング映像 ♪福原 遥「風に吹かれて」",
+      "type": "creditless_ed",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "ncnHddqNqhM",
+      "title": "福原遥「風に吹かれて」",
+      "channelName": "福原遥 Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "115230:OP:1": [
     {
@@ -1116,24 +1236,23 @@ export const curated2020SpringThemeVideos = {
   ],
   "108629:OP:1": [
     {
-      youtubeVideoId: "9UwL1XOKIDk",
-      title:
-        "古川 慎 / 3rdシングル「本日モ誠ニ晴天也」-MUSIC VIDEO- Short Ver.（TVアニメ『啄木鳥探偵處』OP主題歌）",
-      type: "tv_size",
-      channelName: "Lantis Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "9UwL1XOKIDk",
+      "title": "古川 慎 / 3rdシングル「本日モ誠ニ晴天也」-MUSIC VIDEO- Short Ver.（TVアニメ『啄木鳥探偵處』OP主題歌）",
+      "type": "music_video",
+      "channelName": "Lantis Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "108629:ED:1": [
     {
-      youtubeVideoId: "dq5sTEPn0Tk",
-      title: "NOW ON AIR 「ゴンドラの唄」Music Video（YouTube Ver.）",
-      type: "full_music_video",
-      channelName: "Lantis Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "dq5sTEPn0Tk",
+      "title": "NOW ON AIR 「ゴンドラの唄」Music Video（YouTube Ver.）",
+      "type": "music_video",
+      "channelName": "Lantis Channel",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "111323:OP:1": [
     {
@@ -1345,25 +1464,33 @@ export const curated2020SpringThemeVideos = {
   ],
   "110458:OP:1": [
     {
-      youtubeVideoId: "ChqAonaHTgA",
-      title:
-        "西川貴教＋ASCA「天秤-Libra-」×『白猫プロジェクト ZERO CHRONICLE』Collaboration Music Video",
-      type: "tv_size",
-      channelName: "西川貴教",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "ChqAonaHTgA",
+      "title": "天秤-Libra-｜動畫合作 MV 第1彈",
+      "type": "music_video",
+      "channelName": "西川貴教",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "QszQQb3tcxo",
+      "title": "天秤-Libra-｜動畫合作 MV 第2彈",
+      "channelName": "西川貴教",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "110458:ED:1": [
     {
-      youtubeVideoId: "TlFwALKWkss",
-      title:
-        "安田レイ 『through the dark』Music Video(TVアニメ『白猫プロジェクト ZERO CHRONICLE』エンディングテーマ)",
-      type: "full_music_video",
-      channelName: "安田レイ Official YouTube Channel",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "TlFwALKWkss",
+      "title": "through the dark｜官方 MV",
+      "type": "full_music_video",
+      "channelName": "安田レイ Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": true,
+      "recordingId": "shironeko-project-zero-chronicle-ed-1-song-original-full"
+    }
   ],
   "111500:OP:1": [
     {
@@ -1623,23 +1750,50 @@ export const curated2020SpringThemeVideos = {
   ],
   "106319:OP:1": [
     {
-      youtubeVideoId: "hLuEcDn1YgI",
-      title: "TVアニメ「八男って、それはないでしょう！」ノンクレジットOP映像",
-      type: "creditless_op",
-      channelName: "FRONTIERWORKS",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "hLuEcDn1YgI",
+      "title": "時空の迷い人｜日本版無字幕片頭",
+      "type": "creditless_op",
+      "channelName": "FRONTIERWORKS",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "MeIiYbG7-EQ",
+      "title": "時空の迷い人｜中國配信版無字幕片頭",
+      "channelName": "FRONTIERWORKS",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "cFBj1Rq01RE",
+      "title": "時空の迷い人｜短版 MV",
+      "channelName": "FlyingDog",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "106319:ED:1": [
     {
-      youtubeVideoId: "k5dg1AMfxTQ",
-      title: "TVアニメ「八男って、それはないでしょう！」ノンクレジットED映像",
-      type: "creditless_ed",
-      channelName: "FRONTIERWORKS",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "k5dg1AMfxTQ",
+      "title": "月明かりのMonologue｜無字幕片尾",
+      "type": "creditless_ed",
+      "channelName": "FRONTIERWORKS",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "mf_Ec-C83bI",
+      "title": "月明かりのMonologue｜短版 MV",
+      "channelName": "FlyingDog",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "107871:OP:1": [
     {
@@ -1771,23 +1925,32 @@ export const curated2020SpringThemeVideos = {
   ],
   "113693:OP:1": [
     {
-      youtubeVideoId: "d6gFW81dInI",
-      title: "諸星すみれ　「つむじかぜ」ミュージックビデオ（Short Ver.）",
-      type: "tv_size",
-      channelName: "Sumire Morohoshi",
-      officialStatus: "official",
-      embeddable: true,
-    },
+      "youtubeVideoId": "d6gFW81dInI",
+      "title": "つむじかぜ｜官方 Short Ver. MV",
+      "type": "music_video",
+      "channelName": "諸星すみれ",
+      "officialStatus": "official",
+      "embeddable": true
+    }
   ],
   "113693:ED:1": [
     {
-      youtubeVideoId: "-5AmqQmfbMU",
-      title: "鈴木みのり「エフェメラをあつめて」",
-      type: "other",
-      channelName: "鈴木みのり",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "-5AmqQmfbMU",
+      "title": "鈴木みのり「エフェメラをあつめて」",
+      "type": "other",
+      "channelName": "鈴木みのり",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "4CU4qaIFTFA",
+      "title": "エフェメラをあつめて｜官方 Short Ver. MV",
+      "channelName": "鈴木みのり",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "111310:OP:1": [
     {
