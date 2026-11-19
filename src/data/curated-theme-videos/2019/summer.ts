@@ -1,6 +1,61 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SummerThemeVideos = {
+  "98231:OP:3": [
+    {
+      "youtubeVideoId": "7zOXmeTPjcc",
+      "title": "“KIMERU”ニューシングル「calling」ミュージックビデオ",
+      "channelName": "アニメ 音楽 2.5次元舞台 - マーベラス公式チャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "98231:ED:2": [
+    {
+      "youtubeVideoId": "m5WtrWVTiFo",
+      "title": "Goodbye holiday / Writing Life",
+      "channelName": "avex",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "98231:ED:3": [
+    {
+      "youtubeVideoId": "FgoHAYDrgTY",
+      "title": "uchuu; -  BOY [Official Music Video]",
+      "channelName": "SPACE SHOWER",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "98231:ED:4": [
+    {
+      "youtubeVideoId": "TAMiLTiXPpU",
+      "title": "BAND-MAID / glory (Official Music Video)",
+      "channelName": "BAND-MAID",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "98231:ED:5": [
+    {
+      "youtubeVideoId": "wCQKAXoenBU",
+      "title": "Are you ready? / BiS 新生アイドル研究会[OFFiCiAL ViDEO]",
+      "channelName": "BiS 新生アイドル研究会 OFFiCiAL CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "100891:IN:4": [
     {
       "youtubeVideoId": "Mp5s4YJK-gE",

@@ -1,6 +1,52 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SpringThemeVideos = {
+  "21:OP:21": [
+    {
+      "youtubeVideoId": "V7nS-76cy64",
+      "title": "Super Powers（YouTube Ver.）",
+      "channelName": "avex",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "21:IN:1": [
+    {
+      "youtubeVideoId": "0EN9KRxg2AA",
+      "title": "BADEND MUSICAL Ver.1",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "one-piece-badend-musical-song-ver-1"
+    }
+  ],
+  "21:IN:2": [
+    {
+      "youtubeVideoId": "CHL5RTKd8d8",
+      "title": "ソウルポーカス～女王の言葉",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "one-piece-soul-pocus-song-soundtrack"
+    }
+  ],
+  "8687:ED:7": [
+    {
+      "youtubeVideoId": "ECe0KBlN0a8",
+      "title": "平井 大 / THE GIFT（Music Video）",
+      "channelName": "平井 大",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "21:OP:22": [
     {
       "youtubeVideoId": "ewPsNiklKcY",

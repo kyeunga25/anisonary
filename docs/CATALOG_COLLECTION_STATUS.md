@@ -11,12 +11,12 @@
 | 長期目標 | 匯集日本 TV 動畫歌曲的實際用途、演唱與創作者、來源、音源版本、官方影片、發行品及各地區正版串流曲目。 |
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
-| 本輪目標 | 接續 2020 冬名冊，逐版核實《蟲籠的卡伽斯特爾》AT-X 播出與各話用曲，再核《7SEEDS》第 2 期日本電視版。按歌曲匯集創作者、不同錄音、發行及地區正版曲目。 |
-| 下批位置 | 第 591 批核對 2019 秋《黑色五葉草》《名偵探柯南》的日本電視輪替。 |
+| 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
+| 下批位置 | 第 602 批核對《鬼滅之刃》及《YU-NO》逐話用曲與日本首播跨季。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 590 批已在本機驗收，與第 581 批正式基線相比共有 109 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `0f8b5c31e05bf4d32d140d1d86ef9ee89586164e`／[batch581-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch581-japanese-tv)。本機資料驗收到第 590 批。 |
-| 發布提交 | [PR #310](https://github.com/kyeunga25/anisonary/pull/310) 固定候選 `93ec548`。正式 Workers 版本 `19dbff08-6840-4f6b-a53f-0eaab66591b9`，預覽版 `25ea5f1d-9251-4bf9-828d-084e0dd9dc47`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 601 批已在本機驗收，相對第 590 批正式基線有 100 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `01563f629ff113ea6c0e6492d047a5a79bf741be`／[batch590-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch590-japanese-tv)。本機資料驗收到第 601 批。 |
+| 發布提交 | [PR #311](https://github.com/kyeunga25/anisonary/pull/311) 固定候選 `b48674f`。正式 Workers 版本 `5d67284f-d784-4e62-8109-f96d02de1c46`，預覽版本 `f7811802-dcf1-4b16-bcd5-194948dfd415`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19555,4 +19555,85 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 《SHOW BY ROCK!!ましゅまいれっしゅ!!》把 OTOTOY 原聲帶兩種音質按碟分列，相關歌曲均連到原有 TV edit。〈エールアンドレスポンス〉另發行第 1 話及第 8 話的指定剪輯，與通常歌唱及伴奏分列。平台列出曲目、音質和發行日，完整播放待核。[OTOTOY 原聲帶](https://ototoy.jp/_/default/p/515548) · [第 1 話剪輯](https://ototoy.jp/_/default/p/484186) · [第 8 話剪輯](https://ototoy.jp/_/default/p/506511)
 - 《うちタマ?!》十首輪替片尾各連到 Aniplex 實體合輯的曲序及相應五話試聽合輯。影片分類為發行宣傳，未將合輯試聽標作可整首播放。[Aniplex 專輯](https://online.aniplex.co.jp/itemuLoGOSYp.html) · [官方影片表](https://uchitama.com/movie/)
 - 本批用途：`show-by-rock-mashumairesh-op-2`、`show-by-rock-mashumairesh-ed-1`、`show-by-rock-mashumairesh-ed-2`、`show-by-rock-mashumairesh-op-1`、`show-by-rock-mashumairesh-in-2`、`show-by-rock-mashumairesh-in-3`、`show-by-rock-mashumairesh-in-4`、`show-by-rock-mashumairesh-in-5`、`show-by-rock-mashumairesh-in-6`、`show-by-rock-mashumairesh-in-7`、`show-by-rock-mashumairesh-in-8`、`uchitama-uchi-no-tama-shirimasen-ka-ed-1`、`uchitama-uchi-no-tama-shirimasen-ka-ed-2`、`uchitama-uchi-no-tama-shirimasen-ka-ed-3`、`uchitama-uchi-no-tama-shirimasen-ka-ed-4`、`uchitama-uchi-no-tama-shirimasen-ka-ed-5`、`uchitama-uchi-no-tama-shirimasen-ka-ed-6`、`uchitama-uchi-no-tama-shirimasen-ka-ed-7`、`uchitama-uchi-no-tama-shirimasen-ka-ed-8`、`uchitama-uchi-no-tama-shirimasen-ka-ed-9`、`uchitama-uchi-no-tama-shirimasen-ka-ed-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第591批　2019 年《黑色五葉草》與《名偵探柯南》原播用曲
+
+- 《黑色五葉草》補 OP6–9、ED6–9 及第 100 話〈ハルカミライ〉插曲。2019 夏片尾在第 90 話更換，片頭在第 95 話更換。部分曲目另有動畫剪輯、伴奏、清唱或現場錄音。[動畫官方夏季公告](https://bclover.jp/season1/news/detail.php?id=1074254) · [秋季公告](https://bclover.jp/season1/news/detail.php?id=1077045)
+- 《名偵探柯南》第 927 話〈薔薇色の人生〉作特別片尾，第 928 話改作片頭。兩個用途共用歌曲 ID，特殊片尾索引另設。2019 年四季按日本原播曲表補入名冊，收錄香港 Apple Music 可查的版本。[讀賣電視台](https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html) · [第 927 話歌曲紀錄](https://www.mau2.com/anime/meitanteiconan-24/ep/927)
+- 本批用途：`black-clover-2017-op-6`、`black-clover-2017-op-7`、`black-clover-2017-op-8`、`black-clover-2017-op-9`、`black-clover-2017-ed-6`、`black-clover-2017-ed-7`、`black-clover-2017-ed-8`、`black-clover-2017-ed-9`、`black-clover-2017-in-1`、`meitantei-conan-op-49`、`meitantei-conan-op-50`、`meitantei-conan-ed-59`、`meitantei-conan-ed-60`、`meitantei-conan-ep-927-special-ed`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第592批　《航海王》與《哆啦A夢》日本電視特殊話
+
+- 《航海王》核對 2019 年日本電視 OP 及插曲，含 3 月 24 日第 877 話〈ソウルポーカス〉。保留 V6 與插曲的香港 Apple Music 曲目。[《航海王》官方](https://one-piece.com/) · [avex 原聲帶](https://avex.jp/onepiece/products/musicDetail.php?id=1018758)
+- 《哆啦A夢》40 週年角色合唱在 4 月 5、19 日作片頭，4 月 26 日及 6 月 7、21、28 日作片尾。兩種用途共用歌曲及錄音。5 月部分集數另用〈ぼくドラえもん 40th〉；9 月 6 日生日歌位於新作段落尾。3 月 15 日同名片尾的演唱版本待掛字。[朝日原播表](https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019) · [日本コロムビア 40 週年曲集](https://columbia.jp/doraemon40/) · [環球唱片四月公告](https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/)
+- 本批用途：`one-piece-op-21`、`one-piece-op-22`、`one-piece-in-1`、`one-piece-in-2`、`doraemon-2005-op-1`、`doraemon-2005-op-2`、`doraemon-2005-op-3`、`doraemon-2005-ed-7`、`doraemon-2005-ed-8`、`doraemon-2005-ed-9`、`doraemon-2005-ed-10`、`doraemon-2005-ed-11`、`doraemon-2005-ed-12`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第593批　《蠟筆小新》與《櫻桃小丸子》原播輪替
+
+- 《蠟筆小新》〈ハルノヒ〉分列第 996 話片頭與電影宣傳片尾；〈マスカット〉的常規片頭有官方資料；第 1005、1006 話片尾僅有交叉曲表，留待權利方用曲表或原播掛字，另補第 1000 話〈夏色〉插曲。[〈ハルノヒ〉發行公告](https://www.aimyong.net/news/detail/469) · [第 996 話歌曲表](https://www.mau2.com/anime/crayonsinchan-28/ep/996)
+- 《櫻桃小丸子》2019 年 5 月 19 日另用西城秀樹的特殊片尾，9 月 29 日仍用 PUFFY，10 月 6 日換齊藤和義。歌唱、伴奏、卡拉 OK 與 90 秒 TV 剪輯按有據版本保存。分季逐話對照依原播文字資料，尚未觀看所有原片。[原播逐話表](https://www.chibimaru.tv/about/story/2019/) · [秋季換曲公告](https://www.chibimaru.tv/news/entry/2019/006294.html)
+- 本批用途：`crayon-shin-chan-op-1`、`crayon-shin-chan-op-4`、`crayon-shin-chan-ed-3`、`crayon-shin-chan-in-1`、`crayon-shin-chan-in-3`、`chibi-maruko-chan-1995-op-1`、`chibi-maruko-chan-1995-op-3`、`chibi-maruko-chan-1995-ed-1`、`chibi-maruko-chan-1995-ed-3`、`chibi-maruko-chan-1995-ed-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第594批　《海螺小姐》與《麵包超人》日本長篇跨季
+
+- 《麵包超人》第 1436–1483 話對照日本電視台排播與逐話 ED 表。12 月 20 日聖誕特輯無常規 ED，12 月 27 日第 1483 話為〈アンパンマンたいそう〉。另核十二個香港 Apple Music 演唱重編及卡拉 OK 項目。[VAP 分曲資料](https://store.vap.co.jp/syousai.asp?item=VPCG-83556) · [原播逐話曲表](https://www.mau2.com/anime/soreikeanpanman-32)
+- 《海螺小姐》以故事題名及日期核對兩種集數編排，確認 2019 年四季 OP、ED。香港 Apple 及 Spotify 提供宇野ゆう子原唱或卡拉 OK 曲目。Spotify 另標示來電鈴聲版本，其他平台是否共用母帶待證。[製作公司資料](https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/) · [香港 Apple Music](https://music.apple.com/hk/album/829758714)
+- 本批用途：`sazae-san-op-1`、`sazae-san-ed-1`、`sore-ike-anpanman-op-1`、`sore-ike-anpanman-ed-1`、`sore-ike-anpanman-ed-2`、`sore-ike-anpanman-ed-3`、`sore-ike-anpanman-ed-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第595批　《BORUTO》日本電視第 4、5 首片頭與第 8–10 首片尾
+
+- 以東京電視台原播時段及曲表核實 OP4 第 76–100 話、OP5 第 101–126 話，ED8 第 88–100 話、ED9 第 101–113 話、ED10 第 114–126 話。回掛 2018 秋與 2019 冬、春、夏各適用季度。[東京電視台歌曲資料](https://www.tv-tokyo.co.jp/anime/boruto/music/) · [季度節目曲表](https://www.ttmnet.co.jp/theme/2019-4/) · [逐話曲表](https://cal.syoboi.jp/tid/4546)
+- 補四支官方 MV 及十三個香港 Apple Music 曲目。〈強がりLOSER〉按日港相同識別、唱片公司曲序及版權核對原版、動畫剪輯及伴奏，藝人沿用日本權利方的 ЯeaL 署名。[Sony Music](https://www.sonymusic.co.jp/artist/real/info/503976)
+- 本批用途：`boruto-naruto-next-generations-op-4`、`boruto-naruto-next-generations-op-5`、`boruto-naruto-next-generations-ed-8`、`boruto-naruto-next-generations-ed-9`、`boruto-naruto-next-generations-ed-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第596批　2019 夏《閃電十一人 獵戶座的刻印》及《ひらけ！ここたま》
+
+- 新增《閃電十一人 獵戶座的刻印》49 話、五筆用途，以及《キラキラハッピー★ ひらけ！ここたま》55 話、三筆用途。兩作均核對 2018 秋及 2019 冬、春、夏的節目與歌曲入口；《ここたま》於 2018 年 9 月開播，該年夏季名冊仍待建立。兩作有十二個香港曲目、五個日本曲目，對應已核實的實際版別。[東京電視台《閃電十一人》分集](https://www.tv-tokyo.co.jp/anime/inazuma2018/episodes/) · [TVB 繁中節目資料](https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200317154534000_91574135.pdf) · [Bandai Namco Music Live](https://catalog.bandainamcomusiclive.co.jp/release/68504/)
+- 《ここたま》第 55 話是否使用特別片尾，以及《閃電十一人》首末話插曲，均待可辨識的日本原播掛字或權利方逐話用曲資料。[《ここたま》最終話排播](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23764_201909261755.html)
+- 本批用途：`inazuma-eleven-orion-no-kokuin-op-1`、`inazuma-eleven-orion-no-kokuin-op-2`、`inazuma-eleven-orion-no-kokuin-ed-1`、`inazuma-eleven-orion-no-kokuin-ed-2`、`inazuma-eleven-orion-no-kokuin-ed-3`、`kira-kira-happy-hirake-cocotama-op-1`、`kira-kira-happy-hirake-cocotama-ed-1`、`kira-kira-happy-hirake-cocotama-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 590 批正式驗收
+
+第 582–590 批涵蓋 20 部作品及 109 個不同歌曲用途。[PR #311](https://github.com/kyeunga25/anisonary/pull/311) 候選 `b48674f` 及正式提交 `01563f6` 均通過 CI 與 Workers。預覽與正式 CI 各有 4,386 個產物與固定候選逐位元一致。兩個環境各驗收 181 個公開路徑，並核對歌曲錨點、搜尋、季度入口與手機無 JavaScript 海報牆。正式搜尋含 5,920 個用途。[正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch590-japanese-tv)
+
+## 第597批　《遊戲王 VRAINS》日本原播用曲
+
+- 《遊戲王 VRAINS》在 2018 春、秋及 2019 冬、春、夏按逐話曲表收錄七項已證實的用途、七首歌。東京電視台終回預告沿列常規片尾，播出當晚記錄指向〈With The Wind〉，兩方不同。該話用曲保留為待查，待取得日本原播掛字或權利方逐話用曲表再新增獨立用途。[東京電視台終回預告](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909251825.html) · [逐話用曲表](https://cal.syoboi.jp/tid/4592) · [原播當晚紀錄](https://yugioh-starlight.com/archives/53843207.html)
+- 七項用途合計 19 個錄音及 19 個發行 ID，核對香港 Apple Music 的 16 個不同曲目與五支官方 MV。〈Believe In Magic〉只用於 2017 年第 1–24 話，待該季名冊建立後接續。[Marvelous 曲目](https://www.marv.jp/titles/mc/9809/) · [臺灣正版播映](https://ani.gamer.com.tw/animeVideo.php?sn=42792)
+- 本批用途：`yu-gi-oh-vrains-op-1`、`yu-gi-oh-vrains-op-2`、`yu-gi-oh-vrains-op-3`、`yu-gi-oh-vrains-ed-2`、`yu-gi-oh-vrains-ed-3`、`yu-gi-oh-vrains-ed-4`、`yu-gi-oh-vrains-ed-5`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第598批　《ゾイドワイルド》與《決鬥大師》日本原播
+
+- 《ゾイドワイルド》2018 年系列新增十項用途、九首歌曲，2018 秋、第 27–38 話的 2019 冬及第 39–50 話的 2019 春均逐話對應。首季第 1–13 話的兩首歌曲已在作品頁登記，等 2018 夏名冊建立後再掛季度。第 50 話特殊片尾與插曲〈WILD BLUE〉共用歌曲。1 月 5 日回顧特番仍待原片或逐話曲表。
+- 《決鬥大師》已有 2019 年三季入口，兩筆既有用途補正版音源資料。《ベイブレードバースト ガチ》2019 年日本網絡首發，2021 年 5 月 30 日起才在 Kids Station 兩話連播。[權利方電視播映公告](https://archive2.beyblade.jp/news/3265/)
+- 本批用途：`zoids-wild-op-1`、`zoids-wild-op-2`、`zoids-wild-op-3`、`zoids-wild-op-4`、`zoids-wild-ed-1`、`zoids-wild-ed-2`、`zoids-wild-ed-3`、`zoids-wild-ed-4`、`zoids-wild-ed-5`、`zoids-wild-in-1`、`duel-masters-2019-op-1`、`duel-masters-2019-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第599批　《JOJO 的奇妙冒險 黃金之風》日本播出及音源
+
+- 核對 2018 秋至 2019 夏的兩首 OP、兩首 ED 及第 7 話插曲〈Canzoni Preferite〉。東京 MX 於 7 月 28 日連播第 38、39 話，獨立編排與連播版尾段分列。三次總集篇另分版本，未能確認的劇中用曲保留具體續查條件。[動畫官方終回安排](https://jojo-animation.com/news/2019/07/news1.php) · [唱片公司片尾公告](https://www.universal-music.co.jp/enigma/news/2019-03-18-media/) · [第 7 話插曲演唱者](https://daisukehasegawa.net/)
+- 兩首片頭的歌唱、英語、伴奏及原聲帶特殊剪輯按曲目列出；第二首片頭 CD 與數位單曲的第 2、3 曲順序不同。補十五個 Apple Music 曲目、四個官方所指的 Spotify 專輯、四種日本實體發行及一支授權 Art Track。[作品方第二首 OP 曲序](https://jojo-portal.com/anime/gw/music/op02/) · [原聲帶第三卷](https://jojo-portal.com/anime/gw/music/ost03/)
+- 本批用途：`jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第600批　《FAIRY TAIL 魔導少年 最終章》原播與四輪主題曲
+
+- 依東京電視台播出日及作品方換曲公告，整理通算第 278–328 話的四首 OP 及四首 ED。第 290 話於 1 月 6 日延用首輪主題曲，第 303 話於 4 月 7 日仍用第二輪，第 316 話於 7 月 7 日更換最後一輪。[東京電視台分話表](https://www.tv-tokyo.co.jp/anime/fairytail/episodes/) · [動畫官方第 4 輪 OP／ED](https://www.fairytail-tv.com/discography/detail.php?id=1016882)
+- 香港正版曲目包括〈NO-LIMIT〉TV 剪輯與專輯混音、〈DOWN BY LAW〉及〈僕と君のララバイ〉各自的現場錄音。發行品與用途分列，創作署名按曲保存。[第 3 輪主題曲公告](https://www.fairytail-tv.com/news/detail.php?id=1070698)
+- 本批用途：`fairy-tail-final-series-op-1`、`fairy-tail-final-series-op-2`、`fairy-tail-final-series-op-3`、`fairy-tail-final-series-op-4`、`fairy-tail-final-series-ed-1`、`fairy-tail-final-series-ed-2`、`fairy-tail-final-series-ed-3`、`fairy-tail-final-series-ed-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第601批　《魔法水果籃》及《MIX》第一季的日本電視原播與音源
+
+- 保留歷史用途序號並恢復兩部 2019 春、夏作品。《魔法水果籃》第 1、25 話無片頭，第 25 話另有插曲〈生まれる願い〉。日本原聲帶列明的完整版與香港數位發行按曲目關聯。[TMS 第一季](https://www.tms-e.co.jp/alltitles/2010s/745101.html)
+- 《MIX》第 14 話同時更換 OP、ED。〈タッチ〉分列動畫中的吹奏、演奏協力與 Qyoto 的數位翻唱。第 5 話的演奏者，以及第 7、19 話〈明青学園応援歌〉的片末署名待取得正版日語原播或權利方逐話資料。[讀賣電視台演奏企劃](https://www.ytv.co.jp/fromytv/news/number/page_2002308.html) · [Sony Music 唱片](https://www.sonymusic.co.jp/artist/Qyoto/info/507594)
+- 本批用途：`fruits-basket-2019-op-1`、`fruits-basket-2019-op-2`、`fruits-basket-2019-ed-1`、`fruits-basket-2019-ed-2`、`fruits-basket-2019-in-1`、`fruits-basket-2019-in-2`、`mix-meisei-story-op-1`、`mix-meisei-story-op-2`、`mix-meisei-story-ed-1`、`mix-meisei-story-ed-2`、`mix-meisei-story-in-1`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
