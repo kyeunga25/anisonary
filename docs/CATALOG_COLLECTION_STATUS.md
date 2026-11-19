@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 622 批接續《鑽石王牌 act II》的四季用曲及唱片。 |
+| 下批位置 | 第 639 批修正《NULL & PETA》的AT-X原播與主題曲發行。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 621 批已在本機驗收，相對第 601 批正式基線有 199 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `4a7e014fa8d6b62f3c0d3a6ae1b1ce6fc723f71f`／[batch601-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch601-japanese-tv)。本機資料驗收到第 621 批。 |
-| 發布提交 | [PR #312](https://github.com/kyeunga25/anisonary/pull/312) 固定候選 `9d8b811`。正式 Workers 版本 `539b458c-1c1a-41af-9f0e-eaa17bac8b2f`，預覽版本 `02023fdb-b8b7-4fc1-b832-149981988862`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 638 批已在本機驗收，相對第 621 批正式基線有 100 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `a0f1833973eab88e751c272890359e6ac5124e4c`／[batch621-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch621-japanese-tv)。本機資料驗收到第 638 批。 |
+| 發布提交 | [PR #314](https://github.com/kyeunga25/anisonary/pull/314) 固定候選 `9ad6a52`。正式 Workers 版本 `87970d7f-1385-4aa8-8d56-716874668a33`，預覽版本 `6a6d427d-6957-45a7-b45f-d47c03b7acfb`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19779,4 +19779,116 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 前後季度分別有 11 及 6 項具官方分話影片的插曲。第 10 話沒有片頭曲。香港的四首 TV size 只供付費下載，另列可串流錄音與日本發行。[音樂團隊逐話資料](https://knowname.jp/musicvideo/fairygone) · [官方唱片](https://www.fairygone.com/music/)
 - 第 24 話的跨季重用待取得原版片末署名或權利方說明。〈Flicker〉及〈Bring the light〉作曲、編曲的公開登記有出入，待權利方釐清。[製作名單](https://www.verygoo.jp/works/202003-201904.php)
 - 本批用途：`fairy-gone-op-1`、`fairy-gone-ed-1`、`fairy-gone-in-1`、`fairy-gone-in-2`、`fairy-gone-in-3`、`fairy-gone-in-4`、`fairy-gone-in-5`、`fairy-gone-in-6`、`fairy-gone-in-7`、`fairy-gone-in-8`、`fairy-gone-in-9`、`fairy-gone-in-10`、`fairy-gone-in-11`、`fairy-gone-2-op-1`、`fairy-gone-2-ed-1`、`fairy-gone-2-in-1`、`fairy-gone-2-in-2`、`fairy-gone-2-in-3`、`fairy-gone-2-in-4`、`fairy-gone-2-in-5`、`fairy-gone-2-in-6`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第622批　《鑽石王牌 act II》四季用曲、重唱與現場錄音
+
+- 六個既有用途及四季入口沿用原 ID。同曲歸入原唱、OxT 重唱、日本 TV edit 與可核實的現場錄音，分別對應香港、日本曲目。日本第 45 話與木棉花第 44 話的集名對得上，〈Go EXCEED!!〉的片中位置仍待可播放的授權片源或原播掛字。[東京電視台](https://www.tv-tokyo.co.jp/anime/diaace2/episodes/) · [OxT 官方唱片](https://oxt.ponycanyon.co.jp/)
+- 本批用途：`diamond-no-ace-act-ii-op-1`、`diamond-no-ace-act-ii-op-2`、`diamond-no-ace-act-ii-ed-1`、`diamond-no-ace-act-ii-ed-2`、`diamond-no-ace-act-ii-ed-3`、`diamond-no-ace-act-ii-ed-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 612 批正式驗收
+
+第 602–612 批涵蓋 10 部日本電視作品與 108 筆不同歌曲用途。預覽候選 `4585c86` 及正式提交 `8bfff3a` 的 CI、Workers 建置均通過。兩個環境各有 4,423 個 CI 產物與固定候選逐位元一致，各驗收 132 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,111 個用途。[PR #313](https://github.com/kyeunga25/anisonary/pull/313) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch612-japanese-tv)
+
+## 第623批　《八月的棒球甜心》Re:fine 四首逐話片尾及香港、日本錄音
+
+- 2020 年電視重播第 8–11 話有四首不同片尾，第 12 話恢復原曲。第 8、9、11 話已核對片末署名，第 10 話使用同期播出記錄及逐話曲表交叉核對。每首各列香港、日本演唱版及伴奏。[東京電視台](https://www.tv-tokyo.co.jp/anime/hachinai/news/) · [系列音樂官網](https://hachinai.com/music/)
+- 本批用途：`hachigatsu-no-cinderella-nine-op-1`、`hachigatsu-no-cinderella-nine-ed-1`、`hachigatsu-no-cinderella-nine-ed-3`、`hachigatsu-no-cinderella-nine-ed-4`、`hachigatsu-no-cinderella-nine-ed-5`、`hachigatsu-no-cinderella-nine-ed-6`、`hachigatsu-no-cinderella-nine-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第624批　《請讓我撒嬌，仙狐大人！》及《南無阿彌陀佛！-蓮台 UTENA-》日本首播的片頭與特殊片尾
+
+- 《仙狐大人》第 12 話及《蓮台 UTENA》第 1 話都在片末播放平時的片頭歌。各作品兩個用途共用同一首歌及音源，第 7、11 話《蓮台 UTENA》的片頭省略情況另外標明。〈もっふもふ DE よいのじゃよ〉採動畫官網、香港及日本數位版一致的拼法。已核實香港 Apple Music 及 Deezer 串流、伴奏、日本單曲與專輯。[仙狐官方唱片](https://senkosan.com/products/music.html) · [第12話上映紀錄](https://originalnews.nico/196733) · [DMM製作名單](https://prtimes.jp/main/html/rd/p/000003265.000002581.html) · [日本原播曲表](https://www.mau2.com/anime/namuamidabutu)
+- 《蓮台 UTENA》聲優訪談提及角色在劇中唱歌，訪談沒有指出曲名及話數；取得可辨認場景與署名後另補。官方音樂影片按標題及簡介識別，未逐格觀看。[聲優訪談](https://repotama.com/2019/05/113317/)
+- 本批用途：`namu-amida-butsu-rendai-utena-op-1`、`namu-amida-butsu-rendai-utena-ed-1`、`namu-amida-butsu-rendai-utena-ed-2`、`sewayaki-kitsune-no-senko-san-op-1`、`sewayaki-kitsune-no-senko-san-ed-1`、`sewayaki-kitsune-no-senko-san-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第625批　《續·終物語》日本電視六話版、角色旁白與 TrySail 各版錄音
+
+- 日本電視六話版另立作品 ID。〈07734〉由神谷浩史以阿良々木暦的身分口述。〈azure〉有演唱、伴奏、短版及兩次不同現場錄音。原播記錄與 ABEMA 回顧對第 4、5 話片頭及第 3 話片尾有分歧，待原版畫面或權利方逐話資料確認。[動畫官方](https://www.monogatari-series.com/zokuowarimonogatari/music/) · [MONACA 製作名單](https://monaca.jp/works/15824) · [日本原播紀錄](https://cal.syoboi.jp/db.php?Command=TitleLookup&TID=5292)
+- 本批用途：`zoku-owarimonogatari-tv-op-1`、`zoku-owarimonogatari-tv-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第626批　《妖怪手錶！》2019 年全36話的日本播出、主題歌及音源
+
+- 保留既有作品及用途 ID。春季第 1–13 話、夏季第 14–26 話、秋季第 27–36 話核對東京電視台節目日期，常規片頭為紘毅〈ケラケラホーのうた〉、片尾為かえで☆〈ようかい体操第一 ～つづき～〉。日本、香港錄音包含 TV サイズ、伴奏及長版片尾。第 7–10 話及第 36 話的插曲仍待原播掛字或權利方逐話清單。[東京電視台](https://www.tv-tokyo.co.jp/anime/youkai-watch2019/episodes/) · [逐話歌表](https://www.mau2.com/anime/youkaiwatch-5)
+- 本批用途：`youkai-watch-2019-op-1`、`youkai-watch-2019-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 621 批正式驗收
+
+第 613–621 批涵蓋 15 部日本電視作品與 104 筆不同歌曲用途。預覽候選 `9ad6a52` 及正式提交 `a0f1833` 的 CI、Workers 建置均通過。兩個環境各有 4,447 個 CI 產物與固定候選逐位元一致，各驗收 146 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,198 個用途。[PR #314](https://github.com/kyeunga25/anisonary/pull/314) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch621-japanese-tv)
+
+## 第627批　《爆丸 Battle Planet》日本版特別篇與《MIX》第一季發行及現場錄音
+
+- TMS 製作名單確認《爆丸》的日本共同製作。東京電視台 7 月 1 日及 10 月 7 日無編號特別篇節目表列同一組片頭片尾。《MIX》新增三個現場錄音。〈君に伝えたストーリー〉日本期間限定實體版的 TV Size 在第 4 軌，香港數位版在第 5 軌。第 7、19 話應援歌待原版片末或權利方清單。[TMS](https://www.tms-e.co.jp/alltitles/2010s/624105.html) · [Qyoto 唱片](https://www.sonymusic.co.jp/artist/Qyoto/info/508148) · [香港數位版](https://music.apple.com/hk/album/1538122504)
+- 本批用途：`bakugan-battle-planet-op-1`、`bakugan-battle-planet-ed-1`、`mix-meisei-story-op-1`、`mix-meisei-story-op-2`、`mix-meisei-story-ed-1`、`mix-meisei-story-ed-2`、`mix-meisei-story-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第628批　《カードファイト!! ヴァンガード 続・高校生編》終話片頭位置、特殊片尾及港日錄音
+
+- 愛知電視台記錄第1–8話於春季、第9–14話於夏季播出。第14話把〈Invincible Fighter〉片頭移至B段中途，以〈毎日くらいまっくす☆〉收尾。第1–13話片尾〈Takin’ my Heart〉的原版、伴奏及後來英語版共用歌曲。兩組唱片各有日本通常盤及Blu-ray限定盤，香港、日本串流按曲核對。[首播公告](https://bushiroad.com/media/7685) · [分集播出](https://tv-aichi.co.jp/cf-vanguard/2019/episodes/ep01-14.html) · [播出曲表](https://cal.syoboi.jp/tid/5334) · [唱片原版](https://bushiroad-music.com/musics/brmm-10192/)
+- 本批用途：`cardfight-vanguard-zoku-koukousei-hen-op-1`、`cardfight-vanguard-zoku-koukousei-hen-ed-1`、`cardfight-vanguard-zoku-koukousei-hen-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第629批　《多羅羅》兩季的逐話主題曲、劇中歌及香港／日本錄音
+
+- 2019 年冬季第 1–12 話、春季第 13–24 話各用一組片頭、片尾。美緒（水樹奈々）在第 5、6 話演唱〈赤い花白い花〉，赤い鳥的商業錄音另列。第 5、6 話角色演唱版仍待確認獨立發行。《十》的〈火炎〉在香港 iTunes 有售，此張專輯未獲香港串流標記。[動畫官網](https://dororo-anime.com/music.html) · [第5話](https://www.mau2.com/anime/dororo-r2/ep/5) · [第6話](https://www.mau2.com/anime/dororo-r2/ep/6)
+- 本批用途：`dororo-2019-op-1`、`dororo-2019-op-2`、`dororo-2019-ed-1`、`dororo-2019-ed-2`、`dororo-2019-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第630批　《女武神的餐桌II》日本 BS 日視版季度及逐話片尾掛字
+
+- BLADE 的共同製作名錄及 miHoYo 的日本首播公告確認 2021 年夏 BS 日視逢星期日 24:30 首播。原 2020 年中國網上先行移出日本電視季度，保留作品 ID 與兩首舊用途。日語授權第 1 話 06:01，〈あなたとの約束〉掛字列作詞、作曲、編曲均為 Luna Safari。第 8 話 08:06 掛字列〈きっと、また未来で〉為插曲及五名演唱者。香港和日本原聲帶所收中文版及伴奏按實際演唱另外關聯。[共同製作名單](https://tap-blade.com/works) · [日本首播資料](https://prtimes.jp/main/html/rd/p/000000079.000048345.html) · [第1話掛字](https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s) · [第8話掛字](https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s)
+- 本批用途：`valkyrie-no-shokutaku-ii-op-1`、`valkyrie-no-shokutaku-ii-ed-1`、`valkyrie-no-shokutaku-ii-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第631批　《盾之勇者成名錄》第一季先行播出、逐話演唱與港日原聲帶
+
+- 〈RISE〉於第1話片末、第2–12話片頭及第20話劇中共用歌曲ID。第4話英語片尾由瀬戸麻沙美演唱，原聲帶另收Amelia Jones版本。已核第15、21話插曲及港日曲目，第21話片尾另列用途及第25話器樂尚待原播證據。[日本コロムビア](https://columbia.jp/prod-info/COCX-40782/info.html) · [製作人訪談](https://webnewtype.com/report/staff/181281.html) · [各話記錄](https://www.mau2.com/anime/tatenoyuushanonariagari)
+- 本批用途：`tate-no-yuusha-no-nariagari-op-1`、`tate-no-yuusha-no-nariagari-op-2`、`tate-no-yuusha-no-nariagari-ed-1`、`tate-no-yuusha-no-nariagari-ed-2`、`tate-no-yuusha-no-nariagari-ed-3`、`tate-no-yuusha-no-nariagari-ed-4`、`tate-no-yuusha-no-nariagari-in-1`、`tate-no-yuusha-no-nariagari-in-2`、`tate-no-yuusha-no-nariagari-in-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第632批　《JOJO的奇妙冒險 黃金之風》終話開場及海外版錄音
+
+- 第38、39話連播開場採用 Carl Orff《Carmina Burana》的〈O Fortuna〉，原播合唱團及錄音仍待原節目署名。原有用途補英語填詞、意大利語獨白及港日正式發行。總集篇《destino》及〈canzoni preferite〉第5、6、9話仍待逐話音畫核實。[製作方原播公告](https://x.com/anime_jojo/status/1155433573685424129) · [同期播出記錄](https://mora.jp/topics/rensai/jojo-golden-wind-16/) · [官方唱片](https://jojo-portal.com/anime/gw/music/ost03/)
+- 本批用途：`jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-in-1`、`jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第633批　《路人超能 100 第二季》的四首片尾、角色合唱及兩碟原聲帶
+
+- TOKYO MX 4月1日播第13話，〈いきるひとびと〉只列2019春季片尾。第6話〈脳感メルヘン♡〉由暗田トメ與犬川演唱，2017年廣播劇CD第8曲則只列暗田トメ。原聲帶CD的分碟曲序與日本數位版的連續曲序分開，逐曲區分串流及購買。香港原唱曲目待權利方或地區曲號確認。[官方唱片](https://mobpsycho100.com/2nd/music/) · [廣播劇CD](https://mobpsycho100.com/1st/music/index.html) · [原播分集](https://cal.syoboi.jp/tid/5154/subtitle)
+- 本批用途：`mob-psycho-100-ii-op-1`、`mob-psycho-100-ii-ed-1`、`mob-psycho-100-ii-ed-2`、`mob-psycho-100-ii-ed-3`、`mob-psycho-100-ii-ed-4`、`mob-psycho-100-ii-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第634批　《約定的夢幻島》第一季各話主題曲及作曲家指認的兩首劇中歌
+
+- 第1–11話片頭〈Touch off〉在第12話片末重現，兩項用途沿用同一首歌。另一組片尾於第9話更換。作曲家小畑貴裕記錄了〈イザベラの唄〉及第3話14:09起〈Training For Escape〉的人聲與錄音。第12話掛字尚待原播版核對。[官方播出公告](https://neverland-anime.com/1st/news/?article_id=49128) · [作曲家第一卷解說](https://note.com/atabo/n/n173170d773a4) · [作曲家第三卷解說](https://note.com/atabo/n/nbbb3df92f8b2)
+- 本批用途：`yakusoku-no-neverland-op-1`、`yakusoku-no-neverland-ed-1`、`yakusoku-no-neverland-ed-2`、`yakusoku-no-neverland-ed-3`、`yakusoku-no-neverland-in-1`、`yakusoku-no-neverland-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第635批　《五等分的新娘》第一季婚禮插曲、片頭及片尾的跨季歌曲關聯
+
+- 第1–11話用〈五等分の気持ち〉及〈Sign〉，第12話婚禮場景唱〈ごぶんのいち〉。首季片頭與第二季終話片尾沿用同一歌曲ID，按錄音關聯香港、日本曲目、現場演出及另行混音。[TBS演出記錄](https://www.tbs.co.jp/anime/5hanayome/1st/special/special10.html) · [逐話用曲](https://www.mau2.com/anime/gotoubunnohanayome) · [唱片方資料](https://news.ponycanyon.co.jp/2019/01/29400)
+- 本批用途：`go-toubun-no-hanayome-2019-op-1`、`go-toubun-no-hanayome-2019-ed-1`、`go-toubun-no-hanayome-2019-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第636批　《傀儡馬戲團》三季度主題曲、日本剪輯與原聲帶
+
+- 第24幕在春季播出，仍沿用第二組主題曲；第25幕才換曲。〈月虹〉第1–12幕片頭與第25–36幕片尾共用歌曲，Sony原聲帶為兩種電視剪輯列出不同曲序。港日曲表均列出兩個剪輯，當區串流另有專輯與演唱會版本。第18幕的搖籃曲以林原めぐみ的訪談及當期播出記錄核對，其餘各角色逐話位置待原片。[動畫歌曲](https://karakuri-anime.com/music/) · [唱片方資料](https://prtimes.jp/main/html/rd/p/000002091.000013546.html) · [林原めぐみ訪談](https://cho-animedia.jp/article/2019/06/26/12951.html)
+- 本批用途：`karakuri-circus-op-1`、`karakuri-circus-op-2`、`karakuri-circus-op-3`、`karakuri-circus-ed-1`、`karakuri-circus-ed-2`、`karakuri-circus-ed-3`、`karakuri-circus-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第637批　《新幹線變形機器人 Shinkalion》初代六個播出季度與原播插曲
+
+- 初代全76話由2018冬播至2019春。第76話分開記錄戰鬥、結局與片末用曲。第69話TBS原播〈Progress〉與部分延播及光碟的替換情況分列。2018冬、夏兩個季度入口先收本批已核實的原播作品。第57話片頭位置、第62話〈鉄道唱歌〉旋律及替換音軌仍待逐版核對。[動畫官網](https://www.shinkalion.com/series1/) · [TBS](https://www.tbs.co.jp/tbs_shinkalion/) · [第76話原播同期記錄](https://shinmen0902.hatenadiary.com/entry/1724008)
+- 跨季歌曲按「季度：舊到新」列出時，採排序範圍內最早的實際用途季度。保留新到舊、未知季度與單季篩選，並以夏秋跨季用途覆蓋排序測試。
+- 本批用途：`shinkansen-henkei-robo-shinkalion-op-1`、`shinkansen-henkei-robo-shinkalion-ed-1`、`shinkansen-henkei-robo-shinkalion-ed-2`、`shinkansen-henkei-robo-shinkalion-ed-3`、`shinkansen-henkei-robo-shinkalion-ed-4`、`shinkansen-henkei-robo-shinkalion-ed-5`、`shinkansen-henkei-robo-shinkalion-ed-6`、`shinkansen-henkei-robo-shinkalion-in-1`、`shinkansen-henkei-robo-shinkalion-in-2`、`shinkansen-henkei-robo-shinkalion-in-3`、`shinkansen-henkei-robo-shinkalion-in-4`、`shinkansen-henkei-robo-shinkalion-in-5`、`shinkansen-henkei-robo-shinkalion-in-6`、`shinkansen-henkei-robo-shinkalion-in-7`、`shinkansen-henkei-robo-shinkalion-in-8`、`shinkansen-henkei-robo-shinkalion-in-9`、`shinkansen-henkei-robo-shinkalion-in-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第638批　《輝夜姬想讓人告白》第一季逐話用曲與第三季終話重用的片尾曲
+
+- 第3話千花舞蹈只登記一次特殊片尾，〈I miss you so bad〉為第11話早坂浴室插曲。第一季〈センチメンタルクライシス〉在第三季第13話奉心祭中作插曲，兩季共用歌曲ID。第一季插曲的詞曲編與獨立發行仍待清晰掛字或商品曲表。[第一季音樂](https://kaguya.love/1st/music/) · [第3話片尾](https://kaguya.love/1st/bddvd/02.html) · [製作人訪談](https://www.animatetimes.com/news/details.php?id=1668913655)
+- 本批用途：`kaguya-sama-wa-kokurasetai-op-1`、`kaguya-sama-wa-kokurasetai-ed-1`、`kaguya-sama-wa-kokurasetai-ed-2`、`kaguya-sama-wa-kokurasetai-in-1`、`kaguya-sama-wa-kokurasetai-ultra-romantic-in-1`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。

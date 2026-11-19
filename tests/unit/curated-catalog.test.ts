@@ -185,6 +185,9 @@ it("filters confirmed use quarters independently from release dates and work mem
   expect(getPlaylistRows(index, { ...options, quarter: "summer" }).map((row) => row.theme!.id)).toEqual([anime.themes[0]!.id]);
   expect(getPlaylistRows(index, { ...options, quarter: "fall" }).map((row) => row.theme!.id)).toEqual([anime.themes[1]!.id]);
   anime.themes[0]!.seasonIds = [summer.id, fall.id];
+  const oldestFirst = getPlaylistRows(makeIndex(), { ...options, sort: "oldest" });
+  expect(oldestFirst.map((row) => row.season.id)).toEqual([summer.id, fall.id]);
+  expect(getPlaylistRows(makeIndex(), options).map((row) => row.season.id)).toEqual([fall.id, fall.id]);
   expect(getPlaylistRows(makeIndex(), options)).toHaveLength(2);
   expect(getPlaylistRows(makeIndex(), { ...options, quarter: "summer" })).toHaveLength(1);
   expect(getPlaylistRows(makeIndex(), { ...options, quarter: "fall" })).toHaveLength(2);

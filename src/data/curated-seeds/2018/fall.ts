@@ -5863,7 +5863,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         ],
         "usageLabel": "第2–21話片頭。第1話逐話曲表未列獨立片頭。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://jojo-portal.com/anime/gw/music/op01/",
@@ -5954,7 +5954,98 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "動畫官網：總集篇「destino」播出公告",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://jojo-animation.com/music/2018/10/bm03.php",
+            "label": "動畫官方｜第2軌英語版歌詞竹中あこ",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1547753931&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1547754186",
+            "label": "Apple Music HK｜Fighting Gold (English Version)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1547753931&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1547754186",
+            "label": "Apple Music JP｜Fighting Gold (English ver.)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1491470372&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1491470775",
+            "label": "Apple Music JP｜Fighting Gold (English ver.)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/6NN3fciOweTHrNdMBYtW1g",
+            "label": "Spotify｜動畫官網所連專輯的實際曲序",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/7mjio4U2J4q19ArbF9jI58",
+            "label": "Spotify｜Fighting Gold",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/528Aq9fmcotTghlZmSQ1rP",
+            "label": "Spotify｜Fighting Gold - English Ver.",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/1URZuVntUss65s4tVBMaWg",
+            "label": "Spotify｜Fighting Gold - Instrumental",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://jojowiki.com/GW_Episode_28.5",
+            "label": "逐話交叉資料｜總集篇destino的片尾列法",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5030/subtitle",
+            "label": "日本放送記錄｜總集篇與60分鐘連播版的歌曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -6207,6 +6298,188 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "https://open.spotify.com/album/6NN3fciOweTHrNdMBYtW1g"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://jojo-animation.com/music/2018/10/bm03.php"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-english"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1547753931&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1547754186"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1547753931"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1547754186"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1547754186"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1547753931&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1547754186"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1547753931&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1547754186"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1547753931"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1547754186"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1547754186"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1547753931&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1547754186"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1491470372&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1491470775"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1491470372"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1491470775"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1491470775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1491470372&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1491470775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/7mjio4U2J4q19ArbF9jI58"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7mjio4U2J4q19ArbF9jI58"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/6NN3fciOweTHrNdMBYtW1g"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7mjio4U2J4q19ArbF9jI58"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/528Aq9fmcotTghlZmSQ1rP"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/528Aq9fmcotTghlZmSQ1rP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/6NN3fciOweTHrNdMBYtW1g"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/528Aq9fmcotTghlZmSQ1rP"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/1URZuVntUss65s4tVBMaWg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/1URZuVntUss65s4tVBMaWg"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/6NN3fciOweTHrNdMBYtW1g"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/1URZuVntUss65s4tVBMaWg"
           }
         ],
         "credits": [
@@ -6357,6 +6630,64 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-instrumental"
               }
             ]
+          },
+          {
+            "id": "apple-hk-1547753931",
+            "title": "Coda Piano Trio",
+            "type": "album",
+            "artistDisplayName": "Coda Piano Trio",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2021-01-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Fighting Gold (English Version)",
+                "disc": 1,
+                "position": 9
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1547753931",
+            "title": "Coda Piano Trio",
+            "type": "album",
+            "artistDisplayName": "Coda Piano Trio",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2021-01-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Fighting Gold (English ver.)",
+                "disc": 1,
+                "position": 9
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1491470372",
+            "title": "Ebony & Ivory - EP",
+            "type": "ep",
+            "artistDisplayName": "Coda Piano Trio",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2019-12-20",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Fighting Gold (English ver.)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-trio-english"
+              }
+            ]
           }
         ],
         "links": [
@@ -6412,17 +6743,77 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "region": "GLOBAL",
             "availability": "unknown",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Fighting Gold (English Version)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1547754186",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1547753931"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Fighting Gold (English ver.)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1547754186",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-jp-1547753931"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Fighting Gold (English ver.)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1491470775",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-trio-english",
+            "releaseId": "apple-jp-1491470372"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Fighting Gold｜Coda",
+            "url": "https://open.spotify.com/track/7mjio4U2J4q19ArbF9jI58",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-vocal"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Fighting Gold - English Ver.｜Coda",
+            "url": "https://open.spotify.com/track/528Aq9fmcotTghlZmSQ1rP",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-english"
+          },
+          {
+            "platform": "Spotify",
+            "label": "Fighting Gold - Instrumental｜Coda",
+            "url": "https://open.spotify.com/track/1URZuVntUss65s4tVBMaWg",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-1-song-instrumental"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "use_quarters"
+              "basic_evidence"
             ],
-            "note": "分集資料另列總集篇「destino」中的插入使用。官方播出公告僅確認特別篇。",
-            "resumeWhen": "取得該次特別篇掛字或製作方逐段音樂表後另建插曲用途。",
-            "checkedAt": "2026-11-19"
+            "note": "總集篇「destino」有本曲的記錄。日本放送記錄列劇中使用，另一分集資料列片尾。",
+            "resumeWhen": "取得日本首播總集篇從歌曲開始至節目完結的音畫，或權利方的分段用曲表時，另建相應用途。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -6440,7 +6831,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         ],
         "usageLabel": "第22–38話片頭。分集曲表將第34–37話列為 Diavolo 版，第38話列為 Giorno 版。第39話獨立分集亦列片頭，2019/7/28日本60分鐘連播版的後半則無獨立片頭。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://jojo-portal.com/anime/gw/music/op02/",
@@ -6538,7 +6929,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "動畫製作委員會：原聲帶第3輯、第1及28軌",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://open.spotify.com/album/0xSTf2dhDGHmcOf9ZdbaRc",
@@ -6560,6 +6951,69 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://karenaoki.com/information/",
+            "label": "青木カレン｜英語版歌詞作者本人說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+            "label": "mora｜終回聯播開場曲、兩種意大利語獨白及第38話片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/0xSTf2dhDGHmcOf9ZdbaRc",
+            "label": "Spotify｜動畫官網所連專輯的實際曲序",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/23llvXXgNYODSJaMYGbXOq",
+            "label": "Spotify｜裏切り者のレクイエム",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/7FSl7SS1Fx5ffIjUJa04Lp",
+            "label": "Spotify｜裏切り者のレクイエム - English Ver.",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/3UfxjOghUm9jEiOH42EEZk",
+            "label": "Spotify｜裏切り者のレクイエム - Instrumental",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/4yauUwryR6UKaAOqoqEPoz",
+            "label": "Spotify｜動畫官網所連專輯的實際曲序",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/33M6kaWHEUxmMpvlBefRAK",
+            "label": "Spotify｜裏切り者のレクイエム - Diavolo Ver.",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/2qEKzzpe9U1B8ozntUdJB8",
+            "label": "Spotify｜裏切り者のレクイエム - Giorno Ver.",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -6873,6 +7327,151 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "https://open.spotify.com/album/4yauUwryR6UKaAOqoqEPoz"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://karenaoki.com/information/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-english"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+              "https://jojo-portal.com/anime/gw/music/ost03/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-diavolo"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+              "https://jojo-portal.com/anime/gw/music/ost03/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-giorno"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/23llvXXgNYODSJaMYGbXOq"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/23llvXXgNYODSJaMYGbXOq"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0xSTf2dhDGHmcOf9ZdbaRc"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/23llvXXgNYODSJaMYGbXOq"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/7FSl7SS1Fx5ffIjUJa04Lp"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7FSl7SS1Fx5ffIjUJa04Lp"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0xSTf2dhDGHmcOf9ZdbaRc"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7FSl7SS1Fx5ffIjUJa04Lp"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/3UfxjOghUm9jEiOH42EEZk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3UfxjOghUm9jEiOH42EEZk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/0xSTf2dhDGHmcOf9ZdbaRc"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3UfxjOghUm9jEiOH42EEZk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/33M6kaWHEUxmMpvlBefRAK"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/33M6kaWHEUxmMpvlBefRAK"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/4yauUwryR6UKaAOqoqEPoz"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/33M6kaWHEUxmMpvlBefRAK"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/2qEKzzpe9U1B8ozntUdJB8"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/2qEKzzpe9U1B8ozntUdJB8"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/4yauUwryR6UKaAOqoqEPoz"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/2qEKzzpe9U1B8ozntUdJB8"
           }
         ],
         "credits": [
@@ -6913,6 +7512,10 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
               {
                 "name": "ハセガワダイスケ",
                 "role": "vocals"
+              },
+              {
+                "name": "青木カレン",
+                "role": "lyrics"
               }
             ]
           },
@@ -7127,19 +7730,69 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "region": "GLOBAL",
             "availability": "unknown",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Spotify",
+            "label": "裏切り者のレクイエム｜ハセガワダイスケ",
+            "url": "https://open.spotify.com/track/23llvXXgNYODSJaMYGbXOq",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-vocal"
+          },
+          {
+            "platform": "Spotify",
+            "label": "裏切り者のレクイエム - English Ver.｜ハセガワダイスケ",
+            "url": "https://open.spotify.com/track/7FSl7SS1Fx5ffIjUJa04Lp",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-english"
+          },
+          {
+            "platform": "Spotify",
+            "label": "裏切り者のレクイエム - Instrumental｜ハセガワダイスケ",
+            "url": "https://open.spotify.com/track/3UfxjOghUm9jEiOH42EEZk",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-instrumental"
+          },
+          {
+            "platform": "Spotify",
+            "label": "裏切り者のレクイエム - Diavolo Ver.｜Yugo Kanno",
+            "url": "https://open.spotify.com/track/33M6kaWHEUxmMpvlBefRAK",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-diavolo"
+          },
+          {
+            "platform": "Spotify",
+            "label": "裏切り者のレクイエム - Giorno Ver.｜Yugo Kanno",
+            "url": "https://open.spotify.com/track/2qEKzzpe9U1B8ozntUdJB8",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-op-2-song-giorno"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "use_quarters"
+              "basic_evidence"
             ],
-            "note": "唱片發行了 Diavolo 與 Giorno 兩種錄音。總集篇「destino」亦有片頭曲用作插曲的記錄。",
-            "resumeWhen": "取得各話原播音畫或正式聲音表後核實唱片剪輯對應及總集篇插入位置。",
-            "checkedAt": "2026-11-19"
+            "note": "總集篇「destino」另有本曲作插曲的記錄；官方節目公告沒有分段曲表。",
+            "resumeWhen": "取得日本原播總集篇內歌曲出現的畫面或權利方分段曲表時，另建插曲用途。",
+            "checkedAt": "2026-11-20"
           }
-        ]
+        ],
+        "versionLabel": "原聲帶的Diavolo版與Giorno版各自收錄，兩版都有意大利語獨白，台詞略有不同。英語演唱版另收於單曲。"
       },
       {
         "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1",
@@ -7154,7 +7807,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         ],
         "usageLabel": "第2–4、6–8、10–19話片尾。第1、5、9、20、21話未列本曲作片尾。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://www.universal-music.co.jp/jodeci/news/2018-10-13-media/",
@@ -7239,6 +7892,244 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "language": "en",
             "role": "first_party",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445294161",
+            "label": "Apple Music HK｜Freek'n You, Pt. 1",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445294162",
+            "label": "Apple Music HK｜Freek'n You (Funky Freeky Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445294352",
+            "label": "Apple Music HK｜Freek'n You (P.I.B. 4play)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445294362",
+            "label": "Apple Music HK｜Freek'n You (Freekstrumental Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445294369",
+            "label": "Apple Music HK｜Freek'n You (Freek-A-Pella Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714476",
+            "label": "Apple Music HK｜Freek'n You",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.universalmusic.ca/2025/09/13/ume-celebrates-the-iconic-rb-group-jodeci-with-release-of-the-show-the-after-party-the-hotel-the-30th-anniversary-digital-deluxe-edition-available-today/",
+            "label": "Universal Music｜2025年三十周年版、嘉賓歌手與混音曲目",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714498",
+            "label": "Apple Music HK｜Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714499",
+            "label": "Apple Music HK｜Freek 'N You (Mr. Dalvin's Freek Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714500",
+            "label": "Apple Music HK｜Freek 'N You (Funky Freeky Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714501",
+            "label": "Apple Music HK｜Freek 'N You (Mark Kinchen Freek Remix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1835714594",
+            "label": "Apple Music HK｜Freek 'N You (Freek-A-Pella Mix)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445302572&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1445302579",
+            "label": "Apple Music HK｜Freek'n You (Radio Edit)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294161",
+            "label": "Apple Music JP｜Freek'n You, Pt. 1",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294162",
+            "label": "Apple Music JP｜Freek'n You (Funky Freeky Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294165",
+            "label": "Apple Music JP｜Freek'n You (Radio Edit)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294352",
+            "label": "Apple Music JP｜Freek'n You (P.I.B. 4play)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294362",
+            "label": "Apple Music JP｜Freek'n You (Freekstrumental Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445294369",
+            "label": "Apple Music JP｜Freek'n You (Freek-A-Pella Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1835714498",
+            "label": "Apple Music JP｜Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1835714499",
+            "label": "Apple Music JP｜Freek 'N You (Mr. Dalvin's Freek Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1835714500",
+            "label": "Apple Music JP｜Freek 'N You (Funky Freeky Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1835714501",
+            "label": "Apple Music JP｜Freek 'N You (Mark Kinchen Freek Remix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1835714594",
+            "label": "Apple Music JP｜Freek 'N You (Freek-A-Pella Mix)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440503349&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1440503652",
+            "label": "Apple Music JP｜Freek'n You",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445302572&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445302577",
+            "label": "Apple Music JP｜Freek'n You (MK Dub)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1445302579",
+            "label": "Apple Music JP｜Freek'n You (Radio Edit)",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -7440,6 +8331,1033 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "https://music.apple.com/hk/song/1440805168"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294161"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294161"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445294161"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294161"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294161"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294162"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294162"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445294162"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294162"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294162"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294352"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294352"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445294352"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294352"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445294362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294362"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294362"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294369"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445294369"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445294369"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294369"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445294369"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714476",
+              "https://www.universalmusic.ca/2025/09/13/ume-celebrates-the-iconic-rb-group-jodeci-with-release-of-the-show-the-after-party-the-hotel-the-30th-anniversary-digital-deluxe-edition-available-today/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714476"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714476"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714476"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714498"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714498"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714498"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714498"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714498"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714499"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714499"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714499"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714499"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714499"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714500"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714500"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714500"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714500"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714501"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714501"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714501"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714501"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714501"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1835714594"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1835714594"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1835714594"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1445302579"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445302572"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1445302579"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445302579"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445302579"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294161"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294161"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294161"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294161"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294162"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294162"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294162"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294162"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294165"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294165"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294165"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294165"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294352"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294352"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294352"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294352"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294362"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294362"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294362"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445294369"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445294148"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445294369"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294369"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445294148&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445294369"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1835714498",
+              "https://www.universalmusic.ca/2025/09/13/ume-celebrates-the-iconic-rb-group-jodeci-with-release-of-the-show-the-after-party-the-hotel-the-30th-anniversary-digital-deluxe-edition-available-today/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1835714498"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714498"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714498"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1835714499"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1835714499"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714499"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714499"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1835714500"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1835714500"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714500"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714500"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1835714501"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1835714501"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714501"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714501"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1835714594"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1835714208"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1835714594"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714594"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1835714208&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1835714594"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440503349&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1440503652"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1440503349"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1440503652"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440503652"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440503349&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440503652"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445302577"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445302572"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445302577"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445302577"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445302577"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1445302579"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445302572"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1445302579"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445302579"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445302572&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445302579"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.universalmusic.ca/2025/09/13/ume-celebrates-the-iconic-rb-group-jodeci-with-release-of-the-show-the-after-party-the-hotel-the-30th-anniversary-digital-deluxe-edition-available-today/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon"
           }
         ],
         "credits": [
@@ -7475,6 +9393,64 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-edit-2005",
             "title": "Freek'n You (2005 Edit)",
             "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one",
+            "title": "Freek'n You, Pt. 1",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky",
+            "title": "Freek'n You (Funky Freeky Mix)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay",
+            "title": "Freek'n You (P.I.B. 4play)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental",
+            "title": "Freek'n You (Freekstrumental Mix)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella",
+            "title": "Freek'n You (Freek-A-Pella Mix)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon",
+            "title": "Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]",
+            "kind": "remix",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Raekwon",
+                "role": "vocals"
+              },
+              {
+                "name": "Ghostface Killah",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin",
+            "title": "Freek 'N You (Mr. Dalvin's Freek Mix)",
+            "kind": "remix",
+            "format": "unknown"
+          },
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen",
+            "title": "Freek 'N You (Mark Kinchen Freek Remix)",
+            "kind": "remix",
             "format": "unknown"
           }
         ],
@@ -7512,10 +9488,40 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "edition": "Apple Music 數位版",
             "tracks": [
               {
+                "title": "Freek'n You, Pt. 1",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one"
+              },
+              {
+                "title": "Freek'n You (Funky Freeky Mix)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky"
+              },
+              {
                 "title": "Freek'n You (Radio Edit)",
                 "position": 3,
                 "disc": 1,
                 "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit"
+              },
+              {
+                "title": "Freek'n You (P.I.B. 4play)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay"
+              },
+              {
+                "title": "Freek'n You (Freekstrumental Mix)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental"
+              },
+              {
+                "title": "Freek'n You (Freek-A-Pella Mix)",
+                "disc": 1,
+                "position": 6,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella"
               }
             ]
           },
@@ -7536,6 +9542,12 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "position": 1,
                 "disc": 1,
                 "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mk-dub"
+              },
+              {
+                "title": "Freek'n You (Radio Edit)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit"
               }
             ]
           },
@@ -7556,6 +9568,195 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "position": 11,
                 "disc": 1,
                 "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-edit-2005"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1835714208",
+            "title": "The Show, The After Party, The Hotel (Expanded Edition)",
+            "type": "album",
+            "artistDisplayName": "Jodeci",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2025-09-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Freek'n You",
+                "disc": 1,
+                "position": 16
+              },
+              {
+                "title": "Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]",
+                "disc": 1,
+                "position": 28,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon"
+              },
+              {
+                "title": "Freek 'N You (Mr. Dalvin's Freek Mix)",
+                "disc": 1,
+                "position": 29,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin"
+              },
+              {
+                "title": "Freek 'N You (Funky Freeky Mix)",
+                "disc": 1,
+                "position": 30,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky"
+              },
+              {
+                "title": "Freek 'N You (Mark Kinchen Freek Remix)",
+                "disc": 1,
+                "position": 31,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen"
+              },
+              {
+                "title": "Freek 'N You (Freek-A-Pella Mix)",
+                "disc": 1,
+                "position": 32,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1445294148",
+            "title": "Freek'n You (Remixes) - EP",
+            "type": "ep",
+            "artistDisplayName": "Jodeci",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "1995",
+              "precision": "year"
+            },
+            "tracks": [
+              {
+                "title": "Freek'n You, Pt. 1",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one"
+              },
+              {
+                "title": "Freek'n You (Funky Freeky Mix)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky"
+              },
+              {
+                "title": "Freek'n You (Radio Edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit"
+              },
+              {
+                "title": "Freek'n You (P.I.B. 4play)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay"
+              },
+              {
+                "title": "Freek'n You (Freekstrumental Mix)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental"
+              },
+              {
+                "title": "Freek'n You (Freek-A-Pella Mix)",
+                "disc": 1,
+                "position": 6,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1835714208",
+            "title": "The Show, The After Party, The Hotel (Expanded Edition)",
+            "type": "album",
+            "artistDisplayName": "Jodeci",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2025-09-12",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]",
+                "disc": 1,
+                "position": 28,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon"
+              },
+              {
+                "title": "Freek 'N You (Mr. Dalvin's Freek Mix)",
+                "disc": 1,
+                "position": 29,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin"
+              },
+              {
+                "title": "Freek 'N You (Funky Freeky Mix)",
+                "disc": 1,
+                "position": 30,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky"
+              },
+              {
+                "title": "Freek 'N You (Mark Kinchen Freek Remix)",
+                "disc": 1,
+                "position": 31,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen"
+              },
+              {
+                "title": "Freek 'N You (Freek-A-Pella Mix)",
+                "disc": 1,
+                "position": 32,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1440503349",
+            "title": "The Show, the After-Party, the Hotel",
+            "type": "album",
+            "artistDisplayName": "Jodeci",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "1995",
+              "precision": "year"
+            },
+            "tracks": [
+              {
+                "title": "Freek'n You",
+                "disc": 1,
+                "position": 16,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1445302572",
+            "title": "Freek'n You - Single",
+            "type": "single",
+            "artistDisplayName": "Jodeci",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "1995-05-01",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Freek'n You (MK Dub)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mk-dub"
+              },
+              {
+                "title": "Freek'n You (Radio Edit)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit"
               }
             ]
           }
@@ -7604,8 +9805,294 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "region": "HK",
             "availability": "available",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You, Pt. 1｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445294161",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one",
+            "releaseId": "apple-hk-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Funky Freeky Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445294162",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky",
+            "releaseId": "apple-hk-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (P.I.B. 4play)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445294352",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay",
+            "releaseId": "apple-hk-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Freekstrumental Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445294362",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental",
+            "releaseId": "apple-hk-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Freek-A-Pella Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445294369",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella",
+            "releaseId": "apple-hk-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714476",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714498",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Mr. Dalvin's Freek Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714499",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Funky Freeky Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714500",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Mark Kinchen Freek Remix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714501",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Freek-A-Pella Mix)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1835714594",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella",
+            "releaseId": "apple-hk-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Radio Edit)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1445302579",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit",
+            "releaseId": "apple-hk-1445302572"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You, Pt. 1｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294161",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pt-one",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Funky Freeky Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294162",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Radio Edit)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294165",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (P.I.B. 4play)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294352",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-pib-fourplay",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Freekstrumental Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294362",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freekstrumental",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Freek-A-Pella Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445294369",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella",
+            "releaseId": "apple-jp-1445294148"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (feat. Raekwon & Ghostface Killah) [Raekwon Remix]｜日本串流",
+            "url": "https://music.apple.com/jp/song/1835714498",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-raekwon",
+            "releaseId": "apple-jp-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Mr. Dalvin's Freek Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1835714499",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-dalvin",
+            "releaseId": "apple-jp-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Funky Freeky Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1835714500",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-funky-freeky",
+            "releaseId": "apple-jp-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Mark Kinchen Freek Remix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1835714501",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mark-kinchen",
+            "releaseId": "apple-jp-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek 'N You (Freek-A-Pella Mix)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1835714594",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-freek-a-pella",
+            "releaseId": "apple-jp-1835714208"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You｜日本串流",
+            "url": "https://music.apple.com/jp/song/1440503652",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-vocal",
+            "releaseId": "apple-jp-1440503349"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (MK Dub)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445302577",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-mk-dub",
+            "releaseId": "apple-jp-1445302572"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Freek'n You (Radio Edit)｜日本串流",
+            "url": "https://music.apple.com/jp/song/1445302579",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-1-song-radio-edit",
+            "releaseId": "apple-jp-1445302572"
           }
-        ]
+        ],
+        "versionLabel": "1995年混音EP與2025年三十周年數位增補版的曲項分列。Raekwon Remix載有Raekwon與Ghostface Killah的客席演唱。"
       },
       {
         "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2",
@@ -7621,7 +10108,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         ],
         "usageLabel": "第22–37、39話片尾。7/28終回連播的第38話無獨立片尾。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://www.universal-music.co.jp/enigma/news/2019-03-18-media/",
@@ -7663,7 +10150,7 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "label": "Apple Music：Modern Crusaders歌曲作者與個別演唱",
             "language": "en",
             "role": "first_party",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://itunes.apple.com/lookup?id=712756119&country=hk",
@@ -7678,6 +10165,69 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "language": "en",
             "role": "first_party",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+            "label": "mora｜終回聯播開場曲、兩種意大利語獨白及第38話片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440889398&country=hk&entity=song&limit=200",
+            "label": "Apple HK｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1440889539",
+            "label": "Apple Music HK｜Modern Crusaders",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=712756061&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/712756119",
+            "label": "Apple Music JP｜Modern Crusaders",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1440889398&country=jp&entity=song&limit=200",
+            "label": "Apple JP｜正版發行、曲序與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1440889539",
+            "label": "Apple Music JP｜Modern Crusaders",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/681358/",
+            "label": "mu-mo｜日本原專輯曲目下載",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000006/00724384860653/?trackMaterialNo=874246",
+            "label": "mora｜日本原專輯曲目下載",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -7761,6 +10311,145 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "https://music.apple.com/hk/song/712756119"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/us/song/712756119",
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440889398&country=hk&entity=song&limit=200",
+              "https://music.apple.com/hk/song/1440889539"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1440889398"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1440889539"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1440889539"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440889398&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1440889539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=712756061&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/712756119"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-712756061"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/712756119"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/712756119"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=712756061&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/712756119"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440889398&country=jp&entity=song&limit=200",
+              "https://music.apple.com/jp/song/1440889539"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1440889398"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1440889539"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440889539"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1440889398&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1440889539"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/681358/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://sp-m.mu-mo.net/music/681358/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000006/00724384860653/?trackMaterialNo=874246"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000006/00724384860653/?trackMaterialNo=874246"
           }
         ],
         "credits": [
@@ -7794,7 +10483,17 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal",
             "title": "Modern Crusaders",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Jens Gad（吉他）",
+                "role": "other"
+              },
+              {
+                "name": "Michael Cretu（製作）",
+                "role": "other"
+              }
+            ]
           }
         ],
         "releases": [
@@ -7813,6 +10512,64 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
                 "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal"
               }
             ]
+          },
+          {
+            "id": "apple-hk-1440889398",
+            "title": "Love Sensuality Devotion: Greatest Hits & Remixes (Remastered 2016)",
+            "type": "compilation",
+            "artistDisplayName": "Enigma",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2016-09-23",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Modern Crusaders",
+                "disc": 1,
+                "position": 5
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-712756061",
+            "title": "The Screen Behind The Mirror",
+            "type": "album",
+            "artistDisplayName": "エニグマ",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "1999",
+              "precision": "year"
+            },
+            "tracks": [
+              {
+                "title": "Modern Crusaders",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1440889398",
+            "title": "Love Sensuality Devotion: Greatest Hits & Remixes (Remastered 2016)",
+            "type": "compilation",
+            "artistDisplayName": "エニグマ",
+            "region": "JP",
+            "edition": "日本數位版",
+            "date": {
+              "value": "2016-09-23",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Modern Crusaders",
+                "disc": 1,
+                "position": 5
+              }
+            ]
           }
         ],
         "links": [
@@ -7826,8 +10583,60 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "region": "HK",
             "availability": "available",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Modern Crusaders｜香港串流",
+            "url": "https://music.apple.com/hk/song/1440889539",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1440889398"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Modern Crusaders｜日本串流",
+            "url": "https://music.apple.com/jp/song/712756119",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal",
+            "releaseId": "apple-jp-712756061"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Modern Crusaders｜日本串流",
+            "url": "https://music.apple.com/jp/song/1440889539",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-jp-1440889398"
+          },
+          {
+            "platform": "mu-mo",
+            "label": "Modern Crusaders｜日本數位下載",
+            "url": "https://sp-m.mu-mo.net/music/681358/",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal"
+          },
+          {
+            "platform": "mora",
+            "label": "Modern Crusaders｜日本數位下載",
+            "url": "https://mora.jp/package/43000006/00724384860653/?trackMaterialNo=874246",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-ed-2-song-vocal"
           }
-        ]
+        ],
+        "versionLabel": "間奏引用Carl Orff《Carmina Burana》的旋律。日本電視終回連播另在開場摘要播放了〈O Fortuna〉選段。"
       },
       {
         "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-1",
@@ -7841,14 +10650,14 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
         ],
         "usageLabel": "第7話船上段落，角色播放音樂並起舞。演唱者列為本劇插曲並署名作詞、演唱。",
         "sourceMode": "explicit",
-        "lastVerifiedAt": "2026-11-19",
+        "lastVerifiedAt": "2026-11-20",
         "sources": [
           {
             "url": "https://daisukehasegawa.net/",
             "label": "ハセガワダイスケ官方：插曲歌唱與作詞、第二片頭主唱",
             "language": "ja",
             "role": "first_party",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.animatetimes.com/news/details.php?id=1564123470&p=2",
@@ -7905,6 +10714,34 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "language": "ja",
             "role": "first_party",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://open.spotify.com/embed/album/3F39P75zBe3YTwWCGmxUNL",
+            "label": "Spotify｜動畫官網所連專輯的實際曲序",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/22pURPCv8K4XGzM7q1b8Rb",
+            "label": "Spotify｜canzoni preferite",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://jojowiki.com/Canzoni_preferite",
+            "label": "逐話配樂對照｜收音機、車內與替身回播的時間點",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OGQQajOy_WQ",
+            "label": "木棉花｜第9話授權正片入口（本次核對片名）",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -8032,6 +10869,28 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "K2wKBYrDxew"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/22pURPCv8K4XGzM7q1b8Rb"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/22pURPCv8K4XGzM7q1b8Rb"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/embed/album/3F39P75zBe3YTwWCGmxUNL"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/22pURPCv8K4XGzM7q1b8Rb"
           }
         ],
         "credits": [
@@ -8119,6 +10978,357 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
             "region": "GLOBAL",
             "availability": "unknown",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Spotify",
+            "label": "canzoni preferite｜Yugo Kanno",
+            "url": "https://open.spotify.com/track/22pURPCv8K4XGzM7q1b8Rb",
+            "region": "GLOBAL",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-1-song-vocal"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "分集配樂對照另列第5話收音機、第6話替身回播、第9話車內短句；已定位木棉花第9話片目。",
+            "resumeWhen": "用正版分集音畫逐一比對收音機和車內段落與已辨識的劇中錄音後，補上各話用途。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2",
+        "type": "IN",
+        "sequence": 2,
+        "songId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song",
+        "titleJa": "O Fortuna",
+        "artistDisplayName": "合唱（日本原播演出團體待核）",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "2019年7月28日TOKYO MX第38、39話連播時，在第38話正篇前的回顧影像使用《Carmina Burana》開場合唱選段。",
+        "versionLabel": "〈O Fortuna〉為拉丁文合唱。《The Screen Behind the Mirror》的〈Modern Crusaders〉在間奏另有引用。Naxos唱片另列其演出者，原播錄音仍待識別。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://x.com/anime_jojo/status/1155433573685424129",
+            "label": "動畫官方｜2019年7月28日原播時確認扉頁影像配樂",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+            "label": "mora｜終回聯播開場曲、兩種意大利語獨白及第38話片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://jojo-animation.com/news/2019/07/news1.php",
+            "label": "動畫官方｜2019年7月28日20:00連播第38、39話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anitubu.com/archives/post-25224.html",
+            "label": "日本首播同期紀錄｜20:03的製作方用曲說明",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.schott-music.com/en/o-fortuna-noc346116.html",
+            "label": "Schott Music｜原作聲樂譜、作曲者與拉丁文合唱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.naxos.com/CatalogueDetail/?id=8.550196",
+            "label": "Naxos｜8.550196發行月份、指揮、合唱、樂團及第1曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?upc=730099519625&country=hk&entity=song&limit=100",
+            "label": "Apple HK｜依Naxos條碼核對第1曲與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/19664005",
+            "label": "Apple Music｜Naxos合唱錄音（第1曲）",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?upc=730099519625&country=jp&entity=song&limit=100",
+            "label": "Apple JP｜依Naxos條碼核對第1曲與本區串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/19664005",
+            "label": "Apple Music｜Naxos合唱錄音（第1曲）",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "Carl Orff",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://x.com/anime_jojo/status/1155433573685424129",
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+              "https://jojo-animation.com/news/2019/07/news1.php",
+              "https://anitubu.com/archives/post-25224.html",
+              "https://www.schott-music.com/en/o-fortuna-noc346116.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title"
+            ],
+            "sourceUrls": [
+              "https://x.com/anime_jojo/status/1155433573685424129",
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/",
+              "https://jojo-animation.com/news/2019/07/news1.php",
+              "https://anitubu.com/archives/post-25224.html",
+              "https://www.schott-music.com/en/o-fortuna-noc346116.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.schott-music.com/en/o-fortuna-noc346116.html",
+              "https://mora.jp/topics/rensai/jojo-golden-wind-16/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.naxos.com/CatalogueDetail/?id=8.550196"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.naxos.com/CatalogueDetail/?id=8.550196"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?upc=730099519625&country=hk&entity=song&limit=100",
+              "https://music.apple.com/hk/song/19664005",
+              "https://www.naxos.com/CatalogueDetail/?id=8.550196"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-19664253"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/19664005"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/19664005"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?upc=730099519625&country=hk&entity=song&limit=100"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/19664005"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "title",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?upc=730099519625&country=jp&entity=song&limit=100",
+              "https://music.apple.com/jp/song/19664005",
+              "https://www.naxos.com/CatalogueDetail/?id=8.550196"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-19664253"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/19664005"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/19664005"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?upc=730099519625&country=jp&entity=song&limit=100"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/19664005"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "O Fortuna｜香港串流・Naxos錄音",
+            "url": "https://music.apple.com/hk/song/19664005",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser",
+            "releaseId": "apple-hk-19664253"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "O Fortuna｜日本串流・Naxos錄音",
+            "url": "https://music.apple.com/jp/song/19664005",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser",
+            "releaseId": "apple-jp-19664253"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser",
+            "title": "O Fortuna（Slovak Philharmonic Chorus／Stephen Gunzenhauser）",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "Slovak Philharmonic Chorus",
+                "role": "vocals"
+              },
+              {
+                "name": "Slovak Radio Symphony Orchestra（樂團）",
+                "role": "other"
+              },
+              {
+                "name": "Stephen Gunzenhauser（指揮）",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-19664253",
+            "title": "Orff: Carmina Burana",
+            "type": "album",
+            "artistDisplayName": "CSR Symphony Orchestra, 斯洛伐克愛樂合唱團 & 史蒂芬 · 甘森豪瑟",
+            "region": "HK",
+            "edition": "Naxos 數位版",
+            "date": {
+              "value": "1990-04",
+              "precision": "month"
+            },
+            "tracks": [
+              {
+                "title": "Carmina Burana: O Fortuna",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-19664253",
+            "title": "Orff: Carmina Burana",
+            "type": "album",
+            "artistDisplayName": "ブラティスラヴァCSR交響楽団, スロヴァキアフィルハーモニー合唱団 & スティーヴン・ガンゼンハウザー",
+            "region": "JP",
+            "edition": "Naxos 數位版",
+            "date": {
+              "value": "1990-04",
+              "precision": "month"
+            },
+            "tracks": [
+              {
+                "title": "Carmina Burana: O Fortuna",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "jojo-no-kimyou-na-bouken-ougon-no-kaze-in-2-song-naxos-gunzenhauser"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "製作委員會與同期放送記錄確認了選段，現有資料未列原播合唱團、指揮及唱片母帶。",
+            "resumeWhen": "取得原播節目的音樂掛字或權利方同步授權資料後，補入演出者和對應錄音。",
+            "checkedAt": "2026-11-20"
           }
         ]
       }
@@ -10706,6 +13916,3826 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       "https://www.tv-tokyo.co.jp/anime/fairytail/episodes/",
       "https://ani.gamer.com.tw/animeVideo.php?sn=10923",
       "https://anilist.co/anime/99749/Fairy-Tail-Final-Season/"
+    ]
+  },
+  {
+    "id": "curated-101336",
+    "anilistId": 101336,
+    "slug": "karakuri-circus",
+    "titleJa": "からくりサーカス",
+    "titleZhHant": "傀儡馬戲團",
+    "titleRomaji": "Karakuri Circus",
+    "startDate": "2018-10-11",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter",
+      "2019-spring"
+    ],
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "22:30",
+    "status": "finished",
+    "anilistUrl": "https://anilist.co/anime/101336",
+    "imageSourceUrl": "https://anilist.co/anime/101336",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx101336-RhdykHwHu1dh.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n101336-qLNjcp3kBrXL.jpg",
+    "officialSiteUrl": "https://karakuri-anime.com/",
+    "metadataVerifiedAt": "2026-11-20",
+    "verifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://karakuri-anime.com/music/",
+      "https://anilist.co/anime/101336"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+        "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.primevideo.com/-/zh_TW/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+        "label": "Amazon Prime Video：正版繁中片名與各話",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://karakuri-anime.com/sp/special/docs/saigashinbun_20180930.pdf",
+        "label": "動畫製作方首播特刊：日本第1話先行串流",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5092/time",
+        "label": "TOKYO MX首播時段及各話日期",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "broadcastLabel": "日本スタジオヴォルン製作，TOKYO MX於2018年10月11日至2019年6月27日逢週四22:30 JST播出，全36話。日本Amazon第1話在10月10日節目日24:00左右先行。第24話於4月4日播出。",
+    "themes": [
+      {
+        "id": "karakuri-circus-op-1",
+        "songId": "karakuri-circus-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "月虹",
+        "artistDisplayName": "BUMP OF CHICKEN",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "日本TV第1–12話片頭。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-op-1-song-main",
+            "title": "月虹",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-live",
+            "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-tv-op",
+            "title": "月虹(アニメOP Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-tv-ed",
+            "title": "月虹(アニメED Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1610683332"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1610683334"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1610683332"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1610683334"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1720918022"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1720918078"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1720918022"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1720918078"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-tv-op"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-tv-ed"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1610683332",
+            "title": "aurora arc",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1610683332",
+            "title": "aurora arc",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1720918022",
+            "title": "BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-12-20",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "karakuri-circus-op-1-song-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1720918022",
+            "title": "BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-12-20",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "karakuri-circus-op-1-song-live"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 2,
+                "position": 29,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 1,
+                "position": 68,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 1,
+                "position": 68,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1610683334",
+            "label": "月虹｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-1-song-main",
+            "releaseId": "apple-hk-1610683332",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1610683334",
+            "label": "月虹｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-1-song-main",
+            "releaseId": "apple-jp-1610683332",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1720918078",
+            "label": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-1-song-live",
+            "releaseId": "apple-hk-1720918022",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1720918078",
+            "label": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-1-song-live",
+            "releaseId": "apple-jp-1720918022",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "藤原基央",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤原基央",
+            "role": "composition"
+          },
+          {
+            "name": "BUMP OF CHICKEN",
+            "role": "arrangement"
+          },
+          {
+            "name": "MOR",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "日本原聲帶第1碟第1曲是片頭剪輯，第2碟第29曲是片尾剪輯。港日Apple原聲帶曲表列出兩曲，但未提供這兩個剪輯的個別串流或購買。"
+      },
+      {
+        "id": "karakuri-circus-op-2",
+        "songId": "karakuri-circus-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "ハグルマ",
+        "artistDisplayName": "KANA-BOON",
+        "seasonIds": [
+          "2019-winter",
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第13–24話片頭；第24話跨入春季。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538160777&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538160777&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OT9fgIdo6Ow",
+            "label": "KANA-BOON Official YouTube Channel：影片標題與發布名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-op-2-song-main",
+            "title": "ハグルマ",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-2-song-tv",
+            "title": "ハグルマ(アニメ Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538160777&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-2-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538160777&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538160777"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538160777&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538160778"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538160777&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538160777"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538160777&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538160778"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503439"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503439"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OT9fgIdo6Ow"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "OT9fgIdo6Ow"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1538160777",
+            "title": "ハグルマ - Single",
+            "artistDisplayName": "KANA-BOON",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "ハグルマ",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-2-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538160777",
+            "title": "ハグルマ - Single",
+            "artistDisplayName": "KANA-BOON",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "ハグルマ",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-2-song-main"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "ハグルマ(アニメ Ver.)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "ハグルマ(アニメ Ver.)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "ハグルマ(アニメ Ver.)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-2-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538160778",
+            "label": "ハグルマ｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-2-song-main",
+            "releaseId": "apple-hk-1538160777",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538160778",
+            "label": "ハグルマ｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-2-song-main",
+            "releaseId": "apple-jp-1538160777",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503439",
+            "label": "ハグルマ(アニメ Ver.)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-2-song-tv",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503439",
+            "label": "ハグルマ(アニメ Ver.)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-2-song-tv",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "谷口鮪",
+            "role": "lyrics"
+          },
+          {
+            "name": "谷口鮪",
+            "role": "composition"
+          },
+          {
+            "name": "KANA-BOON",
+            "role": "arrangement"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=OT9fgIdo6Ow"
+      },
+      {
+        "id": "karakuri-circus-op-3",
+        "songId": "karakuri-circus-op-3-song",
+        "type": "OP",
+        "sequence": 3,
+        "titleJa": "Over me",
+        "artistDisplayName": "ロザリーナ",
+        "seasonIds": [
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第25–36話片頭。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://lozareena.com/musics/14400",
+            "label": "ロザリーナ：日本限定單曲曲序及鋼琴改編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-op-3-song-main",
+            "title": "Over me",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-3-song-tv",
+            "title": "Over me (アニメ Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-3-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lozareena.com/musics/14400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11171-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538276226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538276227"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538276226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538276227"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503440"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503440"
+          }
+        ],
+        "releases": [
+          {
+            "id": "srcl-11171-2",
+            "title": "Over me",
+            "artistDisplayName": "ロザリーナ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "期間生產限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "Over me",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-3-song-main"
+              }
+            ],
+            "catalogNumber": "SRCL-11171～2"
+          },
+          {
+            "id": "apple-hk-1538276226",
+            "title": "Over me - Single",
+            "artistDisplayName": "Lozareena",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "Over me",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-3-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538276226",
+            "title": "Over me - Single",
+            "artistDisplayName": "ロザリーナ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "Over me",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-3-song-main"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "Over me (アニメ Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-op-3-song-tv"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "Over me (アニメ Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-op-3-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "Over me (アニメ Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-op-3-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538276227",
+            "label": "Over me｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-3-song-main",
+            "releaseId": "apple-hk-1538276226",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538276227",
+            "label": "Over me｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-3-song-main",
+            "releaseId": "apple-jp-1538276226",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503440",
+            "label": "Over me (アニメ Ver.)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-3-song-tv",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503440",
+            "label": "Over me (アニメ Ver.)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-3-song-tv",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ロザリーナ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ロザリーナ",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          },
+          {
+            "name": "ロザリーナ",
+            "role": "vocals"
+          }
+        ]
+      },
+      {
+        "id": "karakuri-circus-ed-1",
+        "songId": "karakuri-circus-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "マリオネット",
+        "artistDisplayName": "ロザリーナ",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "日本TV第1–12話片尾。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276084&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276084&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://lozareena.com/musics/14400",
+            "label": "ロザリーナ：日本限定單曲曲序及鋼琴改編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-ed-1-song-main",
+            "title": "マリオネット",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-ed-1-song-piano",
+            "title": "マリオネット (Piano Ballad Ver.)",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "arrangement",
+                "name": "白井アキト"
+              }
+            ]
+          },
+          {
+            "id": "karakuri-circus-ed-1-song-tv",
+            "title": "マリオネット(アニメ Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276084&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276084&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538276084"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276084&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538276085"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276084&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538276084"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276084&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538276085"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200",
+              "https://lozareena.com/musics/14400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1-song-piano"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lozareena.com/musics/14400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1-song-piano"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://lozareena.com/musics/14400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11171-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538276226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538276229"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538276226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538276226&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538276229"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503563"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503563"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1538276084",
+            "title": "マリオネット - Single",
+            "artistDisplayName": "Lozareena",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "マリオネット",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-ed-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538276084",
+            "title": "マリオネット - Single",
+            "artistDisplayName": "ロザリーナ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "マリオネット",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-ed-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11171-2",
+            "title": "Over me",
+            "artistDisplayName": "ロザリーナ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "期間生產限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "マリオネット (Piano Ballad Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-ed-1-song-piano"
+              }
+            ],
+            "catalogNumber": "SRCL-11171～2"
+          },
+          {
+            "id": "apple-hk-1538276226",
+            "title": "Over me - Single",
+            "artistDisplayName": "Lozareena",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "マリオネット (Piano Ballad Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-ed-1-song-piano"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538276226",
+            "title": "Over me - Single",
+            "artistDisplayName": "ロザリーナ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "マリオネット (Piano Ballad Ver.)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-ed-1-song-piano"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "マリオネット(アニメ Ver.)",
+                "disc": 2,
+                "position": 27,
+                "recordingId": "karakuri-circus-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "マリオネット(アニメ Ver.)",
+                "disc": 1,
+                "position": 66,
+                "recordingId": "karakuri-circus-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "マリオネット(アニメ Ver.)",
+                "disc": 1,
+                "position": 66,
+                "recordingId": "karakuri-circus-ed-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538276085",
+            "label": "マリオネット｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-1-song-main",
+            "releaseId": "apple-hk-1538276084",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538276085",
+            "label": "マリオネット｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-1-song-main",
+            "releaseId": "apple-jp-1538276084",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538276229",
+            "label": "マリオネット (Piano Ballad Ver.)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-1-song-piano",
+            "releaseId": "apple-hk-1538276226",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538276229",
+            "label": "マリオネット (Piano Ballad Ver.)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-1-song-piano",
+            "releaseId": "apple-jp-1538276226",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503563",
+            "label": "マリオネット(アニメ Ver.)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-1-song-tv",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503563",
+            "label": "マリオネット(アニメ Ver.)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-1-song-tv",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ロザリーナ",
+            "role": "lyrics"
+          },
+          {
+            "name": "ロザリーナ",
+            "role": "composition"
+          },
+          {
+            "name": "TeddyLoid",
+            "role": "arrangement"
+          },
+          {
+            "name": "ロザリーナ",
+            "role": "vocals"
+          }
+        ]
+      },
+      {
+        "id": "karakuri-circus-ed-2",
+        "songId": "karakuri-circus-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "夕立ち",
+        "artistDisplayName": "眩暈SIREN",
+        "seasonIds": [
+          "2019-winter",
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第13–24話片尾；第24話跨入春季。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538283204&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8NIn_tFNcBM",
+            "label": "TWIN ENGINE：影片標題與發布名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-ed-2-song-main",
+            "title": "夕立ち",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-ed-2-song-acoustic",
+            "title": "夕立ち(Acoustic Version)",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-ed-2-song-tv",
+            "title": "夕立ち(アニメ Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-2-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538283204"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538283205"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538283204"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538283205"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-2-song-acoustic"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538283207"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538283204&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538283207"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503564"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503564"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=8NIn_tFNcBM"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "8NIn_tFNcBM"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1538283204",
+            "title": "夕立ち - Single",
+            "artistDisplayName": "MEMAI SIREN",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "夕立ち",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-ed-2-song-main"
+              },
+              {
+                "title": "夕立ち(Acoustic Version)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-ed-2-song-acoustic"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538283204",
+            "title": "夕立ち - Single",
+            "artistDisplayName": "眩暈SIREN",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "夕立ち",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-ed-2-song-main"
+              },
+              {
+                "title": "夕立ち(Acoustic Version)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "karakuri-circus-ed-2-song-acoustic"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "夕立ち(アニメ Ver.)",
+                "disc": 2,
+                "position": 28,
+                "recordingId": "karakuri-circus-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "夕立ち(アニメ Ver.)",
+                "disc": 1,
+                "position": 67,
+                "recordingId": "karakuri-circus-ed-2-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "夕立ち(アニメ Ver.)",
+                "disc": 1,
+                "position": 67,
+                "recordingId": "karakuri-circus-ed-2-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538283205",
+            "label": "夕立ち｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-2-song-main",
+            "releaseId": "apple-hk-1538283204",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538283205",
+            "label": "夕立ち｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-2-song-main",
+            "releaseId": "apple-jp-1538283204",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538283207",
+            "label": "夕立ち(Acoustic Version)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-2-song-acoustic",
+            "releaseId": "apple-hk-1538283204",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538283207",
+            "label": "夕立ち(Acoustic Version)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-2-song-acoustic",
+            "releaseId": "apple-jp-1538283204",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503564",
+            "label": "夕立ち(アニメ Ver.)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-ed-2-song-tv",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503564",
+            "label": "夕立ち(アニメ Ver.)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-ed-2-song-tv",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "京寺",
+            "role": "lyrics"
+          },
+          {
+            "name": "オオサワレイ",
+            "role": "composition"
+          },
+          {
+            "name": "眩暈SIREN",
+            "role": "composition"
+          },
+          {
+            "name": "出羽良彰",
+            "role": "arrangement"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=8NIn_tFNcBM"
+      },
+      {
+        "id": "karakuri-circus-ed-3",
+        "songId": "karakuri-circus-op-1-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "月虹",
+        "artistDisplayName": "BUMP OF CHICKEN",
+        "seasonIds": [
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第25–36話片尾，使用獨立片尾剪輯。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://karakuri-anime.com/music/",
+            "label": "動畫官網：各期片頭片尾與演唱者說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5092/subtitle",
+            "label": "日本原播逐話曲目與創作者",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-op-1-song-main",
+            "title": "月虹",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-live",
+            "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-tv-op",
+            "title": "月虹(アニメOP Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "karakuri-circus-op-1-song-tv-ed",
+            "title": "月虹(アニメED Ver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://karakuri-anime.com/music/",
+              "https://cal.syoboi.jp/tid/5092/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-main"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1610683332"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1610683334"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1610683332"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1610683332&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1610683334"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1720918022"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1720918078"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1720918022"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1720918022&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1720918078"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-tv-op"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-op-1-song-tv-ed"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1610683332",
+            "title": "aurora arc",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1610683332",
+            "title": "aurora arc",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "karakuri-circus-op-1-song-main"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1720918022",
+            "title": "BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-12-20",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "karakuri-circus-op-1-song-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1720918022",
+            "title": "BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -",
+            "artistDisplayName": "BUMP OF CHICKEN",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-12-20",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "karakuri-circus-op-1-song-live"
+              }
+            ]
+          },
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 2,
+                "position": 29,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 1,
+                "position": 68,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "月虹(アニメOP Ver.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "karakuri-circus-op-1-song-tv-op"
+              },
+              {
+                "title": "月虹(アニメED Ver.)",
+                "disc": 1,
+                "position": 68,
+                "recordingId": "karakuri-circus-op-1-song-tv-ed"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1610683334",
+            "label": "月虹｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-1-song-main",
+            "releaseId": "apple-hk-1610683332",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1610683334",
+            "label": "月虹｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-1-song-main",
+            "releaseId": "apple-jp-1610683332",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1720918078",
+            "label": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-op-1-song-live",
+            "releaseId": "apple-hk-1720918022",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1720918078",
+            "label": "月虹 (BUMP OF CHICKEN TOUR 2023 be there at SAITAMA SUPER ARENA - DAY2 -)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-op-1-song-live",
+            "releaseId": "apple-jp-1720918022",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "藤原基央",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤原基央",
+            "role": "composition"
+          },
+          {
+            "name": "BUMP OF CHICKEN",
+            "role": "arrangement"
+          },
+          {
+            "name": "MOR",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "日本原聲帶第1碟第1曲是片頭剪輯，第2碟第29曲是片尾剪輯。港日Apple原聲帶曲表列出兩曲，但未提供這兩個剪輯的個別串流或購買。"
+      },
+      {
+        "id": "karakuri-circus-in-1",
+        "songId": "karakuri-circus-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "しろがねの子守唄",
+        "artistDisplayName": "林原めぐみ",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV已確認第18話フランシーヌ人形為エレオノール唱歌；其他角色亦曾演唱，逐話位置續查。",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "sources": [
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+            "label": "Sony Music：各季度用途、片頭與片尾剪輯、日本電視及串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cho-animedia.jp/article/2019/06/26/12951.html",
+            "label": "林原めぐみ訪談：各角色在電視版中演唱子守唄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mac-design.work/review/karakuri_ep18.html",
+            "label": "2019年播出記錄：第18幕井中的演唱段落",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.cdjapan.co.jp/product/SRCL-11230",
+            "label": "CDJapan：日本原聲帶兩碟品番及各曲位置",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+            "label": "Apple 日本：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200",
+            "label": "Apple 香港：唱片曲序、錄音版別及當區供應",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.amazon.co.jp/tracks/B07VFK7PJB",
+            "label": "Amazon Music 日本：原聲帶曲目與演唱者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/fec22787602dccaea928",
+            "label": "AWA：林ゆうき與林原めぐみ的歌曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "karakuri-circus-in-1-song-vocal",
+            "title": "しろがねの子守唄",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "karakuri-circus-in-1-song-guitar",
+            "title": "しろがねの子守唄_Acoustic Guitar Ver.",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://cho-animedia.jp/article/2019/06/26/12951.html",
+              "https://mac-design.work/review/karakuri_ep18.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://cho-animedia.jp/article/2019/06/26/12951.html",
+              "https://mac-design.work/review/karakuri_ep18.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://cho-animedia.jp/article/2019/06/26/12951.html",
+              "https://mac-design.work/review/karakuri_ep18.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "srcl-11230-2"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503560"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1537503436"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503560"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200",
+              "https://prtimes.jp/main/html/rd/p/000002091.000013546.html",
+              "https://www.cdjapan.co.jp/product/SRCL-11230"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "karakuri-circus-in-1-song-guitar"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1537503536"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1537503436&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1537503536"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.amazon.co.jp/tracks/B07VFK7PJB"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.amazon.co.jp/tracks/B07VFK7PJB"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/fec22787602dccaea928"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/fec22787602dccaea928"
+          }
+        ],
+        "releases": [
+          {
+            "id": "srcl-11230-2",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "林ゆうきほか",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶兩碟CD＋小冊子",
+            "tracks": [
+              {
+                "title": "しろがねの子守唄",
+                "disc": 2,
+                "position": 24,
+                "recordingId": "karakuri-circus-in-1-song-vocal"
+              },
+              {
+                "title": "しろがねの子守唄_Acoustic Guitar Ver.",
+                "disc": 1,
+                "position": 39,
+                "recordingId": "karakuri-circus-in-1-song-guitar"
+              }
+            ],
+            "catalogNumber": "SRCL-11230/2"
+          },
+          {
+            "id": "apple-hk-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "群星",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "HK數位版",
+            "tracks": [
+              {
+                "title": "しろがねの子守唄",
+                "disc": 1,
+                "position": 63,
+                "recordingId": "karakuri-circus-in-1-song-vocal"
+              },
+              {
+                "title": "しろがねの子守唄_Acoustic Guitar Ver.",
+                "disc": 1,
+                "position": 39,
+                "recordingId": "karakuri-circus-in-1-song-guitar"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1537503436",
+            "title": "からくり大サーカス",
+            "artistDisplayName": "Various Artists",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "edition": "JP數位版",
+            "tracks": [
+              {
+                "title": "しろがねの子守唄",
+                "disc": 1,
+                "position": 63,
+                "recordingId": "karakuri-circus-in-1-song-vocal"
+              },
+              {
+                "title": "しろがねの子守唄_Acoustic Guitar Ver.",
+                "disc": 1,
+                "position": 39,
+                "recordingId": "karakuri-circus-in-1-song-guitar"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503560",
+            "label": "しろがねの子守唄｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-in-1-song-vocal",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503560",
+            "label": "しろがねの子守唄｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-in-1-song-vocal",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1537503536",
+            "label": "しろがねの子守唄_Acoustic Guitar Ver.｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "karakuri-circus-in-1-song-guitar",
+            "releaseId": "apple-hk-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1537503536",
+            "label": "しろがねの子守唄_Acoustic Guitar Ver.｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "karakuri-circus-in-1-song-guitar",
+            "releaseId": "apple-jp-1537503436",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.amazon.co.jp/tracks/B07VFK7PJB",
+            "platform": "Amazon Music",
+            "label": "しろがねの子守唄｜Amazon Music",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "recordingId": "karakuri-circus-in-1-song-vocal",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/fec22787602dccaea928",
+            "platform": "AWA",
+            "label": "しろがねの子守唄｜AWA",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "recordingId": "karakuri-circus-in-1-song-vocal",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "name": "林原めぐみ",
+            "role": "vocals"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format"
+            ],
+            "note": "林原めぐみ在訪談說明不同角色的搖籃曲演唱，已定位第18話井中段落。",
+            "resumeWhen": "取得其餘原播話數和片末掛字，補入各角色位置及與唱片版本的對照。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
     ]
   },
 ];

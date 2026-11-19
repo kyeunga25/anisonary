@@ -17,13 +17,15 @@ export const PLAYLIST_PAGE_SIZE = 24;
 const collator = new Intl.Collator("zh-Hant", { numeric: true, sensitivity: "base" });
 
 export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOptions): PlaylistRow[] {
+  const compareMemberships = options.sort === "oldest"
+    ? (left: PlaylistRow["season"], right: PlaylistRow["season"]) => compareSeasonsNewestFirst(right, left)
+    : compareSeasonsNewestFirst;
   const rows = searchCatalog(index, options).flatMap<PlaylistRow>(({ anime, themes, season }) => {
     if (options.weekday && String(anime.editorialWeekday ?? 0) !== options.weekday) return [];
-    // A work can belong to several quarters. Show it once, using the newest
-    // matching membership rather than the provider's incidental entry order.
+    // A cross-season use appears once, at the first matching quarter in the selected order.
     const memberships = anime.seasons.filter((entry) =>
       (!options.year || String(entry.year) === options.year) && (!options.quarter || entry.quarter === options.quarter)
-    ).sort(compareSeasonsNewestFirst);
+    ).sort(compareMemberships);
     const displaySeason = memberships[0] ?? season;
     const selected = themes.filter((theme) => !options.videoOnly || theme.hasOfficialVideo);
     if (!selected.length) {
@@ -45,7 +47,7 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
   });
   return rows.sort((left, right) => {
     const byAssignment = Number(left.theme?.seasonIds?.length === 0) - Number(right.theme?.seasonIds?.length === 0);
-    const bySeason = compareSeasonsNewestFirst(left.season, right.season);
+    const bySeason = compareMemberships(left.season, right.season);
     const byAnime = collator.compare(left.anime.titleZhHant ?? left.anime.titleJa, right.anime.titleZhHant ?? right.anime.titleJa);
     const typeOrder = { OP: 0, ED: 1, IN: 2, TS: 3 };
     const byTheme = (left.theme ? typeOrder[left.theme.type] : 4) - (right.theme ? typeOrder[right.theme.type] : 4)
@@ -53,7 +55,7 @@ export function getPlaylistRows(index: CatalogSearchIndex, options: PlaylistOpti
     if (options.sort === "song") return collator.compare(left.theme?.titleJa ?? "", right.theme?.titleJa ?? "") || byAnime || byTheme;
     if (options.sort === "artist") return collator.compare(left.theme?.artistDisplayName ?? "", right.theme?.artistDisplayName ?? "") || byAnime || byTheme;
     if (options.sort === "anime") return byAnime || byAssignment || bySeason || byTheme;
-    return byAssignment || (options.sort === "oldest" ? -bySeason : bySeason) || byAnime || byTheme;
+    return byAssignment || bySeason || byAnime || byTheme;
   });
 }
 
