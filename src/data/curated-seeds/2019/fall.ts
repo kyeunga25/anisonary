@@ -21458,9 +21458,41 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480633761",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480633749",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480633761",
+            "label": "So Beautiful Story｜るか・せな from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480633749"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -21553,11 +21585,36 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14549"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480633749",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480633749"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480633761",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480633761"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第2話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "こだまさおり",
@@ -21615,6 +21672,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14549"
+          },
+          {
+            "id": "apple-hk-1480633749",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 1年目②",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "So Beautiful Story",
+                "position": 1
+              }
+            ]
           }
         ]
       },
@@ -21674,9 +21745,116 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299293",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300741",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481302410",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481302176",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481305315",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481305198",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299293",
+            "label": "Good morning my dream｜るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300741",
+            "label": "Good morning my dream(TV-size)｜るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481300741"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481302410",
+            "label": "Good morning my dream 〜いちご & あおい & 蘭 Ver.〜｜わか・ふうり・ゆな from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481302176",
+            "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481302410"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481305315",
+            "label": "Good morning my dream 〜ひなきソロ Ver.〜(Short Size)｜みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481305198",
+            "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481305315"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -21769,11 +21947,155 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14275"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299293",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299293"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-3-song-apple-1481300741",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300741"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300741",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300741"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-3-song-apple-1481302410",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481302410"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481302176",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481302176"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481302410",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481302410"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-3-song-apple-1481305315",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481305315"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481305198",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481305198"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481305315",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481305315"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第4話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "こだまさおり",
@@ -21800,6 +22122,42 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "Good morning my dream（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-3-song-apple-1481300741",
+            "title": "Good morning my dream(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "るか・もな・みき from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-3-song-apple-1481302410",
+            "title": "Good morning my dream 〜いちご & あおい & 蘭 Ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・ゆな from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-3-song-apple-1481305315",
+            "title": "Good morning my dream 〜ひなきソロ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "みき from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2014-10-22",
@@ -21831,6 +22189,65 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14275"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Good morning my dream",
+                "position": 6
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Good morning my dream(TV-size)",
+                "position": 10,
+                "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481300741"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481302176",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS10",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Good morning my dream 〜いちご & あおい & 蘭 Ver.〜",
+                "position": 14,
+                "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481302410"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481305198",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS3",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Good morning my dream 〜ひなきソロ Ver.〜(Short Size)",
+                "position": 6,
+                "recordingId": "aikatsu-on-parade-ed-3-song-apple-1481305315"
+              }
+            ]
           }
         ]
       },
@@ -21890,9 +22307,159 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299301",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300744",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481305428",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481305198",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481305429",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481302409",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481302176",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481298559",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481298544",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299301",
+            "label": "チュチュ・バレリーナ｜もな・るか・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300744",
+            "label": "チュチュ・バレリーナ(TV-size)｜るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481300744"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481305428",
+            "label": "チュチュ・バレリーナ 〜スミレソロ Ver.〜(Short Size)｜もな from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481305198",
+            "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481305428"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481305429",
+            "label": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜(Short Size)｜もな・ななせ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481305198",
+            "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481305429"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481302409",
+            "label": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜｜もな・ななせ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481302176",
+            "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481302409"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481298559",
+            "label": "チュチュ・バレリーナ 〜スミレソロ Ver.〜｜もな from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481298544",
+            "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481298559"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -21985,11 +22552,220 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14343"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299301",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299301"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-4-song-apple-1481300744",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300744"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300744",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300744"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-4-song-apple-1481305428",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481305428"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481305198",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481305198"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481305428",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481305428"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-4-song-apple-1481305429",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481305429"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481305429",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481305429"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-4-song-apple-1481302409",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481302409"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481302176",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481302176"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481302409",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481302409"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-4-song-apple-1481298559",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481298559"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481298544",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481298544"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481298559",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481298559"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第5話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "只野菜摘",
@@ -22016,6 +22792,66 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "チュチュ・バレリーナ（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-4-song-apple-1481300744",
+            "title": "チュチュ・バレリーナ(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "るか・もな・みき from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-4-song-apple-1481305428",
+            "title": "チュチュ・バレリーナ 〜スミレソロ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "もな from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-4-song-apple-1481305429",
+            "title": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "もな・ななせ from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-4-song-apple-1481302409",
+            "title": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "もな・ななせ from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-4-song-apple-1481298559",
+            "title": "チュチュ・バレリーナ 〜スミレソロ Ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "もな from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2015-04-29",
@@ -22047,6 +22883,85 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14343"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チュチュ・バレリーナ",
+                "position": 12
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チュチュ・バレリーナ(TV-size)",
+                "position": 12,
+                "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481300744"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481305198",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS3",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チュチュ・バレリーナ 〜スミレソロ Ver.〜(Short Size)",
+                "position": 23,
+                "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481305428"
+              },
+              {
+                "title": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜(Short Size)",
+                "position": 24,
+                "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481305429"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481302176",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS10",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チュチュ・バレリーナ 〜スミレ & 凛 Ver.〜",
+                "position": 13,
+                "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481302409"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481298544",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS9",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チュチュ・バレリーナ 〜スミレソロ Ver.〜",
+                "position": 11,
+                "recordingId": "aikatsu-on-parade-ed-4-song-apple-1481298559"
+              }
+            ]
           }
         ]
       },
@@ -22106,9 +23021,141 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299304",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300731",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481297138",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481296891",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308063",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481308057",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481304628",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481304429",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299304",
+            "label": "カレンダーガール｜わか・ふうり・すなお from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300731",
+            "label": "カレンダーガール(TV-size)｜わか・ふうり・すなお from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481300731"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481297138",
+            "label": "カレンダーガール 〜いちご & あおい & 蘭 Ver.〜(Short Size)｜わか・ふうり・すなお from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481296891",
+            "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481297138"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308063",
+            "label": "カレンダーガール 〜きいソロ Ver.〜(Short Size)｜ゆな from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481308063"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481304628",
+            "label": "カレンダーガール 〜いちご & あおい & 蘭 & あかり & スミレ & ひなき Ver.〜(Short Size)｜わか・ふうり・すなお from STAR☆ANIS & るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481304429",
+            "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481304628"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -22201,11 +23248,196 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14013"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299304",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299304"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-5-song-apple-1481300731",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300731"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300731",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300731"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-5-song-apple-1481297138",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481297138"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481296891",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481296891"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481297138",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481297138"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-5-song-apple-1481308063",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308063"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481308057",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481308057"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308063",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308063"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-5-song-apple-1481304628",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481304628"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481304429",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481304429"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481304628",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481304628"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第7話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "こだまさおり",
@@ -22232,6 +23464,54 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "カレンダーガール（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-5-song-apple-1481300731",
+            "title": "カレンダーガール(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-5-song-apple-1481297138",
+            "title": "カレンダーガール 〜いちご & あおい & 蘭 Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-5-song-apple-1481308063",
+            "title": "カレンダーガール 〜きいソロ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ゆな from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-5-song-apple-1481304628",
+            "title": "カレンダーガール 〜いちご & あおい & 蘭 & あかり & スミレ & ひなき Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお from STAR☆ANIS & るか・もな・みき from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2012-11-21",
@@ -22263,6 +23543,80 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14013"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カレンダーガール",
+                "position": 15
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カレンダーガール(TV-size)",
+                "position": 2,
+                "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481300731"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481296891",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS1",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カレンダーガール 〜いちご & あおい & 蘭 Ver.〜(Short Size)",
+                "position": 19,
+                "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481297138"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481308057",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS2",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カレンダーガール 〜きいソロ Ver.〜(Short Size)",
+                "position": 6,
+                "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481308063"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481304429",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS4",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カレンダーガール 〜いちご & あおい & 蘭 & あかり & スミレ & ひなき Ver.〜(Short Size)",
+                "position": 18,
+                "recordingId": "aikatsu-on-parade-ed-5-song-apple-1481304628"
+              }
+            ]
           }
         ]
       },
@@ -22322,9 +23676,152 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299297",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300736",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481305608",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481305040",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308431",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481308057",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308427",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308062",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299297",
+            "label": "オリジナルスター☆彡｜わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300736",
+            "label": "オリジナルスター☆彡(TV-size)｜わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481300736"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481305608",
+            "label": "オリジナルスター☆彡 〜いちご & あかり Ver.〜｜わか・るか from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481305040",
+            "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481305608"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308431",
+            "label": "オリジナルスター☆彡 〜いちご & あかり Ver.〜(Short Size)｜わか・るか from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308431"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308427",
+            "label": "オリジナルスター☆彡 〜おとめ & さくら Ver.〜(Short Size)｜れみ・えり from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308427"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308062",
+            "label": "オリジナルスター☆彡 〜いちご & あおい & 蘭 Ver.〜(Short Size)｜わか・ふうり・すなお from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308062"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -22417,11 +23914,207 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14144"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299297",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299297"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-6-song-apple-1481300736",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300736"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300736",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300736"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-6-song-apple-1481305608",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481305608"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481305040",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481305040"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481305608",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481305608"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-6-song-apple-1481308431",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308431"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481308057",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481308057"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308431",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308431"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-6-song-apple-1481308427",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308427"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308427",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308427"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-6-song-apple-1481308062",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308062"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308062",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308062"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第8話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "こだまさおり",
@@ -22448,6 +24141,66 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "オリジナルスター☆彡（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-6-song-apple-1481300736",
+            "title": "オリジナルスター☆彡(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-6-song-apple-1481305608",
+            "title": "オリジナルスター☆彡 〜いちご & あかり Ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・るか from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-6-song-apple-1481308431",
+            "title": "オリジナルスター☆彡 〜いちご & あかり Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・るか from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-6-song-apple-1481308427",
+            "title": "オリジナルスター☆彡 〜おとめ & さくら Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "れみ・えり from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-6-song-apple-1481308062",
+            "title": "オリジナルスター☆彡 〜いちご & あおい & 蘭 Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお from STAR☆ANIS"
+              }
+            ]
           }
         ],
         "releaseDate": "2013-10-23",
@@ -22479,6 +24232,75 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14144"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "オリジナルスター☆彡",
+                "position": 10
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "オリジナルスター☆彡(TV-size)",
+                "position": 6,
+                "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481300736"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481305040",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS8",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "オリジナルスター☆彡 〜いちご & あかり Ver.〜",
+                "position": 14,
+                "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481305608"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481308057",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS2",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "オリジナルスター☆彡 〜いちご & あかり Ver.〜(Short Size)",
+                "position": 22,
+                "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308431"
+              },
+              {
+                "title": "オリジナルスター☆彡 〜おとめ & さくら Ver.〜(Short Size)",
+                "position": 19,
+                "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308427"
+              },
+              {
+                "title": "オリジナルスター☆彡 〜いちご & あおい & 蘭 Ver.〜(Short Size)",
+                "position": 5,
+                "recordingId": "aikatsu-on-parade-ed-6-song-apple-1481308062"
+              }
+            ]
           }
         ]
       },
@@ -22538,9 +24360,134 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299294",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300739",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481301424",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300873",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308428",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481308057",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481308644",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299294",
+            "label": "Precious｜りすこ・わか・ふうり・もな from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300739",
+            "label": "Precious(TV-size)｜りすこ・わか・ふうり・もな from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481300739"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481301424",
+            "label": "Precious 〜美月ソロ Ver.〜｜りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300873",
+            "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481301424"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308428",
+            "label": "Precious 〜美月ソロ Ver.〜(Short Size)｜りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481308428"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481308644",
+            "label": "Precious(Short Size)｜りすこ・もな from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481308057",
+            "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481308644"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -22633,11 +24580,181 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14227"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299294",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299294"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-7-song-apple-1481300739",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300739"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300739",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300739"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-7-song-apple-1481301424",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481301424"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300873",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300873"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481301424",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481301424"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-7-song-apple-1481308428",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308428"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481308057",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481308057"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308428",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308428"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-7-song-apple-1481308644",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481308644"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481308644",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481308644"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第9話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "辻 純更",
@@ -22664,6 +24781,54 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "Precious（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-7-song-apple-1481300739",
+            "title": "Precious(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "りすこ・わか・ふうり・もな from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-7-song-apple-1481301424",
+            "title": "Precious 〜美月ソロ Ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "りすこ from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-7-song-apple-1481308428",
+            "title": "Precious 〜美月ソロ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "りすこ from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-7-song-apple-1481308644",
+            "title": "Precious(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "りすこ・もな from STAR☆ANIS"
+              }
+            ]
           }
         ],
         "releaseDate": "2014-04-30",
@@ -22695,6 +24860,70 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14227"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Precious",
+                "position": 7
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Precious(TV-size)",
+                "position": 8,
+                "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481300739"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300873",
+            "title": "TVアニメ/データカードダス『アイカツ!』Complete Songs6",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Precious 〜美月ソロ Ver.〜",
+                "position": 15,
+                "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481301424"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481308057",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS2",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Precious 〜美月ソロ Ver.〜(Short Size)",
+                "position": 20,
+                "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481308428"
+              },
+              {
+                "title": "Precious(Short Size)",
+                "position": 35,
+                "recordingId": "aikatsu-on-parade-ed-7-song-apple-1481308644"
+              }
+            ]
           }
         ]
       },
@@ -22978,9 +25207,134 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299298",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300746",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481302003",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481302002",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481304432",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481304429",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481304444",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299298",
+            "label": "lucky train!｜るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300746",
+            "label": "lucky train!(TV-size)｜るか・もな・みき from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481300746"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481302003",
+            "label": "Lucky Train! (のの & リサ Ver.)｜みほ・ななせ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481302002",
+            "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481302003"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481304432",
+            "label": "lucky train! 〜のの & リサ Ver.〜(Short Size)｜みほ・ななせ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481304429",
+            "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481304432"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481304444",
+            "label": "lucky train! 〜ののソロ Ver.〜(Short Size)｜みほ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481304429",
+            "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481304444"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -23073,11 +25427,181 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14408"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299298",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299298"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-9-song-apple-1481300746",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300746"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300746",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300746"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-9-song-apple-1481302003",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481302003"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481302002",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481302002"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481302003",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481302003"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-9-song-apple-1481304432",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481304432"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481304429",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481304429"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481304432",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481304432"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-9-song-apple-1481304444",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481304444"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481304444",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481304444"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第12話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "只野菜摘",
@@ -23104,6 +25628,54 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "lucky train!（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-9-song-apple-1481300746",
+            "title": "lucky train!(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "るか・もな・みき from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-9-song-apple-1481302003",
+            "title": "Lucky Train! (のの & リサ Ver.)",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "みほ・ななせ from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-9-song-apple-1481304432",
+            "title": "lucky train! 〜のの & リサ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "みほ・ななせ from AIKATSU☆STARS!"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-9-song-apple-1481304444",
+            "title": "lucky train! 〜ののソロ Ver.〜(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "みほ from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2015-10-28",
@@ -23135,6 +25707,70 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14408"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "lucky train!",
+                "position": 11
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "lucky train!(TV-size)",
+                "position": 14,
+                "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481300746"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481302002",
+            "title": "TVアニメ/データカードダス『アイカツ!』Complete Songs 11",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Lucky Train! (のの & リサ Ver.)",
+                "position": 1,
+                "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481302003"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481304429",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS4",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "lucky train! 〜のの & リサ Ver.〜(Short Size)",
+                "position": 3,
+                "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481304432"
+              },
+              {
+                "title": "lucky train! 〜ののソロ Ver.〜(Short Size)",
+                "position": 14,
+                "recordingId": "aikatsu-on-parade-ed-9-song-apple-1481304444"
+              }
+            ]
           }
         ]
       },
@@ -23414,9 +26050,91 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481299302",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481299287",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481300733",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481300729",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481297265",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481296891",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481299302",
+            "label": "ヒラリ/ヒトリ/キラリ｜わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481299287"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481300733",
+            "label": "ヒラリ/ヒトリ/キラリ(TV-size)｜わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481300729",
+            "recordingId": "aikatsu-on-parade-ed-11-song-apple-1481300733"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1481297265",
+            "label": "ヒラリ/ヒトリ/キラリ(Short Size)｜わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1481296891",
+            "recordingId": "aikatsu-on-parade-ed-11-song-apple-1481297265"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -23509,11 +26227,116 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14099"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481299287",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481299287"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481299302",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481299302"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-11-song-apple-1481300733",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481300733"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481300729",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481300729"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481300733",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481300733"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-11-song-apple-1481297265",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/song/1481297265"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1481296891",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=476",
+              "https://music.apple.com/hk/album/1481296891"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1481297265",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481297265"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第15話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "只野菜摘",
@@ -23540,6 +26363,30 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "ヒラリ／ヒトリ／キラリ（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-11-song-apple-1481300733",
+            "title": "ヒラリ/ヒトリ/キラリ(TV-size)",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS"
+              }
+            ]
+          },
+          {
+            "id": "aikatsu-on-parade-ed-11-song-apple-1481297265",
+            "title": "ヒラリ/ヒトリ/キラリ(Short Size)",
+            "format": "short",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "わか・ふうり・すなお・れみ・もえ・えり・ゆな・りすこ from STAR☆ANIS"
+              }
+            ]
           }
         ],
         "releaseDate": "2013-06-26",
@@ -23571,6 +26418,50 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14099"
+          },
+          {
+            "id": "apple-hk-1481299287",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS12",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ヒラリ/ヒトリ/キラリ",
+                "position": 13
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481300729",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS5",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ヒラリ/ヒトリ/キラリ(TV-size)",
+                "position": 4,
+                "recordingId": "aikatsu-on-parade-ed-11-song-apple-1481300733"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481296891",
+            "title": "TVアニメ/データカードダス『アイカツ!』COMPLETE SONGS1",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ヒラリ/ヒトリ/キラリ(Short Size)",
+                "position": 38,
+                "recordingId": "aikatsu-on-parade-ed-11-song-apple-1481297265"
+              }
+            ]
           }
         ]
       },
@@ -23630,9 +26521,66 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480640058",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480639482",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480638027",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480637785",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480640058",
+            "label": "森のひかりのピルエット｜せな・るか from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480639482"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480638027",
+            "label": "森のひかりのピルエット 〜アリア ver.〜｜るか from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480637785",
+            "recordingId": "aikatsu-on-parade-ed-12-song-apple-1480638027"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -23725,11 +26673,75 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14669"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480639482",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480639482"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480640058",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480640058"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-12-song-apple-1480638027",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/song/1480638027"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480637785",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480637785"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480638027",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480638027"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第17話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "辻 純更",
@@ -23756,6 +26768,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "森のひかりのピルエット（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-12-song-apple-1480638027",
+            "title": "森のひかりのピルエット 〜アリア ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "るか from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2017-11-01",
@@ -23787,6 +26811,35 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14669"
+          },
+          {
+            "id": "apple-hk-1480639482",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 2年目",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "森のひかりのピルエット",
+                "position": 12
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1480637785",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 Another Ver.",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "森のひかりのピルエット 〜アリア ver.〜",
+                "position": 13,
+                "recordingId": "aikatsu-on-parade-ed-12-song-apple-1480638027"
+              }
+            ]
           }
         ]
       },
@@ -24133,9 +27186,66 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480640036",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480639482",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480638009",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480637785",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480640036",
+            "label": "Bon Bon Voyage!｜りさ/みほ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480639482"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480638009",
+            "label": "Bon Bon Voyage! 〜エルザ & きらら & レイ & アリア ver.〜｜りさ/みほ・りえ・るか from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480637785",
+            "recordingId": "aikatsu-on-parade-ed-14-song-apple-1480638009"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -24228,11 +27338,75 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14604"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480639482",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480639482"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480640036",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480640036"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-14-song-apple-1480638009",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/song/1480638009"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480637785",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480637785"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480638009",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480638009"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第20話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "辻純更",
@@ -24259,6 +27433,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "Bon Bon Voyage!（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-14-song-apple-1480638009",
+            "title": "Bon Bon Voyage! 〜エルザ & きらら & レイ & アリア ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "りさ/みほ・りえ・るか from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2017-04-26",
@@ -24290,6 +27476,35 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14604"
+          },
+          {
+            "id": "apple-hk-1480639482",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 2年目",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Bon Bon Voyage!",
+                "position": 5
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1480637785",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 Another Ver.",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Bon Bon Voyage! 〜エルザ & きらら & レイ & アリア ver.〜",
+                "position": 9,
+                "recordingId": "aikatsu-on-parade-ed-14-song-apple-1480638009"
+              }
+            ]
           }
         ]
       },
@@ -24349,9 +27564,66 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+            "label": "Sunrise Music 歷代歌曲配信、角色版本與曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480630016",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480629710",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480637829",
+            "label": "Apple Music 香港區曲目及演唱名義",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1480637785",
+            "label": "Apple Music 香港區數位合輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480630016",
+            "label": "episode Solo｜るか・ななせ・かな・みほ from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480629710"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480637829",
+            "label": "episode Solo 〜ゆめ & あこ & 真昼 & ゆず ver.〜｜せな・みき・かな from AIKATSU☆STARS!｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1480637785",
+            "recordingId": "aikatsu-on-parade-ed-15-song-apple-1480637829"
+          }
+        ],
         "evidence": [
           {
             "target": "anime_use",
@@ -24444,11 +27716,75 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lacm-14490"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480629710",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480629710"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480630016",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480630016"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "aikatsu-on-parade-ed-15-song-apple-1480637829",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/song/1480637829"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "apple-hk-1480637785",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://music.apple.com/hk/album/1480637785"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480637829",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480637829"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
         "usageLabel": "日本TV正篇第23話回用片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "只野菜摘",
@@ -24475,6 +27811,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "title": "episode Solo（OFF VOCAL）",
             "kind": "instrumental",
             "format": "unknown"
+          },
+          {
+            "id": "aikatsu-on-parade-ed-15-song-apple-1480637829",
+            "title": "episode Solo 〜ゆめ & あこ & 真昼 & ゆず ver.〜",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "せな・みき・かな from AIKATSU☆STARS!"
+              }
+            ]
           }
         ],
         "releaseDate": "2016-05-25",
@@ -24506,6 +27854,35 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             ],
             "label": "Lantis",
             "catalogNumber": "LACM-14490"
+          },
+          {
+            "id": "apple-hk-1480629710",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 1年目①",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "episode Solo",
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1480637785",
+            "title": "TVアニメ/データカードダス『アイカツスターズ!』主題歌/挿入歌 Another Ver.",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位合輯",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "episode Solo 〜ゆめ & あこ & 真昼 & ゆず ver.〜",
+                "position": 2,
+                "recordingId": "aikatsu-on-parade-ed-15-song-apple-1480637829"
+              }
+            ]
           }
         ]
       },
@@ -27722,6 +31099,356 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             "note": "已核唱名相符的商業發行，正片舞台剪輯或音源對應待核。",
             "resumeWhen": "待權利方公布正片音源與商業版的母帶／剪輯關係，並按香港地區實際播放核驗。",
             "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 11,
+        "titleJa": "プライド",
+        "artistDisplayName": "カレン・ミライ from BEST FRIENDS!",
+        "id": "aikatsu-on-parade-in-11",
+        "songId": "aikatsu-on-parade-ed-10-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/",
+            "label": "東京電視台本話故事及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.aikatsu.net/aikatsufriends_02/cd/single/04.html",
+            "label": "系列官方唱片及歌曲名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5444",
+            "label": "逐話歌曲及演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/aikatuonparade",
+            "label": "原播逐話片頭、片尾與插曲紀錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-on-parade-in-11",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/",
+              "https://cal.syoboi.jp/tid/5444",
+              "https://www.mau2.com/anime/aikatuonparade"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "song",
+            "targetId": "aikatsu-on-parade-ed-10-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/aikatsufriends_02/cd/single/04.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/aikatsufriends_02/cd/single/04.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本 TV 第 24 話劇中演唱；同曲另於第 14 話用作片尾。",
+        "credits": [
+          {
+            "name": "松原さらり",
+            "role": "lyrics"
+          },
+          {
+            "name": "片山将太",
+            "role": "composition"
+          },
+          {
+            "name": "藤末 樹",
+            "role": "composition"
+          },
+          {
+            "name": "片山将太",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 12,
+        "titleJa": "episode Solo",
+        "artistDisplayName": "るか・ななせ・かな・みほ from AIKATSU☆STARS!",
+        "id": "aikatsu-on-parade-in-12",
+        "songId": "aikatsu-on-parade-ed-15-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/index_2.html",
+            "label": "東京電視台本話故事及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.aikatsu.net/aikatsustars_02/cd/single/s01.html",
+            "label": "系列官方唱片及歌曲名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5444",
+            "label": "逐話歌曲及演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/aikatuonparade",
+            "label": "原播逐話片頭、片尾與插曲紀錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-on-parade-in-12",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/index_2.html",
+              "https://cal.syoboi.jp/tid/5444",
+              "https://www.mau2.com/anime/aikatuonparade"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "song",
+            "targetId": "aikatsu-on-parade-ed-15-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/aikatsustars_02/cd/single/s01.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/aikatsustars_02/cd/single/s01.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本 TV 第 6 話劇中演唱；同曲另於第 23 話用作片尾。",
+        "credits": [
+          {
+            "name": "只野菜摘",
+            "role": "lyrics"
+          },
+          {
+            "name": "石濱 翔（MONACA）",
+            "role": "composition"
+          },
+          {
+            "name": "石濱 翔（MONACA）",
+            "role": "arrangement"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 13,
+        "titleJa": "Bon Bon Voyage!",
+        "artistDisplayName": "りさ・みほ・りえ・るか from AIKATSU☆STARS!",
+        "id": "aikatsu-on-parade-in-13",
+        "songId": "aikatsu-on-parade-ed-14-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/index_2.html",
+            "label": "東京電視台本話故事及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.aikatsu.net/aikatsustars_02/cd/single/s07.html",
+            "label": "系列官方唱片及歌曲名義",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5444",
+            "label": "逐話歌曲及演唱名義交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/aikatuonparade",
+            "label": "原播逐話片頭、片尾與插曲紀錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+            "label": "Sunrise Music 歷代配信及歌唱版本",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1480638009",
+            "label": "Apple Music 香港區四人歌唱版",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1480638009",
+            "label": "Bon Bon Voyage!（エルザ & きらら & レイ & アリア ver.）｜Apple Music HK",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "link",
+            "targetId": "https://music.apple.com/hk/song/1480638009",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1480638009"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "aikatsu-on-parade-in-13",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/aikatsuonparade/episodes/index_2.html",
+              "https://cal.syoboi.jp/tid/5444",
+              "https://www.mau2.com/anime/aikatuonparade"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "song",
+            "targetId": "aikatsu-on-parade-ed-14-song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.sunrise-music.co.jp/list/detail.php?id=475",
+              "https://www.aikatsu.net/aikatsustars_02/cd/single/s07.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.aikatsu.net/aikatsustars_02/cd/single/s07.html",
+              "https://cal.syoboi.jp/tid/5444"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本 TV 第 9 話劇中演唱；採用四人歌唱版。",
+        "credits": [
+          {
+            "name": "辻純更",
+            "role": "lyrics"
+          },
+          {
+            "name": "石濱 翔（MONACA）",
+            "role": "composition"
+          },
+          {
+            "name": "石濱 翔（MONACA）",
+            "role": "arrangement"
+          },
+          {
+            "name": "りさ",
+            "role": "vocals"
+          },
+          {
+            "name": "みほ",
+            "role": "vocals"
+          },
+          {
+            "name": "りえ",
+            "role": "vocals"
+          },
+          {
+            "name": "るか",
+            "role": "vocals"
           }
         ]
       }
@@ -41162,6 +44889,20 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515590",
+          "label": "OTOTOY 日本版：JAPANESE MENU/DISTORTION 10（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501324598&country=hk",
+          "label": "Apple 香港曲目目錄：Survive of Vision，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "seasonIds": [
@@ -41189,8 +44930,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501324597",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "mugen-no-juunin-immortal-op-1-song-japanese-menu-album-full"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515590",
+          "platform": "OTOTOY",
+          "label": "JAPANESE MENU/DISTORTION 10｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-515590",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -41349,10 +45100,48 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "pOJvBzRKKuk"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515590",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515590"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515590",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515590"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501324598",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501324598&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "usageLabel": "Amazon Prime Video原配信片頭，秋季第2話起已核，冬季第15、19話仍使用。日本地上波另有編排，第1–12話使用本曲（2020年4/7–6/23節目日）。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "清春",
@@ -41471,6 +45260,26 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             }
           ],
           "label": "ポニーキャニオン"
+        },
+        {
+          "id": "ototoy-jp-515590",
+          "title": "JAPANESE MENU/DISTORTION 10",
+          "type": "album",
+          "label": "ポニーキャニオン",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "清春",
+          "tracks": [
+            {
+              "title": "SURVIVE OF VISION",
+              "position": 1,
+              "recordingId": "mugen-no-juunin-immortal-op-1-song-japanese-menu-album-full"
+            }
+          ]
         }
       ]
     },
@@ -41579,6 +45388,27 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/573511",
+          "label": "OTOTOY 日本版：無限の住人 武闘編（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1520342886&country=hk",
+          "label": "Apple 香港曲目目錄：Mugen no Juunin Butouhen，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1520342887&country=hk",
+          "label": "Apple 香港曲目目錄：Mugen no Juunin Butouhen (TV Version)，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -41590,7 +45420,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "region": "HK",
           "releaseId": "apple-hk-1520342345",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "mugen-no-juunin-immortal-op-2-song-butouhen-digital-full"
         },
         {
@@ -41601,8 +45431,18 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           "region": "HK",
           "releaseId": "apple-hk-1520342345",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "mugen-no-juunin-immortal-op-2-song-butouhen-digital-tv"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/573511",
+          "platform": "OTOTOY",
+          "label": "無限の住人 武闘編｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-573511",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -41764,6 +45604,56 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "GF6BXTluSIU"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-573511",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/573511"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/573511",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/573511"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1520342886",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1520342886&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1520342887",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1520342887&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "sourceMode": "explicit",
@@ -41771,7 +45661,7 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
         "2020-summer"
       ],
       "usageLabel": "日本地上波第13–23話片頭。6/30節目日TOKYO MX 25:35、MBS 27:00首次播出（實曆7/1），9/8節目日最後使用；第24話終幕省略常規片頭。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "人間椅子",
@@ -41854,6 +45744,31 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
             }
           ],
           "label": "ポニーキャニオン"
+        },
+        {
+          "id": "ototoy-jp-573511",
+          "title": "無限の住人 武闘編",
+          "type": "single",
+          "label": "ポニーキャニオン",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-07-08",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "人間椅子",
+          "tracks": [
+            {
+              "title": "無限の住人 武闘編",
+              "position": 1,
+              "recordingId": "mugen-no-juunin-immortal-op-2-song-butouhen-digital-full"
+            },
+            {
+              "title": "無限の住人 武闘編(TV版)",
+              "position": 2,
+              "recordingId": "mugen-no-juunin-immortal-op-2-song-butouhen-digital-tv"
+            }
+          ]
         }
       ],
       "followUp": [
@@ -68071,6 +71986,8 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
     "seasonIds": [
       "2019-fall",
       "2020-winter",
+      "2020-spring",
+      "2020-summer",
       "2020-fall",
       "2022-spring",
       "2023-spring",
@@ -68081,7 +71998,7 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
     "titleZhHant": "瓢蟲少女 第3季",
     "titleRomaji": "Miraculous: Tales of Ladybug & Cat Noir Season 3",
     "editorialWeekday": 6,
-    "broadcastLabel": "法國、韓國、日本合製。日本Disney Channel 2019/11/9起播第三季，2020/2/15新話〈リフレクドール〉於19:30 JST，第76–78話12/12首次播出。BS11另於2022/4/8起雙語播出；地上波東京電視台2023/4/1–9/23週六07:30 JST。",
+    "broadcastLabel": "法國、韓國、日本合製。日本Disney Channel 2019/11/9起播第三季，2020/2/15新話〈リフレクドール〉於19:30 JST，第59、60話於6/21、6/28播出，第63–66話於8/3起播出，第76–78話12/12首次播出。BS11另於2022/4/8起雙語播出；地上波東京電視台2023/4/1–9/23週六07:30 JST。",
     "status": "finished",
     "officialSiteUrl": "https://www.toei-anim.co.jp/tv/miraculous/",
     "identifierSource": {
@@ -68098,7 +72015,9 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
       "https://www.tv-tokyo.co.jp/anime/miraculous/episodes/index_3.html",
       "https://www.toei-anim.co.jp/tv/miraculous/news/2022020101.php",
       "https://www.tv-tokyo.co.jp/anime/miraculous/news/",
-      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202309/26841_202309230730.html"
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202309/26841_202309230730.html",
+      "https://www.toei-anim.co.jp/tv/miraculous/news/2020060502.php",
+      "https://www.toei-anim.co.jp/tv/miraculous/news/2020072701.php"
     ],
     "metadataVerifiedAt": "2026-11-19",
     "verifiedAt": "2026-11-19",
@@ -68169,6 +72088,20 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
       {
         "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202309/26841_202309230730.html",
         "label": "東京電視台2023/9/23地上波終話時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.toei-anim.co.jp/tv/miraculous/news/2020060502.php",
+        "label": "東映動畫：日本 Disney Channel 6 月第 59、60 話節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.toei-anim.co.jp/tv/miraculous/news/2020072701.php",
+        "label": "東映動畫：日本 Disney Channel 8 月第 63–66 話節目表",
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-11-19"

@@ -3317,7 +3317,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "STPR 精選專輯Happy碟第5軌",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://store.stpr.com/products/stpr-1006",
@@ -3345,14 +3345,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Apple Music 香港發行及曲序",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://music.apple.com/hk/song/1786321573",
           "label": "Apple Music 香港曲目入口",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.youtube.com/watch?v=clh2UXayN_I",
@@ -3374,6 +3374,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01",
+          "label": "KADOKAWA 第1卷租賃 DVD 無字幕片頭特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -3672,6 +3679,89 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "stpr-9011"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "pros-1939"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "stpr-9050"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "stpr-1018-21"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1786321573"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1786321573"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "tracklist",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1786321560"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1786321560"
         }
       ],
       "followUp": [
@@ -3685,8 +3775,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第1–28話常規片頭；第37、52話另見特殊片尾線索",
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本原播第1–28話常規片頭。第37及52話改作特別片尾，詳見同曲的片尾用途。",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1-song-strawberry-next",
@@ -3751,7 +3841,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "tracks": [
             {
               "title": "Gingira Ginga",
-              "position": 5
+              "position": 5,
+              "disc": 1
             }
           ],
           "label": "STPR Records"
@@ -3776,6 +3867,66 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "STPR Records",
           "catalogNumber": "STPR-9011"
+        },
+        {
+          "id": "pros-1939",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "FC 限定版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "PROS-1939"
+        },
+        {
+          "id": "stpr-9050",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "初回限定版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "STPR-9050"
+        },
+        {
+          "id": "stpr-1018-21",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "通常版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "STPR-1018/21"
         }
       ],
       "links": [
@@ -3792,13 +3943,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "platform": "Apple Music",
-          "label": "Gingira Ginga｜Apple Music HK",
+          "label": "Gingira Ginga｜Apple Music HK（3:19）",
           "url": "https://music.apple.com/hk/song/1786321573",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1786321560",
           "availability": "unknown",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "KADOKAWA",
+          "label": "第1卷租賃 DVD 無字幕片頭特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ],
       "releaseDate": "2020-01-15"
@@ -5121,6 +5281,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01",
+          "label": "KADOKAWA 第1卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -5240,6 +5407,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "LyB2gFCd6eo"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01"
         }
       ],
       "followUp": [
@@ -5254,7 +5433,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第2、6、11、17、22、28、33話片尾曲",
       "versionLabel": "ワイワイ編｜共通歌詞、各編獨立作曲與演唱",
       "recordings": [
@@ -5263,6 +5442,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "Y学園へ行こう ワイワイ編（官方MV演唱）",
           "kind": "vocal",
           "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "KADOKAWA",
+          "label": "第1卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec01",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -5392,6 +5582,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec02",
+          "label": "KADOKAWA 第2卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -5511,6 +5708,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "PZkwcpPg0FI"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec02"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec02"
         }
       ],
       "followUp": [
@@ -5525,7 +5734,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第3、7、12、18、23、29、36話片尾曲",
       "versionLabel": "疾走編｜共通歌詞、各編獨立作曲與演唱",
       "recordings": [
@@ -5534,6 +5743,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "Y学園へ行こう 疾走編（官方MV演唱）",
           "kind": "vocal",
           "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "KADOKAWA",
+          "label": "第2卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec02",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -5663,6 +5883,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec03",
+          "label": "KADOKAWA 第3卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -5782,6 +6009,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "5VGHV9BBoJ8"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec03"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec03"
         }
       ],
       "followUp": [
@@ -5796,7 +6035,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第4、9、13、19、26、30話片尾曲",
       "versionLabel": "青春ロック編｜共通歌詞、各編獨立作曲與演唱",
       "recordings": [
@@ -5805,6 +6044,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "Y学園へ行こう 青春ロック編（官方MV演唱）",
           "kind": "vocal",
           "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "KADOKAWA",
+          "label": "第3卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec03",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -5976,6 +6226,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec04",
+          "label": "KADOKAWA 第4卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -6182,6 +6439,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec04"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec04"
         }
       ],
       "followUp": [
@@ -6195,7 +6464,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第5、10、15、21、24、32話TV片尾；同曲另用於2019劇場版",
       "recordings": [
         {
@@ -6259,6 +6528,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-15",
           "recordingId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5-song-time-capsule"
+        },
+        {
+          "platform": "KADOKAWA",
+          "label": "第4卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec04",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ],
       "releaseDate": "2019-12-11",
@@ -6667,6 +6945,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec05",
+          "label": "KADOKAWA 第5卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -6844,6 +7129,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/201912/25709_201912280700.html"
           ],
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec05"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec05"
         }
       ],
       "followUp": [
@@ -6858,7 +7155,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第14、20、27、31話片尾曲",
       "versionLabel": "8bit編｜共通歌詞、各編獨立作曲與演唱",
       "recordings": [
@@ -6867,6 +7164,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "Y学園へ行こう 8bit編（官方MV演唱）",
           "kind": "vocal",
           "format": "unknown"
+        }
+      ],
+      "links": [
+        {
+          "platform": "KADOKAWA",
+          "label": "第5卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec05",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -8205,7 +8513,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "STPR 精選專輯Happy碟第5軌",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://store.stpr.com/products/stpr-1006",
@@ -8233,14 +8541,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Apple Music 香港發行及曲序",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://music.apple.com/hk/song/1786321573",
           "label": "Apple Music 香港曲目入口",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25709_202009181825.html",
@@ -8278,13 +8586,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "platform": "Apple Music",
-          "label": "Gingira Ginga｜Apple Music HK",
+          "label": "Gingira Ginga｜Apple Music HK（3:19）",
           "url": "https://music.apple.com/hk/song/1786321573",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1786321560",
           "availability": "unknown",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -8417,6 +8725,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-12"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "pros-1939"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "stpr-9050"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://strawberryprinceforever.stpr.com/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "stpr-1018-21"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1786321573"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1786321573"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "tracklist",
+            "date"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1786321560"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1786321560"
         }
       ],
       "sourceMode": "explicit",
@@ -8425,7 +8804,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2021-winter"
       ],
       "usageLabel": "日本原播第37話（2020/9/18）及第52話（2021/1/15）特別片尾。第52話由劇中決戰後段開始使用。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "followUp": [
         {
           "fields": [
@@ -8501,7 +8880,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "tracks": [
             {
               "title": "Gingira Ginga",
-              "position": 5
+              "position": 5,
+              "disc": 1
             }
           ],
           "label": "STPR Records"
@@ -8526,6 +8906,66 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "STPR Records",
           "catalogNumber": "STPR-9011"
+        },
+        {
+          "id": "pros-1939",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "FC 限定版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "PROS-1939"
+        },
+        {
+          "id": "stpr-9050",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "初回限定版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "STPR-9050"
+        },
+        {
+          "id": "stpr-1018-21",
+          "title": "Strawberry Prince Forever",
+          "type": "compilation",
+          "artistDisplayName": "すとぷり",
+          "edition": "通常版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ギンギラ銀河",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "date": {
+            "value": "2025-01-08",
+            "precision": "day"
+          },
+          "catalogNumber": "STPR-1018/21"
         }
       ],
       "releaseDate": "2020-01-15"
@@ -8628,6 +9068,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec08",
+          "label": "KADOKAWA 第8卷租賃 DVD 無字幕片尾特典收錄內容",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -8651,6 +9098,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1537700813",
           "availability": "unknown",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "platform": "KADOKAWA",
+          "label": "第8卷租賃 DVD 無字幕片尾特典",
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec08",
+          "linkType": "official_landing_page",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ],
       "evidence": [
@@ -8760,12 +9216,24 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "stpr-1009"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec08"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/#spec08"
         }
       ],
       "sourceMode": "explicit",
       "seasonIds": [],
       "usageLabel": "逐話曲表列第63話（2021/4/2）特別片尾",
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "followUp": [
         {
           "fields": [
@@ -19143,6 +19611,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/488028",
+          "label": "OTOTOY 日本版：Easy Breezy（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://s.awa.fm/track/2e16d80a3d4af2474518",
+          "label": "AWA：chelmico 單曲《Easy Breezy》歌唱版曲目與試聽",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://chelmico.lnk.to/EasyBreezy",
+          "label": "chelmico 發行導覽：日本電視動畫片頭與 AWA 發行入口",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1491369450&country=hk",
+          "label": "Apple 香港曲目目錄：Easy Breezy，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -19371,6 +19867,57 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "PriNj4gtwBs"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-488028",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/488028"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/488028",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/488028"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://s.awa.fm/track/2e16d80a3d4af2474518",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/2e16d80a3d4af2474518",
+            "https://chelmico.lnk.to/EasyBreezy"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1491369450",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1491369450&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -19385,7 +19932,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "NHK原期第1–12話片頭。",
       "recordings": [
         {
@@ -19405,7 +19952,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1491368911",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song-digital-full"
         },
         {
@@ -19417,6 +19964,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1521655686",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/488028",
+          "platform": "OTOTOY",
+          "label": "Easy Breezy｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-488028",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "AWA",
+          "label": "Easy Breezy｜日本 AWA 單曲",
+          "url": "https://s.awa.fm/track/2e16d80a3d4af2474518",
+          "linkType": "direct_track",
+          "region": "JP",
+          "recordingId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song-digital-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releases": [
@@ -19502,6 +20069,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Warner Music Japan"
+        },
+        {
+          "id": "ototoy-jp-488028",
+          "title": "Easy Breezy",
+          "type": "single",
+          "label": "WM Japan",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-01-17",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "chelmico",
+          "tracks": [
+            {
+              "title": "Easy Breezy",
+              "position": 1,
+              "recordingId": "eizouken-ni-wa-te-wo-dasu-na-op-1-song-digital-full"
+            }
+          ]
         }
       ]
     },
@@ -19608,6 +20195,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/485181",
+          "label": "OTOTOY 日本版：名前のない青（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/485073",
+          "label": "OTOTOY 日本版：名前のない青（24-bit／48 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1490840449&country=hk",
+          "label": "Apple 香港曲目目錄：名前のない青，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -19770,6 +20378,70 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "gauEUNi0X_U"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-485181",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/485181"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/485181",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/485181"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-485073",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/485073"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/485073",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/485073"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1490840449",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1490840449&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -19784,7 +20456,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "NHK原期第1–12話片尾。",
       "recordings": [
         {
@@ -19803,8 +20475,28 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1490840445",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song-digital-full"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/485181",
+          "platform": "OTOTOY",
+          "label": "名前のない青｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-485181",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/485073",
+          "platform": "OTOTOY",
+          "label": "名前のない青｜24-bit／48 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-485073",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releases": [
@@ -19828,6 +20520,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Warner Music Japan"
+        },
+        {
+          "id": "ototoy-jp-485181",
+          "title": "名前のない青",
+          "type": "single",
+          "label": "WM Japan",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-01-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "神様、僕は気づいてしまった",
+          "tracks": [
+            {
+              "title": "名前のない青",
+              "position": 1,
+              "recordingId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song-digital-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-485073",
+          "title": "名前のない青",
+          "type": "single",
+          "label": "WM Japan",
+          "edition": "OTOTOY 數位版（24-bit／48 kHz）",
+          "date": {
+            "value": "2020-01-10",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "神様、僕は気づいてしまった",
+          "tracks": [
+            {
+              "title": "名前のない青",
+              "position": 1,
+              "recordingId": "eizouken-ni-wa-te-wo-dasu-na-ed-1-song-digital-full"
+            }
+          ]
         }
       ],
       "releaseDate": "2020-01-10"
@@ -20517,13 +21249,51 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "label": "OTOTOY 日本無損下載版與曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "label": "Qobuz 美國專輯曲序、音質及逐曲製作名單",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
         {
           "name": "MIYAVI",
           "role": "vocals"
+        },
+        {
+          "name": "MIYAVI",
+          "role": "songwriting"
+        },
+        {
+          "name": "Seann Bowe",
+          "role": "songwriting"
+        },
+        {
+          "name": "Lenard Skolnik",
+          "role": "songwriting"
+        },
+        {
+          "name": "Jun",
+          "role": "songwriting"
+        },
+        {
+          "name": "Max Matluck",
+          "role": "songwriting"
+        },
+        {
+          "name": "Tido Nguyen",
+          "role": "songwriting"
         }
       ],
       "evidence": [
@@ -20713,6 +21483,67 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "15FKY0uXro0"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+            "https://www.youtube.com/watch?v=Ugk-kFdKECo"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+            "https://www.youtube.com/watch?v=Ugk-kFdKECo"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "id-invaded-ed-1-song-original-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "ototoy-414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://ototoy.jp/_/default/p/414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
         }
       ],
       "followUp": [
@@ -20726,14 +21557,52 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第2–12話原TV片尾。第1、13話各另用其他曲目。",
       "recordings": [
         {
           "id": "id-invaded-ed-1-song-original-full",
           "title": "Other Side",
           "kind": "vocal",
-          "format": "full"
+          "format": "full",
+          "credits": [
+            {
+              "name": "MIYAVI",
+              "role": "vocals"
+            },
+            {
+              "name": "MIYAVI（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Yung Spielburg（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Seann Bowe（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Meron Ryan（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Tony Rodini（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Selah Rauwolf（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Lenard Skolnik（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Tido Nguyen（共同製作）",
+              "role": "other"
+            }
+          ]
         }
       ],
       "releaseDate": "2019-07-17",
@@ -20799,6 +21668,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Virgin Music"
+        },
+        {
+          "id": "ototoy-414010",
+          "title": "NO SLEEP TILL TOKYO",
+          "type": "album",
+          "artistDisplayName": "MIYAVI",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "label": "Universal Music LLC",
+          "region": "JP",
+          "edition": "OTOTOY 無損下載版（16 bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Other Side",
+              "position": 4,
+              "recordingId": "id-invaded-ed-1-song-original-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -20811,6 +21700,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1469847786",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Other Side｜OTOTOY 日本專輯第 4 曲",
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-ed-1-song-original-full",
+          "releaseId": "ototoy-414010"
+        },
+        {
+          "platform": "Qobuz",
+          "label": "Other Side｜Qobuz 美國專輯第 4 曲",
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "linkType": "direct_album",
+          "region": "UNKNOWN",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-ed-1-song-original-full"
         }
       ]
     },
@@ -21556,6 +22466,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "label": "OTOTOY 日本無損下載版與曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "label": "Qobuz 美國專輯曲序、音質及逐曲製作名單",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/us/song/1469847801",
+          "label": "Apple Music 美國專輯錄音演出及製作署名",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -21568,6 +22499,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1469847786",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Samurai 45｜OTOTOY 日本專輯第 5 曲",
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-in-2-song-original-full",
+          "releaseId": "ototoy-414010"
+        },
+        {
+          "platform": "Qobuz",
+          "label": "Samurai 45｜Qobuz 美國專輯第 5 曲",
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "linkType": "direct_album",
+          "region": "UNKNOWN",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-in-2-song-original-full"
         }
       ],
       "evidence": [
@@ -21703,6 +22655,67 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "q5bpq8a9CCo"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+            "https://music.apple.com/us/song/1469847801"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+            "https://music.apple.com/us/song/1469847801"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "id-invaded-in-2-song-original-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "ototoy-414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://ototoy.jp/_/default/p/414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
         }
       ],
       "sourceMode": "explicit",
@@ -21710,11 +22723,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2020-winter"
       ],
       "usageLabel": "第4話原TV正片插曲。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "MIYAVI",
           "role": "vocals"
+        },
+        {
+          "name": "MIYAVI",
+          "role": "songwriting"
+        },
+        {
+          "name": "Seann Bowe",
+          "role": "songwriting"
+        },
+        {
+          "name": "Lenard Skolnik",
+          "role": "songwriting"
+        },
+        {
+          "name": "Jun",
+          "role": "songwriting"
+        },
+        {
+          "name": "Max Matluck",
+          "role": "songwriting"
         }
       ],
       "recordings": [
@@ -21722,7 +22755,49 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "id": "id-invaded-in-2-song-original-full",
           "title": "Samurai 45",
           "kind": "vocal",
-          "format": "full"
+          "format": "full",
+          "credits": [
+            {
+              "name": "MIYAVI",
+              "role": "vocals"
+            },
+            {
+              "name": "MIYAVI（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Yung Spielburg（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Seann Bowe（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Meron Ryan（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Tony Rodini（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Selah Rauwolf（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Lenard Skolnik（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "MIYAVI（吉他）",
+              "role": "other"
+            },
+            {
+              "name": "Jeff Martin（鼓）",
+              "role": "other"
+            }
+          ]
         }
       ],
       "releaseDate": "2019-07-24",
@@ -21788,6 +22863,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Virgin Music"
+        },
+        {
+          "id": "ototoy-414010",
+          "title": "NO SLEEP TILL TOKYO",
+          "type": "album",
+          "artistDisplayName": "MIYAVI",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "label": "Universal Music LLC",
+          "region": "JP",
+          "edition": "OTOTOY 無損下載版（16 bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Samurai 45",
+              "position": 5,
+              "recordingId": "id-invaded-in-2-song-original-full"
+            }
+          ]
         }
       ],
       "followUp": [
@@ -22200,6 +23295,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "label": "OTOTOY 日本無損下載版與曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "label": "Qobuz 美國專輯曲序、音質及逐曲製作名單",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -22212,6 +23321,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1469847786",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Butterfly｜OTOTOY 日本專輯第 6 曲",
+          "url": "https://ototoy.jp/_/default/p/414010",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-in-6-song-original-full",
+          "releaseId": "ototoy-414010"
+        },
+        {
+          "platform": "Qobuz",
+          "label": "Butterfly｜Qobuz 美國專輯第 6 曲",
+          "url": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa",
+          "linkType": "direct_album",
+          "region": "UNKNOWN",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "id-invaded-in-6-song-original-full"
         }
       ],
       "evidence": [
@@ -22347,6 +23477,65 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "-N2qioNGR_Y"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "id-invaded-in-6-song-original-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "ototoy-414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/414010"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://ototoy.jp/_/default/p/414010"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa"
         }
       ],
       "sourceMode": "explicit",
@@ -22354,11 +23543,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2020-winter"
       ],
       "usageLabel": "第12話原TV正片插曲。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "MIYAVI",
           "role": "vocals"
+        },
+        {
+          "name": "MIYAVI",
+          "role": "songwriting"
+        },
+        {
+          "name": "Seann Bowe",
+          "role": "songwriting"
+        },
+        {
+          "name": "Lenard Skolnik",
+          "role": "songwriting"
+        },
+        {
+          "name": "Jun",
+          "role": "songwriting"
+        },
+        {
+          "name": "Max Matluck",
+          "role": "songwriting"
         }
       ],
       "recordings": [
@@ -22366,7 +23575,41 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "id": "id-invaded-in-6-song-original-full",
           "title": "Butterfly",
           "kind": "vocal",
-          "format": "full"
+          "format": "full",
+          "credits": [
+            {
+              "name": "MIYAVI",
+              "role": "vocals"
+            },
+            {
+              "name": "MIYAVI（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Yung Spielburg（製作）",
+              "role": "other"
+            },
+            {
+              "name": "Seann Bowe（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Meron Ryan（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Tony Rodini（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Selah Rauwolf（和聲）",
+              "role": "vocals"
+            },
+            {
+              "name": "Lenard Skolnik（和聲）",
+              "role": "vocals"
+            }
+          ]
         }
       ],
       "releaseDate": "2019-07-24",
@@ -22432,6 +23675,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Virgin Music"
+        },
+        {
+          "id": "ototoy-414010",
+          "title": "NO SLEEP TILL TOKYO",
+          "type": "album",
+          "artistDisplayName": "MIYAVI",
+          "date": {
+            "value": "2019-07-24",
+            "precision": "day"
+          },
+          "label": "Universal Music LLC",
+          "region": "JP",
+          "edition": "OTOTOY 無損下載版（16 bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Butterfly",
+              "position": 6,
+              "recordingId": "id-invaded-in-6-song-original-full"
+            }
+          ]
         }
       ],
       "followUp": [
@@ -36802,6 +38065,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」オープニングテーマ 『Shiny Happy Days』（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/503014",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -37130,6 +38407,58 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "U3maZmoM3YQ"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-503014",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503014"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/503014",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503014"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -37143,7 +38472,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–12話片頭。第4話起使用另一套片頭畫面。",
       "recordings": [
         {
@@ -37315,6 +38644,51 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-503014",
+          "title": "TVアニメ「ネコぱら」オープニングテーマ 『Shiny Happy Days』",
+          "artistDisplayName": "ショコラ、バニラ、アズキ、メイプル、シナモン、ココナツ ほか",
+          "label": "avex pictures",
+          "type": "single",
+          "date": {
+            "value": "2020-02-19",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Shiny Happy Days",
+              "position": 1,
+              "recordingId": "nekopara-op-1-song-original-full"
+            },
+            {
+              "title": "Shiny Happy Days Instrumental",
+              "position": 2,
+              "recordingId": "nekopara-op-1-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Shiny Happy Days TV size",
+              "position": 35,
+              "recordingId": "nekopara-op-1-song-tv-size"
+            }
+          ]
         }
       ],
       "links": [
@@ -37350,6 +38724,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-op-1-song-tv-size"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/503014",
+          "label": "TVアニメ「ネコぱら」オープニングテーマ 『Shiny Happy Days』｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-503014",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-02-19"
@@ -37485,6 +38879,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」エンディングテーマ 『陽だまりの香り』（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/503015",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -37797,6 +39205,58 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "0Xcu9TMHxrA"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-503015",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503015"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/503015",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503015"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -37810,7 +39270,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–8、10、12話片尾。第4話起使用另一套常規片尾畫面。",
       "recordings": [
         {
@@ -37950,6 +39410,51 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-503015",
+          "title": "TVアニメ「ネコぱら」エンディングテーマ 『陽だまりの香り』",
+          "artistDisplayName": "ショコラ、バニラ ほか",
+          "label": "avex pictures",
+          "type": "single",
+          "date": {
+            "value": "2020-02-19",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "陽だまりの香り",
+              "position": 1,
+              "recordingId": "nekopara-ed-1-song-original-full"
+            },
+            {
+              "title": "陽だまりの香り Instrumental",
+              "position": 2,
+              "recordingId": "nekopara-ed-1-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "陽だまりの香り TV size",
+              "position": 36,
+              "recordingId": "nekopara-ed-1-song-tv-size"
+            }
+          ]
         }
       ],
       "links": [
@@ -37985,6 +39490,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-ed-1-song-tv-size"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/503015",
+          "label": "TVアニメ「ネコぱら」エンディングテーマ 『陽だまりの香り』｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-503015",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-02-19"
@@ -38085,6 +39610,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -38295,6 +39827,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "r5rrd06agVM"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -38308,7 +39866,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第9話（2020/3/5）特別片尾。",
       "recordings": [
         {
@@ -38367,6 +39925,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "ホントノココロ",
+              "position": 33,
+              "recordingId": "nekopara-ed-2-song-ost-vocal"
+            }
+          ]
         }
       ],
       "links": [
@@ -38380,6 +39958,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-ed-2-song-ost-vocal"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-03-18"
@@ -38466,6 +40054,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -38647,6 +40242,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "nekopara-ed-3-song"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -38661,7 +40282,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第11話（2020/3/19）特別片尾，由カカオ加入演唱。",
       "recordings": [
         {
@@ -38728,6 +40349,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "陽だまりの香り〜カカオもいっしょver〜",
+              "position": 34,
+              "recordingId": "nekopara-ed-3-song-cacao-version"
+            }
+          ]
         }
       ],
       "links": [
@@ -38741,6 +40382,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-ed-3-song-cacao-version"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-03-18"
@@ -38780,6 +40431,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-in-1-song-maple-tv-size"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "songId": "nekopara-in-1-song",
@@ -38871,6 +40532,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -39052,6 +40720,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "nekopara-in-1-song"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -39066,7 +40760,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第9話（2020/3/5）及第11話（2020/3/19）劇中由メイプル獨唱。",
       "recordings": [
         {
@@ -39125,6 +40819,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "君とWitches☆彡 TV size",
+              "position": 31,
+              "recordingId": "nekopara-in-1-song-maple-tv-size"
+            }
+          ]
         }
       ],
       "releaseDate": "2020-03-18"
@@ -39206,6 +40920,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：TVアニメ「ネコぱら」サウンドコレクションアルバム（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -39219,6 +40940,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "nekopara-in-1-song-maple-cinnamon-full"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515571",
+          "label": "TVアニメ「ネコぱら」サウンドコレクションアルバム｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-515571",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -39367,6 +41098,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "p90VxhKQd1o"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-515571",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515571",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515571"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "sourceMode": "explicit",
@@ -39374,7 +41131,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2020-winter"
       ],
       "usageLabel": "第12話（2020/3/26）沙灘場景由メイプル與シナモン合唱。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "メイプル（CV.伊藤美来）",
@@ -39458,6 +41215,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "AVEX PICTURES INC."
+        },
+        {
+          "id": "ototoy-jp-515571",
+          "title": "TVアニメ「ネコぱら」サウンドコレクションアルバム",
+          "artistDisplayName": "Various Artists",
+          "label": "avex pictures",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "君とWitches☆彡 フルsize",
+              "position": 32,
+              "recordingId": "nekopara-in-1-song-maple-cinnamon-full"
+            }
+          ]
         }
       ],
       "releaseDate": "2020-03-18",
@@ -39654,6 +41431,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：Unbreakable（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/481106",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -39884,6 +41668,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "h_PAa9zmB3o"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-481106",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/481106"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/481106",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/481106"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -39897,7 +41707,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原期第2–12話片頭；第1、13話改於正片中使用。第12話4/2原播。",
       "recordings": [
         {
@@ -39996,6 +41806,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "日本コロムビア"
+        },
+        {
+          "id": "ototoy-jp-481106",
+          "title": "Unbreakable",
+          "artistDisplayName": "悠木碧",
+          "label": "Nippon Columbia Co., Ltd.",
+          "type": "single",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Unbreakable",
+              "position": 1,
+              "recordingId": "infinite-dendrogram-op-1-song-single-full"
+            },
+            {
+              "title": "Unbreakable (Instrumental)",
+              "position": 3,
+              "recordingId": "infinite-dendrogram-op-1-song-single-instrumental"
+            }
+          ]
         }
       ],
       "links": [
@@ -40020,6 +41855,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "infinite-dendrogram-op-1-song-single-instrumental"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/481106",
+          "label": "Unbreakable｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-481106",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-01-15"
@@ -40134,6 +41979,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：Reverb (TVアニメ「インフィニット・デンドログラム」エンディングテーマ) (48kHz/24bit)（24-bit／48 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/511440",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "日本コロムビア：內田彩十週年混音專輯第5曲、混音者、發售日及限定盤",
+          "url": "https://columbia.jp/artist-info/uchidaaya/discography/SACX-1117.html",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "Apple 香港曲目目錄：內田彩十週年專輯第5曲的混音版及可串流標示",
+          "url": "https://itunes.apple.com/lookup?id=1848297011&country=hk",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -40374,6 +42240,88 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "zgFahuB-1Go"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-511440",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/511440"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/511440",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/511440"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "infinite-dendrogram-ed-1-song-digita-loud-remix",
+          "fields": [
+            "title",
+            "kind",
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/uchidaaya/discography/SACX-1117.html",
+            "https://itunes.apple.com/lookup?id=1848297011&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "sacx-1117",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/artist-info/uchidaaya/discography/SACX-1117.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1848297006",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1848297011&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1848297011",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1848297011&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -40387,7 +42335,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原期片尾；可核第2、3、5及第7–13話。第12、13話於4月原播。",
       "recordings": [
         {
@@ -40401,6 +42349,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "title": "Reverb (Instrumental)",
           "kind": "instrumental",
           "format": "unknown"
+        },
+        {
+          "id": "infinite-dendrogram-ed-1-song-digita-loud-remix",
+          "title": "Reverb - Digita-Loud Re:mix by Hiroaki Suzuki -",
+          "kind": "remix",
+          "format": "unknown",
+          "credits": [
+            {
+              "role": "vocals",
+              "name": "内田彩"
+            },
+            {
+              "role": "other",
+              "name": "Hiroaki Suzuki"
+            }
+          ]
         }
       ],
       "releases": [
@@ -40486,6 +42450,71 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "日本コロムビア"
+        },
+        {
+          "id": "ototoy-jp-511440",
+          "title": "Reverb (TVアニメ「インフィニット・デンドログラム」エンディングテーマ) (48kHz/24bit)",
+          "artistDisplayName": "内田彩",
+          "label": "Nippon Columbia Co., Ltd.",
+          "type": "single",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（24-bit／48 kHz）",
+          "tracks": [
+            {
+              "title": "Reverb (48kHz/24bit)",
+              "position": 1,
+              "recordingId": "infinite-dendrogram-ed-1-song-single-full"
+            },
+            {
+              "title": "Reverb (Instrumental) (48kHz/24bit)",
+              "position": 3,
+              "recordingId": "infinite-dendrogram-ed-1-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "sacx-1117",
+          "title": "Re:mix - Nigiyaka na 10th Anniversary -",
+          "artistDisplayName": "内田彩",
+          "date": {
+            "value": "2025-11-12",
+            "precision": "day"
+          },
+          "type": "album",
+          "region": "JP",
+          "edition": "日本コロムビア直營店限定盤",
+          "tracks": [
+            {
+              "position": 5,
+              "title": "Reverb - Digita-Loud Re:mix by Hiroaki Suzuki -",
+              "recordingId": "infinite-dendrogram-ed-1-song-digita-loud-remix"
+            }
+          ],
+          "catalogNumber": "SACX-1117",
+          "label": "日本コロムビア"
+        },
+        {
+          "id": "apple-hk-1848297006",
+          "title": "Re:mix -Nigiyaka Na 10th Anniversary-",
+          "artistDisplayName": "内田彩",
+          "date": {
+            "value": "2025-11-12",
+            "precision": "day"
+          },
+          "type": "album",
+          "region": "HK",
+          "edition": "Apple Music 香港數位版",
+          "tracks": [
+            {
+              "position": 5,
+              "title": "Reverb (Digita-Loud Re:mix by Hiroaki Suzuki)",
+              "recordingId": "infinite-dendrogram-ed-1-song-digita-loud-remix"
+            }
+          ]
         }
       ],
       "links": [
@@ -40510,6 +42539,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "infinite-dendrogram-ed-1-song-single-instrumental"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/511440",
+          "label": "Reverb (TVアニメ「インフィニット・デンドログラム」エンディングテーマ) (48kHz/24bit)｜24-bit／48 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-511440",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1848297011",
+          "platform": "Apple Music",
+          "label": "Reverb｜Digita-Loud Re:mix by Hiroaki Suzuki",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1848297006",
+          "recordingId": "infinite-dendrogram-ed-1-song-digita-loud-remix",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-02-14"
@@ -40577,6 +42627,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：Unbreakable（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/481106",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -40601,6 +42658,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "infinite-dendrogram-op-1-song-single-instrumental"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/481106",
+          "label": "Unbreakable｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-481106",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -40723,6 +42790,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "apple-hk-1492857043"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-481106",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/481106"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/481106",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/481106"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "sourceMode": "explicit",
@@ -40731,7 +42824,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2020-spring"
       ],
       "usageLabel": "第1話後段與第13話戰鬥場景使用同一首主題曲。",
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "悠木碧",
@@ -40847,6 +42940,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "日本コロムビア"
+        },
+        {
+          "id": "ototoy-jp-481106",
+          "title": "Unbreakable",
+          "artistDisplayName": "悠木碧",
+          "label": "Nippon Columbia Co., Ltd.",
+          "type": "single",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "Unbreakable",
+              "position": 1,
+              "recordingId": "infinite-dendrogram-op-1-song-single-full"
+            },
+            {
+              "title": "Unbreakable (Instrumental)",
+              "position": 3,
+              "recordingId": "infinite-dendrogram-op-1-song-single-instrumental"
+            }
+          ]
         }
       ],
       "releaseDate": "2020-01-15",
@@ -42323,6 +44441,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "label": "OTOTOY 日本版：宝石の生まれるとき（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/503019",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -42650,6 +44775,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "5jp9e_gmFyY"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-503019",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503019"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/503019",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/503019"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -42663,7 +44814,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–12話日本原TV片頭，含第12話終回。",
       "recordings": [
         {
@@ -42839,6 +44990,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "NBCUniversal Entertainment Japan"
+        },
+        {
+          "id": "ototoy-jp-503019",
+          "title": "宝石の生まれるとき",
+          "artistDisplayName": "やなぎなぎ",
+          "label": "avex pictures",
+          "type": "single",
+          "date": {
+            "value": "2020-02-19",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "宝石の生まれるとき",
+              "position": 1,
+              "recordingId": "housekishou-richard-shi-no-nazo-kantei-op-1-song-single-full"
+            },
+            {
+              "title": "宝石の生まれるとき inst",
+              "position": 3,
+              "recordingId": "housekishou-richard-shi-no-nazo-kantei-op-1-song-single-instrumental"
+            }
+          ]
         }
       ],
       "links": [
@@ -42881,6 +45057,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1804605682",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/503019",
+          "label": "宝石の生まれるとき｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-503019",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ]
     },
@@ -43473,4291 +45659,6864 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "broadcastTimeJst": "23:30"
 },
   {
-    "anilistId": 113470,
-    "id": "curated-113470",
-    "slug": "show-by-rock-mashumairesh",
-    "seasonIds": [
-      "2020-winter"
-    ],
-    "startDate": "2020-01-09",
-    "titleJa": "SHOW BY ROCK!!ましゅまいれっしゅ!!",
-    "titleZhHant": "SHOW BY ROCK!! 活力棉花糖!!",
-    "titleRomaji": "SHOW BY ROCK!! Mashumairesh!!",
-    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113470-Ecw16VC6b2V2.jpg",
-    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113470-WNIVHuI8DfDb.jpg",
-    "editorialWeekday": 4,
-    "broadcastLabel": "TOKYO MX 正規播出 2020/1/9–3/26，週四22:30 JST，全12話，FOD同步。2019/12/31 20:00–22:00 JST年末特番另公告先行播第1話，FOD限時提供同一特番。",
-    "status": "finished",
-    "officialSiteUrl": "https://showbyrock-anime-s.com/mashumairesh/",
-    "anilistUrl": "https://anilist.co/anime/113470",
-    "imageSourceUrl": "https://anilist.co/anime/113470",
-    "imageSourceLabel": "AniList 公開媒體頁",
-    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "sourceReferenceUrls": [
-      "https://youranimes.tw/animes/290",
-      "https://acgsecrets.hk/anime/33/",
-      "https://annict.com/works/7163"
-    ],
-    "animeThemesUrl": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
-    "themes": [
-      {
-        "type": "IN",
-        "sequence": 1,
-        "titleJa": "まっしろスタートライン",
-        "titleRomaji": "Masshiro Start Line",
-        "artistDisplayName": "ほわん（CV：遠野ひかる）",
-        "id": "show-by-rock-mashumairesh-op-1",
-        "songId": "show-by-rock-mashumairesh-op-1-song",
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "sources": [
-          {
-            "label": "AnimeThemes",
-            "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
-            "language": "en",
-            "role": "cross_check",
-            "verifiedAt": "2026-09-02"
+  "anilistId": 113470,
+  "id": "curated-113470",
+  "slug": "show-by-rock-mashumairesh",
+  "seasonIds": [
+    "2020-winter"
+  ],
+  "startDate": "2020-01-09",
+  "titleJa": "SHOW BY ROCK!!ましゅまいれっしゅ!!",
+  "titleZhHant": "SHOW BY ROCK!! 活力棉花糖!!",
+  "titleRomaji": "SHOW BY ROCK!! Mashumairesh!!",
+  "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113470-Ecw16VC6b2V2.jpg",
+  "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113470-WNIVHuI8DfDb.jpg",
+  "editorialWeekday": 4,
+  "broadcastLabel": "TOKYO MX 正規播出 2020/1/9–3/26，週四22:30 JST，全12話，FOD同步。2019/12/31 20:00–22:00 JST年末特番另公告先行播第1話，FOD限時提供同一特番。",
+  "status": "finished",
+  "officialSiteUrl": "https://showbyrock-anime-s.com/mashumairesh/",
+  "anilistUrl": "https://anilist.co/anime/113470",
+  "imageSourceUrl": "https://anilist.co/anime/113470",
+  "imageSourceLabel": "AniList 公開媒體頁",
+  "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+  "sourceReferenceUrls": [
+    "https://youranimes.tw/animes/290",
+    "https://acgsecrets.hk/anime/33/",
+    "https://annict.com/works/7163"
+  ],
+  "animeThemesUrl": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
+  "themes": [
+    {
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "まっしろスタートライン",
+      "titleRomaji": "Masshiro Start Line",
+      "artistDisplayName": "ほわん（CV：遠野ひかる）",
+      "id": "show-by-rock-mashumairesh-op-1",
+      "songId": "show-by-rock-mashumairesh-op-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689831",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/",
+          "label": "動畫作品官網（製作方存檔）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=K68jLakrGbc",
+          "label": "官方影片欄位：まっしろスタートライン｜單曲版 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tdfTRV2HRSY",
+          "label": "官方影片欄位：まっしろスタートライン〈TV edit〉｜原聲帶 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ほわん（CV：遠野ひかる）",
+          "role": "vocals"
+        },
+        {
+          "name": "新田目 翔",
+          "role": "lyrics"
+        },
+        {
+          "name": "新田目 翔",
+          "role": "composition"
+        },
+        {
+          "name": "新田目 翔",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+            "https://www.cdjapan.co.jp/product/PCCG-1881",
+            "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+            "https://www.cdjapan.co.jp/product/PCCG-1881",
+            "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01855"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689831"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689831"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "K68jLakrGbc",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=K68jLakrGbc"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "tdfTRV2HRSY",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=tdfTRV2HRSY"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495715",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495715",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495711",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495711",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "第1話開場的劇中獨唱。原聲 CD 標為ほわん獨唱，OP／ED單曲收團體名義版。",
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-op-1-song-single-full",
+          "title": "まっしろスタートライン",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-1-song-single-instrumental",
+          "title": "まっしろスタートライン（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit",
+          "title": "まっしろスタートライン<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01855",
+          "title": "ヒロメネス／キミのラプソディー",
+          "type": "single",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
-            "label": "本曲逐欄交叉資料；未明欄位不作證",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689831",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/",
-            "label": "動畫作品官網（製作方存檔）",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=K68jLakrGbc",
-            "label": "官方影片欄位：まっしろスタートライン｜單曲版 Art Track",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=tdfTRV2HRSY",
-            "label": "官方影片欄位：まっしろスタートライン〈TV edit〉｜原聲帶 Art Track",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "credits": [
-          {
-            "name": "ほわん（CV：遠野ひかる）",
-            "role": "vocals"
-          },
-          {
-            "name": "新田目 翔",
-            "role": "lyrics"
-          },
-          {
-            "name": "新田目 翔",
-            "role": "composition"
-          },
-          {
-            "name": "新田目 翔",
-            "role": "arrangement"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "song",
-            "fields": [
-              "title"
-            ],
-            "sourceUrls": [
-              "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-op-1-song"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-              "https://www.cdjapan.co.jp/product/PCCG-1881",
-              "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-              "https://www.cdjapan.co.jp/product/PCCG-1881",
-              "https://www.reddit.com/r/anime/comments/1kjix3i/show_by_rock_10th_anniversary_rewatch/"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01855"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689831"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689831"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "date"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-1-song"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "K68jLakrGbc",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=K68jLakrGbc"
-            ],
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "tdfTRV2HRSY",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=tdfTRV2HRSY"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ],
-        "lastVerifiedAt": "2026-11-19",
-        "usageLabel": "第1話開場的劇中獨唱。原聲 CD 標為ほわん獨唱，OP／ED單曲收團體名義版。",
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-op-1-song-single-full",
-            "title": "まっしろスタートライン",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-1-song-single-instrumental",
-            "title": "まっしろスタートライン（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit",
-            "title": "まっしろスタートライン<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01855",
-            "title": "ヒロメネス／キミのラプソディー",
-            "type": "single",
-            "date": {
-              "value": "2020-02-05",
-              "precision": "day"
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "まっしろスタートライン",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-full"
             },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "まっしろスタートライン",
-                "position": 3,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-1-song-single-full"
-              },
-              {
-                "title": "まっしろスタートライン（Instrumental）",
-                "position": 6,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01855"
+            {
+              "title": "まっしろスタートライン（Instrumental）",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01855"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "まっしろスタートライン<TV edit>",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "まっしろスタートライン<TV edit>",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "まっしろスタートライン<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "まっしろスタートライン<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495715",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 3,
+              "title": "まっしろスタートライン",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "まっしろスタートライン<TV edit>",
-                "position": 6,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "まっしろスタートライン(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495711",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 3,
+              "title": "まっしろスタートライン",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "まっしろスタートライン<TV edit>",
-                "position": 6,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "まっしろスタートライン<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689831",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
-          }
-        ],
-        "releaseDate": "2020-02-05"
-      },
-      {
-        "type": "OP",
-        "sequence": 2,
-        "titleJa": "ヒロメネス",
-        "titleRomaji": "Hiromenes",
-        "artistDisplayName": "Mashumairesh!!",
-        "id": "show-by-rock-mashumairesh-op-2",
-        "songId": "show-by-rock-mashumairesh-op-2-song",
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "sources": [
-          {
-            "label": "AnimeThemes",
-            "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
-            "language": "en",
-            "role": "cross_check",
-            "verifiedAt": "2026-09-02"
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "まっしろスタートライン(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-1-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "まっしろスタートライン<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689831",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495715"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495711"
+        }
+      ],
+      "releaseDate": "2020-02-05"
+    },
+    {
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "ヒロメネス",
+      "titleRomaji": "Hiromenes",
+      "artistDisplayName": "Mashumairesh!!",
+      "id": "show-by-rock-mashumairesh-op-2",
+      "songId": "show-by-rock-mashumairesh-op-2-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689825",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/",
+          "label": "動畫作品官網（製作方存檔）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XmAlcgWmEuw",
+          "label": "官方影片欄位：ヒロメネス｜官方片頭公開影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Mashumairesh!!",
+          "role": "vocals"
+        },
+        {
+          "name": "大和",
+          "role": "lyrics"
+        },
+        {
+          "name": "大和",
+          "role": "composition"
+        },
+        {
+          "name": "大和",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01855"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689825"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689825"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "XmAlcgWmEuw",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XmAlcgWmEuw"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495715",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495715",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495711",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495711",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "官方片頭影片的簡介轉錄與逐話曲表對第1話的標註有差異；現存第2–11話常規片頭範圍保留。",
+          "resumeWhen": "對照2019/12/31先行播次與2020/1/9正規第1話有聲畫面和掛字。",
+          "checkedAt": "2026-11-19"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本原TV第2–11話常規片頭。第1話的開場為劇中演唱，第12話省略片頭，改用本曲收尾。",
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-single-full",
+          "title": "ヒロメネス",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-single-instrumental",
+          "title": "ヒロメネス（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit",
+          "title": "ヒロメネス<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01855",
+          "title": "ヒロメネス／キミのラプソディー",
+          "type": "single",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "url": "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf",
-            "label": "第一方本曲資料；支持欄位依逐曲證據",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
-            "label": "本曲逐欄交叉資料；未明欄位不作證",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689825",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/",
-            "label": "動畫作品官網（製作方存檔）",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=XmAlcgWmEuw",
-            "label": "官方影片欄位：ヒロメネス｜官方片頭公開影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "credits": [
-          {
-            "name": "Mashumairesh!!",
-            "role": "vocals"
-          },
-          {
-            "name": "大和",
-            "role": "lyrics"
-          },
-          {
-            "name": "大和",
-            "role": "composition"
-          },
-          {
-            "name": "大和",
-            "role": "arrangement"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-op-2"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-op-2"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01855"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689825"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689825"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "date"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "XmAlcgWmEuw",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=XmAlcgWmEuw"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          },
-          {
-            "fields": [
-              "basic_evidence"
-            ],
-            "note": "官方片頭影片的簡介轉錄與逐話曲表對第1話的標註有差異；現存第2–11話常規片頭範圍保留。",
-            "resumeWhen": "對照2019/12/31先行播次與2020/1/9正規第1話有聲畫面和掛字。",
-            "checkedAt": "2026-11-19"
-          }
-        ],
-        "lastVerifiedAt": "2026-11-19",
-        "usageLabel": "日本原TV第2–11話常規片頭。第1話的開場為劇中演唱，第12話省略片頭，改用本曲收尾。",
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-single-full",
-            "title": "ヒロメネス",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-single-instrumental",
-            "title": "ヒロメネス（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit",
-            "title": "ヒロメネス<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01855",
-            "title": "ヒロメネス／キミのラプソディー",
-            "type": "single",
-            "date": {
-              "value": "2020-02-05",
-              "precision": "day"
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
-              },
-              {
-                "title": "ヒロメネス（Instrumental）",
-                "position": 4,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01855"
+            {
+              "title": "ヒロメネス（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01855"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス<TV edit>",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス<TV edit>",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495715",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス<TV edit>",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "ヒロメネス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495711",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス<TV edit>",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "ヒロメネス<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689825",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-          }
-        ],
-        "releaseDate": "2020-02-05"
-      },
-      {
-        "type": "ED",
-        "sequence": 1,
-        "titleJa": "キミのラプソディー",
-        "titleRomaji": "Kimi no Rhapsody",
-        "artistDisplayName": "Mashumairesh!!",
-        "id": "show-by-rock-mashumairesh-ed-1",
-        "songId": "show-by-rock-mashumairesh-ed-1-song",
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "sources": [
-          {
-            "label": "AnimeThemes",
-            "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
-            "language": "en",
-            "role": "cross_check",
-            "verifiedAt": "2026-09-02"
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "ヒロメネス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ヒロメネス<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689825",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495715"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495711"
+        }
+      ],
+      "releaseDate": "2020-02-05"
+    },
+    {
+      "type": "ED",
+      "sequence": 1,
+      "titleJa": "キミのラプソディー",
+      "titleRomaji": "Kimi no Rhapsody",
+      "artistDisplayName": "Mashumairesh!!",
+      "id": "show-by-rock-mashumairesh-ed-1",
+      "songId": "show-by-rock-mashumairesh-ed-1-song",
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "sources": [
+        {
+          "label": "AnimeThemes",
+          "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
+          "language": "en",
+          "role": "cross_check",
+          "verifiedAt": "2026-09-02"
+        },
+        {
+          "url": "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf",
+          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
+          "label": "本曲逐欄交叉資料；未明欄位不作證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501690029",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/",
+          "label": "動畫作品官網（製作方存檔）",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=68zMZv61zxA",
+          "label": "官方影片欄位：キミのラプソディー｜官方片尾公開影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8ZD7iGhMFyk",
+          "label": "官方影片欄位：キミのラプソディー〈TV edit〉｜原聲帶 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "credits": [
+        {
+          "name": "Mashumairesh!!",
+          "role": "vocals"
+        },
+        {
+          "name": "Wiggy",
+          "role": "lyrics"
+        },
+        {
+          "name": "Wiggy",
+          "role": "composition"
+        },
+        {
+          "name": "三谷秀甫",
+          "role": "arrangement"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
+          ],
+          "verifiedAt": "2026-10-24",
+          "targetId": "show-by-rock-mashumairesh-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
+          ],
+          "verifiedAt": "2026-10-24"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01855"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501690029"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501690029"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-1-song"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "68zMZv61zxA",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=68zMZv61zxA"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "8ZD7iGhMFyk",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=8ZD7iGhMFyk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495715",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495715",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495711",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495711",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "日本原TV第1–11話常規片尾；第12話片尾改用〈ヒロメネス〉。",
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-ed-1-song-single-full",
+          "title": "キミのラプソディー",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-ed-1-song-single-instrumental",
+          "title": "キミのラプソディー（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit",
+          "title": "キミのラプソディー<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01855",
+          "title": "ヒロメネス／キミのラプソディー",
+          "type": "single",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "url": "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf",
-            "label": "第一方本曲資料；支持欄位依逐曲證據",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
-            "label": "本曲逐欄交叉資料；未明欄位不作證",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501690029",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/",
-            "label": "動畫作品官網（製作方存檔）",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=68zMZv61zxA",
-            "label": "官方影片欄位：キミのラプソディー｜官方片尾公開影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=8ZD7iGhMFyk",
-            "label": "官方影片欄位：キミのラプソディー〈TV edit〉｜原聲帶 Art Track",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "credits": [
-          {
-            "name": "Mashumairesh!!",
-            "role": "vocals"
-          },
-          {
-            "name": "Wiggy",
-            "role": "lyrics"
-          },
-          {
-            "name": "Wiggy",
-            "role": "composition"
-          },
-          {
-            "name": "三谷秀甫",
-            "role": "arrangement"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-ed-1"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21"
-            ],
-            "verifiedAt": "2026-10-24",
-            "targetId": "show-by-rock-mashumairesh-ed-1"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://corporate.sanrio.co.jp/news/assets/pdf/2020/20220303105509826s.pdf"
-            ],
-            "verifiedAt": "2026-10-24"
-          },
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01855"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501690029"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501690029"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "date"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-1-song"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "68zMZv61zxA",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=68zMZv61zxA"
-            ],
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "8ZD7iGhMFyk",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=8ZD7iGhMFyk"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ],
-        "lastVerifiedAt": "2026-11-19",
-        "usageLabel": "日本原TV第1–11話常規片尾；第12話片尾改用〈ヒロメネス〉。",
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-ed-1-song-single-full",
-            "title": "キミのラプソディー",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-ed-1-song-single-instrumental",
-            "title": "キミのラプソディー（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit",
-            "title": "キミのラプソディー<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01855",
-            "title": "ヒロメネス／キミのラプソディー",
-            "type": "single",
-            "date": {
-              "value": "2020-02-05",
-              "precision": "day"
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キミのラプソディー",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-full"
             },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "キミのラプソディー",
-                "position": 2,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-full"
-              },
-              {
-                "title": "キミのラプソディー（Instrumental）",
-                "position": 5,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01855"
+            {
+              "title": "キミのラプソディー（Instrumental）",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01855"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キミのラプソディー<TV edit>",
+              "position": 29,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "キミのラプソディー<TV edit>",
+              "position": 29,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 29,
+              "title": "キミのラプソディー<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 29,
+              "title": "キミのラプソディー<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495715",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 2,
+              "title": "キミのラプソディー",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "キミのラプソディー<TV edit>",
-                "position": 29,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "disc": 1,
+              "position": 5,
+              "title": "キミのラプソディー(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495711",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 2,
+              "title": "キミのラプソディー",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "キミのラプソディー<TV edit>",
-                "position": 29,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "キミのラプソディー<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501690029",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
-          }
-        ],
-        "releaseDate": "2020-02-05"
-      },
-      {
-        "type": "IN",
-        "sequence": 2,
-        "id": "show-by-rock-mashumairesh-in-2",
-        "titleJa": "エールアンドレスポンス",
-        "artistDisplayName": "Mashumairesh!!",
-        "songId": "show-by-rock-mashumairesh-in-2-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "disc": 1,
+              "position": 5,
+              "title": "キミのラプソディー(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-ed-1-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "キミのラプソディー<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501690029",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495715"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495711"
+        }
+      ],
+      "releaseDate": "2020-02-05"
+    },
+    {
+      "type": "IN",
+      "sequence": 2,
+      "id": "show-by-rock-mashumairesh-in-2",
+      "titleJa": "エールアンドレスポンス",
+      "artistDisplayName": "Mashumairesh!!",
+      "songId": "show-by-rock-mashumairesh-in-2-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689992",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=a3_BvA3oXLY",
+          "label": "官方影片欄位：エールアンドレスポンス｜官方單曲試聽影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/484186",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/484178",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/506511",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/506510",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "エールアンドレスポンス<#8 TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689992",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521960"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521950"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/484186",
+          "linkType": "direct_album",
+          "label": "エールアンドレスポンス<#1 TV edit>｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-484186",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/484178",
+          "linkType": "direct_album",
+          "label": "エールアンドレスポンス<#1 TV edit>｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-484178",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/506511",
+          "linkType": "direct_album",
+          "label": "エールアンドレスポンス<#8 TV edit>｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-506511",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/506510",
+          "linkType": "direct_album",
+          "label": "エールアンドレスポンス<#8 TV edit>｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-506510",
+          "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01879"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689992"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689992"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "a3_BvA3oXLY",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=a3_BvA3oXLY"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521960",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521960",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521950",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521950",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484186"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-484186",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484186"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/484186",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484186"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484178"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-484178",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484178"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/484178",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/484178"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-506511",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/506511"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/506511",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/506511"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-506510",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/506510"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/506510",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/506510"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第1、8話插曲。原聲集所收剪輯明標第8話。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Mashumairesh!!",
+          "role": "vocals"
+        },
+        {
+          "name": "ヨシダタクミ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ヨシダタクミ",
+          "role": "composition"
+        },
+        {
+          "name": "中島生也（monoralism）",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-2-song-single-full",
+          "title": "エールアンドレスポンス",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-2-song-single-instrumental",
+          "title": "エールアンドレスポンス（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit",
+          "title": "エールアンドレスポンス<#8 TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit",
+          "title": "エールアンドレスポンス<#1 TV edit>",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01879",
+          "title": "エールアンドレスポンス",
+          "type": "single",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689992",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=a3_BvA3oXLY",
-            "label": "官方影片欄位：エールアンドレスポンス｜官方單曲試聽影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "エールアンドレスポンス<#8 TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689992",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-2"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-2-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-2-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01879"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689992"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689992"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "a3_BvA3oXLY",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=a3_BvA3oXLY"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第1、8話插曲。原聲集所收剪輯明標第8話。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "Mashumairesh!!",
-            "role": "vocals"
-          },
-          {
-            "name": "ヨシダタクミ",
-            "role": "lyrics"
-          },
-          {
-            "name": "ヨシダタクミ",
-            "role": "composition"
-          },
-          {
-            "name": "中島生也（monoralism）",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-2-song-single-full",
-            "title": "エールアンドレスポンス",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-2-song-single-instrumental",
-            "title": "エールアンドレスポンス（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit",
-            "title": "エールアンドレスポンス<#8 TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01879",
-            "title": "エールアンドレスポンス",
-            "type": "single",
-            "date": {
-              "value": "2020-04-01",
-              "precision": "day"
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エールアンドレスポンス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-full"
             },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "エールアンドレスポンス",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-2-song-single-full"
-              },
-              {
-                "title": "エールアンドレスポンス（Instrumental）",
-                "position": 4,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01879"
+            {
+              "title": "エールアンドレスポンス（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01879"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "position": 22,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "position": 22,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 22,
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 22,
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-521960",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "エールアンドレスポンス<#8 TV edit>",
-                "position": 22,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "エールアンドレスポンス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-521950",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "エールアンドレスポンス<#8 TV edit>",
-                "position": 22,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 3,
-        "id": "show-by-rock-mashumairesh-in-3",
-        "titleJa": "移動手段はバイクです",
-        "artistDisplayName": "DOKONJOFINGER",
-        "songId": "show-by-rock-mashumairesh-in-3-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "エールアンドレスポンス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-484186",
+          "title": "エールアンドレスポンス<#1 TV edit>",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-01-10",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス<#1 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-484178",
+          "title": "エールアンドレスポンス<#1 TV edit>",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-01-10",
+            "precision": "day"
           },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス<#1 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ep1-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-506511",
+          "title": "エールアンドレスポンス<#8 TV edit>",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-02-28",
+            "precision": "day"
           },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-506510",
+          "title": "エールアンドレスポンス<#8 TV edit>",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-02-28",
+            "precision": "day"
           },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "エールアンドレスポンス<#8 TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-2-song-ost-tv-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 3,
+      "id": "show-by-rock-mashumairesh-in-3",
+      "titleJa": "移動手段はバイクです",
+      "artistDisplayName": "DOKONJOFINGER",
+      "songId": "show-by-rock-mashumairesh-in-3-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689837",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
+          "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "移動手段はバイクです<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689837",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-3-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-3-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-3-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01868"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689837"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689837"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "ExajPOh2T1k",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ExajPOh2T1k"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第3話插曲。TV edit 為ヤス主唱，商業單曲版採團員分唱。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "DOKONJOFINGER",
+          "role": "vocals"
+        },
+        {
+          "name": "大和",
+          "role": "lyrics"
+        },
+        {
+          "name": "大和",
+          "role": "composition"
+        },
+        {
+          "name": "大和",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-3-song-single-full",
+          "title": "移動手段はバイクです",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-3-song-single-instrumental",
+          "title": "移動手段はバイクです（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit",
+          "title": "移動手段はバイクです<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01868",
+          "title": "移動手段はバイクです／カバンには鉄板です",
+          "type": "single",
+          "date": {
+            "value": "2020-03-11",
+            "precision": "day"
           },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689837",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
-            "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "移動手段はバイクです<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689837",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-3"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-3-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-3-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-3-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01868"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689837"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689837"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "ExajPOh2T1k",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=ExajPOh2T1k"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第3話插曲。TV edit 為ヤス主唱，商業單曲版採團員分唱。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "DOKONJOFINGER",
-            "role": "vocals"
-          },
-          {
-            "name": "大和",
-            "role": "lyrics"
-          },
-          {
-            "name": "大和",
-            "role": "composition"
-          },
-          {
-            "name": "大和",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-3-song-single-full",
-            "title": "移動手段はバイクです",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-3-song-single-instrumental",
-            "title": "移動手段はバイクです（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit",
-            "title": "移動手段はバイクです<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01868",
-            "title": "移動手段はバイクです／カバンには鉄板です",
-            "type": "single",
-            "date": {
-              "value": "2020-03-11",
-              "precision": "day"
+          "artistDisplayName": "DOKONJOFINGER",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "移動手段はバイクです",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-single-full"
             },
-            "artistDisplayName": "DOKONJOFINGER",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "移動手段はバイクです",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-3-song-single-full"
-              },
-              {
-                "title": "移動手段はバイクです（Instrumental）",
-                "position": 4,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-3-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01868"
+            {
+              "title": "移動手段はバイクです（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01868"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "移動手段はバイクです<TV edit>",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "移動手段はバイクです<TV edit>",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 12,
+              "title": "移動手段はバイクです<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 12,
+              "title": "移動手段はバイクです<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 4,
+      "id": "show-by-rock-mashumairesh-in-4",
+      "titleJa": "No problem!!",
+      "artistDisplayName": "デルミン（CV：和多田美咲）／ルフユ（CV：山根 綺）",
+      "songId": "show-by-rock-mashumairesh-in-4-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689985",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3bE11Uz3Oa4",
+          "label": "官方影片欄位：No problem!!〈TV edit〉｜原聲帶 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "No problem!!<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689985",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521960"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521950"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-4-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-4-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01879"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689985"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689985"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "3bE11Uz3Oa4",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=3bE11Uz3Oa4"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521960",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521960",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521950",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521950",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第4話插曲。原聲 CD 的 TV edit 標示デルミン，插曲單曲則以 Mashumairesh!! 發行。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "デルミン（CV：和多田美咲）／ルフユ（CV：山根 綺）",
+          "role": "vocals"
+        },
+        {
+          "name": "HAMA-kgn",
+          "role": "lyrics"
+        },
+        {
+          "name": "HAMA-kgn",
+          "role": "composition"
+        },
+        {
+          "name": "HAMA-kgn",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-4-song-single-full",
+          "title": "No problem!!",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-4-song-single-instrumental",
+          "title": "No problem!!（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit",
+          "title": "No problem!!<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01879",
+          "title": "エールアンドレスポンス",
+          "type": "single",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "No problem!!",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "移動手段はバイクです<TV edit>",
-                "position": 12,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "title": "No problem!!（Instrumental）",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01879"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "No problem!!<TV edit>",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "No problem!!<TV edit>",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 15,
+              "title": "No problem!!<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 15,
+              "title": "No problem!!<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-521960",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 2,
+              "title": "No problem!!",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "移動手段はバイクです<TV edit>",
-                "position": 12,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-3-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 4,
-        "id": "show-by-rock-mashumairesh-in-4",
-        "titleJa": "No problem!!",
-        "artistDisplayName": "デルミン（CV：和多田美咲）／ルフユ（CV：山根 綺）",
-        "songId": "show-by-rock-mashumairesh-in-4-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "disc": 1,
+              "position": 5,
+              "title": "No problem!! (Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-521950",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689985",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=3bE11Uz3Oa4",
-            "label": "官方影片欄位：No problem!!〈TV edit〉｜原聲帶 Art Track",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "No problem!!<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689985",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-4"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-4-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-4-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01879"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689985"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689985"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "3bE11Uz3Oa4",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=3bE11Uz3Oa4"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第4話插曲。原聲 CD 的 TV edit 標示デルミン，插曲單曲則以 Mashumairesh!! 發行。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "デルミン（CV：和多田美咲）／ルフユ（CV：山根 綺）",
-            "role": "vocals"
-          },
-          {
-            "name": "HAMA-kgn",
-            "role": "lyrics"
-          },
-          {
-            "name": "HAMA-kgn",
-            "role": "composition"
-          },
-          {
-            "name": "HAMA-kgn",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-4-song-single-full",
-            "title": "No problem!!",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-4-song-single-instrumental",
-            "title": "No problem!!（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit",
-            "title": "No problem!!<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01879",
-            "title": "エールアンドレスポンス",
-            "type": "single",
-            "date": {
-              "value": "2020-04-01",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 2,
+              "title": "No problem!!",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-full"
             },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "No problem!!",
-                "position": 2,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-4-song-single-full"
-              },
-              {
-                "title": "No problem!!（Instrumental）",
-                "position": 5,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01879"
+            {
+              "disc": 1,
+              "position": 5,
+              "title": "No problem!! (Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-4-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 5,
+      "id": "show-by-rock-mashumairesh-in-5",
+      "titleJa": "Parallelism Crown",
+      "artistDisplayName": "REIJINGSIGNAL",
+      "songId": "show-by-rock-mashumairesh-in-5-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689841",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
+          "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=oS9Y1d__vNU",
+          "label": "官方影片欄位：Parallelism Crown｜單曲版 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Parallelism Crown<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689841",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-5"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-5-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-5-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-5-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01867"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689841"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689841"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "uVCikMLTRFc",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uVCikMLTRFc"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "oS9Y1d__vNU",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=oS9Y1d__vNU"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第5話插曲。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "REIJINGSIGNAL",
+          "role": "vocals"
+        },
+        {
+          "name": "Yugo Ichikawa",
+          "role": "lyrics"
+        },
+        {
+          "name": "Yugo Ichikawa",
+          "role": "composition"
+        },
+        {
+          "name": "Yugo Ichikawa",
+          "role": "arrangement"
+        },
+        {
+          "name": "yksb",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-5-song-single-full",
+          "title": "Parallelism Crown",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-5-song-single-instrumental",
+          "title": "Parallelism Crown（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit",
+          "title": "Parallelism Crown<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01867",
+          "title": "Parallelism Crown／ネオンテトラの空",
+          "type": "single",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "REIJINGSIGNAL",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Parallelism Crown",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "No problem!!<TV edit>",
-                "position": 15,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "title": "Parallelism Crown（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01867"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Parallelism Crown<TV edit>",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Parallelism Crown<TV edit>",
+              "position": 16,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 16,
+              "title": "Parallelism Crown<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 16,
+              "title": "Parallelism Crown<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 6,
+      "id": "show-by-rock-mashumairesh-in-6",
+      "titleJa": "ネオンテトラの空",
+      "artistDisplayName": "REIJINGSIGNAL",
+      "songId": "show-by-rock-mashumairesh-in-6-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689969",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
+          "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ネオンテトラの空<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689969",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-6"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-6-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-6-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-6-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01867"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689969"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689969"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "uVCikMLTRFc",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uVCikMLTRFc"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第8話插曲。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "REIJINGSIGNAL",
+          "role": "vocals"
+        },
+        {
+          "name": "宮嶋淳子",
+          "role": "lyrics"
+        },
+        {
+          "name": "トミタカズキ",
+          "role": "composition"
+        },
+        {
+          "name": "トミタカズキ",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-6-song-single-full",
+          "title": "ネオンテトラの空",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-6-song-single-instrumental",
+          "title": "ネオンテトラの空（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit",
+          "title": "ネオンテトラの空<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01867",
+          "title": "Parallelism Crown／ネオンテトラの空",
+          "type": "single",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "artistDisplayName": "REIJINGSIGNAL",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ネオンテトラの空",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "No problem!!<TV edit>",
-                "position": 15,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 5,
-        "id": "show-by-rock-mashumairesh-in-5",
-        "titleJa": "Parallelism Crown",
-        "artistDisplayName": "REIJINGSIGNAL",
-        "songId": "show-by-rock-mashumairesh-in-5-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "title": "ネオンテトラの空（Instrumental）",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01867"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ネオンテトラの空<TV edit>",
+              "position": 23,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ネオンテトラの空<TV edit>",
+              "position": 23,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 23,
+              "title": "ネオンテトラの空<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 23,
+              "title": "ネオンテトラの空<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 7,
+      "id": "show-by-rock-mashumairesh-in-7",
+      "titleJa": "カバンには鉄板です",
+      "artistDisplayName": "DOKONJOFINGER",
+      "songId": "show-by-rock-mashumairesh-in-7-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689977",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
+          "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "カバンには鉄板です<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689977",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-7"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-7-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-7-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-7-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01868"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689977"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689977"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "targetId": "ExajPOh2T1k",
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ExajPOh2T1k"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第9話插曲。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "DOKONJOFINGER",
+          "role": "vocals"
+        },
+        {
+          "name": "大和",
+          "role": "lyrics"
+        },
+        {
+          "name": "大和",
+          "role": "composition"
+        },
+        {
+          "name": "大和",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-7-song-single-full",
+          "title": "カバンには鉄板です",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-7-song-single-instrumental",
+          "title": "カバンには鉄板です（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit",
+          "title": "カバンには鉄板です<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01868",
+          "title": "移動手段はバイクです／カバンには鉄板です",
+          "type": "single",
+          "date": {
+            "value": "2020-03-11",
+            "precision": "day"
           },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689841",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
-            "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=oS9Y1d__vNU",
-            "label": "官方影片欄位：Parallelism Crown｜單曲版 Art Track",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "Parallelism Crown<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689841",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-5"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-5-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-5-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-5-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01867"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689841"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689841"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "uVCikMLTRFc",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=uVCikMLTRFc"
-            ],
-            "verifiedAt": "2026-11-19"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "oS9Y1d__vNU",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=oS9Y1d__vNU"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第5話插曲。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "REIJINGSIGNAL",
-            "role": "vocals"
-          },
-          {
-            "name": "Yugo Ichikawa",
-            "role": "lyrics"
-          },
-          {
-            "name": "Yugo Ichikawa",
-            "role": "composition"
-          },
-          {
-            "name": "Yugo Ichikawa",
-            "role": "arrangement"
-          },
-          {
-            "name": "yksb",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-5-song-single-full",
-            "title": "Parallelism Crown",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-5-song-single-instrumental",
-            "title": "Parallelism Crown（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit",
-            "title": "Parallelism Crown<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01867",
-            "title": "Parallelism Crown／ネオンテトラの空",
-            "type": "single",
-            "date": {
-              "value": "2020-03-04",
-              "precision": "day"
+          "artistDisplayName": "DOKONJOFINGER",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "カバンには鉄板です",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-single-full"
             },
-            "artistDisplayName": "REIJINGSIGNAL",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "Parallelism Crown",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-5-song-single-full"
-              },
-              {
-                "title": "Parallelism Crown（Instrumental）",
-                "position": 4,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-5-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01867"
+            {
+              "title": "カバンには鉄板です（Instrumental）",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01868"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "カバンには鉄板です<TV edit>",
+              "position": 8,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "カバンには鉄板です<TV edit>",
+              "position": 8,
+              "disc": 2,
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 8,
+              "title": "カバンには鉄板です<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 2,
+              "position": 8,
+              "title": "カバンには鉄板です<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "IN",
+      "sequence": 8,
+      "id": "show-by-rock-mashumairesh-in-8",
+      "titleJa": "プラットホーム",
+      "artistDisplayName": "Mashumairesh!!",
+      "songId": "show-by-rock-mashumairesh-in-8-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://news.ponycanyon.co.jp/2020/03/37648",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521960",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521960"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/521950",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-521950"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://news.ponycanyon.co.jp/2020/03/37648",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-8"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-8-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-8-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01879"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-in-8-song"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521960",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521960",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521960"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-521950",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/521950",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/521950"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "第12話插曲。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Mashumairesh!!",
+          "role": "vocals"
+        },
+        {
+          "name": "トミタカズキ",
+          "role": "lyrics"
+        },
+        {
+          "name": "トミタカズキ",
+          "role": "composition"
+        },
+        {
+          "name": "トミタカズキ",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-in-8-song-single-full",
+          "title": "プラットホーム",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-in-8-song-single-instrumental",
+          "title": "プラットホーム（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01879",
+          "title": "エールアンドレスポンス",
+          "type": "single",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
+          },
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "プラットホーム",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "Parallelism Crown<TV edit>",
-                "position": 16,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "title": "プラットホーム（Instrumental）",
+              "position": 6,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01879"
+        },
+        {
+          "id": "ototoy-521960",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 3,
+              "title": "プラットホーム",
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "Parallelism Crown<TV edit>",
-                "position": 16,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-5-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 6,
-        "id": "show-by-rock-mashumairesh-in-6",
-        "titleJa": "ネオンテトラの空",
-        "artistDisplayName": "REIJINGSIGNAL",
-        "songId": "show-by-rock-mashumairesh-in-6-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "プラットホーム(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-521950",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」Mashumairesh!!挿入歌「エールアンドレスポンス」",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-04-01",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689969",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
-            "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "ネオンテトラの空<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689969",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-6"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-6-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-6-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-6-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/5.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01867"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689969"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689969"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "uVCikMLTRFc",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=uVCikMLTRFc"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第8話插曲。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "REIJINGSIGNAL",
-            "role": "vocals"
-          },
-          {
-            "name": "宮嶋淳子",
-            "role": "lyrics"
-          },
-          {
-            "name": "トミタカズキ",
-            "role": "composition"
-          },
-          {
-            "name": "トミタカズキ",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-6-song-single-full",
-            "title": "ネオンテトラの空",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-6-song-single-instrumental",
-            "title": "ネオンテトラの空（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit",
-            "title": "ネオンテトラの空<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01867",
-            "title": "Parallelism Crown／ネオンテトラの空",
-            "type": "single",
-            "date": {
-              "value": "2020-03-04",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 3,
+              "title": "プラットホーム",
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-full"
             },
-            "artistDisplayName": "REIJINGSIGNAL",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ネオンテトラの空",
-                "position": 2,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-6-song-single-full"
-              },
-              {
-                "title": "ネオンテトラの空（Instrumental）",
-                "position": 5,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-6-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01867"
+            {
+              "disc": 1,
+              "position": 6,
+              "title": "プラットホーム(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "releaseDate": "2020-04-01",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
+          "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 2,
+      "id": "show-by-rock-mashumairesh-ed-2",
+      "titleJa": "ヒロメネス",
+      "artistDisplayName": "Mashumairesh!!",
+      "songId": "show-by-rock-mashumairesh-op-2-song",
+      "sources": [
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/showbyrock-3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
+          "label": "實體原聲 CD 曲序及印刷演唱名義",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/1501689824",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/1501689825",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "label": "OTOTOY 日本數位發行、音質及曲序",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ヒロメネス<TV edit>｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/1501689825",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-1501689824",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515549",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515549",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/515548",
+          "linkType": "direct_album",
+          "label": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック｜24bit/48kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-515548",
+          "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495715",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜24bit/96kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495715"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/495711",
+          "linkType": "direct_album",
+          "label": "ヒロメネス/キミのラプソディー｜16bit/44.1kHz｜OTOTOY 日本",
+          "region": "JP",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "ototoy-495711"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-ed-2"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
+            "https://www.mau2.com/anime/showbyrock-3",
+            "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-single-full"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01855"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://www.cdjapan.co.jp/product/PCCG-1881"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "pccg-01881"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/1501689825"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/jp/song/1501689825"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
+            "https://music.apple.com/jp/album/1501689824"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-jp-1501689824"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "show-by-rock-mashumairesh-op-2-song"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515549",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515549",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515549"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-515548",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/515548",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/515548"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495715",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495715",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495715"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-495711",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495711",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495711"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2020-winter"
+      ],
+      "usageLabel": "日本原TV第12話特殊片尾，同話省略常規片頭。",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Mashumairesh!!",
+          "role": "vocals"
+        },
+        {
+          "name": "大和",
+          "role": "lyrics"
+        },
+        {
+          "name": "大和",
+          "role": "composition"
+        },
+        {
+          "name": "大和",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-single-full",
+          "title": "ヒロメネス",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-single-instrumental",
+          "title": "ヒロメネス（Instrumental）",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit",
+          "title": "ヒロメネス<TV edit>",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "pccg-01855",
+          "title": "ヒロメネス／キミのラプソディー",
+          "type": "single",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "日本 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ネオンテトラの空<TV edit>",
-                "position": 23,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
+            {
+              "title": "ヒロメネス（Instrumental）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01855"
+        },
+        {
+          "id": "pccg-01881",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
           },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
+          "artistDisplayName": "Various Artists",
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス<TV edit>",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon",
+          "catalogNumber": "PCCG-01881"
+        },
+        {
+          "id": "apple-jp-1501689824",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ヒロメネス<TV edit>",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ],
+          "label": "Pony Canyon"
+        },
+        {
+          "id": "ototoy-515549",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-515548",
+          "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 日本數位版（24bit/48kHz）",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス<TV edit>",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495715",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（24bit/96kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
+          },
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ネオンテトラの空<TV edit>",
-                "position": 23,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-6-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 7,
-        "id": "show-by-rock-mashumairesh-in-7",
-        "titleJa": "カバンには鉄板です",
-        "artistDisplayName": "DOKONJOFINGER",
-        "songId": "show-by-rock-mashumairesh-in-7-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "ヒロメネス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-495711",
+          "title": "ヒロメネス/キミのラプソディー",
+          "type": "single",
+          "artistDisplayName": "Mashumairesh!!",
+          "edition": "OTOTOY 日本數位版（16bit/44.1kHz）",
+          "date": {
+            "value": "2020-02-05",
+            "precision": "day"
           },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689977",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
-            "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "カバンには鉄板です<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689977",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-7"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-7-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-7-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-7-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/4.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01868"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689977"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689977"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "video",
-            "fields": [
-              "type",
-              "url"
-            ],
-            "targetId": "ExajPOh2T1k",
-            "sourceUrls": [
-              "https://www.youtube.com/watch?v=ExajPOh2T1k"
-            ],
-            "verifiedAt": "2026-11-19"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第9話插曲。",
-        "lastVerifiedAt": "2026-11-19",
-        "credits": [
-          {
-            "name": "DOKONJOFINGER",
-            "role": "vocals"
-          },
-          {
-            "name": "大和",
-            "role": "lyrics"
-          },
-          {
-            "name": "大和",
-            "role": "composition"
-          },
-          {
-            "name": "大和",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-7-song-single-full",
-            "title": "カバンには鉄板です",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-7-song-single-instrumental",
-            "title": "カバンには鉄板です（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit",
-            "title": "カバンには鉄板です<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01868",
-            "title": "移動手段はバイクです／カバンには鉄板です",
-            "type": "single",
-            "date": {
-              "value": "2020-03-11",
-              "precision": "day"
+          "region": "JP",
+          "label": "ポニーキャニオン",
+          "tracks": [
+            {
+              "disc": 1,
+              "position": 1,
+              "title": "ヒロメネス",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
             },
-            "artistDisplayName": "DOKONJOFINGER",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "カバンには鉄板です",
-                "position": 2,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-7-song-single-full"
-              },
-              {
-                "title": "カバンには鉄板です（Instrumental）",
-                "position": 5,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-7-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01868"
-          },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
-            },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "カバンには鉄板です<TV edit>",
-                "position": 8,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
-          },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
-            },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "カバンには鉄板です<TV edit>",
-                "position": 8,
-                "disc": 2,
-                "recordingId": "show-by-rock-mashumairesh-in-7-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "IN",
-        "sequence": 8,
-        "id": "show-by-rock-mashumairesh-in-8",
-        "titleJa": "プラットホーム",
-        "artistDisplayName": "Mashumairesh!!",
-        "songId": "show-by-rock-mashumairesh-in-8-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://news.ponycanyon.co.jp/2020/03/37648",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          }
-        ],
-        "links": [],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://news.ponycanyon.co.jp/2020/03/37648",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-8"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-8-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-8-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01879"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "date"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/2.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-in-8-song"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "第12話插曲。",
-        "lastVerifiedAt": "2026-11-16",
-        "credits": [
-          {
-            "name": "Mashumairesh!!",
-            "role": "vocals"
-          },
-          {
-            "name": "トミタカズキ",
-            "role": "lyrics"
-          },
-          {
-            "name": "トミタカズキ",
-            "role": "composition"
-          },
-          {
-            "name": "トミタカズキ",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-in-8-song-single-full",
-            "title": "プラットホーム",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-in-8-song-single-instrumental",
-            "title": "プラットホーム（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01879",
-            "title": "エールアンドレスポンス",
-            "type": "single",
-            "date": {
-              "value": "2020-04-01",
-              "precision": "day"
-            },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "プラットホーム",
-                "position": 3,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-8-song-single-full"
-              },
-              {
-                "title": "プラットホーム（Instrumental）",
-                "position": 6,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-in-8-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01879"
-          }
-        ],
-        "releaseDate": "2020-04-01",
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
-            "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      },
-      {
-        "type": "ED",
-        "sequence": 2,
-        "id": "show-by-rock-mashumairesh-ed-2",
-        "titleJa": "ヒロメネス",
-        "artistDisplayName": "Mashumairesh!!",
-        "songId": "show-by-rock-mashumairesh-op-2-song",
-        "sources": [
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.mau2.com/anime/showbyrock-3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3",
-            "label": "原期歌曲、名義與逐話用途交叉核對",
-            "role": "cross_check",
-            "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-            "label": "作品方、放送方或唱片公司正式資料",
-            "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://www.cdjapan.co.jp/product/PCCG-1881",
-            "label": "實體原聲 CD 曲序及印刷演唱名義",
-            "role": "cross_check",
-            "language": "en",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/album/1501689824",
-            "label": "Apple Music JP 區發行與曲序",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "url": "https://music.apple.com/jp/song/1501689825",
-            "label": "Apple Music JP 區曲目",
-            "role": "cross_check",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
-          }
-        ],
-        "links": [
-          {
-            "platform": "Apple Music",
-            "label": "ヒロメネス<TV edit>｜Apple Music JP",
-            "url": "https://music.apple.com/jp/song/1501689825",
-            "linkType": "direct_track",
-            "region": "JP",
-            "releaseId": "apple-jp-1501689824",
-            "availability": "unknown",
-            "verifiedAt": "2026-11-16",
-            "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-          }
-        ],
-        "evidence": [
-          {
-            "target": "anime_use",
-            "fields": [
-              "usage"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-ed-2"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "title",
-              "artist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php",
-              "https://www.mau2.com/anime/showbyrock-3",
-              "https://moegirl.icu/zh-tw/%E6%91%87%E6%BB%9A%E5%B0%91%E5%A5%B3"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          },
-          {
-            "target": "credits",
-            "fields": [
-              "credits"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-single-full"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01855"
-          },
-          {
-            "target": "recording",
-            "fields": [
-              "title",
-              "kind",
-              "format"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition",
-              "catalog_number"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "tracklist"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://www.cdjapan.co.jp/product/PCCG-1881"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "pccg-01881"
-          },
-          {
-            "target": "link",
-            "fields": [
-              "url"
-            ],
-            "sourceUrls": [
-              "https://music.apple.com/jp/song/1501689825"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "https://music.apple.com/jp/song/1501689825"
-          },
-          {
-            "target": "release",
-            "fields": [
-              "title",
-              "date",
-              "tracklist",
-              "edition"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/7.php",
-              "https://music.apple.com/jp/album/1501689824"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "apple-jp-1501689824"
-          },
-          {
-            "target": "song",
-            "fields": [
-              "date"
-            ],
-            "sourceUrls": [
-              "https://showbyrock-anime-s.com/mashumairesh/music/1.php"
-            ],
-            "verifiedAt": "2026-11-16",
-            "targetId": "show-by-rock-mashumairesh-op-2-song"
-          }
-        ],
-        "sourceMode": "explicit",
-        "seasonIds": [
-          "2020-winter"
-        ],
-        "usageLabel": "日本原TV第12話特殊片尾，同話省略常規片頭。",
-        "lastVerifiedAt": "2026-11-16",
-        "credits": [
-          {
-            "name": "Mashumairesh!!",
-            "role": "vocals"
-          },
-          {
-            "name": "大和",
-            "role": "lyrics"
-          },
-          {
-            "name": "大和",
-            "role": "composition"
-          },
-          {
-            "name": "大和",
-            "role": "arrangement"
-          }
-        ],
-        "recordings": [
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-single-full",
-            "title": "ヒロメネス",
-            "kind": "vocal",
-            "format": "full"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-single-instrumental",
-            "title": "ヒロメネス（Instrumental）",
-            "kind": "instrumental",
-            "format": "unknown"
-          },
-          {
-            "id": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit",
-            "title": "ヒロメネス<TV edit>",
-            "kind": "vocal",
-            "format": "tv"
-          }
-        ],
-        "releases": [
-          {
-            "id": "pccg-01855",
-            "title": "ヒロメネス／キミのラプソディー",
-            "type": "single",
-            "date": {
-              "value": "2020-02-05",
-              "precision": "day"
-            },
-            "artistDisplayName": "Mashumairesh!!",
-            "edition": "日本 CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-single-full"
-              },
-              {
-                "title": "ヒロメネス（Instrumental）",
-                "position": 4,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01855"
-          },
-          {
-            "id": "pccg-01881",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
-            },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本 2CD",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス<TV edit>",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon",
-            "catalogNumber": "PCCG-01881"
-          },
-          {
-            "id": "apple-jp-1501689824",
-            "title": "TVアニメ「SHOW BY ROCK!!ましゅまいれっしゅ!!」オリジナルサウンドトラック",
-            "type": "soundtrack",
-            "date": {
-              "value": "2020-03-18",
-              "precision": "day"
-            },
-            "artistDisplayName": "Various Artists",
-            "edition": "日本區數位版",
-            "region": "JP",
-            "tracks": [
-              {
-                "title": "ヒロメネス<TV edit>",
-                "position": 1,
-                "disc": 1,
-                "recordingId": "show-by-rock-mashumairesh-op-2-song-ost-tv-edit"
-              }
-            ],
-            "label": "Pony Canyon"
-          }
-        ],
-        "releaseDate": "2020-02-05",
-        "followUp": [
-          {
-            "fields": [
-              "recordings",
-              "platform_availability"
-            ],
-            "note": "與常規片頭共用歌曲ID。",
-            "resumeWhen": "待終回原期片尾音軌與原聲 TV edit 的比對。",
-            "checkedAt": "2026-11-16"
-          }
-        ]
-      }
-    ],
-    "verifiedAt": "2026-09-02",
-    "metadataVerifiedAt": "2026-11-16",
-    "metadataSources": [
-      {
-        "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
-        "label": "原期TV播出日期交叉資料；僅日期時分",
-        "role": "broadcast_cross_check",
-        "language": "ja",
-        "verifiedAt": "2026-10-24"
-      },
-      {
-        "url": "https://showbyrock-anime-s.com/mashumairesh/onair/",
-        "label": "動畫製作方TOKYO MX及FOD時刻",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-11-16"
-      },
-      {
-        "url": "https://www.b-ch.com/titles/6798/001",
-        "label": "日本正版配信各話",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-11-16"
-      },
-      {
-        "url": "https://www.mau2.com/anime/showbyrock-3",
-        "label": "原期全12話",
-        "role": "broadcast_cross_check",
-        "language": "ja",
-        "verifiedAt": "2026-11-16"
-      },
-      {
-        "url": "https://showbyrock-anime-s.com/mashumairesh/",
-        "label": "製作方作品官網及原期資料",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-11-19"
-      },
-      {
-        "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
-        "label": "TOKYO MX 2019/12/31年末特番與第1話先行公告",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-11-19"
-      },
-      {
-        "url": "https://prtimes.jp/main/html/rd/p/000000920.000000084.html",
-        "label": "富士電視台 FOD 同步與年末特番限時配信公告",
-        "role": "first_party",
-        "language": "ja",
-        "verifiedAt": "2026-11-19"
-      }
-    ],
-    "broadcastTimeJst": "22:30"
-  },
+            {
+              "disc": 1,
+              "position": 4,
+              "title": "ヒロメネス(Instrumental)",
+              "recordingId": "show-by-rock-mashumairesh-op-2-song-single-instrumental"
+            }
+          ]
+        }
+      ],
+      "releaseDate": "2020-02-05",
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "與常規片頭共用歌曲ID。",
+          "resumeWhen": "待終回原期片尾音軌與原聲 TV edit 的比對。",
+          "checkedAt": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "verifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
+  "metadataSources": [
+    {
+      "url": "https://ja.wikipedia.org/wiki/SHOW_BY_ROCK%21%21",
+      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-10-24"
+    },
+    {
+      "url": "https://showbyrock-anime-s.com/mashumairesh/onair/",
+      "label": "動畫製作方TOKYO MX及FOD時刻",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.b-ch.com/titles/6798/001",
+      "label": "日本正版配信各話",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.mau2.com/anime/showbyrock-3",
+      "label": "原期全12話",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://showbyrock-anime-s.com/mashumairesh/",
+      "label": "製作方作品官網及原期資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+      "label": "TOKYO MX 2019/12/31年末特番與第1話先行公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000920.000000084.html",
+      "label": "富士電視台 FOD 同步與年末特番限時配信公告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    }
+  ],
+  "broadcastTimeJst": "22:30"
+},
   {
   "anilistId": 104391,
   "id": "curated-104391",
@@ -58919,7 +63678,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -58941,6 +63700,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -59091,6 +63864,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BU0HDyhpb5M",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=BU0HDyhpb5M"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -59106,7 +63904,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1話日本原TV片尾。",
       "recordings": [
         {
@@ -59138,6 +63936,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 1 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-1-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -59186,7 +63997,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -59208,6 +64019,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -59308,6 +64133,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BU0HDyhpb5M",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=BU0HDyhpb5M"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -59323,7 +64173,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第2話日本原TV片尾。",
       "recordings": [
         {
@@ -59355,6 +64205,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 2 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-2-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -59404,7 +64267,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -59426,6 +64289,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -59530,6 +64407,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BU0HDyhpb5M",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=BU0HDyhpb5M"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -59545,7 +64447,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第3話日本原TV片尾。",
       "recordings": [
         {
@@ -59577,6 +64479,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 3 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-3-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -59626,7 +64541,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -59648,6 +64563,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -59748,6 +64677,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BU0HDyhpb5M",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=BU0HDyhpb5M"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -59763,7 +64717,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第4話日本原TV片尾。",
       "recordings": [
         {
@@ -59795,6 +64749,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 4 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-4-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -59843,7 +64810,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -59865,6 +64832,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -59965,6 +64946,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BU0HDyhpb5M",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=BU0HDyhpb5M"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -59980,7 +64986,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第5話日本原TV片尾。",
       "recordings": [
         {
@@ -60012,6 +65018,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 5 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-5-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -60061,7 +65080,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -60083,6 +65102,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -60183,6 +65216,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "dlguBs9mHdA",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=dlguBs9mHdA"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -60198,7 +65256,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第6話日本原TV片尾。",
       "recordings": [
         {
@@ -60230,6 +65288,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 6 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-6-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -60278,7 +65349,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -60300,6 +65371,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -60400,6 +65485,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "dlguBs9mHdA",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=dlguBs9mHdA"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -60415,7 +65525,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第7話日本原TV片尾。",
       "recordings": [
         {
@@ -60447,6 +65557,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 7 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-7-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -60496,7 +65619,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -60518,6 +65641,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -60618,6 +65755,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "dlguBs9mHdA",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=dlguBs9mHdA"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -60633,7 +65795,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第8話日本原TV片尾。",
       "recordings": [
         {
@@ -60665,6 +65827,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 8 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-8-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -60713,7 +65888,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -60735,6 +65910,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -60835,6 +66024,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "dlguBs9mHdA",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=dlguBs9mHdA"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -60850,7 +66064,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第9話日本原TV片尾。",
       "recordings": [
         {
@@ -60882,6 +66096,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 9 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-9-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -60931,7 +66158,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.mau2.com/anime/utitama",
@@ -60953,6 +66180,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "label": "Aniplex 日本實體專輯購買頁",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://uchitama.com/movie/",
+          "label": "動畫官網試聽合輯影片表",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -61053,6 +66294,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "svwc-70485"
+        },
+        {
+          "target": "link",
+          "targetId": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://online.aniplex.co.jp/itemuLoGOSYp.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "dlguBs9mHdA",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://uchitama.com/movie/",
+            "https://www.youtube.com/watch?v=dlguBs9mHdA"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -61068,7 +66334,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第10話日本原TV片尾。",
       "recordings": [
         {
@@ -61100,6 +66366,19 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Aniplex",
           "catalogNumber": "SVWC-70485"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Aniplex Online",
+          "label": "日本實體專輯第 10 曲｜Aniplex Online",
+          "url": "https://online.aniplex.co.jp/itemuLoGOSYp.html",
+          "linkType": "physical_purchase",
+          "region": "JP",
+          "releaseId": "svwc-70485",
+          "recordingId": "uchitama-uchi-no-tama-shirimasen-ka-ed-10-song-vocal-collection",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
         }
       ]
     },
@@ -74643,6 +79922,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "OTOTOY 日本版：犬生は一度きり（16-bit／44.1 kHz）曲序及音質",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -74667,6 +79953,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "label": "犬生は一度きり｜16-bit／44.1 kHz",
+            "linkType": "direct_album",
+            "region": "JP",
+            "releaseId": "ototoy-jp-503010",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -74813,13 +80109,39 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "YN4BTya4W0k"
+          },
+          {
+            "target": "release",
+            "targetId": "ototoy-jp-503010",
+            "fields": [
+              "date",
+              "title",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://ototoy.jp/_/default/p/503010",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "seasonIds": [
           "2020-winter"
         ],
         "usageLabel": "日本原TV第1–12話片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -74946,6 +80268,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "label": "avex pictures"
+          },
+          {
+            "id": "ototoy-jp-503010",
+            "title": "犬生は一度きり",
+            "artistDisplayName": "シナモン・ブー・ラッキー、ホイップ、伊達組",
+            "label": "avex pictures",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+            "tracks": [
+              {
+                "title": "犬生は一度きり",
+                "position": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+              },
+              {
+                "title": "犬生は一度きり Inst Ver.",
+                "position": 4,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+              }
+            ]
           }
         ],
         "releaseDate": "2020-02-19"
@@ -75006,6 +80353,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "OTOTOY 日本版：犬生は一度きり（16-bit／44.1 kHz）曲序及音質",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -75019,6 +80373,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "label": "犬生は一度きり｜16-bit／44.1 kHz",
+            "linkType": "direct_album",
+            "region": "JP",
+            "releaseId": "ototoy-jp-503010",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -75126,6 +80490,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "oda-cinnamon-nobunaga-in-1-song"
+          },
+          {
+            "target": "release",
+            "targetId": "ototoy-jp-503010",
+            "fields": [
+              "date",
+              "title",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://ototoy.jp/_/default/p/503010",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -75133,7 +80523,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原TV第4話插曲。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -75234,6 +80624,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "label": "avex pictures"
+          },
+          {
+            "id": "ototoy-jp-503010",
+            "title": "犬生は一度きり",
+            "artistDisplayName": "シナモン・ブー・ラッキー、ホイップ、伊達組",
+            "label": "avex pictures",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+            "tracks": [
+              {
+                "title": "エターナルずんだ、えだまめフォーエバー",
+                "position": 3,
+                "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+              }
+            ]
           }
         ],
         "releaseDate": "2020-02-19"
@@ -75301,6 +80711,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "OTOTOY 日本版：犬生は一度きり（16-bit／44.1 kHz）曲序及音質",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -75314,6 +80731,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+          },
+          {
+            "platform": "OTOTOY",
+            "url": "https://ototoy.jp/_/default/p/503010",
+            "label": "犬生は一度きり｜16-bit／44.1 kHz",
+            "linkType": "direct_album",
+            "region": "JP",
+            "releaseId": "ototoy-jp-503010",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -75423,6 +80850,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "oda-cinnamon-nobunaga-in-2-song"
+          },
+          {
+            "target": "release",
+            "targetId": "ototoy-jp-503010",
+            "fields": [
+              "date",
+              "title",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://ototoy.jp/_/default/p/503010",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://ototoy.jp/_/default/p/503010"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -75430,7 +80883,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原TV第6話插曲。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -75511,6 +80964,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "label": "avex pictures"
+          },
+          {
+            "id": "ototoy-jp-503010",
+            "title": "犬生は一度きり",
+            "artistDisplayName": "シナモン・ブー・ラッキー、ホイップ、伊達組",
+            "label": "avex pictures",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+            "tracks": [
+              {
+                "title": "尻尾越しのアイラブユー",
+                "position": 2,
+                "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+              }
+            ]
           }
         ],
         "releaseDate": "2020-02-19"
@@ -78249,6 +83722,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "OTOTOY 日本版：LAST DANCE（16-bit／44.1 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/483802",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "label": "OTOTOY 日本版：LAST DANCE（24-bit／48 kHz）曲序及音質",
+          "url": "https://ototoy.jp/_/default/p/488735",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -78551,6 +84038,58 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.youtube.com/watch?v=4eU71XJzh1A"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-483802",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/483802"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/483802",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/483802"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-488735",
+          "fields": [
+            "date",
+            "title",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/488735"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/488735",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/488735"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -78678,6 +84217,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "KING RECORDS"
+        },
+        {
+          "id": "ototoy-jp-483802",
+          "title": "LAST DANCE",
+          "artistDisplayName": "宮野真守",
+          "label": "KING RECORDS",
+          "type": "single",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "tracks": [
+            {
+              "title": "LAST DANCE",
+              "position": 1,
+              "recordingId": "kyokou-suiri-ed-1-song-single-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-488735",
+          "title": "LAST DANCE",
+          "artistDisplayName": "宮野真守",
+          "label": "KING RECORDS",
+          "type": "single",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "region": "JP",
+          "edition": "OTOTOY 數位版（24-bit／48 kHz）",
+          "tracks": [
+            {
+              "title": "LAST DANCE",
+              "position": 1,
+              "recordingId": "kyokou-suiri-ed-1-song-single-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -78720,6 +84299,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1649716006",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/483802",
+          "label": "LAST DANCE｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-483802",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/488735",
+          "label": "LAST DANCE｜24-bit／48 kHz",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "ototoy-jp-488735",
           "availability": "unknown",
           "verifiedAt": "2026-11-19"
         }
@@ -79430,6 +85029,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495809",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495797",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1492267153&country=hk",
+          "label": "Apple 香港曲目目錄：Welcome トゥ 混沌，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -79711,6 +85331,70 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "BK0tDxrzUOc"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-495809",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495809"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495809",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495809"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-495797",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495797"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/495797",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/495797"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1492267153",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1492267153&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -79724,7 +85408,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第1–12話片頭。",
       "recordings": [
         {
@@ -79867,6 +85551,56 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-495809",
+          "title": "TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」",
+          "type": "single",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-02-19",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Welcome トゥ 混沌",
+              "position": 1,
+              "recordingId": "dorohedoro-op-1-song-full"
+            },
+            {
+              "title": "Welcome トゥ 混沌 (Instrumental)",
+              "position": 3,
+              "recordingId": "dorohedoro-op-1-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-495797",
+          "title": "TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」",
+          "type": "single",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-02-19",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Welcome トゥ 混沌",
+              "position": 1,
+              "recordingId": "dorohedoro-op-1-song-full"
+            },
+            {
+              "title": "Welcome トゥ 混沌 (Instrumental)",
+              "position": 3,
+              "recordingId": "dorohedoro-op-1-song-instrumental"
+            }
+          ]
         }
       ],
       "links": [
@@ -79878,7 +85612,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1492267150",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-op-1-song-full"
         },
         {
@@ -79922,6 +85656,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-6811023601",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495809",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-495809",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/495797",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」オープニングテーマ「Welcome トゥ 混沌」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-495797",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-01-13"
@@ -80113,6 +85867,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/5B32EetQNijbLb3zFVAXGR",
+          "label": "Spotify：原版片尾專輯第1曲 Who am I ?",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652176&country=hk",
+          "label": "Apple 香港曲目目錄：Who am I ?，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -80430,6 +86212,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "6hR65d-n_Ao"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/5B32EetQNijbLb3zFVAXGR",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/5B32EetQNijbLb3zFVAXGR"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652176",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652176&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -80443,7 +86301,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第1、2、7話片尾。第7話回用本曲，片尾動畫有替換畫面。",
       "recordings": [
         {
@@ -80576,6 +86434,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Who am I ?",
+              "position": 1,
+              "recordingId": "dorohedoro-ed-1-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Who am I ?",
+              "position": 1,
+              "recordingId": "dorohedoro-ed-1-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -80587,7 +86485,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-1-song-full"
         },
         {
@@ -80621,6 +86519,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-1-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Who am I ?｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/5B32EetQNijbLb3zFVAXGR",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-1-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-01-13"
@@ -80790,6 +86718,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/6YJVj1I19EcMUePKgXXc8C",
+          "label": "Spotify：原版片尾專輯第2曲 Night SURFING",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652178&country=hk",
+          "label": "Apple 香港曲目目錄：Night SURFING，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -81090,6 +87046,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "3U9AJM4wwm0"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/6YJVj1I19EcMUePKgXXc8C",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/6YJVj1I19EcMUePKgXXc8C"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652178",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652178&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -81103,7 +87135,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第3、4話片尾。",
       "recordings": [
         {
@@ -81236,6 +87268,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Night SURFING",
+              "position": 2,
+              "recordingId": "dorohedoro-ed-2-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Night SURFING",
+              "position": 2,
+              "recordingId": "dorohedoro-ed-2-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -81247,7 +87319,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-2-song-full"
         },
         {
@@ -81281,6 +87353,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-2-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Night SURFING｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/6YJVj1I19EcMUePKgXXc8C",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-2-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-01-27"
@@ -81457,6 +87559,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/46zrb5e9HPwcTbveXZ7Meb",
+          "label": "Spotify：原版片尾專輯第3曲 D.D.D.D.",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652179&country=hk",
+          "label": "Apple 香港曲目目錄：D.D.D.D.，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -81768,6 +87898,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "hF7QDvrBT9Q"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/46zrb5e9HPwcTbveXZ7Meb",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/46zrb5e9HPwcTbveXZ7Meb"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652179",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652179&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -81781,7 +87987,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第5、6話片尾。",
       "recordings": [
         {
@@ -81914,6 +88120,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "D.D.D.D.",
+              "position": 3,
+              "recordingId": "dorohedoro-ed-3-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "D.D.D.D.",
+              "position": 3,
+              "recordingId": "dorohedoro-ed-3-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -81925,7 +88171,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-3-song-full"
         },
         {
@@ -81959,6 +88205,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-3-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "D.D.D.D.｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/46zrb5e9HPwcTbveXZ7Meb",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-3-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-02-10"
@@ -82128,6 +88404,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/6RV3pZrAzRHw04w1ATn5A8",
+          "label": "Spotify：原版片尾專輯第4曲 Strange Meat Pie",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652180&country=hk",
+          "label": "Apple 香港曲目目錄：Strange Meat Pie，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -82428,6 +88732,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "w4czMt7Tpb0"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/6RV3pZrAzRHw04w1ATn5A8",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/6RV3pZrAzRHw04w1ATn5A8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652180",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652180&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -82441,7 +88821,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第8、9話片尾。",
       "recordings": [
         {
@@ -82574,6 +88954,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Strange Meat Pie",
+              "position": 4,
+              "recordingId": "dorohedoro-ed-4-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "Strange Meat Pie",
+              "position": 4,
+              "recordingId": "dorohedoro-ed-4-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -82585,7 +89005,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-4-song-full"
         },
         {
@@ -82619,6 +89039,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-4-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Strange Meat Pie｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/6RV3pZrAzRHw04w1ATn5A8",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-4-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-03-02"
@@ -82795,6 +89245,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/2jPCxTsfInnSYsnfOc3cB7",
+          "label": "Spotify：原版片尾專輯第5曲 SECONDs FLY",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652181&country=hk",
+          "label": "Apple 香港曲目目錄：SECONDs FLY，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -83065,6 +89543,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "3SVcAGspsNs"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/2jPCxTsfInnSYsnfOc3cB7",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/2jPCxTsfInnSYsnfOc3cB7"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652181",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652181&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -83078,7 +89632,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第10、11話片尾。",
       "recordings": [
         {
@@ -83211,6 +89765,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "SECONDs FLY",
+              "position": 5,
+              "recordingId": "dorohedoro-ed-5-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "SECONDs FLY",
+              "position": 5,
+              "recordingId": "dorohedoro-ed-5-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -83222,7 +89816,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-5-song-full"
         },
         {
@@ -83256,6 +89850,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-5-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "SECONDs FLY｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/2jPCxTsfInnSYsnfOc3cB7",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-5-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-03-16"
@@ -83404,6 +90028,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（16-bit／44.1 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "label": "OTOTOY 日本版：TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」（24-bit／96 kHz）曲序、發行日期及音質",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/1bzSaIYDovpBxTEjKw24ae",
+          "label": "Spotify：原版片尾專輯第6曲 404",
+          "language": "multi",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1501652182&country=hk",
+          "label": "Apple 香港曲目目錄：404，附試聽並標示可串流。",
+          "language": "en",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -83663,6 +90315,82 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "fpZpNdOXQYU"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512394",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512394",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512394"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "ototoy-jp-512398",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/512398",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/512398"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/1bzSaIYDovpBxTEjKw24ae",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/1bzSaIYDovpBxTEjKw24ae"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1501652182",
+          "fields": [
+            "url",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1501652182&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -83676,7 +90404,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原播正篇第12話片尾。",
       "recordings": [
         {
@@ -83788,6 +90516,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO animation RECORDS"
+        },
+        {
+          "id": "ototoy-jp-512394",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "404",
+              "position": 6,
+              "recordingId": "dorohedoro-ed-6-song-full"
+            }
+          ]
+        },
+        {
+          "id": "ototoy-jp-512398",
+          "title": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」",
+          "type": "album",
+          "label": "TOHO animationRECORDS",
+          "edition": "OTOTOY 數位版（24-bit／96 kHz）",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "region": "JP",
+          "artistDisplayName": "(K)NoW_NAME",
+          "tracks": [
+            {
+              "title": "404",
+              "position": 6,
+              "recordingId": "dorohedoro-ed-6-song-full"
+            }
+          ]
         }
       ],
       "links": [
@@ -83799,7 +90567,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "region": "HK",
           "releaseId": "apple-hk-1501652175",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "dorohedoro-ed-6-song-full"
         },
         {
@@ -83822,6 +90590,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-16",
           "recordingId": "dorohedoro-ed-6-song-instrumental"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512394",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜16-bit／44.1 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512394",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/512398",
+          "platform": "OTOTOY",
+          "label": "TVアニメ「ドロヘドロ」EDテーマソングアルバム「混沌の中で踊れ」｜24-bit／96 kHz",
+          "linkType": "direct_album",
+          "releaseId": "ototoy-jp-512398",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "404｜《混沌の中で踊れ》",
+          "url": "https://open.spotify.com/track/1bzSaIYDovpBxTEjKw24ae",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "dorohedoro-ed-6-song-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-03-25"
@@ -102218,7 +109016,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112033-6fZM2YTJCtq0.jpg",
     editorialWeekday: 5,
-    broadcastLabel: "日本網絡首播／時間未整理",
+    broadcastLabel: "日本網絡先行。BS11 在《ZENONZARD BReAK》節目內播映動畫，第 1、2、3 話分別排於 2020/2/2、3/1、3/29。其餘話及電視剪輯用曲待核。",
     status: "finished",
     officialSiteUrl: "https://www.aicarddass.com/zenonzard/anime/",
     anilistUrl: "https://anilist.co/anime/112033",
@@ -102226,7 +109024,25 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     imageSourceLabel: "AniList 公開媒體頁",
     wikipediaUrl:
       "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    metadataSources: [
+      {
+        "url": "https://www.bs11.jp/anime/zenonzard/",
+        "label": "BS11 節目內容明列播出動畫",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5411/time",
+        "label": "同期節目表與 BS11 播出日期",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
     sourceReferenceUrls: [
+      "https://www.bs11.jp/anime/zenonzard/",
+      "https://cal.syoboi.jp/tid/5411/time",
       "https://youranimes.tw/animes/65",
       "https://annict.com/works/7329",
     ],
@@ -107806,7 +114622,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109586-kCEXqdiTMX0j.png",
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109586-z7tyqlHZDZ0o.jpg",
     "editorialWeekday": 4,
-    "broadcastLabel": "Netflix於2020/2/6一次上架全12話。日本AT-X於2020/11/27–2021/2/19首播，通常週五20:00 JST，第1話19:55播出。",
+    "broadcastLabel": "Netflix 於 2020/2/6 一次上架全 12 話。日本電視首播為 AT-X，第 1–5 話於 2020/11/27–12/25 播出，第 6–12 話於 2021/1/8–2/19 播出。通常週五 20:00 JST，第 1 話為 19:55。",
     "status": "finished",
     "officialSiteUrl": "https://www.cagaster.com/",
     "anilistUrl": "https://anilist.co/anime/109586",
@@ -107836,10 +114652,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://hilcrhyme.com/music/321756",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "Hilcrhyme 官方數位單曲與詞曲編曲署名",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://anime-song-info.com/cagaster-op-ed-202001-winter/",
@@ -107889,6 +114705,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000285.000016935.html",
+            "label": "德間書店日本電視首播公告、片頭及片尾主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.at-x.com/program/detail/12434",
+            "label": "AT-X 作品頁及全 12 話集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5818/time",
+            "label": "AT-X 逐話首播日期及時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/cc32a81efc9341a98c12",
+            "label": "AWA 日本《Be ZERO》單曲曲目及曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1527198308",
+            "label": "Apple Music 香港區曲目與版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1527198119",
+            "label": "Apple Music 香港區專輯與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://hilcrhyme.com/20th_history",
+            "label": "Hilcrhyme 官方專輯年表及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -107902,6 +114767,25 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "mushikago-no-cagaster-op-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "Be ZERO｜Be ZERO｜AWA 日本",
+            "url": "https://s.awa.fm/track/cc32a81efc9341a98c12",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Be Zero｜THE MC｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1527198308",
+            "linkType": "direct_track",
+            "region": "HK",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1527198119"
           }
         ],
         "evidence": [
@@ -108016,6 +114900,58 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "H_nPS_fB_so"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000285.000016935.html",
+              "https://hilcrhyme.com/music/321756",
+              "https://www.at-x.com/program/detail/12434",
+              "https://cal.syoboi.jp/tid/5818/time"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mushikago-no-cagaster-op-1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/cc32a81efc9341a98c12"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://s.awa.fm/track/cc32a81efc9341a98c12"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1527198119",
+              "https://music.apple.com/hk/song/1527198308",
+              "https://hilcrhyme.com/20th_history"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1527198119"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1527198308"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1527198308"
           }
         ],
         "sourceMode": "explicit",
@@ -108051,10 +114987,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           }
         ],
         "seasonIds": [
-          "2020-winter"
+          "2020-winter",
+          "2020-fall",
+          "2021-winter"
         ],
-        "usageLabel": "Netflix日本原配信版常規片頭。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "Netflix 日本原配信及 AT-X 日本電視首播公告的片頭主題曲。AT-X 的逐話使用情況待核。",
+        "lastVerifiedAt": "2026-11-19",
         "releaseDate": "2020-02-06",
         "recordings": [
           {
@@ -108084,18 +115022,37 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "label": "UNIVERSAL CONNECT / UNIVERSAL MUSIC ARTISTS"
+          },
+          {
+            "id": "apple-hk-1527198119",
+            "title": "THE MC",
+            "type": "album",
+            "date": {
+              "value": "2020-09-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Be Zero",
+                "disc": 1,
+                "position": 1
+              }
+            ]
           }
         ],
         "followUp": [
           {
             "fields": [
-              "use_quarters",
+              "basic_evidence",
               "recording_format",
               "platform_availability"
             ],
-            "note": "已核Netflix原配信及2020年商業單曲。AT-X有2020秋及2021冬節目紀錄，電視剪輯及逐話片頭片尾須另核。",
-            "resumeWhen": "取得AT-X原播或權利方逐話曲表；第4話特殊片尾及其他黑石ひとみ曲目待正篇署名可辨識後處理。",
-            "checkedAt": "2026-11-16"
+            "note": "已核電視首播節目、常規主題曲與正版曲目。逐話實播位置、電視剪輯及訂閱播放條件仍待核。",
+            "resumeWhen": "取得可辨識 AT-X 首播版的片頭掛字或權利方逐話曲表，逐話確認有無省略或剪輯。",
+            "checkedAt": "2026-11-19"
           }
         ]
       },
@@ -108116,10 +115073,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://hilcrhyme.com/music/321756",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "Hilcrhyme 官方數位單曲與詞曲編曲署名，音樂製作為 3rd Productions",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://anime-song-info.com/cagaster-op-ed-202001-winter/",
@@ -108148,6 +115105,97 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000285.000016935.html",
+            "label": "德間書店日本電視首播公告、片頭及片尾主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.at-x.com/program/detail/12434",
+            "label": "AT-X 作品頁及全 12 話集數",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5818/time",
+            "label": "AT-X 逐話首播日期及時段",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/0d47e99369a707691d13",
+            "label": "AWA 日本《Be ZERO》單曲曲目及曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1540304592",
+            "label": "Apple Music 香港區曲目與版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1540303934",
+            "label": "Apple Music 香港區專輯與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://hilcrhyme.com/music/331175",
+            "label": "Hilcrhyme 官方重製精選輯曲目及曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1447348631",
+            "label": "Apple Music 香港區曲目與版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1447348317",
+            "label": "Apple Music 香港區專輯與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/hilcrhyme/products/poce-12104/",
+            "label": "日本環球唱片日比谷公演錄音、曲目與曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1570185814",
+            "label": "Apple Music 香港區曲目與版本",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1570185809",
+            "label": "Apple Music 香港區專輯與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.hilcrhyme.com/music/102180",
+            "label": "Hilcrhyme 官方 2011 年原單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -108161,6 +115209,47 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "mushikago-no-cagaster-ed-1-song-digital"
+          },
+          {
+            "platform": "AWA",
+            "label": "臆病な狼 2019｜Be ZERO｜AWA 日本",
+            "url": "https://s.awa.fm/track/0d47e99369a707691d13",
+            "linkType": "direct_track",
+            "region": "JP",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Okubyouna Ookami (2019)｜Star - Remake Best 3｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1540304592",
+            "linkType": "direct_track",
+            "region": "HK",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1540303934"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Okubyouna Ookami (Live)｜Hilcrhyme Live 2018 \"One Man\" (Live)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1447348631",
+            "linkType": "direct_track",
+            "region": "HK",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1447348317",
+            "recordingId": "mushikago-no-cagaster-ed-1-song-one-man-2018-live"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Okubyou Na Ohkami｜Okubyou Na Ookami - Single｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1570185814",
+            "linkType": "direct_track",
+            "region": "HK",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19",
+            "releaseId": "apple-hk-1570185809",
+            "recordingId": "mushikago-no-cagaster-ed-1-song-2011-single"
           }
         ],
         "evidence": [
@@ -108251,6 +115340,138 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-1496070145"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000285.000016935.html",
+              "https://hilcrhyme.com/music/321756",
+              "https://www.at-x.com/program/detail/12434",
+              "https://cal.syoboi.jp/tid/5818/time"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mushikago-no-cagaster-ed-1"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/0d47e99369a707691d13"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://s.awa.fm/track/0d47e99369a707691d13"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1540303934",
+              "https://music.apple.com/hk/song/1540304592",
+              "https://hilcrhyme.com/music/331175"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1540303934"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1540304592"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1540304592"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/hilcrhyme/products/poce-12104/",
+              "https://music.apple.com/hk/song/1447348631"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mushikago-no-cagaster-ed-1-song-one-man-2018-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1447348317",
+              "https://music.apple.com/hk/song/1447348631",
+              "https://www.universal-music.co.jp/hilcrhyme/products/poce-12104/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1447348317"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1447348631"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1447348631"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.hilcrhyme.com/music/102180",
+              "https://music.apple.com/hk/song/1570185814"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mushikago-no-cagaster-ed-1-song-2011-single"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1570185809",
+              "https://music.apple.com/hk/song/1570185814",
+              "https://www.hilcrhyme.com/music/102180"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1570185809"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1570185814"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1570185814"
           }
         ],
         "sourceMode": "explicit",
@@ -108278,15 +115499,29 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           }
         ],
         "seasonIds": [
-          "2020-winter"
+          "2020-winter",
+          "2020-fall",
+          "2021-winter"
         ],
-        "usageLabel": "Netflix日本原配信版常規片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "Netflix 日本原配信及 AT-X 日本電視首播公告的片尾主題曲。AT-X 的逐話使用情況待核。",
+        "lastVerifiedAt": "2026-11-19",
         "releaseDate": "2020-02-06",
         "recordings": [
           {
             "id": "mushikago-no-cagaster-ed-1-song-digital",
             "title": "臆病な狼 2019",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "mushikago-no-cagaster-ed-1-song-one-man-2018-live",
+            "title": "臆病な狼（2018 日比谷現場版）",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "mushikago-no-cagaster-ed-1-song-2011-single",
+            "title": "臆病な狼（2011 年單曲）",
             "kind": "vocal",
             "format": "unknown"
           }
@@ -108311,24 +115546,83 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "label": "UNIVERSAL CONNECT / UNIVERSAL MUSIC ARTISTS"
+          },
+          {
+            "id": "apple-hk-1540303934",
+            "title": "Star - Remake Best 3",
+            "type": "compilation",
+            "date": {
+              "value": "2020-12-02",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Okubyouna Ookami (2019)",
+                "disc": 1,
+                "position": 8
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1447348317",
+            "title": "Hilcrhyme Live 2018 \"One Man\" (Live)",
+            "type": "album",
+            "date": {
+              "value": "2019-01-09",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Okubyouna Ookami (Live)",
+                "disc": 2,
+                "position": 6,
+                "recordingId": "mushikago-no-cagaster-ed-1-song-one-man-2018-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1570185809",
+            "title": "Okubyou Na Ookami - Single",
+            "type": "single",
+            "date": {
+              "value": "2011-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Okubyou Na Ohkami",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "mushikago-no-cagaster-ed-1-song-2011-single"
+              }
+            ]
           }
         ],
         "followUp": [
           {
             "fields": [
-              "use_quarters",
+              "basic_evidence",
               "recording_format",
               "platform_availability"
             ],
-            "note": "已核Netflix原配信及2020年商業單曲。AT-X有2020秋及2021冬節目紀錄，電視剪輯及逐話片頭片尾須另核。",
-            "resumeWhen": "取得AT-X原播或權利方逐話曲表；第4話特殊片尾及其他黑石ひとみ曲目待正篇署名可辨識後處理。",
-            "checkedAt": "2026-11-16"
+            "note": "已核電視首播節目、常規主題曲與正版曲目。逐話實播位置、電視剪輯及訂閱播放條件仍待核。",
+            "resumeWhen": "取得 AT-X 第 4 話（2020/12/18）及第 12 話（2021/2/19）尾段掛字或權利方逐話曲表，再核對第 1–3、5–11 話及原配信版的差異。",
+            "checkedAt": "2026-11-19"
           }
         ]
       }
     ],
     "verifiedAt": "2026-09-02",
-    "metadataVerifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-19",
     "metadataSources": [
       {
         "url": "https://www.cagaster.com/",
@@ -108349,21 +115643,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "label": "原作出版社公告首次電視播出與首話例外",
         "role": "first_party",
         "language": "ja",
-        "verifiedAt": "2026-11-16"
+        "verifiedAt": "2026-11-19"
       },
       {
         "url": "https://www.at-x.com/program/detail/12434",
         "label": "日本電視台正式作品頁",
         "role": "first_party",
         "language": "ja",
-        "verifiedAt": "2026-11-16"
+        "verifiedAt": "2026-11-19"
       },
       {
         "url": "https://cal.syoboi.jp/tid/5818/time",
         "label": "電視逐話及末話日期交叉核對",
         "role": "broadcast_cross_check",
         "language": "ja",
-        "verifiedAt": "2026-11-16"
+        "verifiedAt": "2026-11-19"
       }
     ]
   },
@@ -108466,7 +115760,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
@@ -108600,6 +115894,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/552151",
+          "label": "OTOTOY 數位專輯的位元深度、取樣率及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/552152",
+          "label": "OTOTOY 數位專輯的位元深度、取樣率及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY",
+          "label": "Spotify 專輯曲目與版本標示",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zn-ixEGR9Mg",
+          "label": "NexTone 提供的專輯 Art Track，依 YouTube 發行簡介及頻道核對。",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/2yXyah7PkDOvcEvSIrw8T1",
+          "label": "Spotify 專輯曲目與版本標示",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VfLo6YI_VY4",
+          "label": "NexTone 提供的專輯 Art Track，依 YouTube 發行簡介及頻道核對。",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1502661924&country=hk",
+          "label": "Apple 香港曲目目錄：先行單曲未標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1514612264&country=hk",
+          "label": "Apple 香港曲目目錄：專輯曲目標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1514612274&country=hk",
+          "label": "Apple 香港曲目目錄：專輯曲目標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -108869,6 +116226,114 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "3Okzra8Anr4"
+        },
+        {
+          "target": "release",
+          "targetId": "bna-ototoy-552151",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552151",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/552151",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552151"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "bna-ototoy-552152",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552152",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/552152",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552152"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "zn-ixEGR9Mg",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=zn-ixEGR9Mg",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/2yXyah7PkDOvcEvSIrw8T1",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/2yXyah7PkDOvcEvSIrw8T1",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "VfLo6YI_VY4",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VfLo6YI_VY4",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -108880,9 +116345,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "兩種日本首播媒介均有片頭用途記錄；原播剪輯與各出版音源的母帶對應待核。",
           "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "香港 Apple Music 專輯歌唱版及伴奏版在平台目錄標示可串流；先行單曲另有試聽。OTOTOY 的兩種音質版共用歌曲及錄音。",
+          "resumeWhen": "待可核實的香港訂閱完整播放，以及另行標明 TV size 的發行曲目或音源資料。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–11話日本原期片頭。Netflix 日本3/21先行第1–6話、5/6先行第7–11話；富士電視台原期於春季播出。第12話本曲改作插曲。",
       "recordings": [
         {
@@ -108930,6 +116404,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1514612263",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Complete album｜24-bit／48 kHz",
+          "url": "https://ototoy.jp/_/default/p/552151",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "bna-ototoy-552151",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Complete album｜16-bit／44.1 kHz",
+          "url": "https://ototoy.jp/_/default/p/552152",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "bna-ototoy-552152",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Ready to｜Complete album",
+          "url": "https://open.spotify.com/track/3eltl3hwhMakKmc2K7flgY",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "bna-op-1-song-original-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Ready to (Instrumental)｜Complete album",
+          "url": "https://open.spotify.com/track/2yXyah7PkDOvcEvSIrw8T1",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "bna-op-1-song-album-instrumental",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releases": [
@@ -109006,6 +116520,54 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO CO., LTD."
+        },
+        {
+          "id": "bna-ototoy-552151",
+          "title": "アニメ『BNA ビー・エヌ・エー』Complete album",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 數位版（24-bit／48 kHz）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ready to",
+              "position": 1,
+              "recordingId": "bna-op-1-song-original-full"
+            },
+            {
+              "title": "Ready to(Instrumental)",
+              "position": 5,
+              "recordingId": "bna-op-1-song-album-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "bna-ototoy-552152",
+          "title": "アニメ『BNA ビー・エヌ・エー』Complete album",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ready to",
+              "position": 1,
+              "recordingId": "bna-op-1-song-original-full"
+            },
+            {
+              "title": "Ready to(Instrumental)",
+              "position": 5,
+              "recordingId": "bna-op-1-song-album-instrumental"
+            }
+          ]
         }
       ]
     },
@@ -109027,7 +116589,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "label": "公開資料：OP／ED 用途、版本與演唱者交叉核對",
@@ -109154,6 +116716,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/552151",
+          "label": "OTOTOY 數位專輯的位元深度、取樣率及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/552152",
+          "label": "OTOTOY 數位專輯的位元深度、取樣率及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo",
+          "label": "Spotify 專輯曲目與版本標示",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3T3ofoKfEoY",
+          "label": "NexTone 提供的專輯 Art Track，依 YouTube 發行簡介及頻道核對。",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/5xprP0PTw9WTrLPBL1W9yv",
+          "label": "Spotify 專輯曲目與版本標示",
+          "role": "first_party",
+          "language": "multi",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=T9yQd56vfy4",
+          "label": "NexTone 提供的專輯 Art Track，依 YouTube 發行簡介及頻道核對。",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1503458799&country=hk",
+          "label": "Apple 香港曲目目錄：先行單曲未標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1514612266&country=hk",
+          "label": "Apple 香港曲目目錄：專輯曲目標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1514612275&country=hk",
+          "label": "Apple 香港曲目目錄：專輯曲目標示可串流，網頁有試聽。",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -109400,6 +117025,114 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "WWTFfEnMCCc"
+        },
+        {
+          "target": "release",
+          "targetId": "bna-ototoy-552151",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552151",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/552151",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552151"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "bna-ototoy-552152",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552152",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/552152",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/552152"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "3T3ofoKfEoY",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=3T3ofoKfEoY",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://open.spotify.com/track/5xprP0PTw9WTrLPBL1W9yv",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/5xprP0PTw9WTrLPBL1W9yv",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "T9yQd56vfy4",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=T9yQd56vfy4",
+            "https://bna-anime.com/music/"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -109411,9 +117144,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "note": "例行片尾剪輯及第11話片尾畫面與發行音源的關係待核。第11話另有日渡なずな演唱版。",
           "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "香港 Apple Music 專輯歌唱版及伴奏版在平台目錄標示可串流；先行單曲另有試聽。OTOTOY 的兩種音質版共用歌曲及錄音。",
+          "resumeWhen": "待可核實的香港訂閱完整播放，以及另行標明 TV size 的發行曲目或音源資料。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–11話日本原期片尾。Netflix 日本3/21先行第1–6話、5/6先行第7–11話；富士電視台原期於春季播出。第12話無例行片尾曲。",
       "recordings": [
         {
@@ -109461,6 +117203,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-hk-1514612263",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Complete album｜24-bit／48 kHz",
+          "url": "https://ototoy.jp/_/default/p/552151",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "bna-ototoy-552151",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "Complete album｜16-bit／44.1 kHz",
+          "url": "https://ototoy.jp/_/default/p/552152",
+          "linkType": "direct_album",
+          "region": "JP",
+          "releaseId": "bna-ototoy-552152",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "NIGHT RUNNING｜Complete album",
+          "url": "https://open.spotify.com/track/54BW4qpq5ms4bnzBgiWVOo",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "bna-ed-1-song-original-full",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Spotify",
+          "label": "NIGHT RUNNING (Instrumental)｜Complete album",
+          "url": "https://open.spotify.com/track/5xprP0PTw9WTrLPBL1W9yv",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "recordingId": "bna-ed-1-song-album-instrumental",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releases": [
@@ -109537,6 +117319,54 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "TOHO CO., LTD."
+        },
+        {
+          "id": "bna-ototoy-552151",
+          "title": "アニメ『BNA ビー・エヌ・エー』Complete album",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 數位版（24-bit／48 kHz）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NIGHT RUNNING",
+              "position": 2,
+              "recordingId": "bna-ed-1-song-original-full"
+            },
+            {
+              "title": "NIGHT RUNNING(Instrumental)",
+              "position": 6,
+              "recordingId": "bna-ed-1-song-album-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "bna-ototoy-552152",
+          "title": "アニメ『BNA ビー・エヌ・エー』Complete album",
+          "type": "soundtrack",
+          "date": {
+            "value": "2020-06-24",
+            "precision": "day"
+          },
+          "artistDisplayName": "Various Artists",
+          "edition": "OTOTOY 數位版（16-bit／44.1 kHz）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "NIGHT RUNNING",
+              "position": 2,
+              "recordingId": "bna-ed-1-song-original-full"
+            },
+            {
+              "title": "NIGHT RUNNING(Instrumental)",
+              "position": 6,
+              "recordingId": "bna-ed-1-song-album-instrumental"
+            }
+          ]
         }
       ]
     },
@@ -111462,6 +119292,55 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.glimspanky.com/?p=12917",
+          "label": "GLIM SPANKY 公布原版單曲作詞、作編曲及錄音樂手",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7Ez8esnP31U",
+          "label": "Universal Music 供稿的單曲音軌及錄音人員",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/news/2024-03-06/",
+          "label": "Universal Music 公布巡演影音版別、附贈現場 CD 的日期與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://kamishiraishimone.com/contents/729277",
+          "label": "上白石萌音官網公示巡演作品附贈 CD 曲目及版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://s.awa.fm/track/3a84a6c8c0cc3913a863",
+          "label": "AWA 公開曲目與所屬發行品",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1498547197&country=hk",
+          "label": "Apple 香港曲目資料、曲長與試聽標記",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1526409075&country=hk",
+          "label": "Apple 香港曲目資料、曲長與試聽標記",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -111756,6 +119635,110 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "VoNZeFRDT3o"
+        },
+        {
+          "target": "recording",
+          "targetId": "7seeds-2-op-1-song-single-vocal",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.glimspanky.com/?p=12917",
+            "https://www.youtube.com/watch?v=7Ez8esnP31U"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "7Ez8esnP31U",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=7Ez8esnP31U"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "7seeds-from-the-seeds-yattokosa-20231125",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/news/2024-03-06/",
+            "https://kamishiraishimone.com/contents/729277"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "proj-4905",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/news/2024-03-06/",
+            "https://kamishiraishimone.com/contents/729277"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "proj-3904",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "catalog_number",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/news/2024-03-06/",
+            "https://kamishiraishimone.com/contents/729277"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://s.awa.fm/track/3a84a6c8c0cc3913a863",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/3a84a6c8c0cc3913a863"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1498547197",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1498547197&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1526409075",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1526409075&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -111769,37 +119752,71 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "links": [
         {
           "platform": "Apple Music",
-          "label": "From The Seeds｜Apple Music HK",
+          "label": "From The Seeds｜數位單曲・3:28｜Apple Music HK",
           "url": "https://music.apple.com/hk/song/1498547197",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1498546978",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "7seeds-2-op-1-song-single-vocal"
         },
         {
           "platform": "Apple Music",
-          "label": "From The Seeds｜Apple Music HK",
+          "label": "From The Seeds｜《note》第4曲・3:33｜Apple Music HK",
           "url": "https://music.apple.com/hk/song/1526409075",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1526408729",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "AWA",
+          "label": "From The Seeds｜AWA",
+          "url": "https://s.awa.fm/track/3a84a6c8c0cc3913a863",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "7seeds-2-op-1-song-single-vocal"
         }
       ],
-      "usageLabel": "Netflix原版第13–24話期間的片頭曲，2021年TOKYO MX播出版沿用本期片頭曲。",
+      "usageLabel": "Netflix 原版第13–24話片頭曲。日本電視第二期播出範圍為第13–24話，TOKYO MX 播出版列為片頭曲。",
       "releaseDate": "2020-02-25",
       "recordings": [
         {
           "id": "7seeds-2-op-1-song-single-vocal",
           "title": "From The Seeds",
           "kind": "vocal",
+          "format": "unknown",
+          "credits": [
+            {
+              "name": "亀本寛貴（ギター）",
+              "role": "other"
+            },
+            {
+              "name": "三浦淳悟（ベース）",
+              "role": "other"
+            },
+            {
+              "name": "かどしゅんたろう（ドラム）",
+              "role": "other"
+            },
+            {
+              "name": "松尾レミ（コーラス）",
+              "role": "vocals"
+            }
+          ]
+        },
+        {
+          "id": "7seeds-from-the-seeds-yattokosa-20231125",
+          "title": "From The Seeds（2023年11月25日・東京国際フォーラム ホールA）",
+          "kind": "live",
           "format": "unknown"
         }
       ],
@@ -111886,6 +119903,46 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "label": "Universal J",
           "catalogNumber": "UPCH-7565"
+        },
+        {
+          "id": "proj-4905",
+          "title": "Mone Kamishiraishi 『yattokosa』Tour 2023",
+          "type": "album",
+          "date": {
+            "value": "2024-04-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "FC 限定 Blu-ray＋現場 CD",
+          "region": "JP",
+          "catalogNumber": "PROJ-4905",
+          "tracks": [
+            {
+              "title": "From the seeds",
+              "position": 4,
+              "recordingId": "7seeds-from-the-seeds-yattokosa-20231125"
+            }
+          ]
+        },
+        {
+          "id": "proj-3904",
+          "title": "Mone Kamishiraishi 『yattokosa』Tour 2023",
+          "type": "album",
+          "date": {
+            "value": "2024-04-17",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "FC 限定 DVD＋現場 CD",
+          "region": "JP",
+          "catalogNumber": "PROJ-3904",
+          "tracks": [
+            {
+              "title": "From the seeds",
+              "position": 4,
+              "recordingId": "7seeds-from-the-seeds-yattokosa-20231125"
+            }
+          ]
         }
       ]
     },
@@ -111963,7 +120020,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1604023685",
@@ -112020,6 +120077,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://s.awa.fm/track/b5da9417a374c8171e70",
+          "label": "AWA 公開曲目與所屬發行品",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1489899109&country=hk",
+          "label": "Apple 香港曲目資料、曲長與試聽標記",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -112240,6 +120311,29 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "XpYFmO5RT5k"
+        },
+        {
+          "target": "link",
+          "targetId": "https://s.awa.fm/track/b5da9417a374c8171e70",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://s.awa.fm/track/b5da9417a374c8171e70"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1489899109",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1489899109&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -112248,26 +120342,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "recordings",
             "platform_availability"
           ],
-          "note": "改版公告明示更換片尾映像。日本TV逐話畫面、實播剪輯及Netflix目前採用的映像待核。",
-          "resumeWhen": "待權利方或可比對片段確認正片剪輯、不同載體母帶與香港完整播放。",
-          "checkedAt": "2026-11-16"
+          "note": "製作公司公告的變更項目是片尾映像。日本電視逐話實播片尾、音源剪輯及目前串流版畫面仍待核。",
+          "resumeWhen": "取得 TOKYO MX 或 BSフジ有播出日期的逐話片尾掛字，以及可對照的授權串流片尾時分別核實。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "links": [
         {
           "platform": "Apple Music",
-          "label": "シンクロ｜Apple Music HK",
+          "label": "シンクロ｜《SODA POP FANCLUB 3》第5曲・4:11｜Apple Music HK",
           "url": "https://music.apple.com/hk/song/1489899109",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1489899101",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "7seeds-2-ed-1-song-album-vocal"
+        },
+        {
+          "platform": "AWA",
+          "label": "シンクロ｜AWA",
+          "url": "https://s.awa.fm/track/b5da9417a374c8171e70",
+          "linkType": "direct_track",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
           "recordingId": "7seeds-2-ed-1-song-album-vocal"
         }
       ],
-      "usageLabel": "Netflix原版第13–23話片尾。2021年TOKYO MX播出版的常規片尾曲。製作方於2021-01-04公布重製第二季片尾映像。",
+      "usageLabel": "Netflix 原版第13–23話片尾曲，亦為日本電視第二期常規片尾曲。製作公司於2021年1月4日公告更換本期全部片尾映像。",
       "releaseDate": "2020-01-15",
       "recordings": [
         {
@@ -112398,7 +120502,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "有限会社クリーク提供的官方原聲帶第39曲與歌唱署名",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://creekltd.com/category/artist/michiru/",
@@ -112441,6 +120545,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1581374515&country=hk",
+          "label": "Apple 香港曲目資料、曲長與試聽標記",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -112575,6 +120686,43 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "apple-hk-1581373117"
+        },
+        {
+          "target": "release",
+          "targetId": "7seeds-ototoy-905573",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://ototoy.jp/_/default/p/905573",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1581374515",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1581374515&country=hk"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -112586,25 +120734,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "platform_availability"
           ],
           "note": "原聲帶供稿用lovinyuu歌唱名義，平台另與未知瑠共同列名。商業版約1分53秒。日本冬季報導亦列為ED2。TOKYO MX及BSフジ第24話實際掛字、原聲帶實體曲序及編曲署名仍待核實。",
-          "resumeWhen": "待合法版本第24話片尾掛字、原聲帶附冊或權利方逐曲署名，並核香港完整播放。",
-          "checkedAt": "2026-11-16"
+          "resumeWhen": "取得 TOKYO MX 或 BSフジ第24話完整片尾掛字或權利方逐話曲表，分台確認終話用曲；取得實體原聲帶附冊後核曲序與編曲。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "links": [
         {
           "platform": "Apple Music",
-          "label": "生きてゆく｜Apple Music HK",
+          "label": "生きてゆく｜原聲帶第39曲・1:53｜Apple Music HK",
           "url": "https://music.apple.com/hk/song/1581374515",
           "linkType": "direct_track",
           "region": "HK",
           "releaseId": "apple-hk-1581373117",
           "availability": "unknown",
-          "verifiedAt": "2026-11-16",
+          "verifiedAt": "2026-11-19",
           "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+        },
+        {
+          "platform": "OTOTOY",
+          "label": "原聲帶第39曲〈生きてゆく〉｜OTOTOY",
+          "url": "https://ototoy.jp/_/default/p/905573",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal",
+          "releaseId": "7seeds-ototoy-905573"
         }
       ],
-      "usageLabel": "Netflix原版第24話（第二季第12話）特別片尾。日本地上波終話片尾待逐版核實。",
+      "usageLabel": "Netflix 原版第24話（第二期第12話）特別片尾。TOKYO MX 與 BSフジ第24話的實播用曲待核。",
       "releaseDate": "2021-01-27",
       "recordings": [
         {
@@ -112635,12 +120794,32 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "有限会社クリーク"
+        },
+        {
+          "id": "7seeds-ototoy-905573",
+          "title": "アニメ「7SEEDS」オリジナル・サウンドトラック",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "OTOTOY 無損下載版（16 bit／44.1 kHz）",
+          "region": "JP",
+          "label": "有限会社クリーク",
+          "tracks": [
+            {
+              "title": "生きてゆく",
+              "position": 39,
+              "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+            }
+          ]
         }
       ]
     }
   ],
   "verifiedAt": "2026-09-02",
-  "metadataVerifiedAt": "2026-11-16",
+  "metadataVerifiedAt": "2026-11-19",
   "metadataSources": [
     {
       "url": "https://7seeds.jp/onair/",
@@ -112668,7 +120847,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "原作出版社確認TOKYO MX播出第13–24話及BSフジ次輪",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-11-16"
+      "verifiedAt": "2026-11-19"
     },
     {
       "url": "https://7seeds.jp/news/39.php",
@@ -112718,6 +120897,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "first_party",
       "language": "zh-Hant",
       "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5899",
+      "label": "しょぼいカレンダー第2期電視各台播出記錄",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
     }
   ],
   "broadcastTimeJst": "22:30"
@@ -116901,10 +125087,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.mau2.com/anime/kirattopurichan-2",
@@ -116926,6 +125112,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/31a8ca24c124638caa11",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -116938,6 +125138,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "releaseId": "apple-jp-1517951914",
             "availability": "unknown",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/31a8ca24c124638caa11",
+            "label": "じゃんけんキラッと！プリ☆チャン｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -117050,6 +125259,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/31a8ca24c124638caa11",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/31a8ca24c124638caa11"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -117058,7 +125278,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播第52–77話片尾（2019/4/7–9/29，春、夏季）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "宮嶋淳子",
@@ -117223,10 +125443,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.mau2.com/anime/kirattopurichan-2",
@@ -117248,6 +125468,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/cc32ae15fd9245a98c12",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -117260,6 +125494,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "releaseId": "apple-jp-1517951914",
             "availability": "unknown",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/cc32ae15fd9245a98c12",
+            "label": "Brand New Girls｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -117376,6 +125619,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/cc32ae15fd9245a98c12",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/cc32ae15fd9245a98c12"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -117384,7 +125638,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播第78–88、90–99、101–102話片尾。第89及100話省略常規片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "栗原暁（Jazzin’park）",
@@ -117534,10 +125788,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -117657,6 +125911,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/22cacd926310dfe69595",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -117691,6 +125959,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/22cacd926310dfe69595",
+            "label": "TOKIMEKIハート・ジュエル♪｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -117895,6 +126172,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1487532846"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/22cacd926310dfe69595",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/22cacd926310dfe69595"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -117904,7 +126192,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第52、54、64、70、99話；短摘或回想第74話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "真崎エリカ",
@@ -118107,10 +126395,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -118223,6 +126511,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/7f1db5a4050bd6f7de96",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -118257,6 +126559,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/7f1db5a4050bd6f7de96",
+            "label": "シアワ星かわいい賛歌｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -118461,6 +126772,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1485848472"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/7f1db5a4050bd6f7de96",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/7f1db5a4050bd6f7de96"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -118470,7 +126792,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第53、56、57、67、70、98話；短摘或回想第54、58話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "児玉雨子",
@@ -118673,17 +126995,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 音樂合輯曲序及演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016091",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 角色單曲與伴奏曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -118733,9 +127055,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/4555079/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/424382/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/4555083/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/5037924/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/486901/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/4555079/",
+            "label": "SUPER CUTIE SUPER GIRL｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-424382",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-vocal"
+          },
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/4555083/",
+            "label": "SUPER CUTIE SUPER GIRL (inst.)｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-424382",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-inst"
+          },
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/5037924/",
+            "label": "SUPER CUTIE SUPER GIRL｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-486901",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -118775,6 +127165,94 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "kiratto-prichan-season-2-in-3"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/music/4555079/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-424382",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/album/424382/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/4555079/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/4555079/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-inst",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/music/4555083/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/4555083/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/4555083/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-486901",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/album/486901/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/5037924/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/5037924/"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -118783,7 +127261,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第55、60話；短摘或回想第76話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -118795,6 +127273,62 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
             "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-vocal",
+            "title": "SUPER CUTIE SUPER GIRL",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）"
+              }
+            ]
+          },
+          {
+            "id": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-inst",
+            "title": "SUPER CUTIE SUPER GIRL (inst.)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mu-mo-424382",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～2ndチャンネル～",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SUPER CUTIE SUPER GIRL",
+                "position": 2,
+                "recordingId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-vocal"
+              },
+              {
+                "title": "SUPER CUTIE SUPER GIRL (inst.)",
+                "position": 6,
+                "recordingId": "kiratto-prichan-super-cutie-super-girl-song-2nd-channel-inst"
+              }
+            ]
+          },
+          {
+            "id": "mu-mo-486901",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "SUPER CUTIE SUPER GIRL",
+                "position": 5
+              }
+            ]
           }
         ]
       },
@@ -118808,10 +127342,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -118924,6 +127458,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/21c07d1843373bbe6097",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -118958,6 +127506,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/21c07d1843373bbe6097",
+            "label": "夢色エナジー｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -119160,6 +127717,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1487532846"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/21c07d1843373bbe6097",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/21c07d1843373bbe6097"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -119170,7 +127738,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第58、59、70、83、97話；短摘或回想第74話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "hanai",
@@ -119373,10 +127941,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 音樂合輯曲序及演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -119426,9 +127994,35 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/5037928/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/486901/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/5037928/",
+            "label": "寝ても覚めてもDREAMIN' GIRL｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-486901",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -119466,6 +128060,45 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "kiratto-prichan-season-2-in-5"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/music/5037928/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-486901",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/album/486901/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/5037928/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/5037928/"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -119474,7 +128107,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第61、62話；短摘或回想第77話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -119486,6 +128119,37 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
             "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-5-song-music-collection-vocal",
+            "title": "寝ても覚めてもDREAMIN' GIRL",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "Meltic StAr（芹澤優、若井友希、森嶋優花）"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mu-mo-486901",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "寝ても覚めてもDREAMIN' GIRL",
+                "position": 9,
+                "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+              }
+            ]
           }
         ]
       },
@@ -119499,10 +128163,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -119608,6 +128272,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/b3f7fbaae73625099498",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -119642,6 +128320,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/b3f7fbaae73625099498",
+            "label": "スペース！スパイス！スペクタクル！｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -119844,6 +128531,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1489451726"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/b3f7fbaae73625099498",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/b3f7fbaae73625099498"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -119853,7 +128551,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第63、64、70、98話；短摘或回想第74話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "真崎エリカ",
@@ -120056,10 +128754,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -120179,6 +128877,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/9d1589aaef8bb96d3499",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -120213,6 +128925,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/9d1589aaef8bb96d3499",
+            "label": "キューティ・ブレイキン｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -120417,6 +129138,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1485848472"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/9d1589aaef8bb96d3499",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/9d1589aaef8bb96d3499"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -120426,7 +129158,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第65、67、70、82、85、98話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "児玉雨子",
@@ -120633,10 +129365,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 音樂合輯曲序及演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -120686,9 +129418,35 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/5037927/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/486901/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/5037927/",
+            "label": "乙女アテンションプリーズ｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-486901",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -120726,6 +129484,45 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "kiratto-prichan-season-2-in-8"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/music/5037927/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-486901",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/album/486901/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/5037927/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/5037927/"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -120734,7 +129531,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-fall"
         ],
         "usageLabel": "日本原播劇中演唱第66、69、79話；短摘或回想第76、77話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -120746,6 +129543,37 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
             "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-8-song-music-collection-vocal",
+            "title": "乙女アテンションプリーズ",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mu-mo-486901",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "乙女アテンションプリーズ",
+                "position": 6,
+                "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+              }
+            ]
           }
         ]
       },
@@ -120759,10 +129587,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -120875,6 +129703,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/beb421b546f2e1db2700",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -120909,6 +129751,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/beb421b546f2e1db2700",
+            "label": "インディビジュアル・ジュエル｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -121113,6 +129964,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1485848472"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/beb421b546f2e1db2700",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/beb421b546f2e1db2700"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -121122,7 +129984,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第68、69、72、77、94、102話；短摘或回想第74、90話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "児玉雨子",
@@ -121325,10 +130187,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -121441,6 +130303,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/a4b898b41fb806916a01",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -121475,6 +130351,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/a4b898b41fb806916a01",
+            "label": "えもめきピッカーン｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -121677,6 +130562,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1487532846"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/a4b898b41fb806916a01",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/a4b898b41fb806916a01"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -121686,7 +130582,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第71、72、75、87、97話；短摘或回想第85話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "児玉雨子",
@@ -121889,10 +130785,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -122005,6 +130901,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/deca9369b58d31faef02",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -122039,6 +130949,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/deca9369b58d31faef02",
+            "label": "My Secret heArtbeats｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -122243,6 +131162,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1489451726"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/deca9369b58d31faef02",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/deca9369b58d31faef02"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -122252,7 +131182,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第73、74、82、98話；短摘或回想第85話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "友希",
@@ -122459,17 +131389,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 音樂合輯曲序及演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1016091",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 角色單曲與伴奏曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -122526,9 +131456,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/4555081/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/424382/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/4555085/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/5037926/",
+            "label": "mu-mo 日本區正版下載曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/album/486901/",
+            "label": "mu-mo 日本區數位發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/4555081/",
+            "label": "フォーチュン・カラット｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-424382",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+          },
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/4555085/",
+            "label": "フォーチュン・カラット (inst.)｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-424382",
+            "verifiedAt": "2026-11-19",
+            "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-inst"
+          },
+          {
+            "platform": "mu-mo",
+            "url": "https://sp-m.mu-mo.net/music/5037926/",
+            "label": "フォーチュン・カラット｜mu-mo 日本（下載）",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "releaseId": "mu-mo-486901",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -122570,6 +131568,94 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "kiratto-prichan-season-2-in-12"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/music/4555081/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-424382",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/album/424382/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/4555081/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/4555081/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "kiratto-prichan-fortune-carat-song-2nd-channel-inst",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://sp-m.mu-mo.net/music/4555085/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/4555085/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/4555085/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "mu-mo-486901",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://sp-m.mu-mo.net/album/486901/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "targetId": "https://sp-m.mu-mo.net/music/5037926/",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://sp-m.mu-mo.net/music/5037926/"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -122579,7 +131665,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第79、80、82、99話；短摘或回想第76、90話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
@@ -122591,6 +131677,62 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
             "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal",
+            "title": "フォーチュン・カラット",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "白鳥アンジュ（三森すずこ）"
+              }
+            ]
+          },
+          {
+            "id": "kiratto-prichan-fortune-carat-song-2nd-channel-inst",
+            "title": "フォーチュン・カラット (inst.)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mu-mo-424382",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～2ndチャンネル～",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フォーチュン・カラット",
+                "position": 4,
+                "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+              },
+              {
+                "title": "フォーチュン・カラット (inst.)",
+                "position": 8,
+                "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-inst"
+              }
+            ]
+          },
+          {
+            "id": "mu-mo-486901",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "edition": "mu-mo 日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フォーチュン・カラット",
+                "position": 11
+              }
+            ]
           }
         ]
       },
@@ -122604,10 +131746,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -122734,6 +131876,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/17efbf51e7014fb71703",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -122768,6 +131924,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/17efbf51e7014fb71703",
+            "label": "フレンドパスワード｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -122974,6 +132139,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1485848472"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/17efbf51e7014fb71703",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/17efbf51e7014fb71703"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -122983,7 +132159,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第77、78、89、99話；短摘或回想第90話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "宮嶋淳子",
@@ -123186,10 +132362,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -123281,6 +132457,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/2a787aacf7ea6162f704",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -123315,6 +132505,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/2a787aacf7ea6162f704",
+            "label": "La La Meltic StAr｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -123513,6 +132712,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1489451726"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/2a787aacf7ea6162f704",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/2a787aacf7ea6162f704"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -123521,7 +132731,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第81、92話；短摘或回想第90話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "真崎エリカ",
@@ -123724,10 +132934,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -123826,6 +133036,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/229899edc88305d85405",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -123860,6 +133084,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/229899edc88305d85405",
+            "label": "ロケットハート｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -124058,6 +133291,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1487532846"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/229899edc88305d85405",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/229899edc88305d85405"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -124066,7 +133310,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第84、95話；短摘或回想第90話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "栗原暁",
@@ -124281,10 +133525,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -124376,6 +133620,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/99fd05da806228099e06",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -124410,6 +133668,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/99fd05da806228099e06",
+            "label": "ヒロインズドラマ｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -124608,6 +133875,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1489451726"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/99fd05da806228099e06",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/99fd05da806228099e06"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -124616,7 +133894,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第86、97話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "真崎エリカ",
@@ -124819,10 +134097,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -124879,6 +134157,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/1d0d0f44cbaaf20b5b07",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -124891,6 +134183,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "releaseId": "apple-jp-1517951914",
             "availability": "unknown",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/1d0d0f44cbaaf20b5b07",
+            "label": "ツヨキ！ツインテールズ｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -124994,6 +134295,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/1d0d0f44cbaaf20b5b07",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/1d0d0f44cbaaf20b5b07"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -125002,7 +134314,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第88、91話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "宮嶋淳子",
@@ -125266,10 +134578,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -125354,6 +134666,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/702950a2a92098f01008",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -125367,6 +134693,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-in-19-song-another-world"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/702950a2a92098f01008",
+            "label": "フレンドパスワード ～Another World～｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -125490,6 +134825,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/702950a2a92098f01008",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/702950a2a92098f01008"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -125497,7 +134843,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第93、94、95話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "宮嶋淳子",
@@ -125615,10 +134961,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy.co.jp/group_release/pdf/g230222.pdf",
@@ -125689,6 +135035,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/95fb4829e811e138ed09",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -125701,6 +135061,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "releaseId": "apple-jp-1517951914",
             "availability": "unknown",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/95fb4829e811e138ed09",
+            "label": "MEMORIES FOR FUTURE｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -125808,6 +135177,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/95fb4829e811e138ed09",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/95fb4829e811e138ed09"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -125815,7 +135195,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第100、102話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "真崎エリカ",
@@ -125921,10 +135301,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "avex 第二季音樂合輯與曲序",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
@@ -125995,6 +135375,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/album/ff4a59d4c9770a9ec994",
+            "label": "AWA 日本第二季數位合輯與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://s.awa.fm/track/5151cadac78624e94010",
+            "label": "AWA 日本區曲目及角色唱名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -126008,6 +135402,15 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "availability": "unknown",
             "verifiedAt": "2026-11-16",
             "recordingId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/5151cadac78624e94010",
+            "label": "ダイヤモンドスマイル｜ミュージックコレクション Season.2｜AWA 日本",
+            "region": "JP",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -126137,6 +135540,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "link",
+            "targetId": "https://s.awa.fm/track/5151cadac78624e94010",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/5151cadac78624e94010"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -126144,7 +135558,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原播劇中演唱第101話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "古屋真",

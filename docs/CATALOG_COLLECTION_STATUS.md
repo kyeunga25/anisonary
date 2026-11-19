@@ -11,12 +11,12 @@
 | 長期目標 | 匯集日本 TV 動畫歌曲的實際用途、演唱與創作者、來源、音源版本、官方影片、發行品及各地區正版串流曲目。 |
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
-| 本輪目標 | 從目錄、季度、歌曲資料與公開索引移除誤收作品，保留有來源支持的日本合製及其海外授權音源。 |
-| 下批位置 | 核對 2020 冬日本電視與配信編排。續補《瓢蟲少女》第三季 2020 春夏的新話，並逐項核實串流先行作品的日本 TV 版用曲。 |
+| 本輪目標 | 接續 2020 冬名冊，逐版核實《蟲籠的卡伽斯特爾》AT-X 播出與各話用曲，再核《7SEEDS》第 2 期日本電視版。按歌曲匯集創作者、不同錄音、發行及地區正版曲目。 |
+| 下批位置 | 第 591 批核對 2019 秋《黑色五葉草》《名偵探柯南》的日本電視輪替。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 進行製作地及歌曲用途複核。第 519–528、529–576 批曾發布，第 577–580 批從未發布。正式基線的 50 部境外製作與 379 個歌曲用途已從本機資料移除，另清理 4 部未發布作品及 17 個用途。 |
-| 接續位置 | 正式基線 `bdca2f7f874c4c42aa95494b19bd4dd5ffbd69f7`／[`batch576-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch576-basics)。 |
-| 發布提交 | 第529–576批 [PR #309](https://github.com/kyeunga25/anisonary/pull/309) 固定候選 `63becb0`，正式 Workers 版本 `3a6b59a9-3382-4b63-ba7a-7459dd33b25c`。60部作品、457個實質用途（402新增、55更新）。正式核對2,164份JSON、150頁HTML、457個錨點、67個手機鍵盤海報牆入口、60個作品搜尋及18個季度搜尋。4,488個正式CI產物與預覽相同，公開API重建逐檔相同。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 590 批已在本機驗收，與第 581 批正式基線相比共有 109 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `0f8b5c31e05bf4d32d140d1d86ef9ee89586164e`／[batch581-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch581-japanese-tv)。本機資料驗收到第 590 批。 |
+| 發布提交 | [PR #310](https://github.com/kyeunga25/anisonary/pull/310) 固定候選 `93ec548`。正式 Workers 版本 `19dbff08-6840-4f6b-a53f-0eaab66591b9`，預覽版 `25ea5f1d-9251-4bf9-828d-084e0dd9dc47`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19493,3 +19493,66 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 外部標為網絡首發的 425 部中，剔除 2 部境外製作後，111 部可定位日本線性台，94 部目前僅有網絡發行或公告證據，218 部仍待核對媒體、版本或原播時段。電視後播、重剪及節目內短篇須另核，繼續逐季對帳。2020 冬目錄包含 99 部不同播出形式的作品，標準 TV 名冊尚未閉合。下一步以東映春夏兩次日本新話公告補正作品季別，再核對《BNA》等配信先行作品各版用曲。[東映 6 月節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020060502.php) · [東映 8 月節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020072701.php) · [《BNA》播出表](https://bna-anime.com/onair/)
 
 本機驗收通過 27 項單元測試、建置及公開邊界檢查、9 項 E2E。另比對 34 季海報牆、5,917 個用途的搜尋索引、作品頁、sitemap 及來源錨點。除上述 4 部資料更新外，2,075 部保留作品的公開 JSON 與正式基線逐位元相同。
+
+第 581 批已正式驗收。預覽及正式 CI 共用相同專案內容，兩次產生的 4,386 個檔案各與固定候選的本機產物逐位元相同。兩個環境均驗收 2,296 個成功回應（含全部 2,114 份公開 JSON）及 108 個撤回路徑的 404，並實際操作全站搜尋、歌曲錨點、季度入口及手機無 JavaScript 海報牆。第 581、582 批的本機備份均完成還原比對。[正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch581-japanese-tv)
+
+## 第582批　日本電視播出與平台曲目
+
+- `bna-op-1`〈Ready to〉與 `bna-ed-1`〈NIGHT RUNNING〉各補 Spotify 歌唱、伴奏兩個曲目，以及由發行方提供的兩個 YouTube Art Track。官方無字幕片頭及片尾保留。OTOTOY 的 16-bit／44.1 kHz 和 24-bit／48 kHz 兩種發行版分列，曲序指向既有歌唱及伴奏錄音。Apple 香港專輯曲目的串流標記、先行單曲的試聽入口及完整訂閱播放實測分別記錄，獨立發行 TV size 待證。[作品官方曲目與創作名單](https://bna-anime.com/music/) · [OTOTOY 高解析度版](https://ototoy.jp/_/default/p/552151) · [標準音質版](https://ototoy.jp/_/default/p/552152)
+- `curated-112033`《ZENONZARD THE ANIMATION》補 BS11 節目內第 1–3 話的電視播放記錄。網絡首發及其他集數的電視掛字分列。 `curated-toei-miraculous-season-3-ja` 補東映公布的日本 Disney Channel 春、夏新話，原有歌曲仍只列有證據的季度。[BS11](https://www.bs11.jp/anime/zenonzard/) · [東映春季節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020060502.php) · [東映夏季節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020072701.php)
+- 本機驗收通過 27 項單元與 9 項瀏覽測試、建置、統計及公開邊界檢查。另以手機無 JavaScript 核對三個海報牆入口，兩個歌曲錨點的無字幕影片、Art Track、正版連結、不同音質的曲序均可查看。本批只有 2 個實質變更的歌曲用途及 2 部作品播出資料，待集中發布。
+
+## 第583批　《蟲籠的卡伽斯特爾》日本電視版
+
+- AT-X 排播第 1–5 話在 2020 秋，第 6–12 話在 2021 冬。權利方公告列 Hilcrhyme〈Be ZERO〉為 OP、〈臆病な狼 2019〉為 ED。第 4、12 話結尾是否與網絡版相同，以及其餘各話實際使用情況，待取得電視版片尾掛字或逐話用曲表。[AT-X](https://www.at-x.com/program/detail/12434) · [播出公告](https://prtimes.jp/main/html/rd/p/000000285.000016935.html) · [逐話排播](https://cal.syoboi.jp/tid/5818/time)
+- 補 AWA 日本曲目與香港 Apple Music 發行曲序。〈臆病な狼〉2011 年單曲、2018 年日比谷現場及 2019 年錄音分列；AT-X 公告指名 2019 年版。[Hilcrhyme 發行資料](https://hilcrhyme.com/music/321756)
+- 本批用途：`mushikago-no-cagaster-op-1`、`mushikago-no-cagaster-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第584批　《7SEEDS》第二期歌曲與日本電視版
+
+- 日本電視台排播第二期第 13–24 話，製作公司公告全期更換片尾映像。第 24 話〈生きてゆく〉可核至 Netflix 原版，TOKYO MX 與 BSフジ兩台實播尾段待正版掛字佐證。[小學館公告](https://flowers.shogakukan.co.jp/1538/) · [製作方更換映像公告](https://7seeds.jp/news/39.php)
+- 〈From The Seeds〉補四名樂手、官方 Art Track、2023 年 11 月 25 日現場錄音及收錄同一錄音的兩種限定版。三筆用途補 AWA、OTOTOY 與香港 Apple Music 可核的版別、曲序或曲長。[樂手名單](https://www.glimspanky.com/?p=12917) · [限定版曲序](https://www.universal-music.co.jp/kamishiraishi-mone/news/2024-03-06/) · [OTOTOY 原聲帶](https://ototoy.jp/_/default/p/905573)
+- 本批用途：`7seeds-2-op-1`、`7seeds-2-ed-1`、`7seeds-2-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第585批　《無限之住人》《別對映像研出手！》《異獸魔都》各版曲目
+
+- 三部作品補九個 OTOTOY 發行版，包括《無限之住人 IMMORTAL》第二首片頭的歌唱版及另列的 TV 版、《別對映像研出手！》片尾的兩種音質，以及《異獸魔都》片頭歌唱／伴奏、六首輪替片尾的原專輯曲序。[TV 版曲序](https://ototoy.jp/_/default/p/573511) · [OTOTOY](https://ototoy.jp/_/default/p/512398)
+- 核對六筆 Spotify 片尾、一筆 AWA 片頭及十二筆香港 Apple Music 曲目。平台提供的串流標記與試聽已分開記錄；香港訂閱帳戶的整首播放仍待實測。[Spotify 片尾專輯](https://open.spotify.com/album/2lCMwyoJqSKG7dSi16fFRE)
+- 本批用途：`mugen-no-juunin-immortal-op-1`、`mugen-no-juunin-immortal-op-2`、`eizouken-ni-wa-te-wo-dasu-na-op-1`、`eizouken-ni-wa-te-wo-dasu-na-ed-1`、`dorohedoro-op-1`、`dorohedoro-ed-1`、`dorohedoro-ed-2`、`dorohedoro-ed-3`、`dorohedoro-ed-4`、`dorohedoro-ed-5`、`dorohedoro-ed-6`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第586批　《ID:INVADED》片尾與插曲的錄音署名
+
+- 〈Other Side〉、〈Samurai 45〉及〈Butterfly〉分別是《NO SLEEP TILL TOKYO》第 4、5、6 曲。三首各補合署詞曲、製作與和聲，〈Other Side〉另有共同製作 Tido Nguyen。OTOTOY 日本 16 bit／44.1 kHz 下載版與 Qobuz 美國專輯入口各連到既有錄音。原播剪輯及各地訂閱整首播放仍待核。[OTOTOY](https://ototoy.jp/_/default/p/414010) · [Qobuz 逐曲署名](https://www.qobuz.com/us-en/album/no-sleep-till-tokyo-miyavi/a6hlj3t3wpcsa) · [唱片公司〈Other Side〉音軌說明](https://www.youtube.com/watch?v=Ugk-kFdKECo)
+- 本批用途：`id-invaded-ed-1`、`id-invaded-in-2`、`id-invaded-in-6`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第587批　2020 冬五部日本 TV 動畫的數位版
+
+- 《貓娘樂園》《織田肉桂信長》《無盡連鎖》《寶石商人理察的謎鑑定》《虛構推理》補 OTOTOY 九項發行。分列原聲帶第 31–36 曲的電視及合唱版、〈LAST DANCE〉兩種音質，以及〈Reverb〉的 Hiroaki Suzuki 混音、限定盤與香港曲目。[《貓娘樂園》原聲帶](https://ototoy.jp/_/default/p/515571) · [日本コロムビア限定版](https://columbia.jp/artist-info/uchidaaya/discography/SACX-1117.html)
+- 2020 冬現存 99 個節目，包含不同播出形式。兩份季度索引未發現可立即補入的標準 TV 新作。短篇混合節目、網絡後轉電視及逐話使用不明的個案仍保留原查證條件；2019 秋名冊接續核對長篇續播。[香港冬季新番表](https://acgsecrets.hk/bangumi/202001/) · [臺灣冬季新番表](https://youranimes.tw/bangumi/202001)
+- 本批用途：`nekopara-op-1`、`nekopara-ed-1`、`nekopara-ed-2`、`nekopara-ed-3`、`nekopara-in-1`、`nekopara-in-2`、`oda-cinnamon-nobunaga-ed-1`、`oda-cinnamon-nobunaga-in-1`、`oda-cinnamon-nobunaga-in-2`、`infinite-dendrogram-op-1`、`infinite-dendrogram-ed-1`、`infinite-dendrogram-in-1`、`housekishou-richard-shi-no-nazo-kantei-op-1`、`kyokou-suiri-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第588批　《鬼太郎》及《妖怪學園Y》長篇輪替
+
+- 《鬼太郎》第六季 OP 與第 27–37 話 ED 補入 2018 秋。補日本唱片不同曲序對應演唱、TV、卡拉 OK 或現場錄音、〈No. 999〉創作分工及香港 Apple Music 曲目。[日本コロムビア](https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html) · [Team-MAX](https://team-max.co.jp/2019/10/02/kitaroanime2018-soundtrack/)
+- 《妖怪學園Y》七筆已核實用途連到收錄無字幕特典的 DVD 分卷。〈ギンギラ銀河〉三種日本精選版均在第 1 碟第 5 曲。第 24、58 話插曲與第 63 話特殊片尾仍待原播掛字或逐話曲表。[KADOKAWA 分卷資料](https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/) · [STPR 精選曲序](https://strawberryprinceforever.stpr.com/)
+- 本批用途：`gegege-no-kitarou-2018-op-1`、`gegege-no-kitarou-2018-ed-1`、`gegege-no-kitarou-2018-ed-2`、`gegege-no-kitarou-2018-ed-3`、`gegege-no-kitarou-2018-ed-4`、`gegege-no-kitarou-2018-ed-5`、`gegege-no-kitarou-2018-ed-6`、`gegege-no-kitarou-2018-ed-7`、`gegege-no-kitarou-2018-ed-8`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-1`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-2`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-3`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-4`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-5`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-7`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-12`、`youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-13`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第589批　《偶像活動 on Parade！》與《星夢頻道》第二季
+
+- 《偶像活動 on Parade！》第 24 話〈プライド〉、第 6 話〈episode Solo〉及第 9 話四人版〈Bon Bon Voyage!〉新增插曲用途，沿用相同歌曲 ID。片尾補香港 Apple Music 的 TV-size、短版或不同角色陣容。[發行曲目](https://www.sunrise-music.co.jp/list/detail.php?id=476) · [逐話署名](https://www.mau2.com/anime/aikatuonparade)
+- 《星夢頻道》第二季 22 個用途補 AWA 逐曲與 mu-mo 標示的歌唱及伴奏。完整訂閱播放仍待實測。截止日後 Lantis 公告第一年兩種合輯預定更換配信，另記作平台後續差異。[AWA 日本專輯](https://s.awa.fm/album/ff4a59d4c9770a9ec994) · [avex 曲目](https://avex.jp/prichan/discography/detail.php?id=1016091) · [Lantis 後續公告](https://lantis.jp/topics/news/6255/)
+- 本批用途：`kiratto-prichan-season-2-ed-1`、`kiratto-prichan-season-2-ed-2`、`kiratto-prichan-season-2-in-1`、`kiratto-prichan-season-2-in-2`、`kiratto-prichan-season-2-in-3`、`kiratto-prichan-season-2-in-4`、`kiratto-prichan-season-2-in-5`、`kiratto-prichan-season-2-in-6`、`kiratto-prichan-season-2-in-7`、`kiratto-prichan-season-2-in-8`、`kiratto-prichan-season-2-in-9`、`kiratto-prichan-season-2-in-10`、`kiratto-prichan-season-2-in-11`、`kiratto-prichan-season-2-in-12`、`kiratto-prichan-season-2-in-13`、`kiratto-prichan-season-2-in-14`、`kiratto-prichan-season-2-in-15`、`kiratto-prichan-season-2-in-16`、`kiratto-prichan-season-2-in-17`、`kiratto-prichan-season-2-in-19`、`kiratto-prichan-season-2-in-20`、`kiratto-prichan-season-2-in-21`、`aikatsu-on-parade-ed-2`、`aikatsu-on-parade-ed-3`、`aikatsu-on-parade-ed-4`、`aikatsu-on-parade-ed-5`、`aikatsu-on-parade-ed-6`、`aikatsu-on-parade-ed-7`、`aikatsu-on-parade-ed-9`、`aikatsu-on-parade-ed-11`、`aikatsu-on-parade-ed-12`、`aikatsu-on-parade-ed-14`、`aikatsu-on-parade-ed-15`、`aikatsu-on-parade-in-11`、`aikatsu-on-parade-in-12`、`aikatsu-on-parade-in-13`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第590批　《SHOW BY ROCK!!》電視剪輯及《うちタマ?!》片尾合輯
+
+- 《SHOW BY ROCK!!ましゅまいれっしゅ!!》把 OTOTOY 原聲帶兩種音質按碟分列，相關歌曲均連到原有 TV edit。〈エールアンドレスポンス〉另發行第 1 話及第 8 話的指定剪輯，與通常歌唱及伴奏分列。平台列出曲目、音質和發行日，完整播放待核。[OTOTOY 原聲帶](https://ototoy.jp/_/default/p/515548) · [第 1 話剪輯](https://ototoy.jp/_/default/p/484186) · [第 8 話剪輯](https://ototoy.jp/_/default/p/506511)
+- 《うちタマ?!》十首輪替片尾各連到 Aniplex 實體合輯的曲序及相應五話試聽合輯。影片分類為發行宣傳，未將合輯試聽標作可整首播放。[Aniplex 專輯](https://online.aniplex.co.jp/itemuLoGOSYp.html) · [官方影片表](https://uchitama.com/movie/)
+- 本批用途：`show-by-rock-mashumairesh-op-2`、`show-by-rock-mashumairesh-ed-1`、`show-by-rock-mashumairesh-ed-2`、`show-by-rock-mashumairesh-op-1`、`show-by-rock-mashumairesh-in-2`、`show-by-rock-mashumairesh-in-3`、`show-by-rock-mashumairesh-in-4`、`show-by-rock-mashumairesh-in-5`、`show-by-rock-mashumairesh-in-6`、`show-by-rock-mashumairesh-in-7`、`show-by-rock-mashumairesh-in-8`、`uchitama-uchi-no-tama-shirimasen-ka-ed-1`、`uchitama-uchi-no-tama-shirimasen-ka-ed-2`、`uchitama-uchi-no-tama-shirimasen-ka-ed-3`、`uchitama-uchi-no-tama-shirimasen-ka-ed-4`、`uchitama-uchi-no-tama-shirimasen-ka-ed-5`、`uchitama-uchi-no-tama-shirimasen-ka-ed-6`、`uchitama-uchi-no-tama-shirimasen-ka-ed-7`、`uchitama-uchi-no-tama-shirimasen-ka-ed-8`、`uchitama-uchi-no-tama-shirimasen-ka-ed-9`、`uchitama-uchi-no-tama-shirimasen-ka-ed-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
