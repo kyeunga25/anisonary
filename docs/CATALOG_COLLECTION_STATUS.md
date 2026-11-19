@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 602 批核對《鬼滅之刃》及《YU-NO》逐話用曲與日本首播跨季。 |
+| 下批位置 | 第 613 批接續日本 TV《一弦定音！》兩季，核對劇中實際演奏與唱片另錄版本。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 601 批已在本機驗收，相對第 590 批正式基線有 100 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `01563f629ff113ea6c0e6492d047a5a79bf741be`／[batch590-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch590-japanese-tv)。本機資料驗收到第 601 批。 |
-| 發布提交 | [PR #311](https://github.com/kyeunga25/anisonary/pull/311) 固定候選 `b48674f`。正式 Workers 版本 `5d67284f-d784-4e62-8109-f96d02de1c46`，預覽版本 `f7811802-dcf1-4b16-bcd5-194948dfd415`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 612 批已在本機驗收，相對第 601 批正式基線有 108 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `4a7e014fa8d6b62f3c0d3a6ae1b1ce6fc723f71f`／[batch601-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch601-japanese-tv)。本機資料驗收到第 612 批。 |
+| 發布提交 | [PR #312](https://github.com/kyeunga25/anisonary/pull/312) 固定候選 `9d8b811`。正式 Workers 版本 `539b458c-1c1a-41af-9f0e-eaa17bac8b2f`，預覽版本 `02023fdb-b8b7-4fc1-b832-149981988862`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19636,4 +19636,84 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 保留歷史用途序號並恢復兩部 2019 春、夏作品。《魔法水果籃》第 1、25 話無片頭，第 25 話另有插曲〈生まれる願い〉。日本原聲帶列明的完整版與香港數位發行按曲目關聯。[TMS 第一季](https://www.tms-e.co.jp/alltitles/2010s/745101.html)
 - 《MIX》第 14 話同時更換 OP、ED。〈タッチ〉分列動畫中的吹奏、演奏協力與 Qyoto 的數位翻唱。第 5 話的演奏者，以及第 7、19 話〈明青学園応援歌〉的片末署名待取得正版日語原播或權利方逐話資料。[讀賣電視台演奏企劃](https://www.ytv.co.jp/fromytv/news/number/page_2002308.html) · [Sony Music 唱片](https://www.sonymusic.co.jp/artist/Qyoto/info/507594)
 - 本批用途：`fruits-basket-2019-op-1`、`fruits-basket-2019-op-2`、`fruits-basket-2019-ed-1`、`fruits-basket-2019-ed-2`、`fruits-basket-2019-in-1`、`fruits-basket-2019-in-2`、`mix-meisei-story-op-1`、`mix-meisei-story-op-2`、`mix-meisei-story-ed-1`、`mix-meisei-story-ed-2`、`mix-meisei-story-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第602批　《鬼滅之刃》與《YU-NO》的原播逐話用曲
+
+- 《鬼滅之刃》第 19 話〈竈門炭治郎のうた〉在插曲與片尾分列用途並共用歌曲 ID。單曲版與 2021 年原聲帶版依正式發行名稱分列。第 1 話〈紅蓮華〉移至後段；第 26 話片末的實際音訊待原播或權利方分話資料。
+- 《YU-NO》原播第 26 話於 2019 年 10 月 1 日在 AT-X 播出，後期 OP、ED 的季度包含秋季。7 月 30 日回顧特別篇與 Blu-ray 特典第 26.5 話各自識別。兩作的香港曲目、演唱、TV 剪輯與其他錄音依來源分列。
+- 本批用途：`kimetsu-no-yaiba-op-1`、`kimetsu-no-yaiba-ed-1`、`kimetsu-no-yaiba-ed-2`、`kimetsu-no-yaiba-in-1`、`kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-op-1`、`kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-op-2`、`kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-ed-1`、`kono-yo-no-hate-de-koi-wo-utau-shoujo-yu-no-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第603批　《凱洛與塔斯黛》的主題曲、劇中演唱與日港發行
+
+- 富士電視台的節目日為週三，曆日為週四；首話比通常時段延後 10 分鐘。日本製作與台灣片名分別用電視台及 Netflix 核對。〈Kiss Me〉在第 2–11 話及夏季回顧篇作片頭；後期片頭〈Polly Jean〉延續至 10 月最終話。[富士電視台](https://www.fujitv.co.jp/b_hp/caroleandtuesday/) · [Netflix 台灣](https://www.netflix.com/tw/title/80992137)
+- 首輪收錄四首前後期 OP／ED、〈The Loneliest Girl〉及最終話合唱〈Mother〉。兩張日本主題曲 CD 分列歌唱與 TV size 曲序；香港數位單曲以實際在架曲序另列，官方 MV 和製作花絮分開標示。第 22–24 話片末與劇中歌的關係待原播片末或權利方逐話標示。[首張單曲](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35302.html) · [第二張單曲](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A026453/VTCL-35307.html)
+- 本批用途：`carole-and-tuesday-op-1`、`carole-and-tuesday-op-2`、`carole-and-tuesday-ed-1`、`carole-and-tuesday-ed-2`、`carole-and-tuesday-in-1`、`carole-and-tuesday-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第604批　《凱洛與塔斯黛》前半逐話劇中歌、角色演唱及場景錄音
+
+- 登記前半 20 筆劇中用途。《Hold Me Now》第 4 話的劇中演唱與片尾共用歌曲 ID。第 12 話〈Threads〉採 Eirik Glambek Bøe 自錄示範，與後續不同演唱分列。詞曲、角色歌聲、DVD 附屬 CD 的場景錄音、香港 Apple Music、日本 mu-mo 及藝人 Bandcamp 按各自可證明的項目連接。[導演訪問](https://animeanime.jp/article/2019/10/22/49131_2.html) · [FlyingDog 作品合輯](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-60499.html)
+- 本批用途：`carole-and-tuesday-in-3`、`carole-and-tuesday-in-4`、`carole-and-tuesday-in-5`、`carole-and-tuesday-in-6`、`carole-and-tuesday-in-7`、`carole-and-tuesday-in-8`、`carole-and-tuesday-in-9`、`carole-and-tuesday-in-10`、`carole-and-tuesday-in-11`、`carole-and-tuesday-in-12`、`carole-and-tuesday-in-13`、`carole-and-tuesday-in-14`、`carole-and-tuesday-in-15`、`carole-and-tuesday-in-16`、`carole-and-tuesday-in-17`、`carole-and-tuesday-in-18`、`carole-and-tuesday-in-19`、`carole-and-tuesday-in-20`、`carole-and-tuesday-in-21`、`carole-and-tuesday-in-22`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第605批　《凱洛與塔斯黛》後半的逐話演唱與〈Threads〉雙人錄音
+
+- 動畫官方逐話音樂場景確認第 14、18、20、21、23 話的五筆插曲。第 18 話〈Threads〉連回第 12 話的同一首歌，分列作曲者示範錄音與雙人演唱。〈Army Of Two〉在港日合輯另有 Street Scene 及常規發行曲目。[第 18 話官方音樂場景](https://twitter.com/carole_tuesday/status/1164216208855486464) · [FlyingDog 後半合輯](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-60507.html)
+- 第 24 話〈Mother〉沿用已確認的劇中演出。後半其他分集尚在對帳，〈Not Afraid〉第 14 話的劇中位置待同一版影片或製作方逐話說明。
+- 本批用途：`carole-and-tuesday-in-23`、`carole-and-tuesday-in-24`、`carole-and-tuesday-in-25`、`carole-and-tuesday-in-26`、`carole-and-tuesday-in-27`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 601 批正式驗收
+
+第 591–601 批涵蓋 18 部日本電視作品與 100 筆不同歌曲用途。預覽候選 `9d8b811` 及正式提交 `4a7e014` 的 CI、Workers 建置均通過。兩個環境各有 4,402 個 CI 產物與固定候選逐位元一致，各驗收 248 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,003 個用途。[PR #312](https://github.com/kyeunga25/anisonary/pull/312) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch601-japanese-tv)
+
+## 第606批　《アイカツフレンズ！～かがやきのジュエル～》四人片頭與逐話角色演唱
+
+- 東京電視台第 51–63 話納入 2019 春、第 64–76 話納入夏季。兩季 17 個用途連至 14 首歌曲。〈ひとりじゃない！〉四人片頭、雙人劇中演唱及最終話舞台分列；〈Be star〉片尾與劇中演出共用歌曲。香港、日本 Apple Music 曲目及動畫、遊戲的演唱版本各有署名。[動畫官網](https://www.aikatsu.net/aikatsufriends_02/aikatsufriends/) · [Lantis 合輯](https://www.lantis.jp/release-item/LACA-9786.html)
+- 第 76 話節目表仍列常規片尾，逐話記錄另報特殊片尾；待取得同一剪輯版本片末掛字，才決定是否另建 ED。[東京電視台終話編成](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/22343_201909261825.html)
+- 本批用途：`aikatsu-friends-2-2019-op-1`、`aikatsu-friends-2-2019-ed-1`、`aikatsu-friends-2-2019-in-1`、`aikatsu-friends-2-2019-in-2`、`aikatsu-friends-2-2019-in-3`、`aikatsu-friends-2-2019-in-4`、`aikatsu-friends-2-2019-in-5`、`aikatsu-friends-2-2019-in-6`、`aikatsu-friends-2-2019-in-7`、`aikatsu-friends-2-2019-in-8`、`aikatsu-friends-2-2019-in-9`、`aikatsu-friends-2-2019-in-10`、`aikatsu-friends-2-2019-in-11`、`aikatsu-friends-2-2019-in-12`、`aikatsu-friends-2-2019-in-13`、`aikatsu-friends-2-2019-in-14`、`aikatsu-friends-2-2019-in-15`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第607批　《進擊的巨人》第三季後半、《一拳超人》第二季的首末話用曲
+
+- 《進擊的巨人》第 59 話日本原播曆日為 7 月 1 日。實看香港木棉花授權版 02:20 的片頭掛字，〈憧憬と屍の道〉由 Linked Horizon 演唱，作詞、作曲及編曲均為 Revo。春季及夏季均收錄這個 OP 用途。[第 59 話授權影片](https://www.youtube.com/watch?v=eLpEhlg-Dy8&t=140s)
+- 《一拳超人》第 13、24 話香港木棉花版片末均可看到〈静寂のアポストル〉與 JAM Project 署名，與日本逐話用曲記錄相符。這兩話的片尾與常規片頭連到同一首歌。[第 13 話片末](https://www.youtube.com/watch?v=buIcMoBTCtY&t=1374s) · [第 24 話片末](https://www.youtube.com/watch?v=TiH2pkB1Ogo&t=1377s)
+- 本批用途：`shingeki-no-kyojin-season-3-part-2-op-1`、`shingeki-no-kyojin-season-3-part-2-ed-1`、`one-punch-man-2nd-season-op-1`、`one-punch-man-2nd-season-ed-1`、`one-punch-man-2nd-season-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第608批　《機動戦士ガンダム THE ORIGIN 前夜 赤い彗星》電視重編版
+
+- 13 話電視版的 3 首片頭、4 首片尾及第 3 話插曲〈By Your Side〉按回目編排。第 9 話於 6 月 24 日播出，第三輪主題曲涵蓋春夏。〈A Red Ray〉的第 12 話專用片尾畫面另附官方影片。[動畫官網第 9 話](https://www.gundam-the-origin.net/tv/episodes09.html) · [SUNRISE 第 12 話版 ED](https://www.youtube.com/watch?v=Nnzm6h4fIRQ)
+- 〈By Your Side〉的香港數位版日語演唱列第 27 軌，CD 列第 28 軌，另有鋼琴及 CLUB EDEN 版本。〈Don't Say Good bye〉的原六章酒吧場景有導演訪談可據，第 10 話電視重編版仍待同一版片末掛字或 SUNRISE 分集用曲表。[第 10 話電視版](https://www.gundam-the-origin.net/tv/episodes10.html) · [安彦良和訪談](https://www.animatetimes.com/news/details.php?id=1768262053&p=3)
+- 本批用途：`gundam-the-origin-zenya-akai-suisei-op-1`、`gundam-the-origin-zenya-akai-suisei-op-2`、`gundam-the-origin-zenya-akai-suisei-op-3`、`gundam-the-origin-zenya-akai-suisei-ed-1`、`gundam-the-origin-zenya-akai-suisei-ed-2`、`gundam-the-origin-zenya-akai-suisei-ed-3`、`gundam-the-origin-zenya-akai-suisei-ed-4`、`gundam-the-origin-zenya-akai-suisei-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第609批　《星光王子 Shiny Seven Stars》日本 TV 分集片頭、十二個片尾用途及開場插曲
+
+- 東京電視台 4 月 8 日先播導讀特番，正篇第 1 話於 4 月 15 日、第 12 話於 7 月 1 日節目日播出。〈Shiny Seven Stars!〉首話在片末，第 2–12 話在片頭。首話開場〈虹色CROWN〉按東京電視台節目資料登記為插曲。[東京電視台首話](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25383_201904152535.html) · [授權繁中分集](https://www.linetv.tw/drama/18245/eps/1)
+- 核對第 2–12 話每話輪替的角色片尾、十一張角色單曲的原唱與伴奏曲序、主題曲單曲及香港 SePTENTRION 合輯兩首對應曲目。其他舞台插曲及角色聲部差異留待逐話、逐軌核對。[日本單曲](https://kinpri.com/pth/discography/detail.php?id=1016430)
+- 本批用途：`king-of-prism-sss-2019-op-1`、`king-of-prism-sss-2019-ed-1`、`king-of-prism-sss-2019-ed-2`、`king-of-prism-sss-2019-ed-3`、`king-of-prism-sss-2019-ed-4`、`king-of-prism-sss-2019-ed-5`、`king-of-prism-sss-2019-ed-6`、`king-of-prism-sss-2019-ed-7`、`king-of-prism-sss-2019-ed-8`、`king-of-prism-sss-2019-ed-9`、`king-of-prism-sss-2019-ed-10`、`king-of-prism-sss-2019-ed-11`、`king-of-prism-sss-2019-ed-12`、`king-of-prism-sss-2019-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第610批　《さらざんまい》插曲、不同角色的演唱及香港錄音
+
+- 富士電視台首播為 4 月 11 日節目日 24:55，FOD 25:25 起配信。〈さらざんまいのうた〉的第 1–5、7、10、11 話演唱陣容、〈カワウソイヤァ〉、吾妻サラ的錄音及第 9 話 scat 版可按歌曲對照。原有 OP、ED 保留。[音樂官網](https://sarazanmai.com/music/) · [作曲家原聲帶手記](https://sarazanmai-bddvd.com/files/SRZ_OST_linernotes.pdf)
+- 吾妻サラ原唱的第 2–6 話記錄有分歧，待取得相應授權片段或各話掛字再定案。日本單曲、香港數位曲目、伴奏、scat 與小提琴演奏按實際發行分列。[日本正版發行](https://mora.jp/topics/news/sarazanmai/)
+- 本批用途：`sarazanmai-op-1`、`sarazanmai-ed-1`、`sarazanmai-in-1`、`sarazanmai-in-2`、`sarazanmai-in-3`、`sarazanmai-in-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第611批　《一個人的○○小日子》片末片頭影像與第5、6話特殊用曲
+
+- MBS、TBS 自 4 月 5 日節目日起 26:25 首播，AbemaTV 同日 25:55 先行。日方分集資料將〈ひとりぼっちのモノローグ〉首話播出位置列在片末、工作人員名單之後。第 5 話插曲及第 6 話的四人片尾均有動畫官網逐話說明。[原播排程](https://hitoribocchi.jp/onair/) · [動畫官網曲目](https://hitoribocchi.jp/products/music.html)
+- 兩張日本單曲及香港數位 EP 可按八首演唱／伴奏曲目核對。木棉花台灣版第 1 話在香港設有地區限制，此次未觀看該版畫面。[分集曲表](https://cal.syoboi.jp/tid/5245/subtitle) · [木棉花授權第 1 話](https://www.youtube.com/watch?v=915UffAKGc8)
+- 本批用途：`hitoribocchi-no-marumaru-seikatsu-op-1`、`hitoribocchi-no-marumaru-seikatsu-ed-1`、`hitoribocchi-no-marumaru-seikatsu-ed-2`、`hitoribocchi-no-marumaru-seikatsu-ed-3`、`hitoribocchi-no-marumaru-seikatsu-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第612批　《凱洛與塔斯黛》後半的角色演唱、比賽現場與頒獎配樂
+
+- 補 14 筆用途、13 首歌。第 16 話〈Give You The World〉的フローラ與主角二人的演唱分列用途，連回同曲；〈After the fire〉的錄音室版與 Mars Grammy Scene 依唱片分軌。後半角色演唱、詞曲編、香港數位曲目及日本盤可由同一首歌追查。[FlyingDog 日本盤](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-60507.html) · [香港正版合輯](https://music.apple.com/hk/album/1483590598)
+- 〈Not Afraid〉的常規片尾已收錄。第 14 話是否另作插曲，待可讀的原播掛字或製作方分集紀錄。
+- 本批用途：`carole-and-tuesday-in-28`、`carole-and-tuesday-in-29`、`carole-and-tuesday-in-30`、`carole-and-tuesday-in-31`、`carole-and-tuesday-in-32`、`carole-and-tuesday-in-33`、`carole-and-tuesday-in-34`、`carole-and-tuesday-in-35`、`carole-and-tuesday-in-36`、`carole-and-tuesday-in-37`、`carole-and-tuesday-in-38`、`carole-and-tuesday-in-39`、`carole-and-tuesday-in-40`、`carole-and-tuesday-in-41`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
