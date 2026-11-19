@@ -14140,7 +14140,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "中文曲表：OP22及第892–934話實用",
           "role": "cross_check",
           "language": "zh-Hant",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/ONE_PIECE%E5%8B%95%E7%95%AB%E9%9B%86%E6%95%B8%E5%88%97%E8%A1%A8",
@@ -14148,9 +14148,109 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5299/index.html",
+          "label": "作品方第916話首播日及話數",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5333/index.html",
+          "label": "作品方第926話首播日及話數",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5337/index.html",
+          "label": "作品方第927話首播日及話數",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/news/o20200622_11075/index.html",
+          "label": "作品方公告6月28日第930話新作復播與時段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://avex.jp/onepiece/products/musicDetail.php?id=1016891",
+          "label": "avex官方單曲發行及歌唱、伴奏曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1479568064",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1479568065",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1479568071",
+          "label": "Apple Music 香港區伴奏曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ewPsNiklKcY",
+          "label": "授權方影片資料｜OVER THE TOP｜和之國篇官方片頭影像",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b5pDLX5DIgo",
+          "label": "授權方影片資料｜OVER THE TOP｜和之國篇官方電視宣傳",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BuTz_PPMFj0",
+          "label": "授權方影片資料｜OVER THE TOP｜官方單曲音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "OVER THE TOP｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1479568065",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1479568064",
+          "recordingId": "one-piece-op-22-song-single-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "OVER THE TOP Instrumental｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1479568071",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1479568064",
+          "recordingId": "one-piece-op-22-song-single-instrumental",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown"
+        }
+      ],
       "credits": [
         {
           "name": "藤林聖子",
@@ -14177,7 +14277,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2020-spring",
         "2020-summer"
       ],
-      "usageLabel": "原TV OP；本批第916–934話；原用途第892–934話",
+      "usageLabel": "和之國篇原TV片頭（第892–934話）。2020年冬第916–926話、春第927–930話、夏第931–934話。第930話於6/28復播。",
       "evidence": [
         {
           "target": "song",
@@ -14235,23 +14335,231 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "https://one-piece.com/news/o20190701_9411/index.html"
           ],
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "one-piece-op-22",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891",
+            "https://zh.wikipedia.org/wiki/ONE_PIECE_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "one-piece-op-22-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "one-piece-op-22-song-single-vocal",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "one-piece-op-22-song-single-instrumental",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "eyca-12665",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1479568064",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1016891",
+            "https://music.apple.com/hk/album/1479568064"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1479568065",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1479568065"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1479568071",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1479568071"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "ewPsNiklKcY",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ewPsNiklKcY"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "b5pDLX5DIgo",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=b5pDLX5DIgo"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BuTz_PPMFj0",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=BuTz_PPMFj0"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
+            "recording_format",
             "platform_availability"
           ],
-          "note": "〈OVER THE TOP〉：官方原期公告與中文逐曲用途表／TV期間表交叉：本批取2020/1/5–7/26；原期起用2019/7/7在本批年份外；本批第916–934話；原用途第892–934話。歷史OP22有可靠交叉明列且未占用，原2026 OP29／ED23不動。TV歷史表截止年誤植2019，本用途不引用該行或猜改數字；官方934話2020/7/26、中文原TV916話1/5及927話4/5，與本曲892–934話逐曲範圍交叉支持2020冬春夏；停播期間重播不另作新實用。",
-          "resumeWhen": "詳細階段沿本曲已核第一方與交叉來源，待逐曲明示作者／實唱資料、可識別錄音、官方影片形式、收錄品及正版平台再補；不由band成員、cast或簡介推全員歌唱，不由MV、NC、Lyric Video、專輯或不同連結推full／TV錄音、新歌或未證季度。",
-          "checkedAt": "2026-10-22"
+          "note": "原單曲及香港EP的歌唱與伴奏分列。作品方確認2020春第930話在停播後復播。",
+          "resumeWhen": "待日本原播及海外發布的片頭掛字、唱片方TV剪輯或母帶資料，再核逐話影像、錄音長度及地區實際播放。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-19",
+      "releaseDate": "2019-09-25",
+      "recordings": [
+        {
+          "id": "one-piece-op-22-song-single-vocal",
+          "title": "OVER THE TOP",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "one-piece-op-22-song-single-instrumental",
+          "title": "OVER THE TOP（instrumental）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "eyca-12665",
+          "title": "OVER THE TOP",
+          "type": "single",
+          "artistDisplayName": "きただにひろし",
+          "edition": "日本實體 CD",
+          "region": "JP",
+          "label": "avex pictures",
+          "date": {
+            "value": "2019-09-25",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "OVER THE TOP",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-22-song-single-vocal"
+            },
+            {
+              "title": "OVER THE TOP（instrumental）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "one-piece-op-22-song-single-instrumental"
+            }
+          ],
+          "catalogNumber": "EYCA-12665"
+        },
+        {
+          "id": "apple-hk-1479568064",
+          "title": "OVER THE TOP",
+          "type": "ep",
+          "artistDisplayName": "きただにひろし",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "avex pictures",
+          "date": {
+            "value": "2019-09-25",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "OVER THE TOP",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-22-song-single-vocal"
+            },
+            {
+              "title": "OVER THE TOP Instrumental",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "one-piece-op-22-song-single-instrumental"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "one-piece-ed-22",

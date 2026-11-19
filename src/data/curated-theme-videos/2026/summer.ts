@@ -1,6 +1,46 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SummerThemeVideos = {
+  "235:OP:51": [
+    {
+      "youtubeVideoId": "7y3MRaVKKF8",
+      "title": "真っ赤なLip｜TMS官方片頭影像",
+      "channelName": "TMSアニメ公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "BMZllL1SEgg",
+      "title": "真っ赤なLip｜WANDS官方 MV",
+      "channelName": "WANDS Official",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "235:ED:61": [
+    {
+      "youtubeVideoId": "sIzVuH0f6Aw",
+      "title": "少しづつ 少しづつ｜官方 YouTube Size MV",
+      "channelName": "SARD UNDERGROUND OFFICIAL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "X1Uxn26DP20",
+      "title": "少しづつ 少しづつ｜官方音源影片",
+      "channelName": "SARD UNDERGROUND - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "199066:OP:1": [
     {
       "youtubeVideoId": "La5AcMJYjnM",
