@@ -12,10 +12,10 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 613 批接續日本 TV《一弦定音！》兩季，核對劇中實際演奏與唱片另錄版本。 |
+| 下批位置 | 第 622 批接續《鑽石王牌 act II》的四季用曲及唱片。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 612 批已在本機驗收，相對第 601 批正式基線有 108 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `4a7e014fa8d6b62f3c0d3a6ae1b1ce6fc723f71f`／[batch601-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch601-japanese-tv)。本機資料驗收到第 612 批。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 621 批已在本機驗收，相對第 601 批正式基線有 199 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `4a7e014fa8d6b62f3c0d3a6ae1b1ce6fc723f71f`／[batch601-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch601-japanese-tv)。本機資料驗收到第 621 批。 |
 | 發布提交 | [PR #312](https://github.com/kyeunga25/anisonary/pull/312) 固定候選 `9d8b811`。正式 Workers 版本 `539b458c-1c1a-41af-9f0e-eaa17bac8b2f`，預覽版本 `02023fdb-b8b7-4fc1-b832-149981988862`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
@@ -19716,4 +19716,67 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 - 補 14 筆用途、13 首歌。第 16 話〈Give You The World〉的フローラ與主角二人的演唱分列用途，連回同曲；〈After the fire〉的錄音室版與 Mars Grammy Scene 依唱片分軌。後半角色演唱、詞曲編、香港數位曲目及日本盤可由同一首歌追查。[FlyingDog 日本盤](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A010090/VTCL-60507.html) · [香港正版合輯](https://music.apple.com/hk/album/1483590598)
 - 〈Not Afraid〉的常規片尾已收錄。第 14 話是否另作插曲，待可讀的原播掛字或製作方分集紀錄。
 - 本批用途：`carole-and-tuesday-in-28`、`carole-and-tuesday-in-29`、`carole-and-tuesday-in-30`、`carole-and-tuesday-in-31`、`carole-and-tuesday-in-32`、`carole-and-tuesday-in-33`、`carole-and-tuesday-in-34`、`carole-and-tuesday-in-35`、`carole-and-tuesday-in-36`、`carole-and-tuesday-in-37`、`carole-and-tuesday-in-38`、`carole-and-tuesday-in-39`、`carole-and-tuesday-in-40`、`carole-and-tuesday-in-41`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第613批　《一弦定音！》兩期的歌曲、箏曲與日本原播演奏
+
+- 兩期 18 筆用途共 15 首歌。第 5 話〈龍星群〉、第 13 話〈久遠〉的原播演奏與正式錄音分列。第 16 話〈Tone〉連回第一期片頭曲，可查七位演奏者；第 19 話〈水の変態〉另列堂島晶（東山奈央）的演唱。各曲可查香港 Deezer、日本 Apple Music、mora 或唱片發行資料。[動畫音樂官網](https://www.konooto-anime.jp/music/) · [King Records 演奏專輯](https://www.kingrecords.co.jp/cs/g/gKICA-2572/)
+- 第 14 話〈Harmony〉及第 26 話〈Tone〉的片末位置仍待可觀看日語版或分集音樂掛字確認，未計入用途。
+- 本批用途：`kono-oto-tomare-op-1`、`kono-oto-tomare-ed-1`、`kono-oto-tomare-in-1`、`kono-oto-tomare-in-2`、`kono-oto-tomare-in-3`、`kono-oto-tomare-in-4`、`kono-oto-tomare-in-5`、`kono-oto-tomare-in-6`、`kono-oto-tomare-in-7`、`kono-oto-tomare-in-8`、`kono-oto-tomare-2-op-1`、`kono-oto-tomare-2-ed-1`、`kono-oto-tomare-2-in-1`、`kono-oto-tomare-2-in-2`、`kono-oto-tomare-2-in-3`、`kono-oto-tomare-2-in-4`、`kono-oto-tomare-2-in-5`、`kono-oto-tomare-2-in-6`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第614批　《文豪 Stray Dogs》第三季及《賢者之孫》非常規話數用曲與錄音
+
+- 第 26 話的片尾、第 28 話的插曲和第三季常規片頭連回〈セツナの愛〉。第 37 話〈WRIGHT LEFT〉收錄 SCREEN mode 唱片第 6 軌及 EFFY 弦樂編曲。《賢者之孫》第 6 話採用了〈圧倒的 Vivid Days〉的 MV 畫面，日本原聲帶第 38 軌另有 TV size。[第37話音樂公告](https://bungo-stray-dogs.jp/news/?news=news-3rdseason-song-info3) · [《賢者之孫》第6話公告](https://kenja-no-mago.jp/news/?id=20190510&mode=detail)
+- 〈WRIGHT LEFT〉及〈圧倒的 Vivid Days〉的香港原唱曲目仍待適用地區的精確連結。
+- 本批用途：`bungou-stray-dogs-3rd-season-op-1`、`bungou-stray-dogs-3rd-season-ed-1`、`bungou-stray-dogs-3rd-season-ed-2`、`bungou-stray-dogs-3rd-season-in-1`、`bungou-stray-dogs-3rd-season-in-2`、`kenja-no-mago-op-1`、`kenja-no-mago-ed-1`、`kenja-no-mago-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第615批　《RobiHachi》的首末話片尾、劇中歌與香港串流音源
+
+- 第 1、12 話片末的〈天才のプレイリスト〉與常規片頭共用一首歌。Hatchi 獨唱、Hatchi 與 Robby 合唱、TV Size、伴奏分列。〈銀河道中ヒザクリガー！〉列出串田アキラ的單曲、插曲話數及當地發行。第 8 話兩首饒舌連回原聲帶及香港數位第 44、45 軌。[動畫主題曲單曲](https://robihachi.jp/product/cd/op.php) · [動畫原聲帶](https://robihachi.jp/product/cd/soundtrack.php)
+- 第 7 話的音樂劇已由官網及授權分集確認；每段曲名與聲部仍待原片音樂掛字或逐段曲表。第 8 話饒舌的原播聲演與原聲帶混音仍待比對。[ABEMA 第7話](https://abema.tv/video/episode/481-1_s1_p7)
+- 本批用途：`robihachi-op-1`、`robihachi-ed-1`、`robihachi-ed-2`、`robihachi-in-1`、`robihachi-in-2`、`robihachi-in-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第616批　《星光王子 Shiny Seven Stars》逐話舞台插曲與角色錄音
+
+- 新增第 2–12 話舞台插曲等 14 個用途，另補 13 個既有用途的發行及平台。第 11 話〈プラトニックソード〉的原播雙聲、2019 日本單曲及香港發行的另一角色獨唱連回同曲。〈虹色CROWN〉原唱及伴奏分屬不同唱片。[動畫原聲帶](https://kinpri.com/sss/discography/detail.php?id=1016904) · [原聲帶發行公告](https://kinpri.com/sss/news/detail.php?id=1074288)
+- 〈Orange Flamingo〉兩份製作方資料對作曲署名有異，待唱片內頁可讀再補。
+- 本批用途：`king-of-prism-sss-2019-op-1`、`king-of-prism-sss-2019-ed-1`、`king-of-prism-sss-2019-ed-2`、`king-of-prism-sss-2019-ed-3`、`king-of-prism-sss-2019-ed-4`、`king-of-prism-sss-2019-ed-5`、`king-of-prism-sss-2019-ed-6`、`king-of-prism-sss-2019-ed-7`、`king-of-prism-sss-2019-ed-8`、`king-of-prism-sss-2019-ed-9`、`king-of-prism-sss-2019-ed-10`、`king-of-prism-sss-2019-ed-11`、`king-of-prism-sss-2019-in-1`、`king-of-prism-sss-2019-in-2`、`king-of-prism-sss-2019-in-3`、`king-of-prism-sss-2019-in-4`、`king-of-prism-sss-2019-in-5`、`king-of-prism-sss-2019-in-6`、`king-of-prism-sss-2019-in-7`、`king-of-prism-sss-2019-in-8`、`king-of-prism-sss-2019-in-9`、`king-of-prism-sss-2019-in-10`、`king-of-prism-sss-2019-in-11`、`king-of-prism-sss-2019-in-12`、`king-of-prism-sss-2019-in-13`、`king-of-prism-sss-2019-in-14`、`king-of-prism-sss-2019-in-15`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第617批　《消滅都市》逐話翻唱、角色歌曲及香港串流
+
+- 第 1、2 話及第 8、12 話的兩首花澤香菜翻唱分別連回角色錄音、TV size、伴奏及原唱。第 1 話〈恋の魔法〉是ギーク哼唱，第 10 話〈Welcome Wonder Land〉則為劇中播放的演唱會 DVD，由ユア獨唱。第 1 話片末及 FOD 先行第 2 話按官網勘誤列出編曲宮崎京一。[動畫官方更正](https://shoumetsutoshi-anime.com/news/archives/163/) · [官方第10話劇本](https://shoumetsutoshi-anime.com/story/scenario/10_scenario.pdf) · [翻唱單曲曲序](https://shoumetsutoshi-anime.com/products/cd/coversong.php)
+- ギーク哼唱版本是否獨立發行，待唱片或權利方逐軌資料確認。
+- 本批用途：`shoumetsu-toshi-op-1`、`shoumetsu-toshi-ed-1`、`shoumetsu-toshi-ed-2`、`shoumetsu-toshi-ed-3`、`shoumetsu-toshi-in-1`、`shoumetsu-toshi-in-2`、`shoumetsu-toshi-in-3`、`shoumetsu-toshi-in-4`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第618批　《八月的棒球甜心》日本 TV 原播及第13話新作、《我們真的學不來！》第一季
+
+- 《八月的棒球甜心》2019 原播第 12 話於 7 月播出，比賽中用〈世界でいちばん熱い夏〉；2021 年 9 月新增播出的第 13 話片尾為〈IENAI〉。《我們真的學不來！》第一季 13 話的 OP、ED 由三人組 Study 演唱。日本 iTunes 有標價的六首曲目標作數位下載，香港獨立曲目仍待適用的正版連結。
+- 2020 年 Re:fine 版的輪替曲另按該版逐話核對。
+- 本批用途：`hachigatsu-no-cinderella-nine-op-1`、`hachigatsu-no-cinderella-nine-ed-1`、`hachigatsu-no-cinderella-nine-ed-2`、`hachigatsu-no-cinderella-nine-in-1`、`bokutachi-wa-benkyou-ga-dekinai-1st-season-op-1`、`bokutachi-wa-benkyou-ga-dekinai-1st-season-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第619批　《深夜的超自然公務員》與《BAKUMATSUクライシス》的日本原播及唱片版本
+
+- 兩部各 12 話。前作第 7 話有分集曲表確認兩首主題曲；第 13 話為漫畫限定 DVD，第 14、15 話先在ひかりTV配信。後作第 12 話在 6 月 20 日節目日 26:00 播出。四首主題曲分列 TV 版、伴奏、另行編曲與各地區發行。[動畫公告](https://occultkoumuin.com/news.html) · [限定版 DVD](https://www.kadokawa.co.jp/product/321901000389/) · [STUDIO DEEN 終話公告](https://www.deen.co.jp/news/20190618-3)
+- 兩作首末話的實際片頭與片尾位置仍待授權分集完整掛字。福山潤動畫盤的 TV edit 實體曲序有不同記錄，待唱片內頁核實。
+- 本批用途：`mayonaka-no-occult-koumuin-op-1`、`mayonaka-no-occult-koumuin-ed-1`、`bakumatsu-crisis-op-1`、`bakumatsu-crisis-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第620批　《拾又之國》與《叛逆性百萬亞瑟王》第二季的日本 TV 用曲及不同錄音
+
+- 《拾又之國》的日本電視動畫由 studioぴえろ+ 製作，TOKYO MX 播出全 13 話，Netflix 香港列出正式繁中片名。〈Dash&Daaash!!〉有單曲版、伴奏與先行 TV Size；〈The Key〉日本單曲第 4 軌為專供動畫片尾的剪輯。[動畫製作方](https://pierrot.jp/archive/2015/tv10_39.html) · [香港授權片名](https://www.netflix.com/hk/title/81019771) · [片尾唱片](https://www.teichiku.co.jp/artist/a-flood-of-circle/discography/TECI-678.html)
+- 《叛逆性百萬亞瑟王》第二季第 11–22 話的常規主題曲與第 23 話的片末、插曲各自登記。〈OPEN THE WORLDS〉兩個用途連回同曲；〈PEARLY×PARTY〉列六人原唱及 ORESAMA 的 Funkapop 版與伴奏。[權利方原播公告](https://prtimes.jp/main/html/rd/p/000000190.000031422.html) · [逐話曲表](https://www.mau2.com/anime/hangyakuseimillionarthur-2) · [ORESAMA 唱片](https://www.orsm.jp/discography/open-the-worlds/)
+- 本批用途：`gunjou-no-magmel-op-1`、`gunjou-no-magmel-ed-1`、`hangyakusei-million-arthur-2-2019-op-1`、`hangyakusei-million-arthur-2-2019-ed-1`、`hangyakusei-million-arthur-2-2019-ed-2`、`hangyakusei-million-arthur-2-2019-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第621批　《Fairy gone》兩季的主題曲、逐話插曲與香港音源
+
+- 前後季度分別有 11 及 6 項具官方分話影片的插曲。第 10 話沒有片頭曲。香港的四首 TV size 只供付費下載，另列可串流錄音與日本發行。[音樂團隊逐話資料](https://knowname.jp/musicvideo/fairygone) · [官方唱片](https://www.fairygone.com/music/)
+- 第 24 話的跨季重用待取得原版片末署名或權利方說明。〈Flicker〉及〈Bring the light〉作曲、編曲的公開登記有出入，待權利方釐清。[製作名單](https://www.verygoo.jp/works/202003-201904.php)
+- 本批用途：`fairy-gone-op-1`、`fairy-gone-ed-1`、`fairy-gone-in-1`、`fairy-gone-in-2`、`fairy-gone-in-3`、`fairy-gone-in-4`、`fairy-gone-in-5`、`fairy-gone-in-6`、`fairy-gone-in-7`、`fairy-gone-in-8`、`fairy-gone-in-9`、`fairy-gone-in-10`、`fairy-gone-in-11`、`fairy-gone-2-op-1`、`fairy-gone-2-ed-1`、`fairy-gone-2-in-1`、`fairy-gone-2-in-2`、`fairy-gone-2-in-3`、`fairy-gone-2-in-4`、`fairy-gone-2-in-5`、`fairy-gone-2-in-6`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。

@@ -32582,100 +32582,3424 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
 ],
   },
   {
-    anilistId: 108891,
-    slug: "kono-oto-tomare-2",
-    startDate: "2019-10-06",
-    titleJa: "この音とまれ！2",
-    titleZhHant: "一弦定音！第二季",
-    titleRomaji: "Kono Oto Tomare! 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108891-RTZQkwjWsFi9.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108891-C3mfowQMhxma.jpg",
-    broadcastLabel: "2019年第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對；第1部分另計。",
-    officialSiteUrl: "https://www.konooto-anime.jp/",
-    animeThemesUrl: "https://animethemes.moe/anime/kono_oto_tomare_2nd_season",
-    themes: [
+    "anilistId": 108891,
+    "slug": "kono-oto-tomare-2",
+    "startDate": "2019-10-06",
+    "titleJa": "この音とまれ！ 第2クール",
+    "titleZhHant": "一弦定音！第二季",
+    "titleRomaji": "Kono Oto Tomare! 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108891-RTZQkwjWsFi9.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/108891-C3mfowQMhxma.jpg",
+    "broadcastLabel": "第2季度共13話，各約24分鐘。TOKYO MX1與BS11自10月5日週六25:00 JST播出（曆日10月6日01:00），FOD同步。連續編號第14–26話，至12月28日深夜（曆日12月29日）。",
+    "officialSiteUrl": "https://www.konooto-anime.jp/",
+    "animeThemesUrl": "https://animethemes.moe/anime/kono_oto_tomare_2nd_season",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Harmony",
-        artistDisplayName: "蒼井翔太",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本期日本TV版別身分與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
-    "resumeWhen": "待有可公開查閱的新資料，能確認第2部分（第2cour）的官方日本TV版別，並與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1部分的資料不作本期證據。",
-    "checkedAt": "2026-10-31"
-  }
-],
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Harmony",
+        "artistDisplayName": "蒼井翔太",
+        "id": "kono-oto-tomare-2-op-1",
+        "songId": "kono-oto-tomare-2-op-1-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2",
+              "https://cal.syoboi.jp/tid/5436",
+              "https://www.konooto-anime.jp/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2",
+              "https://cal.syoboi.jp/tid/5436",
+              "https://www.konooto-anime.jp/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2",
+              "https://cal.syoboi.jp/tid/5436"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2",
+              "https://itunes.apple.com/lookup?id=1480322353&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicm-1981"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=op2",
+              "https://itunes.apple.com/lookup?id=1480322353&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicm-91981"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1480322353&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1480322353"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1480322353&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1480322354"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427811707",
+              "https://api.deezer.com/track/2230897267"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-427811707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427811707",
+              "https://api.deezer.com/track/2230897267"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/2230897267"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-2-op-1-song-vocal",
+            "title": "Harmony（蒼井翔太）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kicm-1981",
+            "title": "Harmony",
+            "artistDisplayName": "蒼井翔太",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "日本通常盤",
+            "tracks": [
+              {
+                "title": "Harmony",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "KICM-1981"
+          },
+          {
+            "id": "kicm-91981",
+            "title": "Harmony",
+            "artistDisplayName": "蒼井翔太",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "日本限定盤",
+            "tracks": [
+              {
+                "title": "Harmony",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "KICM-91981"
+          },
+          {
+            "id": "apple-jp-1480322353",
+            "title": "Harmony - Single",
+            "artistDisplayName": "蒼井翔太",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Harmony",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-427811707",
+            "title": "Harmony",
+            "artistDisplayName": "蒼井翔太",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Harmony",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-op-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1480322354",
+            "region": "JP",
+            "label": "日本｜Harmony",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-op-1-song-vocal",
+            "releaseId": "apple-jp-1480322353"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/2230897267",
+            "region": "HK",
+            "label": "香港｜Harmony",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-op-1-song-vocal",
+            "releaseId": "deezer-hk-427811707"
+          }
+        ],
+        "sources": [
+          {
+            "label": "動畫官網：指定樂曲演唱或演奏者、發行版本與曲目資料",
+            "url": "https://www.konooto-anime.jp/music/detail.php?id=op2",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "日本原播記錄：該季度的片頭片尾、逐話輪替及作者",
+            "url": "https://cal.syoboi.jp/tid/5436",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫官網：播出版配信、比賽演奏、音樂發行與第26話片頭映像",
+            "url": "https://www.konooto-anime.jp/news/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1480322353&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/427811707",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/2230897267",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "releaseDate": "2019-10-02",
+        "credits": [
+          {
+            "name": "蒼井翔太",
+            "role": "vocals"
+          },
+          {
+            "name": "永井正道",
+            "role": "lyrics"
+          },
+          {
+            "name": "永井正道",
+            "role": "composition"
+          },
+          {
+            "name": "永井正道",
+            "role": "arrangement"
+          },
+          {
+            "name": "菊谷知樹",
+            "role": "arrangement"
+          }
+        ],
+        "usageLabel": "第15–26話片頭；第26話另有片頭畫面版本。永井正道編曲，菊谷知樹編寫弦樂。",
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "第14話分集記錄列本曲於片尾。",
+            "resumeWhen": "取得可播放的正版第14話片尾或權利方逐話曲表後，再建立片尾用途。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Rainbow",
-        artistDisplayName: "内田雄馬",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "本期日本TV版別身分與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
-    "resumeWhen": "待有可公開查閱的新資料，能確認第2部分（第2cour）的官方日本TV版別，並與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；第1部分的資料不作本期證據。",
-    "checkedAt": "2026-10-31"
-  }
-],
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Rainbow",
+        "artistDisplayName": "内田雄馬",
+        "id": "kono-oto-tomare-2-ed-1",
+        "songId": "kono-oto-tomare-2-ed-1-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+              "https://cal.syoboi.jp/tid/5436",
+              "https://www.konooto-anime.jp/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+              "https://cal.syoboi.jp/tid/5436",
+              "https://www.konooto-anime.jp/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+              "https://cal.syoboi.jp/tid/5436"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicm-1989"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicm-91989"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1485366538"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1485366539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427877707",
+              "https://api.deezer.com/track/2231112097"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-427877707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427877707",
+              "https://api.deezer.com/track/2231112097"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/2231112097"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-ed-1-song-off-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1485366542"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427877707",
+              "https://api.deezer.com/track/2231112127"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-427877707"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/427877707",
+              "https://api.deezer.com/track/2231112127"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/2231112127"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=gZhqYkVBYRk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "gZhqYkVBYRk"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-2-ed-1-song-vocal",
+            "title": "Rainbow（内田雄馬）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kono-oto-tomare-2-ed-1-song-off-vocal",
+            "title": "Rainbow（off vocal ver.）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kicm-1989",
+            "title": "Rainbow",
+            "artistDisplayName": "内田雄馬",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "edition": "日本通常盤",
+            "tracks": [
+              {
+                "title": "Rainbow",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "KICM-1989"
+          },
+          {
+            "id": "kicm-91989",
+            "title": "Rainbow",
+            "artistDisplayName": "内田雄馬",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "edition": "日本限定盤",
+            "tracks": [
+              {
+                "title": "Rainbow",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "KICM-91989"
+          },
+          {
+            "id": "apple-jp-1485366538",
+            "title": "Rainbow - EP",
+            "artistDisplayName": "内田雄馬",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Rainbow",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-vocal"
+              },
+              {
+                "title": "Rainbow (off vocal ver.)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-off-vocal"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-427877707",
+            "title": "Rainbow",
+            "artistDisplayName": "内田雄馬",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Rainbow",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-vocal"
+              },
+              {
+                "title": "Rainbow off vocal ver.",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "kono-oto-tomare-2-ed-1-song-off-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1485366539",
+            "region": "JP",
+            "label": "日本｜Rainbow",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-ed-1-song-vocal",
+            "releaseId": "apple-jp-1485366538"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/2231112097",
+            "region": "HK",
+            "label": "香港｜Rainbow",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-ed-1-song-vocal",
+            "releaseId": "deezer-hk-427877707"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1485366542",
+            "region": "JP",
+            "label": "日本｜Rainbow (off vocal ver.)",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-ed-1-song-off-vocal",
+            "releaseId": "apple-jp-1485366538"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/2231112127",
+            "region": "HK",
+            "label": "香港｜Rainbow off vocal ver.",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-ed-1-song-off-vocal",
+            "releaseId": "deezer-hk-427877707"
+          }
+        ],
+        "sources": [
+          {
+            "label": "動畫官網：指定樂曲演唱或演奏者、發行版本與曲目資料",
+            "url": "https://www.konooto-anime.jp/music/detail.php?id=ed2",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "日本原播記錄：該季度的片頭片尾、逐話輪替及作者",
+            "url": "https://cal.syoboi.jp/tid/5436",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫官網：播出版配信、比賽演奏、音樂發行與第26話片頭映像",
+            "url": "https://www.konooto-anime.jp/news/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1485366538&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/427877707",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/2231112097",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/2231112127",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=gZhqYkVBYRk",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "releaseDate": "2019-11-27",
+        "credits": [
+          {
+            "name": "内田雄馬",
+            "role": "vocals"
+          },
+          {
+            "name": "SHOW",
+            "role": "lyrics"
+          },
+          {
+            "name": "SHOW",
+            "role": "composition"
+          },
+          {
+            "name": "Mitsu.J",
+            "role": "composition"
+          },
+          {
+            "name": "Mitsu.J",
+            "role": "arrangement"
+          }
+        ],
+        "usageLabel": "第15–25話片尾。",
+        "youtubeUrl": "https://www.youtube.com/watch?v=gZhqYkVBYRk"
       },
+      {
+        "id": "kono-oto-tomare-2-in-1",
+        "songId": "kono-oto-tomare-op-1-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 1,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode16/",
+              "https://www.youtube.com/watch?v=LW_AobYBauk",
+              "https://twitter.com/konooto_anime/status/1226793307222630400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode16/",
+              "https://www.youtube.com/watch?v=LW_AobYBauk",
+              "https://twitter.com/konooto_anime/status/1226793307222630400"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://webnewtype.com/report/artist/224361.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-op-1-song-koto"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.konooto-anime.jp/music/detail.php?id=inst2",
+              "https://webnewtype.com/report/artist/224361.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-op-1-song-koto"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483739805&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1483739805"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483739805&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1483739806"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=LW_AobYBauk"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "LW_AobYBauk"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302261"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942311"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942311"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942311"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7xBGHqFXGsihLnYlOY9fk9"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-op-1-song-koto",
+            "title": "Tone（時瀬高等学校箏曲部）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "橋本みぎわ",
+                "role": "arrangement"
+              },
+              {
+                "name": "木村麻耶",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "熊代七恵",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "柴田眞弓",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "橋本みぎわ",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "平田紀子",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "光原大樹",
+                "role": "other",
+                "groupName": "箏演奏"
+              },
+              {
+                "name": "渡邊香澄",
+                "role": "other",
+                "groupName": "箏演奏"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-jp-1483739805",
+            "title": "Tone(アニメ「この音とまれ!」作中曲) - Single",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-10-30",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Tone(アニメ「この音とまれ!」作中曲)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "kono-oto-tomare-op-1-song-koto"
+              }
+            ]
+          },
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "Tone",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "kono-oto-tomare-op-1-song-koto"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Tone",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "kono-oto-tomare-op-1-song-koto"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Tone",
+                "disc": 1,
+                "position": 8,
+                "recordingId": "kono-oto-tomare-op-1-song-koto"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/song/1483739806",
+            "region": "JP",
+            "label": "日本｜Tone(アニメ「この音とまれ!」作中曲)",
+            "linkType": "digital_purchase",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-op-1-song-koto",
+            "releaseId": "apple-jp-1483739805"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302261",
+            "region": "JP",
+            "label": "日本｜Tone",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-op-1-song-koto",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942311",
+            "region": "HK",
+            "label": "香港｜Tone",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-op-1-song-koto",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/7xBGHqFXGsihLnYlOY9fk9",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜Tone",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-op-1-song-koto"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode16/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=LW_AobYBauk",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫製作方播後公告：分集演奏或演唱名義",
+            "url": "https://twitter.com/konooto_anime/status/1226793307222630400",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "橋本みぎわ訪談：實際作曲、劇中演奏及東山奈央的地歌",
+            "url": "https://webnewtype.com/report/artist/224361.html",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2017年漫畫企劃錄音、角色名義與曲序",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫官網：指定樂曲演唱或演奏者、發行版本與曲目資料",
+            "url": "https://www.konooto-anime.jp/music/detail.php?id=inst2",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1483739805&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942311",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "Tone",
+        "artistDisplayName": "時瀬高等学校箏曲部",
+        "usageLabel": "第16話文化祭，時瀬高中箏曲部以箏合奏演奏第一季度片頭曲。",
+        "credits": [
+          {
+            "name": "園田健太郎",
+            "role": "composition"
+          },
+          {
+            "name": "橋本みぎわ",
+            "role": "arrangement"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=LW_AobYBauk"
+      },
+      {
+        "id": "kono-oto-tomare-2-in-2",
+        "songId": "kono-oto-tomare-2-in-2-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 2,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+              "https://www.youtube.com/watch?v=QNpWmS4J4gs",
+              "https://twitter.com/konooto_anime/status/1193203169951543299"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+              "https://www.youtube.com/watch?v=QNpWmS4J4gs",
+              "https://twitter.com/konooto_anime/status/1193203169951543299"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://webnewtype.com/report/artist/224361.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+              "https://tower.jp/item/5004087"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-2-song-tv-album"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QNpWmS4J4gs"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "QNpWmS4J4gs"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302262"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942321"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942321"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942321"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0nd85bJjEVmsRdzhq4vBuS"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-2-in-2-song-tv-album",
+            "title": "水の変態（堂島晶）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "水の変態",
+                "disc": 1,
+                "position": 9,
+                "recordingId": "kono-oto-tomare-2-in-2-song-tv-album"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "水の変態",
+                "disc": 1,
+                "position": 9,
+                "recordingId": "kono-oto-tomare-2-in-2-song-tv-album"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "水の変態",
+                "disc": 1,
+                "position": 9,
+                "recordingId": "kono-oto-tomare-2-in-2-song-tv-album"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302262",
+            "region": "JP",
+            "label": "日本｜水の変態",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-2-song-tv-album",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942321",
+            "region": "HK",
+            "label": "香港｜水の変態",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-2-song-tv-album",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/0nd85bJjEVmsRdzhq4vBuS",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜水の変態",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-2-song-tv-album"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=QNpWmS4J4gs",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫製作方播後公告：分集演奏或演唱名義",
+            "url": "https://twitter.com/konooto_anime/status/1193203169951543299",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "橋本みぎわ訪談：實際作曲、劇中演奏及東山奈央的地歌",
+            "url": "https://webnewtype.com/report/artist/224361.html",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2017年漫畫企劃錄音、角色名義與曲序",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Tower Records：動畫版單曲演奏名義與作曲署名",
+            "url": "https://tower.jp/item/5004087",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942321",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "水の変態",
+        "artistDisplayName": "堂島晶",
+        "usageLabel": "第19話回憶全國比賽，堂島晶演奏並唱地歌，歌聲由東山奈央擔任。",
+        "credits": [
+          {
+            "name": "宮城道雄",
+            "role": "composition"
+          },
+          {
+            "name": "東山奈央",
+            "role": "vocals"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=QNpWmS4J4gs"
+      },
+      {
+        "id": "kono-oto-tomare-2-in-3",
+        "songId": "kono-oto-tomare-tenkyu-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 3,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+              "https://www.youtube.com/watch?v=HC-WI4XLxzg",
+              "https://www.yokoshima-shimashima.com/entry/2019/11/11/215831"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+              "https://www.youtube.com/watch?v=HC-WI4XLxzg",
+              "https://www.yokoshima-shimashima.com/entry/2019/11/11/215831"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-tenkyu-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://webnewtype.com/report/artist/224361.html",
+              "https://www.onbunso.or.jp/wp-content/uploads/2022/08/88_d001_file.pdf"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-tenkyu-song-satowa-solo"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=HC-WI4XLxzg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "HC-WI4XLxzg"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302265"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942331"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942331"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942331"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/7Ai1roNPIivkIPyGDnW58x"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-tenkyu-song-satowa-solo",
+            "title": "無題 ～天泣原曲～（鳳月さとわ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "無題 ～天泣原曲～",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "無題 ～天泣原曲～",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "無題 ～天泣原曲～",
+                "disc": 1,
+                "position": 10,
+                "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302265",
+            "region": "JP",
+            "label": "日本｜無題 ～天泣原曲～",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942331",
+            "region": "HK",
+            "label": "香港｜無題 ～天泣原曲～",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/7Ai1roNPIivkIPyGDnW58x",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜無題 ～天泣原曲～",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-satowa-solo"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode19/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=HC-WI4XLxzg",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "第19話原播觀賞記錄：比賽回憶中的堂島晶、鳳月さとわ演奏",
+            "url": "https://www.yokoshima-shimashima.com/entry/2019/11/11/215831",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "橋本みぎわ訪談：實際作曲、劇中演奏及東山奈央的地歌",
+            "url": "https://webnewtype.com/report/artist/224361.html",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "二宮町與動畫合作演奏會：橋本みぎわ的動畫樂曲與演奏履歷",
+            "url": "https://www.onbunso.or.jp/wp-content/uploads/2022/08/88_d001_file.pdf",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942331",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "無題 ～天泣原曲～",
+        "artistDisplayName": "鳳月さとわ",
+        "usageLabel": "第19話的比賽回憶。鳳月さとわ在比賽中獨奏的自作曲，後來改編為時瀬合奏的〈天泣〉。",
+        "credits": [
+          {
+            "name": "橋本みぎわ",
+            "role": "composition"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=HC-WI4XLxzg"
+      },
+      {
+        "id": "kono-oto-tomare-2-in-4",
+        "songId": "kono-oto-tomare-2-in-4-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 4,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode23/",
+              "https://www.youtube.com/watch?v=0OgyDsoVkHA",
+              "https://twitter.com/konooto_anime/status/1229698716300242944"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode23/",
+              "https://www.youtube.com/watch?v=0OgyDsoVkHA",
+              "https://twitter.com/konooto_anime/status/1229698716300242944"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+              "https://tower.jp/item/5004087"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-4-song-tv-album"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=0OgyDsoVkHA"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "0OgyDsoVkHA"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302266"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942341"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942341"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942341"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0FwXuhbgw59mg3zO7XtP1N"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-2-in-4-song-tv-album",
+            "title": "三つのパラフレーズ（姫坂女学院箏曲部）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "三つのパラフレーズ",
+                "disc": 1,
+                "position": 11,
+                "recordingId": "kono-oto-tomare-2-in-4-song-tv-album"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "三つのパラフレーズ",
+                "disc": 1,
+                "position": 11,
+                "recordingId": "kono-oto-tomare-2-in-4-song-tv-album"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "三つのパラフレーズ",
+                "disc": 1,
+                "position": 11,
+                "recordingId": "kono-oto-tomare-2-in-4-song-tv-album"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302266",
+            "region": "JP",
+            "label": "日本｜三つのパラフレーズ",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-4-song-tv-album",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942341",
+            "region": "HK",
+            "label": "香港｜三つのパラフレーズ",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-4-song-tv-album",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/0FwXuhbgw59mg3zO7XtP1N",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜三つのパラフレーズ",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-4-song-tv-album"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode23/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=0OgyDsoVkHA",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "動畫製作方播後公告：分集演奏或演唱名義",
+            "url": "https://twitter.com/konooto_anime/status/1229698716300242944",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2017年漫畫企劃錄音、角色名義與曲序",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Tower Records：動畫版單曲演奏名義與作曲署名",
+            "url": "https://tower.jp/item/5004087",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942341",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "三つのパラフレーズ",
+        "artistDisplayName": "姫坂女学院箏曲部",
+        "usageLabel": "第23話神奈川縣預選，姫坂女學院箏曲部演奏。",
+        "credits": [
+          {
+            "name": "沢井忠夫",
+            "role": "composition"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=0OgyDsoVkHA"
+      },
+      {
+        "id": "kono-oto-tomare-2-in-5",
+        "songId": "kono-oto-tomare-2-in-5-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 5,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode24/",
+              "https://www.youtube.com/watch?v=98bXoLEPe1k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode24/",
+              "https://www.youtube.com/watch?v=98bXoLEPe1k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-5-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-5-song-tv-album"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=98bXoLEPe1k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "98bXoLEPe1k"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302267"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942351"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942351"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942351"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/3nnS54FWzNuty87O1mBnNx"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicc-1349"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1207999193"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1207999291"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-2-in-5-song-tv-album",
+            "title": "堅香子（珀音高等学校箏曲部）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "堅香子",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kono-oto-tomare-2-in-5-song-tv-album"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "堅香子",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kono-oto-tomare-2-in-5-song-tv-album"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "堅香子",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kono-oto-tomare-2-in-5-song-tv-album"
+              }
+            ]
+          },
+          {
+            "id": "kicc-1349",
+            "title": "この音とまれ！～時瀬高等学校箏曲部～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2017-03-08",
+              "precision": "day"
+            },
+            "edition": "日本漫畫企劃CD",
+            "tracks": [
+              {
+                "title": "堅香子",
+                "disc": 1,
+                "position": 11
+              }
+            ],
+            "catalogNumber": "KICC-1349"
+          },
+          {
+            "id": "apple-jp-1207999193",
+            "title": "この音とまれ!~時瀬高等学校箏曲部~",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2017-03-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "堅香子",
+                "disc": 1,
+                "position": 11
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302267",
+            "region": "JP",
+            "label": "日本｜堅香子",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-5-song-tv-album",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942351",
+            "region": "HK",
+            "label": "香港｜堅香子",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-5-song-tv-album",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/3nnS54FWzNuty87O1mBnNx",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜堅香子",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-2-in-5-song-tv-album"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1207999291",
+            "region": "JP",
+            "label": "日本｜堅香子",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-jp-1207999193"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode24/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=98bXoLEPe1k",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942351",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2017年漫畫企劃錄音、角色名義與曲序",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "堅香子",
+        "artistDisplayName": "珀音高等学校箏曲部",
+        "usageLabel": "第24話神奈川縣預選，珀音高中箏曲部演奏。",
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "唱片列出劇中作曲人物東条雅。",
+            "resumeWhen": "待出版樂譜或製作方逐曲標明現實作曲者，再補創作署名。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=98bXoLEPe1k"
+      },
+      {
+        "id": "kono-oto-tomare-2-in-6",
+        "songId": "kono-oto-tomare-tenkyu-song",
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "type": "IN",
+        "sequence": 6,
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode25/",
+              "https://www.youtube.com/watch?v=u5LDoMHlqHw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-2-in-6"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+              "https://www.tvguide.or.jp/db/anime/konooto/season1/episode25/",
+              "https://www.youtube.com/watch?v=u5LDoMHlqHw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-tenkyu-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://webnewtype.com/report/artist/224361.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+              "https://news.kingrecords.co.jp/2024/12/34628/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-tenkyu-song-tokise-ensemble"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=u5LDoMHlqHw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "u5LDoMHlqHw"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kica-2572"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1783301980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1783302268"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942361"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-679359691"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/679359691",
+              "https://api.deezer.com/track/3125942361"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/3125942361"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/739zzpucZvXzVCOMaZ3P6E"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+              "https://www.kingrecords.co.jp/cs/g/gKICA-2572/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kono-oto-tomare-tenkyu-song-manga-cd"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICC-1349/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicc-1349"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1207999193"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1207999295"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kono-oto-tomare-tenkyu-song-tokise-ensemble",
+            "title": "天泣（時瀬高等学校箏曲部）",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "kono-oto-tomare-tenkyu-song-manga-cd",
+            "title": "天泣（2017漫畫企劃錄音）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kica-2572",
+            "title": "TVアニメ「この音とまれ！」～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本動畫演奏CD",
+            "tracks": [
+              {
+                "title": "天泣",
+                "disc": 1,
+                "position": 13,
+                "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble"
+              }
+            ],
+            "catalogNumber": "KICA-2572"
+          },
+          {
+            "id": "apple-jp-1783301980",
+            "title": "TV Animation [Kono Oto Tomare!] -Boku Tachi no Oto-",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "天泣",
+                "disc": 1,
+                "position": 13,
+                "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-679359691",
+            "title": "TVアニメ『この音とまれ!』 ～僕たちの音～",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "HK",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "天泣",
+                "disc": 1,
+                "position": 13,
+                "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble"
+              }
+            ]
+          },
+          {
+            "id": "kicc-1349",
+            "title": "この音とまれ！～時瀬高等学校箏曲部～",
+            "artistDisplayName": "時瀬高等学校箏曲部ほか",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2017-03-08",
+              "precision": "day"
+            },
+            "edition": "日本漫畫企劃CD",
+            "tracks": [
+              {
+                "title": "天泣",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kono-oto-tomare-tenkyu-song-manga-cd"
+              }
+            ],
+            "catalogNumber": "KICC-1349"
+          },
+          {
+            "id": "apple-jp-1207999193",
+            "title": "この音とまれ!~時瀬高等学校箏曲部~",
+            "artistDisplayName": "時瀬高等学校箏曲部",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2017-03-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "天泣",
+                "disc": 1,
+                "position": 12,
+                "recordingId": "kono-oto-tomare-tenkyu-song-manga-cd"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1783302268",
+            "region": "JP",
+            "label": "日本｜天泣",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble",
+            "releaseId": "apple-jp-1783301980"
+          },
+          {
+            "platform": "Deezer",
+            "url": "https://www.deezer.com/track/3125942361",
+            "region": "HK",
+            "label": "香港｜天泣",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble",
+            "releaseId": "deezer-hk-679359691"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/739zzpucZvXzVCOMaZ3P6E",
+            "region": "GLOBAL",
+            "label": "動畫演奏專輯｜天泣",
+            "linkType": "direct_track",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-tokise-ensemble"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1207999295",
+            "region": "JP",
+            "label": "日本｜天泣",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "kono-oto-tomare-tenkyu-song-manga-cd",
+            "releaseId": "apple-jp-1207999193"
+          }
+        ],
+        "sources": [
+          {
+            "label": "KING RECORDS：動畫演奏、13首曲序與指定新錄音",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICA-2572/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+            "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "TVガイド：該話的作品資訊與劇情交叉核對",
+            "url": "https://www.tvguide.or.jp/db/anime/konooto/season1/episode25/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "YouTube官方：頻道、影像名稱與演奏名義",
+            "url": "https://www.youtube.com/watch?v=u5LDoMHlqHw",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "橋本みぎわ訪談：實際作曲、劇中演奏及東山奈央的地歌",
+            "url": "https://webnewtype.com/report/artist/224361.html",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2017年漫畫企劃錄音、角色名義與曲序",
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICC-1349/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "KING RECORDS：2024年動畫箏曲開始串流與演奏者訪談",
+            "url": "https://news.kingrecords.co.jp/2024/12/34628/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1783301980&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer發行資料：King Records專輯、日期與曲目",
+            "url": "https://api.deezer.com/album/679359691",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer曲目資料：播放國家、曲序與演奏者",
+            "url": "https://api.deezer.com/track/3125942361",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Spotify：King Records動畫音樂專輯、曲序與演奏團體",
+            "url": "https://open.spotify.com/album/4phfh5GtFAaxA5x6vh4pjx",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple日本：指定發行與正式曲目、曲序及播放狀態",
+            "url": "https://itunes.apple.com/lookup?id=1207999193&country=jp&entity=song",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "titleJa": "天泣",
+        "artistDisplayName": "時瀬高等学校箏曲部",
+        "usageLabel": "第25話神奈川縣預選，時瀬高中箏曲部演奏由さとわ獨奏原曲發展成的合奏版。",
+        "credits": [
+          {
+            "name": "橋本みぎわ",
+            "role": "composition"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=u5LDoMHlqHw"
+      }
     ],
-"seasonIds": [
-  "2019-fall"
-],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://www.konooto-anime.jp/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/108891",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/kono_oto_tomare_2nd_season",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  }
-],
+    "seasonIds": [
+      "2019-fall"
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.konooto-anime.jp/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/108891",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/kono_oto_tomare_2nd_season",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "動畫官網：原播與FOD週六播出時間",
+        "url": "https://www.konooto-anime.jp/onair/",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "label": "日本原播記錄：該季度的片頭片尾、逐話輪替及作者",
+        "url": "https://cal.syoboi.jp/tid/5436",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "label": "萬代頻道：第2季度全13話各24分鐘、連續集數與演奏內容",
+        "url": "https://www.b-ch.com/titles/6840/?ttl_c=6840",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "label": "bilibili 港澳台版：第二季度正式繁中名稱、連續集數與話數",
+        "url": "https://www.bilibili.com/bangumi/play/ss28583",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-20",
+    "broadcastTimeJst": "25:00",
+    "editorialWeekday": 6
   },
   {
     anilistId: 110229,
@@ -38997,107 +42321,3940 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
     "metadataVerifiedAt": "2026-11-16"
   },
   {
-    anilistId: 109562,
-    slug: "fairy-gone-2",
-    startDate: "2019-10-07",
-    titleJa: "フェアリーゴーン 2",
-    titleZhHant: "Fairy Gone 第二季",
-    titleRomaji: "Fairy Gone 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109562-IA0G6Hce2VGM.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109562-2vHcq0CaeoLi.jpg",
-    broadcastLabel: "2019年10月第2部分（第2cour）有日本TV播出的交叉資料，仍待同版官方身分與完整常規節目時段或正版單話本體時長相互核對；4月第1部分另計。",
-    officialSiteUrl: "https://www.fairygone.com/",
-    animeThemesUrl: "https://animethemes.moe/anime/fairy_gone_2nd_season",
-    themes: [
+    "anilistId": 109562,
+    "slug": "fairy-gone-2",
+    "startDate": "2019-10-06",
+    "titleJa": "フェアリーゴーン 2",
+    "titleZhHant": "Fairy Gone 第二季",
+    "titleRomaji": "Fairy Gone 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109562-IA0G6Hce2VGM.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109562-2vHcq0CaeoLi.jpg",
+    "broadcastLabel": "第13–24話。TOKYO MX、BS11、AT-X 自2019年10月6日節目表星期日24:00首播（曆日10月7日0時）。TOKYO MX 時段為00:00–00:30。dTV、Amazon Prime Video 與首播同步。",
+    "officialSiteUrl": "https://www.fairygone.com/",
+    "animeThemesUrl": "https://animethemes.moe/anime/fairy_gone_2nd_season",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "STILL STANDING",
-        artistDisplayName: "(K)NoW_NAME",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "2019年10月第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
-    "resumeWhen": "待有可公開查閱的新資料，能將2019年10月第2部分的官方日本TV版別，與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；4月第1部分及其他配信版本的資料不作本部分證據。",
-    "checkedAt": "2026-10-31"
-  }
-],
+        "id": "fairy-gone-2-op-1",
+        "songId": "fairy-gone-2-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "STILL STANDING",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第13–16、18、22–24話片頭。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481421750",
+            "label": "Apple Music 香港｜STILL STANDING",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481421754",
+            "label": "Apple Music 香港｜STILL STANDING (Instrumental)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481420150",
+            "label": "iTunes Store 香港｜TV size 下載商品：Sill Standing (TV size)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FHGxjSNFEDo",
+            "label": "TOHO animation チャンネル｜第2クールノンクレジットオープニング映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thcs-60252"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481421748"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421750"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421750"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421750"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421750",
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-op-1-song-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421754"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421754"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421754"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421754",
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481420144"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481420150"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481420150"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481420150"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481420150",
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-op-1-song-tv"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FHGxjSNFEDo",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "FHGxjSNFEDo"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "STILL STANDING｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481421750",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-op-1-song-vocal",
+            "releaseId": "apple-hk-1481421748"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "STILL STANDING (Instrumental)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481421754",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-op-1-song-instrumental",
+            "releaseId": "apple-hk-1481421748"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Sill Standing (TV size)｜香港付費下載",
+            "url": "https://music.apple.com/hk/song/1481420150",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-op-1-song-tv",
+            "releaseId": "apple-hk-1481420144"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "Ayaka Tachibana"
+          },
+          {
+            "role": "vocals",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "vocals",
+            "name": "AIJ"
+          },
+          {
+            "role": "lyrics",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "lyrics",
+            "name": "AIJ"
+          },
+          {
+            "role": "composition",
+            "name": "宮崎誠"
+          },
+          {
+            "role": "arrangement",
+            "name": "宮崎誠"
+          }
+        ],
+        "releases": [
+          {
+            "id": "thcs-60252",
+            "title": "STILL STANDING／Stay Gold",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "STILL STANDING",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "fairy-gone-2-op-1-song-vocal"
+              },
+              {
+                "title": "STILL STANDING (Instrumental)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "fairy-gone-2-op-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "THCS-60252"
+          },
+          {
+            "id": "apple-hk-1481421748",
+            "title": "TVアニメ『Fairy gone フェアリーゴーン』OP&ED THEME SONG「STILL STANDING/Stay Gold」 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "STILL STANDING",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "fairy-gone-2-op-1-song-vocal"
+              },
+              {
+                "title": "STILL STANDING (Instrumental)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "fairy-gone-2-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481420144",
+            "title": "TVアニメ『Fairy gone フェアリーゴーン』OP&ED THEME SONG「STILL STANDING/Stay Gold」TVsize - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-07",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Sill Standing (TV size)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "fairy-gone-2-op-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "releaseDate": "2019-10-16",
+        "recordings": [
+          {
+            "id": "fairy-gone-2-op-1-song-vocal",
+            "title": "STILL STANDING（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "fairy-gone-2-op-1-song-instrumental",
+            "title": "STILL STANDING（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "fairy-gone-2-op-1-song-tv",
+            "title": "STILL STANDING（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "versionLabel": "香港 Apple Music 的 TV size 曲目拼作〈Sill Standing〉，日本動畫及配信公告採〈STILL STANDING〉。",
+        "youtubeUrl": "https://www.youtube.com/watch?v=FHGxjSNFEDo"
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "Stay Gold",
-        artistDisplayName: "(K)NoW_NAME",
-"followUp": [
-  {
-    "fields": [
-      "basic_evidence"
-    ],
-    "note": "2019年10月第2部分（第2cour）的日本TV版別與完整常規節目時段或正版單話本體時長仍待核對，歌曲基本資料尚未完成核對。",
-    "resumeWhen": "待有可公開查閱的新資料，能將2019年10月第2部分的官方日本TV版別，與同版完整常規節目時段或正版單話本體時長相互對應後，再核對歌曲；4月第1部分及其他配信版本的資料不作本部分證據。",
-    "checkedAt": "2026-10-31"
-  }
-],
+        "id": "fairy-gone-2-ed-1",
+        "songId": "fairy-gone-2-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Stay Gold",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第13–24話片尾。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481421752",
+            "label": "Apple Music 香港｜Stay Gold",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481421755",
+            "label": "Apple Music 香港｜Stay Gold (Instrumental)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481420152",
+            "label": "iTunes Store 香港｜TV size 下載商品：Stay Gold (TV size)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=lTcZXc3yqwk",
+            "label": "TOHO animation チャンネル｜第2クール ノンクレジットエンディング映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thcs-60252"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481421748"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421752"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421752"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421752"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421752",
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-ed-1-song-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421755"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421755"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481421755"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481421755",
+              "https://itunes.apple.com/lookup?id=1481421748&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481420144"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481420152"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481420152"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481420152"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481420152",
+              "https://itunes.apple.com/lookup?id=1481420144&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-ed-1-song-tv"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=lTcZXc3yqwk",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lTcZXc3yqwk"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Stay Gold｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481421752",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-ed-1-song-vocal",
+            "releaseId": "apple-hk-1481421748"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Stay Gold (Instrumental)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481421755",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-ed-1-song-instrumental",
+            "releaseId": "apple-hk-1481421748"
+          },
+          {
+            "platform": "iTunes Store",
+            "label": "Stay Gold (TV size)｜香港付費下載",
+            "url": "https://music.apple.com/hk/song/1481420152",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-ed-1-song-tv",
+            "releaseId": "apple-hk-1481420144"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "Ayaka Tachibana"
+          },
+          {
+            "role": "lyrics",
+            "name": "ミズノゲンキ"
+          },
+          {
+            "role": "composition",
+            "name": "睦月周平"
+          },
+          {
+            "role": "arrangement",
+            "name": "睦月周平"
+          }
+        ],
+        "releases": [
+          {
+            "id": "thcs-60252",
+            "title": "STILL STANDING／Stay Gold",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Stay Gold",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "fairy-gone-2-ed-1-song-vocal"
+              },
+              {
+                "title": "Stay Gold (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "fairy-gone-2-ed-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "THCS-60252"
+          },
+          {
+            "id": "apple-hk-1481421748",
+            "title": "TVアニメ『Fairy gone フェアリーゴーン』OP&ED THEME SONG「STILL STANDING/Stay Gold」 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Stay Gold",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "fairy-gone-2-ed-1-song-vocal"
+              },
+              {
+                "title": "Stay Gold (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "fairy-gone-2-ed-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1481420144",
+            "title": "TVアニメ『Fairy gone フェアリーゴーン』OP&ED THEME SONG「STILL STANDING/Stay Gold」TVsize - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-07",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Stay Gold (TV size)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "fairy-gone-2-ed-1-song-tv"
+              }
+            ]
+          }
+        ],
+        "releaseDate": "2019-10-16",
+        "recordings": [
+          {
+            "id": "fairy-gone-2-ed-1-song-vocal",
+            "title": "Stay Gold（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "fairy-gone-2-ed-1-song-instrumental",
+            "title": "Stay Gold（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "fairy-gone-2-ed-1-song-tv",
+            "title": "Stay Gold（TV size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=lTcZXc3yqwk"
       },
+      {
+        "id": "fairy-gone-2-in-1",
+        "songId": "fairy-gone-2-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Flicker",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第14話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/276147/",
+            "label": "歌ネット｜單曲詞曲署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575942",
+            "label": "Apple Music 香港｜Flicker",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419226",
+            "label": "Apple Music 香港｜Flicker (TVアニメ「Fariy gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419105&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77351/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77353/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012597605/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YHcYOISwHRE",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第14話挿入歌「Flicker」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575942"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575942"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575942"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575942",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419105&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419105"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419226"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419105&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419226"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77351/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77351/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77351/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77353/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77353/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77353/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012597605/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012597605/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012597605/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YHcYOISwHRE",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "YHcYOISwHRE"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Flicker｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575942",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-1-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Flicker (TVアニメ「Fariy gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419226",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419105"
+          },
+          {
+            "platform": "mora",
+            "label": "mora(通常)｜Flicker",
+            "url": "https://mora.jp/package/43000033/A77351/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora(ハイレゾ)｜Flicker",
+            "url": "https://mora.jp/package/43000033/A77353/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜Flicker",
+            "url": "https://recochoku.jp/album/A1012597605/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "Ayaka Tachibana"
+          },
+          {
+            "role": "lyrics",
+            "name": "NIKIIE"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "composition",
+              "arrangement"
+            ],
+            "note": "VERY GOO的專輯製作表列R・O・N作曲、編曲；歌ネット單曲署名則列川島弘光作曲。",
+            "resumeWhen": "取得日本電視版片末音樂署名或兩版發行品的權利人更正後，再分別補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Flicker",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "fairy-gone-2-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Flicker",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "fairy-gone-2-in-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419105",
+            "title": "Flicker (TVアニメ「Fariy gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-14",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Flicker (TVアニメ「Fariy gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-1-song-vocal",
+            "title": "Flicker（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=YHcYOISwHRE"
+      },
+      {
+        "id": "fairy-gone-2-in-2",
+        "songId": "fairy-gone-2-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Halo",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第15話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575943",
+            "label": "Apple Music 香港｜Halo",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419259",
+            "label": "Apple Music 香港｜Halo (TVアニメ「Fariy gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419258&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77354/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77356/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012596646/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aZ7STg_5jmA",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第15話挿入歌「Halo」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-2"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575943"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575943"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575943"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575943",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419258&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419258"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419259"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419259"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419258&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419259"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77354/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77354/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77354/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77356/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77356/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77356/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012596646/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596646/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596646/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=aZ7STg_5jmA",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "aZ7STg_5jmA"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Halo｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575943",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-2-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Halo (TVアニメ「Fariy gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419259",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419258"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（通常）｜Halo",
+            "url": "https://mora.jp/package/43000033/A77354/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（ハイレゾ）｜Halo",
+            "url": "https://mora.jp/package/43000033/A77356/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜Halo",
+            "url": "https://recochoku.jp/album/A1012596646/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "AIJ"
+          },
+          {
+            "role": "lyrics",
+            "name": "AIJ"
+          },
+          {
+            "role": "composition",
+            "name": "睦月周平"
+          },
+          {
+            "role": "arrangement",
+            "name": "睦月周平"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Halo",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "fairy-gone-2-in-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Halo",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "fairy-gone-2-in-2-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419258",
+            "title": "Halo (TVアニメ「Fariy gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-21",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Halo (TVアニメ「Fariy gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-2-song-vocal",
+            "title": "Halo（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=aZ7STg_5jmA"
+      },
+      {
+        "id": "fairy-gone-2-in-3",
+        "songId": "fairy-gone-2-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "GAME",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第16話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575944",
+            "label": "Apple Music 香港｜Game",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419318",
+            "label": "Apple Music 香港｜GAME (TVアニメ「Fariy gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419317&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77357/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77359/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012596600/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ImVvBo6jRUw",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第16話挿入歌「GAME」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575944"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575944"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575944"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575944",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419317&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419317"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419318"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419318"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419317&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419318"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77357/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77357/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77357/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77359/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77359/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77359/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012596600/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596600/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596600/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ImVvBo6jRUw",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ImVvBo6jRUw"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Game｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575944",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-3-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "GAME (TVアニメ「Fariy gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419318",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419317"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（通常）｜GAME",
+            "url": "https://mora.jp/package/43000033/A77357/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（ハイレゾ）｜GAME",
+            "url": "https://mora.jp/package/43000033/A77359/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜GAME",
+            "url": "https://recochoku.jp/album/A1012596600/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "Ayaka Tachibana"
+          },
+          {
+            "role": "lyrics",
+            "name": "Kohei by SIMONSAYZ"
+          },
+          {
+            "role": "composition",
+            "name": "川島弘光"
+          },
+          {
+            "role": "arrangement",
+            "name": "川島弘光"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Game",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "fairy-gone-2-in-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "GAME",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "fairy-gone-2-in-3-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419317",
+            "title": "GAME (TVアニメ「Fariy gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-10-28",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "GAME (TVアニメ「Fariy gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-3-song-vocal",
+            "title": "GAME（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=ImVvBo6jRUw"
+      },
+      {
+        "id": "fairy-gone-2-in-4",
+        "songId": "fairy-gone-2-in-4-song",
+        "type": "IN",
+        "sequence": 4,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Red dog chases",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第17話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575947",
+            "label": "Apple Music 香港｜Red Dog Chases",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419298",
+            "label": "Apple Music 香港｜Red dog chases (TVアニメ「Fariy gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419297&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77360/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77362/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012596469/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=eZGtrwrI0Zo",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第17話挿入歌「Red dog chases」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575947"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575947"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575947"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575947",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-4-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419297&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419297"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419298"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419298"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419297&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419298"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77360/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77360/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77360/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77362/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77362/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77362/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012596469/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596469/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596469/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=eZGtrwrI0Zo",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eZGtrwrI0Zo"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Red Dog Chases｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575947",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-4-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Red dog chases (TVアニメ「Fariy gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419298",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419297"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（通常）｜Red dog chases",
+            "url": "https://mora.jp/package/43000033/A77360/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（ハイレゾ）｜Red dog chases",
+            "url": "https://mora.jp/package/43000033/A77362/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜Red dog chases",
+            "url": "https://recochoku.jp/album/A1012596469/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "lyrics",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "composition",
+            "name": "睦月周平"
+          },
+          {
+            "role": "arrangement",
+            "name": "睦月周平"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Red Dog Chases",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "fairy-gone-2-in-4-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Red dog chases",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "fairy-gone-2-in-4-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419297",
+            "title": "Red dog chases (TVアニメ「Fariy gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-11-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Red dog chases (TVアニメ「Fariy gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-4-song-vocal",
+            "title": "Red dog chases（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=eZGtrwrI0Zo"
+      },
+      {
+        "id": "fairy-gone-2-in-5",
+        "songId": "fairy-gone-2-in-5-song",
+        "type": "IN",
+        "sequence": 5,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Bring the light",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第18話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/277127/",
+            "label": "歌ネット｜單曲詞曲署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575948",
+            "label": "Apple Music 香港｜Bring the Light",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419252",
+            "label": "Apple Music 香港｜Bring the Light (TVアニメ「Fariy Gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419251&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77363/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77365/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012596421/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fED5IIQW1JI",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第18話挿入歌「Bring the light」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-5"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-5-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575948"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575948"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575948"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575948",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-5-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419251&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419251"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419252"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419251&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77363/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77363/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77363/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77365/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77365/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77365/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012596421/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596421/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596421/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fED5IIQW1JI",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fED5IIQW1JI"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Bring the Light｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575948",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-5-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Bring the Light (TVアニメ「Fariy Gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419252",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419251"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（通常）｜Bring the light",
+            "url": "https://mora.jp/package/43000033/A77363/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（ハイレゾ）｜Bring the light",
+            "url": "https://mora.jp/package/43000033/A77365/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜Bring the light",
+            "url": "https://recochoku.jp/album/A1012596421/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "AIJ"
+          },
+          {
+            "role": "lyrics",
+            "name": "AIJ"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "composition",
+              "arrangement"
+            ],
+            "note": "VERY GOO的專輯製作表列川島弘光作曲、編曲；歌ネット單曲署名則列睦月周平作曲。",
+            "resumeWhen": "取得日本電視版片末音樂署名或兩版發行品的權利人更正後，再分別補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Bring the Light",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "fairy-gone-2-in-5-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Bring the light",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "fairy-gone-2-in-5-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419251",
+            "title": "Bring the Light (TVアニメ「Fariy Gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-11-11",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Bring the Light (TVアニメ「Fariy Gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-5-song-vocal",
+            "title": "Bring the light（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=fED5IIQW1JI"
+      },
+      {
+        "id": "fairy-gone-2-in-6",
+        "songId": "fairy-gone-2-in-6-song",
+        "type": "IN",
+        "sequence": 6,
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "titleJa": "Everlast…",
+        "artistDisplayName": "(K)NoW_NAME",
+        "usageLabel": "第22話插曲。",
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.fairygone.com/music/",
+            "label": "動畫官網｜主題曲與插曲唱片品番、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://knowname.jp/musicvideo/fairygone",
+            "label": "音樂團隊｜日本TV逐話插曲、官方影片與日本配信連結",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.fairygone.com/news/",
+            "label": "動畫官方公告｜分集插曲及主題曲配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+            "label": "日本首播同期｜後半逐話插曲與主唱",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+            "label": "中文逐話主題曲、插曲與主唱對照",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.verygoo.jp/works/202003-201904.php",
+            "label": "音樂製作公司VERY GOO｜創作者及唱片逐軌製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489575950",
+            "label": "Apple Music 香港｜Everlast...",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481419254",
+            "label": "Apple Music 香港｜Everlast... (TVアニメ「Fariy gone フェアリーゴーン」)",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1481419253&country=hk&entity=song&limit=200",
+            "label": "Apple 香港｜曲名、演唱者、發行版及可串流狀態",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77366/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mora.jp/package/43000033/A77368/",
+            "label": "mora 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://recochoku.jp/album/A1012596339/",
+            "label": "レコチョク 日本｜權利人列出的下載商品",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=1VNqHKsQIyA",
+            "label": "TOHO animation チャンネル｜TVアニメ『Fairy gone フェアリーゴーン』第22話挿入歌「Everlast…」(K)NoW_NAME",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-6"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "artist",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-6-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/",
+              "https://knowname.jp/musicvideo/fairygone",
+              "https://www.fairygone.com/news/",
+              "https://anime-song-info.com/201910-autumn-anime-fairy-gone-2cool-op-ed-song/",
+              "https://zh.wikipedia.org/wiki/Fairy_Gone",
+              "https://www.verygoo.jp/works/202003-201904.php"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1489575941"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575950"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575950"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1489575950"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489575950",
+              "https://itunes.apple.com/lookup?id=1489575941&country=hk&entity=song&limit=200",
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fairy-gone-2-in-6-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "catalog_number",
+              "tracklist",
+              "edition",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.fairygone.com/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "thca-60256"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "tracklist",
+              "date",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419253&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1481419253"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481419254"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419254"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1481419253&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1481419254"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77366/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77366/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77366/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://mora.jp/package/43000033/A77368/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77368/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://mora.jp/package/43000033/A77368/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://recochoku.jp/album/A1012596339/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596339/"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://recochoku.jp/album/A1012596339/"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=1VNqHKsQIyA",
+              "https://knowname.jp/musicvideo/fairygone"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "1VNqHKsQIyA"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Everlast...｜香港串流",
+            "url": "https://music.apple.com/hk/song/1489575950",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "recordingId": "fairy-gone-2-in-6-song-vocal",
+            "releaseId": "apple-hk-1489575941"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Everlast... (TVアニメ「Fariy gone フェアリーゴーン」)｜香港串流",
+            "url": "https://music.apple.com/hk/song/1481419254",
+            "region": "HK",
+            "linkType": "direct_track",
+            "availability": "available",
+            "verifiedAt": "2026-11-20",
+            "releaseId": "apple-hk-1481419253"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（通常）｜Everlast…",
+            "url": "https://mora.jp/package/43000033/A77366/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "mora",
+            "label": "mora（ハイレゾ）｜Everlast…",
+            "url": "https://mora.jp/package/43000033/A77368/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "レコチョク",
+            "label": "レコチョク｜Everlast…",
+            "url": "https://recochoku.jp/album/A1012596339/",
+            "region": "JP",
+            "linkType": "direct_album",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "vocals",
+            "name": "AIJ"
+          },
+          {
+            "role": "lyrics",
+            "name": "NIKIIE"
+          },
+          {
+            "role": "lyrics",
+            "name": "AIJ"
+          },
+          {
+            "role": "composition",
+            "name": "睦月周平"
+          },
+          {
+            "role": "arrangement",
+            "name": "睦月周平"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489575941",
+            "title": "TVアニメ「Fairy gone フェアリーゴーン」挿入歌アルバム『Fairy gone \"BACKGROUND SONGS\"Ⅱ』 - EP",
+            "type": "ep",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Everlast...",
+                "disc": 1,
+                "position": 6,
+                "recordingId": "fairy-gone-2-in-6-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "thca-60256",
+            "title": "Fairy gone “BACKGROUND SONGS”Ⅱ",
+            "type": "album",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "JP",
+            "edition": "日本CD版",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Everlast…",
+                "disc": 1,
+                "position": 6,
+                "recordingId": "fairy-gone-2-in-6-song-vocal"
+              }
+            ],
+            "catalogNumber": "THCA-60256"
+          },
+          {
+            "id": "apple-hk-1481419253",
+            "title": "Everlast... (TVアニメ「Fariy gone フェアリーゴーン」) - Single",
+            "type": "single",
+            "artistDisplayName": "(K)NoW_NAME",
+            "region": "HK",
+            "edition": "香港數位版",
+            "date": {
+              "value": "2019-12-09",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Everlast... (TVアニメ「Fariy gone フェアリーゴーン」)",
+                "disc": 1,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fairy-gone-2-in-6-song-vocal",
+            "title": "Everlast…（發行演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=1VNqHKsQIyA"
+      }
     ],
-"seasonIds": [
-  "2019-fall"
-],
-"metadataSources": [
-  {
-    "label": "動畫官方網站：作品與播出資料",
-    "url": "https://www.fairygone.com/",
-    "language": "ja",
-    "role": "first_party",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AniList：作品識別與公開圖像",
-    "url": "https://anilist.co/anime/109562",
-    "language": "en",
-    "role": "identifier",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "繁體中文季度列表交叉對照",
-    "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    "language": "zh-Hant",
-    "role": "localized_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "AnimeThemes：OP／ED 曲目交叉核對",
-    "url": "https://animethemes.moe/anime/fairy_gone_2nd_season",
-    "language": "en",
-    "role": "theme_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://acgsecrets.hk/bangumi/201910/",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "季度首播公開來源",
-    "url": "https://www.kansou.me/archive/2019_autumn.html",
-    "language": "ja",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-09-02"
-  },
-  {
-    "label": "維基百科條目貢獻者（刊載：維基百科）：同版播出交叉資料（節目槽非淨長）",
-    "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
-    "language": "zh-Hant",
-    "role": "broadcast_cross_check",
-    "verifiedAt": "2026-10-31"
-  }
-],
+    "seasonIds": [
+      "2019-fall"
+    ],
+    "metadataSources": [
+      {
+        "label": "動畫官方網站：作品與播出資料",
+        "url": "https://www.fairygone.com/",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/109562",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2019%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "AnimeThemes：OP／ED 曲目交叉核對",
+        "url": "https://animethemes.moe/anime/fairy_gone_2nd_season",
+        "language": "en",
+        "role": "theme_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://acgsecrets.hk/bangumi/201910/",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "季度首播公開來源",
+        "url": "https://www.kansou.me/archive/2019_autumn.html",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "維基百科條目貢獻者（刊載：維基百科）：同版播出交叉資料（節目槽非淨長）",
+        "url": "https://zh.wikipedia.org/wiki/Fairy_Gone",
+        "language": "zh-Hant",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-10-31"
+      },
+      {
+        "url": "https://www.pa-works.jp/works/fairy-gone/",
+        "label": "日本動畫製作公司P.A.WORKS｜兩季度日本TV動畫",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.mbs.jp/fairygone/select/",
+        "label": "MBS｜日本TV第1至24話集名",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.fairygone.com/onair/",
+        "label": "動畫官方｜第二季度各日本電視台、網上同步及延期配信",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://mediaarts-db.artmuseums.go.jp/pdf/about/animation01.pdf",
+        "label": "文化廳媒體藝術資料庫｜第二季度TOKYO MX星期一00:00–00:30節目槽",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.videomarket.jp/title/174J06/A174J06013999H01/playable",
+        "label": "ビデオマーケット｜第13話正版單話片長24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "metadataVerifiedAt": "2026-11-20",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "24:00"
   },
   {
     anilistId: 110867,

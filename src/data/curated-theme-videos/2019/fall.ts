@@ -1520,4 +1520,99 @@ export const curated2019FallThemeVideos = {
   ],
   "110788:OP:1": [{"youtubeVideoId":"uZm6X60vttk","title":"Ivy to Fraudulent Game ”blue blue blue” MUSIC VIDEO","type":"music_video","channelName":"Ivy to Fraudulent Game","officialStatus":"official","embeddable":false}],
   "110788:OP:2": [{"youtubeVideoId":"5dv7cnisrB8","title":"MAGIC OF LiFE - 『Player』OFFICIAL MUSIC VIDEO(テレビ東京系TVアニメ\"ゾイドワイルドZERO\"オープニング主題歌)","type":"music_video","channelName":"MAGIC OF LiFE official","officialStatus":"official","embeddable":false}],
+  "108891:ED:1": [{"youtubeVideoId": "gZhqYkVBYRk", "title": "内田雄馬「Rainbow」MUSIC VIDEO (Short ver.)", "type": "music_video", "channelName": "内田雄馬 OFFICIAL", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:1": [{"youtubeVideoId": "LW_AobYBauk", "title": "「Tone」 (演奏：時瀬高等学校箏曲部) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:2": [{"youtubeVideoId": "QNpWmS4J4gs", "title": "「水の変態」 (演奏：堂島 晶) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:3": [{"youtubeVideoId": "HC-WI4XLxzg", "title": "「無題〜天泣原曲〜」 (演奏：鳳月さとわ) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:4": [{"youtubeVideoId": "0OgyDsoVkHA", "title": "「三つのパラフレーズ」 (演奏：姫坂女学院箏曲部) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:5": [{"youtubeVideoId": "98bXoLEPe1k", "title": "神奈川県予選大会 「堅香子」 (演奏：珀音高校箏曲部) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "108891:IN:6": [{"youtubeVideoId": "u5LDoMHlqHw", "title": "神奈川県予選大会 「天泣」 (演奏：時瀬高等学校箏曲部) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "109562:OP:1": [
+    {
+      "youtubeVideoId": "FHGxjSNFEDo",
+      "title": "第2クールノンクレジットオープニング映像",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:ED:1": [
+    {
+      "youtubeVideoId": "lTcZXc3yqwk",
+      "title": "第2クール ノンクレジットエンディング映像",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:1": [
+    {
+      "youtubeVideoId": "YHcYOISwHRE",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第14話挿入歌「Flicker」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:2": [
+    {
+      "youtubeVideoId": "aZ7STg_5jmA",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第15話挿入歌「Halo」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:3": [
+    {
+      "youtubeVideoId": "ImVvBo6jRUw",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第16話挿入歌「GAME」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:4": [
+    {
+      "youtubeVideoId": "eZGtrwrI0Zo",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第17話挿入歌「Red dog chases」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:5": [
+    {
+      "youtubeVideoId": "fED5IIQW1JI",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第18話挿入歌「Bring the light」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "109562:IN:6": [
+    {
+      "youtubeVideoId": "1VNqHKsQIyA",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第22話挿入歌「Everlast…」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
 } satisfies CuratedThemeVideoOverrideMap;

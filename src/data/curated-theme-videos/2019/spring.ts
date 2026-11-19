@@ -163,4 +163,284 @@ export const curated2019SpringThemeVideos = {
   "101261:IN:1": [{"youtubeVideoId": "9U-I7LDQhVc", "title": "TVアニメ『さらざんまい』劇中歌「さらざんまいのうた」PV", "type": "pv", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": true}],
   "101261:IN:2": [{"youtubeVideoId": "flROz36Rqv8", "title": "TVアニメ『さらざんまい』劇中歌「カワウソイヤァ」PV", "type": "pv", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": true}],
   "101261:IN:3": [{"youtubeVideoId": "cF9UGVh91pU", "title": "TVアニメ 『さらざんまい』「放課後カッパー」 リリックMV／吾妻サラwith少女式ヱリス", "type": "lyric_video", "channelName": "【フジテレビ】アニメ公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "103302:OP:1": [{"youtubeVideoId": "0qbeG0lM3mU", "title": "蒼井翔太 /「Tone」【試聴動画】", "type": "other", "channelName": "蒼井翔太", "officialStatus": "official", "embeddable": true}, {"youtubeVideoId": "he1gYm1uRGM", "title": "蒼井翔太 / 「Tone」【LIVE 2021-2022 WONDER lab. coRe】", "type": "live", "channelName": "蒼井翔太", "officialStatus": "official", "embeddable": true, "recordingId": "kono-oto-tomare-op-1-song-wonder-lab-core-live"}],
+  "103302:ED:1": [{"youtubeVideoId": "rrq4OcYwiiE", "title": "内田雄馬「Speechless」MUSIC VIDEO（Short ver.）", "type": "music_video", "channelName": "内田雄馬 OFFICIAL", "officialStatus": "official", "embeddable": true}],
+  "103302:IN:1": [{"youtubeVideoId": "InL5ySGGSzQ", "title": "龍星群 (演奏：時瀬高校箏曲部) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "103302:IN:8": [{"youtubeVideoId": "HC-WI4XLxzg", "title": "「無題〜天泣原曲〜」 (演奏：鳳月さとわ) | この音とまれ！", "type": "other", "channelName": "「KING AMUSEMENT CREATIVE」公式チャンネル", "officialStatus": "official", "embeddable": true}],
+  "100112:OP:1": [
+    {
+      "youtubeVideoId": "3PblQhyRoF4",
+      "title": "i☆Ris /  「アルティメット☆MAGIC」-Music Video-(Short Ver.)",
+      "channelName": "avex",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100112:ED:1": [
+    {
+      "youtubeVideoId": "z-Jxu8p3iSY",
+      "title": "吉七味。 / 「圧倒的 Vivid Days」 Music Video（TVアニメ「賢者の孫」ED主題歌）",
+      "channelName": "avex",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "103223:OP:1": [
+    {
+      "youtubeVideoId": "fBC-ZCH_htA",
+      "title": "TVアニメ「文豪ストレイドッグス」第3シーズン 第27話オープニング映像",
+      "channelName": "Lantis Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "103223:ED:1": [
+    {
+      "youtubeVideoId": "bxbXUMy4kok",
+      "title": "ラックライフ / Lily [Music Video]",
+      "channelName": "Lantis Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "103223:IN:2": [
+    {
+      "youtubeVideoId": "A7oLepbTPmg",
+      "title": "WRIGHT LEFT",
+      "channelName": "SCREEN mode - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105928:OP:1": [{"youtubeVideoId": "YqxmjDgTLEc", "title": "TVアニメ「RobiHachi」OPテーマ「天才のプレイリスト」", "type": "other", "channelName": "ぽにきゃん-Anime PONY CANYON", "officialStatus": "official", "embeddable": true}],
+  "101814:OP:1": [
+    {
+      "youtubeVideoId": "SYMNL0dIfx4",
+      "title": "TVアニメ「消滅都市」オープニング映像【特別公開】",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101814:ED:1": [
+    {
+      "youtubeVideoId": "OJ3pEgqHSzE",
+      "title": "「Swallowtail Butterfly ～あいのうた～」from 消滅都市",
+      "channelName": "Yuki - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101814:ED:2": [
+    {
+      "youtubeVideoId": "wZ3Fe1JeecE",
+      "title": "SPR5／With Your Breath  Music Video(2chorus)　TVアニメ「消滅都市」ED主題歌",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101814:IN:1": [
+    {
+      "youtubeVideoId": "AU6bI5ADkGc",
+      "title": "「SPR5」デビュー楽曲「インコンプリートノーツ」Music Video",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101814:IN:2": [
+    {
+      "youtubeVideoId": "d4KAhRExAoo",
+      "title": "SPR5 1stSG カップリング曲「恋の魔法」試聴動画",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101814:IN:3": [
+    {
+      "youtubeVideoId": "gta-xWUsH1I",
+      "title": "SPR5／アルキオネ Music Video(2chorus)　1stAL「Supreme Revolution」収録",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104989:OP:1": [{"youtubeVideoId": "cucsahP2wLo", "title": "エチュード｜ノンクレジットOP", "type": "creditless_op", "channelName": "【公式】八月のシンデレラナイン（ハチナイ）", "officialStatus": "official", "embeddable": false}],
+  "104989:ED:2": [{"youtubeVideoId": "zcXam_DYoZk", "title": "IENAI｜第13話ノンクレジットED", "type": "creditless_ed", "channelName": "【公式】八月のシンデレラナイン（ハチナイ）", "officialStatus": "official", "embeddable": false}],
+  "103900:OP:1": [{"youtubeVideoId": "sIMGyA39hug", "title": "セイシュンゼミナール｜ノンクレジットOP", "type": "creditless_op", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": false}, {"youtubeVideoId": "Qk1gxobARdE", "title": "セイシュンゼミナール｜MV [YouTube Edit]", "type": "music_video", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": false}],
+  "103900:ED:1": [{"youtubeVideoId": "LWAmCCpr3U8", "title": "Never Give It Up!!｜ノンクレジットED", "type": "creditless_ed", "channelName": "アニプレックス チャンネル", "officialStatus": "official", "embeddable": false}],
+  "106568:OP:1": [{"youtubeVideoId": "aKTEoOIbwV4", "title": "【Hi!Superb】4th Single『Brave Rejection』MV -short ver.-", "type": "music_video", "channelName": "Hi!Superb Ch", "officialStatus": "official", "embeddable": true}],
+  "106568:ED:1": [{"youtubeVideoId": "y6HF7jQtFws", "title": "青き炎", "type": "art_track", "channelName": "Zwei - Topic", "officialStatus": "official", "embeddable": true}],
+  "102939:OP:1": [{"youtubeVideoId": "sta4kFzyLDI", "title": "【福山潤】3rd single「dis-communicate」MV short ver.", "type": "music_video", "channelName": "ぽにきゃん-Anime PONY CANYON", "officialStatus": "official", "embeddable": true}],
+  "102939:ED:1": [{"youtubeVideoId": "ij4l4RR-H4c", "title": "【土岐 隼一】5月15日(水)発売デビューシングル「約束のOverture」【コメントつき】", "type": "other", "channelName": "ぽにきゃん-Anime PONY CANYON", "officialStatus": "official", "embeddable": true}],
+  "101597:OP:1": [{"youtubeVideoId": "361yH_xuBfg", "title": "風男塾 (Fudanjuku) / Dash&Daaash!!（Short Ver.）", "type": "music_video", "channelName": "Fudanjuku Official Channel", "officialStatus": "official", "embeddable": true}],
+  "101597:ED:1": [{"youtubeVideoId": "ALzdd-M-DWA", "title": "【Music Video】The Key [群青のマグメル ED ver.] - a flood of circle", "type": "music_video", "channelName": "a flood of circle Official Channel", "officialStatus": "official", "embeddable": true}],
+  "-2019040401:OP:1": [{"youtubeVideoId": "0UmEg8PDV3Y", "title": "ORESAMA / OPEN THE WORLDS -MUSIC VIDEO-", "type": "music_video", "channelName": "Lantis Channel", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "107418:OP:1": [
+    {
+      "youtubeVideoId": "B8BAqO-p9LU",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』オープニング映像 　(K)NoW_NAME「KNOCK on the CORE」",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:ED:1": [
+    {
+      "youtubeVideoId": "ee855kKPujc",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』ノンクレジットエンディング映像　(K)NoW_NAME「Ash-like Snow」",
+      "channelName": "TOHO animation チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:1": [
+    {
+      "youtubeVideoId": "83AgFtgZLHI",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第1話挿入歌「Rodeo」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:2": [
+    {
+      "youtubeVideoId": "ZxxhFqe4vJw",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第2話挿入歌「Backtrack」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:3": [
+    {
+      "youtubeVideoId": "Brobq89t1aI",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第4話挿入歌「Danse Dance」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:4": [
+    {
+      "youtubeVideoId": "_c2Egu1D8CU",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第5話挿入歌「Forest Gleam」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:5": [
+    {
+      "youtubeVideoId": "koZ9NhDuj9Y",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第8話挿入歌「Echoes」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:6": [
+    {
+      "youtubeVideoId": "Q4y0PK0nYdM",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第9話挿入歌「Stampede」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:7": [
+    {
+      "youtubeVideoId": "Zzoe35S0Tqs",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第10話挿入歌「blowball」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:8": [
+    {
+      "youtubeVideoId": "zdt3gYxyDNo",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第10話挿入歌「Dandelion」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:9": [
+    {
+      "youtubeVideoId": "4F8k5-H-akg",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第11話挿入歌「Catastrophe」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:10": [
+    {
+      "youtubeVideoId": "SR-5fMLd40U",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第12話挿入歌「Hertzsprung gap」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
+  "107418:IN:11": [
+    {
+      "youtubeVideoId": "zuny58w0FUQ",
+      "title": "TVアニメ『Fairy gone フェアリーゴーン』第12話挿入歌「Gravitational Collapse」(K)NoW_NAME",
+      "channelName": "TOHO animation チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embedAvailability": "unknown",
+      "embeddable": false
+    }
+  ],
 } satisfies CuratedThemeVideoOverrideMap;
