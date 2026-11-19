@@ -72,12 +72,30 @@ export const curated2019SpringThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "I7GB5qtSrsI",
+      "title": "MIX – Opening Theme – Equal",
+      "type": "other",
+      "channelName": "Crunchyroll Dubs",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
     }
   ],
   "103555:OP:2": [
     {
       "youtubeVideoId": "3dukWOAWCro",
       "title": "ポルノグラフィティ『VS(Short ver.)』",
+      "type": "music_video",
+      "channelName": "ポルノグラフィティ Official YouTube Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "ErWG9Fn8fpo",
+      "title": "ポルノグラフィティ『VS』MUSIC VIDEO",
       "type": "music_video",
       "channelName": "ポルノグラフィティ Official YouTube Channel",
       "officialStatus": "official",
@@ -92,6 +110,15 @@ export const curated2019SpringThemeVideos = {
       "type": "music_video",
       "channelName": "Little Glee Monster",
       "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "8tBwLHS3Jf0",
+      "title": "MIX – Ending Theme – Kimi ni Todoku made",
+      "type": "other",
+      "channelName": "Crunchyroll Dubs",
+      "officialStatus": "licensed",
       "embeddable": false,
       "embedAvailability": "unknown"
     }
@@ -443,4 +470,70 @@ export const curated2019SpringThemeVideos = {
       "embeddable": false
     }
   ],
+  "104989:ED:3": [{"youtubeVideoId": "AItbLCTI-A0", "title": "ぬかるみ -short ver-", "type": "other", "channelName": "【公式】八月のシンデレラナイン（ハチナイ）", "officialStatus": "official", "embeddable": false}],
+  "104989:ED:5": [{"youtubeVideoId": "SAZ_RVSlV_k", "title": "背番号｜リリックビデオ", "type": "lyric_video", "channelName": "【公式】八月のシンデレラナイン（ハチナイ）", "officialStatus": "official", "embeddable": false}],
+  "104989:ED:6": [{"youtubeVideoId": "d-rYrJwr9mU", "title": "Summer Soul...｜CM", "type": "pv", "channelName": "【公式】八月のシンデレラナイン（ハチナイ）", "officialStatus": "official", "embeddable": false}],
+  "104212:OP:1": [{"youtubeVideoId": "u1ncvXvJsbw", "title": "TVアニメ「なむあみだ仏っ！-蓮台 UTENA-」OPテーマ「天唄」TVCM-強気バージョン-", "channelName": "DMM pictures", "type": "other", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "104212:ED:1": [{"youtubeVideoId": "ZjOMpO535uU", "title": "大橋ちっぽけ「ルビー」Lyric Video（TVアニメ「なむあみだ仏っ！-蓮台 UTENA-」EDテーマ）", "type": "lyric_video", "channelName": "大橋ちっぽけ", "officialStatus": "official", "embeddable": true}],
+  "-2019051801:OP:1": [
+    {
+      "youtubeVideoId": "JL3s82oBaMg",
+      "title": "〈物語〉シリーズ ノンクレジット オープニング映像集 其ノ參(『憑物語』『終物語』『続・終物語』)（11:30 起）",
+      "type": "creditless_op",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "NHlAtlRjQP0",
+      "title": "07734",
+      "type": "art_track",
+      "channelName": "MONOGATARI Series - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019051801:ED:1": [
+    {
+      "youtubeVideoId": "nohe1ocpf0w",
+      "title": "TrySail 「azure」 Music Video (TVアニメ『続・終物語』EDテーマ)",
+      "type": "music_video",
+      "channelName": "TrySail（麻倉もも・雨宮天・夏川椎菜）official YouTube channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "d1b2_uTg2DM",
+      "title": "〈物語〉シリーズ ノンクレジット エンディング映像集（16:30 起）",
+      "type": "creditless_ed",
+      "channelName": "アニプレックス チャンネル",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "7Vb0j0A5xsw",
+      "title": "azure (Live at Makuhari Messe 2019.08.04)",
+      "type": "art_track",
+      "channelName": "TrySail - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "zoku-owarimonogatari-tv-ed-1-song-makuhari-live"
+    },
+    {
+      "youtubeVideoId": "KEn9EV3KPEg",
+      "title": "Azure",
+      "type": "art_track",
+      "channelName": "TrySail - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108767:OP:1": [{"youtubeVideoId": "aEAsIwEmhHQ", "title": "【妖怪ウォッチ！】オープニングテーマ 「ケラケラホーのうた」", "type": "other", "channelName": "妖怪ウォッチ 公式チャンネル 妖Tube", "officialStatus": "official", "embeddable": true}, {"youtubeVideoId": "qWcfCWkb9gw", "title": "紘毅 / ケラケラホーのうた MUSIC VIDEO (short ver.)", "type": "music_video", "channelName": "avex", "officialStatus": "official", "embeddable": true}, {"youtubeVideoId": "7nzyhXQEsb4", "title": "紘毅 / ケラケラホーのうた 【LIVE】", "type": "live", "channelName": "前川 清 公式 「前川ちゃんねる」", "officialStatus": "official", "embeddable": true, "recordingId": "youkai-watch-2019-op-1-song-live"}],
+  "108767:ED:1": [{"youtubeVideoId": "dYmvbaxuzGo", "title": "【妖怪ウォッチ！】エンディングテーマ「ようかい体操第一 〜つづき〜」", "type": "other", "channelName": "妖怪ウォッチ 公式チャンネル 妖Tube", "officialStatus": "official", "embeddable": true}, {"youtubeVideoId": "BOiLAwterTg", "title": "かえで☆ / ようかい体操第一 ~つづき~ 振りビデオ(short ver.)", "type": "other", "channelName": "avex", "officialStatus": "official", "embeddable": true}, {"youtubeVideoId": "1ZNN7abA--Q", "title": "ようかい体操第一 ～1番から8番!～", "type": "art_track", "channelName": "KAEDE☆ - Topic", "officialStatus": "official", "embeddable": true, "recordingId": "youkai-watch-2019-ed-1-song-verses-one-to-eight"}, {"youtubeVideoId": "CELdS1RjU4s", "title": "ようかい体操第一 ～つづき～", "type": "art_track", "channelName": "KAEDE☆ - Topic", "officialStatus": "official", "embeddable": true, "recordingId": "youkai-watch-2019-ed-1-song-single-vocal"}],
 } satisfies CuratedThemeVideoOverrideMap;

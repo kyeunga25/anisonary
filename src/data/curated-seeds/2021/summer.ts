@@ -328,6 +328,990 @@ const curated2021SummerSeedRows: CuratedAnimeSeed[] = [
   {"anilistId":117002,"id":"curated-117002","slug":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya","seasonIds":["2021-summer"],"startDate":"2021-08-01","titleJa":"マギアレコード 魔法少女まどか☆マギカ外伝 2nd SEASON -覚醒前夜-","titleZhHant":"魔法紀錄 魔法少女小圓外傳 第二季：覺醒前夜","titleRomaji":"Magia Record: Mahou Shoujo Madoka☆Magica Gaiden 2nd SEASON - Kakusei Zenya","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx117002-lpw0Vhtr8f2Q.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/117002-PKPhPRICAxVr.jpg","editorialWeekday":7,"broadcastLabel":"日本原TV 2nd SEASON：2021/7/31（六）24:00・TOKYO MX／とちぎテレビ／群馬テレビ／BS11（實際8/1）。","status":"finished","officialSiteUrl":"https://anime.magireco.com/","anilistUrl":"https://anilist.co/anime/117002","imageSourceUrl":"https://anilist.co/anime/117002","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://acgsecrets.hk/anime/973/","https://youranimes.tw/animes/1461","https://annict.com/works/7410"],"animeThemesUrl":"https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season","themes":[{"type":"OP","sequence":1,"titleJa":"ケアレス","artistDisplayName":"ClariS","id":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1","songId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1-song","sources":[{"label":"動畫官方網站","url":"https://anime.magireco.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"ClariS Official YouTube Channel 官方影片","url":"https://www.youtube.com/watch?v=--99FF6xFNs","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://anime.magireco.com/news/?id=57804","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://anime.magireco.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-summer"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://anime.magireco.com/news/?id=57804"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://anime.magireco.com/news/?id=57804"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season"],"verifiedAt":"2026-09-02","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season"],"verifiedAt":"2026-09-02","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-op-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈ケアレス〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"Lapis","artistDisplayName":"TrySail","id":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1","songId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://anime.magireco.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"アニプレックス チャンネル 官方影片","url":"https://www.youtube.com/watch?v=-MqNfLGPb74","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://anime.magireco.com/news/?id=57804","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://anime.magireco.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-summer"],"credits":[],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://anime.magireco.com/news/?id=57804"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://anime.magireco.com/news/?id=57804"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season"],"verifiedAt":"2026-09-02","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/magia_record_mahou_shoujo_madokamagica_gaiden_2nd_season"],"verifiedAt":"2026-09-02","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3"],"verifiedAt":"2026-10-22","targetId":"magia-record-mahou-shoujo-madoka-magica-gaiden-2nd-season-kakusei-zenya-ed-1"}],"followUp":[{"fields":["lyrics","composition","arrangement","recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Lapis〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E9%AD%94%E6%B3%95%E7%B4%80%E9%8C%84_%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E5%B0%8F%E5%9C%93%E5%A4%96%E5%82%B3","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://anime.magireco.com/news/?id=57803","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"00:00"},
   {"anilistId":132456,"id":"curated-132456","slug":"jahy-sama-wa-kujikenai","seasonIds":["2021-summer","2021-fall"],"startDate":"2021-08-01","titleJa":"ジャヒー様はくじけない！","titleZhHant":"賈希大人不氣餒！","titleRomaji":"Jahy-sama wa Kujikenai!","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132456-wxTCgdXnZMMQ.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/132456-Ke6y2XdjVajr.jpg","editorialWeekday":7,"broadcastLabel":"日本原TV：2021/7/31（六）26:00・ABCテレビ／テレビ朝日系列 ANiMAZiNG!!!（實際8/1）；網播26:30分開。","status":"finished","officialSiteUrl":"https://jahysama-anime.com/","anilistUrl":"https://anilist.co/anime/132456","imageSourceUrl":"https://anilist.co/anime/132456","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://acgsecrets.hk/anime/868/","https://youranimes.tw/animes/1752","https://annict.com/works/8378"],"animeThemesUrl":"https://animethemes.moe/anime/jahy_sama_wa_kujikenai","themes":[{"type":"OP","sequence":1,"titleJa":"Fightin★Pose","artistDisplayName":"小倉 唯","id":"jahy-sama-wa-kujikenai-op-1","songId":"jahy-sama-wa-kujikenai-op-1-song","sources":[{"label":"動畫官方網站","url":"https://jahysama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jahy_sama_wa_kujikenai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"小倉 唯 YouTube OFFICIAL CHANNEL 官方影片","url":"https://www.youtube.com/watch?v=6bxC3Fs1_Cs","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://jahysama-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://jahysama-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-summer","2021-fall"],"credits":[{"name":"小倉 唯","role":"lyrics"},{"name":"KIKUE","role":"lyrics"},{"name":"雨漏りP","role":"composition"},{"name":"藤田卓也","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","video_metadata","releases","platform_links","platform_availability"],"note":"〈Fightin★Pose〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。 第1cour為1–10話（含10月第9/10話），第2cour自第11話（10/17實日）起；不把cour直接等同曆季。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"OP","sequence":2,"titleJa":"生活こんきゅーダメディネロ","artistDisplayName":"上坂すみれ","id":"jahy-sama-wa-kujikenai-op-2","songId":"jahy-sama-wa-kujikenai-op-2-song","sources":[{"label":"動畫官方網站","url":"https://jahysama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jahy_sama_wa_kujikenai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://jahysama-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://jahysama-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"前山田健一","role":"lyrics"},{"name":"前山田健一","role":"composition"},{"name":"藤原燈太","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-op-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈生活こんきゅーダメディネロ〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。 第1cour為1–10話（含10月第9/10話），第2cour自第11話（10/17實日）起；不把cour直接等同曆季。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":1,"titleJa":"つまりはいつもくじけない！","artistDisplayName":"NEGI☆U","id":"jahy-sama-wa-kujikenai-ed-1","songId":"jahy-sama-wa-kujikenai-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://jahysama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jahy_sama_wa_kujikenai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://jahysama-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://jahysama-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-summer","2021-fall"],"credits":[{"name":"永塚健登","role":"lyrics"},{"name":"松坂康司","role":"composition"},{"name":"松坂康司","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈つまりはいつもくじけない！〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。 第1cour為1–10話（含10月第9/10話），第2cour自第11話（10/17實日）起；不把cour直接等同曆季。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"},{"type":"ED","sequence":2,"titleJa":"ペタルズ","artistDisplayName":"岡咲美保","id":"jahy-sama-wa-kujikenai-ed-2","songId":"jahy-sama-wa-kujikenai-ed-2-song","sources":[{"label":"動畫官方網站","url":"https://jahysama-anime.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/jahy_sama_wa_kujikenai","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://jahysama-anime.com/music/","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"en","verifiedAt":"2026-10-22"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://jahysama-anime.com/","linkType":"official_landing_page","region":"JP"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"真崎エリカ","role":"lyrics"},{"name":"本多友紀","role":"composition"},{"name":"脇眞富","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/jahy_sama_wa_kujikenai"],"verifiedAt":"2026-09-02","targetId":"jahy-sama-wa-kujikenai-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://en.wikipedia.org/wiki/The_Great_Jahy_Will_Not_Be_Defeated%21"],"verifiedAt":"2026-10-22","targetId":"jahy-sama-wa-kujikenai-ed-2"},{"target":"credits","fields":["credits"],"sourceUrls":["https://jahysama-anime.com/music/"],"verifiedAt":"2026-10-22"}],"followUp":[{"fields":["recordings","official_video","releases","platform_links","platform_availability"],"note":"〈ペタルズ〉：已核官方原名、正式演唱名義與本作OP／ED用途；團體成員介紹不作逐曲實唱證據。 第1cour為1–10話（含10月第9/10話），第2cour自第11話（10/17實日）起；不把cour直接等同曆季。","resumeWhen":"待詳細資料階段取得本曲逐曲錄音、官方影片形式、發行收錄及確切正版平台資料。","checkedAt":"2026-10-22"}],"lastVerifiedAt":"2026-10-22"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E8%B3%88%E5%B8%8C%E5%A4%A7%E4%BA%BA%E4%B8%8D%E6%B0%A3%E9%A4%92%EF%BC%81","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://jahysama-anime.com/onair/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://dengekionline.com/articles/100377/","label":"第11話及第2cour主題曲公告交叉報導","role":"broadcast_cross_check","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"02:00"},
   {"anilistId":122052,"id":"curated-122052","slug":"kaizoku-oujo","seasonIds":["2021-summer","2021-fall"],"startDate":"2021-10-03","titleJa":"海賊王女","titleZhHant":"海賊王女","titleRomaji":"Kaizoku Oujo","posterUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx122052-nb8cfAe7pniT.jpg","bannerUrl":"https://s4.anilist.co/file/anilistcdn/media/anime/banner/122052-NcBAZCBhptcp.jpg","editorialWeekday":7,"broadcastLabel":"日本原TV：2021/10/2（六）26:38・MBS（實際10/3）；海外8月先行與日本TV分開。","status":"finished","officialSiteUrl":"https://fena-pirate-princess.com/","anilistUrl":"https://anilist.co/anime/122052","imageSourceUrl":"https://anilist.co/anime/122052","imageSourceLabel":"AniList 公開媒體頁","wikipediaUrl":"https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8","sourceReferenceUrls":["https://youranimes.tw/animes/2061","https://acgsecrets.hk/bangumi/202107/"],"animeThemesUrl":"https://animethemes.moe/anime/kaizoku_oujo","themes":[{"type":"OP","sequence":1,"titleJa":"海と真珠","artistDisplayName":"JUNNA","id":"kaizoku-oujo-op-1","songId":"kaizoku-oujo-op-1-song","sources":[{"label":"動畫官方網站","url":"https://fena-pirate-princess.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kaizoku_oujo","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"JUNNA - Topic 授權影片","url":"https://www.youtube.com/watch?v=M1zeI98AYSk","language":"ja","role":"cross_check","verifiedAt":"2026-09-02"},{"url":"https://www.production-ig.co.jp/hotnews/2021/072601.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://fena-pirate-princess.com/music/","label":"第一方逐曲創作名單；僅支持已列創作或演唱資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/kaizokuoujo","label":"獨立逐話曲表，常規用曲與第12話片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.crunchyroll.com/news/latest/2021/7/20/fena-pirate-princess-hits-crunchyroll-and-adult-swim-on-august-14","label":"海外發行方首播公告，區分英語電視版與字幕串流版","role":"first_party","language":"en","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=Zhwzq_KXnC8","label":"Crunchyroll同期公開的片頭／片尾影片；未標集數","role":"first_party","language":"en","verifiedAt":"2026-11-14"},{"url":"https://junnarockyou.com/jp/news/?id=277&news_category_id=&ym=","label":"完整版官方MV發布公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-190.html","label":"FlyingDog初回限定盤，日語原曲、英語歌唱及伴奏曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTCL-35330.html","label":"FlyingDog通常盤，日語原曲、英語歌唱及伴奏曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html","label":"FlyingDog原聲帶，日本片頭TV剪輯第一碟第2軌","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/the-sea-and-a-pearl-ep/1584607407","label":"Apple Music香港目錄，日英兩版原期數位EP","role":"first_party","language":"zh-Hant","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/the-sea-and-a-pearl-tv-edit-japanese-ver-single/1578443594","label":"Apple Music香港目錄，日語TV剪輯先行數位單曲","role":"first_party","language":"zh-Hant","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://fena-pirate-princess.com/","linkType":"official_landing_page","region":"JP"},{"platform":"Apple Music","label":"香港區《海と真珠》數位EP","url":"https://music.apple.com/hk/album/the-sea-and-a-pearl-ep/1584607407","linkType":"direct_album","region":"HK","releaseId":"kaizoku-oujo-umi-to-shinju-digital","verifiedAt":"2026-11-14","availability":"unknown"},{"platform":"Apple Music","label":"香港區日語TV剪輯單曲","url":"https://music.apple.com/hk/album/the-sea-and-a-pearl-tv-edit-japanese-ver-single/1578443594","linkType":"direct_album","region":"HK","releaseId":"kaizoku-oujo-umi-to-shinju-tv-edit-digital","verifiedAt":"2026-11-14","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"梶浦由記","role":"lyrics"},{"name":"梶浦由記","role":"composition"},{"name":"梶浦由記","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.production-ig.co.jp/hotnews/2021/072601.html"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.production-ig.co.jp/hotnews/2021/072601.html"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kaizoku_oujo"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kaizoku_oujo"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.youtube.com/watch?v=M1zeI98AYSk"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.youtube.com/watch?v=M1zeI98AYSk"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-op-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-op-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-op-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://fena-pirate-princess.com/music/"],"verifiedAt":"2026-10-22"},{"target":"anime_use","targetId":"kaizoku-oujo-op-1","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/kaizokuoujo"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"Zhwzq_KXnC8","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=Zhwzq_KXnC8"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"oSelDT-60kA","fields":["type","url"],"sourceUrls":["https://junnarockyou.com/jp/news/?id=277&news_category_id=&ym="],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-op-1-song-original","fields":["kind"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-190.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-op-1-song-english","fields":["kind","credits"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-190.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-op-1-song-instrumental","fields":["kind"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-190.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-op-1-song-tv-edit","fields":["kind","format"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtzl-190","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-190.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-35330","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTCL-35330.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-60555-60556","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"kaizoku-oujo-umi-to-shinju-digital","fields":["date","edition","tracklist"],"sourceUrls":["https://music.apple.com/hk/album/the-sea-and-a-pearl-ep/1584607407"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"kaizoku-oujo-umi-to-shinju-tv-edit-digital","fields":["date","edition","tracklist"],"sourceUrls":["https://music.apple.com/hk/album/the-sea-and-a-pearl-tv-edit-japanese-ver-single/1578443594"],"verifiedAt":"2026-11-14"}],"followUp":[{"fields":["use_quarters","recording_format","platform_availability"],"note":"海外發行方2021年8月已公開本曲動畫片頭影片，影片未標集數。現有日本原TV用途歸2021秋。","resumeWhen":"海外原首播版授權正片或逐話歌曲署名可查時，分別確認Crunchyroll與Toonami的集數、音源剪輯及夏季用途；平台地區播放另核。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第1–11話片頭曲","recordings":[{"id":"kaizoku-oujo-op-1-song-original","title":"海と真珠","format":"unknown","kind":"vocal"},{"id":"kaizoku-oujo-op-1-song-english","title":"the sea and a pearl","format":"unknown","kind":"vocal","credits":[{"name":"Joelle","role":"translation"}]},{"id":"kaizoku-oujo-op-1-song-instrumental","title":"海と真珠（without JUNNA）","format":"unknown","kind":"instrumental"},{"id":"kaizoku-oujo-op-1-song-tv-edit","title":"海と真珠 TV-Edit","format":"tv","kind":"vocal"}],"releases":[{"id":"vtzl-190","title":"海と真珠","type":"single","artistDisplayName":"JUNNA","date":{"value":"2021-10-06","precision":"day"},"edition":"初回限定盤（CD＋Blu-ray）","tracks":[{"title":"海と真珠","position":1,"recordingId":"kaizoku-oujo-op-1-song-original"},{"title":"the sea and a pearl","position":4,"recordingId":"kaizoku-oujo-op-1-song-english"},{"title":"海と真珠（without JUNNA）","position":5,"recordingId":"kaizoku-oujo-op-1-song-instrumental"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTZL-190"},{"id":"vtcl-35330","title":"海と真珠","type":"single","artistDisplayName":"JUNNA","date":{"value":"2021-10-06","precision":"day"},"edition":"通常盤（CD）","tracks":[{"title":"海と真珠","position":1,"recordingId":"kaizoku-oujo-op-1-song-original"},{"title":"the sea and a pearl","position":4,"recordingId":"kaizoku-oujo-op-1-song-english"},{"title":"海と真珠（without JUNNA）","position":5,"recordingId":"kaizoku-oujo-op-1-song-instrumental"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-35330"},{"id":"vtcl-60555-60556","title":"TVアニメーション『海賊王女』オリジナルサウンドトラック","type":"soundtrack","artistDisplayName":"梶浦由記","date":{"value":"2021-12-08","precision":"day"},"edition":"2CD","tracks":[{"title":"海と真珠 TV-Edit","position":2,"recordingId":"kaizoku-oujo-op-1-song-tv-edit","disc":1}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-60555～6"},{"id":"kaizoku-oujo-umi-to-shinju-digital","title":"海と真珠","type":"ep","artistDisplayName":"JUNNA","date":{"value":"2021-10-06","precision":"day"},"edition":"數位版","tracks":[{"title":"海と真珠","position":1},{"title":"the sea and a pearl","position":4}],"region":"HK","label":"FlyingDog"},{"id":"kaizoku-oujo-umi-to-shinju-tv-edit-digital","title":"海と真珠（TV-Edit Japanese Ver）","type":"single","artistDisplayName":"JUNNA","date":{"value":"2021-08-15","precision":"day"},"edition":"日語TV剪輯先行數位單曲","tracks":[{"title":"海と真珠 TV-Edit","position":1}],"region":"HK","label":"FlyingDog"}]},{"type":"ED","sequence":1,"titleJa":"サイハテ","artistDisplayName":"鈴木みのり","id":"kaizoku-oujo-ed-1","songId":"kaizoku-oujo-ed-1-song","sources":[{"label":"動畫官方網站","url":"https://fena-pirate-princess.com/","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"label":"AnimeThemes","url":"https://animethemes.moe/anime/kaizoku_oujo","language":"en","role":"cross_check","verifiedAt":"2026-09-02"},{"label":"鈴木みのり 官方影片","url":"https://www.youtube.com/watch?v=2MV6zW5Tlc8","language":"ja","role":"first_party","verifiedAt":"2026-09-02"},{"url":"https://www.production-ig.co.jp/hotnews/2021/072601.html","label":"第一方本曲原名、演唱名義與已列資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://fena-pirate-princess.com/music/","label":"第一方逐曲創作名單；僅支持已列創作或演唱資料","role":"first_party","language":"ja","verifiedAt":"2026-10-22"},{"url":"https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3","label":"本期原名、名義與OP／ED／插曲用途交叉核對","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://www.mau2.com/anime/kaizokuoujo","label":"獨立逐話曲表，常規用曲與第12話片尾","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.crunchyroll.com/news/latest/2021/7/20/fena-pirate-princess-hits-crunchyroll-and-adult-swim-on-august-14","label":"海外發行方首播公告，區分英語電視版與字幕串流版","role":"first_party","language":"en","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=OyGez-laCqY","label":"Crunchyroll同期公開的片頭／片尾影片；未標集數","role":"first_party","language":"en","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/News/A025540/94.html","label":"完整版官方MV發布公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-191.html","label":"FlyingDog初回限定盤歌唱、伴奏及TV EDIT曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-35331.html","label":"FlyingDog通常盤歌唱、伴奏及TV EDIT曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-35332.html","label":"FlyingDog動畫盤歌唱、伴奏及TV EDIT曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html","label":"FlyingDog原聲帶，片尾TV EDIT第二碟第19軌","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/-/News/A025540/91.html","label":"FlyingDog官方一段副歌MV發布公告","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/saihate-ep/1588853215","label":"Apple Music香港目錄，含片尾、伴奏與TV EDIT的數位EP","role":"first_party","language":"zh-Hant","verifiedAt":"2026-11-14"}],"links":[{"platform":"作品官網","label":"作品官方網站","url":"https://fena-pirate-princess.com/","linkType":"official_landing_page","region":"JP"},{"platform":"Apple Music","label":"香港區《サイハテ》數位EP","url":"https://music.apple.com/hk/album/saihate-ep/1588853215","linkType":"direct_album","region":"HK","releaseId":"kaizoku-oujo-saihate-digital","verifiedAt":"2026-11-14","availability":"unknown"}],"sourceMode":"explicit","seasonIds":["2021-fall"],"credits":[{"name":"饗庭純","role":"lyrics"},{"name":"出羽良彰","role":"composition"},{"name":"出羽良彰","role":"arrangement"}],"evidence":[{"target":"song","fields":["title","artist"],"sourceUrls":["https://www.production-ig.co.jp/hotnews/2021/072601.html"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://www.production-ig.co.jp/hotnews/2021/072601.html"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://animethemes.moe/anime/kaizoku_oujo"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://animethemes.moe/anime/kaizoku_oujo"],"verifiedAt":"2026-09-02","targetId":"kaizoku-oujo-ed-1"},{"target":"song","fields":["title","artist"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-ed-1-song"},{"target":"anime_use","fields":["usage"],"sourceUrls":["https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3"],"verifiedAt":"2026-10-22","targetId":"kaizoku-oujo-ed-1"},{"target":"credits","fields":["credits"],"sourceUrls":["https://fena-pirate-princess.com/music/"],"verifiedAt":"2026-10-22"},{"target":"anime_use","targetId":"kaizoku-oujo-ed-1","fields":["usage"],"sourceUrls":["https://www.mau2.com/anime/kaizokuoujo"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"OyGez-laCqY","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=OyGez-laCqY"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"SlrKbzCTvNM","fields":["type","url"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/News/A025540/94.html"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"2MV6zW5Tlc8","fields":["type","url"],"sourceUrls":["https://www.jvcmusic.co.jp/-/News/A025540/91.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-ed-1-song-original","fields":["kind"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-191.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-ed-1-song-instrumental","fields":["kind"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-191.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-ed-1-song-tv-edit","fields":["kind","format"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-191.html","https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtzl-191","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTZL-191.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-35331","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-35331.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-35332","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025540/VTCL-35332.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-60555-60556","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A016061/VTCL-60555.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"kaizoku-oujo-saihate-digital","fields":["date","edition","tracklist"],"sourceUrls":["https://music.apple.com/hk/album/saihate-ep/1588853215"],"verifiedAt":"2026-11-14"}],"followUp":[{"fields":["use_quarters","recording_format","platform_availability"],"note":"海外發行方2021年8月已公開本曲動畫片尾影片，影片未標集數。現有日本原TV用途歸2021秋。","resumeWhen":"海外原首播版授權正片或逐話歌曲署名可查時，分別確認Crunchyroll與Toonami的集數、音源剪輯及夏季用途；平台地區播放另核。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14","usageLabel":"日本原TV第1–11話片尾曲","recordings":[{"id":"kaizoku-oujo-ed-1-song-original","title":"サイハテ","format":"unknown","kind":"vocal"},{"id":"kaizoku-oujo-ed-1-song-instrumental","title":"サイハテ（Instrumental）","format":"unknown","kind":"instrumental"},{"id":"kaizoku-oujo-ed-1-song-tv-edit","title":"サイハテ（TV EDIT）","format":"tv","kind":"vocal"}],"releases":[{"id":"vtzl-191","title":"サイハテ","type":"single","artistDisplayName":"鈴木みのり","date":{"value":"2021-11-10","precision":"day"},"edition":"初回限定盤（CD＋Blu-ray）","tracks":[{"title":"サイハテ","position":1,"recordingId":"kaizoku-oujo-ed-1-song-original"},{"title":"サイハテ（Instrumental）","position":3,"recordingId":"kaizoku-oujo-ed-1-song-instrumental"},{"title":"サイハテ（TV EDIT）","position":5,"recordingId":"kaizoku-oujo-ed-1-song-tv-edit"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTZL-191"},{"id":"vtcl-35331","title":"サイハテ","type":"single","artistDisplayName":"鈴木みのり","date":{"value":"2021-11-10","precision":"day"},"edition":"通常盤（CD）","tracks":[{"title":"サイハテ","position":1,"recordingId":"kaizoku-oujo-ed-1-song-original"},{"title":"サイハテ（Instrumental）","position":3,"recordingId":"kaizoku-oujo-ed-1-song-instrumental"},{"title":"サイハテ（TV EDIT）","position":5,"recordingId":"kaizoku-oujo-ed-1-song-tv-edit"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-35331"},{"id":"vtcl-35332","title":"サイハテ","type":"single","artistDisplayName":"鈴木みのり","date":{"value":"2021-11-10","precision":"day"},"edition":"アニメ盤（CD）","tracks":[{"title":"サイハテ","position":1,"recordingId":"kaizoku-oujo-ed-1-song-original"},{"title":"サイハテ（Instrumental）","position":3,"recordingId":"kaizoku-oujo-ed-1-song-instrumental"},{"title":"サイハテ（TV EDIT）","position":5,"recordingId":"kaizoku-oujo-ed-1-song-tv-edit"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-35332"},{"id":"vtcl-60555-60556","title":"TVアニメーション『海賊王女』オリジナルサウンドトラック","type":"soundtrack","artistDisplayName":"梶浦由記","date":{"value":"2021-12-08","precision":"day"},"edition":"2CD","tracks":[{"title":"サイハテ（TV EDIT）","position":19,"recordingId":"kaizoku-oujo-ed-1-song-tv-edit","disc":2}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-60555～6"},{"id":"kaizoku-oujo-saihate-digital","title":"サイハテ","type":"ep","artistDisplayName":"鈴木みのり","date":{"value":"2021-11-10","precision":"day"},"edition":"數位版","tracks":[{"title":"サイハテ","position":1},{"title":"サイハテ（Instrumental）","position":3},{"title":"サイハテ（TV EDIT）","position":5}],"region":"HK"}]},{"id":"kaizoku-oujo-ed-2","type":"ED","sequence":2,"titleJa":"太陽の航路","artistDisplayName":"JUNNA","songId":"kaizoku-oujo-ed-2-song","sourceMode":"explicit","seasonIds":["2021-fall"],"usageLabel":"日本原TV第12話片尾曲","sources":[{"url":"https://junnarockyou.com/jp/news/?id=280","label":"JUNNA原期公告，最終話片尾及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://fena-pirate-princess.com/story/%E9%81%B8%E6%8A%9E%E3%81%AE%E5%B7%AB%E5%A5%B3/","label":"動畫官方第12話標題及集數","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.mau2.com/anime/kaizokuoujo","label":"獨立第12話逐曲片尾對照","role":"cross_check","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VE3WA-19400.html","label":"FlyingDog原期配信單曲及曲序","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-224.html","label":"FlyingDog《Dear》初回限定盤第7軌及英語版第14軌","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTCL-60570.html","label":"FlyingDog《Dear》通常盤第7軌，最終話片尾及詞曲編","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://www.youtube.com/watch?v=5u5eSzsl7oo","label":"FlyingDog授權數位單曲Art Track","role":"first_party","language":"ja","verifiedAt":"2026-11-14"},{"url":"https://music.apple.com/hk/album/the-route-of-the-sun-single/1598829624","label":"Apple Music香港目錄，數位單曲及演唱","role":"cross_check","language":"zh-Hant","verifiedAt":"2026-11-14"}],"credits":[{"name":"梶浦由記","role":"lyrics"},{"name":"梶浦由記","role":"composition"},{"name":"梶浦由記","role":"arrangement"}],"recordings":[{"id":"kaizoku-oujo-ed-2-song-original","title":"太陽の航路","format":"unknown","kind":"vocal"},{"id":"kaizoku-oujo-ed-2-song-english","title":"the route of the sun","format":"unknown","kind":"vocal","credits":[{"name":"Joelle","role":"translation"}]}],"releases":[{"id":"ve3wa-19400","title":"太陽の航路","type":"single","artistDisplayName":"JUNNA","date":{"value":"2021-12-22","precision":"day"},"edition":"數位單曲","tracks":[{"title":"太陽の航路","position":1,"recordingId":"kaizoku-oujo-ed-2-song-original"}],"region":"JP","label":"FlyingDog"},{"id":"vtzl-224","title":"Dear","type":"album","artistDisplayName":"JUNNA","date":{"value":"2023-04-12","precision":"day"},"edition":"初回限定盤（CD＋Blu-ray）","tracks":[{"title":"太陽の航路","position":7},{"title":"the route of the sun","position":14,"recordingId":"kaizoku-oujo-ed-2-song-english"}],"region":"JP","label":"FlyingDog","catalogNumber":"VTZL-224"},{"id":"vtcl-60570","title":"Dear","type":"album","artistDisplayName":"JUNNA","date":{"value":"2023-04-12","precision":"day"},"edition":"通常盤（CD）","tracks":[{"title":"太陽の航路","position":7}],"region":"JP","label":"FlyingDog","catalogNumber":"VTCL-60570"}],"links":[{"platform":"Apple Music","label":"香港區《太陽の航路》數位單曲","url":"https://music.apple.com/hk/album/the-route-of-the-sun-single/1598829624","linkType":"direct_album","region":"HK","releaseId":"ve3wa-19400","verifiedAt":"2026-11-14","availability":"unknown"}],"evidence":[{"target":"song","targetId":"kaizoku-oujo-ed-2-song","fields":["title","artist"],"sourceUrls":["https://junnarockyou.com/jp/news/?id=280","https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VE3WA-19400.html","https://music.apple.com/hk/album/the-route-of-the-sun-single/1598829624","https://www.mau2.com/anime/kaizokuoujo"],"verifiedAt":"2026-11-14"},{"target":"anime_use","targetId":"kaizoku-oujo-ed-2","fields":["usage"],"sourceUrls":["https://junnarockyou.com/jp/news/?id=280","https://www.mau2.com/anime/kaizokuoujo"],"verifiedAt":"2026-11-14"},{"target":"credits","fields":["credits"],"sourceUrls":["https://junnarockyou.com/jp/news/?id=280","https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-224.html"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-ed-2-song-original","fields":["kind"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VE3WA-19400.html","https://music.apple.com/hk/album/the-route-of-the-sun-single/1598829624"],"verifiedAt":"2026-11-14"},{"target":"recording","targetId":"kaizoku-oujo-ed-2-song-english","fields":["kind","credits"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-224.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"ve3wa-19400","fields":["date","edition","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VE3WA-19400.html","https://music.apple.com/hk/album/the-route-of-the-sun-single/1598829624"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtzl-224","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTZL-224.html"],"verifiedAt":"2026-11-14"},{"target":"release","targetId":"vtcl-60570","fields":["date","edition","catalog_number","tracklist"],"sourceUrls":["https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025763/VTCL-60570.html"],"verifiedAt":"2026-11-14"},{"target":"video","targetId":"5u5eSzsl7oo","fields":["type","url"],"sourceUrls":["https://www.youtube.com/watch?v=5u5eSzsl7oo"],"verifiedAt":"2026-11-14"}],"followUp":[{"fields":["recording_format","platform_availability"],"note":"日本第12話片尾曲及原期配信已確認。CD、數位單曲與正片實用剪輯的同一性尚待確認。","resumeWhen":"權利方公布原話剪輯、版本識別或平台地區播放資料後補核。","checkedAt":"2026-11-14"}],"lastVerifiedAt":"2026-11-14"}],"verifiedAt":"2026-09-02","metadataVerifiedAt":"2026-09-02","metadataSources":[{"url":"https://zh.wikipedia.org/wiki/%E6%B5%B7%E8%B3%8A%E7%8E%8B%E5%A5%B3","label":"原期逐話日期交叉核對；非歌曲原名或作者證據","role":"broadcast_cross_check","language":"zh-Hant","verifiedAt":"2026-10-22"},{"url":"https://fena-pirate-princess.com/","label":"第一方原期TV播出／延期日期補充","role":"first_party","language":"ja","verifiedAt":"2026-10-22"}],"broadcastTimeJst":"02:38"},
+  {
+    "id": "curated-119696",
+    "anilistId": 119696,
+    "slug": "valkyrie-no-shokutaku-ii",
+    "titleJa": "戦乙女の食卓Ⅱ",
+    "titleZhHant": "女武神的餐桌II",
+    "titleRomaji": "Valkyrie no Shokutaku II",
+    "seasonIds": [
+      "2021-summer"
+    ],
+    "startDate": "2021-07-18",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "24:30",
+    "status": "finished",
+    "officialSiteUrl": "https://www.bs4.jp/valkyrie2/",
+    "anilistUrl": "https://anilist.co/anime/119696",
+    "imageSourceUrl": "https://anilist.co/anime/119696",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119696-JjixBLB2fgMj.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119696-mVAmacREtSEl.jpg",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/%E5%A5%B3%E6%AD%A6%E7%A5%9E%E7%9A%84%E9%A4%90%E6%A1%8C",
+    "sourceReferenceUrls": [
+      "https://www.bs4.jp/valkyrie2/",
+      "https://anilist.co/anime/119696"
+    ],
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-20",
+    "metadataSources": [
+      {
+        "url": "https://tap-blade.com/works",
+        "label": "BLADE：日本工作室與震雷共同製作",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+        "label": "miHoYo：日本首播公告、配信時間及兩首日語主題歌",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=BNMmrGOCcYs",
+        "label": "崩壞3rd：2020年中文版片頭及作品譯名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/6068/time",
+        "label": "日本電視分集播出日期及節目時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "broadcastLabel": "日本短篇電視版全8話，震雷與日本BLADE共同製作。BS日テレ於2021年7月18日至9月5日逢星期日24:30–24:45 JST播出（曆日星期一），日語網上配信25:00。中文版於2020年先行。",
+    "themes": [
+      {
+        "id": "valkyrie-no-shokutaku-ii-op-1",
+        "songId": "valkyrie-no-shokutaku-ii-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "私の天命",
+        "artistDisplayName": "ロザリア・アリーン（CV：古賀葵）、リリア・アリーン（CV：芹澤優）",
+        "seasonIds": [
+          "2021-summer"
+        ],
+        "usageLabel": "日本TV第2–6及8話片頭，第1、7話無片頭曲。",
+        "credits": [
+          {
+            "name": "古賀葵",
+            "role": "vocals"
+          },
+          {
+            "name": "芹澤優",
+            "role": "vocals"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "composition"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "arrangement"
+          },
+          {
+            "name": "墨流离",
+            "role": "lyrics"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anidb.net/anime/15614",
+            "label": "公開歌曲資料：用途與演唱者交叉核對",
+            "language": "multi",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song",
+            "label": "Apple 香港：原聲帶收錄版本、演唱名義及區域串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song",
+            "label": "Apple 日本：原聲帶收錄版本、演唱名義及區域串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.bs4.jp/valkyrie2/",
+            "label": "BS日テレ：放送時段及製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+            "label": "miHoYo：日本首播公告、配信時間及兩首日語主題歌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/6068",
+            "label": "日本分話曲表：省略片頭、片尾的集數及第8話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1523980682"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1523980883"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-op-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1523980890"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1523980682"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1523980883"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1523980890"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bs4.jp/valkyrie2/",
+              "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-op-1-song-ja-vocal"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-op-1-song"
+          }
+        ],
+        "titleRomaji": "Watashi no Tenmei",
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://www.bs4.jp/valkyrie2/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1523980883",
+            "label": "我的天命 (feat. 多多poi & 宴寧)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal",
+            "releaseId": "apple-hk-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1523980890",
+            "label": "我的天命 (Instrumental)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-inst",
+            "releaseId": "apple-hk-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1523980883",
+            "label": "You Are My Destiny (feat. 多多poi & 宴宁)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal",
+            "releaseId": "apple-jp-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1523980890",
+            "label": "You Are My Destiny (Instrumental)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-inst",
+            "releaseId": "apple-jp-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "valkyrie-no-shokutaku-ii-op-1-song-ja-vocal",
+            "title": "私の天命（日本電視版演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "古賀葵",
+                "role": "vocals"
+              },
+              {
+                "name": "芹澤優",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal",
+            "title": "我的天命 (feat. 多多poi & 宴寧)",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "多多poi",
+                "role": "vocals"
+              },
+              {
+                "name": "宴寧",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "valkyrie-no-shokutaku-ii-op-1-song-inst",
+            "title": "我的天命 (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1523980682",
+            "title": "Honkai Impact 3rd - 「Cooking with Valkyries Ⅱ」 (feat. 多多poi, 宴宁 & 花玲) [Original Soundtrack] - EP",
+            "artistDisplayName": "HOYO-MiX",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-07-18",
+              "precision": "day"
+            },
+            "edition": "HK數位原聲帶",
+            "tracks": [
+              {
+                "title": "我的天命 (feat. 多多poi & 宴寧)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal"
+              },
+              {
+                "title": "我的天命 (Instrumental)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1523980682",
+            "title": "Honkai Impact 3rd - 「Cooking with Valkyries Ⅱ」 (feat. 多多poi, 宴宁 & 花玲) [Original Soundtrack] - EP",
+            "artistDisplayName": "HOYO-MiX",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-07-18",
+              "precision": "day"
+            },
+            "edition": "JP數位原聲帶",
+            "tracks": [
+              {
+                "title": "You Are My Destiny (feat. 多多poi & 宴宁)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-zh-vocal"
+              },
+              {
+                "title": "You Are My Destiny (Instrumental)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "valkyrie-no-shokutaku-ii-op-1-song-inst"
+              }
+            ]
+          }
+        ],
+        "versionLabel": "日本電視版由日語配音員演唱。香港及日本數位原聲帶另收中文版演唱與伴奏。"
+      },
+      {
+        "id": "valkyrie-no-shokutaku-ii-ed-1",
+        "songId": "valkyrie-no-shokutaku-ii-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "あなたとの約束",
+        "artistDisplayName": "テレサ・アポカリプス（CV：田村ゆかり）",
+        "seasonIds": [
+          "2021-summer"
+        ],
+        "usageLabel": "日本TV第1–6話片尾，第7、8話無常規片尾曲。",
+        "credits": [
+          {
+            "name": "田村ゆかり",
+            "role": "vocals"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "composition"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "arrangement"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "lyrics"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://anidb.net/anime/15614",
+            "label": "公開歌曲資料：用途與演唱者交叉核對",
+            "language": "multi",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song",
+            "label": "Apple 香港：原聲帶收錄版本、演唱名義及區域串流",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song",
+            "label": "Apple 日本：原聲帶收錄版本、演唱名義及區域串流",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.bs4.jp/valkyrie2/",
+            "label": "BS日テレ：放送時段及製作職務",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+            "label": "miHoYo：日本首播公告、配信時間及兩首日語主題歌",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/6068",
+            "label": "日本分話曲表：省略片頭、片尾的集數及第8話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s",
+            "label": "崩壊3rd公式日語版第1話：06:01片尾歌、演唱及作詞／曲／編掛字",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1523980682"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1523980886"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1523980891"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1523980682"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1523980886"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1523980682&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1523980891"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.bs4.jp/valkyrie2/",
+              "https://prtimes.jp/main/html/rd/p/000000079.000048345.html",
+              "https://cal.syoboi.jp/tid/6068",
+              "https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-ed-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-ed-1-song-ja-vocal"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=4vcrwmIOjeY&t=361s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-ed-1-song"
+          }
+        ],
+        "titleRomaji": "Anata to no Yakusoku",
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://www.bs4.jp/valkyrie2/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1523980886",
+            "label": "和你約定 (feat. 花玲)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal",
+            "releaseId": "apple-hk-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1523980891",
+            "label": "和你約定 (Instrumental)｜HK串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-inst",
+            "releaseId": "apple-hk-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1523980886",
+            "label": "Make a Wish with You (feat. 花玲)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal",
+            "releaseId": "apple-jp-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1523980891",
+            "label": "Make a Wish with You (Instrumental)｜JP串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-inst",
+            "releaseId": "apple-jp-1523980682",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "valkyrie-no-shokutaku-ii-ed-1-song-ja-vocal",
+            "title": "あなたとの約束（日本電視版演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "田村ゆかり",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal",
+            "title": "和你約定 (feat. 花玲)",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "花玲",
+                "role": "vocals"
+              }
+            ]
+          },
+          {
+            "id": "valkyrie-no-shokutaku-ii-ed-1-song-inst",
+            "title": "和你約定 (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1523980682",
+            "title": "Honkai Impact 3rd - 「Cooking with Valkyries Ⅱ」 (feat. 多多poi, 宴宁 & 花玲) [Original Soundtrack] - EP",
+            "artistDisplayName": "HOYO-MiX",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-07-18",
+              "precision": "day"
+            },
+            "edition": "HK數位原聲帶",
+            "tracks": [
+              {
+                "title": "和你約定 (feat. 花玲)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal"
+              },
+              {
+                "title": "和你約定 (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1523980682",
+            "title": "Honkai Impact 3rd - 「Cooking with Valkyries Ⅱ」 (feat. 多多poi, 宴宁 & 花玲) [Original Soundtrack] - EP",
+            "artistDisplayName": "HOYO-MiX",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-07-18",
+              "precision": "day"
+            },
+            "edition": "JP數位原聲帶",
+            "tracks": [
+              {
+                "title": "Make a Wish with You (feat. 花玲)",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-zh-vocal"
+              },
+              {
+                "title": "Make a Wish with You (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "valkyrie-no-shokutaku-ii-ed-1-song-inst"
+              }
+            ]
+          }
+        ],
+        "versionLabel": "日本電視版由日語配音員演唱。香港及日本數位原聲帶另收中文版演唱與伴奏。日語版第1話06:01片尾掛字作詞、作曲及編曲均列Luna Safari。"
+      },
+      {
+        "id": "valkyrie-no-shokutaku-ii-in-1",
+        "songId": "valkyrie-no-shokutaku-ii-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "きっと、また未来で",
+        "artistDisplayName": "キアナ、雷電芽衣、ブローニャ、無量塔姫子、テレサ（釘宮理恵、沢城みゆき、阿澄佳奈、田中理恵、田村ゆかり）",
+        "seasonIds": [
+          "2021-summer"
+        ],
+        "usageLabel": "日本TV第8話插曲。官方日語版08:06片末名單列五人演唱。",
+        "credits": [
+          {
+            "name": "釘宮理恵",
+            "role": "vocals"
+          },
+          {
+            "name": "沢城みゆき",
+            "role": "vocals"
+          },
+          {
+            "name": "阿澄佳奈",
+            "role": "vocals"
+          },
+          {
+            "name": "田中理恵",
+            "role": "vocals"
+          },
+          {
+            "name": "田村ゆかり",
+            "role": "vocals"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "composition"
+          },
+          {
+            "name": "Luna Safari",
+            "role": "arrangement"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s",
+            "label": "崩壊3rd公式日語版第8話：08:06插曲名、五人演唱與詞曲編掛字",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/6068",
+            "label": "日本分話曲表：省略片頭、片尾的集數及第8話插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-in-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-in-1-song-ja-vocal"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nYB_KZaVZtE&t=486s",
+              "https://cal.syoboi.jp/tid/6068"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "valkyrie-no-shokutaku-ii-in-1-song"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "platform_links"
+            ],
+            "note": "第8話日語版掛字可辨別曲名、演唱與作曲編曲，作詞者末字仍待確認。",
+            "resumeWhen": "取得清晰日語片尾掛字或日本發行方完整詞曲表，再核對作詞及日語版香港串流。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "valkyrie-no-shokutaku-ii-in-1-song-ja-vocal",
+            "title": "きっと、また未来で（日本電視版演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "釘宮理恵",
+                "role": "vocals"
+              },
+              {
+                "name": "沢城みゆき",
+                "role": "vocals"
+              },
+              {
+                "name": "阿澄佳奈",
+                "role": "vocals"
+              },
+              {
+                "name": "田中理恵",
+                "role": "vocals"
+              },
+              {
+                "name": "田村ゆかり",
+                "role": "vocals"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2021SummerSeeds: CuratedAnimeSeed[] = curated2021SummerSeedRows;

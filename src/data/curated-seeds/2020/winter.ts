@@ -143566,11 +143566,11 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "titleRomaji": "Bakugan: Battle Planet",
     "editorialWeekday": 1,
     "broadcastTimeJst": "17:55",
-    "broadcastLabel": "日本電視版2019/4/1至2020/3/30於テレビ東京系週一17:55–18:25 JST播出全50話。TMS 放映規格每話25分鐘，正版平台正片約24–25分鐘。",
+    "broadcastLabel": "日本電視版2019/4/1至2020/3/30於テレビ東京系週一17:55–18:25 JST播出全50話。TMS 放映規格每話25分鐘，正版平台正片約24–25分鐘。 日本版由TMS製作動畫。第1–26話的製作署名為東京電視台與製作委員會，第27話起署名為TMS。",
     "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/",
     "status": "finished",
     "verifiedAt": "2026-11-16",
-    "metadataVerifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-20",
     "sourceReferenceUrls": [
       "https://www.coms-auth.hk/filemanager/en/content_1276/TVB_Positive_Programmes_2019.pdf",
       "https://cal.syoboi.jp/tid/5267/subtitle"
@@ -143638,6 +143638,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "role": "identifier",
         "language": "en",
         "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://spinmaster.mediaroom.com/2018-10-09-Spin-Master-Announces-the-Global-Relaunch-of-BAKUGAN-In-Partnership-with-Cartoon-Network-TMS-Entertainment-and-Nelvana-Limited",
+        "label": "Spin Master｜TMS、Nelvana及Spin Master聯合製作企劃",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
       }
     ],
     "themes": [
@@ -143655,8 +143662,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-fall",
           "2019-spring"
         ],
-        "lastVerifiedAt": "2026-11-16",
-        "usageLabel": "日本電視版常規片頭。2019年4月1日啟用，已核2019年春、夏、秋和2020年冬使用。",
+        "lastVerifiedAt": "2026-11-20",
+        "usageLabel": "日本電視版常規片頭。2019年4月1日啟用，已核2019年春、夏、秋和2020年冬使用。 東京電視台7月1日及10月7日兩次無編號特別編的分集節目表亦列此曲為片頭。",
         "sources": [
           {
             "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
@@ -143734,6 +143741,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/25352_201907011755.html",
+            "label": "東京電視台｜7月1日特別編曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/25352_201910071755.html",
+            "label": "東京電視台｜10月7日特別編曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-osaka.co.jp/onair/detail/oaid%3D1834055/",
+            "label": "大阪電視台｜10月7日特別編分集曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bakuganbattleplanet",
+            "label": "日本播出時各話資料｜兩次特別編與正篇分列",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -143822,6 +143857,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "AsTbulk4JFw"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/25352_201907011755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/25352_201910071755.html",
+              "https://www.tv-osaka.co.jp/onair/detail/oaid%3D1834055/",
+              "https://www.mau2.com/anime/bakuganbattleplanet"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakugan-battle-planet-op-1"
           }
         ],
         "followUp": [
@@ -143831,9 +143880,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "releases",
               "platform_availability"
             ],
-            "note": "另有演唱方官方會場演出。日本原播使用錄音、商業音源及香港完整播放待核。",
+            "note": "另有演唱方官方會場演出。日本原播使用錄音、商業音源及香港完整播放待核。 TMS於2019年3月公布主題曲時表示當時沒有發行計劃。香港及日本商店未能定位該團的原播音源。",
             "resumeWhen": "待原播掛字、發行方逐曲音源資料或香港正版曲目；有可辨識音軌再核 TV 剪輯與原錄音。",
-            "checkedAt": "2026-11-16"
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -143851,8 +143900,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-fall",
           "2019-spring"
         ],
-        "lastVerifiedAt": "2026-11-16",
-        "usageLabel": "日本電視版第1–39話片尾；2020年1月6日第38話節目資料列明此曲，第39話於1月13日播出。",
+        "lastVerifiedAt": "2026-11-20",
+        "usageLabel": "日本電視版第1–39話片尾；2020年1月6日第38話節目資料列明此曲，第39話於1月13日播出。 東京電視台7月1日及10月7日兩次無編號特別編的分集節目表亦列此曲為片尾。",
         "sources": [
           {
             "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
@@ -143909,6 +143958,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/25352_201907011755.html",
+            "label": "東京電視台｜7月1日特別編曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/25352_201910071755.html",
+            "label": "東京電視台｜10月7日特別編曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-osaka.co.jp/onair/detail/oaid%3D1834055/",
+            "label": "大阪電視台｜10月7日特別編分集曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/bakuganbattleplanet",
+            "label": "日本播出時各話資料｜兩次特別編與正篇分列",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -143971,6 +144048,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "https://cal.syoboi.jp/tid/5267/subtitle"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/25352_201907011755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/25352_201910071755.html",
+              "https://www.tv-osaka.co.jp/onair/detail/oaid%3D1834055/",
+              "https://www.mau2.com/anime/bakuganbattleplanet"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bakugan-battle-planet-ed-1"
           }
         ],
         "followUp": [
@@ -143980,9 +144071,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "releases",
               "platform_availability"
             ],
-            "note": "製作方和同期節目表已確認用途。播出剪輯、商業音源及香港正式曲目待核。",
+            "note": "製作方和同期節目表已確認用途。播出剪輯、商業音源及香港正式曲目待核。 TMS於2019年3月公布主題曲時表示當時沒有發行計劃。香港及日本商店未能定位該團的原播音源。",
             "resumeWhen": "待原播掛字、發行方逐曲音源資料或香港正版曲目；有可辨識音軌再核 TV 剪輯與原錄音。",
-            "checkedAt": "2026-11-16"
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -145442,7 +145533,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-fall",
           "2019-spring"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第1–29話片頭；2019年4月2日開始，至10月15日第29話。",
         "sources": [
           {
@@ -145535,6 +145626,83 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "GLAY：2022年巡演幕張兩日場次及曲序",
+            "url": "https://www.glay.co.jp/news/list/4/110/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1671086205&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1479154790&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1479154790&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1457671092&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1457671092&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1466045237&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1466045237&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1502221881&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1502221881&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1671086205&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -145708,17 +145876,299 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "J_OxuDSZ4ng"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/list/4/110/",
+              "https://itunes.apple.com/lookup?id=1671086205&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-op-1-song-happy-swing-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479154790&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1479154790"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479154790&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1479154883"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479154790&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1479154790"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1479154790&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1479154883"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1457671092&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1457671092"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1457671092&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1457671098"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1457671092&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1457671092"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1457671092&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1457671098"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1466045237&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1466045237"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1466045237&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1466045245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1466045237&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1466045237"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1466045237&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1466045245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502221881&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1502221881"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502221881&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1502221890"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502221881&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1502221881"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1502221881&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1502221890"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1671086205&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1671086205"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1671086205&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1671086498"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1671086205&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1671086205"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1671086205&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1671086498"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           },
           {
             "fields": [
@@ -145741,6 +146191,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "title": "はじまりのうた (TV SizeVer.)",
             "format": "tv",
             "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-op-1-song-happy-swing-live",
+            "title": "はじまりのうた（We♡Happy Swing Vol.3 現場版）",
+            "kind": "live",
+            "format": "unknown"
           }
         ],
         "releases": [
@@ -145825,6 +146281,166 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "edition": "香港區數位版"
+          },
+          {
+            "id": "apple-hk-1479154790",
+            "title": "No Democracy",
+            "artistDisplayName": "GLAY",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "はじまりのうた",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1479154790",
+            "title": "No Democracy",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2019-10-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 10,
+                "title": "はじまりのうた",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1457671092",
+            "title": "はじまりのうた(TV SizeVer.) - Single",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-04-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "はじまりのうた(TV SizeVer.)",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-tv-size"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1466045237",
+            "title": "G4・V - Democracy 2019 - EP",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-07-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "はじまりのうた",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1502221881",
+            "title": "REVIEWⅡ 〜BEST OF GLAY〜",
+            "artistDisplayName": "GLAY",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-03-11",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 9,
+                "title": "はじまりのうた",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1502221881",
+            "title": "REVIEWⅡ 〜BEST OF GLAY〜",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-03-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 9,
+                "title": "はじまりのうた",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1671086205",
+            "title": "GLAY LIVE TOUR 2022 ～We♡Happy Swing～ Vol.3",
+            "artistDisplayName": "GLAY",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2023-02-15",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 10,
+                "title": "はじまりのうた (Live)",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-happy-swing-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1671086205",
+            "title": "GLAY LIVE TOUR 2022 ～We♡Happy Swing～ Vol.3",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2023-02-15",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 2,
+                "position": 10,
+                "title": "はじまりのうた (Live)",
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-happy-swing-live"
+              }
+            ]
           }
         ],
         "links": [
@@ -145835,8 +146451,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1466045237",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
           },
           {
@@ -145846,9 +146462,97 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1457671092",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-op-1-song-tv-size"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1479154883",
+            "linkType": "direct_track",
+            "label": "香港｜はじまりのうた",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1479154790",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1479154883",
+            "linkType": "direct_track",
+            "label": "日本｜はじまりのうた",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1479154790",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1457671098",
+            "linkType": "direct_track",
+            "label": "日本｜はじまりのうた(TV SizeVer.)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1457671092",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-tv-size",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1466045245",
+            "linkType": "direct_track",
+            "label": "日本｜はじまりのうた",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1466045237",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1502221890",
+            "linkType": "direct_track",
+            "label": "香港｜はじまりのうた",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1502221881",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1502221890",
+            "linkType": "direct_track",
+            "label": "日本｜はじまりのうた",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1502221881",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1671086498",
+            "linkType": "direct_track",
+            "label": "香港｜はじまりのうた (Live)",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1671086205",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-happy-swing-live",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1671086498",
+            "linkType": "direct_track",
+            "label": "日本｜はじまりのうた (Live)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1671086205",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-happy-swing-live",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       },
@@ -145864,7 +146568,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-fall",
           "2020-winter"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第30–44、46–52話片頭，由2019年10月22日至2020年3月31日。播出方節目表作「流星のHOWL」。",
         "sources": [
           {
@@ -145872,7 +146576,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "GLAY 後期片頭公告、曲名大小寫及創作角色",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
@@ -145921,14 +146625,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "東京電視台第43–52話原播日期",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/daiyanoaceactii/ep/45",
             "label": "Mau2 第45話特別曲目交叉",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.glay.co.jp/discography/detail/2/",
@@ -145977,14 +146681,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "BSテレ東第45話節目表使用常規主題欄",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.youtube.com/watch?v=nMf6ObdJJKI",
-            "label": "木棉花第45話正版日語正片，日本總集篇的編號差另計",
+            "label": "木棉花台灣授權版：上架標示第44話〈Go EXCEED！！〉",
             "role": "first_party",
             "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.bilibili.com/bangumi/play/ep284620",
@@ -145998,7 +146702,49 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "日本原版第45話開頭與片尾交叉記錄",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "歌ネット：發行單曲的編曲署名",
+            "url": "https://www.uta-net.com/song/289031/",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "MusicBrainz：單曲音軌的製作名義交叉核對",
+            "url": "https://musicbrainz.org/release/61ad4b41-fecc-45ec-8662-937a7f591d5b",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "中華電信MOD：全52話及第45話正式中譯篇名",
+            "url": "https://mod.cht.com.tw/modweb/product/167884.do",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Crunchyroll：按日本順序列為第45話的授權版本",
+            "url": "https://www.crunchyroll.com/watch/G6KE0E986/go-exceed",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1522408595&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1522408595&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -146013,6 +146759,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "name": "TERU",
             "role": "composition"
+          },
+          {
+            "name": "DJ Mass MAD Izm*",
+            "role": "arrangement"
           }
         ],
         "evidence": [
@@ -146153,33 +146903,110 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "DMu8CJFnEhQ"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4675",
+              "https://cal.syoboi.jp/tid/5274"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/289031/",
+              "https://musicbrainz.org/release/61ad4b41-fecc-45ec-8662-937a7f591d5b",
+              "https://www.glay.co.jp/news/detail/4675"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-op-2-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522408595&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1522408595"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522408595&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1522408778"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522408595&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1522408595"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1522408595&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1522408778"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           },
           {
             "fields": [
               "arrangement"
             ],
-            "note": "藝人公告分別記載 DJ Mass MAD Izm* 參與編曲及亀田誠治擔任監製。",
-            "resumeWhen": "取得原盤或原版掛字的完整編曲署名再補。",
-            "checkedAt": "2026-11-16"
+            "note": "GLAY的播出公告確認DJ Mass MAD Izm*參與編曲。發行單曲另有完整編曲名義。",
+            "resumeWhen": "待日本電視畫面完整編曲掛字，以核對電視剪輯與單曲所用署名。",
+            "checkedAt": "2026-11-20"
           },
           {
             "fields": [
               "recording_format"
             ],
-            "note": "第45話的末段使用及前段另曲有逐話交叉；本筆保存常規片頭範圍。",
-            "resumeWhen": "核對原播或正版日語第45話的實際片尾及音樂署名後補特例。",
-            "checkedAt": "2026-11-16"
+            "note": "日本第45話〈Go EXCEED!!〉在木棉花台灣版編為第44話。日本逐話曲表記述開頭插曲與片末轉位，BS節目表列常規主題欄。",
+            "resumeWhen": "待可播放的授權日本音軌及片尾掛字，按篇名核對開頭〈Go EXCEED!!〉與片尾〈流星のHowl〉。",
+            "checkedAt": "2026-11-20"
           }
         ],
         "releaseDate": "2020-08-12",
@@ -146188,7 +147015,25 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "id": "diamond-no-ace-act-ii-op-2-song-single-full",
             "title": "流星のHowl",
             "format": "full",
-            "kind": "vocal"
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "GLAY",
+                "role": "arrangement"
+              },
+              {
+                "name": "SEIJI KAMEDA",
+                "role": "arrangement"
+              },
+              {
+                "name": "DJ Mass",
+                "role": "arrangement"
+              },
+              {
+                "name": "REO",
+                "role": "arrangement"
+              }
+            ]
           }
         ],
         "releases": [
@@ -146253,6 +147098,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               }
             ],
             "edition": "香港區數位版"
+          },
+          {
+            "id": "apple-jp-1522408595",
+            "title": "G4・2020",
+            "artistDisplayName": "GLAY",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "流星のHowl",
+                "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+              }
+            ]
           }
         ],
         "links": [
@@ -146263,9 +147128,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1522408595",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1522408778",
+            "linkType": "direct_track",
+            "label": "日本｜流星のHowl",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1522408595",
+            "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       },
@@ -146280,7 +147156,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2019-spring"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第1–13話片尾；2019年4月2日至6月25日。",
         "sources": [
           {
@@ -146288,7 +147164,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "波麗佳音公告OxT首支片尾與原單曲",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
@@ -146323,7 +147199,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "唱片方原專輯及歌曲曲位",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://music.apple.com/hk/album/1528922188",
@@ -146345,6 +147221,90 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "PONY CANYON：管弦樂現場版收錄於Everlasting Dream單曲",
+            "url": "https://news.ponycanyon.co.jp/2019/12/36252",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/168988442",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1059783602",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/197090212",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1195118902",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1195118922",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1195118932",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1195118952",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -146495,17 +147455,396 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "WS5oYfMlAR0"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song-tv-edit-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01778"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/12/36252"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/12/36252"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01876"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/12/36252"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01877"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/12/36252"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01878"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01918"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1528922500"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1528922500"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1492850970"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1492850972"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1492850970"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1492850972"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783602"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-168988442"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783602"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1059783602"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118902"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197090212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118902"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1195118902"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118922"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197090212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118922"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1195118922"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118932"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197090212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118932"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1195118932"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118952"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197090212"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197090212",
+              "https://api.deezer.com/track/1195118952"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1195118952"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           }
         ],
         "releaseDate": "2019-04-17",
@@ -146521,6 +147860,24 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "title": "ゴールデンアフタースクール (TV edit)",
             "format": "tv",
             "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-1-song-karaoke",
+            "title": "ゴールデンアフタースクール（KARAOKE）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-1-song-tv-edit-karaoke",
+            "title": "ゴールデンアフタースクール -TV edit-（KARAOKE）",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-1-song-orchestra-live",
+            "title": "ゴールデンアフタースクール（Orchestra Live Version）",
+            "kind": "live",
+            "format": "unknown"
           }
         ],
         "releases": [
@@ -146546,6 +147903,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
                 "disc": 1,
                 "position": 3,
                 "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "ゴールデンアフタースクール（KARAOKE）",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-karaoke"
+              },
+              {
+                "disc": 1,
+                "position": 6,
+                "title": "ゴールデンアフタースクール -TV edit-（KARAOKE）",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit-karaoke"
               }
             ],
             "catalogNumber": "PCCG-01778",
@@ -146566,11 +147935,235 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               {
                 "title": "ゴールデンアフタースクール",
                 "disc": 1,
-                "position": 12
+                "position": 12,
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
               }
             ],
             "edition": "香港區數位版",
             "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01876",
+            "title": "Everlasting Dream",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "ゴールデンアフタースクール（Orchestra Live Version）",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+              }
+            ],
+            "catalogNumber": "PCCG-01876"
+          },
+          {
+            "id": "pccg-01877",
+            "title": "Everlasting Dream",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "日本通常盤",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "ゴールデンアフタースクール（Orchestra Live Version）",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+              }
+            ],
+            "catalogNumber": "PCCG-01877"
+          },
+          {
+            "id": "pccg-01878",
+            "title": "Everlasting Dream",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "日本動畫盤",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "ゴールデンアフタースクール（Orchestra Live Version）",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+              }
+            ],
+            "catalogNumber": "PCCG-01878"
+          },
+          {
+            "id": "pccg-01917",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤CD＋DVD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "ゴールデンアフタースクール",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCG-01917"
+          },
+          {
+            "id": "pccg-01918",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "ゴールデンアフタースクール",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCG-01918"
+          },
+          {
+            "id": "apple-jp-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "ゴールデンアフタースクール",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1492850970",
+            "title": "Everlasting Dream - EP",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "Golden After School (Orchestra Live Version)",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1492850970",
+            "title": "Everlasting Dream - EP",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 2,
+                "title": "ゴールデンアフタースクール (Orchestra Live Version)",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-168988442",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 12,
+                "title": "ゴールデンアフタースクール",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-197090212",
+            "title": "ゴールデンアフタースクール",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2019-04-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "ゴールデンアフタースクール",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "ゴールデンアフタースクール ‐TV edit‐",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "ゴールデンアフタースクール KARAOKE",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-karaoke"
+              },
+              {
+                "disc": 1,
+                "position": 6,
+                "title": "ゴールデンアフタースクール ‐TV edit‐ KARAOKE",
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit-karaoke"
+              }
+            ]
           }
         ],
         "links": [
@@ -146581,8 +148174,97 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1528922188",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown"
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1528922500",
+            "linkType": "direct_track",
+            "label": "日本｜ゴールデンアフタースクール",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492850972",
+            "linkType": "direct_track",
+            "label": "香港｜Golden After School (Orchestra Live Version)",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492850972",
+            "linkType": "direct_track",
+            "label": "日本｜ゴールデンアフタースクール (Orchestra Live Version)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-orchestra-live",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1059783602",
+            "linkType": "direct_track",
+            "label": "香港｜ゴールデンアフタースクール",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-168988442",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1195118902",
+            "linkType": "direct_track",
+            "label": "香港｜ゴールデンアフタースクール",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197090212",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1195118922",
+            "linkType": "direct_track",
+            "label": "香港｜ゴールデンアフタースクール ‐TV edit‐",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197090212",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1195118932",
+            "linkType": "direct_track",
+            "label": "香港｜ゴールデンアフタースクール KARAOKE",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197090212",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-karaoke",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1195118952",
+            "linkType": "direct_track",
+            "label": "香港｜ゴールデンアフタースクール ‐TV edit‐ KARAOKE",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197090212",
+            "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit-karaoke",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       },
@@ -146598,7 +148280,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2019-summer",
           "2019-fall"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第14–29話片尾；2019年7月2日至10月15日。",
         "sources": [
           {
@@ -146684,6 +148366,104 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1469167722&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/197100172",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "PONY CANYON：REUNION兩款CD與DVD曲序、OxT翻唱和原唱",
+            "url": "https://oxt.ponycanyon.co.jp/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "OxT唱片訪談：兩首翻唱的歌唱及編曲分工",
+            "url": "https://news.livedoor.com/article/detail/18899678/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1469167722&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1470205775&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1470205775&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1587849936&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1587849936&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1195168852",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/168988442",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1059783512",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -146875,25 +148655,374 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "OgLAGtlVBho"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1469167722&country=hk&entity=song",
+              "https://api.deezer.com/album/197100172"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-2-song-tv-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/",
+              "https://news.livedoor.com/article/detail/18899678/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01918"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1469167722&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1469167722"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1469167722&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1469167723"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1469167722&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1469167722"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1469167722&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1469167723"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1528922191"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1528922191"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1470205775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1470205776"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1470205784"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1470205775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1470205776"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1470205775&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1470205784"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1587849936&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1587849936"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1587849936&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1587849949"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1587849936&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1587849936"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1587849936&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1587849949"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197100172",
+              "https://api.deezer.com/track/1195168852"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197100172"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197100172",
+              "https://api.deezer.com/track/1195168852"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1195168852"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783512"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-168988442"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783512"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1059783512"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
-          },
-          {
-            "fields": [
-              "recordings"
-            ],
-            "note": "香港正版單曲明列 TV Edit 及曲位。",
-            "resumeWhen": "待權利方說明 TV Edit 或可辨識原播錄音，再對應音源。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           }
         ],
         "recordings": [
@@ -146908,6 +149037,28 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "title": "鼓動エスカレーション（Instrumental）",
             "format": "unknown",
             "kind": "instrumental"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-2-song-tv-edit",
+            "title": "鼓動エスカレーション（TV Edit）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-2-song-oxt-version",
+            "title": "鼓動エスカレーション（OxT ver.）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "オーイシマサヨシ",
+                "role": "vocals"
+              },
+              {
+                "name": "ZAQ",
+                "role": "arrangement"
+              }
+            ]
           }
         ],
         "releases": [
@@ -147008,11 +149159,220 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               {
                 "title": "鼓動エスカレーション (TV Edit)",
                 "disc": 1,
-                "position": 1
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit"
               }
             ],
             "edition": "香港區數位版",
             "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01917",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤CD＋DVD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション（OxT ver.）",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+              }
+            ],
+            "catalogNumber": "PCCG-01917"
+          },
+          {
+            "id": "pccg-01918",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション（OxT ver.）",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+              }
+            ],
+            "catalogNumber": "PCCG-01918"
+          },
+          {
+            "id": "apple-jp-1469167722",
+            "title": "鼓動エスカレーション<TV edit> - Single",
+            "artistDisplayName": "内田真礼",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-07-03",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "鼓動エスカレーション<TV edit>",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション (OxT Ver.)",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション (OxT ver.)",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1470205775",
+            "title": "鼓動エスカレーション - EP",
+            "artistDisplayName": "内田真礼",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "鼓動エスカレーション",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション (Instrumental)",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1587849936",
+            "title": "HIKARI",
+            "artistDisplayName": "Maaya Uchida",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2021-10-27",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 6,
+                "title": "Kodo Escalation",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1587849936",
+            "title": "HIKARI",
+            "artistDisplayName": "内田真礼",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2021-10-27",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 6,
+                "title": "鼓動エスカレーション",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-197100172",
+            "title": "鼓動エスカレーション<TV edit>",
+            "artistDisplayName": "内田真礼",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2019-07-03",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "鼓動エスカレーション<TV edit>",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-168988442",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "鼓動エスカレーション OxT ver.",
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version"
+              }
+            ]
           }
         ],
         "links": [
@@ -147023,8 +149383,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1470205775",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
           },
           {
@@ -147034,8 +149394,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1470205775",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
           },
           {
@@ -147045,8 +149405,108 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1469167722",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown"
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1469167723",
+            "linkType": "direct_track",
+            "label": "日本｜鼓動エスカレーション<TV edit>",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1469167722",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1528922191",
+            "linkType": "direct_track",
+            "label": "香港｜鼓動エスカレーション (OxT Ver.)",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1528922191",
+            "linkType": "direct_track",
+            "label": "日本｜鼓動エスカレーション (OxT ver.)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1470205776",
+            "linkType": "direct_track",
+            "label": "日本｜鼓動エスカレーション",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1470205775",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1470205784",
+            "linkType": "direct_track",
+            "label": "日本｜鼓動エスカレーション (Instrumental)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1470205775",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1587849949",
+            "linkType": "direct_track",
+            "label": "香港｜Kodo Escalation",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1587849936",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1587849949",
+            "linkType": "direct_track",
+            "label": "日本｜鼓動エスカレーション",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1587849936",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1195168852",
+            "linkType": "direct_track",
+            "label": "香港｜鼓動エスカレーション<TV edit>",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197100172",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-tv-edit",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1059783512",
+            "linkType": "direct_track",
+            "label": "香港｜鼓動エスカレーション OxT ver.",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-168988442",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       },
@@ -147061,7 +149521,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2019-fall"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第30–39話片尾；2019年10月22日至12月24日。",
         "sources": [
           {
@@ -147140,6 +149600,111 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "PONY CANYON：REUNION兩款CD與DVD曲序、OxT翻唱和原唱",
+            "url": "https://oxt.ponycanyon.co.jp/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "OxT唱片訪談：兩首翻唱的歌唱及編曲分工",
+            "url": "https://news.livedoor.com/article/detail/18899678/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "PONY CANYON提供的OxT音源：編曲者及原唱片",
+            "url": "https://www.youtube.com/watch?v=FFzpD5ORXVg",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1488562287&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1488562287&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1679687064&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1679687064&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/168988442",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1059783522",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/197053132",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1194896272",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1194896292",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1194896302",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -147325,17 +149890,391 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "pSSRelU-X_A"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/",
+              "https://news.livedoor.com/article/detail/18899678/",
+              "https://www.youtube.com/watch?v=FFzpD5ORXVg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01918"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1528922192"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1528922192"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1488562287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1488562288"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1488562290"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1488562291"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1488562287"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1488562288"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1488562290"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1488562287&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1488562291"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679687064&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1679687064"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679687064&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1679687075"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679687064&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1679687064"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1679687064&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1679687075"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783522"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-168988442"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783522"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1059783522"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896272"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197053132"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896272"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1194896272"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896292"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197053132"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896292"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1194896292"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896302"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-197053132"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/197053132",
+              "https://api.deezer.com/track/1194896302"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1194896302"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           }
         ],
         "releaseDate": "2019-12-04",
@@ -147357,6 +150296,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "title": "チャンス！ (Instrumental)",
             "format": "unknown",
             "kind": "instrumental"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-3-song-oxt-version",
+            "title": "チャンス！（OxT ver.）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "name": "オーイシマサヨシ",
+                "role": "vocals"
+              },
+              {
+                "name": "KanadeYUK",
+                "role": "arrangement"
+              }
+            ]
           }
         ],
         "releases": [
@@ -147426,6 +150381,212 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "edition": "香港區數位版",
             "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01917",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤CD＋DVD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス！（OxT ver.）",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+              }
+            ],
+            "catalogNumber": "PCCG-01917"
+          },
+          {
+            "id": "pccg-01918",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス！（OxT ver.）",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+              }
+            ],
+            "catalogNumber": "PCCG-01918"
+          },
+          {
+            "id": "apple-hk-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Chance! (OxT Ver.)",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス! (OxT ver.)",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1488562287",
+            "title": "チャンス!/ゆうがた - EP",
+            "artistDisplayName": "三森すずこ",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "チャンス!",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "チャンス! (TV size)",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス! (Instrumental)",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1679687064",
+            "title": "R",
+            "artistDisplayName": "Suzuko Mimori",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2023-04-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 8,
+                "title": "チャンス!",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1679687064",
+            "title": "R",
+            "artistDisplayName": "三森すずこ",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2023-04-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 8,
+                "title": "チャンス!",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-168988442",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス! OxT ver.",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-197053132",
+            "title": "チャンス!/ゆうがた",
+            "artistDisplayName": "三森すずこ",
+            "region": "HK",
+            "type": "single",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "チャンス!",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "チャンス! TV size",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "チャンス! (Instrumental)",
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+              }
+            ]
           }
         ],
         "links": [
@@ -147436,8 +150597,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1488562287",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
           },
           {
@@ -147447,8 +150608,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1488562287",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
           },
           {
@@ -147458,9 +150619,130 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1488562287",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1528922192",
+            "linkType": "direct_track",
+            "label": "香港｜Chance! (OxT Ver.)",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1528922192",
+            "linkType": "direct_track",
+            "label": "日本｜チャンス! (OxT ver.)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1488562288",
+            "linkType": "direct_track",
+            "label": "日本｜チャンス!",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1488562287",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1488562290",
+            "linkType": "direct_track",
+            "label": "日本｜チャンス! (TV size)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1488562287",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1488562291",
+            "linkType": "direct_track",
+            "label": "日本｜チャンス! (Instrumental)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1488562287",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1679687075",
+            "linkType": "direct_track",
+            "label": "香港｜チャンス!",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1679687064",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1679687075",
+            "linkType": "direct_track",
+            "label": "日本｜チャンス!",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1679687064",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1059783522",
+            "linkType": "direct_track",
+            "label": "香港｜チャンス! OxT ver.",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-168988442",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-oxt-version",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1194896272",
+            "linkType": "direct_track",
+            "label": "香港｜チャンス!",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197053132",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1194896292",
+            "linkType": "direct_track",
+            "label": "香港｜チャンス! TV size",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197053132",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1194896302",
+            "linkType": "direct_track",
+            "label": "香港｜チャンス! (Instrumental)",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-197053132",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       },
@@ -147475,7 +150757,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2020-winter"
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-20",
         "usageLabel": "日本首輪第40–44、46–52話片尾；2020年1月7日至3月31日，第45話除外。",
         "sources": [
           {
@@ -147518,7 +150800,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "東京電視台第43–52話原播日期",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA",
@@ -147532,7 +150814,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "Mau2 第45話特別曲目交叉",
             "role": "cross_check",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://contents.oricon.co.jp/prof/647814/lyrics/52655/",
@@ -147609,14 +150891,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "label": "BSテレ東第45話節目表使用常規主題欄",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.youtube.com/watch?v=nMf6ObdJJKI",
-            "label": "木棉花第45話正版日語正片，日本總集篇的編號差另計",
+            "label": "木棉花台灣授權版：上架標示第44話〈Go EXCEED！！〉",
             "role": "first_party",
             "language": "zh-Hant",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.bilibili.com/bangumi/play/ep284620",
@@ -147631,6 +150913,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "中華電信MOD：全52話及第45話正式中譯篇名",
+            "url": "https://mod.cht.com.tw/modweb/product/167884.do",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Crunchyroll：按日本順序列為第45話的授權版本",
+            "url": "https://www.crunchyroll.com/watch/G6KE0E986/go-exceed",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "PONY CANYON：REUNION兩款CD與DVD曲序、OxT翻唱和原唱",
+            "url": "https://oxt.ponycanyon.co.jp/",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music香港：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Apple Music日本：專輯、曲序、音源版本與可串流地區",
+            "url": "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/album/168988442",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "label": "Deezer：唱片曲序與音軌可串流地區",
+            "url": "https://api.deezer.com/track/1059783612",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "credits": [
@@ -147872,25 +151217,269 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "lfEObTYv0iw"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01918"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1528922501"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1528922188"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1528922188&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1528922501"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1492850970"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1492850971"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1492850973"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1492850974"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1492850975"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1492850970"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1492850971"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1492850973"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1492850974"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1492850970&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1492850975"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "date",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783612"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "deezer-hk-168988442"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://api.deezer.com/album/168988442",
+              "https://api.deezer.com/track/1059783612"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://www.deezer.com/track/1059783612"
           }
         ],
         "followUp": [
           {
             "fields": [
-              "recording_format",
-              "platform_availability"
+              "recording_format"
             ],
-            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
-            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
-            "checkedAt": "2026-11-16"
+            "note": "已核對列出的香港平台曲目及可串流標示，電視剪輯與商業錄音之間的母帶關係待核。",
+            "resumeWhen": "待原播製作資料或唱片內頁說明電視剪輯採用的錄音。",
+            "checkedAt": "2026-11-20"
           },
           {
             "fields": [
               "recording_format"
             ],
-            "note": "兩份逐話曲表均未將第45話列入本曲使用組。日本BS節目表仍列常規音樂欄。",
-            "resumeWhen": "取得第45話原版掛字或權利方的逐話歌曲資料，再辨認實際代用片尾。",
-            "checkedAt": "2026-11-16"
+            "note": "日本第45話〈Go EXCEED!!〉在木棉花台灣版編為第44話。日本逐話曲表記述開頭插曲與片末轉位，BS節目表列常規主題欄。",
+            "resumeWhen": "待可播放的授權日本音軌及片尾掛字，按篇名核對開頭〈Go EXCEED!!〉與片尾〈流星のHowl〉。",
+            "checkedAt": "2026-11-20"
           }
         ],
         "releaseDate": "2020-01-21",
@@ -148079,6 +151668,146 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "edition": "香港區數位版",
             "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01917",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤CD＋DVD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCG-01917"
+          },
+          {
+            "id": "pccg-01918",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCG-01918"
+          },
+          {
+            "id": "apple-hk-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1528922188",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1492850970",
+            "title": "Everlasting Dream - EP",
+            "artistDisplayName": "OxT",
+            "region": "JP",
+            "type": "single",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 1,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              },
+              {
+                "disc": 1,
+                "position": 3,
+                "title": "Everlasting Dream -TV edit-",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+              },
+              {
+                "disc": 1,
+                "position": 4,
+                "title": "Everlasting Dream (KARAOKE)",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+              },
+              {
+                "disc": 1,
+                "position": 5,
+                "title": "Everlasting Dream -TV edit- (KARAOKE)",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "deezer-hk-168988442",
+            "title": "REUNION",
+            "artistDisplayName": "OxT",
+            "region": "HK",
+            "type": "album",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "disc": 1,
+                "position": 13,
+                "title": "Everlasting Dream",
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              }
+            ]
           }
         ],
         "links": [
@@ -148089,8 +151818,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1492850970",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
           },
           {
@@ -148100,8 +151829,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1492850970",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
           },
           {
@@ -148111,8 +151840,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1492850970",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
           },
           {
@@ -148122,9 +151851,86 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "linkType": "direct_track",
             "region": "HK",
             "releaseId": "apple-hk-1492850970",
-            "verifiedAt": "2026-11-16",
-            "availability": "unknown",
+            "verifiedAt": "2026-11-20",
+            "availability": "available",
             "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1528922501",
+            "linkType": "direct_track",
+            "label": "香港｜Everlasting Dream",
+            "platform": "Apple Music",
+            "region": "HK",
+            "releaseId": "apple-hk-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1528922501",
+            "linkType": "direct_track",
+            "label": "日本｜Everlasting Dream",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1528922188",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492850971",
+            "linkType": "direct_track",
+            "label": "日本｜Everlasting Dream",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492850973",
+            "linkType": "direct_track",
+            "label": "日本｜Everlasting Dream -TV edit-",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492850974",
+            "linkType": "direct_track",
+            "label": "日本｜Everlasting Dream (KARAOKE)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1492850975",
+            "linkType": "direct_track",
+            "label": "日本｜Everlasting Dream -TV edit- (KARAOKE)",
+            "platform": "Apple Music",
+            "region": "JP",
+            "releaseId": "apple-jp-1492850970",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.deezer.com/track/1059783612",
+            "linkType": "direct_track",
+            "label": "香港｜Everlasting Dream",
+            "platform": "Deezer",
+            "region": "HK",
+            "releaseId": "deezer-hk-168988442",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ]
       }

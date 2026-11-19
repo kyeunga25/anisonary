@@ -183,13 +183,6 @@ const reviewedThemeGroups: readonly ReviewedThemeGroup[] = [
     crossCheckUrl: "https://animethemes.moe/anime/koi_to_producer_evollove",
   },
   {
-    anilistId: 119696,
-    themeKeys: ["OP:1", "ED:1"],
-    label: "《女武神的餐桌II》第一方歌曲資料：OP／ED 用途與演唱者",
-    firstPartyUrl: "https://www.bs4.jp/valkyrie2/",
-    crossCheckUrl: "https://anidb.net/anime/15614",
-  },
-  {
     anilistId: 120046,
     themeKeys: ["OP:1"],
     label: "《快把我哥帶走 第4季》第一方歌曲資料：OP／ED 用途與演唱者",

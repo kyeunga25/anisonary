@@ -37764,41 +37764,6 @@ const curated2020SummerSeedRows: CuratedAnimeSeed[] = [
   ]
 }),
   summer2020Seed({
-    anilistId: 119696,
-    slug: "valkyrie-no-shokutaku-ii",
-    startDate: "2020-07-17",
-    titleJa: "戦乙女の食卓Ⅱ",
-    titleZhHant: "女武神的餐桌II",
-    titleRomaji: "Valkyrie no Shokutaku II",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx119696-JjixBLB2fgMj.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/119696-mVAmacREtSEl.jpg",
-    broadcastLabel: "中國網絡首播／日本於 2021 年夏季播出",
-    officialSiteUrl: "https://www.bs4.jp/valkyrie2/",
-    sourceReferenceUrls: [
-      "https://www.bs4.jp/valkyrie2/",
-      "https://anilist.co/anime/119696",
-    ],
-    themes: [
-      {
-        type: "OP",
-        sequence: 1,
-        titleJa: "私の天命",
-        titleRomaji: "Watashi no Tenmei",
-        artistDisplayName:
-          "ロザリア・アリーン（CV：古賀葵）、リリア・アリーン（CV：芹澤優）",
-      },
-      {
-        type: "ED",
-        sequence: 1,
-        titleJa: "あなたとの約束",
-        titleRomaji: "Anata to no Yakusoku",
-        artistDisplayName: "テレサ・アポカリプス（CV：田村ゆかり）",
-      },
-    ],
-  }),
-  summer2020Seed({
     anilistId: 120046,
     slug: "ani-ni-tsukeru-kusuri-wa-nai-4",
     startDate: "2020-08-05",
