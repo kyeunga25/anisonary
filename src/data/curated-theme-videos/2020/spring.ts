@@ -1,6 +1,50 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "97938:OP:4": [
+    {
+      "youtubeVideoId": "6VZt5anxEXE",
+      "title": "Brian the Sun - Lonely Go!",
+      "channelName": "BriantheSunVEVO",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:OP:5": [
+    {
+      "youtubeVideoId": "a5cyJu4saLc",
+      "title": "フジファブリック 『ゴールデンタイム』-YouTube EDIT-",
+      "channelName": "フジファブリック Official Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:ED:8": [
+    {
+      "youtubeVideoId": "FAvY_yjXiGo",
+      "title": "ЯeaL 『強がりLOSER』Music Video(Short Ver.)",
+      "channelName": "ЯeaL Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:ED:10": [
+    {
+      "youtubeVideoId": "VNqxLJyPCN8",
+      "title": "福原遥 未完成な光たち Music Video YouTube Limited Ver.",
+      "channelName": "福原遥 Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "116415:ED:2": [
     {
       "youtubeVideoId": "Tpxft3d-c5M",

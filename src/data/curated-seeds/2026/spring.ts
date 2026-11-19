@@ -12849,16 +12849,21 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2025-fall",
     "2025-spring",
     "2025-summer",
-    "2026-summer"
+    "2026-summer",
+    "2018-fall",
+    "2019-winter",
+    "2019-spring",
+    "2019-summer",
+    "2019-fall"
   ],
   "verifiedAt": "2026-10-19",
-  "metadataVerifiedAt": "2026-10-19",
+  "metadataVerifiedAt": "2026-11-19",
   "startDate": "1999-10-20",
   "titleJa": "ONE PIECE",
   "titleRomaji": "ONE PIECE",
   "editorialWeekday": 7,
   "broadcastTimeJst": "23:15",
-  "broadcastLabel": "TV系列1999年首播；エルバフ編2026-04-05起・週日23:15（JST）・フジテレビ系列",
+  "broadcastLabel": "TV系列1999年首播；2019年富士電視台一般時段為週日09:30，エルバフ編2026/4/5起為週日23:15（JST）。",
   "status": "airing",
   "anilistUrl": "https://anilist.co/anime/21",
   "sourceReferenceUrls": [
@@ -12878,6 +12883,20 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/company/action/pdf/b201904.pdf",
+      "label": "富士電視台2019年04月期基本番組表，週日09:30放送",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.fujitv.co.jp/company/action/pdf/b201910.pdf",
+      "label": "富士電視台2019年10月期基本番組表，週日09:30放送",
+      "language": "ja",
+      "role": "first_party",
+      "verifiedAt": "2026-11-19"
     }
   ],
   "themes": [
@@ -14225,6 +14244,48 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5089/index.html",
+          "label": "第892話的日本首播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5181/index.html",
+          "label": "第904話的日本首播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5205/index.html",
+          "label": "第905話的日本首播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5227/index.html",
+          "label": "第907話獨立故事的日本首播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o5289/index.html",
+          "label": "第915話的日本首播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://optaizen.com/episode_anime/n907",
+          "label": "第907話逐話用曲表",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -14275,9 +14336,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "seasonIds": [
         "2020-winter",
         "2020-spring",
-        "2020-summer"
+        "2020-summer",
+        "2019-summer",
+        "2019-fall"
       ],
-      "usageLabel": "和之國篇原TV片頭（第892–934話）。2020年冬第916–926話、春第927–930話、夏第931–934話。第930話於6/28復播。",
+      "usageLabel": "日本原TV第892–934話片頭。2019夏第892–904話、秋第905–915話，含第907話20週年特別篇。2020冬第916–926話、春第927–930話、夏第931–934話。第930話於6月28日復播。",
       "evidence": [
         {
           "target": "song",
@@ -14473,6 +14536,23 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "https://www.youtube.com/watch?v=BuTz_PPMFj0"
           ],
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/anime/o5089/index.html",
+            "https://one-piece.com/anime/o5181/index.html",
+            "https://one-piece.com/anime/o5205/index.html",
+            "https://one-piece.com/anime/o5227/index.html",
+            "https://one-piece.com/anime/o5289/index.html",
+            "https://www.youtube.com/watch?v=ewPsNiklKcY",
+            "https://optaizen.com/episode_anime/n907"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-op-22"
         }
       ],
       "followUp": [
@@ -15291,6 +15371,1026 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         }
       ],
       "lastVerifiedAt": "2026-10-22"
+    },
+    {
+      "id": "one-piece-op-21",
+      "songId": "one-piece-op-21-song",
+      "type": "OP",
+      "sequence": 21,
+      "titleJa": "Super Powers",
+      "artistDisplayName": "V6",
+      "seasonIds": [
+        "2018-fall",
+        "2019-winter",
+        "2019-spring"
+      ],
+      "usageLabel": "原TV第856–891話片頭（2018/10/7–2019/6/30）。2019冬為第867–878話，春為第879–891話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://one-piece.com/news/o20181006_8013/index.html",
+          "label": "作品方公告V6片頭自第856話起",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://mentrecording.jp/v6/discography/detail.php?id=1016116",
+          "label": "V6單曲與動畫搭配",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o4933/index.html",
+          "label": "第867話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/index.html?category=&page=37&sort=asc",
+          "label": "作品方三月底分界及第891話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1722909472&p=3",
+          "label": "歷代主題曲及第856–891話對照",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=V7nS-76cy64",
+          "label": "avex 官方 MV 簡介及詞曲編署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1847217825",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1847217826",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1847803450",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1847803477",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20181006_8013/index.html",
+            "https://www.animatetimes.com/news/details.php?id=1722909472&p=3"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-op-21-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://one-piece.com/news/o20181006_8013/index.html",
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116",
+            "https://one-piece.com/anime/o4933/index.html",
+            "https://one-piece.com/anime/index.html?category=&page=37&sort=asc",
+            "https://www.animatetimes.com/news/details.php?id=1722909472&p=3"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-op-21"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=V7nS-76cy64"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-op-21-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "avcd-94269-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "avcd-94270-b"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mentrecording.jp/v6/discography/detail.php?id=1016116"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "avcd-94271"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1847217826"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1847217826"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1847217825"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1847217825"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1847803477"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1847803477"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1847803450"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1847803450"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=V7nS-76cy64"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "V7nS-76cy64"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Super Powers｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1847217826",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1847217825",
+          "recordingId": "one-piece-op-21-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Super Powers｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1847803477",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1847803450"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "V6",
+          "role": "vocals"
+        },
+        {
+          "name": "森雪之丞",
+          "role": "lyrics"
+        },
+        {
+          "name": "Samuel Waermo",
+          "role": "composition"
+        },
+        {
+          "name": "Stefan Ekstedt",
+          "role": "composition"
+        },
+        {
+          "name": "Didrik Thott",
+          "role": "composition"
+        },
+        {
+          "name": "Stefan Ekstedt",
+          "role": "arrangement"
+        },
+        {
+          "name": "ha-j",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "one-piece-op-21-song-single-vocal",
+          "title": "Super Powers",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "one-piece-op-21-song-instrumental",
+          "title": "Super Powers (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "avcd-94269-b",
+          "title": "Super Powers／Right Now",
+          "type": "single",
+          "artistDisplayName": "V6",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "日本初回盤 A（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "AVCD-94269/B"
+        },
+        {
+          "id": "avcd-94270-b",
+          "title": "Super Powers／Right Now",
+          "type": "single",
+          "artistDisplayName": "V6",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "日本初回盤 B（CD＋DVD）",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "AVCD-94270/B"
+        },
+        {
+          "id": "avcd-94271",
+          "title": "Super Powers／Right Now",
+          "type": "single",
+          "artistDisplayName": "V6",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            },
+            {
+              "title": "Super Powers (Instrumental)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-instrumental"
+            }
+          ],
+          "catalogNumber": "AVCD-94271"
+        },
+        {
+          "id": "apple-hk-1847217825",
+          "title": "Super Powers / Right Now",
+          "type": "ep",
+          "artistDisplayName": "V6",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "one-piece-op-21-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1847803450",
+          "title": "Very6 BEST",
+          "type": "compilation",
+          "artistDisplayName": "V6",
+          "date": {
+            "value": "2021-10-26",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Super Powers",
+              "position": 10,
+              "disc": 2
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原單曲通常盤另收伴奏；香港EP與精選輯分列。",
+          "resumeWhen": "取得電視母帶或明示 TV 剪輯的音源時核對，第878話後的畫面變動另查。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "one-piece-in-1",
+      "songId": "one-piece-badend-musical-song",
+      "type": "IN",
+      "sequence": 1,
+      "titleJa": "BADEND MUSICAL",
+      "artistDisplayName": "ビッグ・マム（小山茉美）、ホーミーズ",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "usageLabel": "2019年3月3日第875話劇中歌。ビッグ・マム吃下婚禮蛋糕時演唱。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+          "label": "avex 原聲帶曲名與版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/usop/o20190327_1013/index.html",
+          "label": "作品方收錄主唱訪談，明示第875話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o4977/index.html",
+          "label": "作品方原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://studentwalker.com/moviemusic-onepiece",
+          "label": "逐話歌曲與歌唱記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0EN9KRxg2AA",
+          "label": "avex pictures 供稿音軌及詞曲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1612230398",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1612230549",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1612230550",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+            "https://studentwalker.com/moviemusic-onepiece"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-badend-musical-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+            "https://one-piece.com/usop/o20190327_1013/index.html",
+            "https://one-piece.com/anime/o4977/index.html",
+            "https://studentwalker.com/moviemusic-onepiece"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=0EN9KRxg2AA"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-badend-musical-song-ver-1"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-badend-musical-song-ver-2"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "eyca-13684-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1612230549"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1612230549"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1612230550"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1612230550"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1612230398"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1612230398"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=0EN9KRxg2AA"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "0EN9KRxg2AA"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "BADEND MUSICAL Ver.1｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1612230549",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1612230398",
+          "recordingId": "one-piece-badend-musical-song-ver-1"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "BADEND MUSICAL Ver.2｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1612230550",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1612230398",
+          "recordingId": "one-piece-badend-musical-song-ver-2"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "尾田栄一郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中公平",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "one-piece-badend-musical-song-ver-1",
+          "title": "BADEND MUSICAL Ver.1",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "one-piece-badend-musical-song-ver-2",
+          "title": "BADEND MUSICAL Ver.2",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "eyca-13684-5",
+          "title": "ONE PIECE オリジナルサウンドトラック\"WANOKUNI\"",
+          "type": "soundtrack",
+          "artistDisplayName": "田中公平ほか",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "BADEND MUSICAL Ver.1",
+              "position": 23,
+              "disc": 2,
+              "recordingId": "one-piece-badend-musical-song-ver-1"
+            },
+            {
+              "title": "BADEND MUSICAL Ver.2",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "one-piece-badend-musical-song-ver-2"
+            }
+          ],
+          "catalogNumber": "EYCA-13684～5"
+        },
+        {
+          "id": "apple-hk-1612230398",
+          "title": "ONE PIECE オリジナルサウンドトラック\"WANOKUNI\"",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "BADEND MUSICAL Ver.1",
+              "position": 23,
+              "disc": 2,
+              "recordingId": "one-piece-badend-musical-song-ver-1"
+            },
+            {
+              "title": "BADEND MUSICAL Ver.2",
+              "position": 24,
+              "disc": 2,
+              "recordingId": "one-piece-badend-musical-song-ver-2"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "第875話歌唱場面已由小山茉美訪談確認；商業原聲帶分兩個版本。",
+          "resumeWhen": "待原播音樂分鏡、逐段掛字或唱片方 cue sheet 核對動畫剪輯與商業版本。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "one-piece-in-2",
+      "songId": "one-piece-soul-pocus-song",
+      "type": "IN",
+      "sequence": 2,
+      "titleJa": "ソウルポーカス～女王の言葉(うた)",
+      "artistDisplayName": "壤晴彦、野々村彩乃、ホーミーズ",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "usageLabel": "2019年3月24日第877話劇中歌。ホールケーキアイランド篇尾段的音樂劇唱段。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+          "label": "avex 原聲帶曲名與版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/greg/o20190522_1035/index.html",
+          "label": "作品方專欄對照第877話音樂劇唱段",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://one-piece.com/anime/o4993/index.html",
+          "label": "作品方原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/onepiece-20/ep/877",
+          "label": "逐話歌曲與歌唱記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CHL5RTKd8d8",
+          "label": "avex pictures 供稿音軌及詞曲署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1612230398",
+          "label": "Apple Music 香港發行品及曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1612230551",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+            "https://www.mau2.com/anime/onepiece-20/ep/877"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-soul-pocus-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758",
+            "https://one-piece.com/greg/o20190522_1035/index.html",
+            "https://one-piece.com/anime/o4993/index.html",
+            "https://www.mau2.com/anime/onepiece-20/ep/877"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-in-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CHL5RTKd8d8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "one-piece-soul-pocus-song-soundtrack"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://avex.jp/onepiece/products/musicDetail.php?id=1018758"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "eyca-13684-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1612230551"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1612230551"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1612230398"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1612230398"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CHL5RTKd8d8"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "CHL5RTKd8d8"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ソウルポーカス～女王の言葉｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1612230551",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1612230398",
+          "recordingId": "one-piece-soul-pocus-song-soundtrack"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "尾田栄一郎",
+          "role": "lyrics"
+        },
+        {
+          "name": "田中公平",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "one-piece-soul-pocus-song-soundtrack",
+          "title": "ソウルポーカス～女王の言葉",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "eyca-13684-5",
+          "title": "ONE PIECE オリジナルサウンドトラック\"WANOKUNI\"",
+          "type": "soundtrack",
+          "artistDisplayName": "田中公平ほか",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "edition": "日本 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ソウルポーカス～女王の言葉",
+              "position": 25,
+              "disc": 2,
+              "recordingId": "one-piece-soul-pocus-song-soundtrack"
+            }
+          ],
+          "catalogNumber": "EYCA-13684～5"
+        },
+        {
+          "id": "apple-hk-1612230398",
+          "title": "ONE PIECE オリジナルサウンドトラック\"WANOKUNI\"",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2022-03-16",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ソウルポーカス～女王の言葉",
+              "position": 25,
+              "disc": 2,
+              "recordingId": "one-piece-soul-pocus-song-soundtrack"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "原聲帶及香港版列歌唱音軌；作品方亦提及音樂盒編排。",
+          "resumeWhen": "待原播音樂分鏡、逐段掛字或唱片方 cue sheet 核對動畫剪輯與商業版本。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
     }
   ]
 },
@@ -15328,15 +16428,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2025-fall",
     "2026-winter",
     "2026-summer",
-    "2026-fall"
+    "2026-fall",
+    "2019-winter",
+    "2019-spring",
+    "2019-summer",
+    "2019-fall"
   ],
   "startDate": "2005-04-15",
   "titleJa": "ドラえもん",
   "titleRomaji": "Doraemon (2005)",
   "editorialWeekday": 6,
   "broadcastTimeJst": "17:00",
-  "broadcastLabel": "日本TV系列2005/4/15開始；2019/10/5起朝日電視系週六17:00 JST，2020秋沿用。",
-  "metadataVerifiedAt": "2026-10-19",
+  "broadcastLabel": "日本TV系列2005/4/15首播。2019年9月前通常為週五19:00，10/5起改為週六17:00（テレビ朝日系，JST）。",
+  "metadataVerifiedAt": "2026-11-19",
   "status": "airing",
   "officialSiteUrl": "https://www.tv-asahi.co.jp/doraemon/",
   "anilistUrl": "https://anilist.co/anime/8687",
@@ -15357,7 +16461,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "label": "テレビ朝日：2019年改時段與TV系列",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-19"
+      "verifiedAt": "2026-11-19"
     },
     {
       "url": "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
@@ -15393,6 +16497,13 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+      "label": "朝日電視台2019年逐回放送日期",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
     }
   ],
   "themes": [
@@ -15421,7 +16532,8 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2024-winter",
         "2024-spring",
         "2024-summer",
-        "2024-fall"
+        "2024-fall",
+        "2019-fall"
       ],
       "songId": "doraemon-2005-op-1-song",
       "sourceMode": "explicit",
@@ -15431,7 +16543,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "テレビ朝日：星野源演唱的常態TV OP及2020年改畫面",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
@@ -15523,10 +16635,17 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201910.html",
+          "label": "2019秋逐回片頭、片尾與首播日期",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "2019/10/5–2024/11/2日本TV常規片頭；2020/4/25起曾換用電影《のび太の新恐竜》題材畫面",
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "2019/10/5–2024/11/2日本TV常規片頭；2019秋改至週六17:00後，第494–505回（10/5–12/28）使用星野源版。2020/4/25起曾換用電影《のび太の新恐竜》題材畫面。",
       "evidence": [
         {
           "target": "song",
@@ -15715,6 +16834,18 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "tDqktj-2BPs"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-118037/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201910.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-op-1"
         }
       ],
       "recordings": [
@@ -15851,7 +16982,8 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2026-winter",
         "2026-spring",
         "2026-summer",
-        "2026-fall"
+        "2026-fall",
+        "2019-summer"
       ],
       "songId": "doraemon-2005-op-2-song",
       "sourceMode": "explicit",
@@ -15896,7 +17028,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "日本Columbia原單曲、日期、歌唱及曲序",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://dora-world.com/contents/3622",
@@ -15925,10 +17057,24 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html",
+          "label": "2019夏逐回片頭與特別篇區域差異",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://genshiohajiki.hatenablog.com/entry/2019/09/08/033938",
+          "label": "2019年9月8日特別篇播出段落記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "2024/11/16起恢復為日本TV常規片頭（mao）；11/9實播位置為片尾",
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "2019/9/6生日特別篇使用原主題曲作片頭；部分地方台另播片頭前四曲串燒。2024/11/16起恢復為日本TV常規片頭（mao），11/9實播位置為片尾。",
       "evidence": [
         {
           "target": "song",
@@ -16093,6 +17239,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "apple-jp-938546901"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html",
+            "https://genshiohajiki.hatenablog.com/entry/2019/09/08/033938"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-op-2"
         }
       ],
       "followUp": [
@@ -16106,6 +17265,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "2020秋原TV使用星野源版片頭。mao舊一輪及角色群唱版本待2007–2019各季逐話盤點。商購條目為日本地區。",
           "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
+        },
+        {
+          "fields": [
+            "use_quarters",
+            "recordings"
+          ],
+          "note": "2019/3/15第478回的片尾記錄為同名曲，唱片公司另列mao與角色合唱兩種演唱。",
+          "resumeWhen": "取得當次日本原播字幕或可辨識演唱者的正版片尾，再登記該回片尾版本。",
+          "checkedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -18763,6 +19931,1773 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ]
+    },
+    {
+      "id": "doraemon-2005-ed-7",
+      "songId": "doraemon-2005-the-gift-song",
+      "type": "ED",
+      "sequence": 7,
+      "titleJa": "THE GIFT",
+      "artistDisplayName": "平井 大",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "usageLabel": "日本TV第476、477回（2019/2/22、3/8）用作電影《のび太の月面探査記》宣傳片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://hiraidai.com/news/detail.html?id=924",
+          "label": "平井大官方公布歌曲在2月22日電視動畫片尾播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台播出日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201901.html",
+          "label": "冬季逐回記錄兩次片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hiraidai.com/news/detail.html?id=872",
+          "label": "歌手公布CD三種版別、伴奏及授權歌詞頁",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.uta-net.com/song/262162/",
+          "label": "歌手官網連結的授權詞曲與編曲資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1451274575",
+          "label": "Apple Music 香港EP曲序及Movie Edit",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1451274576",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1451274580",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ECe0KBlN0a8",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://hiraidai.com/news/detail.html?id=924",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201901.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-the-gift-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://hiraidai.com/news/detail.html?id=924",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201901.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-7"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/262162/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://hiraidai.com/news/detail.html?id=872"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-the-gift-song-single"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1451274575"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-the-gift-song-movie-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://hiraidai.com/news/detail.html?id=872"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-the-gift-song-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1451274576"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1451274576"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1451274580"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1451274580"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1451274575"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1451274575"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ECe0KBlN0a8"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "ECe0KBlN0a8"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "THE GIFT｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1451274576",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1451274575",
+          "recordingId": "doraemon-2005-the-gift-song-single"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "THE GIFT (Movie Edit)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1451274580",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1451274575",
+          "recordingId": "doraemon-2005-the-gift-song-movie-edit"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "平井大",
+          "role": "lyrics"
+        },
+        {
+          "name": "EIGO",
+          "role": "lyrics"
+        },
+        {
+          "name": "平井大",
+          "role": "composition"
+        },
+        {
+          "name": "平井大",
+          "role": "arrangement"
+        },
+        {
+          "name": "西陽仁",
+          "role": "arrangement"
+        },
+        {
+          "name": "nabeLTD",
+          "role": "arrangement"
+        },
+        {
+          "name": "EIGO",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-the-gift-song-single",
+          "title": "THE GIFT",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "doraemon-2005-the-gift-song-movie-edit",
+          "title": "THE GIFT (Movie Edit)",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "doraemon-2005-the-gift-song-instrumental",
+          "title": "THE GIFT -instrumental",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1451274575",
+          "title": "THE GIFT",
+          "type": "ep",
+          "artistDisplayName": "平井 大",
+          "date": {
+            "value": "2019-02-27",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "THE GIFT",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-the-gift-song-single"
+            },
+            {
+              "title": "THE GIFT (Movie Edit)",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "doraemon-2005-the-gift-song-movie-edit"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "香港正版EP另收Movie Edit；兩次日本TV片尾所用剪輯仍待逐幀核對。",
+          "resumeWhen": "取得兩回原播片尾音軌與可比對的唱片方TV剪輯時核對。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-op-3",
+      "songId": "doraemon-2005-doraemon-no-uta-40th-song",
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "ドラえもんのうた 40th",
+      "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019年日本TV第479、480回（4/5、4/19）片頭。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+          "label": "製作方公告40週年主題曲於四月開始使用",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COKM-42389/",
+          "label": "日本コロムビア數位單曲及正版店舖",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/info.html",
+          "label": "日本コロムビア製作名義與分階段配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://recochoku.jp/album/A1011636008/",
+          "label": "RecoChoku 日本區數位單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-no-uta-40th-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-op-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/info.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COKM-42389/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cokm-42389"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://recochoku.jp/album/A1011636008/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://recochoku.jp/album/A1011636008/"
+        }
+      ],
+      "links": [
+        {
+          "platform": "RecoChoku",
+          "label": "レコチョク｜日本區數位單曲",
+          "url": "https://recochoku.jp/album/A1011636008/",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "cokm-42389"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "水田わさび",
+          "role": "vocals"
+        },
+        {
+          "name": "大原めぐみ",
+          "role": "vocals"
+        },
+        {
+          "name": "かかずゆみ",
+          "role": "vocals"
+        },
+        {
+          "name": "木村昴",
+          "role": "vocals"
+        },
+        {
+          "name": "関智一",
+          "role": "vocals"
+        },
+        {
+          "name": "楠部工",
+          "role": "lyrics"
+        },
+        {
+          "name": "ばばすすむ（補作詞）",
+          "role": "lyrics"
+        },
+        {
+          "name": "菊池俊輔",
+          "role": "composition"
+        },
+        {
+          "name": "常田真太郎",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-doraemon-no-uta-40th-song-columbia",
+          "title": "ドラえもんのうた 40th",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ドラえもんのうた 40th",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "cokm-42389",
+          "title": "ドラえもんのうた 40th",
+          "type": "single",
+          "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "日本數位單曲",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ドラえもんのうた 40th",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COKM-42389"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-8",
+      "songId": "doraemon-2005-doraemon-no-uta-40th-song",
+      "type": "ED",
+      "sequence": 8,
+      "titleJa": "ドラえもんのうた 40th",
+      "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019年日本TV第481、485、487、488回（4/26、6/7、6/21、6/28）片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+          "label": "製作方公告40週年片頭及片尾用曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COKM-42389/",
+          "label": "日本コロムビア數位單曲及正版店舖",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/info.html",
+          "label": "日本コロムビア製作名義與分階段配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://recochoku.jp/album/A1011636008/",
+          "label": "RecoChoku 日本區數位單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-no-uta-40th-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-8"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/info.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COKM-42389/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cokm-42389"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://recochoku.jp/album/A1011636008/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://recochoku.jp/album/A1011636008/"
+        }
+      ],
+      "links": [
+        {
+          "platform": "RecoChoku",
+          "label": "レコチョク｜日本區數位單曲",
+          "url": "https://recochoku.jp/album/A1011636008/",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "cokm-42389"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "水田わさび",
+          "role": "vocals"
+        },
+        {
+          "name": "大原めぐみ",
+          "role": "vocals"
+        },
+        {
+          "name": "かかずゆみ",
+          "role": "vocals"
+        },
+        {
+          "name": "木村昴",
+          "role": "vocals"
+        },
+        {
+          "name": "関智一",
+          "role": "vocals"
+        },
+        {
+          "name": "楠部工",
+          "role": "lyrics"
+        },
+        {
+          "name": "ばばすすむ（補作詞）",
+          "role": "lyrics"
+        },
+        {
+          "name": "菊池俊輔",
+          "role": "composition"
+        },
+        {
+          "name": "常田真太郎",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-doraemon-no-uta-40th-song-columbia",
+          "title": "ドラえもんのうた 40th",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ドラえもんのうた 40th",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "cokm-42389",
+          "title": "ドラえもんのうた 40th",
+          "type": "single",
+          "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "日本數位單曲",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ドラえもんのうた 40th",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-no-uta-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COKM-42389"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-9",
+      "songId": "doraemon-2005-boku-doraemon-40th-song",
+      "type": "ED",
+      "sequence": 9,
+      "titleJa": "ぼくドラえもん 40th",
+      "artistDisplayName": "水田わさび",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019年日本TV第482、483、484回（5/10、5/17、5/31）片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+          "label": "製作方公布第二首紀念主題曲於五月播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COKM-42390/",
+          "label": "日本コロムビア數位單曲及正版店舖",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/info.html",
+          "label": "日本コロムビア製作名義與分階段配信",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://recochoku.jp/album/A1011735188/",
+          "label": "RecoChoku 日本區數位單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-boku-doraemon-40th-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://www.universal-music.co.jp/sukimaswitch/news/2019-04-04/",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-9"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-boku-doraemon-40th-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/info.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COKM-42390/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cokm-42390"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://recochoku.jp/album/A1011735188/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://recochoku.jp/album/A1011735188/"
+        }
+      ],
+      "links": [
+        {
+          "platform": "RecoChoku",
+          "label": "レコチョク｜日本區數位單曲",
+          "url": "https://recochoku.jp/album/A1011735188/",
+          "linkType": "direct_album",
+          "region": "JP",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "cokm-42390"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "水田わさび",
+          "role": "vocals"
+        },
+        {
+          "name": "藤子・F・不二雄",
+          "role": "lyrics"
+        },
+        {
+          "name": "菊池俊輔",
+          "role": "composition"
+        },
+        {
+          "name": "ha-j",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-boku-doraemon-40th-song-columbia",
+          "title": "ぼくドラえもん 40th",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ぼくドラえもん 40th",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "doraemon-2005-boku-doraemon-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "cokm-42390",
+          "title": "ぼくドラえもん 40th",
+          "type": "single",
+          "artistDisplayName": "水田わさび",
+          "date": {
+            "value": "2019-05-10",
+            "precision": "day"
+          },
+          "edition": "日本數位單曲",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ぼくドラえもん 40th",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-boku-doraemon-40th-song-columbia"
+            }
+          ],
+          "catalogNumber": "COKM-42390"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-10",
+      "songId": "doraemon-2005-doraemon-ondo-2017-song",
+      "type": "ED",
+      "sequence": 10,
+      "titleJa": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+      "artistDisplayName": "ドラっ子隊、水田わさび",
+      "seasonIds": [
+        "2019-summer"
+      ],
+      "usageLabel": "2019年日本TV7/19的40週年一小時特別篇及第491、492回（8/9、8/23）片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://dora-world.com/contents/244",
+          "label": "作品方2017年新版音頭片尾公告",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-ondo-2017-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://dora-world.com/contents/244",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        }
+      ],
+      "links": [],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "ドラっ子隊",
+          "role": "vocals"
+        },
+        {
+          "name": "水田わさび",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-doraemon-ondo-2017-song-columbia",
+          "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-11",
+      "songId": "doraemon-2005-happy-lucky-birthday-song",
+      "type": "ED",
+      "sequence": 11,
+      "titleJa": "ハッピー☆ラッキー・バースデー!",
+      "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
+      "seasonIds": [
+        "2019-summer"
+      ],
+      "usageLabel": "2019年日本TV9/6生日特別篇中新作〈未来の迷宮 おかし城〉的片尾，播於接續重播的2017故事之前。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://post.tv-asahi.co.jp/post-96420/",
+          "label": "電視台公布生日特別篇的新作及重播故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://genshiohajiki.hatenablog.com/entry/2019/09/08/033938",
+          "label": "播出當週記錄歌曲位置及新作與重播順序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-happy-lucky-birthday-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://post.tv-asahi.co.jp/post-96420/",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201907.html",
+            "https://genshiohajiki.hatenablog.com/entry/2019/09/08/033938"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        }
+      ],
+      "links": [],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "水田わさび",
+          "role": "vocals"
+        },
+        {
+          "name": "大原めぐみ",
+          "role": "vocals"
+        },
+        {
+          "name": "かかずゆみ",
+          "role": "vocals"
+        },
+        {
+          "name": "木村昴",
+          "role": "vocals"
+        },
+        {
+          "name": "関智一",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-happy-lucky-birthday-song-columbia",
+          "title": "ハッピー☆ラッキー・バースデー!",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ハッピー☆ラッキー・バースデー!",
+              "position": 10,
+              "disc": 1,
+              "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-12",
+      "songId": "doraemon-2005-arigatou-ore-song",
+      "type": "ED",
+      "sequence": 12,
+      "titleJa": "ありがとう、オーレ!",
+      "artistDisplayName": "木村昴",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019年日本TV第486回（6/14）胖虎生日主題播出的片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/doraemon40/",
+          "label": "日本コロムビア原版CD曲序、版名及演唱者",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/0563/",
+          "label": "電視台當回生日主題故事及日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://tvablog.tv-asahi.co.jp/reading/wasadora93/106942/",
+          "label": "電視台出演者網誌記錄胖虎演唱這首片尾曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "電視台2019年播出表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html",
+          "label": "2019年逐回播出記錄及用曲位置",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア發行日與4CD品番",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-arigatou-ore-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/",
+            "https://www.tv-asahi.co.jp/doraemon/story/0563/",
+            "https://tvablog.tv-asahi.co.jp/reading/wasadora93/106942/",
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201904.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-ed-12"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "doraemon-2005-arigatou-ore-song-columbia"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemon40/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "date",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "cocx-40818-21"
+        }
+      ],
+      "links": [],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "木村昴",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-arigatou-ore-song-columbia",
+          "title": "ありがとう、オーレ!",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "ありがとう、オーレ!",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "doraemon-2005-arigatou-ore-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
+          "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
     }
   ]
 },
@@ -18798,7 +21733,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2025-fall",
     "2026-winter",
     "2026-summer",
-    "2026-fall"
+    "2026-fall",
+    "2019-fall",
+    "2019-summer",
+    "2019-spring",
+    "2019-winter"
   ],
   "startDate": "1992-04-13",
   "titleJa": "クレヨンしんちゃん",
@@ -18806,12 +21745,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
   "editorialWeekday": 6,
   "broadcastTimeJst": "16:30",
   "broadcastLabel": "日本TV系列1992/4/13開始；2019/10/5起朝日電視系週六16:30 JST，2020秋沿用。",
-  "metadataVerifiedAt": "2026-10-19",
+  "metadataVerifiedAt": "2026-11-19",
   "status": "airing",
   "officialSiteUrl": "https://www.tv-asahi.co.jp/shinchan/",
   "anilistUrl": "https://anilist.co/anime/966",
   "sourceReferenceUrls": [
-    "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+    "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+    "https://www.tv-asahi.co.jp/shinchan/news/0049/",
+    "https://www.aimyong.net/news/detail/469",
+    "https://www.tv-asahi.co.jp/shinchan/news/0038/"
   ],
   "verifiedAt": "2026-10-19",
   "metadataSources": [
@@ -18863,6 +21805,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-15"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/shinchan/news/0049/",
+      "label": "朝日電視台：2019秋改播週六16:30",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.aimyong.net/news/detail/469",
+      "label": "あいみょん：電視版片尾公告與兩種原版單曲",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+      "label": "朝日電視台：2019/6/14柚子客串及〈夏色〉演出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
     }
   ],
   "themes": [
@@ -18874,7 +21837,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "seasonIds": [
         "2020-winter",
         "2020-spring",
-        "2020-summer"
+        "2020-summer",
+        "2019-winter",
+        "2019-spring",
+        "2019-summer",
+        "2019-fall"
       ],
       "songId": "crayon-shin-chan-op-1-song",
       "sourceMode": "explicit",
@@ -19066,11 +22033,53 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "朝日電視台曾公開動畫片頭，現註明配信已結束",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+          "label": "日本版分時期主題曲表：2019年1月25日第987話及片頭停用區間",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+          "label": "朝日電視台：2019/6/14柚子客串及〈夏色〉演出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+          "label": "逐話交叉曲表：2019年動畫本篇、片頭、片尾和插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1003",
+          "label": "第1003話：2019/7/5常規片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1013",
+          "label": "第1013話：2019/11/16常規片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1016",
+          "label": "第1016話：2019/12/7片頭及插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
-      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭，途中有停用例外。2020年春第1035話（5/16）、第1036話（6/13）已核；10/3換曲。",
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭，途中有停用例外。2020年春第1035話（5/16）、第1036話（6/13）已核；10/3換曲。 2019/1/25第987話後曾暫停片頭，6/7第999話、7/5第1003話、11/16第1013話及12/7第1016話為片頭。",
       "evidence": [
         {
           "target": "song",
@@ -19351,6 +22360,23 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "crayon-shin-chan-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0103/",
+            "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/1003",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/1013",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/1016"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-op-1"
         }
       ],
       "credits": [
@@ -19382,6 +22408,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "已核2020年春兩話的實際片頭。2018–2019其他季度及電影宣傳檔各話例外待逐集核對。原單曲、專輯與現場發行已分列，混音關係待核。朝日電視台當年公開的動畫片頭配信已結束。",
           "resumeWhen": "待可辨識原播片頭或權利方逐話資料，另核原唱錄音版本關係及各地完整播放。",
           "checkedAt": "2026-11-16"
+        },
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "逐話交叉曲表記錄 2019/8/9 第1005話及 8/23 第1006話片尾使用本曲，尚缺兩次原播或權利方佐證。",
+          "resumeWhen": "取得朝日電視台原播尾段掛字或權利方逐話用曲表後，再決定是否登錄獨立片尾用途。",
+          "checkedAt": "2026-11-19"
         }
       ],
       "recordings": [
@@ -21139,6 +24173,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1006",
+          "label": "第1006話：2019/8/23片尾及插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1016",
+          "label": "第1016話：2019/12/7片頭及插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+          "label": "逐話交叉曲表：2019年動畫本篇、片頭、片尾和插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [],
@@ -21209,15 +24264,30 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "cocx-33076-7"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/1006",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/1016",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-in-1"
         }
       ],
       "sourceMode": "explicit",
       "seasonIds": [
         "2020-summer",
-        "2020-fall"
+        "2020-fall",
+        "2019-summer",
+        "2019-fall"
       ],
-      "usageLabel": "2020年夏、秋多回劇中使用，包括第1050、1051、1059話",
-      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "2020年夏、秋多回劇中使用，包括第1050、1051、1059話 2019/8/23第1006話及12/7第1016話另有劇中使用。",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "本郷満",
@@ -21446,6 +24516,911 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ]
+    },
+    {
+      "id": "crayon-shin-chan-ed-3",
+      "type": "ED",
+      "sequence": 3,
+      "songId": "crayon-shin-chan-harunohi-song",
+      "titleJa": "ハルノヒ",
+      "artistDisplayName": "あいみょん",
+      "seasonIds": [
+        "2019-winter",
+        "2019-spring"
+      ],
+      "usageLabel": "2019年電視版電影宣傳片尾。2/8啟用；5/31第998話確認片尾。5/10第996話另作片頭。",
+      "lastVerifiedAt": "2026-11-19",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.aimyong.net/news/detail/469",
+          "label": "あいみょん：電視版片尾公告與兩種原版單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/998",
+          "label": "第998話：2019/5/31宣傳片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+          "label": "Qobuz 日本：〈ハルノヒ〉數位單曲製作名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+          "label": "逐話交叉曲表：2019年動畫本篇、片頭、片尾和插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455340999&country=hk",
+          "label": "Apple 香港：數位發行名稱及日期",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455341000&country=hk",
+          "label": "Apple 香港：Harunohi 的數位曲目、曲序及串流標示",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455341002&country=hk",
+          "label": "Apple 香港：Harunohi (Instrumental) 的數位曲目、曲序及串流標示",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/998"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-ed-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/998",
+            "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/998",
+            "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "wpcl-13038"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "wpcl-13037"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "availability",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455341000&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455341000"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "availability",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455341002&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455341002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455340999&country=hk",
+            "https://itunes.apple.com/lookup?id=1455341000&country=hk",
+            "https://itunes.apple.com/lookup?id=1455341002&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1455340999"
+        }
+      ],
+      "credits": [
+        {
+          "name": "あいみょん",
+          "role": "vocals"
+        },
+        {
+          "name": "あいみょん",
+          "role": "lyrics"
+        },
+        {
+          "name": "あいみょん",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-harunohi-song-single-vocal",
+          "title": "ハルノヒ",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "crayon-shin-chan-harunohi-song-instrumental",
+          "title": "ハルノヒ (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "wpcl-13038",
+          "title": "ハルノヒ",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "JP",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "初回限定クレヨンしんちゃん盤",
+          "tracks": [
+            {
+              "title": "ハルノヒ",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "ハルノヒ(Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ],
+          "catalogNumber": "WPCL-13038"
+        },
+        {
+          "id": "wpcl-13037",
+          "title": "ハルノヒ",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "JP",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "通常盤",
+          "tracks": [
+            {
+              "title": "ハルノヒ",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "ハルノヒ(Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ],
+          "catalogNumber": "WPCL-13037"
+        },
+        {
+          "id": "apple-hk-1455340999",
+          "title": "Harunohi - Single",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "HK",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "Apple Music 香港數位版",
+          "tracks": [
+            {
+              "title": "Harunohi",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "Harunohi (Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1455341000",
+          "label": "Harunohi｜Apple Music 香港",
+          "linkType": "direct_track",
+          "region": "HK",
+          "recordingId": "crayon-shin-chan-harunohi-song-single-vocal",
+          "releaseId": "apple-hk-1455340999",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1455341002",
+          "label": "Harunohi (Instrumental)｜Apple Music 香港",
+          "linkType": "direct_track",
+          "region": "HK",
+          "recordingId": "crayon-shin-chan-harunohi-song-instrumental",
+          "releaseId": "apple-hk-1455340999",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
+          "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "crayon-shin-chan-op-4",
+      "type": "OP",
+      "sequence": 4,
+      "songId": "crayon-shin-chan-harunohi-song",
+      "titleJa": "ハルノヒ",
+      "artistDisplayName": "あいみょん",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019/5/10第996話電影宣傳片頭。當話無獨立片尾。",
+      "lastVerifiedAt": "2026-11-19",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.aimyong.net/news/detail/469",
+          "label": "あいみょん：電視版片尾公告與兩種原版單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/996",
+          "label": "第996話：2019/5/10特別片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+          "label": "Qobuz 日本：〈ハルノヒ〉數位單曲製作名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+          "label": "逐話交叉曲表：2019年動畫本篇、片頭、片尾和插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455340999&country=hk",
+          "label": "Apple 香港：數位發行名稱及日期",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455341000&country=hk",
+          "label": "Apple 香港：Harunohi 的數位曲目、曲序及串流標示",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1455341002&country=hk",
+          "label": "Apple 香港：Harunohi (Instrumental) 的數位曲目、曲序及串流標示",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/996"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-op-4"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/996",
+            "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469",
+            "https://www.mau2.com/anime/crayonsinchan-28/ep/996",
+            "https://www.qobuz.com/jp-ja/album/harunohi-aimyon/ddr4qjpkmvikc",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-harunohi-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "wpcl-13038"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.aimyong.net/news/detail/469"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "wpcl-13037"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "availability",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455341000&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455341000"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "availability",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455341002&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455341002"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1455340999&country=hk",
+            "https://itunes.apple.com/lookup?id=1455341000&country=hk",
+            "https://itunes.apple.com/lookup?id=1455341002&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1455340999"
+        }
+      ],
+      "credits": [
+        {
+          "name": "あいみょん",
+          "role": "vocals"
+        },
+        {
+          "name": "あいみょん",
+          "role": "lyrics"
+        },
+        {
+          "name": "あいみょん",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-harunohi-song-single-vocal",
+          "title": "ハルノヒ",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "crayon-shin-chan-harunohi-song-instrumental",
+          "title": "ハルノヒ (Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "wpcl-13038",
+          "title": "ハルノヒ",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "JP",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "初回限定クレヨンしんちゃん盤",
+          "tracks": [
+            {
+              "title": "ハルノヒ",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "ハルノヒ(Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ],
+          "catalogNumber": "WPCL-13038"
+        },
+        {
+          "id": "wpcl-13037",
+          "title": "ハルノヒ",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "JP",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "通常盤",
+          "tracks": [
+            {
+              "title": "ハルノヒ",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "ハルノヒ(Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ],
+          "catalogNumber": "WPCL-13037"
+        },
+        {
+          "id": "apple-hk-1455340999",
+          "title": "Harunohi - Single",
+          "type": "single",
+          "artistDisplayName": "あいみょん",
+          "region": "HK",
+          "date": {
+            "value": "2019-04-17",
+            "precision": "day"
+          },
+          "edition": "Apple Music 香港數位版",
+          "tracks": [
+            {
+              "title": "Harunohi",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-harunohi-song-single-vocal"
+            },
+            {
+              "title": "Harunohi (Instrumental)",
+              "position": 3,
+              "recordingId": "crayon-shin-chan-harunohi-song-instrumental"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1455341000",
+          "label": "Harunohi｜Apple Music 香港",
+          "linkType": "direct_track",
+          "region": "HK",
+          "recordingId": "crayon-shin-chan-harunohi-song-single-vocal",
+          "releaseId": "apple-hk-1455340999",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1455341002",
+          "label": "Harunohi (Instrumental)｜Apple Music 香港",
+          "linkType": "direct_track",
+          "region": "HK",
+          "recordingId": "crayon-shin-chan-harunohi-song-instrumental",
+          "releaseId": "apple-hk-1455340999",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
+          "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "crayon-shin-chan-in-3",
+      "type": "IN",
+      "sequence": 3,
+      "songId": "crayon-shin-chan-natsuiro-song",
+      "titleJa": "夏色",
+      "artistDisplayName": "ゆず",
+      "seasonIds": [
+        "2019-spring"
+      ],
+      "usageLabel": "2019/6/14第1000話〈ゆずがやってきたゾ〉。ゆず以本人角色登場演出，節目另配特別畫面。",
+      "lastVerifiedAt": "2026-11-19",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+          "label": "朝日電視台：2019/6/14柚子客串及〈夏色〉演出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+          "label": "逐話交叉曲表：2019年動畫本篇、片頭、片尾和插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/discography/e89e242b-a58e-4ffa-880b-1683dd6ee3af",
+          "label": "ゆず：出道單曲〈夏色〉發行資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1609440693&country=hk",
+          "label": "Apple 香港：數位發行名稱及日期",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1609441297&country=hk",
+          "label": "Apple 香港：Natsuiro 的數位曲目、曲序及串流標示",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-in-3"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+            "https://yuzu-official.com/contents/discography/e89e242b-a58e-4ffa-880b-1683dd6ee3af"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-natsuiro-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+            "https://www.mau2.com/anime/crayonsinchan-28?cast=cv",
+            "https://yuzu-official.com/contents/discography/e89e242b-a58e-4ffa-880b-1683dd6ee3af"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/e89e242b-a58e-4ffa-880b-1683dd6ee3af"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crayon-shin-chan-natsuiro-song-single-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/discography/e89e242b-a58e-4ffa-880b-1683dd6ee3af"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "sndc28901"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "availability",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1609441297&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1609441297"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "tracklist",
+            "date",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1609440693&country=hk",
+            "https://itunes.apple.com/lookup?id=1609441297&country=hk"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1609440693"
+        }
+      ],
+      "credits": [
+        {
+          "name": "ゆず",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-natsuiro-song-single-vocal",
+          "title": "夏色",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "sndc28901",
+          "title": "夏色",
+          "type": "single",
+          "artistDisplayName": "ゆず",
+          "region": "JP",
+          "date": {
+            "value": "1998-06-03",
+            "precision": "day"
+          },
+          "edition": "原版單曲",
+          "tracks": [
+            {
+              "title": "夏色",
+              "position": 1,
+              "recordingId": "crayon-shin-chan-natsuiro-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "SNDC28901"
+        },
+        {
+          "id": "apple-hk-1609440693",
+          "title": "Yuzuikka",
+          "type": "album",
+          "artistDisplayName": "ゆず",
+          "region": "HK",
+          "date": {
+            "value": "1998-07-23",
+            "precision": "day"
+          },
+          "edition": "Apple Music 香港數位版",
+          "tracks": [
+            {
+              "title": "Natsuiro",
+              "position": 4
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1609441297",
+          "label": "Natsuiro｜Apple Music 香港",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1609440693",
+          "availability": "available",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
+          "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
     }
   ]
 },
@@ -21481,7 +25456,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "2025-fall",
       "2026-winter",
       "2026-summer",
-      "2026-fall"
+      "2026-fall",
+      "2019-fall",
+      "2019-summer",
+      "2019-spring",
+      "2019-winter"
     ],
     "startDate": "1995-01-08",
     "titleJa": "ちびまる子ちゃん",
@@ -21489,13 +25468,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "editorialWeekday": 7,
     "broadcastTimeJst": "18:00",
     "broadcastLabel": "第2期日本TV：1995/1/8起，富士電視台系週日18:00。第1243話2020/4/26首播後，5/3至6/14改播舊話；第1244話於6/21恢復新作播出，重製舊腳本的十週企劃由此開始。",
-    "metadataVerifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-19",
     "status": "airing",
     "officialSiteUrl": "https://chibimaru.tv/",
     "anilistUrl": "https://anilist.co/anime/6149",
     "sourceReferenceUrls": [
       "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
-      "https://www.animatetimes.com/news/details.php?id=1772672652"
+      "https://www.animatetimes.com/news/details.php?id=1772672652",
+      "https://www.chibimaru.tv/about/story/2019/",
+      "https://www.chibimaru.tv/news/entry/2019/006294.html"
     ],
     "verifiedAt": "2026-10-19",
     "metadataSources": [
@@ -21554,6 +25535,20 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.chibimaru.tv/about/story/2019/",
+        "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.chibimaru.tv/news/entry/2019/006294.html",
+        "label": "作品官方：2019/10/6啟用斉藤和義新片尾",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
       }
     ],
     "themes": [
@@ -21586,7 +25581,10 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "2025-winter",
           "2025-spring",
           "2025-summer",
-          "2025-fall"
+          "2025-fall",
+          "2019-spring",
+          "2019-summer",
+          "2019-fall"
         ],
         "songId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
         "sourceMode": "explicit",
@@ -21646,10 +25644,38 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2019/006122.html",
+            "label": "作品官方：ももいろクローバーZ自2019/4/7接替片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2019/",
+            "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28",
+            "label": "2019年各話片頭、片尾及插曲交叉曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28/ep/1216",
+            "label": "第1216話：ももいろクローバーZ片頭與PUFFY片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "lastVerifiedAt": "2026-11-16",
-        "usageLabel": "日本TV OP（ももいろクローバーZ演唱）。2020/6/21新作復播第1244話沿用。",
+        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本TV OP（ももいろクローバーZ演唱）。2020/6/21新作復播第1244話沿用。 2019/4/7第1191話起啟用；9/29第1216話及秋季第1217–1228話沿用此演唱名義。",
         "evidence": [
           {
             "target": "song",
@@ -21752,6 +25778,20 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.mau2.com/anime/tibimarukochan-29/ep/1244"
             ],
             "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2019/006122.html",
+              "https://www.chibimaru.tv/about/story/2019/",
+              "https://www.mau2.com/anime/tibimarukochan-28",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1216"
+            ],
+            "verifiedAt": "2026-11-19",
             "targetId": "chibi-maruko-chan-1995-op-1"
           }
         ],
@@ -21958,7 +25998,8 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "2025-spring",
           "2025-summer",
           "2025-fall",
-          "2026-winter"
+          "2026-winter",
+          "2019-fall"
         ],
         "songId": "chibi-maruko-chan-1995-ed-1-song",
         "sourceMode": "explicit",
@@ -22010,7 +26051,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "label": "動畫官網明列常規片尾歌名、演唱與創作署名",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://chibimaru.tv/about/story/2020/",
@@ -22053,10 +26094,24 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2019/",
+            "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28",
+            "label": "2019年各話片頭、片尾及插曲交叉曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "lastVerifiedAt": "2026-11-16",
-        "usageLabel": "2019年起 日本TV ED；2026年3月切換前。2020/6/21新作復播第1244話沿用。2020/5/17及2021/5/16已核的特別片尾另列。",
+        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "2019年起 日本TV ED；2026年3月切換前。2020/6/21新作復播第1244話沿用。2020/5/17及2021/5/16已核的特別片尾另列。 2019/10/6第1217話首次播出，第1217–1228話為該年秋季編排。",
         "evidence": [
           {
             "target": "song",
@@ -22173,6 +26228,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.daily.co.jp/gossip/2021/05/16/0014333642.shtml"
             ],
             "verifiedAt": "2026-11-16",
+            "targetId": "chibi-maruko-chan-1995-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2019/006294.html",
+              "https://www.chibimaru.tv/about/story/2019/",
+              "https://www.mau2.com/anime/tibimarukochan-28"
+            ],
+            "verifiedAt": "2026-11-19",
             "targetId": "chibi-maruko-chan-1995-ed-1"
           }
         ],
@@ -22509,6 +26577,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2019/",
+            "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.excite.co.jp/news/article/E1558538283294/",
+            "label": "2019/5/19播後報道：西城秀樹特別片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28",
+            "label": "2019年各話片頭、片尾及插曲交叉曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "evidence": [
@@ -22636,6 +26725,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-6768565964"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/about/story/2019/",
+              "https://www.excite.co.jp/news/article/E1558538283294/",
+              "https://www.mau2.com/anime/tibimarukochan-28"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-ed-3"
           }
         ],
         "credits": [
@@ -22658,10 +26760,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         ],
         "seasonIds": [
           "2020-spring",
-          "2021-spring"
+          "2021-spring",
+          "2019-spring"
         ],
-        "usageLabel": "日本TV第2期特別片尾。2020/5/17第1192話〈まる子、偏食をする〉重播檔與2021/5/16第1288話〈お母さんの髪型〉首播檔已核。此曲也曾用於第1期常規片尾。",
-        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本TV第2期特別片尾。2020/5/17第1192話〈まる子、偏食をする〉重播檔與2021/5/16第1288話〈お母さんの髪型〉首播檔已核。此曲也曾用於第1期常規片尾。 2019/5/19第1197話〈まる子、忘れ物をする〉首播亦採用此曲，翌週回復PUFFY演唱的常規片尾。",
+        "lastVerifiedAt": "2026-11-19",
         "releaseDate": "1991-04-21",
         "recordings": [
           {
@@ -22757,6 +26860,629 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "note": "已核兩次節目演唱名義與商業發行曲位。電視剪輯、合輯母帶及香港區完整播放待核。",
             "resumeWhen": "待權利方開放可核對的原節目片尾、音源版別資料，或可從香港確認正版完整播放。",
             "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-op-3",
+        "type": "OP",
+        "sequence": 3,
+        "songId": "chibi-maruko-chan-1995-odoru-ponpokorin-song",
+        "titleJa": "おどるポンポコリン",
+        "artistDisplayName": "ゴールデンボンバー",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第2期：2019冬第1190話（3/31）仍用ゴールデンボンバー版本；4/7起改由ももいろクローバーZ演唱。",
+        "lastVerifiedAt": "2026-11-19",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2016/002774.html",
+            "label": "作品官方：ゴールデンボンバー演唱的片頭啟用及詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28/ep/1190",
+            "label": "第1190話：金爆版片頭與PUFFY片尾及詞曲編",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://pc.goldenbomber.jp/contents/70286",
+            "label": "ゴールデンボンバー：片頭原唱、單曲曲序與卡拉OK版",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2019/006122.html",
+            "label": "作品官方：ももいろクローバーZ自2019/4/7接替片頭",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2019/",
+            "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=hk",
+            "label": "Apple 香港：數位發行名稱及日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166488042&country=hk",
+            "label": "Apple 香港：Odoru Ponpokorin 的數位曲目、曲序及串流標示",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166488046&country=hk",
+            "label": "Apple 香港：Odoru Ponpokorin (Karaoke) 的數位曲目、曲序及串流標示",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2016/002774.html",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1190"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-op-3"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2016/002774.html",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1190",
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://www.chibimaru.tv/news/entry/2019/006122.html",
+              "https://www.chibimaru.tv/about/story/2019/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2016/002774.html",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1190",
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://www.chibimaru.tv/news/entry/2019/006122.html",
+              "https://www.chibimaru.tv/about/story/2019/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist",
+              "date",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "eazz-0171"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "availability",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166488042&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1166488042"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "availability",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166488046&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1166488046"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk",
+              "https://itunes.apple.com/lookup?id=1166488042&country=hk",
+              "https://itunes.apple.com/lookup?id=1166488046&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1166487859"
+          }
+        ],
+        "credits": [
+          {
+            "name": "さくらももこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "織田哲郎",
+            "role": "composition"
+          },
+          {
+            "name": "鬼龍院翔",
+            "role": "arrangement"
+          },
+          {
+            "name": "tatsuo",
+            "role": "arrangement"
+          },
+          {
+            "name": "ゴールデンボンバー",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
+            "title": "おどるポンポコリン（ゴールデンボンバー）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
+            "title": "おどるポンポコリン（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eazz-0171",
+            "title": "おどるポンポコリン",
+            "type": "single",
+            "artistDisplayName": "ゴールデンボンバー",
+            "region": "JP",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "日本 CD",
+            "tracks": [
+              {
+                "title": "おどるポンポコリン",
+                "position": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+              },
+              {
+                "title": "おどるポンポコリン(オリジナル・カラオケ)",
+                "position": 3,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+              }
+            ],
+            "catalogNumber": "EAZZ-0171"
+          },
+          {
+            "id": "apple-hk-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "type": "ep",
+            "artistDisplayName": "ゴールデンボンバー",
+            "region": "HK",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "Apple Music 香港數位版",
+            "tracks": [
+              {
+                "title": "Odoru Ponpokorin",
+                "position": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+              },
+              {
+                "title": "Odoru Ponpokorin (Karaoke)",
+                "position": 3,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1166488042",
+            "label": "Odoru Ponpokorin｜Apple Music 香港",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
+            "releaseId": "apple-hk-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1166488046",
+            "label": "Odoru Ponpokorin (Karaoke)｜Apple Music 香港",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
+            "releaseId": "apple-hk-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
+            "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-ed-4",
+        "type": "ED",
+        "sequence": 4,
+        "songId": "chibi-maruko-chan-1995-susume-nonsense-song",
+        "titleJa": "すすめナンセンス",
+        "artistDisplayName": "PUFFY",
+        "seasonIds": [
+          "2019-winter",
+          "2019-spring",
+          "2019-summer"
+        ],
+        "usageLabel": "2019年第2期常規片尾。3/31第1190話及9/29第1216話可核。5/19第1197話改用〈走れ正直者〉，5/26第1198話恢復；10/6起換曲。",
+        "lastVerifiedAt": "2026-11-19",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2017/003208.html",
+            "label": "作品官方：PUFFY常規片尾啟用",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28",
+            "label": "2019年各話片頭、片尾及插曲交叉曲表",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://chibimaru.tv/news/entry/2018/006012.html",
+            "label": "作品官方：PUFFY的90秒電視剪輯及完整數位音源",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2019/",
+            "label": "作品官方：2019年富士電視台原播分集、集數及日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28/ep/1216",
+            "label": "第1216話：ももいろクローバーZ片頭與PUFFY片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-28/ep/1190",
+            "label": "第1190話：金爆版片頭與PUFFY片尾及詞曲編",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1444761060&country=hk",
+            "label": "Apple 香港：Susume Nonsense (Instrumental) 的數位曲目、曲序及串流標示",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1444761058&country=hk",
+            "label": "Apple 香港：數位發行名稱及日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1444761059&country=hk",
+            "label": "Apple 香港：Susume Nonsense 的數位曲目、曲序及串流標示",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2017/003208.html",
+              "https://www.mau2.com/anime/tibimarukochan-28"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-ed-4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2017/003208.html",
+              "https://www.mau2.com/anime/tibimarukochan-28",
+              "https://chibimaru.tv/news/entry/2018/006012.html",
+              "https://www.chibimaru.tv/about/story/2019/",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1216",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1190"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2017/003208.html",
+              "https://www.mau2.com/anime/tibimarukochan-28",
+              "https://chibimaru.tv/news/entry/2018/006012.html",
+              "https://www.chibimaru.tv/about/story/2019/",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1216",
+              "https://www.mau2.com/anime/tibimarukochan-28/ep/1190"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2018/006012.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-tv-90s"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2018/006012.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761060&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "availability",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761059&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1444761059"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "availability",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761060&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1444761060"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "tracklist",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=hk",
+              "https://itunes.apple.com/lookup?id=1444761059&country=hk",
+              "https://itunes.apple.com/lookup?id=1444761060&country=hk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1444761058"
+          }
+        ],
+        "credits": [
+          {
+            "name": "さくらももこ",
+            "role": "lyrics"
+          },
+          {
+            "name": "織田哲郎",
+            "role": "composition"
+          },
+          {
+            "name": "織田哲郎",
+            "role": "arrangement"
+          },
+          {
+            "name": "PUFFY",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-susume-nonsense-song-tv-90s",
+            "title": "すすめナンセンス（90秒テレビバージョン）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "title": "すすめナンセンス",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental",
+            "title": "Susume Nonsense (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1444761058",
+            "title": "Susume Nonsense - Single",
+            "type": "single",
+            "artistDisplayName": "PUFFY",
+            "region": "HK",
+            "date": {
+              "value": "2018-12-07",
+              "precision": "day"
+            },
+            "edition": "Apple Music 香港數位版",
+            "tracks": [
+              {
+                "title": "Susume Nonsense",
+                "position": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              },
+              {
+                "title": "Susume Nonsense (Instrumental)",
+                "position": 2,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1444761059",
+            "label": "Susume Nonsense｜Apple Music 香港",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-hk-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1444761060",
+            "label": "Susume Nonsense (Instrumental)｜Apple Music 香港",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental",
+            "releaseId": "apple-hk-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
+            "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
+            "checkedAt": "2026-11-19"
           }
         ]
       }

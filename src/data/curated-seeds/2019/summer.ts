@@ -12742,6 +12742,3240 @@ metadataVerifiedAt: "2026-09-07",
 ];
 
 export const curated2019SummerSeeds: CuratedCatalogAnimeSeed[] = [
+  {
+  "anilistId": 98231,
+  "id": "curated-98231",
+  "slug": "yu-gi-oh-vrains",
+  "seasonIds": [
+    "2019-summer",
+    "2019-spring",
+    "2019-winter",
+    "2018-fall",
+    "2018-spring"
+  ],
+  "startDate": "2017-05-10",
+  "titleJa": "遊☆戯☆王VRAINS",
+  "titleZhHant": "遊戲王 VRAINS",
+  "titleRomaji": "Yu☆Gi☆Oh! VRAINS",
+  "editorialWeekday": 3,
+  "broadcastTimeJst": "18:25",
+  "broadcastLabel": "日本テレビ東京系列週三18:25–18:55 JST。2017/5/10首播，2019/9/25第120話完結。",
+  "status": "finished",
+  "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/",
+  "anilistUrl": "https://anilist.co/anime/98231/YuGiOh-VRAINS",
+  "sourceReferenceUrls": [
+    "https://yu-gi-oh.jp/anime/vrains/",
+    "https://ani.gamer.com.tw/animeVideo.php?sn=42792",
+    "https://cal.syoboi.jp/tid/4592"
+  ],
+  "verifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-19",
+  "metadataSources": [
+    {
+      "url": "https://yu-gi-oh.jp/anime/vrains/",
+      "label": "遊戲王官方作品與日本集數",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_10.html",
+      "label": "テレビ東京首播逐話表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/",
+      "label": "テレビ東京最終回及日本播出日",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909251825.html",
+      "label": "テレビ東京最終回原播時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://ani.gamer.com.tw/animeVideo.php?sn=42792",
+      "label": "巴哈姆特動畫瘋台灣授權作品及繁中名稱",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://anilist.co/anime/98231/YuGiOh-VRAINS",
+      "label": "AniList日本TV系列識別",
+      "role": "identifier",
+      "language": "en",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/4592/time",
+      "label": "日本原播與重播紀錄",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    }
+  ],
+  "themes": [
+    {
+      "id": "yu-gi-oh-vrains-op-1",
+      "songId": "yu-gi-oh-vrains-with-the-wind-song",
+      "type": "OP",
+      "sequence": 1,
+      "titleJa": "With The Wind",
+      "artistDisplayName": "富永TOMMY弘明",
+      "seasonIds": [
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第1–46話片頭（2017/5/10–2018/4/4）；2018春為4/4第46話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9049/",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_10.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9493/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1247754954",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1247754961",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1247754963",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1446369883",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1446369888",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://yugioh-starlight.com/archives/53843207.html",
+          "label": "日本原播當晚對最終回片頭及末段歌曲的即時記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909251825.html",
+          "label": "テレビ東京預告節目表仍列本季常規片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.crunchyroll.com/watch/GR9VQE596/connected-world",
+          "label": "授權日語字幕版第120話節目頁",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-with-the-wind-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.marv.jp/titles/mc/9049/",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_10.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-with-the-wind-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-with-the-wind-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-with-the-wind-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01251"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1247754954"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-with-the-wind-song-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1247754961"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1247754961"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1247754963"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1247754963"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1247754954"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1247754954"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1446369888"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1446369888"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1446369883"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1446369883"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9049/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjss-09198"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "With The Wind｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1247754961",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1247754954",
+          "recordingId": "yu-gi-oh-vrains-with-the-wind-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "With The Wind(オリジナル・カラオケ)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1247754963",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1247754954",
+          "recordingId": "yu-gi-oh-vrains-with-the-wind-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "With The Wind (TV size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1446369888",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1446369883",
+          "recordingId": "yu-gi-oh-vrains-with-the-wind-song-tv"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Yocke",
+          "role": "lyrics"
+        },
+        {
+          "name": "Yocke",
+          "role": "composition"
+        },
+        {
+          "name": "Yocke",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-with-the-wind-song-vocal",
+          "title": "With The Wind",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-with-the-wind-song-tv",
+          "title": "With The Wind（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "yu-gi-oh-vrains-with-the-wind-song-instrumental",
+          "title": "With The Wind(オリジナル・カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01251",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL1",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "With The Wind（TVサイズ）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01251"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "With The Wind",
+              "position": 1,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1247754954",
+          "title": "「遊☆戯☆王 VRAINS」OPテーマ曲 With The Wind - EP",
+          "type": "ep",
+          "artistDisplayName": "富永TOMMY弘明",
+          "date": {
+            "value": "2017-06-21",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "With The Wind",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-vocal"
+            },
+            {
+              "title": "With The Wind(オリジナル・カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1446369883",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL1.1",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "With The Wind (TV size)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "mjss-09198",
+          "title": "With The Wind",
+          "type": "single",
+          "artistDisplayName": "富永TOMMY弘明",
+          "date": {
+            "value": "2017-06-21",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "With The Wind",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-vocal"
+            },
+            {
+              "title": "With The Wind (instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-with-the-wind-song-instrumental"
+            }
+          ],
+          "catalogNumber": "MJSS-09198"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "第 120 話電視台節目表沿列常規片尾〈Are you ready?〉，播出當晚記錄及逐話資料指向〈With The Wind〉。",
+          "resumeWhen": "取得日本原播完整片尾、權利方逐話曲表或可定位的授權日語版掛字，再登錄終話用曲與剪輯。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-op-2",
+      "songId": "yu-gi-oh-vrains-go-forward-song",
+      "type": "OP",
+      "sequence": 2,
+      "titleJa": "go forward",
+      "artistDisplayName": "KIMERU",
+      "seasonIds": [
+        "2018-spring",
+        "2018-fall",
+        "2019-winter",
+        "2019-spring"
+      ],
+      "usageLabel": "日本TV第47–102話片頭（2018/4/11–2019/5/15）。2018春第47–57話、夏第58–70話、秋第71–83話；2019冬第84–95話、春第96–102話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/9359/",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_6.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_4.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9591/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1392102444",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1392102459",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1392102701",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1456977326",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1456977327",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-go-forward-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.marv.jp/titles/av/9359/",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_6.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_4.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-op-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9359/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-go-forward-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-go-forward-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-go-forward-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01265"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1392102444"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-go-forward-song-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1392102459"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1392102459"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1392102701"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1392102701"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1392102444"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1392102444"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1456977327"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1456977327"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1456977326"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1456977326"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9359/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjss-09226"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "go Forward｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1392102459",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1392102444",
+          "recordingId": "yu-gi-oh-vrains-go-forward-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "go Forward (Inst)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1392102701",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1392102444",
+          "recordingId": "yu-gi-oh-vrains-go-forward-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "go forward(TV size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1456977327",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1456977326",
+          "recordingId": "yu-gi-oh-vrains-go-forward-song-tv"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "KIMERU",
+          "role": "lyrics"
+        },
+        {
+          "name": "Yocke",
+          "role": "composition"
+        },
+        {
+          "name": "Yocke",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-go-forward-song-vocal",
+          "title": "go forward",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-go-forward-song-tv",
+          "title": "go forward (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "yu-gi-oh-vrains-go-forward-song-instrumental",
+          "title": "go Forward (Inst)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01265",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL2",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "go forward (TV size)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-go-forward-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01265"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "go forward",
+              "position": 2,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1392102444",
+          "title": "go forward - EP",
+          "type": "ep",
+          "artistDisplayName": "KIMERU",
+          "date": {
+            "value": "2018-05-30",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "go Forward",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-go-forward-song-vocal"
+            },
+            {
+              "title": "go Forward (Inst)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-go-forward-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1456977326",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL2.1",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "go forward(TV size)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-go-forward-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "mjss-09226",
+          "title": "go forward",
+          "type": "single",
+          "artistDisplayName": "KIMERU",
+          "date": {
+            "value": "2018-05-30",
+            "precision": "day"
+          },
+          "edition": "日本Type B 藝人封面盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "go forward",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-go-forward-song-vocal"
+            }
+          ],
+          "catalogNumber": "MJSS-09226"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-op-3",
+      "songId": "yu-gi-oh-vrains-calling-song",
+      "type": "OP",
+      "sequence": 3,
+      "titleJa": "calling",
+      "artistDisplayName": "KIMERU",
+      "seasonIds": [
+        "2019-spring",
+        "2019-summer"
+      ],
+      "usageLabel": "日本TV第103–120話片頭（2019/5/22–9/25）。春為第103–107話，夏為第108–120話，包含最終話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/av/9649/",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9731/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1469849407",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1469849408",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1469849410",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1483190948",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1483190949",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7zOXmeTPjcc",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-calling-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.marv.jp/titles/av/9649/",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-op-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9649/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-calling-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-calling-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-calling-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01276"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1469849407"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-calling-song-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1469849408"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1469849408"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1469849410"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1469849410"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1469849407"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1469849407"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1483190949"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1483190949"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1483190948"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1483190948"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/av/9649/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjss-09240"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=7zOXmeTPjcc"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "7zOXmeTPjcc"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "calling｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1469849408",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1469849407",
+          "recordingId": "yu-gi-oh-vrains-calling-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "calling(Instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1469849410",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1469849407",
+          "recordingId": "yu-gi-oh-vrains-calling-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "calling (TV size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1483190949",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1483190948",
+          "recordingId": "yu-gi-oh-vrains-calling-song-tv"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "KIMERU",
+          "role": "lyrics"
+        },
+        {
+          "name": "Yocke",
+          "role": "composition"
+        },
+        {
+          "name": "Yocke",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-calling-song-vocal",
+          "title": "calling",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-calling-song-tv",
+          "title": "calling (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "yu-gi-oh-vrains-calling-song-instrumental",
+          "title": "calling(Instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01276",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL3",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2019-10-30",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "calling (TV size)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01276"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "calling",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1469849407",
+          "title": "calling【通常盤】 - EP",
+          "type": "ep",
+          "artistDisplayName": "KIMERU",
+          "date": {
+            "value": "2019-07-10",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "calling",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-vocal"
+            },
+            {
+              "title": "calling(Instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1483190948",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL3",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-10-30",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "calling (TV size)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "mjss-09240",
+          "title": "calling",
+          "type": "single",
+          "artistDisplayName": "KIMERU",
+          "date": {
+            "value": "2019-07-10",
+            "precision": "day"
+          },
+          "edition": "日本通常盤",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "calling",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-vocal"
+            },
+            {
+              "title": "calling (instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-calling-song-instrumental"
+            }
+          ],
+          "catalogNumber": "MJSS-09240"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-ed-2",
+      "songId": "yu-gi-oh-vrains-writing-life-song",
+      "type": "ED",
+      "sequence": 2,
+      "titleJa": "Writing Life",
+      "artistDisplayName": "Goodbye holiday",
+      "seasonIds": [
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第25–46話片尾（2017/11/1–2018/4/4）；2018春為4/4第46話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=m5WtrWVTiFo",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_8.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9493/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1332984536",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1332984546",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-writing-life-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.youtube.com/watch?v=m5WtrWVTiFo",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_8.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-ed-2"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-writing-life-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-writing-life-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-writing-life-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9493/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01251"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1332984546"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1332984546"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1332984536"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1332984536"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=m5WtrWVTiFo"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "m5WtrWVTiFo"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Writing Life｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1332984546",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1332984536",
+          "recordingId": "yu-gi-oh-vrains-writing-life-song-vocal"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "福山匠",
+          "role": "lyrics"
+        },
+        {
+          "name": "児玉一真",
+          "role": "composition"
+        },
+        {
+          "name": "Goodbye holiday",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-writing-life-song-vocal",
+          "title": "Writing Life",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-writing-life-song-tv",
+          "title": "Writing Life（TVサイズ）",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01251",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL1",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2018-11-28",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Writing Life（TVサイズ）",
+              "position": 30,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-writing-life-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01251"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Writing Life",
+              "position": 5,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1332984536",
+          "title": "ドッペルゲンガー",
+          "type": "album",
+          "artistDisplayName": "Goodbye holiday",
+          "date": {
+            "value": "2018-01-24",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Writing Life",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-writing-life-song-vocal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-ed-3",
+      "songId": "yu-gi-oh-vrains-boy-song",
+      "type": "ED",
+      "sequence": 3,
+      "titleJa": "BOY",
+      "artistDisplayName": "uchuu;",
+      "seasonIds": [
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第47–70話片尾（2018/4/11–9/26）。春為第47–57話，夏為第58–70話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FgoHAYDrgTY",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_6.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9591/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1367471693",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1367471696",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1438111426",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1438111428",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-boy-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.youtube.com/watch?v=FgoHAYDrgTY",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_7.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_6.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-ed-3"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-boy-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-boy-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-boy-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01265"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1367471696"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1367471696"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1367471693"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1367471693"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1438111426"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-boy-song-remix"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1438111428"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1438111428"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1438111426"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1438111426"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=FgoHAYDrgTY"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "FgoHAYDrgTY"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Boy｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1367471696",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1367471693",
+          "recordingId": "yu-gi-oh-vrains-boy-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "BOY (80KIDZ Remix)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1438111428",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1438111426",
+          "recordingId": "yu-gi-oh-vrains-boy-song-remix"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "K",
+          "role": "lyrics"
+        },
+        {
+          "name": "K",
+          "role": "composition"
+        },
+        {
+          "name": "K",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-boy-song-vocal",
+          "title": "BOY",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-boy-song-tv",
+          "title": "BOY (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "yu-gi-oh-vrains-boy-song-remix",
+          "title": "BOY (80KIDZ Remix)",
+          "kind": "remix",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01265",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL2",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "BOY (TV size)",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-boy-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01265"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "BOY",
+              "position": 6,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1367471693",
+          "title": "Boy - Single",
+          "type": "single",
+          "artistDisplayName": "uchuu;",
+          "date": {
+            "value": "2018-04-11",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Boy",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-boy-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1438111426",
+          "title": "2069 Remixes - Single",
+          "type": "single",
+          "artistDisplayName": "uchuu;",
+          "date": {
+            "value": "2018-10-12",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "BOY (80KIDZ Remix)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-boy-song-remix"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-ed-4",
+      "songId": "yu-gi-oh-vrains-glory-song",
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "glory",
+      "artistDisplayName": "BAND-MAID",
+      "seasonIds": [
+        "2018-fall",
+        "2019-winter"
+      ],
+      "usageLabel": "日本TV第71–95話片尾（2018/10/3–2019/3/27）。2018秋為第71–83話，2019冬為第84–95話。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bandmaid.tokyo/musics/6749",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_4.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9591/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1436267232",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1436267233",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TAMiLTiXPpU",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-glory-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://bandmaid.tokyo/musics/6749",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_5.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_4.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-glory-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-glory-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-glory-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9591/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01265"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1436267233"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1436267233"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1436267232"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1436267232"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://bandmaid.tokyo/musics/6749"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "crcp-10419"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=TAMiLTiXPpU"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "TAMiLTiXPpU"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "glory｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1436267233",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1436267232",
+          "recordingId": "yu-gi-oh-vrains-glory-song-vocal"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "Miku Kobato",
+          "role": "lyrics"
+        },
+        {
+          "name": "BAND-MAID",
+          "role": "composition"
+        },
+        {
+          "name": "BAND-MAID",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-glory-song-vocal",
+          "title": "glory",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-glory-song-tv",
+          "title": "glory (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01265",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL2",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2019-03-27",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "glory (TV size)",
+              "position": 30,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-glory-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01265"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "glory",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1436267232",
+          "title": "glory - Single",
+          "type": "single",
+          "artistDisplayName": "BAND-MAID",
+          "date": {
+            "value": "2018-10-04",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "glory",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-glory-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "crcp-10419",
+          "title": "glory",
+          "type": "single",
+          "artistDisplayName": "BAND-MAID",
+          "date": {
+            "value": "2019-01-16",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "glory",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-glory-song-vocal"
+            }
+          ],
+          "catalogNumber": "CRCP-10419"
+        }
+      ]
+    },
+    {
+      "id": "yu-gi-oh-vrains-ed-5",
+      "songId": "yu-gi-oh-vrains-are-you-ready-song",
+      "type": "ED",
+      "sequence": 5,
+      "titleJa": "Are you ready?",
+      "artistDisplayName": "BiS",
+      "seasonIds": [
+        "2019-spring",
+        "2019-summer"
+      ],
+      "usageLabel": "日本TV第96–119話片尾（2019/4/3–9/18）。春為第96–107話、夏為第108–119話。9/25最終話另有特別片尾。",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.marv.jp/titles/mc/9809/",
+          "label": "Marvelous 歷代片頭、片尾正式曲名、演唱及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909181825.html",
+          "label": "唱片方對應曲目或電視台當回節目表",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/",
+          "label": "テレビ東京逐話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4592",
+          "label": "逐話用曲、首末話、最終話例外與製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.marv.jp/titles/mc/9731/",
+          "label": "Marvelous 正版原聲帶TV剪輯、日期、品番與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1455482537",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1455482538",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1455482541",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1483190948",
+          "label": "Apple Music 香港專輯與曲序",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1483191247",
+          "label": "Apple Music 香港正版曲目",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wCQKAXoenBU",
+          "label": "權利方公開影片或供稿音軌及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://yugioh-starlight.com/archives/53843207.html",
+          "label": "日本原播當晚對最終回片頭及末段歌曲的即時記錄",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909251825.html",
+          "label": "テレビ東京預告節目表仍列本季常規片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.crunchyroll.com/watch/GR9VQE596/connected-world",
+          "label": "授權日語字幕版第120話節目頁",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-are-you-ready-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/23144_201909181825.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/index_2.html",
+            "https://www.tv-tokyo.co.jp/anime/yugioh-vrains/episodes/",
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-ed-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://cal.syoboi.jp/tid/4592"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-are-you-ready-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-are-you-ready-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-are-you-ready-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9731/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01276"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.marv.jp/titles/mc/9809/"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "mjsa-01282"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1455482537"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "yu-gi-oh-vrains-are-you-ready-song-instrumental"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1455482538"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455482538"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1455482541"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1455482541"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1455482537"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1455482537"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1483191247"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1483191247"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1483190948"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1483190948"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=wCQKAXoenBU"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "wCQKAXoenBU"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Are you ready?｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1455482538",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1455482537",
+          "recordingId": "yu-gi-oh-vrains-are-you-ready-song-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Are you ready?(instrumental)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1455482541",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1455482537",
+          "recordingId": "yu-gi-oh-vrains-are-you-ready-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Are you ready?(TV size)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1483191247",
+          "linkType": "direct_track",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "releaseId": "apple-hk-1483190948",
+          "recordingId": "yu-gi-oh-vrains-are-you-ready-song-tv"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "松隈ケンタ",
+          "role": "lyrics"
+        },
+        {
+          "name": "JxSxK",
+          "role": "lyrics"
+        },
+        {
+          "name": "松隈ケンタ",
+          "role": "composition"
+        },
+        {
+          "name": "Satoshi Toyosumi",
+          "role": "arrangement"
+        },
+        {
+          "name": "Ichiro Iguchi",
+          "role": "arrangement"
+        },
+        {
+          "name": "Kazuki Sato",
+          "role": "arrangement"
+        },
+        {
+          "name": "oni",
+          "role": "arrangement"
+        },
+        {
+          "name": "Kohei Abe",
+          "role": "arrangement"
+        },
+        {
+          "name": "Kotaro Nakatani",
+          "role": "arrangement"
+        },
+        {
+          "name": "Ohara just begun",
+          "role": "arrangement"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "yu-gi-oh-vrains-are-you-ready-song-vocal",
+          "title": "Are you ready?",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "yu-gi-oh-vrains-are-you-ready-song-tv",
+          "title": "Are you ready? (TV size)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "yu-gi-oh-vrains-are-you-ready-song-instrumental",
+          "title": "Are you ready?(instrumental)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "mjsa-01276",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL3",
+          "type": "soundtrack",
+          "artistDisplayName": "光宗信吉ほか",
+          "date": {
+            "value": "2019-10-30",
+            "precision": "day"
+          },
+          "edition": "日本原聲CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Are you ready? (TV size)",
+              "position": 25,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-are-you-ready-song-tv"
+            }
+          ],
+          "catalogNumber": "MJSA-01276"
+        },
+        {
+          "id": "mjsa-01282",
+          "title": "遊☆戯☆王VRAINS VOCAL BEST",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-04-08",
+            "precision": "day"
+          },
+          "edition": "日本CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Are you ready?",
+              "position": 8,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "MJSA-01282"
+        },
+        {
+          "id": "apple-hk-1455482537",
+          "title": "Are you ready?",
+          "type": "single",
+          "artistDisplayName": "BiS",
+          "date": {
+            "value": "2019-03-20",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Are you ready?",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-are-you-ready-song-vocal"
+            },
+            {
+              "title": "Are you ready?(instrumental)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-are-you-ready-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1483190948",
+          "title": "遊☆戯☆王VRAINS SOUND DUEL3",
+          "type": "soundtrack",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2019-10-30",
+            "precision": "day"
+          },
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Are you ready?(TV size)",
+              "position": 25,
+              "disc": 1,
+              "recordingId": "yu-gi-oh-vrains-are-you-ready-song-tv"
+            }
+          ]
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "第 120 話電視台節目表沿列常規片尾〈Are you ready?〉，播出當晚記錄及逐話資料指向〈With The Wind〉。",
+          "resumeWhen": "取得日本原播完整片尾、權利方逐話曲表或可定位的授權日語版掛字，再登錄終話用曲與剪輯。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    }
+  ]
+},
   ...curated2019SummerSeedRows.map(summer2019Seed),
 ];
 

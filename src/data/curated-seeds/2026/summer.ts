@@ -27432,7 +27432,11 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "2026-fall",
     "2026-spring",
     "2026-winter",
-    "2020-fall"
+    "2020-fall",
+    "2019-winter",
+    "2019-spring",
+    "2019-summer",
+    "2019-fall"
   ],
   "verifiedAt": "2026-10-19",
   "metadataVerifiedAt": "2026-10-19",
@@ -33169,6 +33173,1230 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           ]
         }
       ]
+    },
+    {
+      "type": "OP",
+      "sequence": 49,
+      "id": "meitantei-conan-op-49",
+      "titleJa": "薔薇色の人生",
+      "artistDisplayName": "倉木麻衣",
+      "songId": "meitantei-conan-op-49-song",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+          "label": "作品方、藝人或電視台的主題曲與演唱名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24",
+          "label": "按原播話數核對用途與換曲",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190105.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190112.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190323.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190413.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190511.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8",
+          "label": "柯南百科原播集數、例外與歌曲署名",
+          "language": "zh-Hans",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24/ep/927",
+          "label": "第 927 話無片頭及片尾署名紀錄",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1553012716",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553012721",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "薔薇色の人生｜きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553012721",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1553012716",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24",
+            "https://www.ytv.co.jp/conan/archive/k20190105.html",
+            "https://www.ytv.co.jp/conan/archive/k20190112.html",
+            "https://www.ytv.co.jp/conan/archive/k20190323.html",
+            "https://www.ytv.co.jp/conan/archive/k20190413.html",
+            "https://www.ytv.co.jp/conan/archive/k20190511.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-49"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-49-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.ytv.co.jp/conan/archive/k20190105.html",
+            "https://www.mau2.com/anime/meitanteiconan-24/ep/927"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-49"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1553012716",
+            "https://music.apple.com/hk/song/1553012721"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1553012716"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553012721"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1553012721"
+        }
+      ],
+      "sourceMode": "explicit",
+      "usageLabel": "日本原播第 928–935 話（冬）、936–940 話（春）片頭。1/5 第 927 話〈鮮紅編〉省略片頭，同曲移至片尾；1/12 第 928 話〈恋紅編〉才作片頭。",
+      "seasonIds": [
+        "2019-winter",
+        "2019-spring"
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "lyrics",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "composition",
+          "name": "徳永暁人"
+        },
+        {
+          "role": "arrangement",
+          "name": "徳永暁人"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1553012716",
+          "title": "きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single",
+          "type": "single",
+          "artistDisplayName": "倉木麻衣",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "薔薇色の人生",
+              "position": 2
+            }
+          ],
+          "date": {
+            "value": "2019-03-20",
+            "precision": "day"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 59,
+      "id": "meitantei-conan-ed-59",
+      "titleJa": "きみと恋のままで終われない いつも夢のままじゃいられない",
+      "artistDisplayName": "倉木麻衣",
+      "songId": "meitantei-conan-ed-59-song",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+          "label": "作品方、藝人或電視台的主題曲與演唱名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24",
+          "label": "按原播話數核對用途與換曲",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190112.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190323.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190413.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190629.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190713.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190817.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8",
+          "label": "柯南百科原播集數、例外與歌曲署名",
+          "language": "zh-Hans",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1553012716",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553012720",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1714407633",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1714407645",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "きみと恋のままで終われない いつも夢のままじゃいられない｜きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553012720",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1553012716",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "きみと恋のままで終われない いつも夢のままじゃいられない～Tiny Voice Remix～｜きみと恋のままで終われない いつも夢のままじゃいられない / 薔薇色の人生 - Single｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1714407645",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1714407633",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "meitantei-conan-ed-59-song-apple-1714407645"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24",
+            "https://www.ytv.co.jp/conan/archive/k20190112.html",
+            "https://www.ytv.co.jp/conan/archive/k20190323.html",
+            "https://www.ytv.co.jp/conan/archive/k20190413.html",
+            "https://www.ytv.co.jp/conan/archive/k20190629.html",
+            "https://www.ytv.co.jp/conan/archive/k20190713.html",
+            "https://www.ytv.co.jp/conan/archive/k20190817.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-59"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-59-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1553012716",
+            "https://music.apple.com/hk/song/1553012720"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1553012716"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553012720"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1553012720"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1714407645",
+            "https://music.apple.com/hk/album/1714407633"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-59-song-apple-1714407645"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1714407633",
+            "https://music.apple.com/hk/song/1714407645"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1714407633"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1714407645"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1714407645"
+        }
+      ],
+      "sourceMode": "explicit",
+      "usageLabel": "日本原播第 928–935 話（冬）、936–945 話（春）、946–951 話（夏）片尾。第 928 話為一小時特別篇〈恋紅編〉。",
+      "seasonIds": [
+        "2019-winter",
+        "2019-spring",
+        "2019-summer"
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "lyrics",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "composition",
+          "name": "中村泰輔"
+        },
+        {
+          "role": "arrangement",
+          "name": "中村泰輔"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "basic_evidence"
+          ],
+          "note": "有逐話資料另列第 928 話劇中使用；目前可確認片尾署名。",
+          "resumeWhen": "取得第 928 話可辨識場景，對照劇中開始的位置、片尾掛字及連續音軌，再判定獨立插曲。",
+          "checkedAt": "2026-11-19"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1553012716",
+          "title": "きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single",
+          "type": "single",
+          "artistDisplayName": "倉木麻衣",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "きみと恋のままで終われない いつも夢のままじゃいられない",
+              "position": 1
+            }
+          ],
+          "date": {
+            "value": "2019-03-20",
+            "precision": "day"
+          }
+        },
+        {
+          "id": "apple-hk-1714407633",
+          "title": "きみと恋のままで終われない いつも夢のままじゃいられない / 薔薇色の人生 - Single",
+          "type": "single",
+          "artistDisplayName": "倉木麻衣",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "きみと恋のままで終われない いつも夢のままじゃいられない～Tiny Voice Remix～",
+              "position": 3,
+              "recordingId": "meitantei-conan-ed-59-song-apple-1714407645"
+            }
+          ],
+          "date": {
+            "value": "2019-03-20",
+            "precision": "day"
+          }
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-59-song-apple-1714407645",
+          "title": "きみと恋のままで終われない いつも夢のままじゃいられない～Tiny Voice Remix～",
+          "format": "unknown",
+          "kind": "remix"
+        }
+      ]
+    },
+    {
+      "type": "OP",
+      "sequence": 50,
+      "id": "meitantei-conan-op-50",
+      "titleJa": "ANSWER",
+      "artistDisplayName": "Only this time",
+      "songId": "meitantei-conan-op-50-song",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=EO8iX02fsKI",
+          "label": "作品方、藝人或電視台的主題曲與演唱名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24",
+          "label": "按原播話數核對用途與換曲",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190601.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190629.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190713.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190928.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20191012.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20191221.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1466918784",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1466918997",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "ANSWER｜ANSWER - EP｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1466918997",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1466918784",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EO8iX02fsKI",
+            "https://www.mau2.com/anime/meitanteiconan-24",
+            "https://www.ytv.co.jp/conan/archive/k20190601.html",
+            "https://www.ytv.co.jp/conan/archive/k20190629.html",
+            "https://www.ytv.co.jp/conan/archive/k20190713.html",
+            "https://www.ytv.co.jp/conan/archive/k20190928.html",
+            "https://www.ytv.co.jp/conan/archive/k20191012.html",
+            "https://www.ytv.co.jp/conan/archive/k20191221.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-50"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EO8iX02fsKI",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-50-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EO8iX02fsKI"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1466918784",
+            "https://music.apple.com/hk/song/1466918997"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1466918784"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1466918997"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1466918997"
+        }
+      ],
+      "sourceMode": "explicit",
+      "usageLabel": "日本原播第 941–945 話（春）、946–955 話（夏）、956–964 話（秋）片頭。6/1 第 941 話啟用，12/21 第 964 話為當年最後一集新作。",
+      "seasonIds": [
+        "2019-spring",
+        "2019-summer",
+        "2019-fall"
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "Only this time"
+        },
+        {
+          "role": "lyrics",
+          "name": "宮川大聖"
+        },
+        {
+          "role": "composition",
+          "name": "宮川大聖"
+        },
+        {
+          "role": "arrangement",
+          "name": "Nob"
+        },
+        {
+          "name": "宮川大聖",
+          "role": "group_member",
+          "groupName": "Only this time"
+        },
+        {
+          "name": "焚吐",
+          "role": "group_member",
+          "groupName": "Only this time"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1466918784",
+          "title": "ANSWER - EP",
+          "type": "ep",
+          "artistDisplayName": "Only this time",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "ANSWER",
+              "position": 1
+            }
+          ],
+          "date": {
+            "value": "2019-07-03",
+            "precision": "day"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 60,
+      "id": "meitantei-conan-ed-60",
+      "titleJa": "Sissy Sky",
+      "artistDisplayName": "宮川愛李",
+      "songId": "meitantei-conan-ed-60-song",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=P84FGrLJdJM",
+          "label": "作品方、藝人或電視台的主題曲與演唱名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24",
+          "label": "按原播話數核對用途與換曲",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190831.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190928.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20191012.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20191221.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20191228.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y-qah_IlD4c",
+          "label": "宮川愛李官方音源簡介、創作署名及 TV_Edit 伴奏",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1482879659",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1482879660",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Sissy Sky｜Sissy Sky - Single｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1482879660",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1482879659",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=P84FGrLJdJM",
+            "https://www.mau2.com/anime/meitanteiconan-24",
+            "https://www.ytv.co.jp/conan/archive/k20190831.html",
+            "https://www.ytv.co.jp/conan/archive/k20190928.html",
+            "https://www.ytv.co.jp/conan/archive/k20191012.html",
+            "https://www.ytv.co.jp/conan/archive/k20191221.html",
+            "https://www.ytv.co.jp/conan/archive/k20191228.html"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-60"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=P84FGrLJdJM",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-60-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Y-qah_IlD4c"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1482879659",
+            "https://music.apple.com/hk/song/1482879660"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1482879659"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1482879660"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1482879660"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=P84FGrLJdJM"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-60-song-conan-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=P84FGrLJdJM"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "airi-sissy-sky-conan-20191106"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Y-qah_IlD4c"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ed-60-song-tv-edit-instrumental"
+        }
+      ],
+      "sourceMode": "explicit",
+      "usageLabel": "日本原播第 952–955 話（夏）、956–964 話（秋）片尾。8/31 第 952 話啟用；12/28 播出數位修復版舊集。",
+      "seasonIds": [
+        "2019-summer",
+        "2019-fall"
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "宮川愛李"
+        },
+        {
+          "role": "lyrics",
+          "name": "aireen"
+        },
+        {
+          "role": "composition",
+          "name": "秋浦智裕"
+        },
+        {
+          "role": "arrangement",
+          "name": "秋浦智裕"
+        },
+        {
+          "role": "arrangement",
+          "name": "宮崎裕介"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1482879659",
+          "title": "Sissy Sky - Single",
+          "type": "single",
+          "artistDisplayName": "宮川愛李",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Sissy Sky",
+              "position": 1
+            }
+          ],
+          "date": {
+            "value": "2019-11-06",
+            "precision": "day"
+          }
+        },
+        {
+          "id": "airi-sissy-sky-conan-20191106",
+          "title": "Sissy Sky",
+          "type": "single",
+          "artistDisplayName": "宮川愛李",
+          "edition": "日本名偵探柯南盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Sissy Sky",
+              "position": 1
+            },
+            {
+              "title": "Sissy Sky（TV_Edit）",
+              "position": 3,
+              "recordingId": "meitantei-conan-ed-60-song-conan-tv-edit"
+            }
+          ],
+          "date": {
+            "value": "2019-11-06",
+            "precision": "day"
+          }
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-60-song-conan-tv-edit",
+          "title": "Sissy Sky（TV_Edit）",
+          "format": "tv",
+          "kind": "vocal"
+        },
+        {
+          "id": "meitantei-conan-ed-60-song-tv-edit-instrumental",
+          "title": "Sissy Sky（TV_Edit Instrumental）",
+          "format": "tv",
+          "kind": "instrumental"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "sequence": 77,
+      "id": "meitantei-conan-ep-927-special-ed",
+      "titleJa": "薔薇色の人生",
+      "artistDisplayName": "倉木麻衣",
+      "songId": "meitantei-conan-op-49-song",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+          "label": "作品方、藝人或電視台的主題曲與演唱名義",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24",
+          "label": "按原播話數核對用途與換曲",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20190105.html",
+          "label": "日本電視台原播分集及日期",
+          "language": "ja",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8",
+          "label": "柯南百科原播集數、例外與歌曲署名",
+          "language": "zh-Hans",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-24/ep/927",
+          "label": "第 927 話無片頭及片尾署名紀錄",
+          "language": "ja",
+          "role": "cross_check",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1553012716",
+          "label": "Apple Music 香港區數位版、曲序與發行日",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1553012721",
+          "label": "Apple Music 香港區曲目與版本標示",
+          "language": "zh-Hant",
+          "role": "first_party",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "薔薇色の人生｜きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1553012721",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1553012716",
+          "region": "HK",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-op-49-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.conanpedia.com/%E5%90%88%E4%BD%9C%E6%9B%B2%E6%80%BB%E8%A1%A8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "edition",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1553012716",
+            "https://music.apple.com/hk/song/1553012721"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "apple-hk-1553012716"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1553012721"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "https://music.apple.com/hk/song/1553012721"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/conan/archive/k20190105.html",
+            "https://www.ytv.co.jp/topics/conan/o24yeqcpp7dnu1nd.html",
+            "https://www.mau2.com/anime/meitanteiconan-24/ep/927",
+            "https://www.mau2.com/anime/meitanteiconan-24"
+          ],
+          "verifiedAt": "2026-11-19",
+          "targetId": "meitantei-conan-ep-927-special-ed"
+        }
+      ],
+      "sourceMode": "explicit",
+      "usageLabel": "第 927 話〈紅の修学旅行（鮮紅編）〉於 2019/1/5 原播，省略片頭，〈薔薇色の人生〉改在片尾播放。77 為目錄內的特殊用途索引；作品方將此曲列作特別篇片頭主題曲。",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "lyrics",
+          "name": "倉木麻衣"
+        },
+        {
+          "role": "composition",
+          "name": "徳永暁人"
+        },
+        {
+          "role": "arrangement",
+          "name": "徳永暁人"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1553012716",
+          "title": "きみと恋のままで終われない いつも夢のままじゃいられない/薔薇色の人生【名探偵コナン盤】 - Single",
+          "type": "single",
+          "artistDisplayName": "倉木麻衣",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "薔薇色の人生",
+              "position": 2
+            }
+          ],
+          "date": {
+            "value": "2019-03-20",
+            "precision": "day"
+          }
+        }
+      ],
+      "versionLabel": "第 927 話特別片尾"
     }
   ]
 }
