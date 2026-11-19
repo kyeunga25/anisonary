@@ -8,16 +8,16 @@
 
 | 項目 | 目前狀態 |
 | --- | --- |
-| 長期目標 | 收集近二十年的動畫歌曲、創作團隊、音源版本、來源、官方影片、收錄發行品與正版平台資訊 |
-| 固定範圍 | 2007–2026；非成人 TV／WEB 的 OP／ED，已確認插曲一併記錄；公開資料截止日 2026-10-14。長期目標未完成 |
-| 本次資料任務 | 2020–2026標準季度TV的動畫及歌曲基本資料優先，按2026 → 2020、各年秋 → 夏 → 春 → 冬補漏。先處理可快速核實的原名、季度／首播、演唱名義、OP／ED用途及來源；創作、影片、音源、發行品及平台集中深化留待下一階段。約24分鐘、常見12／24集，13／26集及同類續播納入；長篇以2020–2026的TV用曲季度盤點，不以作品首播年自動排除；短WEB、泡麵番、短篇TV及特殊番延後，既有成果保留 |
-| 本輪目標 | 核對2020冬標準TV名冊及跨季、特殊話用曲。整體以2007–2026逐季對帳、解決必要缺口並驗收正式站頁面與公開JSON為完成條件；資料截止2026-10-14。 |
-| 下批位置 | 第577批續查2020冬名冊中的《Rainbow Rangers》第2季，核2019秋起美國 Nick Jr. 首播組、2020冬至2021冬播出跨度、原英語首尾、特別話首發渠道及香港名義。第576批本機驗收《Agent Binky: Pets of the Universe》第1季3筆用途。 |
+| 長期目標 | 匯集日本 TV 動畫歌曲的實際用途、演唱與創作者、來源、音源版本、官方影片、發行品及各地區正版串流曲目。 |
+| 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
+| 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
+| 本輪目標 | 從目錄、季度、歌曲資料與公開索引移除誤收作品，保留有來源支持的日本合製及其海外授權音源。 |
+| 下批位置 | 核對 2020 冬日本電視與配信編排。續補《瓢蟲少女》第三季 2020 春夏的新話，並逐項核實串流先行作品的日本 TV 版用曲。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 執行中（2026-11-19接續）。第519–528批已正式驗收並發布。第529–576批各批本機驗收完成，固定集合正準備集中發布。以第528批正式基線逐一比對公開用途欄位，60部作品共457個有實質差異的用途（402新增、55更新）。歷史逐批累計保留作當批紀錄；集中發布門檻以固定快照的不同用途ID為準。第577批起另行接續2020冬名冊。 |
-| 接續位置 | 正式基線 `b26895d9c87cf325642ff455815e812a5e3aec87`／[`batch528-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch528-basics)。 |
-| 發布提交 | 第519–528批正式 Workers 版本 `1c18168b-e23c-43ce-807b-01250ef9b505`。42部作品、225個實質用途（135新增、90更新）。正式核對2,114份JSON、119頁HTML、225個錨點、42個作品搜尋與手機鍵盤海報牆入口、31個季度搜尋、公開API契約重建及YouTube同意流程。 |
-| 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240` |
+| 執行狀態 | 進行製作地及歌曲用途複核。第 519–528、529–576 批曾發布，第 577–580 批從未發布。正式基線的 50 部境外製作與 379 個歌曲用途已從本機資料移除，另清理 4 部未發布作品及 17 個用途。 |
+| 接續位置 | 正式基線 `bdca2f7f874c4c42aa95494b19bd4dd5ffbd69f7`／[`batch576-basics`](https://github.com/kyeunga25/anisonary/releases/tag/batch576-basics)。 |
+| 發布提交 | 第529–576批 [PR #309](https://github.com/kyeunga25/anisonary/pull/309) 固定候選 `63becb0`，正式 Workers 版本 `3a6b59a9-3382-4b63-ba7a-7459dd33b25c`。60部作品、457個實質用途（402新增、55更新）。正式核對2,164份JSON、150頁HTML、457個錨點、67個手機鍵盤海報牆入口、60個作品搜尋及18個季度搜尋。4,488個正式CI產物與預覽相同，公開API重建逐檔相同。 |
+| 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
 執行狀態使用「未開始／執行中／已暫停／已完成／已取消」；無法繼續時另記具體阻礙及仍未完成部分，不自動標記完成。長期目標與本次工作量分開，未指定本次工作量時先完成下一批。
@@ -3744,22 +3744,17 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 | `sora-wa-akai-kawa-no-hotori-ed-2` | flow feat. 安藤裕子／Ryu Matsuyama／ED2 | [官方](https://www.vap.co.jp/sorahaakaikawanohotori/music/) |
 | `tensei-goblin-dakedo-shitsumon-aru-op-1` | ハロー／Sou／OP1 | [官方](https://tengobu-anime.com/music/op.html) |
 | `tensei-goblin-dakedo-shitsumon-aru-ed-1` | 小さな僕ら／エイハブ／ED1 | [官方](https://tengobu-anime.com/music/ed.html) |
-| `shikin-neko-keibishitsu-op-1` | Truly／安月名莉子／OP1 | [官方](https://nekokeibishitsu-anime.com/music/) |
-| `shikin-neko-keibishitsu-ed-1` | Chill Choose!／安月名莉子／ED1 | [官方](https://nekokeibishitsu-anime.com/music/) |
 | `aoki-denshou-welsh-and-shedar-ts-1` | 僕らの未来へ／影山ヒロノブ＆奥井雅美／TS1 | [官方](https://welshandshedar-anime.com/) |
 | `aoki-denshou-welsh-and-shedar-ed-1` | オムレツ／影山ヒロノブ／ED1 | [官方](https://welshandshedar-anime.com/) |
-| `dreamland-op-1` | movin'on／Faulieu.／OP1 | [官方](https://www.dreamland-anime.com/) |
-| `dreamland-ed-1` | dream catcher／冨岡 愛／ED1 | [官方](https://www.dreamland-anime.com/) |
 
-- 已處理anime ID：`curated-206523`、`curated-207809`、`curated-209219`、`curated-166443`、`curated-216895`、`curated-bgm-559080`、`curated-188034`、`curated-203473`。新增6部作品、8筆用途（7 OP／ED、1 TS）；アイプリ2筆後期曲改掛秋季，天は赤い河4筆保留原欄位並補明確續查狀態。8筆既有用途的歌曲核心、名單、影片、音源與收錄未變。
+- 已處理anime ID：`curated-206523`、`curated-207809`、`curated-209219`、`curated-216895`、`curated-188034`、`curated-203473`。其中四部新增，共4筆新增用途（3 OP／ED、1 TS）。アイプリ2筆後期曲改掛秋季，天は赤い河4筆保留原欄位並補明確續查狀態。8筆既有用途的歌曲核心、名單、影片、音源與收錄未變。
 - 全目錄30季、2,043部、4,531用途（4,483 OP／ED、38 IN、10 TS）；所有用途保留逐筆資料狀態，286筆具基本三欄第一方／交叉欄位證據、4,245筆保留來源待細分引用。新曲同頁已列的18項詞／曲／編角色一併保存；沒有新增音源、影片metadata、發行品或確切平台項目。sabio/高村風太按官方同一署名字串保存，不推定為兩人。
-- 転生ゴブリン與紫禁的外部資料庫分類為ONA，但已核實官方一般長度TV播出，故納入本階段；不以單一format欄位排除TV。紫禁保存日本TV首回10月10日第1–4話連播與10月14日起每週三時段，未混用2025原作網播日期或初回特別編排。Welsh單集23／24分鐘由正版Hulu／U-NEXT支持，未因21:25開播便推定短篇。
-- dreamland歌曲與TV預定在9月18日／8月28日已公告，保存截止日當時的待播出狀態及10月17日26:00（實際10月18日）時刻；沒有收錄10月18日新公開NCOP或把截止日後資料當本次成果。官方播出圖僅供讀取核對，不託管或加入repository；正式繁中名稱、圖像、個別演唱與詳細發行未知者留空。
+- 転生ゴブリン的原始資料庫分類為ONA，官方有標準長度TV播出記錄。Welsh單集23／24分鐘由正版Hulu／U-NEXT支持。
 
 ### 可接續狀態與獨立身分
 
 - `pending_verification`明確表示已確認動畫／TV資料、歌曲身分或用途證據仍待補，不等同未公告或不設OP／ED。ガルパンもっとらぶらぶ及恐怖コレクター先各建立動畫頁，themes為空，未生成候選曲名或虛增歌曲分母；季度既有「其他已收錄動畫」分區可進入查看來源與狀態。
-- 獨立catalog authoring支援已核對的Bangumi身分，dreamland使用`curated-bgm-559080`與原source URL；本機索引鍵不輸出為外部provider ID，也不生成AniList連結。既有AniList seed型別與歷史生成器保持原契約，只在aggregate／新季度接受相容聯集，沒有搬移或重寫全部歷史seed。公開JSON沿用既有bangumiUrl；狀態enum增加待核對選項，parser仍拒絕狀態與曲目數矛盾。
+- 獨立catalog authoring支援已核對的Bangumi身分。本機索引鍵不輸出為外部provider ID，也不生成AniList連結。既有AniList seed型別與歷史生成器保持原契約，只在aggregate／新季度接受相容聯集，沒有搬移或重寫全部歷史seed。公開JSON沿用既有bangumiUrl；狀態enum增加待核對選項，parser仍拒絕狀態與曲目數矛盾。
 - 2,035部非本批動畫JSON逐項SHA-256不變。差異檢查攔下アイプリ兩筆第一季度曲的來源繼承日期被推高，改為重用原有明列來源與原日期，只更新本次實際查閱的staff來源。未重查歌曲來源與動畫識別／圖像日期均保留；天は赤い河僅增加followUp，不將未讀到內容的官方頁記作重新核對。
 
 ### 未解缺口與續查條件
@@ -3778,7 +3773,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - Cloudflare最終產物dry-run exit0且有成功marker、無bindings；公開邊界245個repository檔案、7個相對文件連結、diff格式及新增行私隱／credential檢查全部通過。依賴與Cloudflare設定未變。臨時工具、來源筆記、公開播出圖、log及測試產物留在repository外。
 - 正式發布待固定PR head、CI／Workers、正常合併、實際部署與獨立live驗收；目前production為第43批`10f1185`／`batch43-basics`。
 
-預覽入口：`/seasons/2026-fall/`、`/anime/dreamland/`、`/anime/shikin-neko-keibishitsu/`、`/anime/girls-und-panzer-motto-love-love-sakusen-desu/`。下一批2026秋分類收尾與2026夏TV聯集；基本階段及長期目標未完成。
+預覽入口：`/seasons/2026-fall/`、`/anime/girls-und-panzer-motto-love-love-sakusen-desu/`。下一批2026秋分類收尾與2026夏TV聯集；基本階段及長期目標未完成。
 
 ### 第44批正式發布驗收
 
@@ -3786,7 +3781,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 
 67個正式入口與本機建置產物SHA-256一致，包含30季度HTML、8部處理作品HTML與JSON；2條不存在route正確404，安全標頭與API noindex／revalidation／無CORS通過。8部16筆用途以實際ApiProvider讀取正式API，兩部空曲目與獨立provider身分均通過深層契約；沒有重新取回全目錄API。
 
-正式季度128筆用途／63部有歌作品，另2部待核對作品，每頁24列共6頁。dreamland頁面保留截止日當時的待播出標示與Bangumi連結，沒有偽造AniList；展開歌曲可見逐欄位狀態及待補索引。393像素手機內容寬393、0影片iframe；空曲目作品顯示「歌曲用途待核對」，不產生候選歌曲列。未聲稱實際播放或地區可用性。
+正式季度128筆用途／63部有歌作品，另2部待核對作品，每頁24列共6頁。展開歌曲可見逐欄位狀態及待補索引。393像素手機內容寬393、0影片iframe；空曲目作品顯示「歌曲用途待核對」，不產生候選歌曲列。未聲稱實際播放或地區可用性。
 
 第45批執行中：固定2020–2026標準TV基本資料優先、2007–2026長期範圍及2026-10-14截止日不變。先有界收尾秋季剩餘分類，再對照2026夏既有52條TV身分及中文季度清單；已完成兩輪的歌曲缺口只按原續查條件重啟。第44批詳細缺口及各季度未閉合範圍保留，基本階段與長期目標均未完成。
 
@@ -3822,10 +3817,8 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 | `kuroneko-to-majo-no-kyoushitsu-ed-2` | Twilight Magic／中川翔子 | ED2 |
 | `mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-op-1` | Windmaker／花耶 | OP1 |
 | `mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-ed-1` | アンノウンミー／ウタヒメドリーム オールスターズ | ED1 |
-| `tomb-raider-king-op-1` | SHOW DOWN／QWER | OP1 |
-| `tomb-raider-king-ed-1` | To Be Continued／QWER | ED1 |
 
-- 已處理anime ID：`curated-182205`、`curated-171110`、`curated-195600`、`curated-197754`、`curated-196974`、`curated-196219`、`curated-184356`、`curated-annict-17136`。新增《盗掘王》兩首QWER主題曲及《百妖譜 第３期京師篇》日本TV版作品資料；後者歌曲仍待核對，沒有直接挪用原版或其他季歌曲。
+- 已處理anime ID：`curated-182205`、`curated-171110`、`curated-195600`、`curated-197754`、`curated-196974`、`curated-196219`。
 - 轉生史萊姆、黄泉、本好き、黒猫、LIAR GAME共10筆第二季度用途改掛夏季；第一季度曲與原有插曲歸屬保留。無自覺聖女兩筆補夏季續播關聯，保留6月30日AT-X的春末TV首播與7月7日TOKYO MX地上波開播差別。夏季現有77部156筆用途（155 OP／ED、1 IN），春季165 OP／ED；跨季用途不可加成唯一歌曲數。
 - 全目錄30季、2,045部、4,533用途（4,485 OP／ED、38 IN、10 TS），全部用途保留`dataStatus`；288筆具基本三欄第一方／交叉欄位證據，4,245筆保留來源待細分引用。沒有新增音源、影片metadata、收錄發行品、創作角色或確切平台項目；既有23筆歌曲核心與詳細實體完整保留。
 - 2,037部非本批動畫JSON逐項SHA-256不變。舊歌曲改用明列來源保留原始核對日期，只更新15組實際查閱的歌曲來源日期；動畫來源僅更新6個已查作品狀態識別及兩個已讀TV官網，其餘原日期保留。7部的來源狀態及已完結日期均早於截止日，沒有將截止日後完結倒填；LIAR GAME保留節目表4月6日24:00與實際4月7日首播。
@@ -3833,21 +3826,19 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 ### 已用證據與可接續缺口
 
 - 第二季度身分及TV資訊重用已存有效證據，並核對[史萊姆官方第二弾](https://www.ten-sura.com/news/anime/tensura/news/post/11535)、[黄泉第二季度music](https://yominotsugai.com/music/cour2.html)、[本好き7月11日第二季度公告](https://booklove-anime.jp/news/contents/article_l7ubdnsug5fqy5l5.html)、[黒猫官網](https://witch-classroom.com/)、[LIAR GAME music](https://www.liargame-anime.com/music/)與[無自覺聖女官網](https://mujikaku-seijo.com/)。同頁可支持的多項基本事實一起保存，沒有為詳細欄位重跑所有來源。
-- 《盗掘王》[官方music](https://tombraiderking-pr.com/music/index.html)與[中文歌曲交叉索引](https://youranimes.tw/animes/6416)確認SHOW DOWN／To Be Continued及QWER；[富士電視台公告](https://www.fujitv.co.jp/fujitv/news/20260595.html)明列常態25:15與首回25:20。作品為23分鐘、12話的一般TV；單一資料庫的季度查詢未列出此作，不能以該結果作完整分母。
-- 《百妖譜》第三期的[第一方TV頁](https://b8station.tv/hyakuyoufu/)及[Annict作品識別](https://annict.com/works/17136)已確認；使用穩定Annict公開識別與獨立本機鍵，不生成不存在的AniList連結。歌曲經兩輪定向查找，尚缺日本TV版明確第一方OP／ED曲名、演唱及對應證據；維持`pending_verification`，待官方音樂／商品公告或可讀正片credit再補。
 - 史萊姆〈絵空事〉新增[官方第一弾OP／ED公告](https://www.ten-sura.com/news/anime/tensura/news/post/11265)，支持原用途及春季關聯。〈Walk on your way〉保留原IN ID及春季歸屬，具體使用集數／跨季範圍仍待確認；`followUp`明列不能只由配信日推定，官方集數用曲或正片credit可核對時再補。沒有把新影片、single或album當作新歌。
-- 秋季144個Annict身分與既有中文／TV索引完成有界差異對照，包含劇場、短篇、WEB及特殊編排，不作TV分母。無脳魔女原作短篇及其TV合編、已證實劇場作品與短WEB延後；其他未閉合分類與第44批既有必需缺口保留，不宣稱秋季全收齊。
-- 夏季52條TV身分已全部對到季度，另有資料庫季別未列的作品與長篇續播；中文81個新作身分已對照，已讀續播名單的MAO、神の雫、入間等接第46批。百妖譜、ガルパン、恐怖コレクター及天は赤い河各按既有觸發條件續補；本好きTV完結日落在10月3日，最終回實際用曲與秋季用途仍未獨立確認，不自動跨掛。
+- 秋季144個Annict身分與既有中文／TV索引完成有界差異對照，包含劇場、短篇、WEB及特殊編排，不作TV分母。已證實劇場作品與短WEB延後；其他未閉合分類與第44批既有必需缺口保留，不宣稱秋季全收齊。
+- 夏季52條TV身分已全部對到季度，另有資料庫季別未列的作品與長篇續播；中文81個新作身分已對照，已讀續播名單的MAO、神の雫、入間等接第46批。ガルパン、恐怖コレクター及天は赤い河各按既有觸發條件續補；本好きTV完結日落在10月3日，最終回實際用曲與秋季用途仍未獨立確認，不自動跨掛。
 - 詳細核心夏季103／155、春季126／165，數量變化來自用途季度調整與既有完整資料，沒有把缺少詳細資料當成基本資料失敗。2025夏15、春113、冬133筆既有OP／ED未逐批核對；2024–2020逐批盤點尚未開始。
 
 ### 本機檢查與展示
 
 - 最終`npm test`4檔／8項、`npm run build`2,091 HTML／4,180公開產物通過，Astro無errors／warnings／hints；8部25筆與1部待核對空曲目通過實際ApiProvider。首次目錄測試攔下〈絵空事〉缺少明列用途證據；補入實際查閱的官方公告後通過，沒有修改正常parser或降低測試條件。
 - 季度頁把日期標籤改為「季度索引快照」，歌曲核對日期見詳情；舊季度來源日期保持不變，不讓局部更新變成整季來源重核。隔離版本的6條E2E完整通過（21.0秒），發布使用同一tree的獨立dist。首次隔離埠環境未同步，設定一致後完整通過；測試斷言與產品程式未為該環境問題修改。
-- in-app Chromium：8部393×852逐頁展開，25筆用途及25組狀態存在，內容寬393、0影片iframe；百妖譜空曲目顯示「歌曲用途待核對」。桌面夏季156筆／77部，每頁24列共7頁；搜尋Power of Love篩成1筆，點入同頁看到全部4首與春夏各自用途。未知欄位留空，沒有宣稱實際播放或地區可用性。
+- in-app Chromium：8部393×852逐頁展開，25筆用途及25組狀態存在，內容寬393、0影片iframe。桌面夏季156筆／77部，每頁24列共7頁；搜尋Power of Love篩成1筆，點入同頁看到全部4首與春夏各自用途。未知欄位留空，沒有宣稱實際播放或地區可用性。
 - Cloudflare最終產物dry-run exit0且有完成marker、無bindings。公開邊界245個repository檔案、2個相對文件連結、diff格式及新增行私隱／credential檢查全部通過；臨時身分盤點、工具、來源筆記、log及測試產物均在repository之外。發布範圍在隔離worktree驗證，主工作目錄另行修改的建置流程、設定與文件沒有混入。正式發布待固定head完整CI、正常合併、實際部署及獨立live驗收，目前production仍為第44批`992b4d5`／`batch44-basics`。
 
-預覽入口：`/seasons/2026-summer/`、`/anime/tomb-raider-king/`、`/anime/hyakuyoufu-3rd-season-keishi-hen/`、`/anime/honzuki-no-gekokujou-ryoushu-no-youjo/`。下一批2026夏剩餘標準TV續播／輪替與較舊季度聯集；基本階段及長期目標均未完成。
+預覽入口：`/seasons/2026-summer/`、`/anime/honzuki-no-gekokujou-ryoushu-no-youjo/`。下一批2026夏剩餘標準TV續播／輪替與較舊季度聯集；基本階段及長期目標均未完成。
 
 
 ### 第45批正式發布驗收
@@ -3856,7 +3847,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 
 69個正式入口與建置產物SHA-256一致，包含30季度HTML、夏／春季度API及8部處理作品HTML／JSON；2條不存在route正確404，安全標頭、API noindex／revalidation／無CORS通過。8部25筆用途以實際ApiProvider讀取正式API並通過深層契約，沒有重新取回全目錄API。
 
-正式夏季156筆用途／77部，每頁24列；日期標籤明示季度索引快照，沒有重設未查閱索引的核對日期。盗掘王頁面有兩首歌曲、第一方／交叉證據與逐欄位待補狀態；393像素手機內容寬393、0影片iframe。百妖譜日本TV版維持歌曲待核對，所有既有用途保留來源日期與詳細成果；沒有聲稱實際播放或地區可用性。
+正式夏季156筆用途／77部，每頁24列；日期標籤明示季度索引快照，沒有重設未查閱索引的核對日期。393像素手機內容寬393、0影片iframe。所有既有用途保留來源日期與詳細成果；沒有聲稱實際播放或地區可用性。
 
 第46批執行中：接續2026夏一般長度TV的續播與輪替，重用已讀MAO、神の雫、入間及アイプリ來源；長篇TV依目標年份的用曲季度補漏，作品首播年與歌曲用途季度分開。已兩輪的歌曲缺口按原條件保留，基本階段、季度完整聯集及長期目標均未完成。
 
@@ -3908,7 +3899,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 同一官方OST公告確認另有〈Answer〉插曲及第48話使用的主題旋律英語歌唱版〈Tomorrow〉／Chica；〈Answer〉的TV使用集數／季度、〈Tomorrow〉的歌曲用途分類與獨立交叉證據仍未明。本批不將它們猜掛於首播季度或當作一般OP／ED。待官方集數用曲說明、明確正片credit或可核對交叉索引後續補；主題旋律與歌唱版亦不自動合併錄音身分。
 - ONE PIECE核心由[アイナ官方single頁](https://www.ainatheend.jp/discography/detail.php?id=1021448)及[時速36km官方特設頁](https://special.36kmperhour.com/rreec/)確認，交叉歌曲歷史索引核對OP29／ED23及期間；動畫官網本次403，沒有將未讀根頁作新核對來源。ED具體首用日仍不由single或專輯發行日推定。其他2020–2025用曲尚未逐季盤點，原TV動畫頁目前只是已確認歌曲的起點，不能稱歷代歌曲全收齊。
 - 名探偵コナン[読売テレビmusic](https://www.ytv.co.jp/conan/music/)與[30周年官方project頁](https://www.ytv.co.jp/conan30/project/)確認新曲與9月26日ED啟用、原TV首播及常態時段；[新浜レオン7月官方公告](https://cdn.niihamaleon.com/info/info_856/)支持夏季OP，[中文動畫索引](https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB))及[Anison Online 2026](https://anison.online/anime/5576)交叉核對用途／序號。同頁已讀2026年初OP／ED事實可供下一批重用；2020–2025及其他輪替仍待盤點，沒有匯入劇場版或周年特殊番歌曲。
-- 既有秋季三部歌曲待核對、天は赤い河的用途季度、百妖譜日本TV版、史萊姆插曲集數及本好き10月3日最終回用曲等缺口沿用原觸發條件，不為湊齊數字重搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對；2024–2020逐批盤點未開始。短篇／WEB不阻擋標準TV推進。
+- 既有秋季三部歌曲待核對、天は赤い河的用途季度、史萊姆插曲集數及本好き10月3日最終回用曲等缺口沿用原觸發條件，不為湊齊數字重搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對；2024–2020逐批盤點未開始。短篇／WEB不阻擋標準TV推進。
 
 ### 本機檢查與展示
 
@@ -3990,7 +3981,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - コナン三曲重用第46批已讀[読売テレビ官方project](https://www.ytv.co.jp/conan30/project/)，並用[Rainy。6月官方公告](https://rainy.bzone.co.jp/info/20260606-1/)、[中文動畫歌曲索引](https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB))及[2026歌曲交叉索引](https://anison.online/anime/5576)補入；沒有為相同官方頁重搜全部舊曲。
 - [冬季中文季度清單](https://youranimes.tw/bangumi/202601)有界取得73個新列作品及26個續播身分，含劇場、特殊番、WEB及短篇，不作標準TV分母；只保存必要作品名／身分URL／時段，沒有保存使用者或觀看統計。下一批分類其中一般TV及剩餘長篇，特殊番／短篇延後。六部AniList有界資料核對TV長度、話數與播出期，未收集使用者或鏡像整個資料庫。
 - 寶可夢已讀2025年4月、2025年10月與2026年5月第一方新篇章公告、中文歌曲索引，六首新OP／ED基本身分可重用；尚未寫入公開目錄。舊18筆的季度fallback需先隔離或逐曲核對，避免一補新季度就把早期歌曲全部錯掛；原始ID與既有成果保留。特殊篇〈尤〉不冒充常態OP／ED。
-- 秋季三部歌曲待核對、天は赤い河用途季度、百妖譜日本TV版、史萊姆插曲集數、本好き10月最終回、DIGIMON〈Answer〉及〈Tomorrow〉分類／季度等沿用原觸發條件；已兩輪未明欄位沒有重新輪搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對，2024–2020逐批盤點尚未開始；基本階段與長期目標未完成。
+- 秋季三部歌曲待核對、天は赤い河用途季度、史萊姆插曲集數、本好き10月最終回、DIGIMON〈Answer〉及〈Tomorrow〉分類／季度等沿用原觸發條件；已兩輪未明欄位沒有重新輪搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對，2024–2020逐批盤點尚未開始；基本階段與長期目標未完成。
 
 ### 本機檢查與展示
 
@@ -4061,7 +4052,7 @@ GitHub open Dependabot警示增至24項，新增[source-map-js advisory](https:/
 - 寶可夢重用[2025年4月官方新章公告](https://www.pokemon.co.jp/info/2025/04/250404_a01.html)、[2025年10月電視台歌曲公告](https://www.tv-tokyo.co.jp/plus/anime/entry/202510/17610.html)、[2026年5月新章公告](https://www.pokemon.co.jp/info/2026/05/260508_a01.html)及[中文歌曲／集數交叉索引](https://zh.wikipedia.org/wiki/%E5%AF%B6%E5%8F%AF%E5%A4%A2%E5%9C%B0%E5%B9%B3%E7%B7%9A%EF%BC%9A%E7%B3%BB%E5%88%97)，不重搜六首已讀基本身分。新增[7月17日](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202607/27491_202607171855.html)、[10月9日](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/27491_202610091855.html)第一方節目表，一頁同時支持作品時段與兩首用曲。舊18筆逐曲`followUp`列出官方啟用集數／節目表／正片credit的續查條件；只新增已證實核心，不擴張角色版本／音源。
 - 芹沢暗殺編的[官方首播日](https://miburoanime.com/news/contents/article_wfkr2v5d4e5b52vc.html)、[第二期MUSIC](https://miburoanime.com/music/)、[12月20日OP／ED公告](https://miburoanime.com/news/contents/article_80t4nrrfdlleeahn.html)，搭配[Animate Times作品、歌曲及播出交叉報導](https://www.animatetimes.com/news/details.php?id=1765109763)；已讀49筆冬季有界TV身分補外部識別、長度及話數，沒有額外取得圖像或使用者資料。
 - 青のオーケストラ的[冬季第13話公告](https://aooke-anime.com/news/3125402.html)、[Season2 OP](https://aooke-anime.com/music/)及[ED](https://aooke-anime.com/music/ending.html)，沿已讀冬季中文續播身分補關聯。再放送不新增歌曲，既有詳細成果不重做。
-- 冬季サバイバル2未明對應、秋季三部歌曲待核對、天は赤い河用途季度、百妖譜日本TV版、史萊姆插曲集數、本好き最終回、DIGIMON〈Answer〉與〈Tomorrow〉分類／季度等，按原公開用途及續查條件保存；沒有因新一輪而輪流重搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對，2024–2020尚待完整盤點；長期及基本階段未完成。
+- 冬季サバイバル2未明對應、秋季三部歌曲待核對、天は赤い河用途季度、史萊姆插曲集數、本好き最終回、DIGIMON〈Answer〉與〈Tomorrow〉分類／季度等，按原公開用途及續查條件保存；沒有因新一輪而輪流重搜。2025夏15、春113、冬133筆現有OP／ED未逐批核對，2024–2020尚待完整盤點；長期及基本階段未完成。
 
 ### 本機檢查與展示
 
@@ -13236,18 +13227,9 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 第三組只補`curated-165159`的`beyblade-x-op-1`／`beyblade-x-ed-1`基本曲名／演唱逐欄引用；先重用適用來源與同頁已讀必要事實，保持既有ID、用途／季度、原合併詞曲署名與缺口。精確季度更正必須有同版第一方及交叉，不由新版OP公告移除所有舊用途。
 - 其他既有短篇／WEB、維護中來源、兩輪停查歌曲、同題Panda身分及十首新IN季度等沿原條件，無新觸發不重搜。每缺口最多兩輪，403／安全／地區／配額限制即停，不換通道。研究只存必要私有事實，主整合沿現有seed／公開JSON／詳情與矩陣驗證、備份、分類提交及推送。正常PR／必要CI／production仍受連線授權阻擋，未記發布。
 
-### 新增作品與尚未公開的歌曲
-
-新增`curated-annict-13840`／`hyakuyoufu-2nd-season`／百妖譜 第2期。原日語吹替TV版本依[官方第1／2期頁](https://b8station.tv/hyakuyoufu/index1-2.html)、[2024/8/29原播公告](https://b8station.tv/hyakuyoufu/news/240828.html)、[第2期獨立時段公告](https://b8station.tv/hyakuyoufu/news/240920.html)、[官方ONAIR](https://b8station.tv/hyakuyoufu/onair/)、[Annict同作識別](https://annict.com/works/13840)、[UZUREA同版](https://uzurea.net/vc/162787/)與[Animate Times在播報道](https://www.animatetimes.com/news/details.php?id=1730801941)核對，列2024秋。通常每週三深夜25:25–25:55，即實曆週四01:25–01:55，是同作獨立30分鐘TV槽；沒有把30分鐘當成單話淨片長。
-
-官方首回另列10/2深夜25:55放送予定，換日為10/3週四01:55；日期有同版交叉，實播分鐘尚未獨立核實。頁面與JSON標籤分列首回官方編排、通常時段及實播分鐘待核；單一時刻欄留空，不以一般01:25填首回。日語版話數僅有交叉支持，精確淨片長、播出完成狀態、繁中譯名與圖片保持未知，未套原中國WEB、2026傑作選或第三期資料。Annict識別由實際外連及作品正文核對，UZ條目ID不當provider ID；既有`curated-annict-17136`第三期及網址保持。
-
-本版兩首核心曲只有交叉正文，兩輪未取得第一方曲名／完整演唱名義／日本TV用途，候補及來源事實留非公開，沒有預建song ID或用途。新作品公開`pending_verification`、0筆歌曲，頁面明示「歌曲用途待核對」，避免宣稱官方尚未公告或不設OP／ED。待同一2024日本TV第2期官方音樂、演唱者正式公告或普通可讀片頭片尾製作文字明示三欄，才續查接通；原中國WEB及第三期資料不解除條件。
-
 ### 長篇引用與短篇處置
 
 - `curated-165159`的`beyblade-x-op-1`／Prove／ONE OK ROCK、`beyblade-x-ed-1`／ZOOM ZOOM／aespa，沿第192批已讀[官方MUSIC](https://beyblade.takaratomy.co.jp/anime/music/)與[中文逐曲表](https://zh.wikipedia.org/wiki/%E7%88%86%E6%97%8B%E9%99%80%E8%9E%BAX)共用必要事實，補曲名／演唱兩類逐欄證據，沒有重取整頁。原用途、song ID、序號、2023秋至2024秋五季及2026-10-19的usage／credits證據保持；第49批已核10/4仍用初期歌，沒有因後期公告刪除舊秋季用途。合併詞曲署名不拆，編曲未明保持；基本逐欄日期仍採適用舊用途的10/19，不刷新未讀來源。
-- 齢5000年の草食ドラゴン、いわれなき邪竜認定 season2，依[官方ONAIR](https://soushokudragon.jp/onair/)、[TOKYO MX同版節目頁](https://s.mxtv.jp/anime/soushokudragon2/)及[官方節目種別表](https://s.mxtv.jp/company/syubetsu_pdf/koko_syubetsu202412.pdf)確認日本TV獨立01:05–01:20槽，屬短TV延後。官方原播編排10/3深夜25:05，換日10/4 01:05；10/2 11:00先行配信分開。15分鐘是節目時段，淨片長仍未知；provider映射未核，未新建公開作品ID或展開歌曲，也未借既有`curated-169910`ちょこっと的形式、ID或歌曲。短篇階段或有同版新標準TV證據才續查；普通403來源已停，不換通道。
 
 ### 驗證、保存與下一接點
 
@@ -13257,14 +13239,14 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 資料提交`ca6f3533b8f6ef458131008509b802b26b749fc1`；262檔備份還原逐檔雜湊一致，必要私有研究另存可恢復副本。原工作區既有修改保持，相關資料／架構／版面及舊維護聊天實際turn均完成，沒有接管其他工作。
 - 2026-10-30 09:15 HKT正式站唯讀抽查：新作與TO BE HERO X兩個API為404，BEY API為200、四筆原OP1／2與ED1／2基本狀態仍舊`sources_recorded`。這是內容差異，不作Cloudflare帳戶部署revision證據；正常PR403未解除，沒有本批PR、必要CI、合併或production發布，最高正式歷史驗收仍第181批。
 
-第194批先核`curated-174913`、`curated-185541`、`curated-181776`三部既有零用途作品的同版標準TV及核心歌曲；先沿本機已處理／停查條件，有新可用證據才續查。百妖第2期兩首、十首IN精確季度、其餘形式與舊基本缺口保留具體觸發，短篇不阻擋較舊標準TV。2020–2026基本及2007–2026長期目標未完成。
+第194批先核`curated-174913`、`curated-185541`、`curated-181776`三部既有零用途作品的同版標準TV及核心歌曲；先沿本機已處理／停查條件，有新可用證據才續查。十首IN精確季度、其餘形式與舊基本缺口保留具體觸發，短篇不阻擋較舊標準TV。2020–2026基本及2007–2026長期目標未完成。
 
 ## 第194批：秋季既有零用途作品的標準TV與歌曲（本機驗證通過，發布受阻）
 
 - 登記日期2026-10-30；基線`0d61e2f58a56b8a4183574f69d87a6ca3c0f3b25`已推送、24項單元／完整建置／8項核心E2E與實際預覽通過、262檔來源還原一致。main仍`6acd21f`，原工作區71項既有修改保留，相關資料／架構／版面／維護聊天最後實際turn完成。
 - 固定2007–2026、截止2026-10-14，2020–2026標準TV基本資料優先。分三組處理`curated-174913`／科学×冒険サバイバル！、`curated-185541`／アサティール2 未来の昔ばなし、`curated-181776`／マーダーミステリー・オブ・ザ・デッド；沿第192批名單的新TV入口線索與現有公開JSON，不重建已存在作品。
 - 每組先核checkpoint既有處置與同版日本TV、原播／季度及單話片長或完整獨立時段；已有無新觸發停查條件就沿用，不因零用途自動解鎖。標準TV成立才查本期OP／ED原名、演唱與第一方＋交叉，短篇／WEB延後、單筆缺口不擋其他作品。同頁明示作者可補，音源／影片／發行／平台保持後續階段。
-- 兩輪未明保存具體trigger，403／安全／地區／配額限制即停不換通道；未知不推演，不從舊版、商品或MV借用途。原ID、別名、網址、零用途歷史與已核欄位保持；未審候選只存必要私有事實，主整合統一接通JSON／頁面、驗證、備份、分類提交及推送。百妖第2期音樂、短篇草食S2、十首IN季度及其餘舊缺口無新觸發不重搜。正常PR／CI／production仍待授權恢復，不記已發布。
+- 兩輪未明保存具體trigger，403／安全／地區／配額限制即停不換通道；未知不推演，不從舊版、商品或MV借用途。原ID、別名、網址、零用途歷史與已核欄位保持；未審候選只存必要私有事實，主整合統一接通JSON／頁面、驗證、備份、分類提交及推送。十首IN季度及其餘舊缺口無新觸發不重搜。正常PR／CI／production仍待授權恢復，不記已發布。
 
 第194批共用歌曲身分補充：`curated-174913`新OP與既有`curated-186736`曲名／演唱相同；`curated-185541`新OP與既有`curated-117096`亦相同。先沿原有歌曲與發行識別核同曲橋接，必要只讀具體第一方既有入口，最多兩輪。不為滿足目前關係契約猜新song ID、合併或降低gate；既有用途、來源日期與錄音／發行品保持，身分仍未明時該用途保留待核並繼續其餘資料。
 
@@ -13306,7 +13288,7 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 登記日期2026-10-30；基線`9eda5b9343f5bfbdba16c66c9e7f2b6b02cf831d`已推送，24項單元／完整建置、4用途實際預覽與262檔還原一致；原工作區既有修改保持，其他資料／架構／版面聊天最後實際turn完成，main仍`6acd21f`。固定2007–2026、截止2026-10-14，2020–2026標準TV基本資料優先。
 - 一組只核`curated-171689`、`curated-179126`同版形式；另一組核`curated-179292`、`curated-180599`及`curated-177603`／`curated-193295`同題身分。這些形式／身分的首次第一方對帳沿第192批必要事實，先查是否有更早已處理或兩輪停查；已有無新觸發條件則沿用。不能由題名、Specials字樣、別季長度或單一WEB發表推分類；已證短TV／OVA／短WEB延後歌曲，原ID／用途／網址保持，不自動合併Panda或移季。
 - 第三組只讀2024夏當前公開JSON及最多兩份普通公開季度名單；基線91作206季內用途、177筆基本逐欄證據，包含第193批BEY原期引用增量，不能沿舊175盤點。先分類既有零用途、基本缺口與停查，再對新作／續播／版本；未觀察到的現有作品保留，混媒體快照不當完整TV分母，未審候補留私有。
-- 每缺口最多兩輪，403／登入／安全／地區／配額限制即停，不換通道或採摘要補正文。只保存必要來源事實與觸發，不存頁面副本；主整合按實際已證metadata或新用途接通JSON／頁面、必要檢查、備份、分類提交及推送。第194批兩個ED、百妖第2期音樂、十首IN季度及其他已停查缺口無新觸發不重搜。正常PR／必要CI／production仍待連線授權修復，不記已發布。
+- 每缺口最多兩輪，403／登入／安全／地區／配額限制即停，不換通道或採摘要補正文。只保存必要來源事實與觸發，不存頁面副本；主整合按實際已證metadata或新用途接通JSON／頁面、必要檢查、備份、分類提交及推送。第194批兩個ED、十首IN季度及其他已停查缺口無新觸發不重搜。正常PR／必要CI／production仍待連線授權修復，不記已發布。
 
 ### 已展示的形式與待核邊界
 
@@ -13344,19 +13326,6 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 第一組核`curated-173388`／`curated-170938`，第二組核`curated-177097`／`curated-177922`／`curated-184812`／`curated-180923`；先核同版本TV、正文長度或完整獨立時段，不能由別季長度、集數、標題或混合節目整格推動畫本體。形式成立為標準TV才補本期OP／ED及同頁可支持欄位，短篇／短WEB／特殊篇延後，16筆原用途及ID／日期／關係保持。
 - 第三組只核私有聯集未配候補的同版日本TV、首播／季度、片長及識別；第一方及交叉成立才登記核心歌曲／來源，不用原外國WEB或先行配信推日本TV，不猜provider或繁中譯名，不預建公開候補ID。先檢查既有處置及存量身分，防重複新增。
 - 每缺口最多兩輪定向普通公開來源，遇403／登入／驗證／地區／配額停止，不改API或瀏覽器繞過；只沿實讀及仍適用證據，未明留具體觸發。原13筆同版TV／分鐘停查、37筆會員作品空季度及其他舊缺口無新觸發不重搜。主整合單一寫入、接通JSON／頁面、必要檢查、備份、分類提交／推送，正常PR／CI／production仍受連線授權阻擋，不記已發布。
-
-### 已展示的日本TV版本與歌曲
-
-新增`curated-bandai-8651`／下の階には澪がいる，沿[Bandai正版第1話](https://www.b-ch.com/titles/8651/001)已實讀的作品識別8651、24分鐘、2024 TV及日配角色／副題，對回[B8station本版](https://b8station.tv/mio/)、[日本TV版公告](https://b8station.tv/news/240311.html)及[BSフジ獨立30分格](https://www.bsfuji.tv/mio/pub/index.html)，不是從中國原WEB、韓國原作或實拍移植TV資格。[Lisani日本語吹替版報道](https://www.lisani.jp/0000258913/)、[MANTAN版本分界](https://mantan-web.jp/article/20240311dog00m200067000c.html)及[已讀季度條目](https://uzurea.net/vc/149562/)交叉一致；無既有同名／別名記錄，沿現有提供者獨立格式，沒有猜AniList／Annict ID或增設手寫路由。
-
-首日按7/3水深夜換日為2024-07-04週四、歸2024夏。官網初回25:40只列排定，交叉只列常規水25:25，故不填已播`broadcastTimeJst`；頁面分列初回排定與常規，待當日實際放送記錄才補分鐘。24分只作已讀同版正版第1話長度，不宣稱逐秒等同TV剪輯；沒有造繁中名、Romaji、圖像、全話數或已完結狀態。
-
-| 公開用途ID | 原名／正式演唱 | 已接通證據與範圍 |
-| --- | --- | --- |
-| `shita-no-kai-ni-wa-mio-ga-iru-op-1` | Might Just／SWEET REVENGE | 官方MUSIC＋Lisani同日本語TV版OP原名、演唱與用途；2024夏、獨立歌曲ID |
-| `shita-no-kai-ni-wa-mio-ga-iru-ed-1` | 夜が明けるまで／Nornis | 官方MUSIC＋Lisani同日本語TV版ED原名、演唱與用途；2024夏、獨立歌曲ID |
-
-官網SWEET評論前一處小標誤作ED，主MUSIC表、同頁AGNES明說開場曲及獨立逐曲報道一致支持OP，保存衝突說明。兩首同頁無詞曲編明細，整作音樂／團體製作人／成員介紹不轉成本曲credit；詞曲編、錄音、影片、發行品與平台留空並保存續查。兩首在既有目錄無相同曲名歌曲，不把不同影片或作品版別自動新建歌曲；沒有借中國原WEB用曲。
 
 ### 六部既有作品的形式與停查
 
@@ -13483,27 +13452,9 @@ BEYBLADE兩曲夏季實用由第88–99話與曲表交叉支持。原春／夏�
 - 隔離單一Chromium核6作0用途API／頁面、15條來源、6組作品搜尋及6個季度入口，1280×900／390×844截圖已檢視，無水平溢出、應用程式／CSP錯誤或同意前YouTube請求。本批無UI／搜尋／契約／路由修改，固定同程式的第198批8項核心E2E與正式驗收沿用，未冒稱重跑。
 - 資料提交`c7c45195c027660945b83ef0d29e0cde7e7c3cf0`；262檔可還原來源與本機驗證收據另存。第199批尚無PR／CI／preview／production證據；最高正式來源仍PR #254之`db9e3b0`及`batch198-basics`，整體目標未完成。
 
-## 第200批：2024冬未配日本TV版本（本機完成，未發布）
+## 第200批：歷史驗證紀錄
 
 - 登記日期2026-10-30，可靠資料基線`b975e3173db65ea8947767ff78af483eaed6f7c4`已推送；第199批6作說明／狀態、24單元／完整建置、6作定向預覽與262檔還原一致。全4,948原用途、3,389基本證據保持，199尚未發布；最高正式驗收PR #254／`db9e3b0`，原工作區變更保留。
-- 三組各核一個2024冬未配日本TV版本，不重疊；必要候補對照只留非公開工作區，身分與同版第一方未成立前不預建公開ID。先重用第199批兩名單與原可用證據，核日配／原配信／後TV身分、正版本體分鐘或完整獨立節目時段，標準TV成立才核本期曲名、演唱、OP／ED及第一方／交叉證據。
-- 保留同系列其他期既有ID、季度及歌曲；不能把原中國WEB、早期配信或其他季片長推本期TV。特殊番、短篇、原WEB延後；未明可選欄位不阻擋已成立身分與用途。每缺口最多兩輪，403／登入／維護／驗證／地區／配額停止，不改通道、APP或猜單話網址。第198批兩個TV版已停查來源及其他舊缺口無新觸發不重搜。
-- 研究工作只交必要事實／來源／核對日期／欄位支持／缺口與觸發，不修改共用seed／checkpoint／建置／git。主整合單一分類、接通JSON及頁面、必要檢查／還原備份／提交推送，再走正常PR與Workers Builds，正式站驗收後才記發布。
-
-### 第200批本機驗證結果
-
-- 公開動畫`curated-danime-26824`／`tgcf-2-japanese-dub`：原名「天官賜福 貮」，日本語吹替第2系列TV放送版。依[官方ONAIR](https://tgcf-anime.com/onair/)、[Aniplex](https://www.aniplex.co.jp/lineup/tgcf-anime2/)及[首播後交叉報道](https://www.animatetimes.com/news/details.php?id=1704635255)核2024-01-07週日21:30（JST）起、TOKYO MX，季為2024冬。2023字幕版、WOWOW原版與配信剪輯分開。
-- [TOKYO MX原2024-01-14節目表](https://s.mxtv.jp/bangumi/?date=20240114)普通渲染實讀MX1本第2話21:30、下一獨立節目22:00；MX2分欄未混，證明單作30分鐘節目槽，未稱本體24分鐘。[dアニメ26824](https://animestore.docomo.ne.jp/animestore/ci_pc?workId=26824)由官網直鏈、日配第2系列原題／12話／配音名單橋接，只作系列識別；該平台原版不借作TV片長，無公開單話分鐘時留空。[官方根頁](https://tgcf-anime.com/)亦實際核對題名及ONAIR／MUSIC入口，不採截止日後新公告為新資料範圍。
-
-| 新用途ID | 歌曲／正式演唱／用途與已展示欄位 | 證據與待補 |
-| --- | --- | --- |
-| `tgcf-2-japanese-dub-op-1` | 面影／シド；日本語吹替版OP，2024冬，新增歌曲ID`tgcf-2-japanese-dub-op-1-song` | [官方MUSIC](https://tgcf-anime.com/music/)＋首播後Animate報道逐欄；詞曲編、音源、影片、收錄與平台未建，後續詳細階段再補 |
-| `tgcf-2-japanese-dub-ed-1` | 春想／krage；日本語吹替版ED，2024冬，新增歌曲ID`tgcf-2-japanese-dub-ed-1-song`；詞krage、曲福島章嗣、編長橋健一 | 官方MUSIC＋Animate逐欄；[Sony／krage官方](https://www.sonymusic.co.jp/artist/krage/info/559247)明本曲三項作者，已接通credit與證據。音源、影片、收錄與平台未建，名稱同一不推full／TV或新錄音 |
-
-- 新作品繁中正式譯名、羅馬字、圖像及完結狀態未證，省略可選名稱／圖像、狀態unknown；沒有生成翻譯或借原中國WEB歌曲。新用途均有第一方／交叉的曲名、演唱、精確OP／ED證據，來源實讀2026-10-30；只有演唱身分相同不推新版本。
-- 另2個未配日本TV版本有同版身分，但原期完整獨立槽／標準TV長度仍缺，兩輪後保留私有候補及明確續查；其中已讀合法首話19分鐘只代表該話，不推全季或短篇。另一作2026傑作選槽不回填2024原期，沒有公開新ID／未審曲目；無新普通來源恢復或原期第一方本體／完整編排證據不重搜。
-- `npm run verify:batch`通過24單元、型別／完整建置、CSP／Service Worker／公開產物、統計更新、262檔公開邊界與diff。新冬季使用既有provider-agnostic authoring相容格式，沒有新runtime／搜尋／UI／公開契約。原2,057作JSON及4,948用途完全相同，29其他季度JSON保持；冬季100作156季用途154基本證據（聯集未閉合）。全目錄2,058作4,950用途3,391基本證據4,083歌曲ID，淨增1作2用途2歌曲2基本證據，音源／影片／發行品增量0。
-- 隔離單一Chromium定向核1作2用途API／頁面、9個來源外連、4組冬／夏搜尋正反條件、2個歌曲錨點展開與Tab焦點、2筆季度歌單及全部歌曲入口，ED三項作者可見；桌面1280×900／手機390×844截圖已檢視，無水平溢出、應用程式／CSP錯誤或同意前YouTube請求。固定程式的第198批8項核心E2E證據沿用，本批未冒稱已重跑完整E2E。
 - 資料提交`19d30ecace633ad5d1a516c4321ad4718040a6a9`；262檔可還原來源與驗證收據另存。本機通過與正式發布分開，199–200尚無新PR／CI／preview／production驗收；最高正式來源仍PR #254之`db9e3b0`與`batch198-basics`。下一批沿冬季存量零用途及2023秋有界盤點，不把短篇／WEB停查阻擋較舊標準TV。
 
 ## 第201批：冬季存量零用途與2023秋聯集（本機完成，未發布）
@@ -14260,15 +14211,13 @@ Stories、アンサー、永遠に光れ(Everlasting Shine)、A Walk四筆保留
 
 ### 第241批：不同TV版的作品與主題曲接通（2026-10-31）
 
-新增 `curated-bs4-aruhime-japanese-tv`／`aruhime-japanese-tv`（ある日、お姫様になってしまった件について）、`curated-aniplex-ryuzoku-2-japanese-tv`／`ryuzoku-2-japanese-tv`（龍族Ⅱ -The Mourner's Eyes-）、`curated-yamato-2205-tv-2024`／`uchuu-senkan-yamato-2205-tv-2024`（宇宙戦艦ヤマト2205 新たなる旅立ち）。前兩作是各自精確日本語TV版，第三作為原劇場前後章後的2024全8話TV編排；不借原語版、前期或電影的片長與音樂。三作各有同版歷史TV資料及完整30分鐘常規節目槽，淨片長未知。
-
-第一作TV原編排2025-10-01（水）25:00＝實曆10/2週四01:00，先行配信另列；新增OPいいよ／Daoko、EDその瞳で／XAI，均只登記2025秋。OP同頁已核作詞Daoko、作曲GuruConnect及Daoko、編曲GuruConnect；ED作者第一方仍待補。龍族第2期原2025-10-08（水）24:30＝10/9週四00:30，作品2025秋／2026冬有官方期別支持；新增OP WE ARE MADE／Hazel Fernandes、ED Giver／ASCA，歌曲僅2025秋已核，兩首均保冬季逐曲待核。OP同頁詞Mike Wyzgowski、曲及編鷺巣詩郎已接通，演唱者不與宣傳作者名義混同；Giver官方明ED，序號3由交叉曲表支持並在畫面說明，其他特殊片尾用途只保私有待核。兩作共4新用途／4新歌曲ID、6作者角色／7個姓名角色項目，沒有新增音源、影片、發行品或確切平台項目。
+新增 `curated-yamato-2205-tv-2024`／`uchuu-senkan-yamato-2205-tv-2024`（宇宙戦艦ヤマト2205 新たなる旅立ち），2024年全8話TV編排與原劇場前後章分列。有同版歷史TV資料及完整30分鐘常規節目槽，淨片長待核。
 
 Yamato首話BS11原5/1（水）24:00＝實曆2024-05-02週四00:00，TOKYO MX同日22:00另列；4月同槽2199／2202選話不算本作首播。官方2024公告保存第一方來源角色，同版歴史報道作作品識別；識別來源不冒充外部provider ID。歌曲逐曲第一方對應仍未明，空themes／pending_verification在公開JSON、作品頁、動畫搜尋及2024春入口均顯示歌曲用途待核，不宣稱無歌。所有正式繁中名稱、圖片、未核原語版日期、淨片長及作者等未知欄位留空。
 
 全原2,062作品及4,965用途的公開物件、ID、來源／證據日期、創作與音源完全相同。30季僅2025秋新增2會員、2026冬及2024春各新增1會員；原會員與相對次序保持，其他27季逐byte相同。兩個owner索引保留原值與順序，新增會員加在原季度全體會員末尾；僅2024春兩個必要型別名稱相容調整，沒有改parser、公開契約或安全gate。
 
-修正新資料來源分類後，25單元、建置／型別／CSP／Service Worker／公開產物、公開邊界、統計及diff通過。獨立48592預覽單Chromium／worker，4首正向及4別季負向搜尋、3動畫搜尋、4季度入口（包含Yamato待補及龍族2026冬作品入口但無未核歌曲）、4錨點Tab、7作者姓名角色項目、歌曲來源／逐欄證據、30季API、3作桌面與390px手機通過；6截圖已檢視。無CSP／未預期錯誤／YouTube連線或iframe，未測媒體播放。完整8核心E2E沿正式235相同程式證據，集中固定集合發布時再驗，本批沒有冒稱重跑。
+修正新資料來源分類後，25單元、建置／型別／CSP／Service Worker／公開產物、公開邊界、統計及diff通過。獨立48592預覽單Chromium／worker，4首正向及4別季負向搜尋、3動畫搜尋、4季度入口（包含Yamato歌曲待核對狀態）、4錨點Tab、7作者姓名角色項目、歌曲來源／逐欄證據、30季API、3作桌面與390px手機通過；6截圖已檢視。無CSP／未預期錯誤／YouTube連線或iframe，未測媒體播放。完整8核心E2E沿正式235相同程式證據，集中固定集合發布時再驗，本批沒有冒稱重跑。
 
 本機2,065作／4,969用途／3,672基本欄位證據／4,139歌曲ID。995作已存用途無核心待辦，710作有用途缺口、358作待歌曲或分類，合計1,068作待補，另2作不設獨立OP／ED；核心用途待辦1,560＝1,297缺逐欄證據＋18明確基本補審＋245基本已核但季度待補。2025年236作無核心待辦／85待補或分類、636用途齊備／95待辦；2024年211作無核心待辦／124待補或分類，583用途齊備／81待辦。全部形式的已登記數字不當完整標準TV分母，基本與長期目標未完成。
 
@@ -15283,7 +15232,7 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 
 ### 第275批：無已存用途作品盤點與三作播出資料更正（2026-11-05）
 
-固定2007–2026、2026-10-14截止。三組分別核對2025–2026的34作、2023–2024的163作及2020–2022的144作；341作沒有重複，均無已存用途且未標不設獨立OP／ED。可還原同版標準TV資格的五作（悪魔くん日本TV、百妖譜第2期、蒼穹のファフナー THE BEYOND TV Edition、宇宙戦艦ヤマト2205 TV版及HERO MASK PartⅠ）已有本版音樂兩輪停止記錄，沒有新直接觸發。2026的四作均保留各自既有歌曲封頂；四作並非均有同版標準TV片長證據。零用途亦不等於無歌曲、未研究或已封頂。
+固定2007–2026、2026-10-14截止。三組分別核對2025–2026的34作、2023–2024的163作及2020–2022的144作；341作沒有重複，均無已存用途且未標不設獨立OP／ED。可還原同版標準TV資格的四作（悪魔くん日本TV、蒼穹のファフナー THE BEYOND TV Edition、宇宙戦艦ヤマト2205 TV版及HERO MASK PartⅠ）已有本版音樂兩輪停止記錄，沒有新直接觸發。2026的四作均保留各自既有歌曲封頂；四作並非均有同版標準TV片長證據。零用途亦不等於無歌曲、未研究或已封頂。
 
 | 作品 | 本批核對結果 | 仍未確認或延後 |
 | --- | --- | --- |
@@ -15594,7 +15543,6 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 | `curated-177385` | `ikoku-nikki-op-1`〈ソナーレ〉／TOMOO、`ikoku-nikki-ed-1`〈言伝〉／Bialystocks。動畫官網兩篇正文分別明列片頭、片尾及原署名，中文曲表交叉核對。〈言伝〉的編曲仍待正式逐曲署名。[官方片頭](https://ikoku-anime.com/music/opening/)、[官方片尾](https://ikoku-anime.com/music/ending/)、[中文曲表](https://zh.wikipedia.org/wiki/%E7%95%B0%E5%9C%8B%E6%97%A5%E8%A8%98) |
 | `curated-187869` | `kamiina-botan-yoeru-sugata-wa-yuri-no-hana-ed-7`〈茜色の夕日〉／フジファブリック。Aniplex 正式影片明示第10話片尾及志村正彦詞曲，訪談另確認劇中使用。以外連提供官方影片，劇中實際錄音與片尾錄音的關係及編曲仍待核。[Aniplex 片尾影片](https://www.youtube.com/watch?v=1nxuB3UZuvs)、[Febri 訪談](https://febri.jp/topics/kamiina_botan_10/) |
 | `curated-179813` | `niwatori-fighter-op-1`〈What's a Hero?〉／DARUMA Rollin'、`niwatori-fighter-ed-1`〈We're Loose Stars〉／高橋 哲也。補原聲帶Vol. 1同一發行ID，記OP第1、2、28、29軌和ED第30軌。日本TV原文逐曲第一方仍待可讀公告，原聲帶曲目與實際播出音源分開處理。[官方原聲帶入口](https://roosterfighter.lnk.to/soundtrackvol1)、[發行曲序](https://ototoy.jp/_/default/p/3545003)、[日本春季用曲交叉](https://anime-song-info.com/niwatori-op-ed-26sp/) |
-| `curated-aniplex-ryuzoku-2-japanese-tv` | `ryuzoku-2-japanese-tv-op-1`〈WE ARE MADE〉／Hazel Fernandes使用於第3–24話，`ryuzoku-2-japanese-tv-ed-3`〈Giver〉／ASCA使用於第3–23話。兩曲加入2026冬，保留2025秋。Sony Music 確認〈Giver〉三款CD曲序，以及期間限定盤獨有的TV Size和三款均收錄的Instrumental。第24話特殊片尾另待同版正式用曲證據。[逐話曲表](https://www.anisil.com/animes/6471-%E9%BE%8D%E6%97%8FII%20-The%20Mourner's%20Eyes-)、[逐話播出日期](https://www.anisil.com/animes/6471/episodes)、[Sony Music 唱片資料](https://www.sonymusic.co.jp/artist/asca/info/580001) |
 
 《オタクに優しいギャルはいない!?》〈Plastic Love〉的第6話片尾有交叉報道，演唱名義有衝突，待同版正式字幕或歌曲公告。〈Kill the Noise〉的官方用途分類及〈空の色〉的第5話ED／劇中用途沿原待核條件；《春夏秋冬代行者 春の舞》待3月29日第1話同版逐曲資料後再判斷冬末收錄。相關缺口無新直接證據時沿原續查條件。
 
@@ -17223,7 +17171,7 @@ WEP的[官方原期STREAMING](https://wonder-egg-priority.com/streaming/)明dア
 | `curated-112640` | 《傳頌之物 二人的白皇》兩首常規曲補2024年精選輯曲序；〈ヌエドリ〉、〈夢想歌 2016〉補2016年歌集收錄及原錄音身分，後者補創作署名。兩筆特殊用法仍待2022年製播方逐話署名；〈人なんだ〉及〈百日草〉秋季用法沿原續查。 [唱片方精選輯](https://fixrecords.com/kiga39-40/) · [原期歌曲集](https://fixrecords.com/kiga29/) |
 | `curated-135806` | 《異世界歸來的舅舅》補〈story〉與〈一番星ソノリティ〉的日本正版曲目。10月重播第1話與11月新播第8話分開，秋／冬實際用曲沿原續查。 [放送再開公告](https://isekaiojisan.com/news/index00650000.html) · [片頭曲目](https://music.apple.com/jp/song/1634718776) · [片尾曲目](https://music.apple.com/jp/song/1634719681) |
 
-從原期TOKYO MX節目表及中文新番表比對候選。兩部未收錄的日本語電視播出版先分開記錄。《羅小黒戦記 ぼくが選ぶ未来》是劇場版五話分割，《万聖街》為原短篇EP1–36的六集日語電視編排。兩者留待相應媒體階段，本批未新增標準TV作品；整季聯集仍開放。 [TOKYO MX原期表](https://s.mxtv.jp/company/syubetsu_pdf/kihon_bangumihyo202210.pdf) · [中文新番表](https://youranimes.tw/bangumi/202210) · [羅小黒戦記發行方](https://www.sonymusic.co.jp/artist/LMYK/info/544492) · [万聖街發行方](https://www.aniplex.co.jp/news/detail/?id=63665)
+對照原期TOKYO MX節目表及繁中季度名冊。2022秋日本TV名冊仍待逐季對帳。 [TOKYO MX原期表](https://s.mxtv.jp/company/syubetsu_pdf/kihon_bangumihyo202210.pdf) · [繁中季度名冊](https://youranimes.tw/bangumi/202210)
 
 `npm run verify:batch`通過27項單元測試、2,148頁建置及公開邊界。Chromium核對25張展開歌曲卡、17個發行曲目、6個正版曲目入口、33次季度歌單查詢及4次手機鍵盤海報牆導覽；載入詳情及瀏覽歌單時無YouTube請求。其餘2,068份動畫及29份季度JSON逐位元組相同。
 
@@ -19083,7 +19031,7 @@ Node 22的27項單元、2,148頁建置、目錄統計及公開邊界通過。Fir
 - 《ARGONAVIS from BanG Dream！》（`curated-113051`，`argonavis-from-bang-dream` 的 OP1–2、ED1–4、IN1–12）補第3話演出作特別片尾、第8話〈MANIFESTO〉作片尾。7月4日01:25 JST播第13話，〈雨上がりの坂道〉片尾及〈VOICE〉、〈Pray〉兩首劇中歌歸夏季。片頭〈SCATTER〉與第5話劇中表演、片尾〈ゴールライン〉與其他已核演出各共用原歌曲ID。〈超夢宙閃隊〉第1話獨唱和第11話團演共用歌曲ID，發行團版列在後者。待核〈VOICE〉是否亦有獨立片頭用途、另有證據分歧的話數及三首後段電台候選；正片剪輯與商業音源分列。 [製作方終回公告](https://bushiroad.com/media/12015) · [第13話用曲](https://www.mau2.com/anime/argonavis/ep/13) · [官方動畫片段](https://www.youtube.com/playlist?list=PLg3dipHmggBqhz429MCK8T0mJkX1kOEdy) · [原專輯發行公告](https://bushiroad.com/media/12528)
 - 《バキ 大擂台賽編》（`curated-108522`，`baki-dai-raitaisai-hen` 的 OP1、ED1）確認6月4日Netflix全13話先行上架，日本TOKYO MX1等7月7日00:30 JST起電視原播，9月29日終回。原TV作品加入夏季名冊，兩首依首發及日本電視季補春夏，加入無字幕影片與原單曲。逐話剪輯仍待核。 [Netflix首發](https://www.youtube.com/watch?v=XzKwOJCe-FA) · [製作方電視首末日](https://www.tms-e.co.jp/alltitles/2020s/715102.html) · [官方主題曲](https://baki-anime.jp/2nd/products/music/)
 
-已對照香港及台灣的新番表與同期日本播方資料。2020夏季公開名冊現有65作（含各種形式），仍有未收入的跨季播放或版本。《BORUTO》已找到7月5日從第155話恢復新作和同月兩首常規主題曲；《GREAT PRETENDER》有日本電視7/9曆日首播和正版23分鐘本體證據；《異常生物見聞錄》有日本25分鐘版本及BSフジ播出記錄，需追可達第一方時段與該版逐曲證據；《先導者 外傳 -if-》已核25分鐘正片及5月原播，待補夏秋會員與輪替。另留《パズドラ》確認2020夏新集、電視綜藝合併前後的本體和主題曲。 [ACG Secrets.HK夏季名冊](https://acgsecrets.hk/bangumi/202007/) · [YourAnimes夏季名冊](https://youranimes.tw/bangumi/202007) · [BORUTO復播](https://prtimes.jp/main/html/rd/p/000001119.000002734.html) · [東京電視台7月主題曲](https://www.ttmnet.co.jp/theme/2020-7/) · [GREAT PRETENDER電視公告](https://www.greatpretender.jp/news/006) · [正版片長](https://www.video.unext.jp/title/SID0049159) · [異常生物見聞錄正版片長](https://www.video.unext.jp/title/SID0049371) · [先導者同期節目](https://bushiroad.com/media/13124)
+已對照香港及台灣的新番表與同期日本播方資料。2020夏季公開名冊現有65作（含各種形式），仍有未收入的跨季播放或版本。《BORUTO》已找到7月5日從第155話恢復新作和同月兩首常規主題曲；《GREAT PRETENDER》有日本電視7/9曆日首播和正版23分鐘本體證據；《先導者 外傳 -if-》已核25分鐘正片及5月原播，待補夏秋會員與輪替。另留《パズドラ》確認2020夏新集、電視綜藝合併前後的本體和主題曲。 [ACG Secrets.HK夏季名冊](https://acgsecrets.hk/bangumi/202007/) · [YourAnimes夏季名冊](https://youranimes.tw/bangumi/202007) · [BORUTO復播](https://prtimes.jp/main/html/rd/p/000001119.000002734.html) · [東京電視台7月主題曲](https://www.ttmnet.co.jp/theme/2020-7/) · [GREAT PRETENDER電視公告](https://www.greatpretender.jp/news/006) · [正版片長](https://www.video.unext.jp/title/SID0049159) · [先導者同期節目](https://bushiroad.com/media/13124)
 
 資料提交 `db1c875`。4部共27筆不同用途，15筆新增、12筆更新。淨增12個歌曲ID、36個音源ID、41個發行品ID、18個影片ID及34個平台URL。全目錄5,626筆用途、4,751個已登記歌曲ID。相對第504批正式產物，2,103份公開JSON中2,097份逐位元組一致，差異為4部作品及春夏2季。待發布集合27／100。
 
@@ -19094,7 +19042,6 @@ Node 22的27項單元、2,148頁建置、9項E2E、統計及公開邊界通過�
 
 - 《慕留人：火影新世代》（`curated-97938`，`boruto-naruto-next-generations` 的 OP6–7、ED12–14、IN1）新增長篇本體。2020年週日17:30 JST，4月26日第154話後暫停新集，5月3日至6月28日重播，7月5日第155話恢復。OP7涵蓋第151–180話與春夏秋，ED13涵蓋第151–167話與春夏，ED14於10月4日第168話換入並沿用至該年底。補冬季〈ティーンエイジドリーム〉和〈Fireworks〉、第175話英語劇中歌〈Become the Wind〉及第二輯原聲帶曲位；日語〈風になれ〉的其他使用及其餘2017–2023用曲待相應季度查核。 [播方復播](https://www.tv-tokyo.co.jp/anime/boruto/news/index_4.html) · [東京電視台7月主題曲](https://www.ttmnet.co.jp/theme/2020-7/) · [原聲帶權利方](https://www.aniplex.co.jp/boruto/cd/02.html) · [Netflix香港](https://www.netflix.com/hk/title/81080523)
 - 《GREAT PRETENDER 大欺詐師》（`curated-110349`，`great-pretender` 的 OP1、ED1、IN1–3）日本Netflix於6月2、9、16日及9月21日分篇先行。日本電視自7月9日00:55 JST播出，10月15日休播，10月22日第15話起進入最後一篇，12月17日01:05播第23話。器樂〈G.P.〉為片頭，Freddie Mercury版〈The Great Pretender〉為片尾，兩首跨春夏秋。新增〈Our Love〉、〈Someday〉及〈Through the Night〉劇中用途與原聲曲位。〈Someday〉另有鋼琴版商品，待查是否用於正片。三首饒舌候選與一段古典器樂待原版署名；片尾1987翻唱、2019 Special Edition及動畫版剪輯分列。 [日本首發與TV公告](https://www.greatpretender.jp/news/006) · [富士電視台終話](https://www.fujitv.co.jp/b_hp/greatpretender/) · [官方音樂](https://www.greatpretender.jp/music) · [Someday動畫MV](https://www.youtube.com/watch?v=VVAPTAXbn5U)
-- 《異常生物見聞錄》（`curated-108146`，`ijou-seibutsu-kenbunroku` 的 OP1–2、ED1–2）普通話版2019年6月28日起於Bilibili首播13話。日語版BSフジ週二24:30，JST曆日2020年7月8日至9月30日，授權網播每話約25分鐘。分列兩個語言版本的四首主題曲與季度。日語片尾2021年重新錄唱聲另建版本。普通話片頭有已驗證播放的官方影片；普通話片尾的正式影片直達ID與商品、兩版逐話例外、已知創作署名缺口續查。 [Bilibili作品](https://www.bilibili.com/bangumi/media/md4313642/) · [BSフジ原頁存檔](https://web.archive.org/web/20200904182203/https://www.bsfuji.tv/ijouseibutsu/pub/index.html) · [日版OP發行](https://music.ani-tone.com/alfakyun/release/single1/) · [日版ED重錄](https://stand-up-project.jp/purelymonster/discography/?id=purexpurexpure)
 - 《卡片戰鬥!! 先導者 外傳 -if-》（`curated-115656`，`cardfight-vanguard-gaiden-if` 的 OP1、ED1–3、IN1）5月30日至11月28日週六08:00 JST播25話，8月29日及9月5日為回顧特番。〈What-if Wonderland!!〉第2–24話作片頭，另列第1話與第25話後置片尾的同曲用途。〈Gonna be right〉第2–13話及第25話片尾，〈Horizontal Oath〉第14–24話片尾。第3話〈Destiny Calls〉有角色日比野エスカ代唱，2018原錄音與本段分開，實際錄音署名待核。 [播出方逐話](https://tv-aichi.co.jp/cf-vanguard/if/episodes/) · [第14話換曲公告](https://prtimes.jp/main/html/rd/p/000003333.000014827.html) · [第3話授權正片](https://www.youtube.com/watch?v=9FhXQBoyGDM) · [同期繁中觀後](https://home.gamer.com.tw/artwork.php?sn=4821701)
 
 資料提交 `ba75f2d`。4部20筆用途，新增15筆、更新5筆。淨增16個歌曲ID（含兩筆既有用途補ID）、25個音源ID、38個發行品ID、13個影片ID及27個平台URL。全目錄2,074作、5,641用途、4,767個歌曲ID。相對第504批正式產物，第505–506批共8作47筆不同用途（30新增、17更新），2,105份公開JSON中2,091份逐位元組一致；差異為上述8部及2019夏秋、2020冬春夏秋六季。2020夏季名冊已有69部各類作品，仍留《龍族拼圖》第三系列的綜藝段落與動畫本體界線待核。 [東京電視台2020夏分集](https://www.tv-tokyo.co.jp/anime/pad/episodes/index_32.html) · [U-NEXT第三系列公告](https://www.unext.co.jp/ja/press-room/new-spring-anime-lineup-2020-03-20)
@@ -19458,12 +19405,9 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 第537批資料提交 `5b1593f`。1作、2個既有用途實質更新，補3個音源、6個發行品及2個影片ID。2,118份公開API中2,117份一致，差異限該作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium核對2個搜尋錨點、2個季度搜尋結果、3個影片入口、3個香港曲位、10個發行關聯及手機無JavaScript鍵盤海報入口。YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第537批尚未發布。
 
-## 2026-11-19 第538批 2020冬名冊對照與一作漏收
+## 2026-11-19 第538批 2020冬日本TV名冊對照
 
 - 對照繁中新番與續播名冊、香港新番索引、日本原期新番表及2020冬公開快照。哥梅拉篇回到《名偵探柯南》第965–968話，吉塔篇已於第533批掛回正作。《胡蝶綺 ～若き信長～》已收2019夏，2020冬須另有原期新作證據才增季。《ポチっと発明 ピカちんキット》沿第528批的動畫加實寫邊界，待混合節目盤點；短WEB《薄明の翼》沿既有延後位置。《異種族レビュアーズ》官方列不同規制版本，成人版本依固定範圍排除，常規版需可核對的分級及版本後再判斷。來源索引各有涵蓋差異，本輪未閉合整季。 [繁中名冊](https://youranimes.tw/bangumi/202001) · [香港新番](https://acgsecrets.hk/bangumi/202001/) · [日本原期季表](https://www.kansou.me/archive/2020_winter.html) · [規制版本放送／配信公告](https://isyuzoku.com/onair/)
-- 新增 `curated-kadokawa-moominvalley-season-2-ja`《ムーミン谷のなかまたち シーズン2》日本語吹替TV版。13話，2020/1/9起NHK BS4K正規週四19:30 JST，第2話1/16；留待第一方逐話資料釐清末話原播日期。沿用已有日本首播版本的收錄方式，保留芬蘭／英國合製事實。唱片方的MØ〈Theme Song (I'm Far Away)〉與逐話來源指向的器樂開場可能是不同錄音，已找到第2季原聲帶及官方配信影片線索，仍要取得日本播出版本的實際音畫、掛字或權利方分話用曲確認錄音及位置。作品入口標歌曲用途待核對。 [日本權利方首播](https://www.moomin.co.jp/news/others/57803) · [第2話原播](https://www.moomin.co.jp/news/others/60629) · [中文權利方播出表](https://www.moomin.cn/2020/01/season-2-for-moominvalley-confirmed/) · [KADOKAWA發行](https://www.kadokawa.co.jp/product/video1251/) · [唱片曲表](https://lnk.to/MoominvalleyOST)
-
-第538批資料提交 `18ff155`，新增1作及2020冬入口，未新增歌曲或用途。2,119份公開API中2,117份與第537批一致，差異為新作品及2020冬JSON。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium核對作品待核對狀態、19:30時段、季度作品搜尋、缺圖替代與手機無JavaScript鍵盤導覽；沒有未核歌曲進入季度曲目搜尋。YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第538批尚未發布。
 
 ## 2026-11-19 第539批 Netflix首發季度與原播版本
 
@@ -19488,67 +19432,19 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 第541批資料提交 `ec23e3b`。1作、2筆既有用途實質更正，補5個音源、8個發行品、2個影片ID及1個香港曲目入口。2020冬回到100作，2019秋82作。2,119份公開API中2,116份一致，差異限該作品及兩季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium核對兩首全站搜尋錨點、兩季季度搜尋、9筆發行關聯、2個官方影片及兩季無JavaScript手機鍵盤海報入口，YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第541批尚未發布。
 
-
-## 2026-11-19 第542批 《ムーミン谷のなかまたち》逐話播出及版本證據
-
-- `curated-kadokawa-moominvalley-season-2-ja`。日本權利方確認第二季第10話〈ムーミンパパの島〉於2020/3/12在NHK BS4K播出。Apple TV日本頁列第11話3/19及第13話2021/12/4，頁面為平台不同語言版本。日本官網分開列出末話〈ムーミン谷の十一月〉，日本語版影碟確認全13話。原期第11–13話的實播時刻仍需BS4K原期節目表或權利方逐話播出記錄。 [日本權利方第10話](https://www.moomin.co.jp/news/others/63502) · [Apple TV日本第11話](https://tv.apple.com/jp/episode/umc.cmc.kn5bxo6h5yp816pbci8wcyed) · [日本官網末話](https://www.moomin.co.jp/moominvalley-animation/broadcast_info/) · [KADOKAWA日本語版影碟](https://www.kadokawa.co.jp/product/video1251/)
-- Sony第一季原聲帶明示MØ的系列題曲。第二季有獨立原聲帶及原版島篇歌唱段落記錄，製作方的開場動畫作品頁可定位片頭畫面；其中沒有日本語第二季的逐話曲名、演唱署名或實播位置。取得日本語版或標示語言版本的正片掛字、可比對的音畫，或製作方逐話曲表後再補。 [Sony第一季原聲帶](https://www.sonymusic.co.jp/artist/SoundTrackInt/info/506726) · [原版製作與島篇音樂記錄](https://nordiskfilmogtvfond.com/news/stories/moominvalley-season-2-acquired-by-sf-studios-nrk-ruv) · [開場影像製作方](https://pinata.fi/portfolio/moominvalley-opening-titles/)
-- 原期線性電視月表及平台分集有日期和首重播差異。東京電視台音樂部將《パウ・パトロール》冬季檔列選播重播，台方分集列第27–38話原播時段，需比較之前的單話首播。週日下一檔《アバローのプリンセス エレナ》地上波至3/29，另有較早日本Disney Channel版本。兩作列下批查證範圍。 [東京電視台音樂部3月表](https://www.ttmnet.co.jp/theme/2020-3/) · [《パウ・パトロール》冬季分集](https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_30.html) · [《エレナ》地上波分集](https://www.tv-tokyo.co.jp/anime/disney_elena/episodes/)
-
-第542批資料提交 `02c70f0`。1作播出資訊更新，2020冬仍有100作，作品維持歌曲用途待核對，沒有新增歌曲或用途。2,119份公開API中2,117份一致，差異限該作品及2020冬。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對原播日期及來源、作品頁、季度搜尋與手機無JavaScript鍵盤海報入口，YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第542批尚未發布。
-
-
-## 2026-11-19 第543批 東京電視台日語版本、新話與片頭
-
-- `curated-paramount-paw-patrol-season-2-ja`《汪汪隊立大功》第2季。日本配信第1話約23分鐘，對應東京電視台第27話，2020/1/12首播。依分集收第27–52話，週日07:00 JST，冬季至3/29第38話，4/5第39話至7/5第52話跨春夏，7/12起另播精選及短篇。台方同期音樂部月表仍列精選重播及無曲，逐話、季別和節目公告支持這批分集確曾播出。後來銷售的主題曲及電視台現行曲表不能決定當期的英語／日語用曲。待取得第27話、各季交界或第52話的腳本掛字、可播放日語首輪或同版影碟核對。 [東京電視台首段](https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_30.html) · [東京電視台末段](https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_28.html) · [授權平台第二季首話](https://tv.apple.com/jp/episode/umc.cmc.43e3iluxy1iamd2dy0tkw7yv2) · [精選公告](https://www.tv-tokyo.co.jp/anime/pawpatrol/news/index_5.html)
-- `curated-disney-elena-of-avalor-season-3-ja`《艾蓮娜公主》第3季。日本Disney Channel首輪交叉記錄從2019/12/14開始。東京電視台地上波於2020/2/9–3/29播出第55–62話，日本Disney+的第3季第1話是地上波第55話，第3季第9話是地上波第62話。日本Disney Channel在4月仍有新話。2020冬地上波片頭 `elena-of-avalor-season-3-japanese-tv-op-1`〈アバローのプリンセス エレナ オープニングテーマ〉依電視台音樂部3月表與Disney日本語片頭掛季，唱片署名en。作詞曲及日語譯詞據JOYSOUND核對，補日本語歌唱、卡拉OK、3個發行及5個曲位、Disney日本片頭影片及Amazon Music日本曲位。影片核至標題及發布者，香港Apple日語版測試入口回404。前後季、逐話實際剪輯、日語片尾及香港錄音待相應版本的正片、掛字或逐話曲表。 [Disney+日本季別](https://www.disneyplus.com/ja-jp/browse/entity-5d2b13bf-d8de-4877-9b8d-2f73419757d0) · [香港正式片名](https://www.disneyplus.com/zh-hk/browse/entity-5d2b13bf-d8de-4877-9b8d-2f73419757d0) · [東京電視台地上波分集](https://www.tv-tokyo.co.jp/anime/disney_elena/episodes/) · [當期曲表](https://www.ttmnet.co.jp/theme/2020-3/) · [日本權利方CD](https://www.universal-music.co.jp/p/uwcd-8190/) · [日本數位曲位](https://music.amazon.co.jp/tracks/B07HM3YDMJ)
-
-第543批資料提交 `c64071b`。新增2作、1筆片頭用途、1個歌曲ID、2個音源、3個發行品、1個影片與1個日本曲目入口。2019秋83作、2020冬102作、春94作、夏76作。2,121份公開API中2,115份一致，差異限兩作和四季。2019秋舊AniList來源映射限有該識別的資料，新權利方識別項目採自身核實來源。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對2個公開詳情、1個全站搜尋錨點、3次限定季度曲目搜尋、2次繁中海報搜尋、6個手機無JavaScript鍵盤入口、3個發行入口及同意前零YouTube連線。備份已成功還原，274個追蹤檔案逐一比對一致。第543批尚未發布，PR #308固定候選的Workers預覽仍失敗。
-
-
 ## 2026-11-19 第544批 日本付費電視首輪及後續地上波曲表
 
 - `curated-toei-miraculous-season-3-ja`《瓢蟲少女》第3季。日本Disney Channel首輪交叉記錄為2019/11/9起，2020/2/15 19:30的新話公告與劇情對應〈リフレクドール〉。公告原連結目前回403，公開留存保留發布者、日期及預告正文。東映確認2020/12/12第76–78話首次播出及第三季終回，2022/4/8另有BS11雙語編排。電視大阪及東京電視台2023/4/29、9/23節目表列 `miraculous-season-3-japanese-tv-op-1`〈ミラキュラス〉由メロディー・チューバック演唱，據此掛2023春、夏。2020年首播版、BS11雙語版或其他季度須取得原期逐話音畫或曲表再掛；2023電影原聲帶混音和巴黎篇官方影片各有別版，待確定的日本語TV原錄音才補發行。 [香港正式片名](https://www.disneyplus.com/zh-hk/browse/entity-8220ebf4-997c-4874-816d-4fdaa82c4ebb) · [冬季新話公告留存](https://twfan.net/hashtag/%E3%83%9F%E3%83%A9%E3%82%AD%E3%83%A5%E3%83%A9%E3%82%B9/old/2) · [首輪終回](https://www.toei-anim.co.jp/tv/miraculous/news/2020112702.php) · [電視大阪分集曲表](https://www.tv-osaka.co.jp/onair/detail/oaid%3D2121924/) · [東京電視台終話曲表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202309/26841_202309230730.html)
-- `curated-disney-ducktales-2017-season-2-ja`《新唐老鴨俱樂部》第2季。日本Disney Channel 2019/6/9由第26話〈危険なゲーム大会！〉起播，日本Disney+分季第1話為同題。當期通常週末11:00 JST，2020年2月有同系列時段，4/19第49話於16:30首播，前段另排第42–48話。香港播出依ViuTV年度申報和同期索引交叉核對，香港迪士尼採正式繁中名。原英語片頭和日方官方MV已找到權利方入口，待對照日語、粵語的演唱及日本冬季實際新話後再加入該版用曲。 [日本首話編排](https://www.diversitymedia.jp/news/disney_201906/) · [日本Disney+第二季](https://www.disneyplus.com/ja-jp/browse/entity-4da7fce0-527a-41c8-b6ef-35b2aae22143) · [第49話初播](https://www.cinema-life.net/p200415_dtpr/) · [香港ViuTV公開申報](https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf) · [迪士尼日本題曲影片](https://www.youtube.com/watch?v=rfsLG1RlX3g)
 - 《GO! 阿童木》日本正篇在「プリスクタイム」與《エッグカー》兩段併播，各自約15分鐘節目槽；保留於短篇階段核對原來兩個版本的主題曲及2020輪替。 [東京電視台播出公告](https://prtimes.jp/main/html/rd/p/000000990.000002734.html) · [手塚製作原播記錄](https://tezukaosamu.net/jp/anime/163.html)
 
-第544批資料提交 `dafb7e4`。新增2作、1筆片頭用途、1個歌曲ID及1筆日語電視演唱錄音。2020冬104作。2,123份公開API中2,114份一致，差異限兩作與七季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對2個詳情、1個全站歌曲錨點、6次限定季度曲目搜尋、2次繁中海報搜尋及8個手機無JavaScript鍵盤入口，確認YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第544批尚未發布。
+第544批資料提交 `dafb7e4`。保留《瓢蟲少女》第3季一筆已核日本電視片頭。
 
-
-## 2026-11-19 第545批 2020冬 Disney Channel 首輪編排與配樂
-
-- `curated-disney-the-owl-house-season-1`《奇幻貓頭鷹小屋》第1季。美國 Disney Channel／DisneyNOW 2020/1/10首播，月表列20:46 EST，D23對外時間20:45。第1–10話為1/10–3/20，第11–19話為7/11–8/29。日本7/23先行，8月起常規播出。作曲家 TJ Hill 分別連向迪士尼原始片頭及片尾音樂，核實 `the-owl-house-season-1-op-1`〈The Owl House Main Title Theme〉與 `the-owl-house-season-1-ed-1`〈The Owl House End Credit Theme〉，各有一筆獨立無演唱TV錄音及官方影片，掛2020冬、夏。影片核對到標題、發佈者與作曲家指向。待取得原播逐話版本後確認第18話片頭變化是否涉及音軌、其他特殊話及本地版，原錄音商業發行和香港音樂平台尚待權利方曲目證據。 [美國首播月表](https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf) · [美國續播月表](https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/) · [日本放送番組審議會](https://lumiere-a.akamaihd.net/v1/documents/council035_b0da3e6a.pdf) · [香港正版作品頁](https://www.disneyplus.com/zh-hk/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13) · [作曲家曲目與原片連結](https://www.tjhmusic.com/projects)
-- `curated-lucasfilm-star-wars-resistance-season-2`《星球大戰：抵抗勢力》第2季。美國Disney Channel及DisneyNOW自2019/10/6 22:00 ET/PT播出；2020/1/26〈The Escape〉兩部分合併編排，Disney XD於18:00 EST首播，Disney Channel於22:00 EST播出。日本Disney XD第二季另於2019年12月起播出。製作資料可核到 Michael Tavera 的主題與配樂名義，待取得第2季原播版片頭／片尾音畫或權利方分集曲表後核實題名及各曲位。 [Lucasfilm季首](https://www.starwars.com/news/star-wars-resistance-season-2-trailer) · [Lucasfilm終回](https://www.starwars.com/news/christopher-sean-and-suzie-mcgrath-interview-star-wars-resistance) · [香港正版作品頁](https://www.disneyplus.com/zh-hk/browse/entity-01ad3367-1b24-458c-a8fb-a245226ea237)
-
-第545批資料提交 `15454eb`。新增2作、2筆用途、2個歌曲ID、2筆TV錄音及2支官方影片。2019秋、2020冬、2020夏分別85、106、77作。2,125份公開API中2,120份一致，差異限兩作與三季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對2個詳情、2個全站歌曲錨點、4次季度歌曲搜尋、2次繁中海報搜尋及4個手機無JavaScript鍵盤入口，YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第545批尚未發布。
-
-
-## 2026-11-19 第546批 美國原播終段、插曲與香港原聲帶曲位
-
-- `curated-disney-big-hero-6-the-series-season-2`《大英雄聯盟》第2季。美國Disney Channel 2019/5/6 15:30 EDT以〈Internabout〉首播，常規正篇約21分鐘，9月續播，12/7播出〈The Present〉；2020/2/8 10:00–11:00 EST Disney XD合播終回〈Legacies – Parts I & II〉。`big-hero-6-the-series-season-2-op-1`〈Big Hero 6 Main Title〉及`big-hero-6-the-series-season-2-ed-1`〈End Credits〉保存Adam Berry的題名及作曲，掛已有入口的2019夏秋及2020冬。第4話〈Something’s Fishy〉的`big-hero-6-the-series-season-2-in-1`〈Gonna Go Good〉於2019/5/9播出，有作曲家作品集、同期原播表、分集演唱交叉與正式提名署名。目前由作品頁及全站搜尋查閱，新增2019春公開季度後補入當季。正片逐話剪輯、香港音軌與獨立商業音源待相應權利方資料。 [香港正式片名](https://www.disneyplus.com/zh-hk/browse/entity-79f140c4-c27f-42ab-8c8b-7a277e17ac76) · [Disney季首及第4話](https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/) · [Disney終回](https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf) · [Adam Berry官方曲目](https://www.adamberrycomposer.com/music) · [Daytime Emmy創作署名](https://theemmys.tv/wp-content/uploads/2020/06/Daytime-Nominations-with-Credits-FINAL.pdf)
-- `curated-disney-rapunzels-tangled-adventure-season-3`《魔髮奇緣》第3季。美國Disney Channel／DisneyNOW 2019/10/7 13:00 EDT首播，常規正篇約23分鐘；2020/1/26第12話〈Cassandra’s Revenge〉07:05–07:50 EST，3/1第17話〈Plus Est En Vous〉07:06–08:12 EST。依DisneyNOW原編17話保留播出用途，Disney+將長篇拆段。新增`rapunzels-tangled-adventure-season-3-op-1`〈Wind in My Hair〉及`rapunzels-tangled-adventure-season-3-ed-1`〈More of Me〉，掛2019秋與2020冬，另列原正式單曲；逐話及結尾實播剪輯、日語與香港配音版本仍待核對。 [香港正式片名](https://www.disneyplus.com/zh-hk/browse/entity-5185259f-9c95-4ef3-86f2-9c3dfb2c697e) · [DisneyNOW原編分集](https://disneynow.com/show/46085612-f255-4c92-85a5-5f817aff8917/season-3) · [季首](https://d23.com/watch-an-exclusive-clip-from-the-season-premiere-of-rapunzels-tangled-adventure/) · [1月新歌與分集](https://d23.com/exclusive-mandy-moore-singing-a-new-song-in-rapunzels-tangled-adventure/) · [3月終回](https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf)
-- `rapunzels-tangled-adventure-season-3-in-1`至`rapunzels-tangled-adventure-season-3-in-10`保留原英語插曲位置。2019秋在季首加入〈Waiting in the Wings (Reprise)〉、〈Crossing the Line〉、〈Stronger Than Ever Before〉，在第9話加〈Bigger Than That〉；2020冬在第12話加〈The Girl Who Has Everything〉、其Reprise及〈Nothing Left to Lose〉，在第17話加〈Through It All〉、〈I’d Give Anything〉及〈Life After Happily Ever After (Finale)〉。第12話兩段同曲共用歌曲ID，原聲帶位置與用途序號各自保留，10個原聲帶曲位均可從香港Apple Music查到。影片核實標題、官方發布名義及資料來源。原期音畫與原聲帶母帶關係，及不同語種錄音的逐集使用，待對應節目或權利方資料。 [作曲家正式曲表](https://www.alanmenken.com/work/tangled-the-series) · [Disney Channel官方歌曲合集標記](https://www.youtube.com/watch?v=vp2wt1s2y0Q) · [Universal Music英語版發行曲序](https://www.universal-music.co.jp/p/00050087462895/) · [香港Apple Music原聲帶](https://music.apple.com/hk/album/rapunzels-tangled-adventure-plus-est-en-vous-music/1500338058)
-
-第546批資料提交 `92e0d6d`。新增2作、15筆用途、14個不同歌曲ID、12筆商業錄音、3個獨立發行、3支影片及13筆香港平台連結。2019夏、秋、2020冬分別53、87、108作。2,127份公開API中2,122份一致，差異限兩作與三季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、15張歌曲卡、13個香港連結、5個全站錨點、6次季度歌曲搜尋、2次繁中海報搜尋及5個手機無JavaScript鍵盤入口，YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第546批尚未發布。PR #308固定候選仍為 `91e3456`，quality通過、Workers預覽失敗；遠端main仍為第518批。
-
-
-## 2026-11-19 第547批 《艾蓮娜公主》第3季美國原播及英語歌曲
-
-- 沿用`curated-disney-elena-of-avalor-season-3-ja`的作品路徑及既有日語片頭`elena-of-avalor-season-3-japanese-tv-op-1`。日本付費台由2019/12/14起，東京電視台2020/2/9–3/29週日07:30 JST播第55–62話。另補美國Disney Channel／DisneyNOW 2019/10/7 12:30首播、第3季2020冬三部新話及Disney Junior 8/23 19:00–20:30 EDT合編終回。片頭`elena-of-avalor-season-3-japanese-tv-op-2`〈Elena of Ávalor (Main Title)〉為Gaby Moreno原英語演唱，與日語版共用作曲身分，各有用途與錄音。英語版掛2019秋、2020冬春夏；日語版維持2020冬。香港原聲帶及權利方Art Track另列，逐話剪輯與日本、香港的其他放映版仍待核對。 [美國季首與演唱署名](https://d23.com/elena-of-avalor-gets-a-season-three-premiere-date/) · [美國終回與演唱署名](https://d23.com/disneys-elena-of-avalor-to-end-with-a-magical-prime-time-special/) · [香港英語原聲帶曲位](https://music.apple.com/hk/song/elena-of-%C3%A1valor-main-title/1440653145)
-- `elena-of-avalor-season-3-japanese-tv-in-1`至`elena-of-avalor-season-3-japanese-tv-in-13`保存已核分集。2019秋有〈The Magic Within〉的〈Love Always〉、〈Captain Mateo〉的〈Love Always (Reprise)〉及〈In Charge〉、〈Festival of Lights〉的〈On Hanukkah〉。2020春有〈Sweetheart’s Day〉的〈Something in the Air〉及同名曲；夏有〈The Lightning Warrior〉的〈Way Back When〉、〈To Queen or Not to Queen〉的〈Choose Your Path〉，及原合編終回〈Coronation Day〉的〈Long May She Reign〉、〈Fit to Be Queen〉、〈The Four Shades of Awesome〉、〈Never Too Late〉、〈Guiding Light〉。〈Love Always〉兩個劇內用途共用歌曲ID；發行只關聯已核錄音。原聲帶所含較早季用曲與配樂依本批分集證據保留待對帳；〈Sweetheart’s Day〉其他唱段等待同版音畫或曲表。 [官方分集](https://www.disneyplus.com/browse/entity-5d2b13bf-d8de-4877-9b8d-2f73419757d0) · [香港原聲帶及曲序](https://music.apple.com/hk/album/disney-junior-music-elena-of-avalor-a-royal-celebration/1529156109) · [官方〈Something in the Air〉影片](https://www.youtube.com/watch?v=yYekg778bLg)
-- 2020冬確認1/10〈The Birthday Cruise〉及2/7〈Giant Steps〉的Disney Channel 13:30 EST原播，3/6〈Shooting Stars〉的日期及對應正版分集。候選曲位分別為前者〈Give It a Whirl〉及生日歌重唱、中者〈Master of My Fate〉或〈Everything’s Fine〉名義、後者〈Put Your Mind to It〉。授權分集頁確認作品及編號，仍待同版掛字、可合法查閱的片段或權利方逐話曲表確認各唱段、題名及版本。電視常規號、Disney+拆節目編號與日本地上波總集數各自保留。 [1月播出表](https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf) · [2月播出表](https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf) · [逐話日期交叉核對](https://thetvdb.com/series/elena-of-avalor/seasons/official/3)
-
-第547批資料提交 `efd36c5`。更新1作，新增14筆用途、12個歌曲ID、11筆商業錄音、2個發行品、4支影片及11個香港平台曲位。2019秋、2020冬春夏分別87、108、95、78作。2,127份公開API中2,122份一致，差異限一作與四季。修正初次驗證發現的夏季編號後，Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對作品詳情、15張歌曲卡、11個香港曲位、5個全站錨點、8次限定季度搜尋、繁中海報搜尋及4個手機無JavaScript鍵盤入口；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第547批尚未發布。
-
-
-## 2026-11-19 第548批 《寶可夢 太陽&月亮》日美用曲及《新雷鳥神機隊》第3季
+## 2026-11-19 第548批 《寶可夢 太陽&月亮》日本及美國播出版本用曲
 
 - `curated-97634`《寶可夢 太陽&月亮》。日本東京電視台2016/11/17 18:55 JST起播，2018/10起移至週日18:00，2019/11/3播第146話。新增`pocket-monsters-sun-and-moon-op-1`至`op-4`、`ed-1`至`ed-5`及`in-1`，記錄四首片頭、五首片尾及終話劇中〈キミの冒険〉。第146話維持〈タイプ：ワイルド〉片尾，無常規片頭。保存〈ブレス〉第82–86話使用及其後恢復〈ジャリボーイ・ジャリガール〉的範圍。20週年〈めざせポケモンマスター〉及〈タイプ：ワイルド〉沿用既有歌曲身分，保留各自版本。已核香港平台曲位另列；〈未来コネクション〉香港頁署名與日版資料待權利方釐清。第1至90話涉及尚未開放的部分季度，現可經作品與全站搜尋查閱。 [香港正版作品資料](https://hk.portal-pokemon.com/tv-film/6/) · [日本分集與曲位](https://cal.syoboi.jp/tid/4389/subtitle) · [東京電視台第146話](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201911/24340_201911031800.html) · [Sony原曲及發行曲序](https://www.sonymusic.co.jp/PR/pokemon/info/546687)
 - 美國Disney XD第22季`Sun & Moon—Ultra Legends`由2019/3/23 09:00 ET/PT首播，2020/3/7第54話對應日本第146話。新增`pocket-monsters-sun-and-moon-op-5`、`ed-6`，保存〈The Challenge of Life〉原英語常規片頭與伴奏常規片尾，共用歌曲身分，各有TV錄音。官方影片確認標題、權利方及片頭名義；英語第54話無常規片頭，終回片尾音軌待合法同版音畫或原播曲表。2020冬的用途屬美國版。 [美國季首公告](https://press.pokemon.com/en-AU/Pokemon-the-Series-Sun-MoonUltra-Legends-Coming-to-Disney-XD-USNew-Tra) · [官方英語片頭](https://www.youtube.com/watch?v=LEZCmwCdn2w)
-- `curated-itv-thunderbirds-are-go-season-3`《新雷鳥神機隊》第3季。英國ITV 2018/3/31首播，2019年5–7月續播，2020/1/4–2/22 08:30 GMT播第19–26話；終回兩段為2/15、2/22。日本2020/7/5先行，8/1起08:30播雙語版及19:30播字幕版，續至2021冬。繁中名稱採台灣公視用名。第3季主題曲名、原播片頭片尾及第26話特殊用曲須核對英國原播掛字、授權同版或權利方分集曲表。 [英國ITV分集](https://www.itv.com/watch/thunderbirds-are-go/2a2131/2a2131a0077) · [官方終段預告](https://www.youtube.com/watch?v=FZi2EadeS2A) · [日本首播公告](https://www.superdramatv.com/new/2020/07/-are-go-3-1.html) · [台灣公視年表](https://info-material.pts.org.tw/prg_manage/2021pts_all.pdf)
 
-第548批資料提交 `94d3ffd`。新增2作、12筆用途、涉及10個歌曲ID、14筆錄音、5個發行品、2支官方影片及7筆香港曲目連結。2020冬110作。2,129份公開API中2,120份一致，差異限兩作與七季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、12張歌曲卡、7個香港連結、5個全站錨點、8次限定季度歌曲搜尋、2次繁中海報搜尋及10個手機無JavaScript鍵盤入口；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第548批尚未發布。
-
+第548批資料提交 `94d3ffd`。保留《寶可夢 太陽&月亮》12筆用途，分列日本原版和美國播出版。
 
 ## 2026-11-19 第549批 《爆丸 裝甲聯盟》國際編排及日本四個曲位
 
@@ -19558,91 +19454,13 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 第549批資料提交 `718975d`。新增1作及4筆用途，更新1筆既有用途，涉及4個歌曲ID，新增10筆錄音、3個發行品、1支官方MV及10筆香港曲目連結。2020冬、春、夏、秋與2021冬分別111、96、80、100、101作。2,130份公開API中2,123份一致，差異限兩個作品及五季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、四張新增歌曲卡、10個香港曲位、5個全站錨點、7次季度搜尋及5個手機無JavaScript鍵盤入口；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第549批尚未發布。PR #308固定候選仍為 `91e3456`，quality通過、Workers預覽失敗；遠端main仍為第518批。
 
-
-## 2026-11-19 第550批 亞洲原播、歐洲冬季新話及原英語歌曲
-
-- `curated-dreamworks-cleopatra-in-space`《克麗奧佩脫拉太空遊記》正片約22分鐘。DreamWorks亞洲原播2019/11/25，含香港，台灣公告18:00。波蘭teleTOON+ 2020/2/17於平日16:25播出，3/4第13話〈Rescue〉，美國Peacock 4/15先行、7/15全美上架，11/19及2021/1/14續發。新增`cleopatra-in-space-op-1`〈Written in the Stars〉、Lilimar原英語演唱、Jeannie Lurie與Gabriel Mann合併詞曲署名；以及`cleopatra-in-space-ed-1`〈Cleo in Space End Credits〉，以原配樂團隊同期發布的片尾示例列入2019秋。波蘭片頭的唱者線索、官方本地曲名及音軌仍待原期掛字或Studio Sonica曲表；片尾的個別創作署名及逐話音軌待核。 [亞洲播出與繁中片名](https://gnn.gamer.com.tw/detail.php?sn=188900) · [配樂團隊曲目及亞洲首播](https://www.futurevega.com/blog/cleopatra-in-space) · [Lilimar 訪談](https://www.latimes.com/espanol/entretenimiento/articulo/2020-08-13/lilimar-es-la-reina-latina-de-cleopatra-in-space) · [波蘭同期報道](https://polski-dubbing.pl/2020/02/22/kleopatra-i-kosmos-obsada-polskiego-dubbingu-teletoon/) · [Peacock 正版分集](https://www.peacocktv.com/watch-online/tv/cleopatra-in-space/8372790178399687112)
-- `curated-warner-scooby-doo-and-guess-who-season-1`。美國2019/6/27 Boomerang 網播先行，7/8 Cartoon Network 電視首播，常規約22分鐘；2020/7/2美國Boomerang上架第14–26話。英國 Boomerang 2020/2/18–21第15–18話有播出記錄，官方片段確認相應分集；英國電視逐話時刻待當期節目表。新增`scooby-doo-and-guess-who-season-1-op-1`〈Scooby-Doo, Where Are You?〉，David Poe新唱，Vivek Maddala製作與錄製，沿用David Mook、Ben Raleigh原曲身分。新詞精確署名、片尾和香港正式譯名待權利方。 [官方網播預告](https://www.youtube.com/watch?v=A5Oo4C_cGI0) · [美國 Cartoon Network 首播同期片段](https://www.youtube.com/watch?v=EjBnl0O4qqU) · [英國 Boomerang 分集片段](https://www.youtube.com/watch?v=QqdlM2epzyE) · [原節目播出分集交叉](https://scoobysnaxepguides.weebly.com/scooby-doo-and-guess-who.html) · [片頭製作與演唱者訪談](https://scoobydoocast.com/39-interview-with-vivek-maddala-and-david-poe-part-one)
-- 新增`scooby-doo-and-guess-who-season-1-in-1`〈Love’s Curse〉、`in-2`〈The Mystery Machine’s on Broadway!〉及`in-3`〈Do-Over Prom〉。分別核對〈I Put a Hex on You!〉的The Hex Girls演出，以及〈The High School Wolfman’s Musical Lament!〉的開場與舞會唱段，掛已有英語分集證據的2020春、夏。美國網播第25話與英國NOW第26話以原分集標題對應。西班牙冬季先行的實際音軌、另五個音樂劇唱段及逐曲創作署名，待原播掛字、權利方曲表或合法同版片段。 [授權樂隊分集](https://tv.apple.com/gb/episode/i-put-a-hex-on-you/umc.cmc.1dvcy5ekazj9townu3ujsqpde?showId=umc.cmc.18a7401ycr41ybx0a8b08eggj) · [授權音樂劇分集](https://www.nowtv.com/watch/scooby-doo-and-guess-who/iYEQYZfjU8MAZGGg5yEjpj/seasons/1/episodes/the-high-school-wolfmans-musical-lament-episode-26/A5EK3TJRBXpuV3gtwmo2f) · [插曲及演唱交叉](https://scoobysnax1.weebly.com/music.html)
-
-第550批資料提交 `6575cec`。新增2作、6筆用途、6個歌曲ID、2筆原英語TV錄音及1筆製作團隊曲目示例入口。2020冬113作。2,132份公開API中2,123份一致，差異限兩個作品及七季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、6張歌曲卡、6個全站錨點、9次季度歌曲搜尋、2次海報搜尋、11個手機無JavaScript鍵盤入口及片尾來源連結；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第550批尚未發布。
-
-
-## 2026-11-19 第551批 PBS／CBC 雙段動畫與 Cartoon Network 冬季編排
-
-- `curated-wgbh-molly-of-denali-season-1`。美國2019/7/15 PBS Kids電視和數位首播，加拿大2019/9/2 CBC Kids開播。原半小時兩段各約11分鐘動畫及實寫中場；PBS 2019/10/7秋季續播，2020/2/10–14有新話，最後四個常規單集為2021/3/22–25。按播出表交叉與製作號掛季。新增`molly-of-denali-season-1-op-1`〈Molly of Denali Theme Song〉，由Pamyua的Phillip Blanchett與Karina Moeller演唱，Brennan Firth演奏，保存已核創作署名、原電視錄音及PBS官方影片。首季掛字式片尾、其他創作署名與商業曲位待首季曲表。 [PBS 原播與製作公告](https://www.pbs.org/about/about-pbs/blogs/news/pbs-kids-announces-molly-of-denali-premiering-july-15-2019/) · [共同製作方的加拿大原播公告](https://www.newswire.ca/news-releases/thunderbird-entertainment-announces-its-largest-ever-fall-lineup-in-company-history-846184785.html) · [Pamyua 的共同創作署名](https://www.pamyua.com/about) · [PBS官方片頭影片](https://www.youtube.com/watch?v=Kd3qammj7LY)
-- `molly-of-denali-season-1-in-1`〈Seal Dance〉採PBS使用的英語名稱，位置為製作號123前半動畫內Molly、Nadia與Unangax舞團的舞台表演。加拿大2020/1/25、美國2020/2/11，與同期原版實寫中場分開記錄。正片場景與PBS片段簡介核對；傳統歌曲原語題名及單獨演唱名義待權利方片尾或曲表。〈Grandpa’s Drum〉和〈Crane Song〉可確認劇內表演情境，曲名與錄音署名待原期同版。 [PBS第1季製作編號與分段](https://pressroom.pbs.org/-/media/pressroom/public-assets/programs/pbs-kids/molly-of-denali/molly-of-denali-episode-descriptions_101-139_final_012820.pdf) · [PBS會員台歌曲片段與表演名義](https://www.wvia.org/shows/molly-of-denali/clip/molly-dances-seal-dance-sxrgyw) · [官方片段](https://www.youtube.com/watch?v=mngL6WnTxFw)
-- `curated-warner-thundercats-roar`《霹靂貓 轟》。美國Cartoon Network App 2020/1/10先行，2/17預播，2/22 10:30 ET以〈Exodus〉雙段組合正式開播；冬季常併播，秋季亦有單段。台灣卡通頻道6/13 10:00首播。新增`thundercats-roar-op-1`〈ThunderCats ROAR! Theme〉，Andi Gibson、Matthew Janszen演唱；`op-2`〈Thunder NeKo〉，神聖かまってちゃん演唱、の子創作。後者逐話掛字線索指向3/14〈Panthro Plagiarized!〉及〈Warrior Maiden Invasion〉，部分總表另列第3–6段，兩款片頭與〈Exodus〉待同版音畫核對。新增`thundercats-roar-in-1`〈Grune’s Tune〉，Thundercat為11/20第50段〈Grune〉所寫及演唱；製作末段與12/5正式播出終回分開。正式片尾、同版影音及香港曲位仍待原播、權利方資料。 [Warner權利方作品資料](https://press.wbd.com/emea/media-release/cartoon-network-19/thundercats-return-all-new-animated-series-thundercats-roar) · [首播同期紀錄](https://comicbook.com/tv-shows/news/thundercats-roar-cartoon-network-premiere-date-episode-synopsis/) · [授權節目分集](https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw) · [台灣首播公告報道](https://news.agentm.tw/113734/) · [原作製作團隊 Comic-Con 活動](https://www.youtube.com/watch?v=jTEUVAhh2XQ)
-
-第551批資料提交 `d9294c3`。新增2作、5筆用途、5個歌曲ID、1筆原電視錄音及2支PBS官方影片。2020冬115作。2,134份公開API中2,125份一致，差異限兩作及七季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、5張歌曲卡與全站錨點、7次季度搜尋、2次海報搜尋及10個手機無JavaScript鍵盤入口；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第551批尚未發布。PR #308固定候選仍為 `91e3456`，quality通過、Workers預覽失敗；遠端main仍為第518批，正式站2020冬JSON有80作，第528批《爆丸 星域爭霸》與第551批《霹靂貓 轟》API皆回404。
-
-## 2026-11-19 第552批 Cartoon Network、ViuTV 與 Nickelodeon 半小時動畫
-
-- `curated-zag-power-players`《能量戰士》。美國 Cartoon Network 2019/8/30數位先行、9/21 12:30 ET以〈Unboxing〉兩段正式播出，2020冬從1/19續播，首輪52段至6/14。德國KiKA 2020/3/16起平日17:35雙段。香港通訊事務管理局收錄的廣播表確認ViuTV 99台的正式繁中名及2021年9至12月播出，日期與16:30–17:00時段見節目索引。新增`power-players-op-1`原英語片頭及`power-players-ed-1`同曲器樂片尾，保留Cash Callaway主唱與Jeremy Zag原掛字轉錄署名。同期掛字、各地區音軌、Netflix及〈Unboxing〉重傳剪輯、〈Sand Trap〉、〈The Scratch Pack〉及〈Knockout〉的劇中曲題名與演出待權利方原版比對。 [原授權公告](https://www.prnewswire.com/news-releases/big-action-from-a-toys-eye-view-300793021.html) · [德方授權及雙集時段](https://licensing.wdr-mediagroup.com/marke/power-players/) · [香港廣播名冊](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf) · [原英語片頭及片尾交叉](https://power-players.fandom.com/wiki/Power_Players_%28theme_song%29)
-- `curated-nickelodeon-the-casagrandes-season-1`。2019/10/14 13:30 ET/PT正式電視首播，〈Going Overboard〉9/27先行；Paramount+首季列表續至2020/11/25。新增`the-casagrandes-season-1-op-1`〈The Casagrandes Theme Song〉，Ally Brooke演唱、Germaine Franco作曲，Franco、Michael Rubiner、Lalo Alcaraz作詞。電視片頭、正式加長影音、加長單曲／Art Track分開；加長版另有Izabella Alvarez聲演。新增片尾`the-casagrandes-season-1-ed-1`〈The Casagrandes End Credit Song〉與Jonathan Hylander署名，首季2019秋及2020冬存證，後續各季區段待原播比對。新增`the-casagrandes-season-1-in-1`〈I’ll Be There For You〉，第11組前段〈V.I.Peeved〉，分段第20，2020/3/14 11:00 ET/PT；Ally Brooke以Alisa Barela身分主唱，Jonathan Hylander創作。其他聲演、片尾錄音及〈Croaked〉劇內曲的正式題名待原曲表。 [原播公告](https://ir.paramount.com/node/46116/pdf) · [第1季分集](https://www.paramountplus.com/shows/the-casagrandes/episodes/1/) · [片頭作曲家](https://www.germainefranco.com/project/the-casagrandes/) · [Nickelodeon插曲公告存檔](https://www.nickalive.net/2020/03/pop-star-ally-brooke-guest-stars-on-new.html) · [香港單曲](https://music.apple.com/hk/album/the-casagrandes-theme-song-feat-ally-brooke/1655414179?i=1655414201)
-- `curated-nickelodeon-its-pony-season-1`。〈Plants!〉2019/12/25數位先行，12/26上YouTube，2020/1/25排入電視。Nickelodeon第1季2020/1/18 11:30 ET/PT以〈Nosy Pony／Beatrice〉正式開播，正片約22–23分鐘；12/5有22分鐘〈Bramley Holiday〉，首季其餘4段2022/1/17、1/20移至Nicktoons首播。新增`its-pony-season-1-op-1`〈It’s Pony Theme〉，Jon Wygens作曲。官方片頭與1分31秒發行音源分開，單曲和首季精選共用一筆商業音源，依曲位時長、原錄音權及母帶署名對照。數位先行實際片頭、演唱與詞／編署名、片尾和〈Bramley Holiday〉劇內唱段待原期掛字或曲表。 [製作方](https://www.blue-zoo.co.uk/projects/its-pony/) · [同期電視表](https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1) · [作曲家](https://www.jonwygens.com/newpage) · [Nicktoons片頭](https://www.youtube.com/watch?v=L29MNlW6yAA) · [香港單曲](https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590) · [香港首季精選](https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827)
-
-第552批資料提交 `9afad83`。新增3作、6筆用途、5個歌曲ID、4個音源ID、3個發行品、6個官方影片／Art Track及3個香港直接曲位。2020冬118作。2,137份公開API中2,125份一致，差異限三作詳情及九季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對3個詳情、6張歌曲卡與全站錨點、9次季度搜尋、3次海報搜尋、17個手機無JavaScript鍵盤入口及3個香港曲位；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第552批尚未發布。
-
-## 2026-11-19 第553批 《柏靈頓：熊熊歷險記》與《Powerbirds》
-
-- `curated-studiocanal-the-adventures-of-paddington-season-1`《柏靈頓：熊熊歷險記》。美國 Nickelodeon 2019/12/20 12:30 ET/PT雙段電視預播，2020/1/20 10:30正式開播，採權利方與實際節目清單相符的時段；有同期轉載內文列12:30。雙段常規正片約21–22分鐘；英國Nick Jr. 3/2開播，台灣授權頻道5/30 08:00。香港ViuTVsix 2022/3/22起於3–4月使用原英語節目名，香港及台灣實際歌唱音軌仍待同版掛字。新增`the-adventures-of-paddington-season-1-op-1`〈Paddington Bear〉，Gary Barlow寫唱，分存原電視與2020/3/3 Polydor完整版，另存完整版背景演唱及錄製署名、官方影音、香港單曲。器樂片尾待原期逐話片尾及曲表。 [Nickelodeon 原播及歌曲公告](https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103) · [2019/12/20 電視預播表](https://www.tvtango.com/listings/2019/12/20) · [台灣權利頻道](https://www.porticomedia.com/channelC/program/2027213) · [香港廣播名冊](https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf) · [官方完整版](https://www.youtube.com/watch?v=88iW9GBBVhs) · [香港單曲](https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117)
-- 新增`the-adventures-of-paddington-season-1-in-1`。〈Paddington Joins a Band〉製作號118、第18組後段／原播第34段，2020/7/24 20:30 ET/PT電視原播，Paramount+頁標2020/7/23。Paddington、Judy及Jonathan劇中組團演出，使用通行描述〈Marmalade Song〉，保留正式題名、配唱、個別創作及商業曲位缺口，待節目曲表或同版掛字。 [Paramount+第18組](https://www.paramountplus.com/shows/video/RrpD__sQWB5j2BrBWHwwkjzaYXg9d_8e/) · [同期電視時段](https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html?hl=en) · [Nick Jr.官方樂團片段](https://www.youtube.com/watch?v=jSBtRjgIbZc)
-- `curated-brown-bag-powerbirds`。2020/1/1先行預覽、1/19 10:00 EST於美國Universal Kids以〈World’s Awesomest Villain／Owl of Nod〉半小時正式開播，6/17後再有新話，11/5末組。製作紀錄分列首輪10組和全季40段各約11分鐘；按電視表核對20組。新增`powerbirds-op-1`〈Powerbirds〉，Adam Sanders與Carmen Yanuziello演唱、PT Walkley創作，存原電視錄音與作者的片頭示例入口。Sanj Sen的原劇伴署名獨立；器樂片尾、加拿大Family Jr.首輪、1/1預覽及香港正版曲位待原播掛字、授權方資料或唱片發行。 [Brown Bag Films首播訪談](https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-director-bill-gordon) · [劇伴及全季分段資料](https://www.thecomposerworks.com/news/powerbirds/) · [原片頭作者](https://ptwalkley.com/powerbirds-theme-song/) · [演唱掛字索引](https://www.imdb.com/title/tt11632536/fullcredits/)
-
-第553批資料提交 `cd10ec9`。新增2作、3筆用途、3個歌曲ID、3個音源ID、1個發行品、3個官方影片／Art Track及2個明確正版外連（香港單曲、作者公開片頭頁）。2020冬120作。2,139份公開API中2,130份一致，差異限兩作及七季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩個詳情、3張歌曲卡與錨點、6次季度搜尋、2次海報搜尋、11個手機無JavaScript鍵盤入口及2個外連；YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第553批尚未發布。
-
-## 2026-11-19 第554批 《皇家小偵探蜜亞》第1季逐話用途及第一輯原聲
-
-- `curated-disney-mira-royal-detective-season-1`。美國2020/3/20 Disney Channel 11:00 EDT/PDT、Disney Junior 19:00、DisneyNOW同期推出；印度同日預播、3/22正式。首季25組50段，每組約22分鐘，至2021/3/27。香港Apple TV與台灣迪士尼採《皇家小偵探蜜亞》，香港平台列廣東話音軌；亞洲頻道7/3原播有同期線索，香港當地時刻、逐話粵語唱詞與演唱仍待原播或迪士尼配唱表。 [迪士尼首播公告](https://thewaltdisneycompany.com/news/disney-junior-debuts-mira-royal-detective-today-in-the-u-s-and-india/) · [初期節目表](https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf) · [季末節目表](https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/) · [香港授權節目頁](https://tv.apple.com/hk/show/%E7%9A%87%E5%AE%B6%E5%B0%8F%E5%81%B5%E6%8E%A2%E8%9C%9C%E4%BA%9E/umc.cmc.13sauejdgchx5kigjycrrhj3y)
-- 新增`mira-royal-detective-season-1-op-1`原英語片頭及`mira-royal-detective-season-1-in-1`〈We’re on the Case〉全季反覆查案唱段。Matthew Tishler、Jeannie Lurie共同創作；Leela Ladnier、Kal Penn、Utkarsh Ambudkar為原版主要角色唱者。原聲第一輯逐曲歌手與和聲名單列於錄音；3/6先行單曲與3/20第一輯第2曲核對唱片方、曲長及錄音署名。2月先行混曲及後來搖籃曲屬另外呈現，兩者的原節目用曲未獨立收錄。ICON合輯所列同名音軌時長有差，待正式錄音識別。片尾器樂線索待首季原播與曲表。 [原製作資料及反覆插曲](https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf) · [原聲香港版](https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868) · [逐曲人聲署名](https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb) · [官方先行單曲影音](https://www.youtube.com/watch?v=tkQKGpj9Eh4)
-- 新增同作品`in-2`–`in-20`。按美國原播順序及實際前後分段掛季。2020冬`in-2`–`in-4`為3/20第1A、2A與3/27第3A。春`in-5`–`in-12`包括第4A、5A、7A、8A、9A、10A、11A、12A，〈Happy Birthday Veer〉及〈We’re So Glad You’re Home〉有官方影音，商業錄音與個別配唱待權利方。夏`in-13`–`in-16`對應第13A、14A、15B、16B，〈Rakhi〉依權利方原節目表採7/30。秋`in-17`對應2020/11/6第19A〈Diwali〉。2021冬`in-18`–`in-20`對應第22A、23B、25A；3/20原聲的先行收錄日期與上述電視用途日期分開。〈We’re Here〉、〈It’s You〉、〈Talk to Me〉與〈First Class Water Taxi〉有集數線索，發行及權利方個別歌曲身分、唱演有待原播畫面、製作曲表或官方曲目接續。 [迪士尼原版節目及分段](https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d) · [逐話歌曲交叉](https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes) · [7月原播表](https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/) · [迪士尼〈Diwali〉](https://www.youtube.com/watch?v=l53N612meiY)
-
-第554批資料提交 `fdd42d1`。新增1作、21筆用途、21個歌曲ID、19個音源ID、2個發行品、15個官方影片／Art Track及20個香港直接曲位，香港曲位逐一回200。2020冬121作。2,140份公開API中2,134份一致，差異限一作及五季。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E；Chromium核對21張歌曲卡與全站錨點、20個香港曲位、10次季度搜尋、香港繁中名海報搜尋、5個手機無JavaScript鍵盤入口，YouTube同意前連線為零。備份已成功還原，274個追蹤檔案逐一比對一致。第554批尚未發布。PR #308固定候選仍為 `91e3456`，quality通過、Workers預覽失敗；遠端main仍為第518批。
-
-## 2026-11-19 第555批 《火箭女孩出任務》英語原版與香港原聲
-
-- `curated-disney-the-rocketeer`《火箭女孩出任務》。美國2019/11/8 Disney Channel 11:00、Disney Junior 17:00（美東）及 DisneyNOW 同日開播，標準雙段各約11分鐘，首輪2019秋、2020冬春夏，7/25末組。Disney+ 香港及台灣迪士尼確認繁中名。新增 `the-rocketeer-op-1`〈The Rocketeer Main Title〉，Tammy Infusino 主唱，Nicole Dubuc 作詞、Beau Black 作曲，錄音另列兩位伴唱。 `the-rocketeer-in-2`〈Suit-Up Sequence〉為反覆變裝唱段，唱片列 Tammy Infusino 主唱；逐話剪輯與正片聲演另核。 [香港正版作品](https://www.disneyplus.com/zh-hk/browse/entity-165f8793-f613-4190-986f-f30be72dad8d) · [台灣迪士尼](https://www.disney.com.tw/the-rocketeer) · [迪士尼首播公告](https://d23.com/news-briefs-oct-11-2019/) · [片頭官方影片](https://www.youtube.com/watch?v=1j-npGlhYAA)
-- 2019秋新增 `the-rocketeer-in-1`〈Heart of a Hero〉第1A段（11/8）、`in-3`〈Side by Side with You〉第2B段（11/8）、`in-4`〈Fast〉第3A段（11/15）、`in-5`〈Walking on Air〉第4B段（11/22）、`in-6`〈Dr. Doodlebug Manifesto〉第5A段（12/6）。2020冬新增 `in-7`〈Share the Open Air with You〉第7B段（1/10）、`in-8`〈Valkyrie Theme Song〉第8A段（1/17）、`in-9`〈Enjoy Your Meal〉第9A段（1/24 Disney Channel 11:00 EST）、`in-10`〈A Beautiful View〉第10A段（2/7）。`in-11`〈Halloween Roundup〉為第19B段，7/15及7/16記錄均落夏季，等 DisneyNOW 原列表或 Disney Junior 同期台表釐清媒體與日期。 [Disney+ 分集](https://www.disneyplus.com/en-as/browse/entity-165f8793-f613-4190-986f-f30be72dad8d) · [分段日期交叉](https://www.laughingplace.com/p/disney-juniors-rocketeer-guide/) · [權利方1月節目表](https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf)
-- 〈Enjoy Your Meal〉按 Leila Milki 同期稿分列 Dubuc 作詞、Milki 作曲編曲主唱及鋼琴、Marc El Khoury 打擊、Black 製作。Art Track 另載 Black、Dubuc 合併詞曲及 Black 伴唱，保留來源差異待出版方登記或唱片內頁確認。原聲12首全核香港 Apple Music 曲序和直接曲位。官方 MV、Art Track 和原聲版本分開，未確認的播出版剪輯／全長及地方配唱留待掛字。 [創作者同期稿](https://static1.squarespace.com/static/55826096e4b0304163b233f3/t/5ec0606a5dc93e2a8c7408b8/1589665928408/The%2BRocketeer%2BPress%2BRelease%2B-%2BLeila%2BMilki.pdf) · [唱片官方音源](https://www.youtube.com/watch?v=K5PRZBTn2CM) · [香港原聲](https://music.apple.com/hk/album/disney-junior-music-the-rocketeer/1491981982)
-- 常規片尾有〈Heart of a Hero〉交叉線索，官方 MV 只確定第1A段救援唱段，2020夏末組也同名。取得正版原集完整片尾、掛字或權利方曲表再獨立登記；第11A、14A、15A、聖誕段和末組其餘唱段待同話原播掛字或權利方逐曲資料。 [第1A段官方歌曲影片](https://www.youtube.com/watch?v=lxQVsk_EsFw) · [末組分集交叉](https://www.tvmaze.com/seasons/81882/the-rocketeer-season-1/episodeguide)
-
-第555批資料提交 `d2629cc`。新增1作、12筆用途（1 OP、11 IN）、12個歌曲ID、12個原聲錄音、1個發行品、11支官方影片和12個香港精確曲位。2,141份公開API中2,136份逐檔一致，新增一作品，四季JSON更新（2019秋96作、2020冬122作、春107作、夏89作）。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對12張詳情歌曲卡和12個全站搜尋錨點、9次季度搜尋、4個手機無JavaScript海報鍵盤入口，香港曲位全部HTTP 200，YouTube同意前連線為零。備份已還原，274個追蹤檔案逐一比對一致。第555批尚未發布，與第519–528批固定候選分開。
-
-## 2026-11-19 第556批 《寶寶快遞》首季第一輯及2019春跨季入口
-
-- `curated-disney-tots-season-1`《寶寶快遞》。美國2019/6/14 09:00 EDT/PDT Disney Channel 及 DisneyNOW 開播，Disney Junior 同期播出，每組約22分鐘、雙段。2020冬1至3月續播，第24組6/19 09:00 EDT，第25組7/10。台灣迪士尼正式節目名及香港配音製作名義均用《寶寶快遞》，香港 Disney+ 節目頁顯示原文 T.O.T.S.。本批開啟2019春部分作品入口，先收這一部已核跨季作品；先前已核實春季用途待逐批補掛，來源名冊仍待對帳。 [美國權利方首播公告](https://www.dgepress.com/disneybrandedtelevision/pressrelease/special-delivery-disney-junior-orders-a-second-season-of-t-o-t-s-ahead-of-the-series-premiere-friday-june-14/) · [台灣迪士尼片名](https://www.disney.com.tw/t-o-t-s) · [香港聲演製作公司片名](https://www.onecool.com/tc/one-cool-bb-dub/) · [香港正版分集](https://www.disneyplus.com/en-hk/browse/entity-6d5885ee-c4f7-41b7-b3cd-82bd711ecf03) · [Annict 2019春](https://annict.com/works/2019-spring?display=list_detailed)
-- `tots-season-1-op-1`〈T.O.T.S. Main Title〉是原英語常規片頭，5/31官方影片早於首播；第一輯逐曲錄音確認 Jet Jurgensmeyer、Christian J. Simon、Vanessa Williams 等人。 `tots-season-1-in-1`〈Bringing This Baby Home〉是權利方明列的反覆送件插曲，Disney Kids 影片簡介明列第1A段；Rob Cantor 合併詞曲及 Gregory James Jenkins、Greg Nicolett 作曲依發行署名存。常規片尾的器樂同曲線索仍需原集完整掛字或權利方曲表。 [片頭官方影片](https://www.youtube.com/watch?v=GwdQn98vl-4) · [官方送件歌曲影片](https://www.youtube.com/watch?v=IeJ1ZiQs6_I) · [Walt Disney Records 授權錄音署名](https://www.qobuz.com/us-en/album/disney-junior-music-tots-tots-cast/u1oyr71puxh9a)
-- `tots-season-1-in-2`–`in-5` 分別核對第1B〈Power of Two〉、2B〈Buddy Like You〉與3A〈KC's Lullaby〉、〈Playtime〉。 `in-6`–`in-17` 為第5A〈L-O-V-E〉、5B〈Baby Talk〉、7A〈I've Got Your Wing〉、7B〈Steady and Slow〉、8A〈Nothing Scares Me〉、9B〈Working Together〉、10A〈Love of a Lovey〉、10B〈Babble Along〉、11B〈Wow Wow Wow〉、12A〈More Fun to Share〉、12B〈Get Silly〉及13A〈Use Your Indoor Roar〉。第9B原台表與同期節目資料採8/2 09:00，另存8/1分集日期差異待配信記錄釐清。 `in-18`〈Delivering Love〉由 Vanessa Williams、Jet Jurgensmeyer 隨第20A段使用，2020/1/24 10:00 EST首播，官方影片1/23先行。 [首組正版原集](https://www.youtube.com/watch?v=3BF2ekh_9yU) · [逐段日期核對](https://www.laughingplace.com/p/tots-guide/) · [第9組原台表交叉](https://dcba.fandom.com/wiki/August_2%2C_2019) · [Disney Channel 1月節目表](https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf) · [Vanessa Williams 訪談](https://www.tvinsider.com/851554/vanessa-williams-song-tots-disney-junior/)
-- 香港原聲第一輯19曲、曲序與直接曲位全部逐一核對。正式影片採其發布標題，保持歌曲、正片用途及錄音各自有證據。合輯、地方配唱、唱片逐段剪輯、第二輯跨季曲及其他未收歌曲，續以對應原集、版別與唱片方署名核實。 [香港 Apple Music 第一輯](https://music.apple.com/hk/album/disney-junior-music-t-o-t-s-vol-1/1466839129) · [香港 Apple Music 第二輯](https://music.apple.com/hk/album/disney-junior-music-t-o-t-s-vol-2/1505486204)
-
-第556批資料提交 `90b06b4`。新增1作、19筆用途（1 OP、18 IN）、19個歌曲ID、19個原聲錄音、1個發行品、9支官方影片及19個香港精確曲位。2,143份公開API中2,135份逐檔一致，新增作品和2019春兩份JSON，另更新季度索引及五個跨季JSON。2019春1作、夏59作、秋97作，2020冬123作、春108作、夏90作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium核對19張歌曲卡及19個全站搜尋錨點、10次季度搜尋、六季手機無JavaScript海報鍵盤入口及2019春目錄／canonical；香港曲位均回HTTP 200，YouTube同意前連線為零。備份成功還原後，276個追蹤檔案逐一比對一致。第556批尚未發布。
-
-## 2026-11-19 第557批 《寶寶快遞》第二輯首季曲、重唱與第3B段更正
-
-- `tots-season-1-in-19`–`in-29` 核對第二輯第1–11曲的首季各段。第13B〈All Aboard with You〉、第14A〈Be Brave〉、第14B〈One Little Ouch〉、第15組〈No Thank You Bite〉、第17A〈Freddy the Finder〉、第17B〈Cleaning Day〉、第19組〈One in a Million〉、第22A〈The Hunt Is On〉、第23A〈Night Flight〉、第24A〈Daddy's Day〉及第25B〈I Belong with My Best Friend〉。第15組和第19組按正版分集情節及美國原始編排辨識標題，保存不同上／下半排序線索。〈Night Flight〉歌曲用於第23A，第7A的同名是分集標題；第24A於2020/6/19 09:00 EDT首播，第25B於7/10終回。第二輯第12–23曲已有多首可定位到第2季，待按第2季逐話核對後處理。 [Disney+ 香港分集](https://www.disneyplus.com/en-hk/browse/entity-6d5885ee-c4f7-41b7-b3cd-82bd711ecf03) · [第二輯授權署名](https://www.qobuz.com/gb-en/album/disney-junior-music-tots-tots-cast/penped80m1ehb) · [香港原聲第二輯](https://music.apple.com/hk/album/disney-junior-music-t-o-t-s-vol-2/1505486204) · [6月首播台表](https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf)
-- `tots-season-1-in-30`〈Baby's First Christmas〉對應2019/12/6〈Santa Baby〉第18A，Walt Disney Records 11/1香港聖誕合輯第8曲先行，錄音有 Jet Jurgensmeyer、Christian J. Simon、Charlie Townsend。 `in-31`〈The Brother For Me〉是2019/11/8第16A北極熊姊弟唱段，`in-32`〈What's So Great About Flowers〉核實為2020/2/21第21A Ava 與同伴送小青蛙的插曲，兩首均保留權利方歌曲影片，獨立錄音／曲位待正式署名。 `in-33` 是2020/1/3第19組〈Rock-A-Bye Birdie〉Mimi 重唱〈KC's Lullaby〉的獨立用途，沿用第3A的歌曲ID，第一輯原聲保留於第3A，Mimi 本人掛字與唱段錄音待核。 [聖誕合輯香港曲位](https://music.apple.com/hk/album/babys-first-christmas/1484582192?i=1484582930) · [Disney Kids 官方歌曲](https://www.youtube.com/watch?v=ZhFkBcqL-uU) · [Ava 官方唱段](https://www.youtube.com/watch?v=_OHYXhXk9go) · [第19組正版分集](https://tv.apple.com/us/episode/the-fly-along--rock-a-bye-birdie/umc.cmc.564uyosy481d00u26mqd4p1z8?showId=umc.cmc.2urzzn3ibr3gttv4exqzgbk20)
-- 第556批的 `tots-season-1-in-5`〈Playtime〉更正為2019/6/21第3B段〈Training Daze〉，官方 MV 簡介及分集資料均對應 K.C. 病假期間 Pip 和 Freddy 照顧育嬰室幼小動物；第3A保留其已核搖籃曲。首季還有個別唱段、原版常規片尾及地方配唱待原期逐話掛字、唱片方資料或正片可辨音畫，季度仍在盤點。 [官方 MV 簡介](https://www.youtube.com/watch?v=kt39lMwBxe4) · [第3B段交叉](https://disney.fandom.com/wiki/Training_Daze)
-
-第557批資料提交 `f3b075e`。一作新增15筆IN、14個歌曲ID、12個音源、2個發行品、11支官方影片及12個香港曲位，另外更正1筆已計入第556批的用途。2,143份公開API中2,142份維持，差異限《寶寶快遞》首季詳情。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對全作34張歌曲卡、16個新增或更正搜尋錨點、12次季度搜尋、6個手機無JavaScript海報鍵盤入口；31個已保存的香港曲位顯示於詳情，12個新增曲位逐一回HTTP 200，YouTube同意前連線為零。備份成功還原，276個追蹤檔案逐一比對一致。第557批尚未發布。第556批重查PR #308候選仍是 `91e3456`、GitHub CI成功、Workers預覽失敗；正式站2019春及《寶寶快遞》詳情API仍回404，遠端main維持第518批。
-
 ## 2026-11-19 第558批 已核跨季作品補掛2019春
 
 - 補掛 `curated-100978`《鬼太郎（第六季）》的 `gegege-no-kitarou-2018-op-1`、`ed-5`（第50–62話〈RONDO〉）；`curated-101424`《龍族拼圖》的 `pazudora-op-1`、`op-2`、`ed-3`（第52–64話〈スマッシュ・ドロップ〉）。第59、60話的兩支片頭均落在5月換曲窗口。2018夏秋及2019冬仍保留已核未掛項目。 [東映曲表](https://www.toei-anim.co.jp/kitaro/season6/about/music.php) · [東映鬼太郎第50話](https://www.toei-anim.co.jp/kitaro/season6/episode/summary/50/) · [東京電視台5月分集](https://www.tv-tokyo.co.jp/anime/pad/episodes/index_39.html)
 - 補掛 `curated-108852`《爆丸 星域爭霸》的 `bakugan-battle-planet-op-1`、`ed-1`，`curated-105749`《鑽石王牌 act2》的 `diamond-no-ace-act-ii-op-1`、`ed-1`，`curated-108734`《けだまのゴンじろー》的 `kedama-no-gonjirou-op-1`、`ed-1`，以及 `curated-113242`《決鬥大師！！》的 `duel-masters-2019-op-1`、`ed-1`。均據原播4月起的片頭片尾及分集；冬季換曲、其他各季的用曲與曲位維持原有證據。 [TMS 主題曲](https://www.tms-e.co.jp/alltitles/2010s/624105.html) · [《鑽石王牌》原播分集](https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html) · [《けだまのゴンじろー》曲表](https://www.tv-tokyo.co.jp/anime/gonjiro/staff/) · [電視台音樂部4月曲表](https://www.ttmnet.co.jp/theme/2019-4/)
 - `curated-108625`《星夢頻道》第二季補掛 `kiratto-prichan-season-2-op-1`、`ed-1`、`in-1`–`in-6`、`in-22`。已核春季第52–64話的舞台、短摘與回想用途；各曲後來重唱或新錄音保留分開。 `curated-105857`《星光閃亮☆光之美少女》補掛 `star-twinkle-precure-op-1`、`ed-1`、`ed-3`、`in-2`、`in-3`，包括6/30第21話首次使用後期片尾；3月電影版片尾屬2019冬，留待相應季度。 [東京電視台第52–64話](https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html) · [《星夢頻道》製作方首播資料](https://www.takaratomy-arts.co.jp/company/pdf/R_prichan2_2.pdf) · [《光之美少女》原播故事](https://www.asahi.co.jp/precure/twinkle/story/)
-- `curated-disney-big-hero-6-the-series-season-2`《大英雄聯盟》第2季補掛 `big-hero-6-the-series-season-2-op-1`、`ed-1`、`in-1`；Adam Berry 曲表與 Disney Channel 5/6季首、5/9第4話〈Something’s Fishy〉的節目表相連。〈Gonna Go Good〉可在首播季度搜尋。 [迪士尼5月節目表](https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/) · [作曲家曲表](https://www.adamberrycomposer.com/music)
 
-第558批資料提交 `141464e`。9部既有作品、30個既有用途補掛2019春，歌曲、作品、用途ID、錄音、原證據與來源核對日期保持。2019春部分名冊現有10作；2020冬維持123作。2,143份公開API中2,130份逐檔一致，差異限9個詳情與4個季度JSON。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium驗收10個手機無JavaScript海報鍵盤入口、30張用途卡及季度搜尋、9個全站錨點、4筆他季排除，YouTube同意前連線為零。備份還原並逐一比對276個追蹤檔案。第529–558批相對第528批共211個不同實質用途，當中第558批有12筆先前已計入，新增統計18筆；第558批仍為本機驗收。
-
-## 2026-11-19 第559批 《101斑點狗街頭日記》及 Dorg Van Dango
-
-- `curated-disney-101-dalmatian-street`。香港 Disney+ 採《101斑點狗街頭日記》，台灣迪士尼採《101忠狗街頭日記》。英國及愛爾蘭2018/12/14先行、2019/3/18 17:00 GMT常規首播，首輪至2020/2/22，北美 Disney+ 於2/28上架。常規雙段各約11分鐘，另有22分鐘特別集與獨立短篇。初度開2019冬部分名冊，先收本作及實際已核的常規曲，其他作品與歌曲正待對帳。港台2019秋有播出編排，該地當期音軌待掛字。2018先行播放的分段及當時版片頭片尾仍需原期權利方聲畫。 [香港 Disney+](https://www.disneyplus.com/zh-hk/browse/entity-c2fe023c-bbaf-4dfe-9c9a-98c1365679f3) · [台灣迪士尼](https://www.disney.com.tw/101-dalmatian-street) · [英國首播預告](https://www.youtube.com/watch?v=RRcvparRMSM) · [製作團隊與首播時段](https://www.broadcastnow.co.uk/genres/101-dalmatian-street-disney-channels-emea/5137617.article) · [北美上架同期記錄](https://www.laughingplace.com/w/articles/2020/02/28/disney-plus-watch-guide-february-28-march-5/)
-- 新增 `101-dalmatian-street-op-1`〈I've Got My Pups with Me〉，Kathryn D. Rende 主唱，與 Johnathan P. Rende 共有合併詞曲署名；`ed-1`〈It’s a Dog’s Life〉，Celica Gray 演唱，Celica Westbrook、Doug Petty、Paula Winger 合併詞曲。2019/3/1三曲單曲與2020/5/8原聲各有不同曲位及時長資料，兩次發行的剪輯／母帶關係待錄音識別。第三首〈In the House〉有官方收錄，尚缺正片用途，待同版音畫或權利方曲表。 [2019香港發行](https://music.apple.com/hk/album/101-dalmatian-street-music-from-the-tv-series-single/1453602757) · [UMG正式原聲曲表](https://www.universal-music.co.jp/p/00050087462987/) · [片尾官方影片](https://www.youtube.com/watch?v=6N7PVmWyaWM)
-- 新增 `101-dalmatian-street-in-1`〈Dolly's Rap〉2019/4/2〈Poetry Scam〉106A，`in-2`〈Dogs Are Out for Summer Sun〉9/7〈A Summer to Remember〉上半，`in-3`〈We're Sending You Love〉9/28〈Fetch〉117A，`in-4`〈It's a Prank〉2020/2/3〈The Curse of the Ferrydog〉118首段。歌唱名義分開記錄唱片與劇中角色。待逐話掛字或原播曲表拆分演唱、編曲與其他地區用法。獨立短篇歌曲另待標準TV盤點後核對。 [英國正版雙段特別集](https://tv.apple.com/gb/episode/a-summer-to-remember/umc.cmc.4yc89qv6f47yhdulsla886qn9?showId=umc.cmc.49k1slmqkw0powsqufmkcqyrm) · [香港 Disney+ 分集](https://www.disneyplus.com/en-hk/browse/entity-c2fe023c-bbaf-4dfe-9c9a-98c1365679f3) · [Walt Disney Records〈Dolly's Rap〉](https://www.youtube.com/watch?v=8Y7gqXu6IeI)
-- `curated-wildbrain-dorg-van-dango`。愛爾蘭共同製作方記2020/3/2 RTÉ2首播，原台同期記週一、三、五07:40與15:00及RTÉ Player；後續分集列表另記3/3，仍待首週原台節目表確認首段時刻。加拿大 Family Channel 8/1 10:00 ET/PT，常規22分鐘分兩段。新增 `dorg-van-dango-op-1` 原英語片頭，描述性曲名〈Dorg Van Dango Theme〉；原掛字轉錄列 Leo Pearson、Aisling Browne 演唱、Andrew McNee 旁白。獨立片尾、地方配唱、音源版本與正式曲位待權利方資料。 [Cartoon Saloon 首播](https://www.cartoonsaloon.ie/irish-animation-studio/tv-series/dorg-van-dango/) · [RTÉ共同創作者文章](https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/) · [Family Channel 同期預告](https://www.youtube.com/watch?v=F8Q7blHiwzA) · [原作曲家作品頁](https://www.leopearson.com/)
-
-第559批資料提交 `20cdd25`。新增2作、7筆用途（2 OP、1 ED、4 IN）、7個歌曲ID、8筆發行音源、2個發行品、7支官方影片及8個香港精確曲位。2,146份公開API中2,137份檔案一致，新增兩作和2019冬，更新季度索引和五季。2019冬部分名冊1作、春11作、夏60作、秋98作；2020冬125作、夏91作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium驗收2個作品詳情、7張歌曲卡及全站錨點、10次限定季搜尋、7個手機無JS海報鍵盤入口；8個香港曲位均回HTTP 200，同意前零YouTube連線。備份成功還原，278個追蹤檔案逐一比對一致。第559批仍為本機驗收。
+第558批資料提交 `141464e`。八部日本動畫的27筆既有用途補掛2019春。
 
 ## 2026-11-19 第560批 已核冬春跨季用途與《寶可夢 太陽&月亮》換曲
 
@@ -19652,145 +19470,26 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 第560批資料提交 `0425f45`。4作、13個既有用途補季度，無新作品、歌曲、錄音或發行ID。2019冬部分名冊5作、2019春12作、2020冬維持125作。2,146份公開API中2,140份逐檔一致，差異限4個作品及2個季度JSON。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對13個錨點、18次限定季度搜尋（包括3次他季排除）及5個手機無JavaScript海報鍵盤入口，YouTube同意前零連線。備份成功還原，278個追蹤檔案逐一比對一致。第529–560批累計220個不同實質用途，本批有11個先前已計、加入總數2個。仍為本機驗收。
 
-
-## 2026-11-19 第561批 《狗狗孖寶》第3季跨季首播與第二輯原聲
-
-- `curated-disney-puppy-dog-pals-season-3`，新作詳情 `puppy-dog-pals-season-3`。香港《狗狗孖寶》與台灣《汪汪一對寶》均有權利方名稱。美國 Disney Channel 2019/11/8 10:00 EST 首播第3季，25組／50段，常規雙段各約11分鐘。2020/10/15 09:30 EDT 終回，與10/23第4季開播分開。收錄2019秋至2020秋五季的已核原播用途。 [香港 Disney+](https://www.disneyplus.com/zh-hk/browse/entity-87e268f4-1dc3-4fd3-8e41-41dc246eed02) · [台灣迪士尼](https://www.disney.com.tw/puppy-dog-pals) · [11月同期首播表](https://animesuperhero.com/forums/threads/november-2019-disney-premieres.5768471/) · [Disney Channel 2020年10月台表](https://www.detpress.com/storage/uploads/EB/28/EB2809A6-C76F-5CE4-EEFA-3805BA0F137B/press-release-9-1174275.pdf)
-- `puppy-dog-pals-season-3-op-1` 是 Andy Bean 原英語片頭〈Puppy Dog Pals Main Title Theme〉，`in-1` 為重複使用的任務出發唱段〈Going on a Mission〉，收錄2017年香港 EP 第1及5曲。合輯 Art Track 另存官方影片，原話剪輯及任務的不同角色／Playcare 版本待原聲對照。 [香港 EP](https://music.apple.com/hk/album/puppy-dog-pals-disney-junior-music-ep/1440769240) · [Disney Jr. 片頭曲](https://www.youtube.com/watch?v=FXW8LxZ_H5w) · [任務歌曲詞曲及演唱署名](https://www.youtube.com/watch?v=4U5uslyCbf8)
-- `puppy-dog-pals-season-3-in-2` 至 `in-18` 按17個原英語播出段落登記 Walt Disney Records 第二輯全17曲。2019秋4筆，2020冬5筆、春5筆、夏2筆、秋1筆。〈Friends Like These〉第3B，〈Make It Right〉第8A，〈Looking for Cody〉第14B，〈The Puppy Flamenco〉第17A，〈Leave It to the Puppies〉第23B。唱片分開記 Andy Bean 合併詞曲與各錄音唱者，11支官方影片的分類按發布名義與簡介核對，原聲大小與原播剪輯仍待取得可辨識版本。 [香港原聲第二輯](https://music.apple.com/hk/album/disney-junior-music-puppy-dog-pals-pup-tastic-party-vol-2/1531037346) · [第二輯授權逐曲署名](https://www.qobuz.com/us-en/album/disney-junior-music-puppy-dog-pals-pup-tastic-party-vol-2-puppy-dog-pals-cast/v2iwkbgsxnaxc) · [Disney+ 原英語分集](https://www.disneyplus.com/en-hk/browse/entity-87e268f4-1dc3-4fd3-8e41-41dc246eed02)
-- 第3季英語獨立片尾、雙段間掛字、香港配唱、未發行唱段及第一輯的跨季歸屬留待逐話正版聲畫、台方掛字或明示用途的權利方資料。原聲曲目與季度首播日分別保存。
-
-第561批資料提交 `4c90632`。新增1作、19筆用途（1 OP、18 IN）、19首、19個發行音源、2個發行品、11支官方影片及19個香港曲位。2,147份公開API中2,141份逐檔一致，新增1個詳情並更新5個季度。2019秋99作，2020冬126、春109、夏92、秋109作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對19張歌曲卡及全站搜尋錨點、30次限定季度搜尋（含3次他季排除）、5個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。19個香港曲位均回HTTP 200並保留精確曲目ID。備份成功還原，278個追蹤檔案逐一比對一致。累計第529–561批239個不同實質用途，仍為本機驗收。PR #308固定候選 `91e3456` 的 GitHub CI 通過，Workers 預覽仍失敗，遠端main和正式發布標籤仍指向第518批。
-
-
-## 2026-11-19 第562批 《可愛尖牙小娜娜》第2季跨季用途及2018秋入口
-
-- `curated-disney-vampirina-season-2`，新作 `vampirina-season-2`。香港及台灣均有正式繁中《可愛尖牙小娜娜》。第2季2018/12/7 10:30 EST 於美國 Disney Channel 首播，同期有 DisneyNOW，至2020/4/10 11:30 EDT。25組49段，常規每組兩段各約11分鐘，終回為連續23分鐘。新增2018秋部分名冊，接通2019冬春夏秋、2020冬春已核用途。Annict 2018秋頁可讀，Bangumi 2018年10月公開查詢總數122、首頁100，兩者是此季後續來源入口。 [Disney+ 香港正版分集](https://www.disneyplus.com/en-hk/browse/entity-f8943a45-a9dd-4554-92ba-5c43560ee888) · [Brown Bag Films](https://www.brownbagfilms.com/our-work/vampirina) · [同期首播報道](https://www.tvinsider.com/735640/vampirina-season-2-premiere-date-upcoming-guest-stars-video/) · [美國終回頁](https://tv.apple.com/us/episode/ghoul-guides-save-the-day/umc.cmc.64iwo2i0tpwig1nauiamfvhy7?showId=umc.cmc.5gdtssochvedfj9rkey82cpxc)
-- `vampirina-season-2-op-1` 為原英語片頭〈Vampirina Theme〉，Isabella Crovetti、Lauren Graham、James Van Der Beek 演唱，香港2018年合輯第15曲。Michael Kooman 的合併詞曲已核。授權音源列 Christopher Dimond 為製作，另列 Christopher B. Pearman 為詞曲，與 Disney Junior 所列全劇歌曲團隊的名義範圍不同。待原掛字、音樂出版方或修訂欄位確認第二位片頭詞曲署名。 [香港合輯第15曲](https://music.apple.com/hk/album/vampirina-theme-from-vampirina/1353763287?i=1353764141) · [授權原聲署名](https://www.qobuz.com/us-en/album/disney-junior-music-dance-party-the-album-various-artists/fnbjtr2u7wfoc) · [Disney Junior 創作團隊公告](https://www.detpress.com/storage/uploads/7B/9F/7B9F5445-3375-2A89-38EC-2AB6FBD41A78/press-release-10-1168558.pdf)
-- `vampirina-season-2-in-1` 至 `in-20` 新增20筆正篇唱段，2018秋2筆、2019冬3筆、春1筆、夏3筆、秋3筆、2020冬6筆、春2筆。夏季 `in-7`–`in-9` 對應7/12〈The Boo Boys Are Back〉及7/26〈Face the Music〉（兩首），各有第二輯第10、9、11曲，Dan Petty、Kay Hanley、Michelle Lewis 合併詞曲。以正版分集和唱片分開記播出與發行音源；第二輯其餘曲目的短篇或正篇用途待各自確認。 [香港第二輯](https://music.apple.com/hk/album/disney-vampirina-ghoul-girls-rock-vol-2/1480438457) · [授權曲序及署名](https://www.qobuz.com/us-en/album/disney-junior-music-vampirina-ghoul-girls-rock-vol-2-cast-vampirina/psf2laoh1tjhc) · [Disney Jr.〈The Ghoul Girls Are Back〉](https://www.youtube.com/watch?v=7ekWvjsUAuw)
-- 2020冬 `in-13`–`in-18` 依次為1/17兩段、2/21兩段及3/27兩段。Rachel Bloom 的〈I'm Never Wrong〉是第22A，〈The Wizard of Weird〉是第23B，〈The Toast of All Paris〉及〈De-Scare the Fair〉各為第24A及24B。春季 `in-19`、`in-20` 是4/10終回兩首唱段，順序及演唱角色已核。尚待正篇逐話片尾、個別唱者掛字、歌曲出版資料及其餘已定位段落的權利方證據。 [1月官方節目表](https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf) · [3月官方節目表](https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf)
-
-第562批資料提交 `50127cd`。新增1作、21筆用途（1 OP、20 IN）、21首、4個發行音源、2個發行品、12支官方影片及4個香港曲位，全部香港精確曲位回HTTP 200。2,149份公開API中2,140份逐檔一致，差異為1個作品、7個季度和季度索引。2018秋1作，2019冬6、春13、夏61、秋100作，2020冬127、春110作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E；另以 Chromium 驗收21張歌曲卡及全站精確錨點、30次限定季度搜尋（含3次排除）、2018秋年份入口與7個手機無JavaScript海報牆鍵盤入口，YouTube同意前零連線。備份成功還原，280個追蹤檔案逐一比對一致。第529–562批260個不同實質用途，仍為本機驗收。正式2020冬API回200，本批2018秋及詳情API仍回404。
-
-
-## 2026-11-19 第563批 《衝鋒力奇》第1季原播及英國電視宣傳單曲
-
-- `curated-frog-box-ricky-zoom-season-1`，新作詳情 `ricky-zoom-season-1`。eOne 中文公告確認2019年6月優酷少兒首發，6/28為交叉資料待原台日表核實。可定日的美國電視先行為9/2，9/9工作日12:30 ET/PT常規首播，Frog Box 列52段11分鐘，原台合為26組半小時。美國2020冬春續播至5/29。央視少兒2020/3/23至27每日11:20連播。英國及愛爾蘭 Nick Jr. 2019/10/5 09:00播出，英國 Channel 5 Milkshake! 2020/4/20起。ViuTV 2021年3至9月《衝鋒力奇》採官方台表與主管機關登記。 [Frog Box](https://www.frogbox.fr/en/production.php?p=4) · [eOne 優酷中文公告](https://www.prnasia.com/story/251030-1.shtml) · [eOne 美國常規首播](https://www.prnewswire.com/news-releases/entertainment-one-announces-premiere-of-new-animated-series-ricky-zoom-on-nickelodeon-300912540.html) · [央視首集](https://tv.cctv.com/2020/03/23/VIDEGoCVGMnyt1nJ7jo7pLsc200323.shtml) · [香港台方年度紀錄](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf)
-- `ricky-zoom-season-1-op-1`〈Ricky Zoom Theme Tune〉是原英語片頭，Steve Mandile 作曲與演唱。發行品第1曲為約60秒加長音源，權利方影片另按發布形式存錄。已核原英語用曲季度為2019夏秋及2020冬春；各地語言片頭剪輯、配唱及片尾使用位置待原掛字或可核對聲畫。 [Audio Network 作曲者履歷](https://www.audionetwork.com/browse/m/composer/stephen-mandile_1607) · [權利方片頭歌曲影片](https://www.youtube.com/watch?v=sBCfOXdeiXM) · [Hasbro 原聲](https://www.youtube.com/watch?v=s6cB3EGuHV0)
-- `ricky-zoom-season-1-ts-1`〈Make Way For Ricky Zoom〉與 `ts-2`〈Ricky Zoom To The Rescue〉列2020春英國地面電視宣傳歌曲，逐話使用待核。Hasbro 香港單曲 *Zoom Into Adventure - Single* 三曲的商店發行日為2020/3/20，英國地面首播宣傳期為4月。3個香港曲位保留原曲序及對應音源。 [eOne 英國地面首播與三首歌曲公告](https://www.frogbox.fr/animes/ricky-zoom/actualites/05_Ricky%20Zoom%20UK%20Broadcast%20Launch%20FINAL_30_March_2020.pdf) · [香港單曲](https://music.apple.com/hk/album/zoom-into-adventure-single/1690188031)
-
-第563批資料提交 `d55efc6`。新增1作、3筆用途（1 OP、2 TS）、3首、3個發行音源、1個發行品、3支官方影片及3個香港曲位（均回HTTP 200）。2,150份公開API中2,141份逐檔一致，差異限1份詳情及8份季度JSON。2020冬128作、春111作；其餘份數按 `CATALOG_STATS.md`。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium驗收3張歌曲卡與全站精確錨點、9次限定季度搜尋（含3次他季排除）、8個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份成功還原，280個追蹤檔案逐一比對一致。第529–563批263個不同實質用途為本機驗收。固定PR #308仍為 `91e3456`，GitHub CI通過，Workers預覽失敗，遠端main與已驗收發布標籤仍指向第518批。
-
-
-## 2026-11-19 第564批 《小艾比與毛寶》兩季原英語片頭及唱段
-
-- `curated-spin-master-abby-hatcher-season-1`、`curated-spin-master-abby-hatcher-season-2`。第1季2018/12/17經 Nick Jr. App 與點播先行全長分集，2019/1/1 10:00 ET/PT美國 Nickelodeon 電視首播，至2020/2/16。香港第1季登記《小艾比與毛寶》，台灣 Nick Jr. 自2019/5/27平日08:45使用《小艾比與毛毛寶》。第2季26組半小時，2020/3/8 09:00 EDT美國 Nick Jr. 首播，含雙段與全長單段，末兩段於2022/4/2在美國首播。香港第2季以《小艾比與毛毛寶 2》登記2021年11至12月播出。 [第1季原台公告](https://ir.paramount.com/news-releases/news-release-details/when-trouble-way-one-little-girl-will-save-day-abby-hatcher/) · [第2季規格公告](https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/) · [香港第1季登記](https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf) · [香港第2季登記](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf)
-- `abby-hatcher-season-1-op-1`、`abby-hatcher-season-2-op-1` 共用 `abby-hatcher-main-theme` 歌曲ID，分開記兩個已知英語電視片頭。第1季唱者為 Macy Drouin，第2季改詞版的實唱及改詞署名待原播掛字。出版資料列5位原作合併詞曲。2018/12/17先行分集的片頭剪輯、港台配唱、獨立片尾與原聲曲位待權利方資料，已核對的地方播出季度保留作品入口。 [Nick Jr. 第1季官方片頭](https://www.youtube.com/watch?v=WiABrGXMtdg) · [兩季片頭版本交叉](https://abby-hatcher.fandom.com/wiki/Abby_Hatcher_Theme_Song) · [EDEM 管理曲目](https://www.edemrights.gr/wp-content/uploads/2025/03/edem--2025.pdf)
-- `abby-hatcher-season-1-in-1` 至 `in-9` 核第1季9段。〈Morning Song〉用於1/2〈Otis Out of Order〉，〈Hearts and Hugs Day〉是2/14正篇製作109A，美國首播順序與串流合組不同。〈Hail Queen Flug〉及〈Goodnight Song〉分列10/4同組的113A及113B。另登記 `abby-hatcher-season-1-ts-1`〈My Fuzzly Valentine〉的1/31跨作品宣傳用途。第2季 `abby-hatcher-season-2-in-1`、`in-2` 核10/18樂團自介與12/13 Grumbles 代班合唱，保留場景描述題名，待正式曲表與個別唱者。 [TVOKids〈Trick or Treat Otis〉字幕](https://www.tvokids.com/transcript/125864/preschool/abby-hatcher/videos/trick-or-treat-otis) · [Nick Jr. 宣傳MV](https://www.youtube.com/watch?v=5VxlTSlKZZ8) · [第2季替唱分集](https://tv.apple.com/us/episode/teeny-terry-takes-offgrumbles-the-squeaky-peeper/umc.cmc.qishpf2zbgxqyb1bfmqr3dla?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k)
-
-第564批資料提交 `37325da`。新增2作、14筆用途（2 OP、11 IN、1 TS）、13個歌曲ID、2個電視片頭音源與2支官方影片。2,152份公開API中2,138份逐檔一致，差異限2份詳情與12份季度JSON；2020冬130作、2018秋部分名冊2作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）和9項E2E。Chromium核對2個詳情、14個歌曲錨點、26次限定季度搜尋（含3次他季排除）、14個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份成功還原，280個追蹤檔案逐一比對一致。第529–564批277個不同實質用途為本機驗收。
-
-
-## 2026-11-19 第565批 《奶油荳荳咖啡館》兩季英語片頭片尾與烹飪唱段
-
-- `curated-nickelodeon-butterbeans-cafe-season-1` 於2018/11/12 13:00 ET/PT在美國 Nickelodeon 首播，39組72段，2019/8/25起在 Nick Jr. 續播，12/29季終。`curated-nickelodeon-butterbeans-cafe-season-2` 於2020/1/12 09:00 EST在 Nick Jr. 首播，21組39段，11/1季終。兩季有常規兩段和部分全長單段。台灣授權系列名《奶油荳荳咖啡館》，香港 HOY IBC 向主管機關登記兩季在2023年11至12月播出。 [Nickelodeon 第1季原播公告](https://www.paramountpressexpress.com/nickelodeon/releases/?view=104336-nickelodeon-serves-up-brand-new-animated-preschool-series-butterbeans-caf-premiering-monday-nov-12-at-1-pm-etpt) · [第2季同期台表](https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1) · [台灣授權節目頁](https://www.porticomedia.com/channelC/program/1467151) · [香港登記](https://www.coms-auth.hk/filemanager/en/content_1710/i-CABLE_HOY_Positive_Programmes_2023.pdf)
-- `butterbeans-cafe-season-1-op-1`、`butterbeans-cafe-season-1-ed-1` 及第2季對應兩用途。片頭有聲與片尾伴奏共用作品ID，各保存獨立發行音源及第1／6曲。兩曲發行署名列 Matthew Tishler、Jeannie Lurie、Jonathan Belt、Robert Scull。第2季首組片頭視覺調整與聲軌版本分開，港台配唱、逐段片尾剪輯仍待原播掛字或授權影音。 [Nick Jr. 英語片頭MV](https://www.youtube.com/watch?v=hQHo2lY6hJs) · [Viacom 片頭發行](https://www.youtube.com/watch?v=jBdAt6MxhJo) · [Viacom 片尾發行](https://www.youtube.com/watch?v=M9yXQW1Rc8M)
-- 兩季 `in-1` 為原英語常用烹飪唱段〈Let’s Get Cookin’!〉，EP第2曲。第1季 `in-3`、`in-4` 為2018/11/12〈The Grand Opening!〉及2019/7/30〈The Takeout Window!〉的〈Let's Get Started!〉改詞。第1季 `in-2`〈Fairy Happy Day〉為2018/11/16〈The Sweetest Ride〉，EP第3曲；第2季 `in-2` 是2020/1/12首組下半〈Fairy Fancy!〉的改詞，留同一歌曲ID。香港EP全六曲曲位可讀，第4曲〈Whipping Up A Melody〉與第5曲〈I Love To Sing〉待原版分集、掛字或權利方明示用途後才登記。 [香港六曲EP](https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269) · [烹飪改詞位置](https://butterbeans-cafe.fandom.com/wiki/Let%27s_Get_Cooking%21_%28Song%29) · [第2季原版首組](https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7)
-
-第565批資料提交 `a119fdc`。新增2作、10筆用途（2 OP、2 ED、6 IN）、3個歌曲ID、4個唱片音源、1個EP、6支不同官方影片及4個已綁定香港精確曲位。2,154份公開API中2,142份逐檔一致，差異限2份詳情與10份季度；2020冬131作。修正影片索引重複逗號後，Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對兩份詳情、10個錨點、34次限定季搜尋（含3次排除）、11個手機無JavaScript海報牆鍵盤入口及YouTube同意前零連線。備份成功還原，280個追蹤檔案逐一比對一致。第529–565批287個不同實質用途為本機驗收。PR #308固定候選 `91e3456` 的GitHub CI通過、Workers預覽失敗，遠端main及發布標籤仍為第518批，正式2020冬API目前80作。
-
-## 2026-11-19 第566批 《布公仔小寶貝》第2季英語片頭及分集唱段
-
-- `curated-disney-muppet-babies-2018-season-2` 於2019/8/9 08:30 EDT/PDT 在美國 Disney Channel 首播。首組長23分鐘，共21組42段，2020/8/21 末組〈Sherlock Nose／Block Busters〉。香港授權平台片名《布公仔小寶貝》。作品登記於2019夏秋及2020冬春夏，按原播分段日期決定單次插曲所在季度。串流首先上架日期待取得當年 DisneyNOW 原始上架記錄後核。 [Disney 首播公告](https://d23.com/disney-junior-delivers-more-muppet-babies-plus-news-briefs/) · [香港 Disney+ 原版分集](https://www.disneyplus.com/en-hk/browse/entity-3961b209-f436-4f51-8f99-6b2de6cf39b4) · [原版末組](https://tv.apple.com/pl/episode/sherlock-nose-block-busters/umc.cmc.5yohv3rwhmfmtulcbakqmx7zc?showId=umc.cmc.1777u86rpx333hk7jgzdjpx20)
-- `muppet-babies-2018-season-2-op-1` 為 Renée Elise Goldsberry 原英語2018版片頭。Walt Disney Records 發行列七位合併詞曲，保留1個原聲發行音源及香港原聲專輯第1曲。香港 Dance Party! 第13曲及 Disney Junior: Theme Songs 第16曲亦可開啟，待 ISRC 或權利方版本資料再比對三個版本。保留 Disney Junior 片頭影片及 Disney 合輯 Art Track。常規伴奏片尾由分集索引記載，尚待具權利方的2018版第2季片尾聲軌、掛字或音樂資料確認後登記。Rob Cantor 搖籃曲、1984版與獨立短篇另查。 [Disney D23 片頭製作](https://d23.com/a-to-z/muppet-babies-television/) · [香港原聲第1曲](https://music.apple.com/hk/album/muppet-babies-theme-2018/1440716354?i=1440716357) · [Walt Disney Records 唱片署名](https://www.youtube.com/watch?v=YH05Ifch-Fc)
-- `muppet-babies-2018-season-2-in-1` 至 `in-28` 為28段已定位英語正篇唱段。2020冬包含209A〈A Beautiful Friendship〉、209B〈Genie in a Lamp〉、211A〈You'll Get There Soon〉，以及212B〈Muppet Rocksplosion〉首唱與改詞共兩個用途。215B、216B、218A的〈Let’s Get on the Bus〉三筆共用歌曲ID。217A〈Follow Me Little Floofle〉及〈Follow the Leader〉依兩遍保存同歌曲ID。插曲其餘正式詞曲編、配唱、212B官方MV所用剪輯、210兩段、211B、219A未明歌曲和末段其他未定位唱段，待原版掛字、原始音軌或出版方逐話曲表續查。官方影片核對發布名義、標題及簡介。 [Disney〈A Beautiful Friendship〉](https://www.youtube.com/watch?v=jI6j8MQoNJI) · [Disney〈Muppet Rocksplosion〉](https://www.youtube.com/watch?v=ubaK4F-DHv0) · [正篇唱段交叉索引](https://en.wikipedia.org/wiki/List_of_Muppet_Babies_%282018_TV_series%29_episodes)
-
-第566批資料提交 `b8cd685`。新增1作、29用途（1 OP、28 IN）、25個歌曲ID、1個原聲錄音、1個發行品、1個已綁定香港精確曲位及4支官方影片。2,155份公開API中2,149份與上批逐檔一致，差異為本作品詳情及5份季度JSON。2020冬132作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium另外核對這份詳情、29個錨點、34次季度搜尋（含3次排除）、5個手機無JavaScript海報牆鍵盤入口，同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–566批316個不同實質用途為本機驗收。
-
-## 2026-11-19 第567批 《小俏妞妮妮卡斯》第2季及兩張香港原聲
-
-- `curated-disney-fancy-nancy-season-2` 2019/10/4 11:30 EDT 在美國 Disney Channel 開播，第一組23分鐘，第2季25組50段，2021/5/9以〈The Momover／Nancy’s To-Do List〉結束。香港 Disney+ 採《小俏妞妮妮卡斯》，台灣作《小俏妞妮妮克蘭西》。登記2019秋至2021春7季。首組同步或先行上架日期待 DisneyNOW 當時的原始紀錄。 [香港 Disney+](https://www.disneyplus.com/zh-hk/browse/entity-4f528e9e-2c27-4b86-8fae-43e5d8c182de) · [台灣 Disney+](https://www.disneyplus.com/zh-tw/browse/entity-4f528e9e-2c27-4b86-8fae-43e5d8c182de) · [原版第2季首組](https://tv.apple.com/us/episode/the-return-of-dudley--nancy-quits-the-clancys/umc.cmc.4zk8je5pbk58es78g782ausxe?showId=umc.cmc.1w8ohrknve9szrdxq79orj0db) · [同期首播台表](https://mickeyblog.com/2019/09/23/disney-channel-disney-xd-and-disney-junior-october-2019-programming-highlights-released/)
-- `fancy-nancy-season-2-op-1` 為英語〈Add a Little Fancy (Fancy Nancy Main Title)〉，發行署名 Fancy Nancy - Cast、合併詞曲 Matthew Tishler 與 Krista Tucker。對應2018/6/8原聲第1曲。伴奏片尾及片頭剪輯版本待原播掛字或權利方音樂資料。Vol. 2 全17曲香港曲位均可開啟，11首定位第2季，綁定第1、2、4、5、6、8、10、11、13、14、17曲，其他6曲屬第1季，續作第1季時併核。Vol. 2 於2020/5/8發行，晚播的〈Dazzle Girl and Dragonfly〉、〈Ice Cream Smile〉、〈The Love You Left Behind〉、〈A Cup of Tea〉、〈The Fanciest Midnight〉及〈If I Were My Doll〉依個別首播入季。 [香港片頭曲位](https://music.apple.com/hk/album/add-a-little-fancy-fancy-nancy-main-title/1391264643?i=1391264672) · [香港 Vol. 2](https://music.apple.com/hk/album/disney-junior-music-fancy-nancy-vol-2/1510470364)
-- `fancy-nancy-season-2-in-1` 至 `in-19` 為19段，含2020冬第3A〈My Paree〉、4B〈I've Got Two Sides〉及5A〈We’ve Got Rapport〉。〈Good Enough〉及其改詞、〈Fancier〉首唱及重唱、〈Won’t Stop Until We Win〉兩遍分別共用歌曲ID。保留8支唱片官方 Art Track 與各段可見的合併詞曲，其他逐曲正式唱者、個別詞曲編、TV音源及未定位的劇中唱段待掛字、權利方逐話曲表或原版音軌。 [Disney 2020年2月節目公告](https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf) · [〈Good Enough〉兩遍交叉](https://nancy.fandom.com/wiki/Good_Enough) · [官方 Vol. 2 第17曲](https://www.youtube.com/watch?v=l6Fq4yZPQzI)
-
-第567批資料提交 `4068cbb`。新增1作、20用途（1 OP、19 IN）、17個歌曲ID、12個唱片音源、2個發行品、12個香港精確曲位及8支官方 Art Track。2,156份公開API中2,148份與上批逐檔一致，差異限這份詳情及7份季度JSON，2020冬133作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對新增詳情、20個錨點、27次季度搜尋（含3次排除）、7個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–567批336個不同實質用途為本機驗收。
-
-## 2026-11-19 第568批 《米奇妙妙車玩轉冒險》改名、舞蹈用曲及逐段插曲
-
-- `curated-disney-mickey-mouse-mixed-up-adventures` 是《Mickey and the Roadster Racers》改名後第3季。2019/10/14 09:00在美國 Disney Channel 首播，Disney Junior 與 DisneyNOW 同日推出。36組72段，末組2021/10/1播出、10/13在 Disney+ 上架。登記有新正篇的2019秋、2020四季、2021冬及秋，3/27播完第35組後至10/1才有第36組。香港及台灣 Disney+ 同用《米奇妙妙車玩轉冒險》，前兩季《米奇妙妙車隊》及同期獨立短篇各自盤點。 [Disney 首播及改名](https://d23.com/news-briefs-aug-15-2019/) · [香港 Disney+](https://www.disneyplus.com/zh-hk/browse/entity-d7ff8d59-b2dc-4504-9efd-3602329c3e25) · [末組電視日期](https://tv.apple.com/us/episode/the-spooky-spook-house-clarabelles-banana-splitz/umc.cmc.75xk0wdfkz0plyi6ogfz5ntre?showId=umc.cmc.t2akq55qk611soye3y2y4euj) · [Disney+ 2021年10月公告](https://press.disneyplus.com/news/next-on-disney-plus-october-2021)
-- `mickey-mouse-mixed-up-adventures-op-1` 為 Beau Black 原英語片頭，Walt Disney Records 署名 Beau Black、Loren Hoskins 為合併詞曲，2019/10/11單曲。`in-1`〈Hot Dog! Dance Break 2019〉為上下段之間的常規舞蹈，原聲列 They Might Be Giants (For Kids) 演唱、John Flansburgh 與 John Linnell 作曲，2019/8/16單曲。兩唱片均早於正篇TV，保存各自唱片與香港第1曲；合輯第30曲另核實可讀，待同錄音資料比對。片尾前另一次舞蹈與片尾掛字音樂待一組可定位的原播音軌後確認。 [香港片頭單曲](https://music.apple.com/hk/album/mickey-mouse-mixed-up-adventures-main-title-from-mickey/1481917346?i=1481917351) · [香港舞蹈單曲](https://music.apple.com/hk/album/hot-dog-dance-break-2019-from-mickey-mouse-mixed-up/1475532816?i=1475532835)
-- `mickey-mouse-mixed-up-adventures-in-2` 至 `in-21` 為20段正篇插曲。2020冬為14B〈It's No Party Without You〉與15A〈Farmin' is Charmin'〉，農場MV標題及發布日已核。2021/3/12第34A庭院〈Hot Dog!〉與常規中場同歌曲ID，具體收音機音源待核。該段〈Bow Be Mine〉的收音機／排練及公園演出分兩用途；之前第2季 Nina Glitter 版本與原聲配唱待權利方及原集掛字。其餘個別演唱、詞曲編、片內音源或尚無一致資料的插曲待原版掛字、授權音軌或權利表。 [Disney 第34A首播及故事](https://www.detpress.com/storage/uploads/0C/C3/0CC338C9-B4CD-3416-67C0-94384BE3615E/press-release-9-1194676.pdf) · [Disney 正式 Crooner Mickey 片段](https://www.youtube.com/watch?v=qJT3NrhOhDI) · [Disney 農場MV](https://www.youtube.com/watch?v=TbsZCOhhzrE)
-
-第568批資料提交 `e34017d`。新增1作、22用途（1 OP、21 IN）、20個歌曲ID、2個唱片音源、2個發行品、2個香港精確曲位及7支官方影片。2,157份公開API中2,149份與上批逐檔一致，差異限1份詳情及7份季度JSON，2020冬134作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對新增詳情、22個錨點、36次季度搜尋（含3次排除）、7個手機無JavaScript海報牆鍵盤入口與同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–568批358個不同實質用途為本機驗收。第519–528批的 PR #308 固定候選 `91e3456` 維持 GitHub CI 通過及 Workers 預覽失敗，依遠端 main、發布標籤及正式站API確認正式基線仍為第518批。
-
-## 2026-11-19 第569批 《小天才羅斯帝》第3季原版播出及英語片頭
-
-- `curated-spin-master-rusty-rivets-season-3` 採可定位的2019/7/7加拿大 Treehouse〈Rusty’s Dino Island〉電視排期當作現有日期，收錄2019夏秋與2020冬春。Paramount+ 第301組及關於加拿大的排期來源支持此編排；Apple TV、Prime Video 與次級索引另有2019年6月日期與分組，待原3集加拿大當日電視台表或發行方資料釐清日期的播映與上架性質。美國 Nick Jr. 於2020/3/2 18:00開始第301組，5/8第326組季終，26組49段。香港 ViuTVsix 在主管機關2021年度資料正式登記《小天才羅斯帝 3》，未核實的本地首次播出日期留待台方原始台表。 [Corus 加拿大第3季確認](https://assets.corusent.com/wp-content/uploads/2021/08/Specialty-Release-Corus-Upfront-2018_-FINAL.pdf) · [加拿大電視排期交叉](https://www.wunschliste.de/episode/1350969/rusty-rivets-die-dino-insel) · [美國同期台表](https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html) · [美國末組](https://tv.apple.com/us/episode/rusty-vs-the-dino-invasion/umc.cmc.4c7ef7n8fgeecitecv93sb9m8?showId=umc.cmc.6vrbhp4ewkmvsmw5wxr1ludwl) · [香港登記](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf)
-- `rusty-rivets-season-3-op-1` 記 Peter Zizzo 撰寫製作的原英語系列片頭，Nick Jr. 較早公布的正式片頭影片以系列主題收錄。原配唱未署名。第3季 Dino Island 改詞形態、區域片頭剪輯、片尾或插曲尚待對照第301、309、326組權利方音軌及掛字。Kids Superstars 發行與 Nick Jr. 節目片頭分開，保留為待核線索。 [Peter Zizzo 本人署名](https://www.peterzizzo.com/bio) · [Nick Jr. 正式系列片頭](https://www.youtube.com/watch?v=MRpcBBZ1h-s) · [主題出版授權交叉](https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=1975866)
-
-第569批資料提交 `1df64c3`。新增1作、1筆片頭用途、1個歌曲ID及1支官方影片。2,158份公開API中2,153份逐檔一致，差異限此詳情及4份季度JSON，2020冬135作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）及9項E2E。Chromium核對新增詳情、1個錨點、6次季度搜尋（含2次排除）、4個手機無JavaScript海報牆鍵盤入口與同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–569批359個不同實質用途為本機驗收。
-
-## 2026-11-19 第570批 《亮亮和晶晶》第4季英語片頭及香港原聲用途
-
-- `curated-nickelodeon-shimmer-and-shine-season-4` 於2018/10/20 12:00 EDT在美國 Nick Jr. 首播〈Welcome to Zahramay Skies〉，12:30接第二組。26組48段，美國末組2020/2/9，加拿大 Treehouse 同組2/15。香港 ViuTVsix 的年度登記名《亮亮和晶晶 4》，台灣授權名《亮亮和晶晶》。2018秋至2020冬六季依首輪開列。平台先行日期與部分播次差異保留為待查。 [Paramount+ 原版26組](https://www.paramountplus.com/shows/shimmer-and-shine/episodes/4/) · [同期首播台表](https://nickalive1.rssing.com/chan-12111484/all_p1009.html) · [末組](https://tv.apple.com/us/episode/zahra-zkunkedthe-sorcerenie/umc.cmc.4e58mrf1a1qvtola8h5nmsa52?showId=umc.cmc.2mm8h5tpzwnwt26ehvhaqmh49) · [台灣授權](https://www.porticomedia.com/channelC/program/436698)
-- `shimmer-and-shine-season-4-op-1` 是以 Zahramay Falls 為背景的第4季英語常規片頭，第21與第26組字幕交叉。唱片第1曲標示 Extended Version，列 Joleen Belle 與 Joachim Svare 合併詞曲，精確電視剪輯及片尾待原版掛字或權利方音軌。`in-1` 為第1組飛往 Zahramay Skies 時的〈Magic Carpet Song〉，待對照第2曲〈Magic Carpet Theme〉、第3曲〈Travel Song〉錄音以確認曲位。 [Nick Jr. 正式主題](https://www.youtube.com/watch?v=tA1z7GJFH7I) · [官方原聲延長版](https://www.youtube.com/watch?v=PFGeu08D-do) · [第1組旅行歌曲交叉](https://shimmerandshine.fandom.com/wiki/Magic_Carpet_Song)
-- `shimmer-and-shine-season-4-in-2` 至 `in-8` 含13A〈Sky Parade〉、14A〈A Sorceress, A Genie〉、21A〈I Found You〉、21B與26B兩次〈We’re Gonna Work It Out〉、23B〈Hot Dogs〉和26A待正式題名的除味唱段。兩次團隊歌曲共用歌曲、唱片音源與曲位，分兩季和分兩個錨點。香港全32曲位回應HTTP 200並保留精確曲位，正篇確認第1、11、28、29、30、31曲。其餘曲位需確認前季、正篇、獨立影片或其他音源的具體關係。 [香港原聲](https://music.apple.com/hk/album/shimmer-and-shine-groove-zahramay/1655415944) · [第13組字幕交叉](https://transcripts.foreverdreaming.org/viewtopic.php?t=132086) · [第21組字幕交叉](https://transcripts.foreverdreaming.org/viewtopic.php?t=132094) · [第26組字幕交叉](https://transcripts.foreverdreaming.org/viewtopic.php?t=132099)
-
-第570批資料提交 `ef64dee`。新增1作、9用途（1 OP、8 IN）、8個歌曲ID、6個原聲音源、1個發行品、6個已綁定香港精確曲位及4支官方影片。2,159份公開API中2,152份與上批逐檔一致，差異為本作品詳情及6份季度JSON，2020冬136作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E。Chromium核對新增詳情、9個錨點、17次季度搜尋（含3次排除）、6個手機無JavaScript海報牆鍵盤入口與同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–570批368個不同實質用途為本機驗收。
-
-## 2026-11-19 第571批 《旋風戰車隊》第5季首11話、英語片頭片尾及香港音源
-
-- `curated-nickelodeon-blaze-and-the-monster-machines-season-5` 於2019/8/16 09:00 EDT在美國 Nickelodeon 的 Nick Jr. 時段首播第503製作話〈The Island of Lost Treasure〉。第5季20話，約22分鐘，最後首次播出為原第508製作話〈The Gold Medal Games〉於2021/7/23；其先後與區域串流分集有差異。香港 ViuTVsix 登記《旋風戰車隊 5》，台灣授權同名。跨2019夏秋、2020四季及2021夏。原播與串流實際先後待平台初上架記錄。 [原版第5季分集](https://www.paramountplus.com/shows/blaze-and-the-monster-machines/episodes/5/) · [同期美國首播時間](https://www.nickalive.net/2019/07/nickelodeon-usas-august-2019-premiere.html?m=1) · [香港登記](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf) · [台灣授權](https://www.myvideo.net.tw/details/3/23447)
-- `blaze-and-the-monster-machines-season-5-op-1` 原英語常規片頭掛字列 Kyle Gordon、Mason Rather、JP Rende 演唱。`ed-1`〈It’s Blaze〉原播掛字列 Scott Krippayne、Michael “Smidi” Smith 創作，Scott Krippayne 演唱。兩曲香港原聲第2及3曲保留獨立唱片署名，片尾原播與唱片版本的名單差異保存於不同欄位，收錄音源與剪輯關係留待原版對比。 [第503話掛字摘錄交叉](https://blaze-and-the-monster-machines.fandom.com/wiki/The_Island_of_Lost_Treasure/Credits) · [原聲片頭](https://www.youtube.com/watch?v=w-RPvkNxd9M) · [原聲片尾](https://www.youtube.com/watch?v=ukPi85YEtmQ)
-- `blaze-and-the-monster-machines-season-5-in-1` 至 `in-29` 為首11話29筆插曲用途。首話〈Lost Treasure〉兩遍與〈Momentum〉分開，第8話 “Weird Al” Yankovic 的〈Litter Critter〉、〈Recycle〉首唱及重唱分為三用途。〈Babysitting〉、〈Abra-ka-Pickle!〉、〈Space Race〉、〈Ice Cream〉首次與重唱分開，〈Blazing Amazing〉第3及6話共用一首。三張香港原聲的15個關聯曲位均回應HTTP 200。尚未核實的個別配唱、詞曲分工、剪輯及正篇第12至20話留在後續；第12至20話先接續本作品。 [香港原聲 Vol. 2](https://music.apple.com/hk/album/rockin-ride-along-songs-vol-2/1655409304) · [香港原聲 Vol. 3](https://music.apple.com/hk/album/rockin-ride-along-songs-vol-3/1655421476) · [權利方〈Litter Critter〉音源](https://www.youtube.com/watch?v=8t4OhNsHBjs)
-
-第571批資料提交 `628c5d9`。新增1作、31用途（1 OP、1 ED、29 IN）、24個歌曲ID、15個唱片音源、3個發行品、15個香港精確曲位及5支官方 Art Track。2,160份公開API中2,152份逐檔一致，差異為本作品詳情及7份季度JSON，2020冬137作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界與統計）及9項E2E；Chromium核對新增詳情、31個錨點、40次季度搜尋（含3次排除）、7個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–571批399個不同實質用途為本機驗收。
-
-## 2026-11-19 第572批 《旋風戰車隊》第5季第12至20話
-
-- `curated-nickelodeon-blaze-and-the-monster-machines-season-5` 接同作 `blaze-and-the-monster-machines-season-5-in-30` 至 `in-53`。第12話〈Police Anthem〉伴奏及第19話首唱／重唱共用歌曲ID，三筆分開；第12話伴奏沒有綁定第19話唱片。第14話與第6話〈Monster Machine Friends〉合一歌曲ID。第16、17、18話各自的首唱及重唱分開。第20話美國延播至2021/7/23，新增〈Let’s Blaze〉、〈The Science of Sports〉及〈Team Blaze〉。 [原版分集](https://www.paramountplus.com/shows/blaze-and-the-monster-machines/episodes/5/) · [第19話掛字交叉](https://blaze-and-the-monster-machines.fandom.com/wiki/The_Treat_Thief/Credits) · [第20話掛字交叉](https://blaze-and-the-monster-machines.fandom.com/wiki/The_Gold_Medal_Games/Credits)
-- 第13話〈Force〉改編對應 Vol. 3 第19曲，保留 remix 類型。Vol. 3 第17曲〈Stronger the Force〉及 Vol. 5 的 Wild West Remix 是另外的曲位。15個香港曲位全數回應HTTP 200，涵蓋前三張及新連接的 Vol. 4。第17話〈Mechanical Engineering〉採原聲第15曲，第19話〈Data〉及兩次〈Police Anthem〉各自連原聲；部分掛字把多首歌合列，仍需核對片內個別演唱與剪輯。其他未核曲位、實際原版音軌、分項作者與配唱待原播掛字或權利方逐曲資料。 [〈Force〉版本交叉](https://blaze-and-the-monster-machines.fandom.com/wiki/Force) · [香港 Vol. 3](https://music.apple.com/hk/album/rockin-ride-along-songs-vol-3/1655421476) · [香港 Vol. 4](https://music.apple.com/hk/album/rockin-ride-along-songs-vol-4/1720074176) · [官方〈The Science of Sports〉](https://www.youtube.com/watch?v=bOhs_bisWhs)
-
-第572批資料提交 `acab1f4`。新增24筆插曲用途，涉及19個歌曲ID，其中18個為此作品新登記。新增15個唱片音源、15個香港精確曲位、7支官方 Art Track 及1個發行品，另沿用已有3個發行品。第5季合計55用途、42個歌曲ID。2,160份公開API中2,159份逐檔一致，只變更本作詳情，第571批31個公開用途逐項一致。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）與9項E2E；Chromium核對24個新增錨點、23次限定季度搜尋（含3次排除）、7個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–572批423個不同實質用途為本機驗收。
-
-
-## 2026-11-19 第573批 《Corn & Peg》第1季原播、香港重播及英語用曲
-
-- `curated-nelvana-corn-and-peg-season-1` 於2019/2/22 12:30 ET/PT在美國 Nickelodeon 先播第102製作組，2019/3/4 12:30正式開播，先播第108組。第1季20組40段，美國末組2020/2/19，加拿大 Treehouse 於2019/3/16開始播出。香港 ViuTVsix 2022年6月稱 CORN AND PEG S1，另列重播季度作品入口；英語原播用途使用2019冬春夏秋、2020冬。串流首次上架先後及香港逐日播表待檔案交叉。 [製作方](https://www.corusent.com/news/corus-entertainment-reveals-its-outstanding-roster-of-new-and-returning-canadian-original-programming-for-2018-2019/) · [官方首播預告](https://www.youtube.com/watch?v=9JhvEBmyq2w) · [授權末組](https://tv.apple.com/us/episode/a-good-causeshoot-for-the-moon/umc.cmc.54vo8idznyki6yryp03f0czjg?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys) · [香港播映登記](https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf)
-- `corn-and-peg-season-1-op-1` 登記常規片頭，作曲 Ryan Marshall。 `in-1` 登記常用〈Do Good Song〉，`in-8` 為116A中 Peg、Ferris、Ferdy 代唱，兩筆共用歌曲ID。片頭預告及歌曲宣傳片記為影片；等候權利方或原播掛字確認實際配唱、版本與片尾。已查同名 Little Ditto 錄音為翻唱。 [Nick Jr. 片頭](https://www.youtube.com/watch?v=9JhvEBmyq2w) · [Nick Jr. 歌曲影片](https://www.youtube.com/watch?v=i7BxXU8zqOw) · [分段及歌曲交叉](https://en.wikipedia.org/wiki/Corn_%26_Peg)
-- `in-2` 至 `in-7` 及 `in-9` 至 `in-11` 收錄九個已定位的正篇唱段。118A的〈Pump It Up〉及〈Sugar Cube〉同由片中 The Backsteed Boys 演出，保留不同歌曲ID及錨點。兩個描述性題名及〈Whoppie Ti Yi Yo〉的傳統歌曲版別、個別歌聲與錄音發行關係待原片掛字、權利方音樂文件或可區分的唱片曲目。 [授權第118組](https://tv.apple.com/us/episode/backsteed-boystrotterball/umc.cmc.1ev00iyo7jd24yj9c42ln1y64?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys) · [原播分段交叉](https://www.fernsehserien.de/corn-and-peg/episodenguide/staffel-1/48071)
-
-第573批資料提交 `4b95104`。新增1作、12用途（1 OP、11 IN）、11個歌曲ID、2支官方影片。2,161份公開API中2,154份逐檔一致，差異為新作詳情及6份季度JSON，2020冬138作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）和9項E2E。Chromium核對12個錨點、22次季度搜尋（含3次排除）、6個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–573批435個不同實質用途為本機驗收。
-
-
-## 2026-11-19 第574批 《Corn & Peg》第2季及第1季補漏
-
-- `curated-nelvana-corn-and-peg-season-2` 美國2020/2/20 18:00 ET首播製作組201，隔日播203。7/6 17:00 ET恢復新話，10/8 17:00 ET播第220組，也是最後一組。第2季20組39段，製作順序、按播出日分段與串流分冊序號有差。加拿大 Treehouse 首播日期待個別播表。香港 ViuTVsix 2022年6月至7月以 CORN AND PEG S2 播出，春及夏季為本地播映入口。 [Corus 向加拿大主管機關申報](https://crtc.gc.ca/pubs/TVProduction/2023%20-%20Corus%20Entertainment%20Inc.%20-%20Production%20Report%20-%20BIB%20CRTC%202019-304_English_Abridged.pdf) · [授權首組](https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys) · [美國末播表](https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0) · [香港播映登記](https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf)
-- `corn-and-peg-season-2-op-1`、`in-1` 沿用第1季兩個歌曲ID及兩支官方系列影片，保留各季獨立用途。英語原播片頭作曲 Ryan Marshall，〈Do Good Song〉使用角色列名。部分集有配音更換，仍待201／203／204／207組原音與掛字證實個別歌聲及是否存在重錄。 `in-2` 至 `in-8` 是204B、205B、206B、202B、212及217A／217B的七個可識別唱段。〈Trot Together〉的劇中音樂影片、〈Miss Sassy’s Musical〉的試唱、原播片尾、正式題名和原聲版別待原片或逐曲權利方資料。 [授權分冊3](https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7) · [授權分冊4](https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX) · [使用位置交叉](https://en.wikipedia.org/wiki/Corn_%26_Peg) · [Nick Jr. 系列官方歌曲影片](https://www.youtube.com/watch?v=i7BxXU8zqOw)
-- `corn-and-peg-season-1-in-12` 至 `in-16` 補第103B、107A／107B、104B五個2019冬唱段。〈Twinkle Piggy〉與〈Clarissa’s Jacket〉在同一段分列。上批12個公開用途維持原序號、內容與錨點。待原播音軌確認掛字、正式題名、個別配唱及曲位。 [授權第1季分集](https://www.primevideo.com/detail/0IH1JWP682N430LMRLSB5TGO4V) · [授權第107組](https://tv.apple.com/us/episode/carrot-on-the-loosederby-day/umc.cmc.4u75lmfqzfkyryjpf52j4v8zm?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys) · [第1季曲目和位置交叉](https://en.wikipedia.org/wiki/Corn_%26_Peg)
-
-第574批資料提交 `0393e44`。新增1作，兩作共新增14用途（1 OP、13 IN）、12個新歌曲ID及2個既有歌曲ID。新作援用2支已登記的官方系列影片。2,162份公開API中2,155份逐檔一致，差異為兩份作品詳情及5份季度JSON，2020冬139作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）和9項E2E。Chromium核對兩份詳情、14個新增錨點、21次季度搜尋（含3次排除）、6個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–574批449個不同實質用途為本機驗收。
-
-
-## 2026-11-19 第575批 《王國部隊》原播及義大利片頭
-
-- `curated-industrial-brothers-kingdom-force` 加拿大 CBC Kids 和 CBC Gem 於2019/12/7同日開播，電視周六09:00。原季26組52段、約22分鐘雙段，2020冬至夏有新話。〈Origins〉首播編排與串流排序有差，加拿大末組日期索引有9/5與9/9兩種，先登記2020年9月，待 CBC 原播表。香港 ViuTVsix 2021年5至6月登記《王國部隊》，作品可由2021春海報牆進入。 [製作方](https://www.industrialbrothers.com/brands/kingdom-force/) · [CBC 播出預告](https://www.youtube.com/watch?v=oRn9YNmWkvI) · [首播同期時段](https://www.tv-eh.com/2019/page/3/) · [香港播映登記](https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf)
-- `kingdom-force-op-1` 是約30秒常規原英語片頭，登記 Lorenzo Castelli 作曲，個別配唱及片尾待原播掛字。 `op-2` 義大利 Boomerang 2020/9/7 19:45開播的改編與原作共用歌曲ID。登記 Lorenzo Castelli、Steve D’Angelo、Terry Tompkins 作曲，Mirko Fabbreschi 義大利詞、Raggi Fotonici 改編及演唱。9/17公開約90秒完整版及團隊官方影片，義大利電視剪輯與香港商業曲位待核。 [原音樂團隊代理](https://coremusicagency.com/get/uploads/Mw8qkTFuPpmy0TgGi82Pdoc18Ml7SxOX3do7VvVi.pdf) · [首播完整版與署名](https://radioanimati.it/tag/laura-salamone/page/3/) · [義大利首播表](https://www.spettacolo.eu/cartoonito-boing-boomerang-novita-settembre-2020/) · [團隊官方影片](https://www.youtube.com/watch?v=ZrtrXxZWw-Q)
-- `kingdom-force-in-1` 記第11組前段〈Mad Max Volume〉2020/2/15 CBC列車場景。Boomerang 分集簡介確認角色演奏。CBC Kids 正版影片核對到標題與頻道，香港播放受地區限制。正式題名及實際配奏待可合法查閱的原片或曲表。〈Burden of Tooth〉各語節目簡介對角色與場景有出入，需原片證實後另加。 [Boomerang 分集簡介](https://www.fernsehserien.de/kingdom-force/folgen/1x11a-volle-lautstaerke-1405204) · [CBC Kids 正篇](https://www.youtube.com/watch?v=_xQZVF0LEUg)
-
-第575批資料提交 `cf154cc`。新增1作、3用途（2 OP、1 IN）、2個歌曲ID、1個義大利完整版音源及1支藝人官方影片。2,163份公開API中2,157份逐檔一致，差異為作品詳情及5份季度JSON，2020冬140作。修正初次單元檢查發現的來源語言契約後，Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）和9項E2E；Chromium核對3個新增錨點、9次季度搜尋（含3次排除）、5個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–575批452個不同實質用途為本機驗收。
-
-
-## 2026-11-19 第576批 《Agent Binky: Pets of the Universe》第1季
-
-- `curated-redknot-agent-binky-pets-of-the-universe-season-1` 加拿大 Treehouse 2019/9/7 12:40首播〈No Moussie Left Behind／Dragonfly Away!〉。第1季26組52段，2020/2/23末播組。首次播映橫跨2019夏秋與2020冬。2020春開始國際發行，各平台採不同排序。繁中 Prime Video 顯示英語節目名。香港正式譯名、觀賞地區及串流首播與電視先後待相應權利方名冊或原期節目表。 [Corus 首播公告](https://www.corusent.com/news/prepare-for-family-fun-this-fall-on-ytv-teletoon-and-treehouse-with-a-lineup-of-brand-new-series-and-reboots-of-beloved-iconic-shows/) · [Nelvana 規格](https://www.nelvana.com/brand-pages/agent-binky) · [加拿大逐段交叉](https://www.tvmaze.com/shows/48617/agent-binky-pets-of-the-universe/episodeguide) · [繁中平台](https://www.primevideo.com/-/zh_TW/detail/0HX61ZQ5B71VCS06857O0LMUDV?tr=ca)
-- `agent-binky-pets-of-the-universe-season-1-op-1` 與 `ed-1` 共用〈Agent Binky Theme Song〉歌曲ID。第108組官方原片22:19畫面明列 Meiro Stamm 為主題曲作者，Carl Lenox、Andy McNeill 為節目配樂。歌唱片頭與器樂片尾分存兩筆電視音源，片頭接官方獨立影片。原唱、拆分詞曲、原版片尾獨立外連及香港可核音源待逐曲掛字或權利方發行。 [Treehouse Direct 原片](https://www.youtube.com/watch?v=eygX3zl2LOI&t=1339s) · [官方獨立片頭](https://www.youtube.com/watch?v=9SQ9eZdQQWQ) · [器樂片尾位置交叉](https://purst.fandom.com/wiki/It%27s_Binky%21)
-- `agent-binky-pets-of-the-universe-season-1-in-1` 為〈Glow Away〉中的 P.U.R.S.T. 隊歌。製作段108A、2019/9/15 Treehouse 第3組前段、HBO Max第15分段為同一段。官方原片簡介及字幕可查，個別歌聲、作者與同集不同唱段的剪輯仍待分段音樂資料。〈We Wish You a Merry PURSTmas〉與聖誕段同名，續查 Carl Lenox 資料及原片是否有獨立唱段。 [加拿大授權分集](https://tv.apple.com/ca/episode/glow-away-space-station-flappy/umc.cmc.3198igb1f6xrt5nfzjdmcmdfb?showId=umc.cmc.moc9cf9ufxeuq64odeadujve) · [授權隊歌簡介](https://www.hbomax.com/bb/en/show/5c923dd4-e6a7-4ab2-a2b3-00ada09cbfc3)
-
-第576批資料提交 `20cd240`。新增1作、3用途（1 OP、1 ED、1 IN）、2個歌曲ID、2個原播音源及1支官方片頭。2,164份公開API中2,160份逐檔一致，差異為作品詳情及3份季度JSON，2020冬141作。Node 22通過 `npm run verify:batch`（27項單元、完整建置、公開邊界及統計）和9項E2E；Chromium核對3個新增錨點、6次季度搜尋（含2次排除）、3個手機無JavaScript海報牆鍵盤入口及同意前零YouTube連線。備份還原後280個追蹤檔案逐一比對一致。第529–576批455個不同實質用途為本機驗收。
-
 ## 2026-11-19 第519–528批正式驗收及集中發布基線
 
 - [PR #308](https://github.com/kyeunga25/anisonary/pull/308) 原候選 `91e3456` 的 Workers 型別檢查在約2 GiB heap 耗盡。保留原檢查內容，只調整 Workers Builds 的 Astro 型別檢查子程序至4 GiB。以2 GiB外部設定重現並驗證修正。固定候選 `e92b7a5` 維持42部作品及225個不同的實質用途ID，通過 GitHub CI、Workers 預覽、完整本機驗證與瀏覽器驗收。
 - 合併提交 `b26895d9c87cf325642ff455815e812a5e3aec87` 已通過 [GitHub CI](https://github.com/kyeunga25/anisonary/actions/runs/44512854143) 及同 SHA 的 Workers 正式建置。預覽與正式 CI 的4,383個檔案逐檔一致。正式逐檔驗收2,114份JSON、119頁HTML、225個歌曲錨點及兩個未知路徑404；瀏覽器核對42個作品搜尋、42個手機無JavaScript海報牆鍵盤入口、31個季度搜尋、311個官方直連及YouTube明確同意。正式公開API契約重建成功，2020冬正式名冊94部。標籤及 [GitHub Release](https://github.com/kyeunga25/anisonary/releases/tag/batch528-basics) 已核對同一提交。
 - 第529–576批固定本機集合以本次正式產物作基線，2,164份候選API中2,062份逐檔一致。實質用途按穩定ID及歌名、演唱、用途、季度、製作署名、錄音、發行、影片或平台欄位去重，計60部作品457筆（402新增、55更新），純來源日期和待辦文字不計。此集合另行驗證與發布。
+
+## 2026-11-19 第529–576批正式驗收
+
+[PR #309](https://github.com/kyeunga25/anisonary/pull/309) 固定候選 `63becb0647ba3bd57e8c709174ffa440dbd09dcf` 相對 `batch528-basics` 比對出60部作品、457個不同用途ID（402新增、55更新）。GitHub CI、Workers預覽建置及預覽公開內容均通過，合併 `bdca2f7f874c4c42aa95494b19bd4dd5ffbd69f7` 的檔案樹與固定候選一致。正式 Workers 版本為 `3a6b59a9-3382-4b63-ba7a-7459dd33b25c`。
+
+正式逐檔核對2,164份 JSON、150頁HTML及457個歌曲錨點。Chromium驗收60個作品精確搜尋、18個季度搜尋、67個手機鍵盤／無JavaScript海報牆入口、335個正版平台連結及YouTube同意流程。預覽與正式的4,488個CI產物逐檔一致，正式公開API重建成功，重建的2,164份JSON逐檔一致。該版本的2020冬快照含141部，當時名冊包含境外製作。日本TV動畫的季度數量以範圍更正後的統計為準。 [正式CI](https://github.com/kyeunga25/anisonary/actions/runs/44517575284) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch576-basics)
+
+
+## 第581批　日本 TV 動畫範圍複核
+
+正式基線含 2,129 部作品。比對 2,066 個外部作品識別的製作地，另查其餘 63 個本地作品識別；對疑似境外製作核對原權利方及製作名義。撤回正式目錄中 50 部境外作品、379 個用途及其專屬版本、影片和發行連結；第 577–580 批另有 4 部、17 個用途僅在本機存在。本次修正後目錄共 2,079 部、5,917 個用途。日本參與原動畫製作的作品保留，海外播放版本在作品頁呈現。
+
+- `curated-97634`《寶可夢 太陽&月亮》補上 2018 秋日本原播的〈キミの冒険〉及〈ジャリボーイ・ジャリガール〉。日本版於 2019 秋完結；美國版演唱與伴奏用途保留在作品頁，另按北美發行追溯。[東京電視台原播曲表](https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201810/24340_201810071800.html)
+- `curated-117096`《アサティール 未来の昔ばなし》保留日本春季放送及沙烏地版錄音、歌曲與平台；`curated-116415`《爆丸 裝甲聯盟》保留日本 4 月起配信的四筆歌曲。兩作之境外冬季編排均已移出季度名冊。[J:COM 播出資料](https://newsreleases.jcom.co.jp/files/file/81631_print.pdf) · [TMS 配信公告](https://www.tms-e.co.jp/archives/pdf/release/2020/20200306_bakumaru_new.pdf)
+- `zoids-wild-zero-op-1`〈blue blue blue〉補福島由也詞、曲、編及 Ivy to Fraudulent Game 演唱。2021 年《再生する》Limited B 第 2 碟第 2 曲為 Acoustic Session；AWA 的先行單曲與專輯曲目各自連結，另列 Spotify 專輯曲、Apple Music 香港音軌及 MV。第 1 話的權利方影片在香港限制播放，第 50 話的電視台記錄只有劇情。兩話均待正版日語原片或權利方逐話用曲表確認。[樂團發行說明](https://www.youtube.com/watch?v=CL8wR1xU9-g) · [Apple Music 香港音軌](https://music.apple.com/hk/song/1475455323) · [香港 MV](https://music.apple.com/hk/music-video/blue-blue-blue/1475435540)
+- 外部標為網絡首發的 425 部中，剔除 2 部境外製作後，111 部可定位日本線性台，94 部目前僅有網絡發行或公告證據，218 部仍待核對媒體、版本或原播時段。電視後播、重剪及節目內短篇須另核，繼續逐季對帳。2020 冬目錄包含 99 部不同播出形式的作品，標準 TV 名冊尚未閉合。下一步以東映春夏兩次日本新話公告補正作品季別，再核對《BNA》等配信先行作品各版用曲。[東映 6 月節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020060502.php) · [東映 8 月節目表](https://www.toei-anim.co.jp/tv/miraculous/news/2020072701.php) · [《BNA》播出表](https://bna-anime.com/onair/)
+
+本機驗收通過 27 項單元測試、建置及公開邊界檢查、9 項 E2E。另比對 34 季海報牆、5,917 個用途的搜尋索引、作品頁、sitemap 及來源錨點。除上述 4 部資料更新外，2,075 部保留作品的公開 JSON 與正式基線逐位元相同。

@@ -452,13 +452,6 @@ const reviewedThemeGroups: readonly ReviewedThemeGroup[] = [
     firstPartyUrl: "https://www.nhk.jp/p/wasimo/ts/K7N4Z3MV5X/",
     crossCheckUrl: "https://anison.online/season?season_id=13",
   },
-  {
-    anilistId: 116415,
-    themeKeys: ["OP:1", "ED:1", "ED:2", "ED:3"],
-    label: "《爆丸 裝甲聯盟》日本版官方主題曲與演唱",
-    firstPartyUrl: "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
-    crossCheckUrl: "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
-  },
 ];
 
 function sourcesFor(
