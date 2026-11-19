@@ -1,3 +1,4 @@
+import { curated2018SpringThemeVideos } from "@/data/curated-theme-videos/2018/spring";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curatedAnimeKey } from "@/data/curated-seeds/types";
 import { curated2019FallThemeVideos } from "@/data/curated-theme-videos/2019/fall";
@@ -36,7 +37,7 @@ import type {
 } from "@/data/curated-theme-videos/types";
 import type { PublicVideo } from "@/types/public-api";
 
-const themeKeyPattern = /^(\d+):(OP|ED|IN|TS):([1-9]\d*)$/;
+const themeKeyPattern = /^(-?\d+):(OP|ED|IN|TS):([1-9]\d*)$/;
 const youtubeVideoIdPattern = /^[A-Za-z0-9_-]{11}$/;
 const videoFields = new Set([
   "youtubeVideoId",
@@ -70,7 +71,7 @@ const officialStatuses = new Set<PublicVideo["officialStatus"]>([
 export function validateCuratedThemeVideoRegistry<
   const Entries extends readonly CuratedThemeVideoRegistryEntry[],
 >(entries: Entries): Entries {
-  const ownerByAniListId = new Map(
+  const ownerByCatalogKey = new Map(
     curatedSeasonRegistry.flatMap(({ id, seeds }) =>
       seeds.map((seed) => [curatedAnimeKey(seed), id] as const),
     ),
@@ -90,8 +91,8 @@ export function validateCuratedThemeVideoRegistry<
         throw new Error(`Invalid theme video key: ${key}`);
       }
 
-      const anilistId = Number(match[1]);
-      if (ownerByAniListId.get(anilistId) !== entry.seasonId) {
+      const catalogKey = Number(match[1]);
+      if (ownerByCatalogKey.get(catalogKey) !== entry.seasonId) {
         throw new Error(`Theme video owner mismatch: ${key}`);
       }
       if (registeredThemeKeys.has(key)) {
@@ -180,6 +181,7 @@ export const curatedThemeVideoRegistry = validateCuratedThemeVideoRegistry([
   { seasonId: "2020-winter", overrides: curated2020WinterThemeVideos },
   { seasonId: "2019-fall", overrides: curated2019FallThemeVideos },
   { seasonId: "2019-summer", overrides: curated2019SummerThemeVideos },
+  { seasonId: "2018-spring", overrides: curated2018SpringThemeVideos },
 ] as const);
 
 export const curatedThemeVideoOverrides: CuratedThemeVideoOverrideMap =

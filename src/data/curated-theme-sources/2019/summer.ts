@@ -60,6 +60,7 @@ const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>
   "111144:OP:1": ["https://bushiroad-music.com/musics/brmm-10211/"],
   "111144:ED:1": ["https://argo-bdp.com/music/post-2702/"],
   "111144:ED:2": ["https://www.youtube.com/watch?v=jlX_8QPjZmY"],
+  "111144:ED:3": ["https://bushiroad-music.com/musics/brmm-10211/", "https://bushiroad.com/media/10627"],
   "107663:OP:1": [
     "https://astra-anime.com/products/music.html"
   ],
@@ -144,6 +145,12 @@ const firstPartyUrlsByTheme: Readonly<Partial<Record<string, readonly string[]>>
 };
 
 const crossCheckById: Readonly<Partial<Record<number, CuratedThemeSourceSeed>>> = {
+  111144: {
+    label: "Mau2：日本原期逐話片頭、片尾及插曲交叉核對",
+    url: "https://www.mau2.com/anime/cardfightvanguard-r2-3",
+    language: "ja",
+    role: "cross_check"
+  },
   110124: {
     label: "オリミュウストア：片尾曲與配信名義交叉核對",
     url: "https://music.orimyu.com/php/music/MusicTop.php?music=6773313",
@@ -165,7 +172,8 @@ const crossCheckById: Readonly<Partial<Record<number, CuratedThemeSourceSeed>>> 
 };
 
 export const curated2019SummerThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
-  curated2019SummerSeeds.flatMap((seed) => seed.themes.map((theme) => {
+  curated2019SummerSeeds.flatMap((seed) => seed.themes
+    .filter((theme) => theme.type === "OP" || theme.type === "ED" || theme.sourceMode !== "explicit").map((theme) => {
     const key = `${seed.anilistId}:${theme.type}:${theme.sequence}`;
     const urls = firstPartyUrlsByTheme[key] ?? [firstPartyUrlById[seed.anilistId]];
     const crossCheck: CuratedThemeSourceSeed | undefined = crossCheckById[seed.anilistId] ?? (seed.animeThemesUrl ? {

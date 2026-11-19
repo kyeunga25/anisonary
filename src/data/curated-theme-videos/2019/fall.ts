@@ -1,6 +1,437 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+  "110788:ED:3": [
+    {
+      "youtubeVideoId": "XXtkb-uhRbc",
+      "title": "夢の轍｜H△G 官方動畫特別剪輯 MV",
+      "channelName": "H△G",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108040:ED:1": [
+    {
+      "youtubeVideoId": "QUaYq9-_bcs",
+      "title": "ちっとも知らなかった｜NakamuraEmi 官方 MV",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108040:OP:1": [
+    {
+      "youtubeVideoId": "6p1ihtNrWwY",
+      "title": "ナラク｜Halo at 四畳半 官方 MV",
+      "channelName": "日本コロムビア 公式YouTubeチャンネル",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100780:ED:3": [
+    {
+      "youtubeVideoId": "ohFxsyrQQ68",
+      "title": "melt｜官方完整 MV",
+      "channelName": "SennaRin Official YouTube Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "109616:OP:2": [
+    {
+      "youtubeVideoId": "GF6BXTluSIU",
+      "title": "無限の住人 武闘編｜唱片官方 Art Track",
+      "channelName": "人間椅子",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mugen-no-juunin-immortal-op-2-song-butouhen-digital-full"
+    }
+  ],
+  "109616:OP:1": [
+    {
+      "youtubeVideoId": "pOJvBzRKKuk",
+      "title": "SURVIVE OF VISION｜清春官方 MV",
+      "channelName": "清春",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111048:ED:1": [
+    {
+      "youtubeVideoId": "tdTd0hvo-qU",
+      "title": "Born This Way｜第一季第一首官方無字幕片尾",
+      "channelName": "公式「ケンガンアシュラ」",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "fzTIu7x4Lv4",
+      "title": "Born This Way -TV Edit-｜唱片方授權音源",
+      "channelName": "BAD HOP - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kengan-ashura-ed-1-song-tv-edit"
+    }
+  ],
+  "111048:OP:1": [
+    {
+      "youtubeVideoId": "NLlv6q_qV98",
+      "title": "KING & ASHLEY｜第一季第一首官方無字幕片頭",
+      "channelName": "公式「ケンガンアシュラ」",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "OxNeZiOr_zs",
+      "title": "KING & ASHLEY｜The Anthems 授權音源",
+      "channelName": "MY FIRST STORY - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kengan-ashura-op-1-song-anthems-track"
+    }
+  ],
+  "110786:ED:1": [
+    {
+      "youtubeVideoId": "4UoPbc0aYDY",
+      "title": "MAGIC TIME｜avex 官方歌詞影片",
+      "channelName": "avex",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "q-rszQ3fwLo",
+      "title": "MAGIC TIME｜唱片官方 Art Track",
+      "channelName": "スダンナユズユリー - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-re-rise-ed-1-song-original-digital-vocal"
+    }
+  ],
+  "104159:IN:1": [
+    {
+      "youtubeVideoId": "cKmhab15cCc",
+      "title": "サンディエゴ ★伊藤あすか ～私はNo 1！～",
+      "channelName": "アズールレーン",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100780:ED:2": [
+    {
+      "youtubeVideoId": "ExxtVI0uE5E",
+      "title": "光の星｜官方 MV YouTube Edit",
+      "channelName": "ELISA Official YouTube Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100780:OP:2": [
+    {
+      "youtubeVideoId": "iZj9Amt6kcw",
+      "title": "CRY｜官方 MV",
+      "channelName": "澤野弘之 / SawanoHiroyuki[nZk]",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100780:ED:1": [
+    {
+      "youtubeVideoId": "rf647dVFYik",
+      "title": "Tranquility｜官方 MV YouTube EDIT",
+      "channelName": "澤野弘之 / SawanoHiroyuki[nZk]",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "22_xAqdPOkU",
+      "title": "Tranquility｜唱片官方 Art Track",
+      "channelName": "澤野弘之 / SawanoHiroyuki[nZk]",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "ginga-eiyuu-densetsu-die-neue-these-seiran-ed-1-song-tranquility-single-vocal"
+    }
+  ],
+  "100780:OP:1": [
+    {
+      "youtubeVideoId": "7k_d3bjpaeY",
+      "title": "Binary Star｜官方 MV",
+      "channelName": "澤野弘之 / SawanoHiroyuki[nZk]",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "PAyo4RQ7_-Q",
+      "title": "Binary Star (moll)｜唱片官方 Art Track",
+      "channelName": "澤野弘之 / SawanoHiroyuki[nZk]",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "ginga-eiyuu-densetsu-die-neue-these-seiran-op-1-song-binary-star-moll"
+    }
+  ],
+  "111082:IN:10": [
+    {
+      "youtubeVideoId": "CS0FrxeUuC8",
+      "title": "アイカツオンパレード！ミュージックビデオ『SHINING LINE* ～いちご & あかり & ゆめ & あいね & みお & らき ver.～』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111082:IN:8": [
+    {
+      "youtubeVideoId": "NTVcWfBmWno",
+      "title": "アイカツオンパレード！ミュージックビデオ『正義のキモチ』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111082:IN:7": [
+    {
+      "youtubeVideoId": "TL-q3FOwvPE",
+      "title": "アイカツオンパレード！ミュージックビデオ『Future jewel』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111082:IN:6": [
+    {
+      "youtubeVideoId": "hRZBmVCKdDQ",
+      "title": "アイカツオンパレード！ミュージックビデオ『Take Me Higher ～美月 & エルザ & ひびき ver.～』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "JH3xNc0vLlw",
+      "title": "【アイカツオンパレード！】「Take Me Higher ～美月＆エルザ＆ひびき ver.～」公式ステージムービー【ALL AIKATSU！ BAND LIVE 開催記念！】",
+      "channelName": "アイカツ!チャンネル【公式】",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111082:IN:3": [
+    {
+      "youtubeVideoId": "aQALI5eH7OE",
+      "title": "アイカツオンパレード！ミュージックビデオ『STARDOM！～みお & ゆめ ver.～』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107693:IN:2": [
+    {
+      "youtubeVideoId": "rCnlhyoWVYk",
+      "title": "キミの小悪魔黙示録｜第22話合唱官方片段",
+      "channelName": "アニメ「魔入りました!入間くん」公式Anime OFFICIAL",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107693:IN:1": [
+    {
+      "youtubeVideoId": "zimfmUZQ-Qg",
+      "title": "クララランド～奇跡のちゅちゅちゅ～｜第8話插曲官方片段",
+      "channelName": "アニメ「魔入りました!入間くん」公式Anime OFFICIAL",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107693:ED:2": [
+    {
+      "youtubeVideoId": "SZqjaFv6uKw",
+      "title": "悪魔学校バビルス校歌｜avex pictures 原聲帶授權音源",
+      "channelName": "Release - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mairimashita-iruma-kun-ed-2-song-ost-staff-and-cast"
+    }
+  ],
+  "107693:ED:1": [
+    {
+      "youtubeVideoId": "N_l_CVhMX4c",
+      "title": "デビきゅー｜avex 官方 MV",
+      "channelName": "avex",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "107693:OP:1": [
+    {
+      "youtubeVideoId": "RHMaIluGaX4",
+      "title": "Magical Babyrinth｜SONIC GROOVE 授權音源",
+      "channelName": "DA PUMP",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mairimashita-iruma-kun-op-1-song-digital-single-full"
+    },
+    {
+      "youtubeVideoId": "8bQo70MIf6o",
+      "title": "Magical Babyrinth（マジカル・バビリンス）TV-SIZE｜avex pictures 授權音源",
+      "channelName": "DA PUMP",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mairimashita-iruma-kun-op-1-song-ost-tv-size"
+    }
+  ],
+  "108928:ED:2": [
+    {
+      "youtubeVideoId": "_CcG-Fz9zV0",
+      "title": "Good day｜唱片公司授權音源",
+      "channelName": "足立佳奈",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "nanatsu-no-taizai-kamigami-no-gekirin-ed-2-song-single-full"
+    },
+    {
+      "youtubeVideoId": "KQCBt1PRoXg",
+      "title": "Good day｜官方無字幕片尾",
+      "channelName": "七つの大罪 公式",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108928:ED:1": [
+    {
+      "youtubeVideoId": "HNNqdMK--7M",
+      "title": "Regeneration｜藝人官方短版 MV",
+      "channelName": "TrySail official YouTube channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108928:OP:2": [
+    {
+      "youtubeVideoId": "zNk8xw0AwPk",
+      "title": "delete｜藝人官方 MV",
+      "channelName": "SID",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108928:OP:1": [
+    {
+      "youtubeVideoId": "vG4aY5ocnlg",
+      "title": "ROB THE FRONTIER｜藝人官方 MV",
+      "channelName": "UVERworld Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "4ig8G97jXDU",
+      "title": "ROB THE FRONTIER｜藝人官方短版 MV",
+      "channelName": "UVERworld Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101215:ED:1": [
+    {
+      "youtubeVideoId": "f9gmsZqSd4M",
+      "title": "一目惚れ｜官方 ED size 音源",
+      "channelName": "バンドハラスメント",
+      "type": "official_audio",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "chihayafuru-3-ed-1-song-ed-size"
+    },
+    {
+      "youtubeVideoId": "-WH4oJ6Xqok",
+      "title": "一目惚れ｜藝人官方 MV",
+      "channelName": "バンドハラスメント",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101215:OP:1": [
+    {
+      "youtubeVideoId": "cY059rYKrwg",
+      "title": "COLORFUL｜藝人官方 MV",
+      "channelName": "99RadioService",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "108358:IN:1": [
     {
       "youtubeVideoId": "NOxlLIhONik",
@@ -310,13 +741,22 @@ export const curated2019FallThemeVideos = {
   ],
   "103638:OP:1": [
     {
-      youtubeVideoId: "EBShbHtZP-o",
-      title: "TVアニメ「歌舞伎町シャーロック」アニメOPプロモーション映像",
-      type: "other",
-      channelName: "KADOKAWAanime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "EBShbHtZP-o",
+      "title": "TVアニメ「歌舞伎町シャーロック」アニメOPプロモーション映像",
+      "type": "other",
+      "channelName": "KADOKAWAanime",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "TsXwGqqIKgo",
+      "title": "EGO-WRAPPIN' 『CAPTURE』",
+      "channelName": "EGO-WRAPPIN'",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "103638:ED:1": [
     {
@@ -330,13 +770,22 @@ export const curated2019FallThemeVideos = {
   ],
   "103638:ED:2": [
     {
-      youtubeVideoId: "04p6P-c7VIY",
-      title: "TVアニメ「歌舞伎町シャーロック」第2クールノンクレジットED映像",
-      type: "creditless_ed",
-      channelName: "KADOKAWAanime",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "04p6P-c7VIY",
+      "title": "TVアニメ「歌舞伎町シャーロック」第2クールノンクレジットED映像",
+      "type": "creditless_ed",
+      "channelName": "KADOKAWAanime",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "YNgc0oZeilM",
+      "title": "石崎ひゅーい – パレード",
+      "channelName": "石崎ひゅーい",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "104115:OP:1": [
     {
@@ -362,14 +811,32 @@ export const curated2019FallThemeVideos = {
   ],
   "104159:OP:1": [
     {
-      youtubeVideoId: "Uxfei0GmZlQ",
-      title:
-        "アニメ『アズールレーン』ノンクレジットOP／「graphite/diamond」May'n",
-      type: "creditless_op",
-      channelName: "TOHO animation",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "Uxfei0GmZlQ",
+      "title": "アニメ『アズールレーン』ノンクレジットOP／「graphite/diamond」May'n",
+      "type": "creditless_op",
+      "channelName": "TOHO animation",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "jgLbu5vTo0I",
+      "title": "【Music Video】TVアニメーション『アズールレーン』オープニング主題歌 graphite/diamond",
+      "channelName": "Stray Cats OFFICIAL CHANNEL",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "Do0rHlprEfU",
+      "title": "graphite/diamond (Re-Recording)",
+      "channelName": "May'n",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "azur-lane-op-1-song-twenty-next-rerecording"
+    }
   ],
   "104159:ED:1": [
     {
@@ -636,25 +1103,41 @@ export const curated2019FallThemeVideos = {
   ],
   "111082:OP:1": [
     {
-      youtubeVideoId: "udOSxtxa70s",
-      title:
-        "【アイカツオンパレード！】OPテーマ「君のEntrance」ノンクレジット映像",
-      type: "creditless_op",
-      channelName: "アイカツ!チャンネル【公式】",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "udOSxtxa70s",
+      "title": "【アイカツオンパレード！】OPテーマ「君のEntrance」ノンクレジット映像",
+      "type": "creditless_op",
+      "channelName": "アイカツ!チャンネル【公式】",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "AKaPUKQbTI0",
+      "title": "アイカツオンパレード！ミュージックビデオ『君のEntrance』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "111082:ED:1": [
     {
-      youtubeVideoId: "LKmj1KDEYPM",
-      title:
-        "【アイカツオンパレード！】EDテーマ「アイドル活動！オンパレード！ver.」ノンクレジット映像",
-      type: "creditless_ed",
-      channelName: "アイカツ!チャンネル【公式】",
-      officialStatus: "official",
-      embeddable: true,
+      "youtubeVideoId": "LKmj1KDEYPM",
+      "title": "【アイカツオンパレード！】EDテーマ「アイドル活動！オンパレード！ver.」ノンクレジット映像",
+      "type": "creditless_ed",
+      "channelName": "アイカツ!チャンネル【公式】",
+      "officialStatus": "official",
+      "embeddable": true
     },
+    {
+      "youtubeVideoId": "kzTYAxl-BiM",
+      "title": "アイカツオンパレード！ミュージックビデオ『アイドル活動！オンパレード！ver.』をお届け♪",
+      "channelName": "「アイカツ ! アンコール」公式",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
   ],
   "111082:ED:2": [
     {

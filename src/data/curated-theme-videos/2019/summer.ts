@@ -1,6 +1,98 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019SummerThemeVideos = {
+  "100891:IN:4": [
+    {
+      "youtubeVideoId": "Mp5s4YJK-gE",
+      "title": "万華鏡｜RagDöllz 官方 MV",
+      "channelName": "RagDöllz",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100891:ED:1": [
+    {
+      "youtubeVideoId": "tdTd0hvo-qU",
+      "title": "Born This Way｜官方無字片尾",
+      "channelName": "公式「ケンガンアシュラ」",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "MFWtLMi03_g",
+      "title": "Born This Way｜數位單曲官方音軌",
+      "channelName": "BAD HOP",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kengan-ashura-ed-1-song-commercial"
+    },
+    {
+      "youtubeVideoId": "fzTIu7x4Lv4",
+      "title": "Born This Way -TV Edit-｜官方音軌",
+      "channelName": "BAD HOP",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kengan-ashura-ed-1-song-tv-edit"
+    },
+    {
+      "youtubeVideoId": "5SuTkMNIV1o",
+      "title": "Born This Way｜The Anthems 官方音軌",
+      "channelName": "BAD HOP",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "100891:OP:1": [
+    {
+      "youtubeVideoId": "NLlv6q_qV98",
+      "title": "KING & ASHLEY｜官方無字片頭",
+      "channelName": "公式「ケンガンアシュラ」",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "OxNeZiOr_zs",
+      "title": "KING & ASHLEY｜The Anthems 官方音軌",
+      "channelName": "MY FIRST STORY",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "111144:ED:1": [
+    {
+      "youtubeVideoId": "JttNiFDRIbI",
+      "title": "ギフト｜官方單曲宣傳短片",
+      "channelName": "ARGONAVIS ch.",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "dqNNB180oDY",
+      "title": "ギフト｜Argonavis 2nd LIVE「VOICE -星空の下の約束-」現場演出",
+      "channelName": "ARGONAVIS ch.",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "cardfight-vanguard-shinemon-hen-ed-1-song-voice-concert-live"
+    }
+  ],
   "110124:ED:1": [
     {
       youtubeVideoId: "LK64W7e75zA",
@@ -53,22 +145,22 @@ export const curated2019SummerThemeVideos = {
   ],
   "111144:OP:1": [
     {
-      youtubeVideoId: "YwssMJO4T8s",
-      title: "【10/16発売】相羽あいな「Lead the way」Music Video(short ver.)",
-      type: "other",
-      channelName: "ブシロード公式チャンネル",
-      officialStatus: "official",
-      embeddable: true
+      "youtubeVideoId": "YwssMJO4T8s",
+      "title": "【10/16発売】相羽あいな「Lead the way」Music Video(short ver.)",
+      "type": "other",
+      "channelName": "ブシロード公式チャンネル",
+      "officialStatus": "official",
+      "embeddable": true
     }
   ],
   "111144:ED:2": [
     {
-      youtubeVideoId: "jlX_8QPjZmY",
-      title: "【MV】虹のコンキスタドール「ぼくらのターン」(虹コン)",
-      type: "full_music_video",
-      channelName: "虹のコンキスタドール",
-      officialStatus: "official",
-      embeddable: true
+      "youtubeVideoId": "jlX_8QPjZmY",
+      "title": "【MV】虹のコンキスタドール「ぼくらのターン」(虹コン)",
+      "type": "full_music_video",
+      "channelName": "虹のコンキスタドール",
+      "officialStatus": "official",
+      "embeddable": true
     }
   ],
   "104252:OP:1": [

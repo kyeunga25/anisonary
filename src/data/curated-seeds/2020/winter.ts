@@ -2,6 +2,3151 @@ import type { CuratedCatalogAnimeSeed } from "@/data/curated-seeds/types";
 
 const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   {
+    "anilistId": 1960,
+    "id": "curated-1960",
+    "slug": "sore-ike-anpanman",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter",
+      "2021-spring",
+      "2021-summer",
+      "2021-fall",
+      "2022-winter",
+      "2022-spring",
+      "2022-summer",
+      "2022-fall",
+      "2023-winter",
+      "2023-spring",
+      "2023-summer",
+      "2023-fall",
+      "2024-winter",
+      "2024-spring",
+      "2024-summer",
+      "2024-fall",
+      "2025-winter",
+      "2025-spring",
+      "2025-summer",
+      "2025-fall",
+      "2026-winter",
+      "2026-spring",
+      "2026-summer",
+      "2026-fall"
+    ],
+    "startDate": "1988-10-03",
+    "titleJa": "それいけ！アンパンマン",
+    "titleZhHant": "麵包超人",
+    "titleRomaji": "Sore Ike! Anpanman",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1960-ueSmUxBXWuFK.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/1960-9Vx6QVIU8z4Z.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/1960/Sore-Ike-Anpanman",
+    "imageSourceLabel": "AniList 公開媒體圖像／©やなせたかし・フレーベル館・TMS・NTV",
+    "officialSiteUrl": "https://www.ntv.co.jp/anpanman/",
+    "anilistUrl": "https://anilist.co/anime/1960/Sore-Ike-Anpanman",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "10:55",
+    "broadcastLabel": "1988/10/3日本電視台首播。關東日本電視台原播週五10:55–11:25 JST；2020/5/8至7月底改播舊話，8/7恢復新話。",
+    "status": "airing",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "sourceReferenceUrls": [
+      "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200408101703000_15757497.pdf",
+      "https://www.ntv.co.jp/anpanman/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "sore-ike-anpanman-op-1",
+        "titleJa": "アンパンマンのマーチ",
+        "artistDisplayName": "ドリーミング",
+        "songId": "sore-ike-anpanman-op-1-song",
+        "sources": [
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "label": "VAP 日本原合輯歌手、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+            "label": "實體歌詞本的逐曲署名核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/",
+            "label": "日本電視台當前原播節目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+            "label": "日本電視台第1500話首播分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-32",
+            "label": "原播第32年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-33",
+            "label": "原播第33年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-38",
+            "label": "原播第38年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=5mLape5F0Fw",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tvlife.jp/entame/242791",
+            "label": "2019年新片頭畫面仍使用同一主題曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup?archive=202302",
+            "label": "日本電視台音樂部2023年2月主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup?archive=202402",
+            "label": "日本電視台音樂部2024年2月主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202506",
+            "label": "日本電視台音樂部2025年6月主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup?archive=202610",
+            "label": "日本電視台音樂部2026年10月主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "label": "Apple Music 香港店區專輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1609208259",
+            "label": "Apple Music 香港店區直達曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-82262",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html",
+            "label": "VAP 歌手介紹分列電視片頭及四首輪替片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977444",
+            "label": "日本 CD 商品藝人名義與逐曲資料交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "香港 Apple Music 合輯",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "linkType": "direct_album",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "香港 Apple Music 曲目",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1609208259",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5mLape5F0Fw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-op-1-song-vap-tv-size"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5mLape5F0Fw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "5mLape5F0Fw"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+              "https://www.youtube.com/watch?v=5mLape5F0Fw",
+              "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5mLape5F0Fw",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=5mLape5F0Fw",
+              "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+              "https://www.mau2.com/anime/soreikeanpanman-32",
+              "https://www.mau2.com/anime/soreikeanpanman-33",
+              "https://www.mau2.com/anime/soreikeanpanman-38",
+              "https://www.tvlife.jp/entame/242791",
+              "https://ntvm.co.jp/tieup?archive=202302",
+              "https://ntvm.co.jp/tieup?archive=202402",
+              "https://ntvm.co.jp/tieup/?archive=202506",
+              "https://ntvm.co.jp/tieup?archive=202610"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/song/1609208259"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/album/1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1609208259"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1609208259"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://tower.jp/item/4977444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-83541"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-82262"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-82262"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "ドリーミング",
+            "role": "vocals"
+          },
+          {
+            "name": "やなせたかし",
+            "role": "lyrics"
+          },
+          {
+            "name": "三木たかし",
+            "role": "composition"
+          },
+          {
+            "name": "大谷和夫",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sore-ike-anpanman-op-1-song-vap-tv-size",
+            "title": "アンパンマンのマーチ（テレビサイズver.）",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal",
+            "kind": "vocal",
+            "format": "unknown",
+            "title": "アンパンマンのマーチ"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter",
+          "2022-spring",
+          "2022-summer",
+          "2022-fall",
+          "2023-winter",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-spring",
+          "2024-summer",
+          "2024-fall",
+          "2025-winter",
+          "2025-spring",
+          "2025-summer",
+          "2025-fall",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "usageLabel": "日本電視版常規片頭，2020冬至2026秋（截至10/14）；2019年10月更新畫面時沿用本曲。VAP繁中題名為〈麵包超人進行曲〉。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "apple-hk-1609208257",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "artistDisplayName": "ドリーミング",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "region": "HK",
+            "edition": "香港數位發行",
+            "label": "VAP",
+            "tracks": [
+              {
+                "title": "アンパンマンのマーチ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "sore-ike-anpanman-op-1-song-best-hits-20-hk-vocal"
+              }
+            ]
+          },
+          {
+            "id": "vpcg-83541",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "アンパンマンのマーチ",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-83541"
+          },
+          {
+            "id": "vpcg-82262",
+            "title": "それいけ！アンパンマン アンパンマンのマーチ",
+            "type": "single",
+            "date": {
+              "value": "2008-09-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "ドリーミング",
+            "edition": "日本 12cm CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "アンパンマンのマーチ",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "アンパンマンのマーチ（カラオケ）",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-82262"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "常規片頭有官方電視尺寸及合輯曲目。逐話特別畫面、其它語言和實播音軌版本待核。",
+            "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "sore-ike-anpanman-ed-1",
+        "titleJa": "勇気りんりん",
+        "artistDisplayName": "ドリーミング",
+        "songId": "sore-ike-anpanman-ed-1-song",
+        "sources": [
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "label": "VAP 日本原合輯歌手、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+            "label": "實體歌詞本的逐曲署名核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/",
+            "label": "日本電視台當前原播節目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+            "label": "日本電視台第1500話首播分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-32",
+            "label": "原播第32年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-33",
+            "label": "原播第33年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-38",
+            "label": "原播第38年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=STZ9rOXCJEY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+            "label": "日本電視台2021/4/9分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+            "label": "日本電視台2026/5/1分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+            "label": "2021年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+            "label": "2021年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+            "label": "2026年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+            "label": "2026年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/tv-1500",
+            "label": "第1500話逐話曲目明列本曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mediaarts-db.artmuseums.go.jp/id/C412650",
+            "label": "日本媒體藝術資料庫的原電視分集片尾署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "label": "Apple Music 香港店區專輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1609208279",
+            "label": "Apple Music 香港店區直達曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html",
+            "label": "VAP 歌手介紹分列電視片頭及四首輪替片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977444",
+            "label": "日本 CD 商品藝人名義與逐曲資料交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "香港 Apple Music 合輯",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "linkType": "direct_album",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "香港 Apple Music 曲目",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1609208279",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=STZ9rOXCJEY"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-1-song-vap-tv-size"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=STZ9rOXCJEY"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "STZ9rOXCJEY"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+              "https://www.youtube.com/watch?v=STZ9rOXCJEY",
+              "https://mediaarts-db.artmuseums.go.jp/id/C412650",
+              "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=STZ9rOXCJEY",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=STZ9rOXCJEY",
+              "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+              "https://www.mau2.com/anime/soreikeanpanman-32",
+              "https://www.mau2.com/anime/soreikeanpanman-33",
+              "https://www.mau2.com/anime/soreikeanpanman-38",
+              "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+              "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+              "https://tgws.plus/anpandb/tv-1500"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/song/1609208279"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/album/1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1609208279"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1609208279"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://tower.jp/item/4977444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-83541"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "ドリーミング",
+            "role": "vocals"
+          },
+          {
+            "name": "やなせたかし",
+            "role": "lyrics"
+          },
+          {
+            "name": "三木たかし",
+            "role": "composition"
+          },
+          {
+            "name": "大谷和夫",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sore-ike-anpanman-ed-1-song-vap-tv-size",
+            "title": "勇気りんりん（テレビサイズver.）",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal",
+            "kind": "vocal",
+            "format": "unknown",
+            "title": "勇気りんりん"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer"
+        ],
+        "usageLabel": "日本電視版輪替片尾。包括2020春第1500話、2021夏第1544話、2026冬第1721話。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "apple-hk-1609208257",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "artistDisplayName": "ドリーミング",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "region": "HK",
+            "edition": "香港數位發行",
+            "label": "VAP",
+            "tracks": [
+              {
+                "title": "勇気りんりん",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "sore-ike-anpanman-ed-1-song-best-hits-20-hk-vocal"
+              }
+            ]
+          },
+          {
+            "id": "vpcg-83541",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "勇気りんりん",
+                "position": 20,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-83541"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
+            "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "id": "sore-ike-anpanman-ed-2",
+        "titleJa": "アンパンマンたいそう",
+        "artistDisplayName": "ドリーミング",
+        "songId": "sore-ike-anpanman-ed-2-song",
+        "sources": [
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "label": "VAP 日本原合輯歌手、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+            "label": "實體歌詞本的逐曲署名核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/",
+            "label": "日本電視台當前原播節目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+            "label": "日本電視台第1500話首播分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-32",
+            "label": "原播第32年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-33",
+            "label": "原播第33年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-38",
+            "label": "原播第38年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=CaqHOvgAnO0",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+            "label": "日本電視台2021/4/9分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+            "label": "日本電視台2026/5/1分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+            "label": "2021年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+            "label": "2021年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+            "label": "2026年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+            "label": "2026年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup?archive=202402",
+            "label": "日本電視台音樂部2024年2月列名本片尾及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202506",
+            "label": "日本電視台音樂部2025年6月列名本片尾及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup?archive=202610",
+            "label": "日本電視台音樂部2026年10月列名本片尾及演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "label": "Apple Music 香港店區專輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1609208274",
+            "label": "Apple Music 香港店區直達曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202304",
+            "label": "日本電視台音樂部2023年4月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202307",
+            "label": "日本電視台音樂部2023年7月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202310",
+            "label": "日本電視台音樂部2023年10月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202407",
+            "label": "日本電視台音樂部2024年7月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202412",
+            "label": "日本電視台音樂部2024年12月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202508",
+            "label": "日本電視台音樂部2025年8月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html",
+            "label": "VAP 歌手介紹分列電視片頭及四首輪替片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977444",
+            "label": "日本 CD 商品藝人名義與逐曲資料交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "香港 Apple Music 合輯",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "linkType": "direct_album",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "香港 Apple Music 曲目",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1609208274",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CaqHOvgAnO0"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-2-song-vap-tv-size"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CaqHOvgAnO0"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "CaqHOvgAnO0"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+              "https://www.youtube.com/watch?v=CaqHOvgAnO0",
+              "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-2-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CaqHOvgAnO0",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=CaqHOvgAnO0",
+              "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+              "https://www.mau2.com/anime/soreikeanpanman-32",
+              "https://www.mau2.com/anime/soreikeanpanman-33",
+              "https://www.mau2.com/anime/soreikeanpanman-38",
+              "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+              "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+              "https://ntvm.co.jp/tieup?archive=202402",
+              "https://ntvm.co.jp/tieup/?archive=202506",
+              "https://ntvm.co.jp/tieup?archive=202610",
+              "https://ntvm.co.jp/tieup/?archive=202304",
+              "https://ntvm.co.jp/tieup/?archive=202307",
+              "https://ntvm.co.jp/tieup/?archive=202310",
+              "https://ntvm.co.jp/tieup/?archive=202407",
+              "https://ntvm.co.jp/tieup/?archive=202412",
+              "https://ntvm.co.jp/tieup/?archive=202508"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/song/1609208274"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/album/1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1609208274"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1609208274"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://tower.jp/item/4977444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-83541"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "ドリーミング",
+            "role": "vocals"
+          },
+          {
+            "name": "やなせたかし",
+            "role": "lyrics"
+          },
+          {
+            "name": "魚住勉",
+            "role": "lyrics"
+          },
+          {
+            "name": "馬飼野康二",
+            "role": "composition"
+          },
+          {
+            "name": "近藤浩章",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sore-ike-anpanman-ed-2-song-vap-tv-size",
+            "title": "アンパンマンたいそう（テレビサイズver.）",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal",
+            "kind": "vocal",
+            "format": "unknown",
+            "title": "アンパンマンたいそう"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-summer",
+          "2024-fall",
+          "2025-spring",
+          "2025-summer",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "usageLabel": "日本電視版輪替片尾。包括2020夏第1503話、2021夏第1547話、2026春第1732話。另有電視台音樂部2023年春至秋、2024年冬夏秋、2025年春夏及2026年10月的具名曲表。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "apple-hk-1609208257",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "artistDisplayName": "ドリーミング",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "region": "HK",
+            "edition": "香港數位發行",
+            "label": "VAP",
+            "tracks": [
+              {
+                "title": "アンパンマンたいそう",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "sore-ike-anpanman-ed-2-song-best-hits-20-hk-vocal"
+              }
+            ]
+          },
+          {
+            "id": "vpcg-83541",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "アンパンマンたいそう",
+                "position": 16,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-83541"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
+            "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "id": "sore-ike-anpanman-ed-3",
+        "titleJa": "サンサンたいそう",
+        "artistDisplayName": "ドリーミング",
+        "songId": "sore-ike-anpanman-ed-3-song",
+        "sources": [
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "label": "VAP 日本原合輯歌手、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+            "label": "實體歌詞本的逐曲署名核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/",
+            "label": "日本電視台當前原播節目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+            "label": "日本電視台第1500話首播分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-32",
+            "label": "原播第32年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-33",
+            "label": "原播第33年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-38",
+            "label": "原播第38年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=y6lqPw8T9G4",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+            "label": "日本電視台2021/4/9分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+            "label": "日本電視台2026/5/1分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+            "label": "2021年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+            "label": "2021年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+            "label": "2026年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+            "label": "2026年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "label": "Apple Music 香港店區專輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1609208266",
+            "label": "Apple Music 香港店區直達曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-82262",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html",
+            "label": "VAP 歌手介紹分列電視片頭及四首輪替片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977444",
+            "label": "日本 CD 商品藝人名義與逐曲資料交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "香港 Apple Music 合輯",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "linkType": "direct_album",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "香港 Apple Music 曲目",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1609208266",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y6lqPw8T9G4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-3-song-vap-tv-size"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y6lqPw8T9G4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "y6lqPw8T9G4"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+              "https://www.youtube.com/watch?v=y6lqPw8T9G4",
+              "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-3-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y6lqPw8T9G4",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y6lqPw8T9G4",
+              "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+              "https://www.mau2.com/anime/soreikeanpanman-32",
+              "https://www.mau2.com/anime/soreikeanpanman-33",
+              "https://www.mau2.com/anime/soreikeanpanman-38",
+              "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+              "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-3"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/song/1609208266"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/album/1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1609208266"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1609208266"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://tower.jp/item/4977444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-83541"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-82262"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-82262"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "ドリーミング",
+            "role": "vocals"
+          },
+          {
+            "name": "やなせたかし",
+            "role": "lyrics"
+          },
+          {
+            "name": "近藤浩章",
+            "role": "composition"
+          },
+          {
+            "name": "近藤浩章",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sore-ike-anpanman-ed-3-song-vap-tv-size",
+            "title": "サンサンたいそう（テレビサイズver.）",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal",
+            "kind": "vocal",
+            "format": "unknown",
+            "title": "サンサンたいそう"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer"
+        ],
+        "usageLabel": "日本電視版輪替片尾。包括2020冬第1485話、2021夏第1545話、2026夏第1738話。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "apple-hk-1609208257",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "artistDisplayName": "ドリーミング",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "region": "HK",
+            "edition": "香港數位發行",
+            "label": "VAP",
+            "tracks": [
+              {
+                "title": "サンサンたいそう",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "sore-ike-anpanman-ed-3-song-best-hits-20-hk-vocal"
+              }
+            ]
+          },
+          {
+            "id": "vpcg-83541",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "サンサンたいそう",
+                "position": 8,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-83541"
+          },
+          {
+            "id": "vpcg-82262",
+            "title": "それいけ！アンパンマン アンパンマンのマーチ",
+            "type": "single",
+            "date": {
+              "value": "2008-09-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "ドリーミング",
+            "edition": "日本 12cm CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "サンサンたいそう",
+                "position": 2,
+                "disc": 1
+              },
+              {
+                "title": "サンサンたいそう（カラオケ）",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-82262"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
+            "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "id": "sore-ike-anpanman-ed-4",
+        "titleJa": "ドレミファアンパンマン",
+        "artistDisplayName": "ドリーミング",
+        "songId": "sore-ike-anpanman-ed-4-song",
+        "sources": [
+          {
+            "url": "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+            "label": "VAP 日本原合輯歌手、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+            "label": "實體歌詞本的逐曲署名核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/",
+            "label": "日本電視台當前原播節目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+            "label": "日本電視台第1500話首播分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-32",
+            "label": "原播第32年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-33",
+            "label": "原播第33年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/soreikeanpanman-38",
+            "label": "原播第38年度逐話曲名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GUTHk7IjI6A",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+            "label": "日本電視台2021/4/9分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+            "label": "日本電視台2026/5/1分集播出日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+            "label": "2021年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+            "label": "2021年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+            "label": "2026年首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+            "label": "2026年夏季首播日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "label": "Apple Music 香港店區專輯及曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1609208277",
+            "label": "Apple Music 香港店區直達曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ntvm.co.jp/tieup/?archive=202302",
+            "label": "日本電視台音樂部2023年2月列名本片尾",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html",
+            "label": "VAP 歌手介紹分列電視片頭及四首輪替片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4977444",
+            "label": "日本 CD 商品藝人名義與逐曲資料交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "香港 Apple Music 合輯",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/album/1609208257",
+            "linkType": "direct_album",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "香港 Apple Music 曲目",
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1609208277",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1609208257",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GUTHk7IjI6A"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-4-song-vap-tv-size"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GUTHk7IjI6A"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "GUTHk7IjI6A"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280",
+              "https://www.youtube.com/watch?v=GUTHk7IjI6A",
+              "https://www.vap.co.jp/topics/articles/nllip9qa3pwqs9ho.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-4-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GUTHk7IjI6A",
+              "https://ndlsearch.ndl.go.jp/books/R100000001-I01213008000148280"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GUTHk7IjI6A",
+              "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+              "https://www.mau2.com/anime/soreikeanpanman-32",
+              "https://www.mau2.com/anime/soreikeanpanman-33",
+              "https://www.mau2.com/anime/soreikeanpanman-38",
+              "https://www.ntv.co.jp/anpanman/articles/128on4cqsa9bqeswx8q.html",
+              "https://www.ntv.co.jp/anpanman/articles/1285jb2f63754bpqs9k.html",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2021",
+              "https://tgws.plus/anpandb/anime?sort=date&year=2026",
+              "https://tgws.plus/anpandb/anime?page=1&sort=date&year=2026",
+              "https://ntvm.co.jp/tieup/?archive=202302"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-4"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/song/1609208277"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1609208257"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/album/1609208257"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1609208277"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1609208277"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://store.vap.co.jp/syousai.asp?item=VPCG-83541",
+              "https://tower.jp/item/4977444"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vpcg-83541"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "ドリーミング",
+            "role": "vocals"
+          },
+          {
+            "name": "やなせたかし",
+            "role": "lyrics"
+          },
+          {
+            "name": "TSUKASA",
+            "role": "composition"
+          },
+          {
+            "name": "TSUKASA",
+            "role": "arrangement"
+          },
+          {
+            "name": "陶山隼",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "sore-ike-anpanman-ed-4-song-vap-tv-size",
+            "title": "ドレミファ アンパンマン（テレビサイズver.）",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal",
+            "kind": "vocal",
+            "format": "unknown",
+            "title": "ドレミファアンパンマン"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2023-winter",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer"
+        ],
+        "usageLabel": "日本電視版輪替片尾。包括2020春第1498話、2021夏第1546話、2026冬第1719話。日本電視台音樂部2023年2月曲表亦列本曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "apple-hk-1609208257",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "artistDisplayName": "ドリーミング",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "region": "HK",
+            "edition": "香港數位發行",
+            "label": "VAP",
+            "tracks": [
+              {
+                "title": "ドレミファアンパンマン",
+                "position": 18,
+                "disc": 1,
+                "recordingId": "sore-ike-anpanman-ed-4-song-best-hits-20-hk-vocal"
+              }
+            ]
+          },
+          {
+            "id": "vpcg-83541",
+            "title": "それいけ！アンパンマン ベストヒット’20",
+            "type": "compilation",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ドレミファ アンパンマン",
+                "position": 18,
+                "disc": 1
+              }
+            ],
+            "label": "VAP",
+            "catalogNumber": "VPCG-83541"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已分列VAP官方電視尺寸與香港數位合輯曲目；還有原播片尾／插曲例外、其它語言用法及合輯母帶待核。",
+            "resumeWhen": "待2021秋至2025其餘時段、2026秋逐集使用或權利方曲表，另核電視剪輯與各商業發行對應及香港實際完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tms-e.co.jp/alltitles/anpanman/060101.html",
+        "label": "TMS原電視版首播及半小時節目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.anpanman.jp/anime/",
+        "label": "作品方的日本電視台與地區放送分列",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.anpanman.jp/30th/history/",
+        "label": "作品方原首話日期與歷史",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200408101703000_15757497.pdf",
+        "label": "香港翡翠台節目表使用《麵包超人》",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.ntv.co.jp/anpanman/articles/1285horciamu7groncu.html",
+        "label": "日本電視台2020/3/6原播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.ntv.co.jp/anpanman/articles/1288yra9mmz7d8e3ehu.html",
+        "label": "日本電視台2020/5/1原播時段與分集",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://mantan-web.jp/article/20200406dog00m200015000c.html",
+        "label": "2020年錄音暫停的當期報道",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://news.radiko.jp/article/station/LFR/44282/",
+        "label": "主演於電台說明恢復錄音",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E9%BA%B5%E5%8C%85%E8%B6%85%E4%BA%BA",
+        "label": "繁中資料對照2020年新話暫停與復播",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://tgws.plus/anpandb/calendar?month=8&year=2020",
+        "label": "逐話日期包含2020年8月復播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://datazoo.jp/tv/%E3%81%9D%E3%82%8C%E3%81%84%E3%81%91%EF%BC%81%E3%82%A2%E3%83%B3%E3%83%91%E3%83%B3%E3%83%9E%E3%83%B3/1898171",
+        "label": "2026/10/9日本電視台播出時間交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "anilistId": 2406,
+    "id": "curated-2406",
+    "slug": "sazae-san",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter",
+      "2021-spring",
+      "2021-summer",
+      "2021-fall",
+      "2022-winter",
+      "2022-spring",
+      "2022-summer",
+      "2022-fall",
+      "2023-winter",
+      "2023-spring",
+      "2023-summer",
+      "2023-fall",
+      "2024-winter",
+      "2024-spring",
+      "2024-summer",
+      "2024-fall",
+      "2025-winter",
+      "2025-spring",
+      "2025-summer",
+      "2025-fall",
+      "2026-winter",
+      "2026-spring",
+      "2026-summer",
+      "2026-fall"
+    ],
+    "startDate": "1969-10-05",
+    "titleJa": "サザエさん",
+    "titleZhHant": "海螺小姐",
+    "titleRomaji": "Sazae-san",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx2406-nP8NIct9Sci3.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/2406/Sazae-san",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "18:30",
+    "status": "airing",
+    "officialSiteUrl": "https://www.fujitv.co.jp/sazaesan/intro.html",
+    "anilistUrl": "https://anilist.co/anime/2406/Sazae-san",
+    "broadcastLabel": "1969/10/5富士電視台首播。日本電視週日18:30–19:00 JST。2020/5/17–6/14以重播代替新話，6/21恢復新話。",
+    "sourceReferenceUrls": [
+      "https://www.momokids.com.tw/program-view.php?infoid=402&lmenuid=2&qpmid=1",
+      "https://anilist.co/anime/2406/Sazae-san"
+    ],
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "sazae-san-op-1",
+        "titleJa": "サザエさん",
+        "artistDisplayName": "宇野ゆう子",
+        "songId": "sazae-san-op-1-song",
+        "sources": [
+          {
+            "url": "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+            "label": "動畫製作方主題曲署名與播出時段",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bsfuji.tv/kayouparade/pub/022.html",
+            "label": "2020年12月BS富士節目資料明列片頭、片尾及原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+            "label": "2020秋第2603話片頭、片尾及歌手逐話交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://thetv.jp/program/0000000034/plot/",
+            "label": "跨季逐話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COJX-9355-6/",
+            "label": "日本コロムビア7吋盤A面曲序及原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.universal-music.co.jp/products/tycn60100",
+            "label": "Universal Music CD曲序、版別及發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001023.000000664.html",
+            "label": "Universal Music唱片公告，原唱與詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.honokuni.or.jp/toyohashi/topics/?Mode=detail&code=762",
+            "label": "2019/10–2020/3愛知片頭畫面有1/5冬篇切換",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://thetv.jp/news/detail/228656/",
+            "label": "2020/4/5東京春版片頭開始",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mantan-web.jp/article/20200704dog00m200019000c.html",
+            "label": "2020/7/5東京夏版片頭開始",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.visit-oita.jp/news/detail/524",
+            "label": "2020/10/4起大分、熊本阿蘇片頭畫面",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.yamachanet.jp/sazaekankou.html",
+            "label": "2020至2026各季跨地區片頭畫面交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://datazoo.jp/n/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0/25460550",
+            "label": "2026/10/4節目原台片頭的同期紀錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "サザエさん音楽大全｜唱片公司",
+            "platform": "Universal Music Japan",
+            "url": "https://store.universal-music.co.jp/products/tycn60100",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "releaseId": "tycn-60100",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "エイケン50周年記念 エイケン主題歌セレクション｜唱片公司",
+            "platform": "日本コロムビア",
+            "url": "https://columbia.jp/prod-info/COJX-9355-6/",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "releaseId": "cojx-9355-6",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.bsfuji.tv/kayouparade/pub/022.html",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.bsfuji.tv/kayouparade/pub/022.html",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://thetv.jp/program/0000000034/plot/",
+              "https://www.honokuni.or.jp/toyohashi/topics/?Mode=detail&code=762",
+              "https://thetv.jp/news/detail/228656/",
+              "https://mantan-web.jp/article/20200704dog00m200019000c.html",
+              "https://www.visit-oita.jp/news/detail/524",
+              "https://www.yamachanet.jp/sazaekankou.html",
+              "https://datazoo.jp/n/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%8B%E3%83%B3%E3%82%B0/25460550"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html",
+              "https://store.universal-music.co.jp/products/tycn60100"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-op-1-song-tycn60100-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/products/tycn60100",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tycn-60100"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/products/tycn60100"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://store.universal-music.co.jp/products/tycn60100"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COJX-9355-6/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cojx-9355-6"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COJX-9355-6/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://columbia.jp/prod-info/COJX-9355-6/"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "宇野ゆう子",
+            "role": "vocals"
+          },
+          {
+            "name": "林 春生",
+            "role": "lyrics"
+          },
+          {
+            "name": "筒美京平",
+            "role": "composition"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter",
+          "2022-spring",
+          "2022-summer",
+          "2022-fall",
+          "2023-winter",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-spring",
+          "2024-summer",
+          "2024-fall",
+          "2025-winter",
+          "2025-spring",
+          "2025-summer",
+          "2025-fall",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "usageLabel": "富士電視台原系列常規片頭，2020冬至2026秋（截至2026/10/14）。2020年畫面依次為愛知冬篇、東京春篇、東京夏篇、大分與熊本阿蘇。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "sazae-san-op-1-song-tycn60100-vocal",
+            "title": "サザエさん",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "tycn-60100",
+            "title": "サザエさん音楽大全",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "date": {
+              "value": "2013-12-04",
+              "precision": "day"
+            },
+            "region": "JP",
+            "catalogNumber": "TYCN-60100",
+            "label": "Universal Music Japan",
+            "edition": "日本 CD",
+            "tracks": [
+              {
+                "title": "サザエさん",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "sazae-san-op-1-song-tycn60100-vocal"
+              }
+            ]
+          },
+          {
+            "id": "cojx-9355-6",
+            "title": "エイケン50周年記念 エイケン主題歌セレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "date": {
+              "value": "2019-04-24",
+              "precision": "day"
+            },
+            "region": "JP",
+            "catalogNumber": "COJX-9355-6",
+            "label": "日本コロムビア",
+            "edition": "日本 12吋 LP＋7吋 EP（本曲在7吋盤A面）",
+            "tracks": [
+              {
+                "title": "サザエさん",
+                "disc": 2,
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "use_quarters",
+              "recording_format",
+              "video_metadata",
+              "platform_links",
+              "platform_availability"
+            ],
+            "note": "已核2020至截止日的常規原電視用途及日本兩版曲位。電視、CD及黑膠的音源版本關係待查。",
+            "resumeWhen": "待具名特輯或逐話換曲、台灣配音版歌曲署名、權利方音源尺寸或香港正版直達曲目可核。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "sazae-san-ed-1",
+        "titleJa": "サザエさん一家",
+        "artistDisplayName": "宇野ゆう子",
+        "songId": "sazae-san-ed-1-song",
+        "sources": [
+          {
+            "url": "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+            "label": "動畫製作方主題曲署名與播出時段",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bsfuji.tv/kayouparade/pub/022.html",
+            "label": "2020年12月BS富士節目資料明列片頭、片尾及原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+            "label": "2020秋第2603話片頭、片尾及歌手逐話交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://thetv.jp/program/0000000034/plot/",
+            "label": "跨季逐話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COJX-9355-6/",
+            "label": "日本コロムビア7吋盤A面曲序及原唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://store.universal-music.co.jp/products/tycn60100",
+            "label": "Universal Music CD曲序、版別及發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://prtimes.jp/main/html/rd/p/000001023.000000664.html",
+            "label": "Universal Music唱片公告，原唱與詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "label": "サザエさん音楽大全｜唱片公司",
+            "platform": "Universal Music Japan",
+            "url": "https://store.universal-music.co.jp/products/tycn60100",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "releaseId": "tycn-60100",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "label": "エイケン50周年記念 エイケン主題歌セレクション｜唱片公司",
+            "platform": "日本コロムビア",
+            "url": "https://columbia.jp/prod-info/COJX-9355-6/",
+            "linkType": "official_landing_page",
+            "region": "JP",
+            "releaseId": "cojx-9355-6",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.bsfuji.tv/kayouparade/pub/022.html",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+              "https://www.bsfuji.tv/kayouparade/pub/022.html",
+              "https://www.mau2.com/anime/sazaesan-52/ep/2603",
+              "https://thetv.jp/program/0000000034/plot/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-ed-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html",
+              "https://store.universal-music.co.jp/products/tycn60100"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "sazae-san-ed-1-song-tycn60100-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/products/tycn60100",
+              "https://prtimes.jp/main/html/rd/p/000001023.000000664.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "tycn-60100"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://store.universal-music.co.jp/products/tycn60100"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://store.universal-music.co.jp/products/tycn60100"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COJX-9355-6/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "cojx-9355-6"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COJX-9355-6/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://columbia.jp/prod-info/COJX-9355-6/"
+          }
+        ],
+        "sourceMode": "explicit",
+        "credits": [
+          {
+            "name": "宇野ゆう子",
+            "role": "vocals"
+          },
+          {
+            "name": "林 春生",
+            "role": "lyrics"
+          },
+          {
+            "name": "筒美京平",
+            "role": "composition"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2021-spring",
+          "2021-summer",
+          "2021-fall",
+          "2022-winter",
+          "2022-spring",
+          "2022-summer",
+          "2022-fall",
+          "2023-winter",
+          "2023-spring",
+          "2023-summer",
+          "2023-fall",
+          "2024-winter",
+          "2024-spring",
+          "2024-summer",
+          "2024-fall",
+          "2025-winter",
+          "2025-spring",
+          "2025-summer",
+          "2025-fall",
+          "2026-winter",
+          "2026-spring",
+          "2026-summer",
+          "2026-fall"
+        ],
+        "usageLabel": "富士電視台原系列常規片尾，2020冬至2026秋（截至2026/10/14）。",
+        "lastVerifiedAt": "2026-11-16",
+        "recordings": [
+          {
+            "id": "sazae-san-ed-1-song-tycn60100-vocal",
+            "title": "サザエさん一家",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "tycn-60100",
+            "title": "サザエさん音楽大全",
+            "type": "soundtrack",
+            "artistDisplayName": "Various Artists",
+            "date": {
+              "value": "2013-12-04",
+              "precision": "day"
+            },
+            "region": "JP",
+            "catalogNumber": "TYCN-60100",
+            "label": "Universal Music Japan",
+            "edition": "日本 CD",
+            "tracks": [
+              {
+                "title": "サザエさん一家",
+                "disc": 1,
+                "position": 56,
+                "recordingId": "sazae-san-ed-1-song-tycn60100-vocal"
+              }
+            ]
+          },
+          {
+            "id": "cojx-9355-6",
+            "title": "エイケン50周年記念 エイケン主題歌セレクション",
+            "type": "compilation",
+            "artistDisplayName": "Various Artists",
+            "date": {
+              "value": "2019-04-24",
+              "precision": "day"
+            },
+            "region": "JP",
+            "catalogNumber": "COJX-9355-6",
+            "label": "日本コロムビア",
+            "edition": "日本 12吋 LP＋7吋 EP（本曲在7吋盤A面）",
+            "tracks": [
+              {
+                "title": "サザエさん一家",
+                "disc": 2,
+                "position": 2
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "use_quarters",
+              "recording_format",
+              "video_metadata",
+              "platform_links",
+              "platform_availability"
+            ],
+            "note": "已核2020至截止日的常規原電視用途及日本兩版曲位。電視、CD及黑膠的音源版本關係待查。",
+            "resumeWhen": "待具名特輯或逐話換曲、台灣配音版歌曲署名、權利方音源尺寸或香港正版直達曲目可核。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataSources": [
+      {
+        "url": "https://eiken-anime.jp/works/%E3%82%B5%E3%82%B6%E3%82%A8%E3%81%95%E3%82%93/",
+        "label": "製作方首播、電視播出時段與歌曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.fujitv.co.jp/sazaesan/intro.html",
+        "label": "富士電視台系列首播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.fujitv.co.jp/company/action/pdf/202005.pdf",
+        "label": "富士電視台2020年5月播出表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.momokids.com.tw/program-view.php?infoid=402&lmenuid=2&qpmid=1",
+        "label": "台灣授權播出名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://sazaesan-blog.eiken-anime.jp/blog-entry-175.html",
+        "label": "製作方台灣播出版公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://eiga.com/news/20200620/2/",
+        "label": "同期報道核對2020/5/17改播及6/21新話復播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://thetv.jp/program/0000000034/plot/",
+        "label": "逐話名冊交叉核對至資料截止日",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
   "anilistId": 113472,
   "id": "curated-113472",
   "slug": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu",
@@ -706,7 +3851,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://cal.syoboi.jp/tid/5549/subtitle",
@@ -755,7 +3900,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "STPR 專輯發行及第4軌",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://music.apple.com/hk/album/1525160123",
@@ -812,6 +3957,48 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25709_202009181825.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-37th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/52",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZYyLqIToGxU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -1067,6 +4254,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "stpr-1009"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/68/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25709_202009181825.html",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
+            "https://kakkon.net/gakuen-y-37th-ep/",
+            "https://www.mau2.com/anime/youkaigakueny/ep/52",
+            "https://www.mau2.com/anime/youkaigakueny"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZYyLqIToGxU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "ZYyLqIToGxU"
         }
       ],
       "followUp": [
@@ -1075,13 +4290,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "recordings",
             "platform_availability"
           ],
-          "note": "第58話劇中音樂有續查資料；末話第63話特殊片尾另記為待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
+          "note": "第37話按同期觀播所記開場掛字，與逐話資料庫概括列全段片頭有別。第58話劇中片段及第63話特殊片尾另留待核。",
+          "resumeWhen": "待原期可公開瀏覽的逐集畫音或權利方署名，核對剪輯及分區供應。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第29–51話常規片頭；第52話未配置常規片頭",
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第29–36、38–51話原播常規片頭。第37話從劇情直接開始並呈現開場掛字，第52話省略片頭。",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-op-2-song-digital-single",
@@ -4345,7 +7560,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "Level-5 無字幕片尾及11月27日首用公告",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://japan-anime-song.com/youkai-gakuen-y-n-tono-souguu-22383/",
@@ -4359,7 +7574,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.youtube.com/watch?v=7pLcL_FKUIg",
@@ -4409,6 +7624,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-osaka.co.jp/onair/detail/oaid=1980362/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kakkon.net/gakuen-y-50th-ep/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1kK8hFe-GWU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -4582,6 +7818,31 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "L2NknelL6mE"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/201204/",
+            "https://www.tv-osaka.co.jp/onair/detail/oaid=1980362/",
+            "https://kakkon.net/gakuen-y-50th-ep/",
+            "https://www.mau2.com/anime/youkaigakueny"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=1kK8hFe-GWU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "1kK8hFe-GWU"
         }
       ],
       "followUp": [
@@ -4597,8 +7858,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
-      "usageLabel": "第47–51話片尾｜第47話自2020/12/4播出；獨立網路第49.5話另計",
+      "lastVerifiedAt": "2026-11-16",
+      "usageLabel": "第47–51話原播片尾。第50話（2020/12/25）劇中另有校歌合唱，片尾仍用本曲。網路特別篇第49.5話另列。",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-10-song-artist-video-audio",
@@ -4902,21 +8163,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.mau2.com/anime/youkaigakueny",
@@ -4930,14 +8191,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://kakkon.net/gakuen-y-52th-ep/",
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://strawberryprinceforever.stpr.com/",
@@ -4980,6 +8241,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25709_202009181825.html",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/37",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/youkaigakueny/ep/52",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -5117,23 +8399,42 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "stpr-9011"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.stpr.com/discography/artist/2/detail/78/",
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202009/25709_202009181825.html",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_3.html",
+            "https://www.tv-tokyo.co.jp/anime/youkai-watch2020/episodes/index_2.html",
+            "https://www.mau2.com/anime/youkaigakueny/ep/37",
+            "https://www.mau2.com/anime/youkaigakueny/ep/52",
+            "https://cal.syoboi.jp/tid/5549/subtitle",
+            "https://kakkon.net/gakuen-y-52th-ep/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-ed-12"
         }
       ],
       "sourceMode": "explicit",
-      "seasonIds": [],
-      "usageLabel": "兩份逐話曲表列第37、52話特殊片尾",
-      "lastVerifiedAt": "2026-11-15",
+      "seasonIds": [
+        "2020-summer",
+        "2021-winter"
+      ],
+      "usageLabel": "日本原播第37話（2020/9/18）及第52話（2021/1/15）特別片尾。第52話由劇中決戰後段開始使用。",
+      "lastVerifiedAt": "2026-11-16",
       "followUp": [
         {
           "fields": [
-            "basic_evidence",
-            "use_quarters",
             "recordings",
             "platform_availability"
           ],
-          "note": "第37話2020/9/18、第52話2021/1/15，兩話有片尾線索；第38話仍待獨立核對。",
-          "resumeWhen": "待權利方正片可辨識片尾掛字或正式逐話公告。",
-          "checkedAt": "2026-11-15"
+          "note": "逐話錄與同期觀播資料支持第37及52話的結尾用途。第52話音樂從劇情尚在進行時起，保留片尾用途。第38話正篇用曲留待另外確認。",
+          "resumeWhen": "待取得兩話原期正片畫音或分集曲目表，核對實際起點、剪輯及原聲關聯。",
+          "checkedAt": "2026-11-16"
         }
       ],
       "recordings": [
@@ -5313,6 +8614,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202104/25709_202104021825.html",
+          "label": "東京電視台第63話日期與節目表仍列常規片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://promo.kadokawa.co.jp/mfkids/youkai-watch-dvd/yokai-gakuen/rental/",
+          "label": "KADOKAWA第8卷特典將此曲標為無字片尾；卷收第29–32話",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -5459,9 +8774,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "recordings",
             "platform_availability"
           ],
-          "note": "同期回顧確認結局回憶段用曲，台表音樂欄則列高等部常規曲。",
-          "resumeWhen": "待第63話原片尾掛字或權利方明示特別片尾。",
-          "checkedAt": "2026-11-15"
+          "note": "東京電視台第63話節目表仍列高等部常規片尾。KADOKAWA第8卷特典列本曲無字片尾，但第8卷收錄第29–32話。逐話交叉來源列本曲作末話特別片尾。",
+          "resumeWhen": "待第63話原片尾掛字或權利方精確明示末話特別片尾，再掛入季度。",
+          "checkedAt": "2026-11-16"
         }
       ],
       "recordings": [
@@ -5549,14 +8864,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.youtube.com/watch?v=ncn8Z-m5-rk",
@@ -5570,14 +8885,14 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://kakkon.net/gakuen-y-63th-ep/",
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.universal-music.co.jp/level5/products/uk1aa-00479/",
@@ -5620,6 +8935,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-osaka.co.jp/onair/detail/oaid=1980362/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "links": [
@@ -5776,6 +9098,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "apple-hk-1547766194"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202012/25709_202012251755.html",
+            "https://www.tv-osaka.co.jp/onair/detail/oaid=1980362/",
+            "https://www.youkai-watch.jp/yokai-gakuen-y-info/topics/210326/",
+            "https://kakkon.net/gakuen-y-50th-ep/",
+            "https://kakkon.net/gakuen-y-63th-ep/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-in-1"
         }
       ],
       "sourceMode": "explicit",
@@ -5783,8 +9120,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "2020-fall",
         "2021-spring"
       ],
-      "usageLabel": "第50、63話劇中校歌斉唱｜個別演唱聲優待核",
-      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "日本原播第50話（2020/12/25）大戰前向各地號召合唱；第63話（2021/4/2）為マタロウ送別會的劇中合唱。",
+      "lastVerifiedAt": "2026-11-16",
       "recordings": [
         {
           "id": "youkai-watch-jam-youkai-gakuen-y-n-to-no-souguu-y-school-song-song-official-submission-demo",
@@ -5855,9 +9192,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "recordings",
             "platform_availability"
           ],
-          "note": "兩話的正片斉唱有權利方資料，但電視及電影原聲署名各屬發行；徵集示範也分列。待核第50話片尾掛字及參與合唱者。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
+          "note": "同期觀播記錄分開記第50話劇中合唱及其後的〈宇宙神秘ブギ〉片尾。TV原聲帶、電影原聲帶及投稿示範各有發行署名。",
+          "resumeWhen": "待可辨識第50、63話原片掛字或製作方正式逐集合唱名單，核對兩話個別實唱者、剪輯和正式錄音的關係。",
+          "checkedAt": "2026-11-16"
         }
       ]
     }
@@ -28842,7 +32179,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.lantis.jp/release-item/LACA-15823.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "Lantis官方原聲帶片頭、片尾歌名、演唱及TV尺寸",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -28863,9 +32200,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.crunchyroll.com/news/latest/2020/5/15/hatenaillusion-tv-animes-final-episode-to-broadcast-on-june-3",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "授權方轉載製作方第12話BS日テレ補播時段",
           "role": "first_party",
-          "language": "ja",
+          "language": "en",
           "verifiedAt": "2026-11-16"
         },
         {
@@ -28877,7 +32214,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://ln-news.com/articles/108687",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "交叉核對第12話播出時刻；不作歌曲識別",
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -28908,6 +32245,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "演唱者在專訪說明為中國大陸哔哩哔哩配信錄製中文版片頭",
           "role": "first_party",
           "language": "zh-Hans",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/hatenaillusion/ep/12",
+          "label": "第12話播出記錄直接分列片頭與片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24542012&workId=24542",
+          "label": "日本第12話授權正片入口及劇集片頭、片尾演唱者",
+          "role": "first_party",
+          "language": "ja",
           "verifiedAt": "2026-11-16"
         }
       ],
@@ -29178,6 +32529,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "6cjqLpr27ss"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/hatenaillusion/ep/12",
+            "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24542012&workId=24542",
+            "https://www.crunchyroll.com/news/latest/2020/5/15/hatenaillusion-tv-animes-final-episode-to-broadcast-on-june-3",
+            "https://ln-news.com/articles/108687",
+            "https://www.lantis.jp/release-item/LACA-15823.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hatena-illusion-op-1"
         }
       ],
       "followUp": [
@@ -29193,7 +32559,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         }
       ],
       "lastVerifiedAt": "2026-11-16",
-      "usageLabel": "日本原期第1–12話片頭；最終話於6/4補播。",
+      "usageLabel": "日本原期第1–12話片頭。第12話於BS日テレ2020/6/4 00:00 JST補播，沿用本曲。",
       "recordings": [
         {
           "id": "hatena-illusion-op-1-song-single-full",
@@ -29396,7 +32762,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.lantis.jp/release-item/LACA-15823.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "Lantis官方原聲帶片頭、片尾歌名、演唱及TV尺寸",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -29417,9 +32783,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.crunchyroll.com/news/latest/2020/5/15/hatenaillusion-tv-animes-final-episode-to-broadcast-on-june-3",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "授權方轉載製作方第12話BS日テレ補播時段",
           "role": "first_party",
-          "language": "ja",
+          "language": "en",
           "verifiedAt": "2026-11-16"
         },
         {
@@ -29431,7 +32797,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://ln-news.com/articles/108687",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "交叉核對第12話播出時刻；不作歌曲識別",
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -29453,6 +32819,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "url": "https://suzukiaina.jp/news/86/",
           "label": "權利方影片上架及形式說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/hatenaillusion/ep/12",
+          "label": "第12話播出記錄直接分列片頭與片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24542012&workId=24542",
+          "label": "日本第12話授權正片入口及劇集片頭、片尾演唱者",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -29695,6 +33075,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "pmCuXLOCIt4"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/hatenaillusion/ep/12",
+            "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24542012&workId=24542",
+            "https://www.crunchyroll.com/news/latest/2020/5/15/hatenaillusion-tv-animes-final-episode-to-broadcast-on-june-3",
+            "https://ln-news.com/articles/108687",
+            "https://www.lantis.jp/release-item/LACA-15823.html"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "hatena-illusion-ed-1"
         }
       ],
       "followUp": [
@@ -29709,7 +33104,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         }
       ],
       "lastVerifiedAt": "2026-11-16",
-      "usageLabel": "日本原期第1–12話片尾；最終話於6/4補播。",
+      "usageLabel": "日本原期第1–12話片尾。第12話於BS日テレ2020/6/4 00:00 JST補播，沿用本曲。",
       "recordings": [
         {
           "id": "hatena-illusion-ed-1-song-album-full",
@@ -29870,10 +33265,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     },
     {
       "url": "https://www.mau2.com/anime/hatenaillusion/ep/12",
-      "label": "原期TV播出日期交叉資料；僅日期時分",
+      "label": "第12話逐話記錄：實曆首播日、片長與兩首用曲",
       "role": "broadcast_cross_check",
       "language": "ja",
-      "verifiedAt": "2026-10-24"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.crunchyroll.com/news/latest/2019/12/11/tv-anime-hatenaillusion-announced-its-january-9-2020-premiere-date",
@@ -29884,9 +33279,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     },
     {
       "url": "https://www.crunchyroll.com/news/latest/2020/5/15/hatenaillusion-tv-animes-final-episode-to-broadcast-on-june-3",
-      "label": "授權方轉載終話補播公告",
+      "label": "授權方轉載製作方第12話原電視補播時段",
       "role": "first_party",
-      "language": "ja",
+      "language": "en",
       "verifiedAt": "2026-11-16"
     },
     {
@@ -29908,6 +33303,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "日本媒體逐話節目表與特別節目編排",
       "role": "broadcast_cross_check",
       "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24542012&workId=24542",
+      "label": "日本授權第12話正片入口，附劇集聲優及OP、ED演唱資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FK3Zt4X_rm4",
+      "label": "羚邦Ani-One第12話日語正片發行，晚於日本原播",
+      "role": "first_party",
+      "language": "en",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.myvideo.net.tw/details/0/395530",
+      "label": "台灣授權第12集正片及正式繁中片名",
+      "role": "first_party",
+      "language": "zh-Hant",
       "verifiedAt": "2026-11-16"
     }
   ],
@@ -50634,7 +54050,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "verifiedAt": "2026-09-02"
         },
         {
-          "label": "AnimeThemes",
+          "label": "片頭畫面版本及其話數，第6話省略，第11及12話同一畫面版本",
           "url": "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
           "language": "en",
           "role": "cross_check",
@@ -50642,7 +54058,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "TBS第1期片頭曲名及演唱",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -50663,21 +54079,21 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.tbs.co.jp/anime/hanakokun/1st/disc/",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "TBS原版影碟下卷列無字幕OP ver.11",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.tbs.co.jp/anime/hanakokun/1st/story/story06.html",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "TBS第1期的第6話分集頁",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.mau2.com/anime/jibakushounenhanakokun",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "第6話逐話片頭欄記為省略",
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -50784,6 +54200,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "url": "https://www.youtube.com/watch?v=yExFsoZRA8k",
           "label": "權利方官方影片及簡介",
           "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://nijimen.kusuguru.co.jp/topics/59239",
+          "label": "首播同期第6話省略片頭、片尾特別編排的見證",
+          "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         }
@@ -51221,6 +54644,22 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "yExFsoZRA8k"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist01.html",
+            "https://www.tbs.co.jp/anime/hanakokun/1st/story/story06.html",
+            "https://www.tbs.co.jp/anime/hanakokun/1st/disc/",
+            "https://animethemes.moe/anime/jibaku_shounen_hanako_kun",
+            "https://www.mau2.com/anime/jibakushounenhanakokun",
+            "https://nijimen.kusuguru.co.jp/topics/59239"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "jibaku-shounen-hanako-kun-op-1"
         }
       ],
       "followUp": [
@@ -51235,7 +54674,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         }
       ],
       "lastVerifiedAt": "2026-11-16",
-      "usageLabel": "第1–5、7–12話片頭。第6話（2020/2/14）省略片頭，其他話次沿用同曲並輪替畫面。",
+      "usageLabel": "第1–5、7–12話片頭，第6話（2020/2/14）省略片頭。原曲沿用，畫面隨話數更新，第11、12話共用最後一版片頭畫面。",
       "recordings": [
         {
           "id": "jibaku-shounen-hanako-kun-op-1-song-original-full",
@@ -51583,7 +55022,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "TBS第1期片尾曲名、演唱及發行資料",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -51726,6 +55165,34 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "權利方官方影片及簡介",
           "role": "first_party",
           "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.tbs.co.jp/anime/hanakokun/1st/story/story06.html",
+          "label": "TBS第1期的第6話分集頁",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://x.com/aidairo2009/status/1228009999156170753",
+          "label": "原作者在2020/2/14首播後評論第6話片尾的進入方式",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://nijimen.kusuguru.co.jp/topics/59239",
+          "label": "首播同期第6話省略片頭、片尾特別編排的見證",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://hanako-kun.fandom.com/wiki/Season_1/Episode_6",
+          "label": "第1季第6話逐話記錄分列無片頭、片尾Tiny Light",
+          "role": "cross_check",
+          "language": "en",
           "verifiedAt": "2026-11-16"
         }
       ],
@@ -52163,22 +55630,36 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "gGLp3pvuHRU"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tbs.co.jp/anime/hanakokun/1st/music/artist02.html",
+            "https://www.tbs.co.jp/anime/hanakokun/1st/story/story06.html",
+            "https://x.com/aidairo2009/status/1228009999156170753",
+            "https://nijimen.kusuguru.co.jp/topics/59239",
+            "https://hanako-kun.fandom.com/wiki/Season_1/Episode_6"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "jibaku-shounen-hanako-kun-ed-1"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "platform_availability",
-            "basic_evidence"
+            "platform_availability"
           ],
           "note": "1/10 先行 TV size。實體單曲第2及5軌，正規數位版另收第7軌 TV size。另有 STYLE 專輯曲位與2020/10/3名古屋現場音源。",
-          "resumeWhen": "待製作方或可讀正版第6話完整尾段，確認是否仍用〈Tiny Light〉。STYLE 專輯版待唱片方確認與原單曲的混音關係。",
+          "resumeWhen": "待權利方逐話音軌或可播放的正版第6話，核對特別片尾剪輯與已發行音源的關係。STYLE專輯版待唱片方確認與原單曲的混音關係。",
           "checkedAt": "2026-11-16"
         }
       ],
       "lastVerifiedAt": "2026-11-16",
-      "usageLabel": "第1–5、7–12話片尾。第6話片尾音軌待確認。",
+      "usageLabel": "第1–12話片尾。第6話（2020/2/14）沿用本曲，片尾配合正片尾段採特別編排。",
       "recordings": [
         {
           "id": "jibaku-shounen-hanako-kun-ed-1-song-original-full",
@@ -54059,7 +57540,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "sources": [
         {
           "url": "https://times.abema.tv/articles/-/7047134",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "日本原期串流方第11話報導，明指柴田理恵演唱段約18:15",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -54073,28 +57554,28 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://www.coamix.co.jp/topics/mi5cyfa2rx",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "原作出版社明列柴田理恵演唱的原聲帶版本",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://raffanime.com/2020/03/21/somali11/",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "同期第11話回顧把ローザ童謠與キキーラ短唱連結",
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://barks.jp/news/867262/",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "作曲者吉俣良在訪談說明劇中童謠的創作與柴田理恵的原聲帶錄音",
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://tower.jp/item/5025435",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "日本實體原聲帶第2碟第22曲正式曲序、作詞與作曲",
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-16"
@@ -54122,8 +57603,50 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://issyan.com/somali-anime-3/",
-          "label": "第3話角色短唱的續查線索",
+          "label": "第3話同期記錄キキーラ唱傳承歌",
           "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.coamix.co.jp/topics/w27tril97lys",
+          "label": "原作出版社的官方預告公告，柴田理恵自述劇中演唱童謠，並刊載兩角聲優",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://musicbrainz.org/release/d91a8836-1c2a-4458-9ec5-f2d7ddbbdaff",
+          "label": "實體原聲帶逐曲交叉資料，列作詞、作曲與角色演唱",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.b-ch.com/titles/6817/003",
+          "label": "日本授權第3話正片入口及キキーラ場景摘要",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://rabujoi.wordpress.com/2020/03/19/",
+          "label": "同期第11話記錄把兩段傳承歌連結，待正版正片比對",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anime.eiga.com/news/109916/",
+          "label": "同期媒體明記官方第2彈PV以柴田理恵的童謠開頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z4iTmgQ09nA",
+          "label": "動畫官方第2彈預告，使用柴田理恵的童謠片段",
+          "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
         }
@@ -54246,13 +57769,51 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "https://open.spotify.com/track/6z35wq6Ii0xxKQQobheLQU"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tower.jp/item/5025435",
+            "https://musicbrainz.org/release/d91a8836-1c2a-4458-9ec5-f2d7ddbbdaff"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://times.abema.tv/articles/-/7047134",
+            "https://twitter.com/somali_anime/status/1240668603587805185",
+            "https://www.coamix.co.jp/topics/mi5cyfa2rx",
+            "https://raffanime.com/2020/03/21/somali11/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "somali-to-mori-no-kamisama-in-1"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Z4iTmgQ09nA",
+            "https://www.coamix.co.jp/topics/w27tril97lys",
+            "https://anime.eiga.com/news/109916/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "Z4iTmgQ09nA"
         }
       ],
       "sourceMode": "explicit",
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "日本原播正篇第11話插曲，ローザおばさん在劇中演唱的童謠。",
+      "usageLabel": "日本原播正篇第11話插曲，ローザおばさん在劇中演唱的童謠。ABEMA正片約18:15。",
       "lastVerifiedAt": "2026-11-16",
       "credits": [
         {
@@ -54262,6 +57823,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         {
           "name": "吉俣良",
           "role": "composition"
+        },
+        {
+          "name": "暮石ヤコ",
+          "role": "lyrics"
         }
       ],
       "recordings": [
@@ -54302,12 +57867,11 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "fields": [
             "recordings",
             "platform_availability",
-            "lyrics",
             "arrangement",
             "official_video"
           ],
-          "note": "第3話キキーラ（CV：小林ゆう）短唱有同期觀看線索，待權利方逐話表或合法正片確認與本曲關係。詞、編曲、原聲與正片的錄音對應、正版個別影片及香港完整播放待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
+          "note": "同期第3話及第11話記錄把キキーラ（CV：小林ゆう）的短唱與ローザ的童謠連在一起，目前已核的第3話授權頁只列劇情，待正片音軌或逐話署名確認。編曲、柴田理恵原聲帶錄音與正片的對應、歌曲獨立官方影片及香港完整播放待核。",
+          "resumeWhen": "待能合法播放的日語第3話及第11話片段，或權利方具名逐話曲表。原聲版別及地區供應依權利方曲目與實際播放另核。",
           "checkedAt": "2026-11-16"
         }
       ]
@@ -70062,50 +73626,1508 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     verifiedAt: "2026-09-02",
   },
   {
-    anilistId: 110613,
-    id: "curated-110613",
-    slug: "oda-cinnamon-nobunaga",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-11",
-    titleJa: "織田シナモン信長",
-    titleZhHant: "織田肉桂信長",
-    titleRomaji: "Oda Cinnamon Nobunaga",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110613-UVk4CINXaRnX.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110613-vA1AClZLd6yp.jpg",
-    editorialWeekday: 6,
-    broadcastLabel: "日本首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://nobunaga-cinnamon.com/",
-    anilistUrl: "https://anilist.co/anime/110613",
-    imageSourceUrl: "https://anilist.co/anime/110613",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
+    "anilistId": 110613,
+    "id": "curated-110613",
+    "slug": "oda-cinnamon-nobunaga",
+    "seasonIds": [
+      "2020-winter"
+    ],
+    "startDate": "2020-01-11",
+    "titleJa": "織田シナモン信長",
+    "titleZhHant": "織田肉桂信長",
+    "titleRomaji": "Oda Cinnamon Nobunaga",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b110613-UVk4CINXaRnX.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110613-vA1AClZLd6yp.jpg",
+    "editorialWeekday": 6,
+    "broadcastLabel": "テレビ東京原TV全12話，2020/1/10–3/27週五25:23（實曆1/11–3/28週六01:23 JST）。あにてれ與dTV於1/11 12:00開始配信。",
+    "status": "finished",
+    "officialSiteUrl": "https://shinamon-nobunaga.com/",
+    "anilistUrl": "https://anilist.co/anime/110613",
+    "imageSourceUrl": "https://anilist.co/anime/110613",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/217",
       "https://acgsecrets.hk/anime/43/",
-      "https://annict.com/works/6815",
+      "https://annict.com/works/6815"
     ],
-    animeThemesUrl: "https://animethemes.moe/anime/oda_cinnamon_nobunaga",
-    themes: [
+    "animeThemesUrl": "https://animethemes.moe/anime/oda_cinnamon_nobunaga",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Sunny Sunny Girl◎",
-        artistDisplayName: "熊田茜音",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Sunny Sunny Girl◎",
+        "artistDisplayName": "熊田茜音",
+        "id": "oda-cinnamon-nobunaga-op-1",
+        "songId": "oda-cinnamon-nobunaga-op-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/caststaff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/280605/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032071",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1838420416",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1838420425",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=UR-9lPGxUmA",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Sunny Sunny Girl◎｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1838420425",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1838420416",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297",
+              "https://www.uta-net.com/song/280605/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14962"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lacm-14963"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032071"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-35933"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "laca-15933"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1838420425"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1838420425"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.asmart.jp/a-onstore/shop/akanekumada/product/10032072",
+              "https://music.apple.com/hk/album/1838420416"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1838420416"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017297"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=UR-9lPGxUmA"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "UR-9lPGxUmA"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第1–12話片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "熊田茜音",
+            "role": "vocals"
+          },
+          {
+            "name": "こだまさおり",
+            "role": "lyrics"
+          },
+          {
+            "name": "山口朗彦",
+            "role": "composition"
+          },
+          {
+            "name": "山口朗彦",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-op-1-song-single-full",
+            "title": "Sunny Sunny Girl◎",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "oda-cinnamon-nobunaga-op-1-song-single-instrumental",
+            "title": "Sunny Sunny Girl◎（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "lacm-14962",
+            "title": "Sunny Sunny Girl◎",
+            "type": "single",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本藝人盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+              },
+              {
+                "title": "Sunny Sunny Girl◎（Instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14962"
+          },
+          {
+            "id": "lacm-14963",
+            "title": "Sunny Sunny Girl◎",
+            "type": "single",
+            "date": {
+              "value": "2020-01-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本動畫盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-full"
+              },
+              {
+                "title": "Sunny Sunny Girl◎（Instrumental）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-op-1-song-single-instrumental"
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACM-14963"
+          },
+          {
+            "id": "laca-35933",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本初回限定盤 CD＋BD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-35933"
+          },
+          {
+            "id": "laca-15933",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis",
+            "catalogNumber": "LACA-15933"
+          },
+          {
+            "id": "apple-hk-1838420416",
+            "title": "世界が晴れたら",
+            "type": "album",
+            "date": {
+              "value": "2022-02-23",
+              "precision": "day"
+            },
+            "artistDisplayName": "熊田茜音",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Sunny Sunny Girl◎",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "Lantis"
+          }
+        ],
+        "releaseDate": "2020-01-29"
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "犬生は一度きり",
-        titleRomaji: "Inu-sei wa Ichido Kiri",
-        artistDisplayName:
-          "シナモン（CV：堀内賢雄）、ブー（CV：古川登志夫）、ラッキー（CV：玄田哲章）",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "犬生は一度きり",
+        "titleRomaji": "Inu-sei wa Ichido Kiri",
+        "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+        "id": "oda-cinnamon-nobunaga-ed-1",
+        "songId": "oda-cinnamon-nobunaga-ed-1-song",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/caststaff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281632/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054964",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498055046",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=YN4BTya4W0k",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "犬生は一度きり｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054964",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "犬生は一度きり (Inst Ver.)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498055046",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/caststaff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.mau2.com/anime/odasinamonnobunaga",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://www.uta-net.com/song/281632/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054964"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054964"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498055046"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498055046"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-ed-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=YN4BTya4W0k",
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "YN4BTya4W0k"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第1–12話片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "堀内犬友",
+            "role": "vocals"
+          },
+          {
+            "name": "犬川登志夫",
+            "role": "vocals"
+          },
+          {
+            "name": "犬田哲章",
+            "role": "vocals"
+          },
+          {
+            "name": "SEAMO",
+            "role": "lyrics"
+          },
+          {
+            "name": "SEAMO",
+            "role": "composition"
+          },
+          {
+            "name": "Shintaro“Growth”Izutsu",
+            "role": "composition"
+          },
+          {
+            "name": "杉田直司",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "櫻犬孝宏",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "犬上和彦",
+            "role": "other",
+            "groupName": "合いの手"
+          },
+          {
+            "name": "鈴村犬一",
+            "role": "other",
+            "groupName": "合いの手"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental",
+            "title": "犬生は一度きり (Inst Ver.)",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "oda-cinnamon-nobunaga-ed-1-song-single-vocal",
+            "title": "犬生は一度きり",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "犬生は一度きり",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+              },
+              {
+                "title": "犬生は一度きり (Inst Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "犬生は一度きり",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-vocal"
+              },
+              {
+                "title": "犬生は一度きり (Inst Ver.)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-ed-1-song-single-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
       },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "oda-cinnamon-nobunaga-in-1",
+        "titleJa": "エターナルずんだ、えだまめフォーエバー",
+        "artistDisplayName": "伊達組",
+        "songId": "oda-cinnamon-nobunaga-in-1-song",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/7039975?page=1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281630/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054979",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "エターナルずんだ、えだまめフォーエバー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054979",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7039975?page=1",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7039975?page=1",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://www.uta-net.com/song/281630/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054979"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054979"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-1-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第4話插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "畠中祐",
+            "role": "vocals"
+          },
+          {
+            "name": "小笠原仁",
+            "role": "vocals"
+          },
+          {
+            "name": "橘龍丸",
+            "role": "vocals"
+          },
+          {
+            "name": "寺島惇太",
+            "role": "vocals"
+          },
+          {
+            "name": "沖野晃司",
+            "role": "vocals"
+          },
+          {
+            "name": "高橋伸也",
+            "role": "vocals"
+          },
+          {
+            "name": "目黒川うな",
+            "role": "lyrics"
+          },
+          {
+            "name": "中村博",
+            "role": "composition"
+          },
+          {
+            "name": "中村博",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-in-1-song-single-vocal",
+            "title": "エターナルずんだ、えだまめフォーエバー",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "エターナルずんだ、えだまめフォーエバー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "エターナルずんだ、えだまめフォーエバー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-1-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "oda-cinnamon-nobunaga-in-2",
+        "titleJa": "尻尾越しのアイラブユー",
+        "artistDisplayName": "ホイップ（中尾隆聖犬）",
+        "songId": "oda-cinnamon-nobunaga-in-2-song",
+        "sources": [
+          {
+            "url": "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://times.abema.tv/articles/-/7041935?page=1",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/281631/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1498054956",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1498054972",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "尻尾越しのアイラブユー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1498054972",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1498054956",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7041935?page=1",
+              "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://times.abema.tv/articles/-/7041935?page=1",
+              "https://www.mau2.com/anime/odasinamonnobunaga/ep/6",
+              "https://zh.wikipedia.org/wiki/%E7%BB%87%E7%94%B0%E8%82%89%E6%A1%82%E4%BF%A1%E9%95%BF"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/news/detail.php?id=1081607",
+              "https://www.uta-net.com/song/281631/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12873"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1498054972"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1498054972"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398",
+              "https://music.apple.com/hk/album/1498054956"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1498054956"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://shinamon-nobunaga.com/discography/detail.php?id=1017398"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oda-cinnamon-nobunaga-in-2-song"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV第6話插曲。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已記錄原期用曲、可核錄音及發行資料。",
+            "resumeWhen": "待原播音軌與商業錄音比對、版別說明，以及地區完整播放驗證。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "中尾隆聖犬",
+            "role": "vocals"
+          },
+          {
+            "name": "目黒川うな",
+            "role": "lyrics"
+          },
+          {
+            "name": "中村博",
+            "role": "composition"
+          },
+          {
+            "name": "中村博",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oda-cinnamon-nobunaga-in-2-song-single-vocal",
+            "title": "尻尾越しのアイラブユー",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12873",
+            "title": "犬生は一度きり",
+            "type": "single",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "日本 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "尻尾越しのアイラブユー",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12873"
+          },
+          {
+            "id": "apple-hk-1498054956",
+            "title": "犬生は一度きり - EP",
+            "type": "ep",
+            "date": {
+              "value": "2020-02-19",
+              "precision": "day"
+            },
+            "artistDisplayName": "シナモン・ブー・ラッキー（堀内犬友／犬川登志夫／犬田哲章）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "尻尾越しのアイラブユー",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "oda-cinnamon-nobunaga-in-2-song-single-vocal"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "releaseDate": "2020-02-19"
+      }
     ],
-    verifiedAt: "2026-09-02",
+    "verifiedAt": "2026-09-02",
+    "broadcastTimeJst": "01:23",
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://shinamon-nobunaga.com/onair/",
+        "label": "製作方首播與日本同季配信時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25718_202001102523.html",
+        "label": "電視東京原期首話播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25718_202003272523.html",
+        "label": "電視東京原期終回播出時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/shinamon-nobunaga/episodes/",
+        "label": "電視台原期全12話節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://tv.apple.com/jp/show/umc.cmc.6t5rxcqcrmyzhrxprrbeol8yu",
+        "label": "日本正版目錄單話約24分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.bilibili.com/bangumi/media/md28233772/",
+        "label": "港澳台正版片名及全12話",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=14812",
+        "label": "台灣正版片名及分集",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   },
   {
   "anilistId": 111501,
@@ -95910,46 +100932,636 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "broadcastTimeJst": "23:00"
 },
   {
-    anilistId: 114448,
-    id: "curated-114448",
-    slug: "saint-seiya-knights-of-the-zodiac-part-2",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-01-23",
-    titleJa: "聖闘士星矢: Knights of the Zodiac パート2",
-    titleZhHant: "聖鬥士星矢：黃道十二宮戰士 Part 2",
-    titleRomaji: "Saint Seiya: Knights of the Zodiac Part 2",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114448-nnpndNstYUNF.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114448-3sQLP2VXXgc7.jpg",
-    editorialWeekday: 4,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.saintseiya-kotz.com/pc/",
-    anilistUrl: "https://anilist.co/anime/114448",
-    imageSourceUrl: "https://anilist.co/anime/114448",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
+    "anilistId": 114448,
+    "id": "curated-114448",
+    "slug": "saint-seiya-knights-of-the-zodiac-part-2",
+    "seasonIds": [
+      "2020-winter"
+    ],
+    "startDate": "2020-01-23",
+    "titleJa": "聖闘士星矢: Knights of the Zodiac パート2",
+    "titleZhHant": "聖鬥士星矢：黃道十二宮戰士 Part 2",
+    "titleRomaji": "Saint Seiya: Knights of the Zodiac Part 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114448-nnpndNstYUNF.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/114448-3sQLP2VXXgc7.jpg",
+    "editorialWeekday": 4,
+    "broadcastLabel": "第一季 Part 2（全第7–12話）於2020年1月23日在Netflix全球同日上架。每話約24分鐘。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.saintseiya-kotz.com/season1/pc/",
+    "anilistUrl": "https://anilist.co/anime/114448",
+    "imageSourceUrl": "https://anilist.co/anime/114448",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/137",
-      "https://www.saintseiya-kotz.com/pc/music/",
+      "https://www.saintseiya-kotz.com/pc/music/"
     ],
-    themes: [
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "PEGASUS SEIYA",
-        artistDisplayName: "The Struts",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "PEGASUS SEIYA",
+        "artistDisplayName": "The Struts",
+        "id": "saint-seiya-knights-of-the-zodiac-part-2-op-1",
+        "sourceMode": "explicit",
+        "songId": "saint-seiya-knights-of-the-zodiac-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.saintseiya-kotz.com/season1/pc/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.saintseiya-anime.com/ja/news/detail.php?id=100",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animeanime.jp/article/2020/01/23/51118.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=wi5__cWUYIM",
+            "label": "藝人官方原曲音源，由 Interscope Records 提供",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1472428845",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/the-struts/news/2019-08-16/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1472428831",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/the-struts/products/uics-1355/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Pegasus Seiya｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1472428845",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1472428831",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal"
+          },
+          {
+            "platform": "YouTube",
+            "label": "唱片公司授權原曲音源",
+            "url": "https://www.youtube.com/watch?v=wi5__cWUYIM",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "recordingId": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://www.saintseiya-anime.com/ja/news/detail.php?id=100",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-part-2-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1472428845"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://www.universal-music.co.jp/the-struts/news/2019-08-16/",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=wi5__cWUYIM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1472428845"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1472428845"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=wi5__cWUYIM",
+              "https://music.apple.com/hk/album/1472428831"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1472428831"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/the-struts/products/uics-1355/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "uics-1355"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=wi5__cWUYIM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://www.youtube.com/watch?v=wi5__cWUYIM"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第一季 Part 2 Netflix 原配信片頭，2020年1月23日全6話同日上架。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2019-06-27",
+        "credits": [
+          {
+            "name": "The Struts",
+            "role": "vocals"
+          },
+          {
+            "name": "The Struts",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal",
+            "title": "Pegasus Seiya",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1472428831",
+            "title": "Pegasus Seiya",
+            "type": "single",
+            "date": {
+              "value": "2019-06-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "The Struts",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Pegasus Seiya",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal"
+              }
+            ],
+            "label": "Interscope Records"
+          },
+          {
+            "id": "uics-1355",
+            "title": "ヤング＆デンジャラス [ニュー・エディション]",
+            "type": "album",
+            "date": {
+              "value": "2019-08-14",
+              "precision": "day"
+            },
+            "artistDisplayName": "The Struts",
+            "edition": "日本新版CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "PEGASUS SEIYA",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "saint-seiya-knights-of-the-zodiac-op-1-song-interscope-vocal"
+              }
+            ],
+            "label": "Universal Music Japan",
+            "catalogNumber": "UICS-1355"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "原Netflix版的主題曲身分、發行品及香港曲位已核。逐話剪輯、片頭片尾省略及其他語言／電視版用曲待核。",
+            "resumeWhen": "取得原正片逐話音軌或播放方逐話曲目並比對正式單曲。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "SOMEBODY NEW",
-        artistDisplayName: "The Struts",
-      },
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "SOMEBODY NEW",
+        "artistDisplayName": "The Struts",
+        "id": "saint-seiya-knights-of-the-zodiac-part-2-ed-1",
+        "sourceMode": "explicit",
+        "songId": "saint-seiya-knights-of-the-zodiac-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.saintseiya-kotz.com/season1/pc/music/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.saintseiya-anime.com/ja/news/detail.php?id=100",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animeanime.jp/article/2020/01/23/51118.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZWQ_ES92Y2c",
+            "label": "Interscope Records 授權原曲音源、原發行日及詞曲署名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1435805372",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1435805547",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.universal-music.co.jp/the-struts/products/uics-1355/",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Somebody New｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1435805547",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1435805372",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal"
+          },
+          {
+            "platform": "YouTube",
+            "label": "唱片公司授權原曲音源",
+            "url": "https://www.youtube.com/watch?v=ZWQ_ES92Y2c",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "availability": "unknown",
+            "recordingId": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://www.saintseiya-anime.com/ja/news/detail.php?id=100",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-part-2-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZWQ_ES92Y2c"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.saintseiya-kotz.com/season1/pc/music/",
+              "https://www.youtube.com/watch?v=ZWQ_ES92Y2c",
+              "https://animeanime.jp/article/2020/01/23/51118.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZWQ_ES92Y2c"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1435805547"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1435805547"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZWQ_ES92Y2c",
+              "https://music.apple.com/hk/album/1435805372"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1435805372"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/the-struts/products/uics-1355/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "uics-1355"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZWQ_ES92Y2c"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://www.youtube.com/watch?v=ZWQ_ES92Y2c"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第一季 Part 2 Netflix 原配信片尾，2020年1月23日全6話同日上架。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2018-10-26",
+        "credits": [
+          {
+            "name": "The Struts",
+            "role": "vocals"
+          },
+          {
+            "name": "Luke Spiller",
+            "role": "songwriting"
+          },
+          {
+            "name": "Adam Slack",
+            "role": "songwriting"
+          },
+          {
+            "name": "Gethin Davies",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jed Elliott",
+            "role": "songwriting"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal",
+            "title": "Somebody New",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1435805372",
+            "title": "YOUNG & DANGEROUS",
+            "type": "album",
+            "date": {
+              "value": "2018-10-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "The Struts",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Somebody New",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal"
+              }
+            ],
+            "label": "Interscope Records"
+          },
+          {
+            "id": "uics-1355",
+            "title": "ヤング＆デンジャラス [ニュー・エディション]",
+            "type": "album",
+            "date": {
+              "value": "2019-08-14",
+              "precision": "day"
+            },
+            "artistDisplayName": "The Struts",
+            "edition": "日本新版CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Somebody New",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "saint-seiya-knights-of-the-zodiac-ed-1-song-interscope-vocal"
+              }
+            ],
+            "label": "Universal Music Japan",
+            "catalogNumber": "UICS-1355"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "原Netflix版的主題曲身分、發行品及香港曲位已核。逐話剪輯、片頭片尾省略及其他語言／電視版用曲待核。",
+            "resumeWhen": "取得原正片逐話音軌或播放方逐話曲目並比對正式單曲。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-    verifiedAt: "2026-09-02",
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://www.saintseiya-anime.com/ja/news/detail.php?id=100",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16",
+        "label": "官方原始配信公告：第一季下半部全6話同日上架"
+      },
+      {
+        "url": "https://animeanime.jp/article/2020/01/23/51118.html",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16",
+        "label": "原發行日專文交叉核對六話及片頭、片尾曲"
+      },
+      {
+        "url": "https://thetvdb.com/series/saint-seiya-knights-of-the-zodiac/seasons/official/1",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-16",
+        "label": "第一季第7–12話、各集片長及原配信日期"
+      }
+    ]
   },
   {
     anilistId: 112033,
@@ -101538,49 +107150,581 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "broadcastTimeJst": "08:30"
 },
   {
-    anilistId: 109586,
-    id: "curated-109586",
-    slug: "mushikago-no-cagaster",
-    seasonIds: ["2020-winter"],
-    startDate: "2020-02-06",
-    titleJa: "虫籠のカガステル",
-    titleZhHant: "蟲籠的卡伽斯特爾",
-    titleRomaji: "Mushikago no Cagaster",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109586-kCEXqdiTMX0j.png",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109586-z7tyqlHZDZ0o.jpg",
-    editorialWeekday: 4,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.cagaster.com/",
-    anilistUrl: "https://anilist.co/anime/109586",
-    imageSourceUrl: "https://anilist.co/anime/109586",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: [
+    "anilistId": 109586,
+    "id": "curated-109586",
+    "slug": "mushikago-no-cagaster",
+    "seasonIds": [
+      "2020-winter",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2020-02-06",
+    "titleJa": "虫籠のカガステル",
+    "titleZhHant": "蟲籠的卡伽斯特爾",
+    "titleRomaji": "Mushikago no Cagaster",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx109586-kCEXqdiTMX0j.png",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/109586-z7tyqlHZDZ0o.jpg",
+    "editorialWeekday": 4,
+    "broadcastLabel": "Netflix於2020/2/6一次上架全12話。日本AT-X於2020/11/27–2021/2/19首播，通常週五20:00 JST，第1話19:55播出。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.cagaster.com/",
+    "anilistUrl": "https://anilist.co/anime/109586",
+    "imageSourceUrl": "https://anilist.co/anime/109586",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+    "sourceReferenceUrls": [
       "https://youranimes.tw/animes/289",
       "https://annict.com/works/6340",
-      "https://www.netflix.com/jp/title/80224581",
+      "https://www.netflix.com/jp/title/80224581"
     ],
-    animeThemesUrl: "https://animethemes.moe/anime/mushikago_no_cagaster",
-    themes: [
+    "animeThemesUrl": "https://animethemes.moe/anime/mushikago_no_cagaster",
+    "themes": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "Be ZERO",
-        artistDisplayName: "Hilcrhyme",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Be ZERO",
+        "artistDisplayName": "Hilcrhyme",
+        "id": "mushikago-no-cagaster-op-1",
+        "sources": [
+          {
+            "url": "https://www.cagaster.com/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://hilcrhyme.com/music/321756",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/cagaster-op-ed-202001-winter/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.netflix.com/jp/title/80224581",
+            "label": "原配信方正篇分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496070145",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496070396",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://hilcrhyme.com/news/321870",
+            "label": "權利方影片上架及形式說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=9OIiaxFLvAc",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=H_nPS_fB_so",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Be ZERO｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496070396",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496070145",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "mushikago-no-cagaster-op-1-song-digital"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.cagaster.com/",
+              "https://hilcrhyme.com/music/321756",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.cagaster.com/",
+              "https://hilcrhyme.com/music/321756",
+              "https://www.netflix.com/jp/title/80224581",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-op-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-op-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496070396"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496070396"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756",
+              "https://music.apple.com/hk/album/1496070145"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496070145"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9OIiaxFLvAc",
+              "https://hilcrhyme.com/news/321870"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "9OIiaxFLvAc"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=H_nPS_fB_so",
+              "https://hilcrhyme.com/music/321756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "H_nPS_fB_so"
+          }
+        ],
+        "sourceMode": "explicit",
+        "songId": "mushikago-no-cagaster-op-1-song",
+        "credits": [
+          {
+            "name": "Hilcrhyme",
+            "role": "vocals"
+          },
+          {
+            "name": "TOC",
+            "role": "lyrics"
+          },
+          {
+            "name": "TOC",
+            "role": "composition"
+          },
+          {
+            "name": "栗原 暁",
+            "role": "composition"
+          },
+          {
+            "name": "久保田真悟",
+            "role": "composition"
+          },
+          {
+            "name": "栗原 暁",
+            "role": "arrangement"
+          },
+          {
+            "name": "久保田真悟",
+            "role": "arrangement"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "Netflix日本原配信版常規片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2020-02-06",
+        "recordings": [
+          {
+            "id": "mushikago-no-cagaster-op-1-song-digital",
+            "title": "Be ZERO",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1496070145",
+            "title": "Be ZERO",
+            "type": "single",
+            "date": {
+              "value": "2020-02-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Be ZERO",
+                "position": 1,
+                "recordingId": "mushikago-no-cagaster-op-1-song-digital"
+              }
+            ],
+            "label": "UNIVERSAL CONNECT / UNIVERSAL MUSIC ARTISTS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核Netflix原配信及2020年商業單曲。AT-X有2020秋及2021冬節目紀錄，電視剪輯及逐話片頭片尾須另核。",
+            "resumeWhen": "取得AT-X原播或權利方逐話曲表；第4話特殊片尾及其他黑石ひとみ曲目待正篇署名可辨識後處理。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
       },
       {
-        type: "ED",
-        sequence: 1,
-        titleJa: "臆病な狼 2019",
-        titleRomaji: "Okubyou na Ookami 2019",
-        artistDisplayName: "Hilcrhyme",
-      },
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "臆病な狼 2019",
+        "titleRomaji": "Okubyou na Ookami 2019",
+        "artistDisplayName": "Hilcrhyme",
+        "id": "mushikago-no-cagaster-ed-1",
+        "sources": [
+          {
+            "url": "https://www.cagaster.com/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://hilcrhyme.com/music/321756",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://anime-song-info.com/cagaster-op-ed-202001-winter/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.netflix.com/jp/title/80224581",
+            "label": "原配信方正篇分集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1496070145",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1496070397",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "臆病な狼 2019｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1496070397",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1496070145",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "mushikago-no-cagaster-ed-1-song-digital"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.cagaster.com/",
+              "https://hilcrhyme.com/music/321756",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.cagaster.com/",
+              "https://hilcrhyme.com/music/321756",
+              "https://www.netflix.com/jp/title/80224581",
+              "https://anime-song-info.com/cagaster-op-ed-202001-winter/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mushikago-no-cagaster-ed-1-song-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1496070397"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1496070397"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://hilcrhyme.com/music/321756",
+              "https://music.apple.com/hk/album/1496070145"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1496070145"
+          }
+        ],
+        "sourceMode": "explicit",
+        "songId": "mushikago-no-cagaster-ed-1-song",
+        "credits": [
+          {
+            "name": "Hilcrhyme",
+            "role": "vocals"
+          },
+          {
+            "name": "TOC",
+            "role": "lyrics"
+          },
+          {
+            "name": "TOC",
+            "role": "composition"
+          },
+          {
+            "name": "DJ KATSU",
+            "role": "composition"
+          },
+          {
+            "name": "REO",
+            "role": "arrangement"
+          }
+        ],
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "Netflix日本原配信版常規片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "releaseDate": "2020-02-06",
+        "recordings": [
+          {
+            "id": "mushikago-no-cagaster-ed-1-song-digital",
+            "title": "臆病な狼 2019",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1496070145",
+            "title": "Be ZERO",
+            "type": "single",
+            "date": {
+              "value": "2020-02-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "Hilcrhyme",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "臆病な狼 2019",
+                "position": 2,
+                "recordingId": "mushikago-no-cagaster-ed-1-song-digital"
+              }
+            ],
+            "label": "UNIVERSAL CONNECT / UNIVERSAL MUSIC ARTISTS"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核Netflix原配信及2020年商業單曲。AT-X有2020秋及2021冬節目紀錄，電視剪輯及逐話片頭片尾須另核。",
+            "resumeWhen": "取得AT-X原播或權利方逐話曲表；第4話特殊片尾及其他黑石ひとみ曲目待正篇署名可辨識後處理。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
     ],
-    verifiedAt: "2026-09-02",
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-16",
+    "metadataSources": [
+      {
+        "url": "https://www.cagaster.com/",
+        "label": "動畫製作方原配信及全12話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.netflix.com/jp/title/80224581",
+        "label": "原配信方正篇分集",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000285.000016935.html",
+        "label": "原作出版社公告首次電視播出與首話例外",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.at-x.com/program/detail/12434",
+        "label": "日本電視台正式作品頁",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5818/time",
+        "label": "電視逐話及末話日期交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
   },
   {
     anilistId: 117280,
@@ -104485,7 +110629,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "titleRomaji": "7SEEDS 2",
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112686-vZCeCpw9oYB4.jpg",
   "editorialWeekday": 1,
-  "broadcastLabel": "第2期TOKYO MX原TV；Netflix2020/3/26首發分開",
+  "broadcastLabel": "第13–24話於2020-03-26全球Netflix首發（2020冬）。日本地上波TOKYO MX於2021-01-04至03-22逢週一22:30–23:00 JST首播（2021冬）；BSフジ於2021年4月至6月另播。",
   "status": "finished",
   "officialSiteUrl": "https://7seeds.jp/",
   "anilistUrl": "https://anilist.co/anime/112686",
@@ -104506,6 +110650,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "songId": "7seeds-2-op-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
+        "2020-winter",
         "2021-winter"
       ],
       "sources": [
@@ -104528,7 +110673,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第一方本曲資料；支持欄位依逐曲證據",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/7SEEDS",
@@ -104550,6 +110695,132 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版片頭及兩首片尾的逐話對照",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/musics/8724/music_products/9991",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://st-kai.jp/works/7seeds/",
+          "label": "製作公司確認第二季Netflix首發日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1604023685",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.uta-net.com/tieup/14552/?target=art",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://sp.universal-music.co.jp/kamishiraishi-mone/note/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1498546978",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1498547197",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/",
+          "label": "權利方配信日期及版本說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1526408729",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1526409075",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-7565/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/contents/300968",
+          "label": "權利方確認完整MV或採用此曲之第二季宣傳影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6d74CgjbeC8",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://kamishiraishimone.com/contents/305824",
+          "label": "權利方確認完整MV或採用此曲之第二季宣傳影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VoNZeFRDT3o",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
@@ -104649,22 +110920,333 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://7seeds.jp/news/29.php"
           ],
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/musics/8724/music_products/9991",
+            "https://7seeds.jp/news/29.php",
+            "https://st-kai.jp/works/7seeds/",
+            "https://www.animatetimes.com/news/details.php?id=1604023685",
+            "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+            "https://kamishiraishimone.com/musics/8724/music_products/9991",
+            "https://www.uta-net.com/tieup/14552/?target=art",
+            "https://www.animatetimes.com/news/details.php?id=1604023685"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/kamishiraishi-mone/note/",
+            "https://www.uta-net.com/tieup/14552/?target=art"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-op-1-song-single-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1498547197"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1498547197"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/up1as-01216/",
+            "https://music.apple.com/hk/album/1498546978"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1498546978"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1526409075"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1526409075"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/",
+            "https://music.apple.com/hk/album/1526408729"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1526408729"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-2210/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-2210"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/kamishiraishi-mone/products/upch-7565/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-7565"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6d74CgjbeC8"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "6d74CgjbeC8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/contents/300968",
+            "https://www.youtube.com/watch?v=6d74CgjbeC8"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "6d74CgjbeC8"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=VoNZeFRDT3o"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "VoNZeFRDT3o"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://kamishiraishimone.com/contents/305824",
+            "https://www.youtube.com/watch?v=VoNZeFRDT3o"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "VoNZeFRDT3o"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links"
+            "platform_availability"
           ],
-          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
-          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
-          "checkedAt": "2026-10-26"
+          "note": "數位單曲與note專輯曲目均已核，平台曲長略有差異。兩版母帶與正片片頭剪輯待核。",
+          "resumeWhen": "待權利方或可比對片段確認正片剪輯、不同載體母帶與香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "From The Seeds｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1498547197",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1498546978",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-op-1-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "From The Seeds｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1526409075",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1526408729",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        }
+      ],
+      "usageLabel": "Netflix原版第13–24話期間的片頭曲，2021年TOKYO MX播出版沿用本期片頭曲。",
+      "releaseDate": "2020-02-25",
+      "recordings": [
+        {
+          "id": "7seeds-2-op-1-song-single-vocal",
+          "title": "From The Seeds",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1498546978",
+          "title": "From the Seeds",
+          "type": "single",
+          "date": {
+            "value": "2020-02-25",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "7seeds-2-op-1-song-single-vocal"
+            }
+          ],
+          "label": "Universal J"
+        },
+        {
+          "id": "apple-hk-1526408729",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J"
+        },
+        {
+          "id": "upch-2210",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-2210"
+        },
+        {
+          "id": "upch-7565",
+          "title": "note",
+          "type": "album",
+          "date": {
+            "value": "2020-08-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "上白石萌音",
+          "edition": "初回限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "From The Seeds",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-7565"
+        }
+      ]
     },
     {
       "type": "ED",
@@ -104675,6 +111257,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "songId": "7seeds-2-ed-1-song",
       "sourceMode": "explicit",
       "seasonIds": [
+        "2020-winter",
         "2021-winter"
       ],
       "sources": [
@@ -104719,12 +111302,101 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-10-26"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版逐話對照，常規片尾第13–23話",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://cidergirl.jp/contents/287914",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/news/39.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1604023685",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.uta-net.com/tieup/14552/?target=art",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XpYFmO5RT5k",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/cidergirl/products/upch-7550/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1489899101",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1489899109",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "サイダーガール",
           "role": "vocals"
+        },
+        {
+          "name": "知",
+          "role": "lyrics"
+        },
+        {
+          "name": "知",
+          "role": "composition"
+        },
+        {
+          "name": "akkin",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -104796,36 +111468,254 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-10-26",
           "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://cidergirl.jp/contents/287914",
+            "https://7seeds.jp/news/39.php",
+            "https://www.animatetimes.com/news/details.php?id=1604023685",
+            "https://music.orimyu.com/php/special/Special.php?pcd=sp_an0143&site=anime&trc_cd=MA5069",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://cidergirl.jp/contents/287914",
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+            "https://www.uta-net.com/tieup/14552/?target=art",
+            "https://www.animatetimes.com/news/details.php?id=1604023685"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XpYFmO5RT5k",
+            "https://www.uta-net.com/tieup/14552/?target=art"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-1-song-album-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-2204"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-7550/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "upch-7550"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1489899109"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1489899109"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/cidergirl/products/upch-2204/",
+            "https://music.apple.com/hk/album/1489899101"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1489899101"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=XpYFmO5RT5k"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "XpYFmO5RT5k"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "platform_availability"
           ],
-          "note": "曲名、演唱名義與已確認的本期TV用途季度已核；音源、影片及發行品資料仍待補。",
-          "resumeWhen": "待權利方公開正式音源、影片及發行品資訊後補核。",
-          "checkedAt": "2026-10-26"
+          "note": "改版公告明示更換片尾映像。日本TV逐話畫面、實播剪輯及Netflix目前採用的映像待核。",
+          "resumeWhen": "待權利方或可比對片段確認正片剪輯、不同載體母帶與香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "シンクロ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1489899109",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1489899101",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-ed-1-song-album-vocal"
+        }
+      ],
+      "usageLabel": "Netflix原版第13–23話片尾。2021年TOKYO MX播出版的常規片尾曲。製作方於2021-01-04公布重製第二季片尾映像。",
+      "releaseDate": "2020-01-15",
+      "recordings": [
+        {
+          "id": "7seeds-2-ed-1-song-album-vocal",
+          "title": "シンクロ",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "upch-2204",
+          "title": "SODA POP FANCLUB 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-2204"
+        },
+        {
+          "id": "upch-7550",
+          "title": "SODA POP FANCLUB 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "初回限定盤 CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J",
+          "catalogNumber": "UPCH-7550"
+        },
+        {
+          "id": "apple-hk-1489899101",
+          "title": "Soda Pop Fanclub 3",
+          "type": "album",
+          "date": {
+            "value": "2020-01-15",
+            "precision": "day"
+          },
+          "artistDisplayName": "サイダーガール",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "シンクロ",
+              "position": 5,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-1-song-album-vocal"
+            }
+          ],
+          "label": "Universal J"
+        }
+      ]
     },
     {
       "type": "ED",
       "sequence": 2,
       "titleJa": "生きてゆく",
       "titleRomaji": "Ikite Yuku",
-      "artistDisplayName": "Lovin' You",
+      "artistDisplayName": "lovinyuu",
       "id": "7seeds-2-ed-2",
       "songId": "7seeds-2-ed-2-song",
       "sourceMode": "explicit",
-      "seasonIds": [],
+      "seasonIds": [
+        "2020-winter"
+      ],
       "sources": [
         {
           "label": "動畫官方網站",
@@ -104846,34 +111736,102 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
           "label": "本曲逐欄交叉資料；未明欄位不作證",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-10-26"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Rkkp398hHqU",
+          "label": "權利方官方影片及簡介",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://ototoy.jp/_/default/p/905573",
+          "label": "有限会社クリーク提供的官方原聲帶第39曲與歌唱署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://creekltd.com/category/artist/michiru/",
+          "label": "原聲帶權利方及作編曲家對 Netflix 作品的音樂製作資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+          "label": "2020年4月Netflix原版分集對照，第二季末集使用本曲",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/news/31.php",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anison.online/anime/591",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1581373117",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1581374515",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
-          "name": "Lovin' You",
+          "name": "lovinyuu",
           "role": "vocals"
+        },
+        {
+          "name": "Yukio Takahashi",
+          "role": "lyrics"
+        },
+        {
+          "name": "未知瑠",
+          "role": "composition"
         }
       ],
       "evidence": [
         {
-          "target": "song",
+          "target": "anime_use",
           "fields": [
-            "title",
-            "artist"
+            "usage"
           ],
           "sourceUrls": [
-            "https://ja.wikipedia.org/wiki/7SEEDS"
+            "https://ototoy.jp/_/default/p/905573",
+            "https://7seeds.jp/news/31.php",
+            "https://www.reddit.com/r/AnimeThemes/comments/fv3vwz/7_seeds_2nd_season_winter_2020_oped_collection/",
+            "https://ja.wikipedia.org/wiki/7SEEDS",
+            "https://anison.online/anime/591",
+            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
           ],
-          "verifiedAt": "2026-10-26",
-          "targetId": "7seeds-2-ed-2-song"
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2"
         },
         {
           "target": "song",
@@ -104882,49 +111840,180 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "artist"
           ],
           "sourceUrls": [
-            "https://www.animatetimes.com/news/details.php?id=1616028118&p=4"
+            "https://ototoy.jp/_/default/p/905573",
+            "https://ja.wikipedia.org/wiki/7SEEDS",
+            "https://anison.online/anime/591"
           ],
-          "verifiedAt": "2026-10-26",
+          "verifiedAt": "2026-11-16",
           "targetId": "7seeds-2-ed-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://www.youtube.com/watch?v=Rkkp398hHqU",
+            "https://anison.online/anime/591"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-2-ed-2-song-soundtrack-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1581374515"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1581374515"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://music.apple.com/hk/album/1581373117"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1581373117"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Rkkp398hHqU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "Rkkp398hHqU"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://ototoy.jp/_/default/p/905573",
+            "https://creekltd.com/category/artist/michiru/",
+            "https://www.youtube.com/watch?v=Rkkp398hHqU",
+            "https://music.apple.com/hk/album/1581373117"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1581373117"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
-            "basic_evidence",
             "use_quarters",
-            "lyrics",
-            "composition",
-            "arrangement"
+            "recordings",
+            "arrangement",
+            "platform_availability"
           ],
-          "note": "曲名生きてゆく與現有演唱文字保留；交叉來源列ラビンユー及第24話ED，但尚缺本期權利方逐曲身分與用途正證。",
-          "resumeWhen": "待本期權利方公開生きてゆく的演唱名義及第24話用途說明後重核。",
-          "checkedAt": "2026-10-26"
+          "note": "原聲帶供稿用lovinyuu歌唱名義，平台另與未知瑠共同列名。商業版約1分53秒。日本冬季報導亦列為ED2。TOKYO MX及BSフジ第24話實際掛字、原聲帶實體曲序及編曲署名仍待核實。",
+          "resumeWhen": "待合法版本第24話片尾掛字、原聲帶附冊或權利方逐曲署名，並核香港完整播放。",
+          "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-10-26"
+      "lastVerifiedAt": "2026-11-16",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "生きてゆく｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1581374515",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1581373117",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+        }
+      ],
+      "usageLabel": "Netflix原版第24話（第二季第12話）特別片尾。日本地上波終話片尾待逐版核實。",
+      "releaseDate": "2021-01-27",
+      "recordings": [
+        {
+          "id": "7seeds-2-ed-2-song-soundtrack-vocal",
+          "title": "生きてゆく",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1581373117",
+          "title": "7SEEDS (Original Soundtrack)",
+          "type": "soundtrack",
+          "date": {
+            "value": "2021-01-27",
+            "precision": "day"
+          },
+          "artistDisplayName": "未知瑠",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "生きてゆく",
+              "position": 39,
+              "disc": 1,
+              "recordingId": "7seeds-2-ed-2-song-soundtrack-vocal"
+            }
+          ],
+          "label": "有限会社クリーク"
+        }
+      ]
     }
   ],
   "verifiedAt": "2026-09-02",
-  "metadataVerifiedAt": "2026-09-02",
+  "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
       "url": "https://7seeds.jp/onair/",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-26"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://7seeds.jp/news/31.php",
       "label": "第一方原期TV播出日期資料；僅日期時分",
       "role": "first_party",
       "language": "ja",
-      "verifiedAt": "2026-10-26"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.animatetimes.com/news/details.php?id=1616028118&p=4",
@@ -104932,6 +112021,62 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-10-26"
+    },
+    {
+      "url": "https://flowers.shogakukan.co.jp/1538/",
+      "label": "原作出版社確認TOKYO MX播出第13–24話及BSフジ次輪",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/news/39.php",
+      "label": "2021年1月4日製作方決定重新製作第二季片尾映像",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/blu-ray/",
+      "label": "第二季第13–24話與下卷影碟特典內容",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.bsfuji.tv/top/info/img/shubetsu/ncinfo_2104_2109.pdf",
+      "label": "BSフジ2021年春季實際播出節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://cal.syoboi.jp/tid/5899/time",
+      "label": "TOKYO MX首末話、BSフジ次輪及個別延時",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://thetvdb.com/series/7seeds/allseasons/official",
+      "label": "Netflix第13–24話同日首發交叉核對",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/2021%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "label": "繁體中文日本地上波第2期首末播日期",
+      "role": "broadcast_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.netflix.com/hk/title/80183051",
+      "label": "Netflix香港作品頁與第二部預告",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "broadcastTimeJst": "22:30"
@@ -105921,12 +113066,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "2020-winter"
   ],
   "verifiedAt": "2026-11-05",
-  "metadataVerifiedAt": "2026-11-05",
+  "metadataVerifiedAt": "2026-11-16",
   "titleJa": "7SEEDS",
   "startDate": "2020-01-14",
   "editorialWeekday": 2,
   "broadcastTimeJst": "23:00",
-  "broadcastLabel": "原第1期第1–12話2019-06-28先於Netflix配信；日本TV自2020-01-14起TOKYO MX週二23:00（JST）、BSフジ節目日週二24:00。此入口日期為首次TV；同第1期官方重播表明列12個獨立30分鐘槽，1月首輪結束時刻與淨片長仍待核；與第2期分開。",
+  "broadcastLabel": "第1期全12話先於2019/6/28在Netflix配信。日本首輪電視於TOKYO MX 2020/1/14–3/31每週二23:00–23:30 JST；BSフジ同一節目日週二24:00，終回實曆4/1 00:00。此入口按TOKYO MX首輪歸入2020年冬季。",
   "status": "finished",
   "officialSiteUrl": "https://www.gonzo.co.jp/works/7seeds/index.html",
   "identifierSource": {
@@ -105935,7 +113080,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "language": "ja"
   },
   "sourceReferenceUrls": [
-    "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+    "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
     "https://7seeds.jp/news/38.php",
     "https://www.animatetimes.com/news/details.php?id=1574831139"
   ],
@@ -105945,28 +113090,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "label": "GONZO官方：原第1期作品、音樂與2019配信資料",
       "language": "ja",
       "role": "identifier",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
-      "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
-      "label": "小学館官方：第1期第1–12話與2020首次TV對應",
+      "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+      "label": "TOKYO MX原期第1話及2020年1月14日播出日期",
       "language": "ja",
       "role": "first_party",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://7seeds.jp/news/38.php",
       "label": "動畫官方：同第1期12個獨立30分鐘重播槽；不作1月首輪結束時刻",
       "language": "ja",
       "role": "first_party",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
     },
     {
       "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
       "label": "第1期2020 TV開始日期／時刻及音樂交叉核對",
       "language": "ja",
       "role": "broadcast_cross_check",
-      "verifiedAt": "2026-11-05"
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://7seeds.jp/story/",
+      "label": "製作方第一期第1–12話及終回原文集名",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://s.mxtv.jp/jyushin/timetable/2003.pdf",
+      "label": "TOKYO MX 2020年3月正式基本節目表",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-1uIFWVTlho",
+      "label": "製作方日本首輪電視開播播出預告",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://myanimecheck.com/anime/7SEEDS",
+      "label": "TOKYO MX 首輪全12話日期與第12話",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://thetv.jp/program/selection/323/p2/",
+      "label": "同期 TOKYO MX 首輪終回日時與節目槽",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://bsnewanime.hatenablog.com/entry/2020/03/31/001000",
+      "label": "同期 BSフジ 3/31 24:00 終回排檔",
+      "role": "broadcast_cross_check",
+      "language": "ja",
+      "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://www.netflix.com/hk/title/80183051",
+      "label": "Netflix 香港正式繁中題名與合法觀看頁",
+      "role": "first_party",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-16"
     }
   ],
   "themes": [
@@ -105980,7 +113174,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "第1期日本首輪TV片頭。第一期第1–12話的原版逐話資料列本曲。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -105988,27 +113182,137 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
           "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
           "language": "ja",
           "role": "cross_check",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
-          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animesonglyrics.com/7-seeds/ark",
+          "label": "第一期公開配信版逐話主題曲交叉資料",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://weixiaoacg.com/anime/7seeds/",
+          "label": "繁中同期版本、配信及主題曲交叉資料",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://sp.universal-music.co.jp/amatsuki/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/7seeds",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetv.jp/program/selection/323/p2/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-5112/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-9117/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/amatsuki/products/uicz-9118/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1466194122",
+          "label": "Apple Music 香港區 EP 上架日期及曲位",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1466194266",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/blu-ray/",
+          "label": "第一期影碟另收無字幕片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-1uIFWVTlho",
+          "label": "製作方地上波首輪預告，音樂為〈Ark〉",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://anime-song-info.com/7seeds-2nd-op-ed-202004-spring/",
+          "label": "日本早期配信日期待查線索",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "天月-あまつき-",
           "role": "vocals"
+        },
+        {
+          "name": "天月-あまつき-",
+          "role": "lyrics"
+        },
+        {
+          "name": "天月-あまつき-",
+          "role": "composition"
+        },
+        {
+          "name": "渡辺拓也",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -106031,7 +113335,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "sourceUrls": [
             "https://www.gonzo.co.jp/works/7seeds/index.html",
-            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html"
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-op-1"
@@ -106058,27 +113362,276 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-op-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://sp.universal-music.co.jp/amatsuki/",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.animesonglyrics.com/7-seeds/ark",
+            "https://weixiaoacg.com/anime/7seeds/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+            "https://sp.universal-music.co.jp/amatsuki/",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.mau2.com/anime/7seeds",
+            "https://www.animesonglyrics.com/7-seeds/ark",
+            "https://thetv.jp/program/selection/323/p2/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+            "https://www.animesonglyrics.com/7-seeds/ark"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://sp.universal-music.co.jp/amatsuki/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-op-1-song-single-full"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-5112/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-5112"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-9117/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9117"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/amatsuki/products/uicz-9118/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9118"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1466194266"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1466194266"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/album/1466194122"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1466194122"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=8ZZMKYuJltU"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=8ZZMKYuJltU"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
-        },
-        {
-          "fields": [
-            "recordings",
+            "recording_format",
             "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "片頭曲已核日本三款 CD 及香港 EP 曲位。6月13日先行配信的日期、首輪TV剪輯及影碟無字幕版與原曲的對應待核。官方 MV 已有直接入口。",
+          "resumeWhen": "待權利方先行配信資料、首輪原播逐話畫面或可核影碟版別與香港完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "recordings": [
+        {
+          "id": "7seeds-tv-2020-op-1-song-single-full",
+          "title": "Ark",
+          "kind": "vocal",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "uicz-5112",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-5112"
+        },
+        {
+          "id": "uicz-9117",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本初回限定盤 A CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9117"
+        },
+        {
+          "id": "uicz-9118",
+          "title": "スターライトキセキ／Ark",
+          "type": "single",
+          "date": {
+            "value": "2019-06-26",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "日本初回限定盤 B CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9118"
+        },
+        {
+          "id": "apple-hk-1466194122",
+          "title": "Starlight Kiseki / Ark",
+          "type": "ep",
+          "date": {
+            "value": "2019-06-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "天月-あまつき-",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Ark",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+            }
+          ],
+          "label": "USM JAPAN"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Ark｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1466194266",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1466194122",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-op-1-song-single-full"
+        },
+        {
+          "platform": "YouTube",
+          "label": "Ark｜天月-あまつき- 官方 MV",
+          "url": "https://www.youtube.com/watch?v=8ZZMKYuJltU",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
         }
       ]
     },
@@ -106092,7 +113645,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "原系列第1期・2020年日本TV放送版",
+      "usageLabel": "第1期日本首輪TV片尾。第一期第1–12話的原版逐話資料列本曲。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -106100,27 +113653,165 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "label": "第1期官方音樂：曲名、演唱及OP／ED用途",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
           "url": "https://www.animatetimes.com/news/details.php?id=1574831139",
           "label": "2020 TV原系列曲名、完整演唱名義及OP／ED交叉核對",
           "language": "ja",
           "role": "cross_check",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
         },
         {
-          "url": "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html",
+          "url": "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
           "label": "原系列與2020年TV播出對應：第一方公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-05"
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.animesonglyrics.com/7-seeds/wish",
+          "label": "第一期公開配信版逐話主題曲交叉資料",
+          "role": "cross_check",
+          "language": "en",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://weixiaoacg.com/anime/7seeds/",
+          "label": "繁中同期版本、配信及主題曲交叉資料",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.majiko.net/news/?id=245",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.mau2.com/anime/7seeds",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://thetv.jp/program/selection/323/p2/",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/",
+          "label": "唱片公司公開〈WISH〉官方 MV 與第一期配信日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.majiko.net/news/?id=271",
+          "label": "權利方本曲最早已核商業發行",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-4453/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-9119/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.universal-music.co.jp/majiko/products/uicz-9120/",
+          "label": "權利方實體發行日期、曲序及版別",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1465881786",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1465882066",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=z2tyyEbtJko",
+          "label": "權利方曲目與發行音源說明",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1601932105",
+          "label": "Apple Music HK 區發行與曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1601932336",
+          "label": "Apple Music HK 區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GCN8DiOL_gM",
+          "label": "WISH｜majiko 官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://7seeds.jp/blu-ray/",
+          "label": "第一期影碟另收無字幕片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://tiwaha.blog.fc2.com/blog-entry-5681.html",
+          "label": "BSフジ 第一季終回首輪節目及劇中演奏同期交叉",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-16"
         }
       ],
       "credits": [
         {
           "name": "majiko",
           "role": "vocals"
+        },
+        {
+          "name": "majiko",
+          "role": "lyrics"
+        },
+        {
+          "name": "横山裕章",
+          "role": "composition"
+        },
+        {
+          "name": "横山裕章",
+          "role": "arrangement"
         }
       ],
       "evidence": [
@@ -106143,7 +113834,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "sourceUrls": [
             "https://www.gonzo.co.jp/works/7seeds/index.html",
-            "https://flowers.shogakukan.co.jp/migration/news/news_20191228b.html"
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html"
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-ed-1"
@@ -106170,35 +113861,13812 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-05",
           "targetId": "7seeds-tv-2020-ed-1"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.animesonglyrics.com/7-seeds/wish",
+            "https://weixiaoacg.com/anime/7seeds/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.gonzo.co.jp/works/7seeds/index.html",
+            "https://s.mxtv.jp/anime/7seeds/amp/amp111921.html",
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animatetimes.com/news/details.php?id=1574831139",
+            "https://www.mau2.com/anime/7seeds",
+            "https://www.animesonglyrics.com/7-seeds/wish",
+            "https://thetv.jp/program/selection/323/p2/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.majiko.net/news/?id=245",
+            "https://www.animesonglyrics.com/7-seeds/wish"
+          ],
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song-album-full"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.majiko.net/news/?id=271"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-4453/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-4453"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-9119/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9119"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/products/uicz-9120/"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "uicz-9120-9121"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1465882066"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1465882066"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.universal-music.co.jp/majiko/news/2019-06-27-video/",
+            "https://music.apple.com/hk/album/1465881786"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1465881786"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind",
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "7seeds-tv-2020-ed-1-song-live-2019"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1601932336"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://music.apple.com/hk/song/1601932336"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko",
+            "https://music.apple.com/hk/album/1601932105"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "apple-hk-1601932105"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GCN8DiOL_gM"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=GCN8DiOL_gM"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=z2tyyEbtJko"
+          ],
+          "verifiedAt": "2026-11-16",
+          "targetId": "https://www.youtube.com/watch?v=z2tyyEbtJko"
         }
       ],
       "followUp": [
         {
           "fields": [
-            "use_quarters"
-          ],
-          "note": "已確認所列2020 TV首播季度；其他季度逐曲用途尚未核對，不由集數、重播或商品日期擴張。",
-          "resumeWhen": "有第一方逐話日期及本曲實際用途，或明確續用公告時補入其他季度。",
-          "checkedAt": "2026-11-05"
-        },
-        {
-          "fields": [
-            "recordings",
+            "recording_format",
             "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "本次核對曲名、演唱與TV用途；音源版本、影片形式、完整發行品及確切正版平台仍未整理。",
-          "resumeWhen": "進入詳細資料階段後，依本曲正式音源、影片、發行品及平台目的頁補入。"
+          "note": "已核原曲、現場錄音及香港曲位。原播片尾剪輯與發行母帶待核；終回另曲片尾未見可證紀錄。官方 MV 及現場錄音已有直接入口。",
+          "resumeWhen": "待首輪電視播出片尾掛字、可核影碟剪輯及香港完整播放。",
+          "checkedAt": "2026-11-16"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-16",
+      "recordings": [
+        {
+          "id": "7seeds-tv-2020-ed-1-song-album-full",
+          "title": "WISH",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "7seeds-tv-2020-ed-1-song-live-2019",
+          "title": "Wish (2019 Live Version)",
+          "kind": "live",
+          "format": "full"
+        }
+      ],
+      "releaseDate": "2019-06-05",
+      "releases": [
+        {
+          "id": "uicz-4453",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-4453"
+        },
+        {
+          "id": "uicz-9119",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本初回限定盤 A CD＋DVD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9119"
+        },
+        {
+          "id": "uicz-9120-9121",
+          "title": "寂しい人が一番偉いんだ",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "日本初回限定盤 B 2CD",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "WISH",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN",
+          "catalogNumber": "UICZ-9120/1"
+        },
+        {
+          "id": "apple-hk-1465881786",
+          "title": "Sabishii Hitoga Ichiban Erainda",
+          "type": "album",
+          "date": {
+            "value": "2019-06-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Wish",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+            }
+          ],
+          "label": "USM JAPAN"
+        },
+        {
+          "id": "apple-hk-1601932105",
+          "title": "Live 2019",
+          "type": "album",
+          "date": {
+            "value": "2022-01-12",
+            "precision": "day"
+          },
+          "artistDisplayName": "majiko",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "Wish (2019 Live Version)",
+              "position": 9,
+              "disc": 1,
+              "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
+            }
+          ],
+          "label": "USM JAPAN"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Wish｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1465882066",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1465881786",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-album-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Wish (2019 Live Version)｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1601932336",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1601932105",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
+        },
+        {
+          "platform": "YouTube",
+          "label": "WISH｜majiko 官方 MV",
+          "url": "https://www.youtube.com/watch?v=GCN8DiOL_gM",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "YouTube",
+          "label": "Wish (2019 Live Version)｜Universal Music 授權現場錄音",
+          "url": "https://www.youtube.com/watch?v=z2tyyEbtJko",
+          "linkType": "direct_track",
+          "region": "GLOBAL",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-16",
+          "recordingId": "7seeds-tv-2020-ed-1-song-live-2019"
         }
       ]
     }
-  ]
+  ],
+  "titleZhHant": "7SEEDS 幻海奇情"
 },
+  {
+    "anilistId": 108625,
+    "id": "curated-108625",
+    "slug": "kiratto-prichan-season-2",
+    "seasonIds": [
+      "2020-winter",
+      "2019-summer",
+      "2019-fall"
+    ],
+    "startDate": "2019-04-07",
+    "titleJa": "キラッとプリ☆チャン シーズン2",
+    "titleZhHant": "星夢頻道 第二季",
+    "titleRomaji": "Kiratto Pri☆Chan Season 2",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108625-Hi8pDJcxVtN2.jpg",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "10:00",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/prichan/",
+    "anilistUrl": "https://anilist.co/anime/108625",
+    "imageSourceUrl": "https://anilist.co/anime/108625",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "status": "finished",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "bangumiUrl": "https://bgm.tv/subject/269023",
+    "broadcastLabel": "日本原電視第52–102話全51話，2019/4/7至2020/3/29於テレビ東京系週日10:00–10:30 JST播出。正版正片每話約25分鐘。",
+    "sourceReferenceUrls": [
+      "https://bgm.tv/subject/269023",
+      "https://www.mau2.com/anime/kirattopurichan-2",
+      "https://www.b-ch.com/titles/6554/"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "kiratto-prichan-season-2-op-1",
+        "titleJa": "ダイヤモンドスマイル",
+        "artistDisplayName": "Run Girls, Run！",
+        "songId": "kiratto-prichan-season-2-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1016423",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1463762748",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1463762749",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1463762752",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1017496",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1509418123",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1509418135",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nrNA0Pt4-YM",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=oE_aZvgwqis",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ダイヤモンドスマイル｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1463762749",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1463762748",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-op-1-song-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイヤモンドスマイル instrumental｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1463762752",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1463762748",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-op-1-song-instrumental"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ダイヤモンドスマイル｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1509418135",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1509418123",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12531"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12530-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1463762749"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1463762749"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1463762752"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1463762752"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016423",
+              "https://music.apple.com/hk/album/1463762748"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1463762748"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017496"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12944"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017496"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12943-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1509418135"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1509418135"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017496",
+              "https://music.apple.com/hk/album/1509418123"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1509418123"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nrNA0Pt4-YM"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "nrNA0Pt4-YM"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oE_aZvgwqis"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "oE_aZvgwqis"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原播第52–77話片頭（2019/4/7–9/29，春、夏季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "古屋真",
+            "role": "lyrics"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "composition"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "arrangement"
+          },
+          {
+            "name": "Run Girls, Run！",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-op-1-song-commercial",
+            "title": "ダイヤモンドスマイル",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-op-1-song-instrumental",
+            "title": "ダイヤモンドスマイル instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-op-1-song-tv-size",
+            "title": "ダイヤモンドスマイル -TV Size.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12531",
+            "title": "ダイヤモンドスマイル",
+            "type": "single",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-commercial"
+              },
+              {
+                "title": "ダイヤモンドスマイル instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-instrumental"
+              }
+            ],
+            "label": "DIVE II entertainment",
+            "catalogNumber": "EYCA-12531"
+          },
+          {
+            "id": "eyca-12530-b",
+            "title": "ダイヤモンドスマイル",
+            "type": "single",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本初回版 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-commercial"
+              },
+              {
+                "title": "ダイヤモンドスマイル instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-instrumental"
+              }
+            ],
+            "label": "DIVE II entertainment",
+            "catalogNumber": "EYCA-12530/B"
+          },
+          {
+            "id": "apple-hk-1463762748",
+            "title": "ダイヤモンドスマイル",
+            "type": "ep",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-commercial"
+              },
+              {
+                "title": "ダイヤモンドスマイル instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12944",
+            "title": "Run Girls, World！",
+            "type": "album",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12944"
+          },
+          {
+            "id": "eyca-12943-b",
+            "title": "Run Girls, World！",
+            "type": "album",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本初回版 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12943/B"
+          },
+          {
+            "id": "apple-hk-1509418123",
+            "title": "Run Girls, World!",
+            "type": "album",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル -TV Size.-",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-tv-size"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル -TV Size.-",
+                "position": 1,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-tv-size"
+              },
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 1,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "原聲帶第1碟第16軌另為角色合唱。原聲帶第2碟第1軌標示TV Size。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "id": "kiratto-prichan-season-2-op-2",
+        "titleJa": "キラリスト・ジュエリスト",
+        "artistDisplayName": "Run Girls, Run！",
+        "songId": "kiratto-prichan-season-2-op-2-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://rungirlsrun.jp/news/detail.php?id=1076608",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://ckworks.jp/animeradar/matome/4887/510378",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1017094",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1487526751",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1487526753",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1487527056",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kEc2Yu-bTJY",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "キラリスト・ジュエリスト｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1487526753",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1487526751",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-op-2-song-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "キラリスト・ジュエリスト Instrumental｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1487527056",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1487526751",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-op-2-song-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://rungirlsrun.jp/news/detail.php?id=1076608",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://ckworks.jp/animeradar/matome/4887/510378"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://rungirlsrun.jp/news/detail.php?id=1076608",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://ckworks.jp/animeradar/matome/4887/510378"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-2-song-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-2-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12732"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12731-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1487526753"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1487526753"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1487527056"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1487527056"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1017094",
+              "https://music.apple.com/hk/album/1487526751"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1487526751"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=kEc2Yu-bTJY"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kEc2Yu-bTJY"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播第78–99、101–102話片頭（2019/10/6–2020/3/29）。第100話省略片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "只野菜摘",
+            "role": "lyrics"
+          },
+          {
+            "name": "広川恵一（MONACA）",
+            "role": "composition"
+          },
+          {
+            "name": "広川恵一（MONACA）",
+            "role": "arrangement"
+          },
+          {
+            "name": "Run Girls, Run！",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-op-2-song-commercial",
+            "title": "キラリスト・ジュエリスト",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-op-2-song-instrumental",
+            "title": "キラリスト・ジュエリスト Instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-op-2-song-tv-size",
+            "title": "キラリスト・ジュエリスト -TV Size.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12732",
+            "title": "Share the light",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本通常盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリスト・ジュエリスト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-commercial"
+              },
+              {
+                "title": "キラリスト・ジュエリスト Instrumental",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-instrumental"
+              }
+            ],
+            "label": "DIVE II entertainment",
+            "catalogNumber": "EYCA-12732"
+          },
+          {
+            "id": "eyca-12731-b",
+            "title": "Share the light",
+            "type": "single",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本初回版 CD＋Blu-ray",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリスト・ジュエリスト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-commercial"
+              },
+              {
+                "title": "キラリスト・ジュエリスト Instrumental",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-instrumental"
+              }
+            ],
+            "label": "DIVE II entertainment",
+            "catalogNumber": "EYCA-12731/B"
+          },
+          {
+            "id": "apple-hk-1487526751",
+            "title": "Share the Light",
+            "type": "ep",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "キラリスト・ジュエリスト",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-commercial"
+              },
+              {
+                "title": "キラリスト・ジュエリスト Instrumental",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリスト・ジュエリスト -TV Size.-",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-tv-size"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Run Girls, Run！",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリスト・ジュエリスト -TV Size.-",
+                "position": 2,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-op-2-song-tv-size"
+              },
+              {
+                "title": "キラリスト・ジュエリスト",
+                "position": 2,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "作品原期首播第100話省略片頭。原聲帶另收錄TV Size及無字影像。使用第100話同時段觀眾紀錄的省略片頭資訊；逐話曲表仍沿列本曲，原版畫面留待複核。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "kiratto-prichan-season-2-ed-1",
+        "titleJa": "じゃんけんキラッと！プリ☆チャン",
+        "artistDisplayName": "桃山みらい（CV：林鼓子）",
+        "songId": "kiratto-prichan-season-2-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952147",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "じゃんけんキラッと!プリ☆チャン｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952147",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952147"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952147"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原播第52–77話片尾（2019/4/7–9/29，春、夏季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "宮嶋淳子",
+            "role": "lyrics"
+          },
+          {
+            "name": "トミタカズキ",
+            "role": "composition"
+          },
+          {
+            "name": "トミタカズキ",
+            "role": "arrangement"
+          },
+          {
+            "name": "林鼓子",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-ed-1-song-tv-size",
+            "title": "じゃんけんキラッと！プリ☆チャン -TV Size.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（CV：林鼓子）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "じゃんけんキラッと！プリ☆チャン",
+                "position": 17,
+                "disc": 1
+              },
+              {
+                "title": "じゃんけんキラッと！プリ☆チャン -TV Size.-",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-ed-1-song-tv-size"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（CV：林鼓子）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "じゃんけんキラッと！プリ☆チャン",
+                "position": 17,
+                "disc": 1
+              },
+              {
+                "title": "じゃんけんキラッと！プリ☆チャン -TV Size.-",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-ed-1-song-tv-size"
+              },
+              {
+                "title": "じゃんけんキラッと！プリ☆チャン",
+                "position": 3,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "じゃんけんキラッと!プリ☆チャン",
+                "position": 17,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "日本數位輯只核到第1碟曲目，TV Size另見實體第2碟。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "id": "kiratto-prichan-season-2-ed-2",
+        "titleJa": "Brand New Girls",
+        "artistDisplayName": "ブランニュー☆ガールズ（桃山みらい［CV：林鼓子］、青葉りんか［CV：厚木那奈美］、紫藤める［CV：森嶋優花］）",
+        "songId": "kiratto-prichan-season-2-ed-2-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952150",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Brand New Girls｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952150",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_Prichan3_key.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.mau2.com/anime/kirattopurichan-2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-ed-2-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952150"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952150"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播第78–88、90–99、101–102話片尾。第89及100話省略常規片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "栗原暁（Jazzin’park）",
+            "role": "lyrics"
+          },
+          {
+            "name": "栗原暁（Jazzin’park）",
+            "role": "composition"
+          },
+          {
+            "name": "栗原暁（Jazzin’park）",
+            "role": "arrangement"
+          },
+          {
+            "name": "前田佑",
+            "role": "lyrics"
+          },
+          {
+            "name": "前田佑",
+            "role": "composition"
+          },
+          {
+            "name": "前田佑",
+            "role": "arrangement"
+          },
+          {
+            "name": "林鼓子",
+            "role": "vocals"
+          },
+          {
+            "name": "厚木那奈美",
+            "role": "vocals"
+          },
+          {
+            "name": "森嶋優花",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-ed-2-song-tv-size",
+            "title": "Brand New Girls -TV Size.-",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "ブランニュー☆ガールズ（桃山みらい［CV：林鼓子］、青葉りんか［CV：厚木那奈美］、紫藤める［CV：森嶋優花］）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Brand New Girls",
+                "position": 18,
+                "disc": 1
+              },
+              {
+                "title": "Brand New Girls -TV Size.-",
+                "position": 4,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-ed-2-song-tv-size"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "ブランニュー☆ガールズ（桃山みらい［CV：林鼓子］、青葉りんか［CV：厚木那奈美］、紫藤める［CV：森嶋優花］）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Brand New Girls",
+                "position": 18,
+                "disc": 1
+              },
+              {
+                "title": "Brand New Girls -TV Size.-",
+                "position": 4,
+                "disc": 2,
+                "recordingId": "kiratto-prichan-season-2-ed-2-song-tv-size"
+              },
+              {
+                "title": "Brand New Girls",
+                "position": 4,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Brand New Girls",
+                "position": 18,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "團名採Avex音碟原文，個別演唱由東京電視台署名。兩個省略常規片尾的話數按逐話表紀錄。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "kiratto-prichan-season-2-in-1",
+        "titleJa": "TOKIMEKIハート・ジュエル♪",
+        "artistDisplayName": "桃山みらい（林鼓子）",
+        "songId": "kiratto-prichan-season-2-in-1-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952126",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1487532846",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532847",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532854",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "TOKIMEKIハート・ジュエル♪｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952126",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "TOKIMEKI ハート・ジュエル♪｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532847",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "TOKIMEKI ハート・ジュエル♪ inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532854",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952126"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952126"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-1-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12670"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12669-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532847"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532847"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532854"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532854"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+              "https://music.apple.com/jp/album/1487532846"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1487532846"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第52、54、64、70、99話；短摘或回想第74話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "矢鴇つかさ",
+            "role": "composition"
+          },
+          {
+            "name": "酒井拓也",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 5,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12670",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-commercial"
+              },
+              {
+                "title": "TOKIMEKIハート・ジュエル♪ -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12670"
+          },
+          {
+            "id": "eyca-12669-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKIハート・ジュエル♪",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-commercial"
+              },
+              {
+                "title": "TOKIMEKIハート・ジュエル♪ -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12669/B"
+          },
+          {
+            "id": "apple-jp-1487532846",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~ミラクル☆キラッツ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "みらい(cv.林 鼓子)、えも(cv.久保田未夢)、りんか(cv.厚木那奈美)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "TOKIMEKI ハート・ジュエル♪",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-commercial"
+              },
+              {
+                "title": "TOKIMEKI ハート・ジュエル♪ inst.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-1-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-1-song-season-2-commercial",
+            "title": "TOKIMEKIハート・ジュエル♪",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-1-song-season-2-instrumental",
+            "title": "TOKIMEKIハート・ジュエル♪ -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "kiratto-prichan-season-2-in-2",
+        "titleJa": "シアワ星かわいい賛歌",
+        "artistDisplayName": "金森まりあ（茜屋日海夏）",
+        "songId": "kiratto-prichan-season-2-in-2-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017052",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4944806",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952128",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1485848472",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848478",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848482",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "シアワ星かわいい賛歌｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952128",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "シアワ星かわいい賛歌｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848478",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "シアワ星かわいい賛歌 inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848482",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://tower.jp/item/4944806"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://tower.jp/item/4944806"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952128"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952128"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-2-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12612"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12611-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848478"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848478"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848482"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848482"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://music.apple.com/jp/album/1485848472"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1485848472"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第53、56、57、67、70、98話；短摘或回想第54、58話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "児玉雨子",
+            "role": "lyrics"
+          },
+          {
+            "name": "michitomo",
+            "role": "composition"
+          },
+          {
+            "name": "大場康司",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "金森まりあ（茜屋日海夏）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "金森まりあ（茜屋日海夏）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1
+              },
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 6,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12612",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "金森まりあ（茜屋日海夏）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-commercial"
+              },
+              {
+                "title": "シアワ星かわいい賛歌 -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12612"
+          },
+          {
+            "id": "eyca-12611-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "金森まりあ（茜屋日海夏）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-commercial"
+              },
+              {
+                "title": "シアワ星かわいい賛歌 -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12611/B"
+          },
+          {
+            "id": "apple-jp-1485848472",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~リングマリィ・だいあ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "まりあ (cv.茜屋日海夏)、すず (cv.徳井青空)、だいあ (cv.佐々木李子)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "シアワ星かわいい賛歌",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-commercial"
+              },
+              {
+                "title": "シアワ星かわいい賛歌 inst.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-2-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-2-song-season-2-commercial",
+            "title": "シアワ星かわいい賛歌",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-2-song-season-2-instrumental",
+            "title": "シアワ星かわいい賛歌 -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "kiratto-prichan-season-2-in-3",
+        "titleJa": "SUPER CUTIE SUPER GIRL",
+        "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+        "songId": "kiratto-prichan-super-cutie-super-girl-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016091",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-super-cutie-super-girl-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-3"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原播劇中演唱第55、60話；短摘或回想第76話。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "kiratto-prichan-season-2-in-4",
+        "titleJa": "夢色エナジー",
+        "artistDisplayName": "青葉りんか（厚木那奈美）",
+        "songId": "kiratto-prichan-season-2-in-4-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952129",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1487532846",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532849",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532856",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "夢色エナジー｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952129",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "夢色エナジー｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532849",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "夢色エナジー inst｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532856",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952129"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952129"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-4-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12670"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12669-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532849"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532849"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532856"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532856"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+              "https://music.apple.com/jp/album/1487532846"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1487532846"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第58、59、70、83、97話；短摘或回想第74話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "hanai",
+            "role": "lyrics"
+          },
+          {
+            "name": "成本智美",
+            "role": "composition"
+          },
+          {
+            "name": "高橋修平",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "青葉りんか（厚木那奈美）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "青葉りんか（厚木那奈美）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1
+              },
+              {
+                "title": "夢色エナジー",
+                "position": 7,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12670",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "青葉りんか（厚木那奈美）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-commercial"
+              },
+              {
+                "title": "夢色エナジー -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12670"
+          },
+          {
+            "id": "eyca-12669-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "青葉りんか（厚木那奈美）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-commercial"
+              },
+              {
+                "title": "夢色エナジー -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12669/B"
+          },
+          {
+            "id": "apple-jp-1487532846",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~ミラクル☆キラッツ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "みらい(cv.林 鼓子)、えも(cv.久保田未夢)、りんか(cv.厚木那奈美)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "夢色エナジー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-commercial"
+              },
+              {
+                "title": "夢色エナジー inst",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-4-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-4-song-season-2-commercial",
+            "title": "夢色エナジー",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-4-song-season-2-instrumental",
+            "title": "夢色エナジー -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "kiratto-prichan-season-2-in-5",
+        "titleJa": "寝ても覚めてもDREAMIN' GIRL",
+        "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+        "songId": "kiratto-prichan-season-2-in-5-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-5"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原播劇中演唱第61、62話；短摘或回想第77話。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "id": "kiratto-prichan-season-2-in-6",
+        "titleJa": "スペース！スパイス！スペクタクル！",
+        "artistDisplayName": "紫藤める（森嶋優花）",
+        "songId": "kiratto-prichan-season-2-in-6-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017110",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952132",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1489451726",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451729",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451734",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スペース!スパイス!スペクタクル!｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952132",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "スペース!スパイス!スペクタクル!｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451729",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "スペース!スパイス!スペクタクル! inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451734",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-6-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952132"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952132"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-6-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12672"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12671-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451729"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451729"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451734"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451734"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://music.apple.com/jp/album/1489451726"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1489451726"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第63、64、70、98話；短摘或回想第74話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "矢鴇つかさ",
+            "role": "composition"
+          },
+          {
+            "name": "矢鴇つかさ",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "紫藤める（森嶋優花）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース！スパイス！スペクタクル！",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "紫藤める（森嶋優花）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース！スパイス！スペクタクル！",
+                "position": 4,
+                "disc": 1
+              },
+              {
+                "title": "スペース！スパイス！スペクタクル！",
+                "position": 8,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース!スパイス!スペクタクル!",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12672",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "紫藤める（森嶋優花）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース！スパイス！スペクタクル！",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-commercial"
+              },
+              {
+                "title": "スペース！スパイス！スペクタクル！ -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12672"
+          },
+          {
+            "id": "eyca-12671-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "紫藤める（森嶋優花）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース！スパイス！スペクタクル！",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-commercial"
+              },
+              {
+                "title": "スペース！スパイス！スペクタクル！ -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12671/B"
+          },
+          {
+            "id": "apple-jp-1489451726",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~メルティックスター チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "あんな(cv.芹澤 優)、さら(cv.若井友希)、める(cv.森嶋優花)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スペース!スパイス!スペクタクル!",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-commercial"
+              },
+              {
+                "title": "スペース!スパイス!スペクタクル! inst.",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-6-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-6-song-season-2-commercial",
+            "title": "スペース！スパイス！スペクタクル！",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-6-song-season-2-instrumental",
+            "title": "スペース！スパイス！スペクタクル！ -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 7,
+        "id": "kiratto-prichan-season-2-in-7",
+        "titleJa": "キューティ・ブレイキン",
+        "artistDisplayName": "黒川すず（徳井青空）",
+        "songId": "kiratto-prichan-season-2-in-7-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017052",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4944806",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4944807",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952133",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1485848472",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848479",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848483",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "キューティ・ブレイキン｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952133",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "キューティ・ブレイキン｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848479",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "キューティ・ブレイキン inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848483",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://tower.jp/item/4944807"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-7-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://tower.jp/item/4944807"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952133"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952133"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-7-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12612"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12611-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848479"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848479"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848483"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848483"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://music.apple.com/jp/album/1485848472"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1485848472"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第65、67、70、82、85、98話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "児玉雨子",
+            "role": "lyrics"
+          },
+          {
+            "name": "michitomo",
+            "role": "composition"
+          },
+          {
+            "name": "大場康司",
+            "role": "arrangement"
+          },
+          {
+            "name": "michitomo",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "黒川すず（徳井青空）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 5,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "黒川すず（徳井青空）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 5,
+                "disc": 1
+              },
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 9,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 5,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12612",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "黒川すず（徳井青空）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-commercial"
+              },
+              {
+                "title": "キューティ・ブレイキン -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12612"
+          },
+          {
+            "id": "eyca-12611-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "黒川すず（徳井青空）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-commercial"
+              },
+              {
+                "title": "キューティ・ブレイキン -inst.-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12611/B"
+          },
+          {
+            "id": "apple-jp-1485848472",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~リングマリィ・だいあ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "まりあ (cv.茜屋日海夏)、すず (cv.徳井青空)、だいあ (cv.佐々木李子)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キューティ・ブレイキン",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-commercial"
+              },
+              {
+                "title": "キューティ・ブレイキン inst.",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-7-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-7-song-season-2-commercial",
+            "title": "キューティ・ブレイキン",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-7-song-season-2-instrumental",
+            "title": "キューティ・ブレイキン -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 8,
+        "id": "kiratto-prichan-season-2-in-8",
+        "titleJa": "乙女アテンションプリーズ",
+        "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+        "songId": "kiratto-prichan-season-2-in-8-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-8-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-8"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall"
+        ],
+        "usageLabel": "日本原播劇中演唱第66、69、79話；短摘或回想第76、77話。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 9,
+        "id": "kiratto-prichan-season-2-in-9",
+        "titleJa": "インディビジュアル・ジュエル",
+        "artistDisplayName": "リングマリィ（茜屋日海夏、徳井青空）",
+        "songId": "kiratto-prichan-individual-jewel-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017052",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4944806",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952134",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1485848472",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848480",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848484",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "インディビジュアル・ジュエル｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952134",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "インディビジュアル・ジュエル｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848480",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-individual-jewel-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "インディビジュアル・ジュエル inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848484",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-individual-jewel-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952134"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952134"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-individual-jewel-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12612"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12611-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848480"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848480"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848484"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848484"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://music.apple.com/jp/album/1485848472"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1485848472"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第68、69、72、77、94、102話；短摘或回想第74、90話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "児玉雨子",
+            "role": "lyrics"
+          },
+          {
+            "name": "michitomo",
+            "role": "composition"
+          },
+          {
+            "name": "大場康司",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "リングマリィ（茜屋日海夏、徳井青空）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 6,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "リングマリィ（茜屋日海夏、徳井青空）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 6,
+                "disc": 1
+              },
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 10,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 6,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12612",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "リングマリィ（茜屋日海夏、徳井青空）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-commercial"
+              },
+              {
+                "title": "インディビジュアル・ジュエル -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12612"
+          },
+          {
+            "id": "eyca-12611-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "リングマリィ（茜屋日海夏、徳井青空）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-commercial"
+              },
+              {
+                "title": "インディビジュアル・ジュエル -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12611/B"
+          },
+          {
+            "id": "apple-jp-1485848472",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~リングマリィ・だいあ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "まりあ (cv.茜屋日海夏)、すず (cv.徳井青空)、だいあ (cv.佐々木李子)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "インディビジュアル・ジュエル",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-commercial"
+              },
+              {
+                "title": "インディビジュアル・ジュエル inst.",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-individual-jewel-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-individual-jewel-song-season-2-commercial",
+            "title": "インディビジュアル・ジュエル",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-individual-jewel-song-season-2-instrumental",
+            "title": "インディビジュアル・ジュエル -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 10,
+        "id": "kiratto-prichan-season-2-in-10",
+        "titleJa": "えもめきピッカーン",
+        "artistDisplayName": "萌黄えも（久保田未夢）",
+        "songId": "kiratto-prichan-season-2-in-10-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952135",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1487532846",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532848",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532855",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "えもめきピッカーン｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952135",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "えもめきピッカーン｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532848",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "えもめきピッカーン inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532855",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-10-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-10"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952135"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952135"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-10-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12670"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12669-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532848"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532848"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532855"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532855"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+              "https://music.apple.com/jp/album/1487532846"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1487532846"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第71、72、75、87、97話；短摘或回想第85話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "児玉雨子",
+            "role": "lyrics"
+          },
+          {
+            "name": "michitomo",
+            "role": "composition"
+          },
+          {
+            "name": "松井ジャーマンJr.",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 7,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 7,
+                "disc": 1
+              },
+              {
+                "title": "えもめきピッカーン",
+                "position": 11,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 7,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12670",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-commercial"
+              },
+              {
+                "title": "えもめきピッカーン -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12670"
+          },
+          {
+            "id": "eyca-12669-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-commercial"
+              },
+              {
+                "title": "えもめきピッカーン -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12669/B"
+          },
+          {
+            "id": "apple-jp-1487532846",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~ミラクル☆キラッツ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "みらい(cv.林 鼓子)、えも(cv.久保田未夢)、りんか(cv.厚木那奈美)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "えもめきピッカーン",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-commercial"
+              },
+              {
+                "title": "えもめきピッカーン inst.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-10-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-10-song-season-2-commercial",
+            "title": "えもめきピッカーン",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-10-song-season-2-instrumental",
+            "title": "えもめきピッカーン -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 11,
+        "id": "kiratto-prichan-season-2-in-11",
+        "titleJa": "My Secret heArtbeats",
+        "artistDisplayName": "緑川さら（若井友希）",
+        "songId": "kiratto-prichan-season-2-in-11-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017110",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/279418/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952136",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1489451726",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451728",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451733",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "My Secret heArtbeats｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952136",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "My Secret heArtbeats｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451728",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "My Secret heArtbeats inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451733",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/song/279418/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-11-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/song/279418/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-11"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952136"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952136"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-11-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12672"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12671-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451728"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451728"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451733"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451733"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://music.apple.com/jp/album/1489451726"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1489451726"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第73、74、82、98話；短摘或回想第85話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "友希",
+            "role": "lyrics"
+          },
+          {
+            "name": "友希",
+            "role": "composition"
+          },
+          {
+            "name": "酒井拓也",
+            "role": "arrangement"
+          },
+          {
+            "name": "脇眞富",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑川さら（若井友希）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 8,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑川さら（若井友希）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 8,
+                "disc": 1
+              },
+              {
+                "title": "My Secret heArtbeats",
+                "position": 12,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 8,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12672",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑川さら（若井友希）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-commercial"
+              },
+              {
+                "title": "My Secret heArtbeats -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12672"
+          },
+          {
+            "id": "eyca-12671-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "緑川さら（若井友希）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-commercial"
+              },
+              {
+                "title": "My Secret heArtbeats -inst.-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12671/B"
+          },
+          {
+            "id": "apple-jp-1489451726",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~メルティックスター チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "あんな(cv.芹澤 優)、さら(cv.若井友希)、める(cv.森嶋優花)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "My Secret heArtbeats",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-commercial"
+              },
+              {
+                "title": "My Secret heArtbeats inst.",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-11-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-11-song-season-2-commercial",
+            "title": "My Secret heArtbeats",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-11-song-season-2-instrumental",
+            "title": "My Secret heArtbeats -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 12,
+        "id": "kiratto-prichan-season-2-in-12",
+        "titleJa": "フォーチュン・カラット",
+        "artistDisplayName": "白鳥アンジュ（三森すずこ）",
+        "songId": "kiratto-prichan-fortune-carat-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016091",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-fortune-carat-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://avex.jp/prichan/discography/detail.php?id=1016091",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-12"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第79、80、82、99話；短摘或回想第76、90話。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 13,
+        "id": "kiratto-prichan-season-2-in-13",
+        "titleJa": "フレンドパスワード",
+        "artistDisplayName": "だいあ／虹ノ咲だいあ（佐々木李子）",
+        "songId": "kiratto-prichan-season-2-in-13-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017052",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/4944806",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1578122654",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952137",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1485848472",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848475",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1485848481",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "フレンドパスワード｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952137",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレンドパスワード｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848475",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "フレンドパスワード inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1485848481",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1485848472",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://www.animatetimes.com/news/details.php?id=1578122654",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-13-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/4944806",
+              "https://www.animatetimes.com/news/details.php?id=1578122654",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-13"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952137"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952137"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-13-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12612"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12611-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848475"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848475"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1485848481"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1485848481"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017052",
+              "https://music.apple.com/jp/album/1485848472"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1485848472"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第77、78、89、99話；短摘或回想第90話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "宮嶋淳子",
+            "role": "lyrics"
+          },
+          {
+            "name": "曽木琢磨",
+            "role": "composition"
+          },
+          {
+            "name": "曽木琢磨",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "だいあ／虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "だいあ／虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 9,
+                "disc": 1
+              },
+              {
+                "title": "フレンドパスワード",
+                "position": 13,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 9,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12612",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "だいあ／虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-commercial"
+              },
+              {
+                "title": "フレンドパスワード -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12612"
+          },
+          {
+            "id": "eyca-12611-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～リングマリィ・だいあ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "だいあ／虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-commercial"
+              },
+              {
+                "title": "フレンドパスワード -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12611/B"
+          },
+          {
+            "id": "apple-jp-1485848472",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~リングマリィ・だいあ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "まりあ (cv.茜屋日海夏)、すず (cv.徳井青空)、だいあ (cv.佐々木李子)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-commercial"
+              },
+              {
+                "title": "フレンドパスワード inst.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-13-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-13-song-season-2-commercial",
+            "title": "フレンドパスワード",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-13-song-season-2-instrumental",
+            "title": "フレンドパスワード -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播虛擬だいあ及虹ノ咲だいあ的演出均由佐々木李子歌唱。可核唱片曲位；第72話短段及各話實際剪輯仍待確認。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 14,
+        "id": "kiratto-prichan-season-2-in-14",
+        "titleJa": "La La Meltic StAr",
+        "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+        "songId": "kiratto-prichan-la-la-meltic-star-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017110",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952138",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1489451726",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451730",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451735",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "La La Meltic StAr｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952138",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "La La Meltic StAr｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451730",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "La La Meltic StAr inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451735",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-la-la-meltic-star-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_8.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952138"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952138"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12672"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12671-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451730"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451730"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451735"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451735"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://music.apple.com/jp/album/1489451726"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1489451726"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第81、92話；短摘或回想第90話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "酒井拓也",
+            "role": "composition"
+          },
+          {
+            "name": "酒井拓也",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 10,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 10,
+                "disc": 1
+              },
+              {
+                "title": "La La Meltic StAr",
+                "position": 14,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 10,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12672",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial"
+              },
+              {
+                "title": "La La Meltic StAr -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12672"
+          },
+          {
+            "id": "eyca-12671-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "Meltic StAr（芹澤優、若井友希、森嶋優花）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial"
+              },
+              {
+                "title": "La La Meltic StAr -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12671/B"
+          },
+          {
+            "id": "apple-jp-1489451726",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~メルティックスター チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "あんな(cv.芹澤 優)、さら(cv.若井友希)、める(cv.森嶋優花)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "La La Meltic StAr",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial"
+              },
+              {
+                "title": "La La Meltic StAr inst.",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-la-la-meltic-star-song-season-2-commercial",
+            "title": "La La Meltic StAr",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-la-la-meltic-star-song-season-2-instrumental",
+            "title": "La La Meltic StAr -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 15,
+        "id": "kiratto-prichan-season-2-in-15",
+        "titleJa": "ロケットハート",
+        "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+        "songId": "kiratto-prichan-season-2-in-15-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952139",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1487532846",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532851",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1487532858",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ロケットハート｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952139",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ロケットハート｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532851",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ロケットハート inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1487532858",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1487532846",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-15-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avexnet.jp/contents/KIRAP-XXXX-XXXX/discography/1017109",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-15"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952139"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952139"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-15-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12670"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12669-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532851"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532851"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1487532858"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1487532858"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/news/detail.php?artist_cd=KIRAP&id=1078464",
+              "https://music.apple.com/jp/album/1487532846"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1487532846"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第84、95話；短摘或回想第90話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "栗原暁",
+            "role": "lyrics"
+          },
+          {
+            "name": "前田佑",
+            "role": "lyrics"
+          },
+          {
+            "name": "栗原暁",
+            "role": "composition"
+          },
+          {
+            "name": "前田佑",
+            "role": "composition"
+          },
+          {
+            "name": "栗原暁",
+            "role": "arrangement"
+          },
+          {
+            "name": "前田佑",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 11,
+                "disc": 1
+              },
+              {
+                "title": "ロケットハート",
+                "position": 15,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 11,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12670",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-commercial"
+              },
+              {
+                "title": "ロケットハート -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12670"
+          },
+          {
+            "id": "eyca-12669-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～ミラクル☆キラッツ チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "ミラクル☆キラッツ（林鼓子、久保田未夢、厚木那奈美）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-commercial"
+              },
+              {
+                "title": "ロケットハート -inst.-",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12669/B"
+          },
+          {
+            "id": "apple-jp-1487532846",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~ミラクル☆キラッツ チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-11-27",
+              "precision": "day"
+            },
+            "artistDisplayName": "みらい(cv.林 鼓子)、えも(cv.久保田未夢)、りんか(cv.厚木那奈美)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ロケットハート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-commercial"
+              },
+              {
+                "title": "ロケットハート inst.",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-15-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-15-song-season-2-commercial",
+            "title": "ロケットハート",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-15-song-season-2-instrumental",
+            "title": "ロケットハート -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 16,
+        "id": "kiratto-prichan-season-2-in-16",
+        "titleJa": "ヒロインズドラマ",
+        "artistDisplayName": "赤城あんな（芹澤優）",
+        "songId": "kiratto-prichan-season-2-in-16-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017110",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952140",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1489451726",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451727",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1489451732",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ヒロインズドラマ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952140",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ヒロインズドラマ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451727",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-commercial"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "ヒロインズドラマ inst.｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1489451732",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1489451726",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-16-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952140"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952140"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-16-song-season-2-commercial"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12672"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12671-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451727"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451727"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1489451732"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1489451732"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017110",
+              "https://music.apple.com/jp/album/1489451726"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1489451726"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第86、97話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "本多友紀",
+            "role": "composition"
+          },
+          {
+            "name": "本多友紀",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "赤城あんな（芹澤優）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 12,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "赤城あんな（芹澤優）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 12,
+                "disc": 1
+              },
+              {
+                "title": "ヒロインズドラマ",
+                "position": 16,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 12,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          },
+          {
+            "id": "eyca-12672",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "赤城あんな（芹澤優）",
+            "edition": "日本CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-commercial"
+              },
+              {
+                "title": "ヒロインズドラマ -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12672"
+          },
+          {
+            "id": "eyca-12671-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション ～メルティックスター チャンネル～",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "赤城あんな（芹澤優）",
+            "edition": "日本CD+DVD DX",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-commercial"
+              },
+              {
+                "title": "ヒロインズドラマ -inst.-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12671/B"
+          },
+          {
+            "id": "apple-jp-1489451726",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~メルティックスター チャンネル~",
+            "type": "album",
+            "date": {
+              "value": "2019-12-11",
+              "precision": "day"
+            },
+            "artistDisplayName": "あんな(cv.芹澤 優)、さら(cv.若井友希)、める(cv.森嶋優花)",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ヒロインズドラマ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-commercial"
+              },
+              {
+                "title": "ヒロインズドラマ inst.",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-16-song-season-2-instrumental"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-16-song-season-2-commercial",
+            "title": "ヒロインズドラマ",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-season-2-in-16-song-season-2-instrumental",
+            "title": "ヒロインズドラマ -inst.-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 17,
+        "id": "kiratto-prichan-season-2-in-17",
+        "titleJa": "ツヨキ！ツインテールズ",
+        "artistDisplayName": "萌黄えも（久保田未夢）＆赤城あんな（芹澤優）",
+        "songId": "kiratto-prichan-season-2-in-17-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952141",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ツヨキ!ツインテールズ｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952141",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-17-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-17"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952141"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952141"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第88、91話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "宮嶋淳子",
+            "role": "lyrics"
+          },
+          {
+            "name": "成本智美",
+            "role": "composition"
+          },
+          {
+            "name": "近藤圭一",
+            "role": "composition"
+          },
+          {
+            "name": "賀佐泰洋",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）＆赤城あんな（芹澤優）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ツヨキ！ツインテールズ",
+                "position": 13,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "萌黄えも（久保田未夢）＆赤城あんな（芹澤優）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ツヨキ！ツインテールズ",
+                "position": 13,
+                "disc": 1
+              },
+              {
+                "title": "ツヨキ！ツインテールズ",
+                "position": 17,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ツヨキ!ツインテールズ",
+                "position": 13,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 18,
+        "id": "kiratto-prichan-season-2-in-18",
+        "titleJa": "ハート♥イロ♥トリドリ～ム",
+        "artistDisplayName": "幸瀬なる（加藤英美里）",
+        "songId": "kiratto-prichan-season-2-in-18-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://avexnet.jp/contents/PRRAI-XXXX-XXXX/discography/1011224",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://avexnet.jp/contents/PRRAI-XXXX-XXXX/discography/1011224",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-18-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://avexnet.jp/contents/PRRAI-XXXX-XXXX/discography/1011224",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-18"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第91、96話；短摘或回想第92話。",
+        "lastVerifiedAt": "2026-11-16",
+        "releases": [
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "幸瀬なる（加藤英美里）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ハート♥イロ♥トリドリ～ム",
+                "position": 18,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links"
+            ],
+            "note": "第2季DX DVD第18項收錄演唱畫面，另待核對本季商業音源與既有同曲發行的對應。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 19,
+        "id": "kiratto-prichan-season-2-in-19",
+        "titleJa": "フレンドパスワード ～Another World～",
+        "artistDisplayName": "アナザーだいあ（佐々木李子）",
+        "songId": "kiratto-prichan-season-2-in-19-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2/ep/93",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952144",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "フレンドパスワード ~Another World~｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952144",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-in-19-song-another-world"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/93"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-19-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_7.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/93"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-19-song-another-world"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952144"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952144"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第93、94、95話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "宮嶋淳子",
+            "role": "lyrics"
+          },
+          {
+            "name": "曽木琢磨",
+            "role": "composition"
+          },
+          {
+            "name": "高橋修平",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "Another World 重新編曲版",
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-19-song-another-world",
+            "title": "フレンドパスワード ～Another World～",
+            "kind": "rearrangement",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "アナザーだいあ（佐々木李子）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード ～Another World～",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-19-song-another-world"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "アナザーだいあ（佐々木李子）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード ～Another World～",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-19-song-another-world"
+              },
+              {
+                "title": "フレンドパスワード ～Another World～",
+                "position": 19,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "フレンドパスワード ~Another World~",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-19-song-another-world"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "製作人說明為アナザーだいあ的對應曲，獨立編曲、曲位及角色用途。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 20,
+        "id": "kiratto-prichan-season-2-in-20",
+        "titleJa": "MEMORIES FOR FUTURE",
+        "artistDisplayName": "桃山みらい（林鼓子）＆虹ノ咲だいあ（佐々木李子）",
+        "songId": "kiratto-prichan-season-2-in-20-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy.co.jp/group_release/pdf/g230222.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/people/348786/kashi/3/?target=kashi",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952145",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "MEMORIES FOR FUTURE｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952145",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy.co.jp/group_release/pdf/g230222.pdf",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-20-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy.co.jp/group_release/pdf/g230222.pdf",
+              "https://www.animatetimes.com/news/details.php?id=1595915052&p=3",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://www.uta-net.com/people/348786/kashi/3/?target=kashi"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-20"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952145"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952145"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第100、102話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "真崎エリカ",
+            "role": "lyrics"
+          },
+          {
+            "name": "本多友紀",
+            "role": "composition"
+          },
+          {
+            "name": "本多友紀",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）＆虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MEMORIES FOR FUTURE",
+                "position": 15,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "桃山みらい（林鼓子）＆虹ノ咲だいあ（佐々木李子）",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MEMORIES FOR FUTURE",
+                "position": 15,
+                "disc": 1
+              },
+              {
+                "title": "MEMORIES FOR FUTURE",
+                "position": 20,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "MEMORIES FOR FUTURE",
+                "position": 15,
+                "disc": 1
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第100話劇中演唱，另核第102話用曲。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 21,
+        "id": "kiratto-prichan-season-2-in-21",
+        "titleJa": "ダイヤモンドスマイル",
+        "artistDisplayName": "オール☆ジュエルアイドルズ",
+        "songId": "kiratto-prichan-season-2-op-1-song",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1017565",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://tower.jp/item/5044291",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mysound.jp/song/5913117/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2/ep/101",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/album/1517951914",
+            "label": "Apple Music JP 區發行與曲序",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/jp/song/1517952146",
+            "label": "Apple Music JP 區曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "ダイヤモンドスマイル｜Apple Music JP",
+            "url": "https://music.apple.com/jp/song/1517952146",
+            "linkType": "direct_track",
+            "region": "JP",
+            "releaseId": "apple-jp-1517951914",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://mysound.jp/song/5913117/",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/101"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://tower.jp/item/5044291",
+              "https://mysound.jp/song/5913117/",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/101"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-21"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tower.jp/item/5044291"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/101"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12992-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "eyca-12990-1-b"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/jp/song/1517952146"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/jp/song/1517952146"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1017565",
+              "https://music.apple.com/jp/album/1517951914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-jp-1517951914"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播劇中演唱第101話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "古屋真",
+            "role": "lyrics"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "composition"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "arrangement"
+          },
+          {
+            "name": "林鼓子",
+            "role": "vocals"
+          },
+          {
+            "name": "久保田未夢",
+            "role": "vocals"
+          },
+          {
+            "name": "厚木那奈美",
+            "role": "vocals"
+          },
+          {
+            "name": "芹澤優",
+            "role": "vocals"
+          },
+          {
+            "name": "若井友希",
+            "role": "vocals"
+          },
+          {
+            "name": "森嶋優花",
+            "role": "vocals"
+          },
+          {
+            "name": "茜屋日海夏",
+            "role": "vocals"
+          },
+          {
+            "name": "徳井青空",
+            "role": "vocals"
+          },
+          {
+            "name": "佐々木李子",
+            "role": "vocals"
+          },
+          {
+            "name": "三森すずこ",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-op-1-song-all-jewel-idols",
+            "title": "ダイヤモンドスマイル",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12992-3",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "オール☆ジュエルアイドルズ",
+            "edition": "日本通常盤 2CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12992～3"
+          },
+          {
+            "id": "eyca-12990-1-b",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "オール☆ジュエルアイドルズ",
+            "edition": "日本 DX 版 2CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+              },
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 21,
+                "disc": 3
+              }
+            ],
+            "label": "avex pictures",
+            "catalogNumber": "EYCA-12990～1/B"
+          },
+          {
+            "id": "apple-jp-1517951914",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション Season.2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2020-06-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "日本區數位版",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ダイヤモンドスマイル",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-op-1-song-all-jewel-idols"
+              }
+            ],
+            "label": "avex pictures"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "第101話的角色合唱與同話Run Girls, Run!的片段分列，原聲帶第1碟第16軌為角色合唱。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 22,
+        "id": "kiratto-prichan-season-2-in-22",
+        "titleJa": "かわいい向上委員会の歌",
+        "artistDisplayName": "かわいい向上委員会",
+        "songId": "kiratto-prichan-kawaii-kojo-song",
+        "sources": [
+          {
+            "url": "https://mantan-web.jp/article/20190518dog00m200027000c.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.lisani.jp/0000283539/3/?show_more=1",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://deji-chan.com/post-466",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2/ep/54",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://mantan-web.jp/article/20190518dog00m200027000c.html",
+              "https://www.lisani.jp/0000283539/3/?show_more=1",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/54"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-kawaii-kojo-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://mantan-web.jp/article/20190518dog00m200027000c.html",
+              "https://www.lisani.jp/0000283539/3/?show_more=1",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_10.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_9.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://mino90.hateblo.jp/entry/prichan",
+              "https://deji-chan.com/post-466",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/54"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-22"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://mantan-web.jp/article/20190518dog00m200027000c.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原播短摘或回想第54、73話。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "佐々木李子",
+            "role": "lyrics"
+          },
+          {
+            "name": "佐々木李子",
+            "role": "composition"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "releases",
+              "platform_links",
+              "use_quarters"
+            ],
+            "note": "佐々木李子本人談及為此動畫創作的該曲，實唱名單與商業發行待逐話署名或權利方曲目核對。",
+            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 23,
+        "id": "kiratto-prichan-season-2-in-23",
+        "titleJa": "ダイヤモンドスマイル",
+        "artistDisplayName": "Run Girls, Run！",
+        "songId": "kiratto-prichan-season-2-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan-2/ep/101",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/101"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.takaratomy-arts.co.jp/company/pdf/R_0915Prichan_Pripara5th.pdf",
+              "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+              "https://www.mau2.com/anime/kirattopurichan-2",
+              "https://www.mau2.com/anime/kirattopurichan-2/ep/101"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kiratto-prichan-season-2-in-23"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原播第101話劇中片段，由Run Girls, Run!演唱。此話另有角色合唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "Run Girls, Run！",
+            "role": "vocals"
+          },
+          {
+            "name": "古屋真",
+            "role": "lyrics"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "composition"
+          },
+          {
+            "name": "加藤裕介",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "Jewel Chance各話使用的剪輯及演唱名義仍待可區分的逐話原播音軌，不把其餘片段套入此版本。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.takaratomy-arts.co.jp/company/pdf/R_prichan2_2.pdf",
+        "label": "製作委員會第2季原播公告及時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+        "label": "東京電視台第52話原播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_6.html",
+        "label": "東京電視台第102話末話及第3季接播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201909/21577_201909291000.html",
+        "label": "原播第77話時段及曲目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21577_202003221000.html",
+        "label": "原播第101話時段及曲目",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.b-ch.com/titles/6554/",
+        "label": "日本授權第2季全51話及片長",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.mau2.com/anime/kirattopurichan-2",
+        "label": "第2季製作、話數及播出與歌曲交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1757/TVB_Positive_Programmes_2024.pdf",
+        "label": "香港電視廣播節目報表的第2及第3季繁中名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "anilistId": 113242,
+    "id": "curated-113242",
+    "slug": "duel-masters-2019",
+    "seasonIds": [
+      "2020-winter",
+      "2019-summer",
+      "2019-fall"
+    ],
+    "startDate": "2019-04-07",
+    "titleJa": "デュエル・マスターズ！！",
+    "titleZhHant": "決鬥大師！！",
+    "titleRomaji": "Duel Masters!!",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113242-Guzq5SYlaTI2.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/113242",
+    "imageSourceLabel": "AniList 公開媒體圖像／TM and © 2019, Wizards of the Coast, Shogakukan, Mitsui/Kids, ShoPro, TV TOKYO",
+    "anilistUrl": "https://anilist.co/anime/113242",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/dm3/",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "08:30",
+    "status": "finished",
+    "broadcastLabel": "2019年電視版於2019/4/7–2020/3/29在テレビ東京系列週日08:30–09:00 JST播出全51話，正版正篇約24分鐘。",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "wikipediaUrl": "https://zh.wikipedia.org/wiki/%E6%B1%BA%E9%AC%A5%E5%A4%A7%E5%B8%AB",
+    "bangumiUrl": "https://bangumi.tv/subject/279474",
+    "sourceReferenceUrls": [
+      "https://acgsecrets.hk/bangumi/201904/",
+      "https://www.mau2.com/anime/duelmasters-r2-3",
+      "https://bangumi.tv/subject/279474"
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "duel-masters-2019-op-1",
+        "titleJa": "超天フィーバー！",
+        "artistDisplayName": "はやぶさ",
+        "songId": "duel-masters-2019-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://8823.click/discography/single/fever_b/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5302",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://victor-store.jp/item/12970",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.utabito.jp/insidestory/2824/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://8823.click/discography/single/fever_b/",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://8823.click/discography/single/fever_b/",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://8823.click/discography/single/fever_b/",
+              "https://victor-store.jp/item/12970",
+              "https://www.utabito.jp/insidestory/2824/",
+              "https://cal.syoboi.jp/tid/5302"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://8823.click/discography/single/fever_b/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "vicl-37494"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原TV片頭，第1–26話（2019/4/7–9/29，春、夏季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "use_quarters"
+            ],
+            "note": "已記錄實際原播話數與時間。",
+            "resumeWhen": "2019春季加入公開索引時補掛用途；取得正版原播音軌可核剪輯及香港可播放性。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "はやぶさ",
+            "role": "vocals"
+          },
+          {
+            "name": "前山田健一",
+            "role": "lyrics"
+          },
+          {
+            "name": "前山田健一",
+            "role": "composition"
+          },
+          {
+            "name": "前山田健一",
+            "role": "arrangement"
+          }
+        ],
+        "releases": [
+          {
+            "id": "vicl-37494",
+            "title": "超天フィーバー！",
+            "type": "single",
+            "date": {
+              "value": "2019-09-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "はやぶさ",
+            "edition": "日本通常B盤 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "超天フィーバー！",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "Victor Entertainment",
+            "catalogNumber": "VICL-37494"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 2,
+        "id": "duel-masters-2019-op-2",
+        "titleJa": "Gotcha!!",
+        "artistDisplayName": "浦島坂田船",
+        "songId": "duel-masters-2019-op-2-song",
+        "sources": [
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "テレビ東京ミュージック1月月表沿用上季兩曲，與逐話記錄及權利方資料有異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1801705015",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1801705037",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1801705276",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Gotcha!!｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1801705037",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1801705015",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gotcha!! (Instrumental)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1801705276",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1801705015",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "duel-masters-2019-op-2-song-instrumental"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-2-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1801705037"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1801705037"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1801705276"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1801705276"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://nbcuni-music.com/urashimasakatasen/discography/gotcha.html",
+              "https://music.apple.com/hk/album/1801705015"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1801705015"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "日本原TV片頭，第27–39話（2019/10/6–12/29，秋季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
+            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "浦島坂田船",
+            "role": "vocals"
+          },
+          {
+            "name": "前山田健一",
+            "role": "lyrics"
+          },
+          {
+            "name": "前山田健一",
+            "role": "composition"
+          },
+          {
+            "name": "藤原燈太",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "duel-masters-2019-op-2-song-instrumental",
+            "title": "Gotcha!! (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1801705015",
+            "title": "Gotcha!!",
+            "type": "ep",
+            "date": {
+              "value": "2019-12-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "浦島坂田船",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Gotcha!!",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "Gotcha!! (Instrumental)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-2-song-instrumental"
+              }
+            ],
+            "label": "NBCUniversal Entertainment Japan"
+          }
+        ]
+      },
+      {
+        "type": "OP",
+        "sequence": 3,
+        "id": "duel-masters-2019-op-3",
+        "titleJa": "てっぺんニューデイズ",
+        "artistDisplayName": "祭nine.",
+        "songId": "duel-masters-2019-op-3-song",
+        "sources": [
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C658.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3/ep/40",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "テレビ東京ミュージック1月月表沿用上季兩曲，與逐話記錄及權利方資料有異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1872841529",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1872841531",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=kXvPJmMKsic",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "てっぺんニューデイズ｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1872841531",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1872841529",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C658.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://www.mau2.com/anime/duelmasters-r2-3/ep/40"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C658.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://www.mau2.com/anime/duelmasters-r2-3/ep/40"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C658.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-op-3-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "teci-713"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1872841531"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1872841531"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C658.html",
+              "https://music.apple.com/hk/album/1872841529"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1872841529"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=kXvPJmMKsic",
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kXvPJmMKsic"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV片頭，第40–51話（2020/1/12–3/29，冬季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
+            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "祭nine.",
+            "role": "vocals"
+          },
+          {
+            "name": "YUMIKO",
+            "role": "lyrics"
+          },
+          {
+            "name": "Mr.6thman",
+            "role": "composition"
+          },
+          {
+            "name": "中土智博",
+            "role": "arrangement"
+          }
+        ],
+        "releaseDate": "2020-01-13",
+        "releases": [
+          {
+            "id": "teci-713",
+            "title": "てっぺんニューデイズ",
+            "type": "single",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "artistDisplayName": "祭nine.",
+            "edition": "日本パターンA CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "IMPERIAL RECORDS",
+            "catalogNumber": "TECI-713"
+          },
+          {
+            "id": "apple-hk-1872841529",
+            "title": "てっぺんニューデイズ",
+            "type": "single",
+            "date": {
+              "value": "2020-01-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "祭nine.",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "IMPERIAL RECORDS"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "duel-masters-2019-ed-1",
+        "titleJa": "ココロノキャンバス",
+        "artistDisplayName": "ビリケン",
+        "songId": "duel-masters-2019-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sol-blade.co.jp/billyken/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=FD28ngq7xk8",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5302",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.billboard-japan.com/goods/detail/615239",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sp-m.mu-mo.net/music/4764062/",
+            "label": "日本正版下載商確認電視版本與發行日期",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1458573034",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1458573036",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1519737828",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1519738116",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Kokorono Canvas (TV Version)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1458573036",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1458573034",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "duel-masters-2019-ed-1-song-tv-version"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Kokorono Canvas｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1519738116",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1519737828",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://sol-blade.co.jp/billyken/",
+              "https://www.youtube.com/watch?v=FD28ngq7xk8",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302",
+              "https://www.billboard-japan.com/goods/detail/615239"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://sol-blade.co.jp/billyken/",
+              "https://www.youtube.com/watch?v=FD28ngq7xk8",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302",
+              "https://www.billboard-japan.com/goods/detail/615239"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FD28ngq7xk8"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://sol-blade.co.jp/billyken/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-1-song-tv-version"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://sol-blade.co.jp/billyken/",
+              "https://sp-m.mu-mo.net/music/4764062/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-1-song"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1458573036"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1458573036"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://sol-blade.co.jp/billyken/",
+              "https://music.apple.com/hk/album/1458573034"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1458573034"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1519738116"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1519738116"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://sol-blade.co.jp/billyken/",
+              "https://music.apple.com/hk/album/1519737828"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1519737828"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=FD28ngq7xk8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "FD28ngq7xk8"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [],
+        "usageLabel": "日本原TV片尾，第1–13話（2019/4/7–6/30，春季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "use_quarters"
+            ],
+            "note": "已記錄實際原播話數與時間。",
+            "resumeWhen": "2019春季加入公開索引時補掛用途；取得正版原播音軌可核剪輯及香港可播放性。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "ビリケン",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "duel-masters-2019-ed-1-song-tv-version",
+            "title": "ココロノキャンバス (TV Version)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releaseDate": "2019-04-10",
+        "releases": [
+          {
+            "id": "apple-hk-1458573034",
+            "title": "Kokorono Canvas (TV Version)",
+            "type": "single",
+            "date": {
+              "value": "2019-04-10",
+              "precision": "day"
+            },
+            "artistDisplayName": "ビリケン",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Kokorono Canvas (TV Version)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-1-song-tv-version"
+              }
+            ],
+            "label": "SOL BLADE"
+          },
+          {
+            "id": "apple-hk-1519737828",
+            "title": "Kokorono Canvas",
+            "type": "single",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "ビリケン",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Kokorono Canvas",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "SOL BLADE"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "id": "duel-masters-2019-ed-2",
+        "titleJa": "ハッピーデイズ!!!",
+        "artistDisplayName": "民謡ガールズ",
+        "songId": "duel-masters-2019-ed-2-song",
+        "sources": [
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5302",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.livedoor.com/article/detail/17027991/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302",
+              "https://news.livedoor.com/article/detail/17027991/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_4.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://cal.syoboi.jp/tid/5302",
+              "https://news.livedoor.com/article/detail/17027991/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-7/"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本原TV片尾，第14–26話（2019/7/7–9/29，夏季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "releases",
+              "platform_links"
+            ],
+            "note": "已核日版原播範圍。",
+            "resumeWhen": "取得權利方精確錄音、分集掛字或香港正版店區直連時補核相應欄位。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "民謡ガールズ",
+            "role": "vocals"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "id": "duel-masters-2019-ed-3",
+        "titleJa": "カーテンコールを揺らして",
+        "artistDisplayName": "佐々木李子",
+        "songId": "duel-masters-2019-ed-3-song",
+        "sources": [
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sasakirico.com/news/detail.html?id=576",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "テレビ東京ミュージック1月月表沿用上季兩曲，與逐話記錄及權利方資料有異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6kSN1uxadrc",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.uta-net.com/song/277381/?Aselect=2",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.qobuz.com/jp-ja/album/-/xfi0cxu5eujzo",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://sasakirico.com/discography.html",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/6766825779",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/6766825781",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "カーテンコールを揺らして｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/6766825781",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-6766825779",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://sasakirico.com/news/detail.html?id=576",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://sasakirico.com/news/detail.html?id=576",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.mau2.com/anime/duelmasters-r2-3"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6kSN1uxadrc",
+              "https://www.uta-net.com/song/277381/?Aselect=2",
+              "https://www.qobuz.com/jp-ja/album/-/xfi0cxu5eujzo"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://sasakirico.com/discography.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "ussw-0217"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/6766825781"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/6766825781"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://sasakirico.com/discography.html",
+              "https://music.apple.com/hk/album/6766825779"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-6766825779"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6kSN1uxadrc"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "6kSN1uxadrc"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "日本原TV片尾，第27–39話（2019/10/6–12/29，秋季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "arrangement"
+            ],
+            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
+            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "佐々木李子",
+            "role": "vocals"
+          },
+          {
+            "name": "佐々木李子",
+            "role": "lyrics"
+          },
+          {
+            "name": "日野遥希",
+            "role": "lyrics"
+          },
+          {
+            "name": "日野遥希",
+            "role": "composition"
+          }
+        ],
+        "releases": [
+          {
+            "id": "ussw-0217",
+            "title": "カーテンコールを揺らして",
+            "type": "ep",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "佐々木李子",
+            "edition": "日本藝人盤 CD＋DVD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "カーテンコールを揺らして",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "MAGES.",
+            "catalogNumber": "USSW-0217"
+          },
+          {
+            "id": "apple-hk-6766825779",
+            "title": "カーテンコールを揺らして",
+            "type": "album",
+            "date": {
+              "value": "2019-11-20",
+              "precision": "day"
+            },
+            "artistDisplayName": "佐々木李子",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "カーテンコールを揺らして",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "label": "AniTone Music"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "id": "duel-masters-2019-ed-4",
+        "titleJa": "I'm Your Joker",
+        "artistDisplayName": "IN2IT",
+        "songId": "duel-masters-2019-ed-4-song",
+        "sources": [
+          {
+            "url": "https://linkco.re/Vf6BmYeU?lang=en",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://linkco.re/c0ySBBpF?lang=ja",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://voisjp.me/news/147060/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://voisjp.me/news/141150/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/duelmasters-r2-3/ep/40",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "テレビ東京ミュージック1月月表沿用上季兩曲，與逐話記錄及權利方資料有異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1494119485",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1494119709",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1497875794",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1497875916",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "I'm Your Joker (TV Anime Version)｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1494119709",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1494119485",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "duel-masters-2019-ed-4-song-tv-version"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "I'm Your Joker｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1497875916",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1497875794",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://linkco.re/c0ySBBpF?lang=ja",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://voisjp.me/news/147060/",
+              "https://voisjp.me/news/141150/",
+              "https://www.mau2.com/anime/duelmasters-r2-3/ep/40"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://linkco.re/c0ySBBpF?lang=ja",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
+              "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+              "https://www.mau2.com/anime/duelmasters-r2-3",
+              "https://voisjp.me/news/147060/",
+              "https://voisjp.me/news/141150/",
+              "https://www.mau2.com/anime/duelmasters-r2-3/ep/40"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://linkco.re/c0ySBBpF?lang=ja"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/c0ySBBpF?lang=ja"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-4-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/c0ySBBpF?lang=ja"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "duel-masters-2019-ed-4-song-tv-version"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1494119709"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1494119709"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/c0ySBBpF?lang=ja",
+              "https://music.apple.com/hk/album/1494119485"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1494119485"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1497875916"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1497875916"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://music.apple.com/hk/album/1497875794"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1497875794"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本原TV片尾，第40–51話（2020/1/12–3/29，冬季）。",
+        "lastVerifiedAt": "2026-11-16",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability",
+              "arrangement"
+            ],
+            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
+            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "IN2IT",
+            "role": "vocals"
+          },
+          {
+            "name": "DAISUKE",
+            "role": "lyrics"
+          },
+          {
+            "name": "DAISUKE",
+            "role": "composition"
+          },
+          {
+            "name": "RYUJA",
+            "role": "composition"
+          }
+        ],
+        "releaseDate": "2020-01-25",
+        "recordings": [
+          {
+            "id": "duel-masters-2019-ed-4-song-tv-version",
+            "title": "I'm Your Joker (TV ANIME Ver)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1494119485",
+            "title": "I'm Your Joker (TV Anime Version)",
+            "type": "single",
+            "date": {
+              "value": "2020-01-25",
+              "precision": "day"
+            },
+            "artistDisplayName": "IN2IT",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "I'm Your Joker (TV Anime Version)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-4-song-tv-version"
+              }
+            ],
+            "label": "Diamond Music"
+          },
+          {
+            "id": "apple-hk-1497875794",
+            "title": "I'm Your Joker",
+            "type": "single",
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "artistDisplayName": "IN2IT",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "I'm Your Joker",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "label": "Diamond Music"
+          }
+        ]
+      }
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/dm3/onair/",
+        "label": "テレビ東京原期全國播出時段及作品權利署名",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_6.html",
+        "label": "官網第1話及2019年4月7日首播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
+        "label": "官網第51話及2020年3月29日末話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/21877_201904070830.html",
+        "label": "テレビ東京首話的08:30–09:00 JST播出證據",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/21877_202003290830.html",
+        "label": "テレビ東京末話的08:30–09:00 JST播出證據",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.video.unext.jp/title/SID0044105",
+        "label": "正版串流日本第1話約24分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://acgsecrets.hk/bangumi/201904/",
+        "label": "香港同期動畫資料的繁體系列譯名",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "anilistId": 108852,
+    "anilistUrl": "https://anilist.co/anime/108852/",
+    "id": "curated-108852",
+    "slug": "bakugan-battle-planet",
+    "seasonIds": [
+      "2020-winter",
+      "2019-summer",
+      "2019-fall"
+    ],
+    "startDate": "2019-04-01",
+    "titleJa": "爆丸バトルプラネット",
+    "titleZhHant": "爆丸 星域爭霸",
+    "titleRomaji": "Bakugan: Battle Planet",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "17:55",
+    "broadcastLabel": "日本電視版2019/4/1至2020/3/30於テレビ東京系週一17:55–18:25 JST播出全50話。TMS 放映規格每話25分鐘，正版平台正片約24–25分鐘。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/",
+    "status": "finished",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "sourceReferenceUrls": [
+      "https://www.coms-auth.hk/filemanager/en/content_1276/TVB_Positive_Programmes_2019.pdf",
+      "https://cal.syoboi.jp/tid/5267/subtitle"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+        "label": "動畫製作方的日本初回、末回及全50話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tms-e.co.jp/release/entry-160.html",
+        "label": "TMS 日本原播啟播日期及原節目時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/",
+        "label": "東京電視台第50話3月30日原播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001061755.html",
+        "label": "東京電視台第38話原播時段及片頭、首支片尾",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tms-e.co.jp/screening/pdf/screening_lineup.pdf",
+        "label": "TMS 上映目錄的同版動畫正片25分鐘",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22700006&workId=22700",
+        "label": "日本正版第6話正片24分40秒",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.videomarket.jp/title/187210/Z187210001999H01?epi=3",
+        "label": "日本正版第50話正片24分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1276/TVB_Positive_Programmes_2019.pdf",
+        "label": "香港通訊事務管理局刊登的翡翠台節目報告，原名對應香港正式譯名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q63290161",
+        "label": "作品對應 AniList 108852 的外部識別交叉資料",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "themes": [
+      {
+        "id": "bakugan-battle-planet-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "情熱ジャンボリー",
+        "artistDisplayName": "HiHi Jets",
+        "songId": "bakugan-battle-planet-op-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter",
+          "2019-summer",
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本電視版常規片頭。2019年4月1日啟用，已核2019年夏、秋和2020年冬使用。",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+            "label": "製作方曲目、使用話數及創作者署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5267/subtitle",
+            "label": "日本原版曲名、演唱、用途與分集的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2019/20190307_bakumaru_song.pdf",
+            "label": "TMS 原版片頭及初代片尾製作公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+            "label": "東京電視台音樂欄的演唱和創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "東京電視台音樂部2019年7月片頭與片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "東京電視台音樂部2019年10月片頭與片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "東京電視台音樂部2020年1月片頭與兩首片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001061755.html",
+            "label": "東京電視台第38話原播時段及片頭、首支片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001271755.html",
+            "label": "東京電視台第41話原播時段及片頭、第二支片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://jr-official.starto.jp/s/jr/video/yt146",
+            "label": "STARTO 正式影片頁，標明東京會場演出",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=AsTbulk4JFw",
+            "label": "ジュニアCHANNEL 官方會場演出上架",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "HiHi Jets",
+            "role": "vocals"
+          },
+          {
+            "name": "MiNE",
+            "role": "lyrics"
+          },
+          {
+            "name": "川口進",
+            "role": "composition"
+          },
+          {
+            "name": "MiNE",
+            "role": "composition"
+          },
+          {
+            "name": "Atsushi Shimada",
+            "role": "composition"
+          },
+          {
+            "name": "Atsushi Shimada",
+            "role": "arrangement"
+          },
+          {
+            "name": "Peach",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle",
+              "https://www.tms-e.co.jp/archives/pdf/release/2019/20190307_bakumaru_song.pdf",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://www.ttmnet.co.jp/theme/2020-1/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001061755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001271755.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://jr-official.starto.jp/s/jr/video/yt146",
+              "https://www.youtube.com/watch?v=AsTbulk4JFw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "AsTbulk4JFw"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases",
+              "platform_availability"
+            ],
+            "note": "另有演唱方官方會場演出。日本原播使用錄音、商業音源及香港完整播放待核。",
+            "resumeWhen": "待原播掛字、發行方逐曲音源資料或香港正版曲目；有可辨識音軌再核 TV 剪輯與原錄音。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-battle-planet-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Be my story",
+        "artistDisplayName": "HiHi Jets",
+        "songId": "bakugan-battle-planet-ed-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter",
+          "2019-summer",
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本電視版第1–39話片尾；2020年1月6日第38話節目資料列明此曲，第39話於1月13日播出。",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+            "label": "製作方曲目、使用話數及創作者署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5267/subtitle",
+            "label": "日本原版曲名、演唱、用途與分集的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2019/20190307_bakumaru_song.pdf",
+            "label": "TMS 原版片頭及初代片尾製作公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "東京電視台音樂部2019年7月片頭與片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "東京電視台音樂部2019年10月片頭與片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "東京電視台音樂部2020年1月片頭與兩首片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001061755.html",
+            "label": "東京電視台第38話原播時段及片頭、首支片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/index_2.html",
+            "label": "東京電視台第39話1月13日及第40話1月20日的原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "HiHi Jets",
+            "role": "vocals"
+          },
+          {
+            "name": "中村崇人",
+            "role": "lyrics"
+          },
+          {
+            "name": "中村崇人",
+            "role": "composition"
+          },
+          {
+            "name": "Dr.Dalmatian",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle",
+              "https://www.tms-e.co.jp/archives/pdf/release/2019/20190307_bakumaru_song.pdf",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://www.ttmnet.co.jp/theme/2020-1/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001061755.html",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/index_2.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases",
+              "platform_availability"
+            ],
+            "note": "製作方和同期節目表已確認用途。播出剪輯、商業音源及香港正式曲目待核。",
+            "resumeWhen": "待原播掛字、發行方逐曲音源資料或香港正版曲目；有可辨識音軌再核 TV 剪輯與原錄音。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-battle-planet-ed-2",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "サヨナラの方程式",
+        "artistDisplayName": "HiHi Jets",
+        "songId": "bakugan-battle-planet-ed-2-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本電視版第40–50話片尾；由2020年1月20日第40話起，至3月30日第50話。",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+            "label": "製作方曲目、使用話數及創作者署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5267/subtitle",
+            "label": "日本原版曲名、演唱、用途與分集的交叉資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+            "label": "東京電視台音樂欄的演唱和創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "東京電視台音樂部2020年1月片頭與兩首片尾曲表",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/index_2.html",
+            "label": "東京電視台第39話1月13日及第40話1月20日的原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001271755.html",
+            "label": "東京電視台第41話原播時段及片頭、第二支片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/",
+            "label": "東京電視台第50話3月30日原播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "HiHi Jets",
+            "role": "vocals"
+          },
+          {
+            "name": "miyakei",
+            "role": "lyrics"
+          },
+          {
+            "name": "大智",
+            "role": "composition"
+          },
+          {
+            "name": "児山啓介",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://cal.syoboi.jp/tid/5267/subtitle",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+              "https://www.ttmnet.co.jp/theme/2020-1/",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/index_2.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25352_202001271755.html",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/episodes/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bakugan-battle-planet-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
+              "https://www.tv-tokyo.co.jp/anime/bakugan-bp/staff/",
+              "https://cal.syoboi.jp/tid/5267/subtitle"
+            ],
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "releases",
+              "platform_availability",
+              "arrangement"
+            ],
+            "note": "製作方列出作詞、作曲及演唱。編曲、播出剪輯、商業音源和香港正式曲目待核。",
+            "resumeWhen": "待原播掛字、發行方逐曲音源資料或香港正版曲目；有可辨識音軌再核 TV 剪輯與原錄音。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2020WinterSeeds: CuratedCatalogAnimeSeed[] =
   curated2020WinterSeedRows;
 
-export const curated2020WinterAnimeIds = [113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701,-2020011401];
+export const curated2020WinterAnimeIds = [113242,113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701,-2020011401];
