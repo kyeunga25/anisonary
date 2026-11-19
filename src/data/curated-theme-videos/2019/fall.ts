@@ -1,6 +1,264 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2019FallThemeVideos = {
+    "97634:OP:4": [
+      {
+        "youtubeVideoId": "h_5xLI7Srrc",
+        "title": "Kimi no Bouken",
+        "channelName": "okazakitaiiku Official Channel",
+        "type": "art_track",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown",
+        "recordingId": "pokemon-kimi-no-bouken-sun-moon-commercial"
+      }
+    ],
+    "97634:OP:5": [
+      {
+        "youtubeVideoId": "LEZCmwCdn2w",
+        "title": "Pokémon the Series: Sun & Moon—Ultra Legends: Opening Theme",
+        "channelName": "The Official Pokémon YouTube channel",
+        "type": "other",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown",
+        "recordingId": "pokemon-the-challenge-of-life-en-tv-vocal"
+      }
+    ],
+    "-2019121401:OP:2": [
+      {
+        "youtubeVideoId": "JoRoz-PmXGQ",
+        "title": "Elena of Avalor (Main Title)",
+        "channelName": "Gaby Moreno",
+        "type": "art_track",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown",
+        "recordingId": "elena-of-avalor-main-title-en-gaby-moreno",
+        "releaseId": "elena-of-avalor-original-soundtrack-en-20170210"
+      }
+    ],
+    "-2019121401:IN:5": [
+      {
+        "youtubeVideoId": "yYekg778bLg",
+        "title": "Something in the Air | Music Video",
+        "channelName": "Disney Jr.",
+        "type": "music_video",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown"
+      }
+    ],
+    "-2019121401:IN:4": [
+      {
+        "youtubeVideoId": "SoJfBRy9Pdc",
+        "title": "On Hanukkah | Music Video",
+        "channelName": "Disney Jr.",
+        "type": "music_video",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown"
+      }
+    ],
+    "-2019121401:IN:6": [
+      {
+        "youtubeVideoId": "BkEHK6hyKkQ",
+        "title": "Sweetheart's Day | Music Video",
+        "channelName": "Disney Jr.",
+        "type": "music_video",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown"
+      }
+    ],
+    "-2019100701:OP:1": [
+      {
+        "youtubeVideoId": "sgN1qpiFzA0",
+        "title": "Tangled: The Series | Theme Song",
+        "channelName": "Disney Channel UK",
+        "type": "other",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown"
+      }
+    ],
+    "-2019100701:ED:1": [
+      {
+        "youtubeVideoId": "Jbj_FBO-yDg",
+        "title": "More of Me (From \"Tangled: Before Ever After\")",
+        "channelName": "Natasha Bedingfield",
+        "type": "art_track",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown",
+        "recordingId": "tangled-more-of-me-single-recording",
+        "releaseId": "tangled-more-of-me-single-20170324"
+      }
+    ],
+    "-2019100701:IN:7": [
+      {
+        "youtubeVideoId": "hkZEpNsw6zA",
+        "title": "Nothing Left to Lose | Music Video",
+        "channelName": "Disney Channel Animation",
+        "type": "music_video",
+        "officialStatus": "official",
+        "embeddable": false,
+        "embedAvailability": "unknown"
+      }
+    ],
+  "-2019121401:OP:1": [
+    {
+      youtubeVideoId: "SefGhWZ320s",
+      title: "【MUSIC】｢アバローのプリンセス エレナ」_オープニング",
+      channelName: "ディズニー公式",
+      type: "other",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+    },
+  ],
+  "110810:ED:1": [
+    {
+      "youtubeVideoId": "CFVKTg_ZUt4",
+      "title": "田所あずさ / RIVALS -Music Video-",
+      "channelName": "Lantis Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "Bo5slxKNXDU",
+      "title": "田所あずさ / RIVALS - 試聴動画",
+      "channelName": "Lantis Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "110786:OP:1": [
+    {
+      "youtubeVideoId": "nLS4CEAzKqg",
+      "title": "スピラ・スピカ MV 『リライズ』",
+      "channelName": "スピラ・スピカ Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "X2hMZ5mIlbk",
+      "title": "Rerise｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+    },
+    {
+      "youtubeVideoId": "LNLehMSKIu0",
+      "title": "Rerise (TV Version)｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+    }
+  ],
+  "110786:ED:2": [
+    {
+      "youtubeVideoId": "nLS4CEAzKqg",
+      "title": "スピラ・スピカ MV 『リライズ』",
+      "channelName": "スピラ・スピカ Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "X2hMZ5mIlbk",
+      "title": "Rerise｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+    },
+    {
+      "youtubeVideoId": "LNLehMSKIu0",
+      "title": "Rerise (TV Version)｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+    }
+  ],
+  "107346:OP:1": [
+    {
+      "youtubeVideoId": "_wle2YxKAp8",
+      "title": "Stay With Me｜官方MV",
+      "channelName": "Seven Billion Dots",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "5PwcElkIlYw",
+      "title": "Stay With Me｜2020/2/23 Dots Fes Vol.2 官方演出",
+      "channelName": "Seven Billion Dots",
+      "type": "live",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "Oz8j879kJzo",
+      "title": "Stay With Me｜製作方無字幕片頭",
+      "channelName": "アニプレックス チャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "hK8YHJI1luc",
+      "title": "Stay With Me (TV Size)｜Sony Music Art Track",
+      "channelName": "Seven Billion Dots - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "granblue-fantasy-the-animation-season-2-op-1-song-tv-size"
+    }
+  ],
+  "107346:ED:1": [
+    {
+      "youtubeVideoId": "ewoC5O7os4A",
+      "title": "蒼｜製作方無字幕片尾",
+      "channelName": "アニプレックス チャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "tzQtssisqro",
+      "title": "蒼｜官方音源影片",
+      "channelName": "adieu - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "granblue-fantasy-the-animation-season-2-ed-1-song-mini-album"
+    }
+  ],
   "110788:ED:3": [
     {
       "youtubeVideoId": "XXtkb-uhRbc",
@@ -515,6 +773,15 @@ export const curated2019FallThemeVideos = {
       "title": "Hero too｜TOHO 文化祭舞台特別 MV",
       "channelName": "TOHO animation チャンネル",
       "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "vaV-dSslhpY",
+      "title": "Hero Too Performance｜授權表演片段",
+      "channelName": "Crunchyroll",
+      "type": "other",
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
@@ -1345,4 +1612,475 @@ export const curated2019FallThemeVideos = {
   ],
   "110788:OP:1": [{"youtubeVideoId":"uZm6X60vttk","title":"Ivy to Fraudulent Game ”blue blue blue” MUSIC VIDEO","type":"music_video","channelName":"Ivy to Fraudulent Game","officialStatus":"official","embeddable":false}],
   "110788:OP:2": [{"youtubeVideoId":"5dv7cnisrB8","title":"MAGIC OF LiFE - 『Player』OFFICIAL MUSIC VIDEO(テレビ東京系TVアニメ\"ゾイドワイルドZERO\"オープニング主題歌)","type":"music_video","channelName":"MAGIC OF LiFE official","officialStatus":"official","embeddable":false}],
+  "-2019071501:OP:1": [
+    {
+      "youtubeVideoId": "Kd3qammj7LY",
+      "title": "Molly of Denali Theme Song｜PBS KIDS官方影片",
+      "type": "other",
+      "channelName": "PBS KIDS",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019071501:IN:1": [
+    {
+      "youtubeVideoId": "mngL6WnTxFw",
+      "title": "Molly of Denali | The Seal Dance!｜PBS KIDS官方節目片段",
+      "type": "other",
+      "channelName": "PBS KIDS",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019101401:OP:1": [
+    {
+      "youtubeVideoId": "XbJ32r9JCsA",
+      "title": "The Casagrandes Theme Song + Ally Brooke BTS｜Nickelodeon",
+      "type": "other",
+      "channelName": "Nickelodeon",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "NEGl6IN0_7o",
+      "title": "The Casagrandes OFFICIAL Extended Theme Song｜Nickelodeon",
+      "type": "other",
+      "channelName": "Nickelodeon",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "Ry047SBM2d4",
+      "title": "The Casagrandes Theme Song｜UMG 正式音源",
+      "type": "art_track",
+      "channelName": "The Casagrandes - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "the-casagrandes-main-theme-extended"
+    }
+  ],
+  "-2019110801:OP:1": [
+    {
+      "youtubeVideoId": "1j-npGlhYAA",
+      "title": "Theme Song｜Disney Jr. 官方影片",
+      "type": "other",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "020XBNAqbIY",
+      "title": "The Rocketeer Main Title｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - The Rocketeer - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "the-rocketeer-the-rocketeer-main-title-soundtrack"
+    }
+  ],
+  "-2019110801:IN:1": [
+    {
+      "youtubeVideoId": "lxQVsk_EsFw",
+      "title": "Heart of a Hero｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110801:IN:2": [
+    {
+      "youtubeVideoId": "XI0RnEJpWjw",
+      "title": "Suit-Up Sequence｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - The Rocketeer - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "the-rocketeer-suit-up-sequence-soundtrack"
+    }
+  ],
+  "-2019110801:IN:3": [
+    {
+      "youtubeVideoId": "pYNa1m9lqyk",
+      "title": "Side by Side｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110801:IN:4": [
+    {
+      "youtubeVideoId": "rAHYJnMIxco",
+      "title": "Fast｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110801:IN:7": [
+    {
+      "youtubeVideoId": "GCyOtXdAcHU",
+      "title": "Share the Open Air｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110801:IN:8": [
+    {
+      "youtubeVideoId": "V6MparWkFwU",
+      "title": "Valerie the Valkyrie｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "iaclFvw5OZU",
+      "title": "Valkyrie Theme Song｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - The Rocketeer - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "the-rocketeer-valkyrie-theme-song-soundtrack"
+    }
+  ],
+  "-2019110801:IN:9": [
+    {
+      "youtubeVideoId": "K5PRZBTn2CM",
+      "title": "Enjoy Your Meal｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - The Rocketeer - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "the-rocketeer-enjoy-your-meal-soundtrack"
+    }
+  ],
+  "-2019110801:IN:10": [
+    {
+      "youtubeVideoId": "yNbj07serzI",
+      "title": "A Beautiful View｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110802:OP:1": [
+    {
+      "youtubeVideoId": "FXW8LxZ_H5w",
+      "title": "Puppy Dog Pals Theme Song｜Disney Jr. 官方片頭曲影片",
+      "type": "other",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "aAsVwDv6OBs",
+      "title": "Puppy Dog Pals Main Title Theme｜Walt Disney Records 原聲",
+      "type": "art_track",
+      "channelName": "Cast - Puppy Dog Pals - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "puppy-dog-pals-main-title-soundtrack"
+    }
+  ],
+  "-2019110802:IN:1": [
+    {
+      "youtubeVideoId": "5oq8sgkZTzg",
+      "title": "Going on a Mission｜Disney Jr. 官方MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "4U5uslyCbf8",
+      "title": "Going on a Mission｜Walt Disney Records 合輯音源",
+      "type": "art_track",
+      "channelName": "Puppy Dog Pals - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110802:IN:5": [
+    {
+      "youtubeVideoId": "9B61oq9lpzw",
+      "title": "With Friends Like These｜Disney Jr. 官方MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "9ZLeSYb7h5A",
+      "title": "Friends Like These｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - Puppy Dog Pals - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "puppy-dog-pals-friends-like-these-soundtrack"
+    }
+  ],
+  "-2019110802:IN:7": [
+    {
+      "youtubeVideoId": "9Y-RxpRTTbQ",
+      "title": "Valentine's Day in Venice｜Disney Jr. 官方MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "FwV1ZP3u7yU",
+      "title": "Valentine’s Day in Venice｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - Puppy Dog Pals - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "puppy-dog-pals-valentines-day-in-venice-soundtrack"
+    }
+  ],
+  "-2019110802:IN:14": [
+    {
+      "youtubeVideoId": "NZVgH-HXTNo",
+      "title": "Looking For Cody｜Disney Jr. 官方MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019110802:IN:16": [
+    {
+      "youtubeVideoId": "4SEi2yffxLw",
+      "title": "The Puppy Flamenco｜Disney Jr. 官方MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "NQlKPmJdYMc",
+      "title": "The Puppy Flamenco｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Cast - Puppy Dog Pals - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "puppy-dog-pals-the-puppy-flamenco-soundtrack"
+    }
+  ],
+  "-2019100401:OP:1": [
+    {
+      "youtubeVideoId": "0QA_CuC-r-Q",
+      "title": "Add a Little Fancy (Fancy Nancy Main Title)｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-add-a-little-fancy-main-title-original-soundtrack"
+    }
+  ],
+  "-2019100401:IN:1": [
+    {
+      "youtubeVideoId": "fEsn5YSJC3c",
+      "title": "The Nancy Way｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-the-nancy-way-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:3": [
+    {
+      "youtubeVideoId": "Wt7f74SzK1Y",
+      "title": "I've Got Two Sides｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-ive-got-two-sides-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:4": [
+    {
+      "youtubeVideoId": "FsVleV-loeY",
+      "title": "We’ve Got Rapport｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-weve-got-rapport-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:7": [
+    {
+      "youtubeVideoId": "l6Fq4yZPQzI",
+      "title": "Dazzle Girl and Dragonfly｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-dazzle-girl-and-dragonfly-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:11": [
+    {
+      "youtubeVideoId": "Q8g3au1lE3Q",
+      "title": "The Love You Left Behind｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-the-love-you-left-behind-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:12": [
+    {
+      "youtubeVideoId": "BlORYIXcsRk",
+      "title": "A Cup of Tea｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-a-cup-of-tea-vol-2-soundtrack"
+    }
+  ],
+  "-2019100401:IN:18": [
+    {
+      "youtubeVideoId": "NIjkHzpssns",
+      "title": "If I Were My Doll｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Fancy Nancy - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "fancy-nancy-if-i-were-my-doll-vol-2-soundtrack"
+    }
+  ],
+  "-2019101402:OP:1": [
+    {
+      "youtubeVideoId": "AR62dj6m4K0",
+      "title": "Mickey Mouse Mixed-Up Adventures Main Title (From \"Mickey Mouse Mixed-Up Adventures\")｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "Beau Black - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mickey-mixed-up-main-title-walt-disney-records-2019"
+    },
+    {
+      "youtubeVideoId": "rb3Nm5wlcvo",
+      "title": "Mickey Mouse Mixed-Up Adventures Theme Song｜Disney Jr.",
+      "type": "other",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019101402:IN:1": [
+    {
+      "youtubeVideoId": "aSbsL6qDHyI",
+      "title": "Hot Dog! Dance Break 2019 (From \"Mickey Mouse Mixed-Up Adventures\")｜Walt Disney Records",
+      "type": "art_track",
+      "channelName": "ParticleMen",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mickey-hot-dog-dance-break-walt-disney-records-2019"
+    },
+    {
+      "youtubeVideoId": "wNu_oyXcjMQ",
+      "title": "Hot Dog Dance｜Disney Jr.",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019101402:IN:3": [
+    {
+      "youtubeVideoId": "ZwK_qPzfBnk",
+      "title": "Giddy Up, Penelope｜Disney Jr.",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019101402:IN:8": [
+    {
+      "youtubeVideoId": "TbsZCOhhzrE",
+      "title": "Farmin' is Charmin'｜Disney Jr.",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019101402:IN:21": [
+    {
+      "youtubeVideoId": "qJT3NrhOhDI",
+      "title": "Crooner Mickey｜Bow Be Mine｜Disney Jr.",
+      "type": "other",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2019120701:OP:2": [
+    {
+      "youtubeVideoId": "ZrtrXxZWw-Q",
+      "title": "Kingdom Force｜Raggi Fotonici 義大利語完整版",
+      "type": "lyric_video",
+      "channelName": "Raggi Fotonici",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kingdom-force-title-theme-italian-full"
+    }
+  ]
 } satisfies CuratedThemeVideoOverrideMap;

@@ -1,6 +1,95 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "114233:ED:3": [
+    {
+      "youtubeVideoId": "nLS4CEAzKqg",
+      "title": "スピラ・スピカ MV 『リライズ』",
+      "channelName": "スピラ・スピカ Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "X2hMZ5mIlbk",
+      "title": "Rerise｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+    },
+    {
+      "youtubeVideoId": "LNLehMSKIu0",
+      "title": "Rerise (TV Version)｜Sony 官方 Art Track",
+      "channelName": "spira spica - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+    }
+  ],
+  "97938:ED:11": [
+    {
+      "youtubeVideoId": "H4cChTyU75U",
+      "title": "Wish on｜Sony Music先行音源影片",
+      "channelName": "LONGMAN - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "W0Xfg1xvP2I",
+      "title": "Wish on｜LONGMAN官方 MV",
+      "channelName": "LONGMAN",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "6tjEIRw7mt8",
+      "title": "Wish on｜東京電視台片尾影像",
+      "channelName": "テレ東アニメ",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "97938:ED:12": [
+    {
+      "youtubeVideoId": "ZHjgI-3kCH8",
+      "title": "Fireworks｜Anime Ver. 先行歌詞影片",
+      "channelName": "FlowBack Official YouTube Channel",
+      "type": "lyric_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "gZpiqDwlc6A",
+      "title": "Fireworks｜官方 MV",
+      "channelName": "FlowBack Official YouTube Channel",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "biqu8J5Vwq4",
+      "title": "Fireworks｜官方表演影片",
+      "channelName": "FlowBack Official YouTube Channel",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "117096:ED:2": [
     {
       "youtubeVideoId": "lws7WM_va2g",

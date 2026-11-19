@@ -1,6 +1,36 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2026SpringThemeVideos = {
+  "21:OP:22": [
+    {
+      "youtubeVideoId": "ewPsNiklKcY",
+      "title": "OVER THE TOP｜和之國篇官方片頭影像",
+      "channelName": "ONE PIECE公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "b5pDLX5DIgo",
+      "title": "OVER THE TOP｜和之國篇官方電視宣傳",
+      "channelName": "ONE PIECE公式YouTubeチャンネル",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "BuTz_PPMFj0",
+      "title": "OVER THE TOP｜官方單曲音源影片",
+      "channelName": "Hiroshi Kitadani - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "one-piece-op-22-song-single-vocal"
+    }
+  ],
   "966:ED:1": [
     {
       "youtubeVideoId": "TSQx9lyMnug",

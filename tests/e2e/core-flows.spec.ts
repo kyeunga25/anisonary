@@ -257,7 +257,10 @@ test("song library and local search combine quarters, sorting, multilingual inpu
   await page.setViewportSize({ width: 1536, height: 1024 });
   await page.screenshot({ path: testInfo.outputPath("recording-release-desktop.png") });
 
-  const videoAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) => theme.videos.some((video) => video.embedAvailability === "unknown")))!;
+  const videoAnime = curatedAnimeDetails.find((anime) => anime.themes.some((theme) =>
+    theme.videos.some((video) => video.embedAvailability === "unknown" &&
+      (video.type === "music_video" || video.type === "full_music_video"))
+  ))!;
   await page.goto(`/anime/${videoAnime.slug}/`);
   await expect(page.locator("iframe")).toHaveCount(0);
   await expect(page.locator(".youtube-media__fallback-caption")).toHaveCount(videoAnime.themes.flatMap((theme) => theme.videos).filter((video) => !video.embeddable).length);

@@ -1,3 +1,6 @@
+import { curated2018FallThemeVideos } from "@/data/curated-theme-videos/2018/fall";
+import { curated2019WinterThemeVideos } from "@/data/curated-theme-videos/2019/winter";
+import { curated2019SpringThemeVideos } from "@/data/curated-theme-videos/2019/spring";
 import { curated2018SpringThemeVideos } from "@/data/curated-theme-videos/2018/spring";
 import { curatedSeasonRegistry } from "@/data/curated-season-registry";
 import { curatedAnimeKey } from "@/data/curated-seeds/types";
@@ -181,6 +184,9 @@ export const curatedThemeVideoRegistry = validateCuratedThemeVideoRegistry([
   { seasonId: "2020-winter", overrides: curated2020WinterThemeVideos },
   { seasonId: "2019-fall", overrides: curated2019FallThemeVideos },
   { seasonId: "2019-summer", overrides: curated2019SummerThemeVideos },
+  { seasonId: "2019-spring", overrides: curated2019SpringThemeVideos },
+  { seasonId: "2019-winter", overrides: curated2019WinterThemeVideos },
+  { seasonId: "2018-fall", overrides: curated2018FallThemeVideos },
   { seasonId: "2018-spring", overrides: curated2018SpringThemeVideos },
 ] as const);
 

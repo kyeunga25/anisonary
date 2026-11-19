@@ -1,6 +1,9 @@
+import { curated2018FallSeeds } from "@/data/curated-seeds/2018/fall";
 import { curated2018SpringSeeds } from "@/data/curated-seeds/2018/spring";
 import { curated2026FallSeeds } from "@/data/curated-seeds/2026/fall";
 import { curated2019FallSeeds } from "@/data/curated-seeds/2019/fall";
+import { curated2019WinterSeeds } from "@/data/curated-seeds/2019/winter";
+import { curated2019SpringSeeds } from "@/data/curated-seeds/2019/spring";
 import { curated2019SummerSeeds } from "@/data/curated-seeds/2019/summer";
 import { curated2020FallSeeds } from "@/data/curated-seeds/2020/fall";
 import { curated2020SpringSeeds } from "@/data/curated-seeds/2020/spring";
@@ -74,5 +77,8 @@ export const curatedAnimeSeeds: CuratedCatalogAnimeSeed[] = [
   ...curated2020WinterSeeds,
   ...curated2019FallSeeds,
   ...curated2019SummerSeeds,
+  ...curated2019SpringSeeds,
+  ...curated2019WinterSeeds,
+  ...curated2018FallSeeds,
   ...curated2018SpringSeeds
 ];

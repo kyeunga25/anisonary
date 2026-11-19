@@ -1,6 +1,412 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "-2020011001:OP:1": [
+    {
+      youtubeVideoId: "BqE6KiijtH0",
+      title: "The Owl House | Theme Song",
+      channelName: "Disney Channel Animation",
+      type: "other",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+      recordingId: "the-owl-house-main-title-season-1",
+    },
+  ],
+  "-2020011001:ED:1": [
+    {
+      youtubeVideoId: "z8Gyrlj4IPg",
+      title: "End Credits | Sneak Peek | The Owl House",
+      channelName: "Disney Channel Animation",
+      type: "other",
+      officialStatus: "official",
+      embeddable: false,
+      embedAvailability: "unknown",
+      recordingId: "the-owl-house-end-credit-theme-season-1",
+    },
+  ],
+  "113242:ED:4": [
+    {
+      "youtubeVideoId": "ZhlOIlg7iJg",
+      "title": "I'm Your Joker｜官方原曲音源影片",
+      "channelName": "IN2IT - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "duel-masters-2019-ed-4-song-commercial-vocal"
+    },
+    {
+      "youtubeVideoId": "z4jWDeaDFJE",
+      "title": "I'm Your Joker｜官方TV ANIME Ver.音源影片",
+      "channelName": "IN2IT - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "duel-masters-2019-ed-4-song-tv-version"
+    }
+  ],
+  "-201723701:OP:10": [
+    {
+      "youtubeVideoId": "uHsy2egKjlU",
+      "title": "Black Catcher｜官方單曲音源影片",
+      "channelName": "VK Blanka - ビッケブランカ",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "hP6VM6YAMIE",
+      "title": "Black Catcher｜官方 MV",
+      "channelName": "VK Blanka - ビッケブランカ",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "akHMQOgGrd8",
+      "title": "Black Catcher｜官方動畫畫面版 MV",
+      "channelName": "VK Blanka - ビッケブランカ",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-201723701:ED:10": [
+    {
+      "youtubeVideoId": "uy32xz1cr8Y",
+      "title": "New Page｜官方單曲音源影片",
+      "channelName": "INTERSECTION - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "65_exPZjAKg",
+      "title": "New Page｜授權片尾影像",
+      "channelName": "Crunchyroll",
+      "type": "other",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113470:OP:2": [
+    {
+      "youtubeVideoId": "XmAlcgWmEuw",
+      "title": "ヒロメネス｜官方片頭公開影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113470:ED:1": [
+    {
+      "youtubeVideoId": "68zMZv61zxA",
+      "title": "キミのラプソディー｜官方片尾公開影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "8ZD7iGhMFyk",
+      "title": "キミのラプソディー〈TV edit〉｜原聲帶 Art Track",
+      "channelName": "Mashumairesh!! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "show-by-rock-mashumairesh-ed-1-song-ost-tv-edit",
+      "releaseId": "pccg-01881"
+    }
+  ],
+  "113470:IN:1": [
+    {
+      "youtubeVideoId": "K68jLakrGbc",
+      "title": "まっしろスタートライン｜單曲版 Art Track",
+      "channelName": "Mashumairesh!! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "show-by-rock-mashumairesh-op-1-song-single-full",
+      "releaseId": "pccg-01855"
+    },
+    {
+      "youtubeVideoId": "tdfTRV2HRSY",
+      "title": "まっしろスタートライン〈TV edit〉｜原聲帶 Art Track",
+      "channelName": "Mashumairesh!! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "show-by-rock-mashumairesh-op-1-song-ost-tv-edit",
+      "releaseId": "pccg-01881"
+    }
+  ],
+  "113470:IN:2": [
+    {
+      "youtubeVideoId": "a3_BvA3oXLY",
+      "title": "エールアンドレスポンス｜官方單曲試聽影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113470:IN:4": [
+    {
+      "youtubeVideoId": "3bE11Uz3Oa4",
+      "title": "No problem!!〈TV edit〉｜原聲帶 Art Track",
+      "channelName": "Mashumairesh!! - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "show-by-rock-mashumairesh-in-4-song-ost-tv-edit",
+      "releaseId": "pccg-01881"
+    }
+  ],
+  "113470:IN:3": [
+    {
+      "youtubeVideoId": "ExajPOh2T1k",
+      "title": "移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113470:IN:7": [
+    {
+      "youtubeVideoId": "ExajPOh2T1k",
+      "title": "移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "113470:IN:5": [
+    {
+      "youtubeVideoId": "uVCikMLTRFc",
+      "title": "Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "oS9Y1d__vNU",
+      "title": "Parallelism Crown｜單曲版 Art Track",
+      "channelName": "REIJINGSIGNAL - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "show-by-rock-mashumairesh-in-5-song-single-full",
+      "releaseId": "pccg-01867"
+    }
+  ],
+  "113470:IN:6": [
+    {
+      "youtubeVideoId": "uVCikMLTRFc",
+      "title": "Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+      "channelName": "SHOW BY ROCK!!公式チャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:IN:1": [
+    {
+      "youtubeVideoId": "U2csp35Y_aA",
+      "title": "【スター☆トゥインクルプリキュア】キュアスター へんしんシーン",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:ED:4": [
+    {
+      "youtubeVideoId": "3EYvyCfujkw",
+      "title": "『映画スター☆トゥインクルプリキュア　星のうたに想いをこめて』３ＤＣＧのダンス ＴＶ特別Ｖｅｒが解禁！",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:ED:3": [
+    {
+      "youtubeVideoId": "GHuCkPSaD7w",
+      "title": "「スター☆トゥインクルプリキュア」後期エンディング主題歌「教えて...！トゥインクル☆」(ノンテロップver)",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:ED:2": [
+    {
+      "youtubeVideoId": "jYZ3Qy26Omc",
+      "title": "『映画プリキュアミラクルユニバース』３ＤＣＧエンディングダンス　ＴＶ特別Ｖｅｒ①",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "other",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:ED:1": [
+    {
+      "youtubeVideoId": "aJBIMmAjei8",
+      "title": "「スター☆トゥインクルプリキュア」前期エンディング主題歌「パぺピプ☆ロマンチック」(ノンテロップver)",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "creditless_ed",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105857:OP:1": [
+    {
+      "youtubeVideoId": "orXl9RXE_k4",
+      "title": "「スター☆トゥインクルプリキュア」オープニング主題歌「キラリ☆彡スター☆トゥインクルプリキュア」(ノンテロップver)",
+      "channelName": "プリキュア公式YouTubeチャンネル",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:OP:1": [
+    {
+      "youtubeVideoId": "J_OxuDSZ4ng",
+      "title": "TVアニメ『ダイヤのA actⅡ』OP①「はじまりのうた」｜GLAY",
+      "channelName": "TVアニメ「ダイヤのA」シリーズ",
+      "type": "creditless_op",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:OP:2": [
+    {
+      "youtubeVideoId": "DMu8CJFnEhQ",
+      "title": "流星のHowl",
+      "channelName": "GLAY - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:ED:1": [
+    {
+      "youtubeVideoId": "WS5oYfMlAR0",
+      "title": "OxT「ゴールデンアフタースクール」 Official Video",
+      "channelName": "ponycanyon",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:ED:2": [
+    {
+      "youtubeVideoId": "OgLAGtlVBho",
+      "title": "内田真礼「鼓動エスカレーション」Music Video Full",
+      "channelName": "内田真礼（UCHIDA MAAYA）Official Channel",
+      "type": "full_music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:ED:3": [
+    {
+      "youtubeVideoId": "pSSRelU-X_A",
+      "title": "三森すずこ「チャンス！」MV short ver.（9thシングル）",
+      "channelName": "ぽにきゃん-Anime PONY CANYON",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "105749:ED:4": [
+    {
+      "youtubeVideoId": "lfEObTYv0iw",
+      "title": "OxT - Everlasting Dream［Official Video］",
+      "channelName": "ponycanyon",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108734:ED:1": [
+    {
+      "youtubeVideoId": "X0mERWlHhOg",
+      "title": "わさわさわさ！ (アニメエンディングver.)",
+      "channelName": "Excellency Demon - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kedama-no-gonjirou-ed-1-song-tv-edit"
+    },
+    {
+      "youtubeVideoId": "GrWK6BJwziI",
+      "title": "TVアニメ『けだまのゴンじろー』ノンクレジットED / デーモン閣下「わさわさわさ！」",
+      "channelName": "Tomoki Misato",
+      "type": "creditless_ed",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "108734:OP:1": [
+    {
+      "youtubeVideoId": "GTxQ6L_LCXg",
+      "title": "レッツ！ゴンじろー（アニメオープニングver.）",
+      "channelName": "CHAI - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kedama-no-gonjirou-op-1-song-tv-edit"
+    },
+    {
+      "youtubeVideoId": "A2dhine_RSs",
+      "title": "レッツ！ゴンじろー",
+      "channelName": "CHAI - Topic",
+      "type": "art_track",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "kedama-no-gonjirou-op-1-song-full"
+    }
+  ],
   "108852:OP:1": [
     {
       "youtubeVideoId": "AsTbulk4JFw",
@@ -874,6 +1280,24 @@ export const curated2020WinterThemeVideos = {
       "title": "LAST DANCE｜官方 MV",
       "channelName": "宮野真守",
       "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "3NeWz6Wklrg",
+      "title": "LAST DANCE｜官方中文字幕版 MV",
+      "channelName": "宮野真守",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "4eU71XJzh1A",
+      "title": "LAST DANCE｜官方音源影片",
+      "channelName": "Mamoru Miyano - Topic",
+      "type": "art_track",
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
@@ -2261,4 +2685,303 @@ export const curated2020WinterThemeVideos = {
       "embedAvailability": "unknown"
     }
   ],
+  "116415:ED:2": [
+    {
+      "youtubeVideoId": "Tpxft3d-c5M",
+      "title": "Higher and Higher｜上月せれな官方短版 MV",
+      "channelName": "上月せれな（せれちゅ）",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020011801:OP:1": [
+    {
+      "youtubeVideoId": "L29MNlW6yAA",
+      "title": "It's Pony Theme Song｜Nicktoons 原片頭",
+      "type": "other",
+      "channelName": "Nicktoons",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "its-pony-opening-theme-tv"
+    },
+    {
+      "youtubeVideoId": "IC2NRLIHTag",
+      "title": "It's Pony Theme｜UMG 單曲音源",
+      "type": "art_track",
+      "channelName": "It's Pony - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "its-pony-opening-theme-commercial"
+    },
+    {
+      "youtubeVideoId": "AwtuMjin0P4",
+      "title": "It's Pony Theme｜UMG 首季精選音源",
+      "type": "art_track",
+      "channelName": "It's Pony - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "its-pony-opening-theme-commercial"
+    }
+  ],
+  "-2020012001:OP:1": [
+    {
+      "youtubeVideoId": "88iW9GBBVhs",
+      "title": "Paddington Bear｜Gary Barlow 正式完整版",
+      "type": "other",
+      "channelName": "Gary Barlow Official",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "paddington-bear-gary-barlow-full"
+    },
+    {
+      "youtubeVideoId": "LgHi_BQqvsI",
+      "title": "Paddington Bear｜UMG 正式原版音源",
+      "type": "art_track",
+      "channelName": "Gary Barlow Official",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "paddington-bear-gary-barlow-full"
+    }
+  ],
+  "-2020012001:IN:1": [
+    {
+      "youtubeVideoId": "jSBtRjgIbZc",
+      "title": "Paddington Joins a Band｜Nick Jr. 官方節目片段",
+      "type": "other",
+      "channelName": "Nick Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:OP:1": [
+    {
+      "youtubeVideoId": "G4UaZJyqVT4",
+      "title": "Mira, Royal Detective (Theme Song)｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Mira, Royal Detective - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mira-royal-detective-main-theme-soundtrack"
+    }
+  ],
+  "-2020032002:IN:1": [
+    {
+      "youtubeVideoId": "Y5qEGr33wHw",
+      "title": "We're on the Case｜Walt Disney Records 正式音源",
+      "type": "art_track",
+      "channelName": "Mira, Royal Detective - Cast - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "mira-royal-detective-were-on-the-case-soundtrack"
+    },
+    {
+      "youtubeVideoId": "tkQKGpj9Eh4",
+      "title": "We're on the Case｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:2": [
+    {
+      "youtubeVideoId": "6N3Jy4Yd3rE",
+      "title": "The Case of the Royal Scarf｜Disney Jr. 官方分集",
+      "type": "other",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:3": [
+    {
+      "youtubeVideoId": "HN0dGyv1_74",
+      "title": "The Puppet Trail｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:4": [
+    {
+      "youtubeVideoId": "iD80iaHbVEU",
+      "title": "Be the Music｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:6": [
+    {
+      "youtubeVideoId": "Uh3rTIl3-Do",
+      "title": "Play Us Your Song｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:7": [
+    {
+      "youtubeVideoId": "Tsg_Q4AbqRI",
+      "title": "Who Could It Be?｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:8": [
+    {
+      "youtubeVideoId": "yPoa-ISevoE",
+      "title": "The Boy We're Looking For｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:9": [
+    {
+      "youtubeVideoId": "gMRXG_b1cNU",
+      "title": "Happy Birthday Veer｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:10": [
+    {
+      "youtubeVideoId": "zw_Q2Mj7zwE",
+      "title": "We're So Glad You're Home｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:11": [
+    {
+      "youtubeVideoId": "6pZ_TWQmfmw",
+      "title": "When We’re Detectives｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:12": [
+    {
+      "youtubeVideoId": "dCcKZioIG_8",
+      "title": "The Tiffin Song｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:14": [
+    {
+      "youtubeVideoId": "rIYkcl-hyw0",
+      "title": "Rakhi｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020032002:IN:17": [
+    {
+      "youtubeVideoId": "l53N612meiY",
+      "title": "Diwali｜Disney Jr. 官方 MV",
+      "type": "music_video",
+      "channelName": "Disney Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020011202:OP:1": [
+    {
+      "youtubeVideoId": "jBdAt6MxhJo",
+      "title": "Butterbean’s Café Theme Song｜Viacom 原聲EP",
+      "type": "art_track",
+      "channelName": "Butterbean's Cafe - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "butterbeans-cafe-main-theme-ep-opening"
+    }
+  ],
+  "-2020011202:ED:1": [
+    {
+      "youtubeVideoId": "M9yXQW1Rc8M",
+      "title": "Butterbean’s Café Closing Theme｜Viacom 原聲EP",
+      "type": "art_track",
+      "channelName": "Butterbean's Cafe - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "butterbeans-cafe-main-theme-ep-closing"
+    }
+  ],
+  "-2020011202:IN:1": [
+    {
+      "youtubeVideoId": "j743bY7VWqE",
+      "title": "Let’s Get Cookin’!｜Viacom 原聲EP",
+      "type": "art_track",
+      "channelName": "Butterbean's Cafe - Topic",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "butterbeans-cafe-lets-get-cookin-ep"
+    }
+  ],
+  "-2020022001:OP:1": [
+    {
+      "youtubeVideoId": "9JhvEBmyq2w",
+      "title": "Corn & Peg｜Nick Jr. 正式英語主題與新系列預告",
+      "type": "other",
+      "channelName": "Nick Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "-2020022001:IN:1": [
+    {
+      "youtubeVideoId": "i7BxXU8zqOw",
+      "title": "Do Good Song｜Nick Jr. 官方跨作品音樂影片",
+      "type": "music_video",
+      "channelName": "Nick Jr.",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ]
 } satisfies CuratedThemeVideoOverrideMap;

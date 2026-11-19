@@ -29965,9 +29965,84 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20200104.html",
+          "label": "讀賣電視台哥梅拉篇序第965話原播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20200125.html",
+          "label": "讀賣電視台哥梅拉篇結第968話原播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV967",
+          "label": "繁中逐集四話與片頭片尾交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2sb9AUHq7Zs",
+          "label": "台灣代理商2022院線特別篇正式預告",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://wands-official.jp/news/20191113-2.html",
+          "label": "WANDS單曲發行日、普通盤及柯南盤獨有TV size",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1494417475",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1494417474",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=7y3MRaVKKF8",
+          "label": "授權方影片資料｜真っ赤なLip｜TMS官方片頭影像",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BMZllL1SEgg",
+          "label": "授權方影片資料｜真っ赤なLip｜WANDS官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "真っ赤なLip｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1494417475",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1494417474",
+          "recordingId": "meitantei-conan-op-51-song-single",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
       "credits": [
         {
           "role": "lyrics",
@@ -29980,6 +30055,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         {
           "role": "arrangement",
           "name": "大島こうすけ"
+        },
+        {
+          "name": "上原大史",
+          "role": "vocals"
         }
       ],
       "sourceMode": "explicit",
@@ -29990,7 +30069,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "2020-spring",
         "2020-summer"
       ],
-      "usageLabel": "原TV OP51（第965～982話）",
+      "usageLabel": "原TV OP51（第965～982話）。哥梅拉篇第965–968話於2020/1/4–1/25分四次播出。",
       "evidence": [
         {
           "target": "song",
@@ -30082,23 +30161,250 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "https://wands-official.jp/disco/gzcd-7005.html"
           ],
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-op-51",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html",
+            "https://www.ytv.co.jp/conan/archive/k20200104.html",
+            "https://www.ytv.co.jp/conan/archive/k20200125.html",
+            "https://www.conanpedia.com/zh-hant/TV967"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-op-51-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1494417475"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "meitantei-conan-op-51-song-single",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "meitantei-conan-op-51-song-tv",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "gzcd-7005",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "gzcd-7006",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1494417474",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://wands-official.jp/news/20191113-2.html",
+            "https://music.apple.com/hk/album/1494417474"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1494417475",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1494417475"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "7y3MRaVKKF8",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=7y3MRaVKKF8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "BMZllL1SEgg",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=BMZllL1SEgg"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "〈真っ赤なLip〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明OP51／第965～982話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
-          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "日本柯南盤CD第3曲另收TV size，香港同名數位盤只列兩首。",
+          "resumeWhen": "待原播與唱片剪輯對照、台灣院線版掛字及香港完整播放確認。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-19",
+      "releaseDate": "2020-01-29",
+      "recordings": [
+        {
+          "id": "meitantei-conan-op-51-song-single",
+          "title": "真っ赤なLip",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "meitantei-conan-op-51-song-tv",
+          "title": "真っ赤なLip -TV size-",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gzcd-7005",
+          "title": "真っ赤なLip",
+          "type": "single",
+          "artistDisplayName": "WANDS",
+          "edition": "日本名探偵コナン盤 CD",
+          "region": "JP",
+          "label": "D-GO",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "真っ赤なLip",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-51-song-single"
+            },
+            {
+              "title": "真っ赤なLip -TV size-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-51-song-tv"
+            }
+          ],
+          "catalogNumber": "GZCD-7005"
+        },
+        {
+          "id": "gzcd-7006",
+          "title": "真っ赤なLip",
+          "type": "single",
+          "artistDisplayName": "WANDS",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "label": "D-GO",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "真っ赤なLip",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-51-song-single"
+            }
+          ],
+          "catalogNumber": "GZCD-7006"
+        },
+        {
+          "id": "apple-hk-1494417474",
+          "title": "真っ赤なLip【名探偵コナン盤】",
+          "type": "single",
+          "artistDisplayName": "WANDS",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "GIZA, INC.",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "真っ赤なLip",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-51-song-single"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "meitantei-conan-ed-73",
@@ -32403,10 +32709,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "sources": [
         {
           "url": "https://sard-underground.jp/disco/gzca-7175.html",
-          "label": "第一方本曲原名、演唱名義與已列資料",
+          "label": "SARD初回盤曲序及附錄MV",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-22"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://www.ytv.co.jp/besthits/conan/",
@@ -32435,9 +32741,112 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20200104.html",
+          "label": "讀賣電視台哥梅拉篇序第965話原播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20200125.html",
+          "label": "讀賣電視台哥梅拉篇結第968話原播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hant/TV967",
+          "label": "繁中逐集四話與片頭片尾交叉核對",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2sb9AUHq7Zs",
+          "label": "台灣代理商2022院線特別篇正式預告",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://sard-underground.jp/news/20191113.html",
+          "label": "SARD單曲日期與原唱神野友亜",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://sard-underground.jp/disco/gzca-7176.html",
+          "label": "SARD柯南盤完整曲目及伴奏位置",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://sard-underground.jp/disco/gzca-7177.html",
+          "label": "SARD通常盤曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://sard-underground.jp/news.html/news/news/20210909.html",
+          "label": "SARD公告TV size主題曲集合輯",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cdfront.tower.jp/article/feature_item/2020/03/24/0702",
+          "label": "主題曲集合輯曲位交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1495776144",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1495776145",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=sIzVuH0f6Aw",
+          "label": "授權方影片資料｜少しづつ 少しづつ｜官方 YouTube Size MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=X1Uxn26DP20",
+          "label": "授權方影片資料｜少しづつ 少しづつ｜官方音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "少しづつ 少しづつ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1495776145",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1495776144",
+          "recordingId": "meitantei-conan-ed-61-song-single",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
       "credits": [
         {
           "role": "lyrics",
@@ -32454,6 +32863,10 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         {
           "role": "arrangement",
           "name": "長戸大幸"
+        },
+        {
+          "name": "神野友亜",
+          "role": "vocals"
         }
       ],
       "sourceMode": "explicit",
@@ -32464,7 +32877,7 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         "2020-spring",
         "2020-summer"
       ],
-      "usageLabel": "原TV ED61（第965～976話）",
+      "usageLabel": "原TV ED61（第965～976話）。哥梅拉篇第965–968話於2020/1/4–1/25分四次播出。",
       "evidence": [
         {
           "target": "song",
@@ -32556,23 +32969,358 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
             "https://sard-underground.jp/disco/gzca-7175.html"
           ],
           "verifiedAt": "2026-10-22"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "meitantei-conan-ed-61",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7176.html",
+            "https://www.ytv.co.jp/conan/archive/k20200104.html",
+            "https://www.ytv.co.jp/conan/archive/k20200125.html",
+            "https://www.conanpedia.com/zh-hant/TV967"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "meitantei-conan-ed-61-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/news/20191113.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/news/20191113.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "meitantei-conan-ed-61-song-single",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7176.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "meitantei-conan-ed-61-song-off-vocal",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7176.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "meitantei-conan-ed-61-song-tv",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/news.html/news/news/20210909.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "gzca-7175",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7175.html",
+            "https://sard-underground.jp/news/20191113.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "gzca-7176",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7176.html",
+            "https://sard-underground.jp/news/20191113.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "gzca-7177",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7177.html",
+            "https://sard-underground.jp/news/20191113.html"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "jbcj-9066-9067",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/news.html/news/news/20210909.html",
+            "https://cdfront.tower.jp/article/feature_item/2020/03/24/0702"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1495776144",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://sard-underground.jp/disco/gzca-7176.html",
+            "https://music.apple.com/hk/album/1495776144"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1495776145",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1495776145"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "sIzVuH0f6Aw",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=sIzVuH0f6Aw"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "X1Uxn26DP20",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=X1Uxn26DP20"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
         {
           "fields": [
             "recordings",
-            "official_video",
-            "releases",
-            "platform_links",
             "platform_availability"
           ],
-          "note": "〈少しづつ 少しづつ〉：読売テレビ官方歷代OP／ED表普通搜尋索引逐項明本曲原名與正式名義；中文原期曲表明ED61／第965～976話。季度依本曲實際原TV播出期間交叉核對，不由發售、MV、NC上傳日或整部續播推。 另列一方原公告／作品表直接支持本曲用途，依各頁實際支持欄位分工。 只記正式演唱名義，團員／starring字樣不自動變逐人vocals。",
-          "resumeWhen": "詳細階段沿已核原期來源，待一方逐曲明示尚缺詞曲編／個別實唱、錄音full／TV版本、官方影片形式、發行收錄與正版平台再補；歷代影片與商品不自動造新歌曲或錄音。",
-          "checkedAt": "2026-10-22"
+          "note": "柯南盤CD第3曲收伴奏，TV size另列在主題曲集合輯。YouTube Size為影片發布形式。",
+          "resumeWhen": "待原播音軌與商業TV size對照、台灣院線版掛字及香港完整播放確認。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-10-22"
+      "lastVerifiedAt": "2026-11-19",
+      "releaseDate": "2020-02-10",
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-61-song-single",
+          "title": "少しづつ 少しづつ",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "meitantei-conan-ed-61-song-off-vocal",
+          "title": "少しづつ 少しづつ (off vocal)",
+          "format": "unknown",
+          "kind": "instrumental"
+        },
+        {
+          "id": "meitantei-conan-ed-61-song-tv",
+          "title": "少しづつ 少しづつ (TV size)",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gzca-7175",
+          "title": "少しづつ 少しづつ",
+          "type": "single",
+          "artistDisplayName": "SARD UNDERGROUND",
+          "edition": "日本初回限定盤 CD＋DVD",
+          "region": "JP",
+          "label": "GIZA studio",
+          "date": {
+            "value": "2020-02-10",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "少しづつ 少しづつ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-single"
+            },
+            {
+              "title": "少しづつ 少しづつ (off vocal)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-off-vocal"
+            }
+          ],
+          "catalogNumber": "GZCA-7175"
+        },
+        {
+          "id": "gzca-7176",
+          "title": "少しづつ 少しづつ",
+          "type": "single",
+          "artistDisplayName": "SARD UNDERGROUND",
+          "edition": "日本名探偵コナン盤 CD",
+          "region": "JP",
+          "label": "GIZA studio",
+          "date": {
+            "value": "2020-02-10",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "少しづつ 少しづつ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-single"
+            },
+            {
+              "title": "少しづつ 少しづつ (off vocal)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-off-vocal"
+            }
+          ],
+          "catalogNumber": "GZCA-7176"
+        },
+        {
+          "id": "gzca-7177",
+          "title": "少しづつ 少しづつ",
+          "type": "single",
+          "artistDisplayName": "SARD UNDERGROUND",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "label": "GIZA studio",
+          "date": {
+            "value": "2020-02-10",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "少しづつ 少しづつ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-single"
+            },
+            {
+              "title": "少しづつ 少しづつ (off vocal)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-off-vocal"
+            }
+          ],
+          "catalogNumber": "GZCA-7177"
+        },
+        {
+          "id": "jbcj-9066-9067",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "日本通常盤 2CD",
+          "region": "JP",
+          "label": "B-Gram RECORDS",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "少しづつ 少しづつ (TV size)",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "meitantei-conan-ed-61-song-tv"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066~9067"
+        },
+        {
+          "id": "apple-hk-1495776144",
+          "title": "少しづつ 少しづつ【名探偵コナン盤】",
+          "type": "single",
+          "artistDisplayName": "SARD UNDERGROUND",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "GIZA, Inc.",
+          "date": {
+            "value": "2020-02-10",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "少しづつ 少しづつ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-61-song-single"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

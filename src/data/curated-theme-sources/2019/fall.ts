@@ -1,10 +1,12 @@
 import { curated2019FallSeeds } from "@/data/curated-seeds/2019/fall";
+import type { CuratedAnimeSeed, CuratedThemeSeed } from "@/data/curated-seeds/types";
 import type {
   CuratedThemeSourceOverrideMap,
   CuratedThemeSourceSeed,
 } from "@/data/curated-theme-sources/types";
 
 const firstPartyThemeUrlById: Readonly<Partial<Record<number, string>>> = {
+  97634: "https://www.sonymusic.co.jp/PR/pokemon/info/546687",
   100780: "https://gineiden-anime.com/",
   112036: "https://www.lantis.jp/title/cocotama2/news_1570172340.html",
   101239: "https://ahirunosora.jp/",
@@ -60,6 +62,7 @@ const firstPartyThemeUrlById: Readonly<Partial<Record<number, string>>> = {
 };
 
 const crossCheckUrlById: Readonly<Partial<Record<number, string>>> = {
+  97634: "https://cal.syoboi.jp/tid/4389/subtitle",
   101349: "https://anison.online/season?season_id=20",
   108759: "https://anison.online/season?season_id=20",
   108891: "https://anison.online/anime/1081",
@@ -76,8 +79,8 @@ const kenganVersionSources: Readonly<Record<string, readonly string[]>> = {
 };
 
 function sourcesFor(
-  seed: (typeof curated2019FallSeeds)[number],
-  theme: (typeof seed.themes)[number],
+  seed: CuratedAnimeSeed,
+  theme: CuratedThemeSeed,
 ): readonly CuratedThemeSourceSeed[] {
   if (seed.anilistId === 111048) {
     const urls = kenganVersionSources[`${theme.type}:${theme.sequence}`];
@@ -131,10 +134,12 @@ function sourcesFor(
 }
 
 export const curated2019FallThemeSources = Object.fromEntries(
-  curated2019FallSeeds.flatMap((seed) =>
-    seed.themes.filter((theme) => theme.type === "OP" || theme.type === "ED").map((theme) => [
-      `${seed.anilistId}:${theme.type}:${theme.sequence}`,
-      sourcesFor(seed, theme),
-    ]),
-  ),
+  curated2019FallSeeds
+    .filter((seed): seed is CuratedAnimeSeed => seed.anilistId !== undefined)
+    .flatMap((seed) =>
+      seed.themes.filter((theme) => theme.type === "OP" || theme.type === "ED").map((theme) => [
+        `${seed.anilistId}:${theme.type}:${theme.sequence}`,
+        sourcesFor(seed, theme),
+      ]),
+    ),
 ) satisfies CuratedThemeSourceOverrideMap;

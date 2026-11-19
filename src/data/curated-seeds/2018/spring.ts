@@ -2951,7 +2951,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       "2018-spring",
       "2019-summer",
       "2019-fall",
-      "2020-winter"
+      "2020-winter",
+      "2019-spring",
+      "2019-winter"
     ],
     "startDate": "2018-04-01",
     "titleJa": "ゲゲゲの鬼太郎",
@@ -3149,7 +3151,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2018-spring",
           "2019-summer",
           "2019-fall",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring",
+          "2019-winter"
         ],
         "usageLabel": "日本原TV第1–97話片頭，涵蓋2018年春季至2020年冬季。",
         "lastVerifiedAt": "2026-11-16",
@@ -3238,8 +3242,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "use_quarters",
               "platform_availability"
             ],
-            "note": "八個季度的原播日期已核對，現依已發布的四個季度索引顯示。",
-            "resumeWhen": "2018夏／秋、2019冬／春發布季度索引時補齊關聯；另核可播放的香港店區直連。",
+            "note": "八個季度的原播日期已核對，已有六季公開索引可對應。",
+            "resumeWhen": "2018夏／秋發布季度索引時補齊關聯；另核可播放的香港店區直連。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -3592,6 +3596,13 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://gogovanillas.com/news/detail/3621?lang=ja",
+            "label": "go!go!vanillas 本人公告：2019/1/6起原版片尾及錄音名稱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [],
@@ -3631,10 +3642,23 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "gegege-no-kitarou-2018-ed-4",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://gogovanillas.com/news/detail/3621?lang=ja"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2019-winter"
+        ],
         "usageLabel": "日本原TV2019年冬季第38–49話片尾（2019/1/6–3/31）。",
         "lastVerifiedAt": "2026-11-16",
         "credits": [
@@ -3651,11 +3675,10 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "lyrics",
               "composition",
               "arrangement",
-              "releases",
-              "use_quarters"
+              "releases"
             ],
             "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "2019年冬季季度納入公開索引時加回季度關聯；取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
+            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -3730,7 +3753,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2019-spring"
+        ],
         "usageLabel": "日本原TV2019年春季第50–62話片尾（2019/4/7–6/30）。",
         "lastVerifiedAt": "2026-11-16",
         "credits": [
@@ -3756,11 +3781,10 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "fields": [
               "recordings",
               "platform_availability",
-              "releases",
-              "use_quarters"
+              "releases"
             ],
             "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "2019年春季季度納入公開索引時加回季度關聯；取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
+            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -4260,7 +4284,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       "2018-spring",
       "2019-summer",
       "2019-fall",
-      "2020-winter"
+      "2020-winter",
+      "2019-spring",
+      "2019-winter"
     ],
     "startDate": "2018-04-02",
     "titleJa": "パズドラ",
@@ -4607,7 +4633,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2018-spring"
+          "2018-spring",
+          "2019-spring",
+          "2019-winter"
         ],
         "usageLabel": "日本原TV第1–59話片頭（2018/4/2–2019/5/20）；唱片公司記載2019/1/21放送換用重新編曲的音源。",
         "lastVerifiedAt": "2026-11-16",
@@ -4760,7 +4788,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "use_quarters"
             ],
             "note": "兩種片頭畫面收於官方DVD。唱片公司記新音源自1月21日第42話起，逐話交叉資料另記第40話起列編曲；第40–41話需原期音軌比對，CD Anime size與舊音源的對應亦待核。",
-            "resumeWhen": "2018夏／秋、2019冬／春季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
+            "resumeWhen": "2018夏／秋季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -4967,7 +4995,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
         "seasonIds": [
           "2019-summer",
           "2019-fall",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring"
         ],
         "usageLabel": "日本原TV第60–103話片頭（2019/5/27–2020/3/30），橫跨2019春季至2020冬季。",
         "lastVerifiedAt": "2026-11-16",
@@ -5037,11 +5066,10 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "fields": [
               "recordings",
               "arrangement",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "獨立動畫末話的日版片頭已核。",
-            "resumeWhen": "2019春季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
+            "resumeWhen": "取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -5446,7 +5474,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2019-winter"
+        ],
         "usageLabel": "日本原TV第27–51話片尾（2018/10/1–2019/3/25，2018秋、2019冬季）。",
         "lastVerifiedAt": "2026-11-16",
         "credits": [
@@ -5506,7 +5536,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "use_quarters"
             ],
             "note": "Sony Music公告正式曲名及原盤第3曲。",
-            "resumeWhen": "2018秋、2019冬季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
+            "resumeWhen": "2018秋季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -5765,7 +5795,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2019-spring"
+        ],
         "usageLabel": "日本原TV第52–64話片尾（2019/4/1–6/24，春季）。",
         "lastVerifiedAt": "2026-11-16",
         "credits": [
@@ -5863,11 +5895,10 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "Sony Music明示4月2日先行上架TV size。",
-            "resumeWhen": "2019春季度納入公開索引時補用途關聯；取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
+            "resumeWhen": "取得原播畫音或權利方精確錄音版本時核對剪輯，另核香港完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]

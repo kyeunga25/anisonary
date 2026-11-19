@@ -9262,32 +9262,6 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "broadcastTimeJst": "18:00"
 },
   {
-    anilistId: 112625,
-    id: "curated-112625",
-    slug: "saiki-kusuo-no-nan-shidou-hen",
-    seasonIds: ["2020-winter"],
-    startDate: "2019-12-30",
-    titleJa: "斉木楠雄のΨ難 Ψ始動編",
-    titleZhHant: "齊木楠雄的災難 Ψ始動篇",
-    titleRomaji: "Saiki Kusuo no Ψ-nan: Ψ-shidou-hen",
-    posterUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b112625-5Qi2PEQqITCa.jpg",
-    bannerUrl:
-      "https://s4.anilist.co/file/anilistcdn/media/anime/banner/112625-hZfYBvf601Cw.jpg",
-    editorialWeekday: 1,
-    broadcastLabel: "日本網絡首播／時間未整理",
-    status: "finished",
-    officialSiteUrl: "https://www.saikikusuo.com/index.html",
-    anilistUrl: "https://anilist.co/anime/112625",
-    imageSourceUrl: "https://anilist.co/anime/112625",
-    imageSourceLabel: "AniList 公開媒體頁",
-    wikipediaUrl:
-      "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
-    sourceReferenceUrls: ["https://www.saikikusuo.com/index.html"],
-    themes: [],
-    verifiedAt: "2026-09-02",
-  },
-  {
   "anilistId": 108092,
   "id": "curated-108092",
   "slug": "koisuru-asteroid",
@@ -17316,7 +17290,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101350-nRjxYT3r6qTC.jpg",
   "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/101350-XpXykQcRZWK6.jpg",
   "editorialWeekday": 1,
-  "broadcastLabel": "TOKYO MX 原期2020/1/6–3/30週一22:00 JST，全13話。日本Prime Video於1/5 24:00（實曆1/6 00:00頃）先行配信第1、2話。",
+  "broadcastLabel": "TOKYO MX 原期2020/1/6–3/30週一22:00 JST，全13話。日本Prime Video於1/5 24:00（實曆1/6 00:00頃）先行配信第1、2話。 日本後續集次每週一約21:45 JST先行配信。",
   "status": "finished",
   "officialSiteUrl": "https://pet-anime.com/",
   "anilistUrl": "https://anilist.co/anime/101350",
@@ -18922,13 +18896,6 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
   "metadataVerifiedAt": "2026-11-16",
   "metadataSources": [
     {
-      "url": "https://pet-anime.com/",
-      "label": "第一方原期TV播出日期資料；僅日期時分",
-      "role": "first_party",
-      "language": "ja",
-      "verifiedAt": "2026-10-24"
-    },
-    {
       "url": "https://www.animatetimes.com/news/details.php?id=1577803252",
       "label": "原期TV播出日期交叉資料；僅日期時分",
       "role": "broadcast_cross_check",
@@ -18955,6 +18922,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       "role": "broadcast_cross_check",
       "language": "ja",
       "verifiedAt": "2026-11-16"
+    },
+    {
+      "url": "https://pet-anime.com/",
+      "label": "動畫官網日本TV首播與後續各話Prime Video先行時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EeIdLH19mbs",
+      "label": "製作方官方訪問簡介：第1、2話先行配信時段",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-19"
     }
   ],
   "broadcastTimeJst": "22:00"
@@ -24813,10 +24794,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://anime-seton.jp/music/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "製作方唱片曲表及指定Spotify發行入口",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92",
@@ -24908,6 +24889,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://open.spotify.com/album/69xyLQHUWkajNkeF1MlF4h",
+          "label": "Spotify 正版EP頁：發行日期與曲位",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/2AhEZOIJ7eQ56bMGYx985O",
+          "label": "Spotify 指定曲目及版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/3YS9hZcoAfm6BfeQNwR7hb",
+          "label": "Spotify 指定曲目及版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -25161,6 +25163,43 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "-YG7sAaTRsw"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "targetId": "spotify-69xylqhuwkajnkef1mlf4h",
+          "sourceUrls": [
+            "https://anime-seton.jp/music/",
+            "https://open.spotify.com/album/69xyLQHUWkajNkeF1MlF4h"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "targetId": "https://open.spotify.com/track/2AhEZOIJ7eQ56bMGYx985O",
+          "sourceUrls": [
+            "https://open.spotify.com/track/2AhEZOIJ7eQ56bMGYx985O"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "targetId": "https://open.spotify.com/track/3YS9hZcoAfm6BfeQNwR7hb",
+          "sourceUrls": [
+            "https://open.spotify.com/track/3YS9hZcoAfm6BfeQNwR7hb"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -25174,7 +25213,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–11話日本原TV片頭。第12話省略常規片頭。",
       "recordings": [
         {
@@ -25240,6 +25279,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Cygames"
+        },
+        {
+          "id": "spotify-69xylqhuwkajnkef1mlf4h",
+          "title": "TVアニメ『群れなせ!シートン学園』主題歌 OP「学園壮観Zoo」/ED「オオカミブルース」",
+          "type": "ep",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-02-21",
+            "precision": "day"
+          },
+          "region": "UNKNOWN",
+          "edition": "Spotify 數位版",
+          "tracks": [
+            {
+              "title": "学園壮観Zoo",
+              "disc": 1,
+              "position": 1
+            },
+            {
+              "title": "学園壮観Zoo - Instrumental",
+              "disc": 1,
+              "position": 3
+            }
+          ]
         }
       ],
       "links": [
@@ -25262,6 +25325,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-jp-1498763866",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Spotify｜学園壮観Zoo",
+          "url": "https://open.spotify.com/track/2AhEZOIJ7eQ56bMGYx985O",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "spotify-69xylqhuwkajnkef1mlf4h"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Spotify｜学園壮観Zoo - Instrumental",
+          "url": "https://open.spotify.com/track/3YS9hZcoAfm6BfeQNwR7hb",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "spotify-69xylqhuwkajnkef1mlf4h"
         }
       ]
     },
@@ -25294,10 +25377,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://anime-seton.jp/music/",
-          "label": "第一方本曲資料；支持欄位依逐曲證據",
+          "label": "製作方唱片曲表及指定Spotify發行入口",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%88%90%E7%BE%A4%E7%B5%90%E4%BC%B4%EF%BC%81%E8%A5%BF%E9%A0%93%E5%AD%B8%E5%9C%92",
@@ -25389,6 +25472,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://open.spotify.com/album/69xyLQHUWkajNkeF1MlF4h",
+          "label": "Spotify 正版EP頁：發行日期與曲位",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/1F4eEhc9cvklwCLwQJoJGp",
+          "label": "Spotify 指定曲目及版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://open.spotify.com/track/1VVoimBovdV78MtgICxANi",
+          "label": "Spotify 指定曲目及版別",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -25622,6 +25726,43 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "enAd0wfp_GE"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "targetId": "spotify-69xylqhuwkajnkef1mlf4h",
+          "sourceUrls": [
+            "https://anime-seton.jp/music/",
+            "https://open.spotify.com/album/69xyLQHUWkajNkeF1MlF4h"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "targetId": "https://open.spotify.com/track/1F4eEhc9cvklwCLwQJoJGp",
+          "sourceUrls": [
+            "https://open.spotify.com/track/1F4eEhc9cvklwCLwQJoJGp"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "targetId": "https://open.spotify.com/track/1VVoimBovdV78MtgICxANi",
+          "sourceUrls": [
+            "https://open.spotify.com/track/1VVoimBovdV78MtgICxANi"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -25635,7 +25776,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "checkedAt": "2026-11-16"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第1–7、9–11話日本原TV片尾。第8、12話省略本曲。",
       "recordings": [
         {
@@ -25701,6 +25842,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "Cygames"
+        },
+        {
+          "id": "spotify-69xylqhuwkajnkef1mlf4h",
+          "title": "TVアニメ『群れなせ!シートン学園』主題歌 OP「学園壮観Zoo」/ED「オオカミブルース」",
+          "type": "ep",
+          "artistDisplayName": "Various Artists",
+          "date": {
+            "value": "2020-02-21",
+            "precision": "day"
+          },
+          "region": "UNKNOWN",
+          "edition": "Spotify 數位版",
+          "tracks": [
+            {
+              "title": "オオカミブルース",
+              "disc": 1,
+              "position": 2
+            },
+            {
+              "title": "オオカミブルース - Instrumental",
+              "disc": 1,
+              "position": 4
+            }
+          ]
         }
       ],
       "links": [
@@ -25723,6 +25888,26 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-jp-1498763866",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Spotify｜オオカミブルース",
+          "url": "https://open.spotify.com/track/1F4eEhc9cvklwCLwQJoJGp",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "spotify-69xylqhuwkajnkef1mlf4h"
+        },
+        {
+          "platform": "Spotify",
+          "label": "Spotify｜オオカミブルース - Instrumental",
+          "url": "https://open.spotify.com/track/1VVoimBovdV78MtgICxANi",
+          "linkType": "direct_track",
+          "region": "UNKNOWN",
+          "verifiedAt": "2026-11-19",
+          "availability": "unknown",
+          "releaseId": "spotify-69xylqhuwkajnkef1mlf4h"
         }
       ]
     },
@@ -43301,9 +43486,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113470-Ecw16VC6b2V2.jpg",
     "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/113470-WNIVHuI8DfDb.jpg",
     "editorialWeekday": 4,
-    "broadcastLabel": "TOKYO MX 日本原TV 2020/1/9–3/26週四22:30 JST，共12話。FOD 同時配信。",
+    "broadcastLabel": "TOKYO MX 正規播出 2020/1/9–3/26，週四22:30 JST，全12話，FOD同步。2019/12/31 20:00–22:00 JST年末特番另公告先行播第1話，FOD限時提供同一特番。",
     "status": "finished",
-    "officialSiteUrl": "https://showbyrock-anime-m.com/sp/",
+    "officialSiteUrl": "https://showbyrock-anime-s.com/mashumairesh/",
     "anilistUrl": "https://anilist.co/anime/113470",
     "imageSourceUrl": "https://anilist.co/anime/113470",
     "imageSourceLabel": "AniList 公開媒體頁",
@@ -43328,13 +43513,6 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "sources": [
-          {
-            "label": "動畫官方網站",
-            "url": "https://showbyrock-anime-m.com/sp/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-09-02"
-          },
           {
             "label": "AnimeThemes",
             "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
@@ -43404,6 +43582,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://showbyrock-anime-s.com/mashumairesh/",
+            "label": "動畫作品官網（製作方存檔）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=K68jLakrGbc",
+            "label": "官方影片欄位：まっしろスタートライン｜單曲版 Art Track",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tdfTRV2HRSY",
+            "label": "官方影片欄位：まっしろスタートライン〈TV edit〉｜原聲帶 Art Track",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "credits": [
@@ -43597,6 +43796,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "show-by-rock-mashumairesh-op-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "K68jLakrGbc",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=K68jLakrGbc"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "tdfTRV2HRSY",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tdfTRV2HRSY"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "followUp": [
@@ -43610,7 +43833,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "checkedAt": "2026-11-16"
           }
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "usageLabel": "第1話開場的劇中獨唱。原聲 CD 標為ほわん獨唱，OP／ED單曲收團體名義版。",
         "recordings": [
           {
@@ -43734,13 +43957,6 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sources": [
           {
-            "label": "動畫官方網站",
-            "url": "https://showbyrock-anime-m.com/sp/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-09-02"
-          },
-          {
             "label": "AnimeThemes",
             "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
             "language": "en",
@@ -43809,6 +44025,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://showbyrock-anime-s.com/mashumairesh/",
+            "label": "動畫作品官網（製作方存檔）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=XmAlcgWmEuw",
+            "label": "官方影片欄位：ヒロメネス｜官方片頭公開影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "credits": [
@@ -44043,6 +44273,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "show-by-rock-mashumairesh-op-2-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "XmAlcgWmEuw",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=XmAlcgWmEuw"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "followUp": [
@@ -44054,9 +44296,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "note": "單曲與原聲版別按各自曲表保存。逐話劇中演唱以原期播出為準。",
             "resumeWhen": "待可播放的香港正版曲目及未明的第1話／終回實際剪輯和演唱版本。",
             "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "官方片頭影片的簡介轉錄與逐話曲表對第1話的標註有差異；現存第2–11話常規片頭範圍保留。",
+            "resumeWhen": "對照2019/12/31先行播次與2020/1/9正規第1話有聲畫面和掛字。",
+            "checkedAt": "2026-11-19"
           }
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "usageLabel": "日本原TV第2–11話常規片頭。第1話的開場為劇中演唱，第12話省略片頭，改用本曲收尾。",
         "recordings": [
           {
@@ -44180,13 +44430,6 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sources": [
           {
-            "label": "動畫官方網站",
-            "url": "https://showbyrock-anime-m.com/sp/",
-            "language": "ja",
-            "role": "first_party",
-            "verifiedAt": "2026-09-02"
-          },
-          {
             "label": "AnimeThemes",
             "url": "https://animethemes.moe/anime/show_by_rock_mashumairesh",
             "language": "en",
@@ -44255,6 +44498,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://showbyrock-anime-s.com/mashumairesh/",
+            "label": "動畫作品官網（製作方存檔）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=68zMZv61zxA",
+            "label": "官方影片欄位：キミのラプソディー｜官方片尾公開影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=8ZD7iGhMFyk",
+            "label": "官方影片欄位：キミのラプソディー〈TV edit〉｜原聲帶 Art Track",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "credits": [
@@ -44489,6 +44753,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "show-by-rock-mashumairesh-ed-1-song"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "68zMZv61zxA",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=68zMZv61zxA"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "8ZD7iGhMFyk",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=8ZD7iGhMFyk"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "followUp": [
@@ -44502,7 +44790,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "checkedAt": "2026-11-16"
           }
         ],
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "usageLabel": "日本原TV第1–11話常規片尾；第12話片尾改用〈ヒロメネス〉。",
         "recordings": [
           {
@@ -44668,6 +44956,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=a3_BvA3oXLY",
+            "label": "官方影片欄位：エールアンドレスポンス｜官方單曲試聽影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -44830,6 +45125,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "a3_BvA3oXLY",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=a3_BvA3oXLY"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -44837,7 +45144,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第1、8話插曲。原聲集所收剪輯明標第8話。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "Mashumairesh!!",
@@ -45017,6 +45324,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
+            "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -45179,6 +45493,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "ExajPOh2T1k",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ExajPOh2T1k"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -45186,7 +45512,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第3話插曲。TV edit 為ヤス主唱，商業單曲版採團員分唱。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "DOKONJOFINGER",
@@ -45366,6 +45692,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3bE11Uz3Oa4",
+            "label": "官方影片欄位：No problem!!〈TV edit〉｜原聲帶 Art Track",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -45530,6 +45863,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "3bE11Uz3Oa4",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3bE11Uz3Oa4"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -45537,7 +45882,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第4話插曲。原聲 CD 的 TV edit 標示デルミン，插曲單曲則以 Mashumairesh!! 發行。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "デルミン（CV：和多田美咲）／ルフユ（CV：山根 綺）",
@@ -45717,6 +46062,20 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
+            "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=oS9Y1d__vNU",
+            "label": "官方影片欄位：Parallelism Crown｜單曲版 Art Track",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -45879,6 +46238,30 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "uVCikMLTRFc",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=uVCikMLTRFc"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "oS9Y1d__vNU",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=oS9Y1d__vNU"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -45886,7 +46269,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第5話插曲。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "REIJINGSIGNAL",
@@ -46070,6 +46453,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uVCikMLTRFc",
+            "label": "官方影片欄位：Parallelism Crown／ネオンテトラの空｜官方單曲試聽影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -46232,6 +46622,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "uVCikMLTRFc",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=uVCikMLTRFc"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -46239,7 +46641,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第8話插曲。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "REIJINGSIGNAL",
@@ -46419,6 +46821,13 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ExajPOh2T1k",
+            "label": "官方影片欄位：移動手段はバイクです／カバンには鉄板です｜官方單曲試聽影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -46581,6 +46990,18 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-jp-1501689824"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "url"
+            ],
+            "targetId": "ExajPOh2T1k",
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ExajPOh2T1k"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -46588,7 +47009,7 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "第9話插曲。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "DOKONJOFINGER",
@@ -47312,6 +47733,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "role": "broadcast_cross_check",
         "language": "ja",
         "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://showbyrock-anime-s.com/mashumairesh/",
+        "label": "製作方作品官網及原期資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://s.mxtv.jp/company/press/press2019_740001.pdf",
+        "label": "TOKYO MX 2019/12/31年末特番與第1話先行公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000920.000000084.html",
+        "label": "富士電視台 FOD 同步與年末特番限時配信公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
       }
     ],
     "broadcastTimeJst": "22:30"
@@ -77719,10 +78161,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         },
         {
           "url": "https://news.kingrecords.co.jp/2022/10/7492/",
-          "label": "權利方配信日期及版本說明",
+          "label": "King Records專輯名義、發行與原曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://music.apple.com/jp/album/1649716006",
@@ -77744,6 +78186,69 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "url": "https://www.kingrecords.co.jp/cs/g/gKICM-2027/",
+          "label": "King Records單曲CD原名、日期與曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/5536/time",
+          "label": "日本逐話曲表記第4及6話省略常規片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OQAdP29qJSI",
+          "label": "製作方第4–6話回顧簡介列全季片尾曲名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1491862602",
+          "label": "Apple Music 香港區發行頁及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1491862611",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1649716006",
+          "label": "Apple Music 香港區發行頁及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1649716012",
+          "label": "Apple Music 香港區曲目頁",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3NeWz6Wklrg",
+          "label": "權利方公開影片資料｜LAST DANCE｜官方中文字幕版 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4eU71XJzh1A",
+          "label": "權利方公開影片資料｜LAST DANCE｜官方音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "credits": [
@@ -77972,6 +78477,80 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-16",
           "targetId": "7utAfa2SzMU"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1491862602",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKICM-2027/",
+            "https://music.apple.com/hk/album/1491862602"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1491862611",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1491862611"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1649716006",
+          "fields": [
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://news.kingrecords.co.jp/2022/10/7492/",
+            "https://music.apple.com/hk/album/1649716006"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1649716012",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1649716012"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "3NeWz6Wklrg",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=3NeWz6Wklrg"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "4eU71XJzh1A",
+          "fields": [
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=4eU71XJzh1A"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -77980,12 +78559,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "recordings",
             "platform_availability"
           ],
-          "note": "日本先行配信1/12，單曲1/29。第4、6話需確認是否使用常規片尾。",
-          "resumeWhen": "待原播片尾音軌、香港正版曲目及獨立TV錄音。",
-          "checkedAt": "2026-11-16"
+          "note": "逐話曲表記第4、6話未使用常規片尾。第4–6話回顧影片簡介只列全季片尾，台灣授權集頁未列單集音樂。香港區兩個曲目頁已核對。",
+          "resumeWhen": "取得第4話、第6話各自的原播片尾或可識別版次的正版音畫與掛字，逐話確認例行片尾；另待官方原播剪輯、獨立TV錄音和地區播放證據。",
+          "checkedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-11-16",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "日本原期第1–3、5及第7–12話片尾。第4、6話是否使用待原播音軌核對。",
       "recordings": [
         {
@@ -78058,6 +78637,47 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             }
           ],
           "label": "KING RECORDS"
+        },
+        {
+          "id": "apple-hk-1491862602",
+          "title": "LAST DANCE",
+          "type": "single",
+          "date": {
+            "value": "2020-01-29",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮野真守",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "LAST DANCE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "kyokou-suiri-ed-1-song-single-full"
+            }
+          ],
+          "label": "KING RECORDS"
+        },
+        {
+          "id": "apple-hk-1649716006",
+          "title": "THE ENTERTAINMENT",
+          "type": "album",
+          "date": {
+            "value": "2022-11-02",
+            "precision": "day"
+          },
+          "artistDisplayName": "宮野真守",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "tracks": [
+            {
+              "title": "LAST DANCE",
+              "position": 6,
+              "disc": 1
+            }
+          ],
+          "label": "KING RECORDS"
         }
       ],
       "links": [
@@ -78081,6 +78701,27 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "releaseId": "apple-jp-1649716006",
           "availability": "unknown",
           "verifiedAt": "2026-11-16"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "LAST DANCE｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1491862611",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1491862602",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19",
+          "recordingId": "kyokou-suiri-ed-1-song-single-full"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "LAST DANCE｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1649716012",
+          "linkType": "direct_track",
+          "region": "HK",
+          "releaseId": "apple-hk-1649716006",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "releaseDate": "2020-01-12"
@@ -112252,6 +112893,125 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://bclover.jp/season1/news/detail.php?id=1080065",
+          "label": "製作方第10季度兩首曲及2020/1/7原TV換曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
+          "label": "東京電視台原播集數及日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/blackclover-3",
+          "label": "逐話曲表對照第116–128話時段",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/blackclover-3/ep/118",
+          "label": "第118話逐話曲表記片頭及片尾差異",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1017617",
+          "label": "Chapter XII第113–120話及無字幕片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1017725",
+          "label": "Chapter XIII第121–129話及Type B畫面",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1018920",
+          "label": "製作方主題曲精選2收錄曲序及無字幕Type B",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://vickeblanka.com/discography/detail.php?id=1017368",
+          "label": "藝人原期單曲發行與第116話起用",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://vickeblanka.com/discography/detail.php?id=1017356",
+          "label": "藝人專輯三個實體版及第7曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.vickeblanka.com/news/detail.php?id=1080471",
+          "label": "藝人公告動畫畫面版MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uHsy2egKjlU",
+          "label": "授權方影片資料｜Black Catcher｜官方單曲音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=hP6VM6YAMIE",
+          "label": "授權方影片資料｜Black Catcher｜官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=akHMQOgGrd8",
+          "label": "授權方影片資料｜Black Catcher｜官方動畫畫面版 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1492026896",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1492026897",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1498206289",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1498206296",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -112310,9 +113070,392 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://www.joysound.com/web/s/karaoke/contents/anime/list_2001"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-op-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/news/detail.php?id=1080065",
+            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
+            "https://www.mau2.com/anime/blackclover-3"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-op-10-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017368"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "uHsy2egKjlU",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uHsy2egKjlU"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uHsy2egKjlU"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "black-clover-2017-op-10-song-single",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017368"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "hP6VM6YAMIE",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=hP6VM6YAMIE"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "akHMQOgGrd8",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=akHMQOgGrd8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1492026896",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017368",
+            "https://music.apple.com/hk/album/1492026896"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1492026897",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1492026897"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1498206289",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017356",
+            "https://music.apple.com/hk/album/1498206289"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1498206296",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1498206296"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "avcd-96457-b",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017356"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "avcd-96458-b",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017356"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "avcd-96459",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://vickeblanka.com/discography/detail.php?id=1017356"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "eyca-13301",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/discography/detail.php?id=1018920"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-10-31"
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "第10季度片頭（第116–128話，2020/1/7起）。影碟收錄兩套片頭畫面；第118話是否沿用常規開場待核。",
+      "releaseDate": "2020-01-08",
+      "credits": [
+        {
+          "name": "ビッケブランカ",
+          "role": "vocals"
+        },
+        {
+          "name": "ビッケブランカ",
+          "role": "lyrics"
+        },
+        {
+          "name": "ビッケブランカ",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "black-clover-2017-op-10-song-single",
+          "title": "Black Catcher",
+          "format": "unknown",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1492026896",
+          "title": "Black Catcher",
+          "type": "single",
+          "artistDisplayName": "ビッケブランカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "avex trax",
+          "date": {
+            "value": "2020-01-08",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "black-clover-2017-op-10-song-single"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1498206289",
+          "title": "Devil",
+          "type": "album",
+          "artistDisplayName": "ビッケブランカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "avex trax",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 7,
+              "disc": 1
+            }
+          ]
+        },
+        {
+          "id": "avcd-96457-b",
+          "title": "Devil",
+          "type": "album",
+          "artistDisplayName": "ビッケブランカ",
+          "edition": "日本 CD＋DVD",
+          "region": "JP",
+          "label": "avex trax",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "AVCD-96457/B"
+        },
+        {
+          "id": "avcd-96458-b",
+          "title": "Devil",
+          "type": "album",
+          "artistDisplayName": "ビッケブランカ",
+          "edition": "日本 CD＋Blu-ray",
+          "region": "JP",
+          "label": "avex trax",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "AVCD-96458/B"
+        },
+        {
+          "id": "avcd-96459",
+          "title": "Devil",
+          "type": "album",
+          "artistDisplayName": "ビッケブランカ",
+          "edition": "日本 CD",
+          "region": "JP",
+          "label": "avex trax",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 7,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "AVCD-96459"
+        },
+        {
+          "id": "eyca-13301",
+          "title": "ブラッククローバー主題歌ベスト2",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "label": "avex pictures",
+          "date": {
+            "value": "2022-05-25",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Black Catcher",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "EYCA-13301"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Black Catcher｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1492026897",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1492026896",
+          "recordingId": "black-clover-2017-op-10-song-single",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "Black Catcher｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1498206296",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1498206289",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "動畫MV、影碟兩種畫面及商業音源已分列。香港單曲與專輯曲目時長顯示相差一秒。",
+          "resumeWhen": "待原播第118話及Type A／B切換前後的正版音畫或掛字，確認開場與換畫面話數；另待母帶或版別說明及香港完整播放證據。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
     },
     {
       "id": "black-clover-2017-ed-10",
@@ -112339,6 +113482,90 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "role": "cross_check",
           "language": "multi",
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "url": "https://bclover.jp/season1/news/detail.php?id=1080065",
+          "label": "製作方第10季度兩首曲及2020/1/7原TV換曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
+          "label": "東京電視台原播集數及日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/blackclover-3",
+          "label": "逐話曲表對照第116–128話時段",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/blackclover-3/ep/118",
+          "label": "第118話逐話曲表記片頭及片尾差異",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1017617",
+          "label": "Chapter XII第113–120話及無字幕片頭片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1017725",
+          "label": "Chapter XIII第121–129話及Type B畫面",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://bclover.jp/season1/discography/detail.php?id=1018920",
+          "label": "製作方主題曲精選2收錄曲序及無字幕Type B",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://intersection-tokyo.jp/discography/detail.php?id=1017375",
+          "label": "INTERSECTION原期數位單曲發行日",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uy32xz1cr8Y",
+          "label": "授權方影片資料｜New Page｜官方單曲音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=65_exPZjAKg",
+          "label": "授權方影片資料｜New Page｜授權片尾影像",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1492239986",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1492239989",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "evidence": [
@@ -112387,9 +113614,216 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%89%B2%E4%BA%94%E8%91%89%E8%8D%89_(%E5%8B%95%E7%95%AB)"
           ],
           "verifiedAt": "2026-10-31"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "black-clover-2017-ed-10",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/news/detail.php?id=1080065",
+            "https://www.tv-tokyo.co.jp/anime/bclover_1st/episodes/index_6.html",
+            "https://www.mau2.com/anime/blackclover-3"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "black-clover-2017-ed-10-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://intersection-tokyo.jp/discography/detail.php?id=1017375"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "uy32xz1cr8Y",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "black-clover-2017-ed-10-song-single",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uy32xz1cr8Y"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "65_exPZjAKg",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=65_exPZjAKg"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1492239986",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uy32xz1cr8Y",
+            "https://music.apple.com/hk/album/1492239986"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1492239989",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1492239989"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "eyca-13301",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://bclover.jp/season1/discography/detail.php?id=1018920"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
-      "lastVerifiedAt": "2026-10-31"
+      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "第10季度片尾（第116–128話範圍，2020/1/7起）。逐話曲表記第118話無常規片尾，待原播音畫核實。",
+      "releaseDate": "2020-01-08",
+      "credits": [
+        {
+          "name": "INTERSECTION",
+          "role": "vocals"
+        },
+        {
+          "name": "Nao'ymt",
+          "role": "lyrics"
+        },
+        {
+          "name": "Nao'ymt",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "black-clover-2017-ed-10-song-single",
+          "title": "New Page",
+          "format": "unknown",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "apple-hk-1492239986",
+          "title": "New Page",
+          "type": "single",
+          "artistDisplayName": "INTERSECTION",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "AVEX ENTERTAINMENT INC.",
+          "date": {
+            "value": "2020-01-08",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "New Page",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "black-clover-2017-ed-10-song-single"
+            }
+          ]
+        },
+        {
+          "id": "eyca-13301",
+          "title": "ブラッククローバー主題歌ベスト2",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "label": "avex pictures",
+          "date": {
+            "value": "2022-05-25",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "New Page",
+              "position": 4,
+              "disc": 1
+            }
+          ],
+          "catalogNumber": "EYCA-13301"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "New Page｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1492239989",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1492239986",
+          "recordingId": "black-clover-2017-ed-10-song-single",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "Chapter XII列無字幕片尾，Chapter XIII另列Type B。分話來源記第118話沒有常規片尾。",
+          "resumeWhen": "待第118話原播片尾、第119話前後或Type B首次使用的正版音畫／掛字，確認例外及版本；編曲、商業TV錄音及地區播放待第一方明示。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
     },
     {
       "id": "black-clover-2017-op-11",
@@ -114255,7 +115689,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "seasonIds": [
       "2020-winter",
       "2019-summer",
-      "2019-fall"
+      "2019-fall",
+      "2019-spring"
     ],
     "startDate": "2019-04-07",
     "titleJa": "キラッとプリ☆チャン シーズン2",
@@ -114676,7 +116111,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原播第52–77話片頭（2019/4/7–9/29，春、夏季）。",
         "lastVerifiedAt": "2026-11-16",
@@ -114918,11 +116354,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "原聲帶第1碟第16軌另為角色合唱。原聲帶第2碟第1軌標示TV Size。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -115619,7 +117054,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原播第52–77話片尾（2019/4/7–9/29，春、夏季）。",
         "lastVerifiedAt": "2026-11-16",
@@ -115734,11 +117170,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "日本數位輯只核到第1碟曲目，TV Size另見實體第2碟。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -116465,7 +117900,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sourceMode": "explicit",
         "seasonIds": [
           "2019-summer",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第52、54、64、70、99話；短摘或回想第74話。",
         "lastVerifiedAt": "2026-11-16",
@@ -116653,11 +118089,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -117031,7 +118466,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sourceMode": "explicit",
         "seasonIds": [
           "2019-summer",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第53、56、57、67、70、98話；短摘或回想第54、58話。",
         "lastVerifiedAt": "2026-11-16",
@@ -117219,11 +118655,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -117344,7 +118779,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第55、60話；短摘或回想第76話。",
         "lastVerifiedAt": "2026-11-16",
@@ -117354,11 +118790,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordings",
               "platform_availability",
               "releases",
-              "platform_links",
-              "use_quarters"
+              "platform_links"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -117731,7 +119166,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2019-summer",
           "2019-fall",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第58、59、70、83、97話；短摘或回想第74話。",
         "lastVerifiedAt": "2026-11-16",
@@ -117919,11 +119355,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -118035,7 +119470,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第61、62話；短摘或回想第77話。",
         "lastVerifiedAt": "2026-11-16",
@@ -118045,11 +119481,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordings",
               "platform_availability",
               "releases",
-              "platform_links",
-              "use_quarters"
+              "platform_links"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -118414,7 +119849,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sourceMode": "explicit",
         "seasonIds": [
           "2019-summer",
-          "2020-winter"
+          "2020-winter",
+          "2019-spring"
         ],
         "usageLabel": "日本原播劇中演唱第63、64、70、98話；短摘或回想第74話。",
         "lastVerifiedAt": "2026-11-16",
@@ -118602,11 +120038,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "已列可查證的舞台、短摘或回想片段，個別剪輯及其商業錄音對應留待比對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -124973,7 +126408,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原播短摘或回想第54、73話。",
         "lastVerifiedAt": "2026-11-16",
@@ -124993,11 +126429,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "recordings",
               "platform_availability",
               "releases",
-              "platform_links",
-              "use_quarters"
+              "platform_links"
             ],
             "note": "佐々木李子本人談及為此動畫創作的該曲，實唱名單與商業發行待逐話署名或權利方曲目核對。",
-            "resumeWhen": "2019春季度頁建立後補掛已核用途；待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
+            "resumeWhen": "待正版正片音軌或唱片方逐版資料核對原播剪輯，並核地區完整播放。",
             "checkedAt": "2026-11-16"
           }
         ]
@@ -125191,7 +126626,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "seasonIds": [
       "2020-winter",
       "2019-summer",
-      "2019-fall"
+      "2019-fall",
+      "2019-spring"
     ],
     "startDate": "2019-04-07",
     "titleJa": "デュエル・マスターズ！！",
@@ -125356,7 +126792,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         ],
         "sourceMode": "explicit",
         "seasonIds": [
-          "2019-summer"
+          "2019-summer",
+          "2019-spring"
         ],
         "usageLabel": "日本原TV片頭，第1–26話（2019/4/7–9/29，春、夏季）。",
         "lastVerifiedAt": "2026-11-16",
@@ -125364,11 +126801,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "use_quarters"
+              "platform_availability"
             ],
             "note": "已記錄實際原播話數與時間。",
-            "resumeWhen": "2019春季加入公開索引時補掛用途；取得正版原播音軌可核剪輯及香港可播放性。",
+            "resumeWhen": "取得正版原播音軌可核剪輯及香港可播放性。",
             "checkedAt": "2026-11-16"
           }
         ],
@@ -125690,10 +127126,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "東京電視台第40話原播節目日",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
@@ -125725,10 +127161,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           },
           {
             "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "IMPERIAL RECORDS A盤曲序及DVD內容",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://music.apple.com/hk/album/1872841529",
@@ -125750,6 +127186,48 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uRYejHgiDyc",
+            "label": "製作方正式重播入口第40話，公開資料可辨單話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/",
+            "label": "IMPERIAL RECORDS四個實體盤正式貨號",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C690.html",
+            "label": "IMPERIAL RECORDS數位Expand Package與第1、5曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-714.html",
+            "label": "IMPERIAL RECORDS B盤第1曲及第3曲伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-715.html",
+            "label": "IMPERIAL RECORDS C盤第1曲及第3曲伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-716.html",
+            "label": "IMPERIAL RECORDS D盤第1曲及第3曲伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -125761,7 +127239,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "region": "HK",
             "releaseId": "apple-hk-1872841529",
             "availability": "unknown",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-16",
+            "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
           }
         ],
         "evidence": [
@@ -125869,6 +127348,90 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "kXvPJmMKsic"
+          },
+          {
+            "target": "recording",
+            "targetId": "duel-masters-2019-op-3-song-commercial-vocal",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-713.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "duel-masters-2019-op-3-song-commercial-instrumental",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C690.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "teci-714",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-714.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "teci-715",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-715.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "teci-716",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/TECI-716.html",
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "teichiku-d-c690",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://www.teichiku.co.jp/artist/matsuri-nine/discography/D-C690.html"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -125876,16 +127439,17 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原TV片頭，第40–51話（2020/1/12–3/29，冬季）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
               "recordings",
+              "recording_format",
               "platform_availability"
             ],
-            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
-            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
-            "checkedAt": "2026-11-16"
+            "note": "東京電視台第40話原播日已核，製作方另有合法重播入口；當期月表與逐話曲表仍有出入。A盤及B／C／D盤、數位Expand Package曲位各列。",
+            "resumeWhen": "待逐一觀看第40話重播版及可辨首播音畫掛字，比對是否換用；再待母帶說明及香港完整播放。",
+            "checkedAt": "2026-11-19"
           }
         ],
         "credits": [
@@ -125923,7 +127487,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               {
                 "title": "てっぺんニューデイズ",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
               }
             ],
             "label": "IMPERIAL RECORDS",
@@ -125944,10 +127509,136 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               {
                 "title": "てっぺんニューデイズ",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
               }
             ],
             "label": "IMPERIAL RECORDS"
+          },
+          {
+            "id": "teci-714",
+            "title": "てっぺんニューデイズ",
+            "type": "single",
+            "artistDisplayName": "祭nine.",
+            "edition": "日本パターンB CD",
+            "region": "JP",
+            "label": "IMPERIAL RECORDS",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
+              },
+              {
+                "title": "てっぺんニューデイズ -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-instrumental"
+              }
+            ],
+            "catalogNumber": "TECI-714"
+          },
+          {
+            "id": "teci-715",
+            "title": "てっぺんニューデイズ",
+            "type": "single",
+            "artistDisplayName": "祭nine.",
+            "edition": "日本パターンC CD",
+            "region": "JP",
+            "label": "IMPERIAL RECORDS",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
+              },
+              {
+                "title": "てっぺんニューデイズ -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-instrumental"
+              }
+            ],
+            "catalogNumber": "TECI-715"
+          },
+          {
+            "id": "teci-716",
+            "title": "てっぺんニューデイズ",
+            "type": "single",
+            "artistDisplayName": "祭nine.",
+            "edition": "日本パターンD CD",
+            "region": "JP",
+            "label": "IMPERIAL RECORDS",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
+              },
+              {
+                "title": "てっぺんニューデイズ -Instrumental-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-instrumental"
+              }
+            ],
+            "catalogNumber": "TECI-716"
+          },
+          {
+            "id": "teichiku-d-c690",
+            "title": "てっぺんニューデイズ Expand Package",
+            "type": "single",
+            "artistDisplayName": "祭nine.",
+            "edition": "日本數位擴充版",
+            "region": "JP",
+            "label": "IMPERIAL RECORDS",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "てっぺんニューデイズ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-vocal"
+              },
+              {
+                "title": "てっぺんニューデイズ -Instrumental-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-op-3-song-commercial-instrumental"
+              }
+            ]
+          }
+        ],
+        "recordings": [
+          {
+            "id": "duel-masters-2019-op-3-song-commercial-vocal",
+            "title": "てっぺんニューデイズ",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "duel-masters-2019-op-3-song-commercial-instrumental",
+            "title": "てっぺんニューデイズ -Instrumental-",
+            "format": "unknown",
+            "kind": "instrumental"
           }
         ]
       },
@@ -126212,7 +127903,9 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2019-spring"
+        ],
         "usageLabel": "日本原TV片尾，第1–13話（2019/4/7–6/30，春季）。",
         "lastVerifiedAt": "2026-11-16",
         "followUp": [
@@ -126222,11 +127915,10 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               "platform_availability",
               "lyrics",
               "composition",
-              "arrangement",
-              "use_quarters"
+              "arrangement"
             ],
             "note": "已記錄實際原播話數與時間。",
-            "resumeWhen": "2019春季加入公開索引時補掛用途；取得正版原播音軌可核剪輯及香港可播放性。",
+            "resumeWhen": "取得正版原播音軌可核剪輯及香港可播放性。",
             "checkedAt": "2026-11-16"
           }
         ],
@@ -126707,24 +128399,24 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "sources": [
           {
             "url": "https://linkco.re/Vf6BmYeU?lang=en",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "TuneCore授權原曲數位發行與片尾用途",
             "role": "first_party",
-            "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "language": "en",
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://linkco.re/c0ySBBpF?lang=ja",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "TuneCore授權TV ANIME Ver.數位發行及片尾用途",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/index_2.html",
-            "label": "作品方、放送方或唱片公司正式資料",
+            "label": "東京電視台第40話原播節目日",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.tv-tokyo.co.jp/anime/dm3/episodes/",
@@ -126795,6 +128487,41 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "role": "cross_check",
             "language": "zh-Hant",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=uRYejHgiDyc",
+            "label": "製作方正式重播入口第40話，公開資料可辨單話",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tower.jp/item/5002099",
+            "label": "Tower Records動畫盤貨號及第1與3曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://books.rakuten.co.jp/rb/16166740/",
+            "label": "樂天圖書通常盤貨號及歌唱版第1曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ZhlOIlg7iJg",
+            "label": "授權方影片資料｜I'm Your Joker｜官方原曲音源影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=z4jWDeaDFJE",
+            "label": "授權方影片資料｜I'm Your Joker｜官方TV ANIME Ver.音源影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
           }
         ],
         "links": [
@@ -126817,7 +128544,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "region": "HK",
             "releaseId": "apple-hk-1497875794",
             "availability": "unknown",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-16",
+            "recordingId": "duel-masters-2019-ed-4-song-commercial-vocal"
           }
         ],
         "evidence": [
@@ -126944,6 +128672,77 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "apple-hk-1497875794"
+          },
+          {
+            "target": "video",
+            "targetId": "ZhlOIlg7iJg",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZhlOIlg7iJg"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "duel-masters-2019-ed-4-song-commercial-vocal",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ZhlOIlg7iJg"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "targetId": "z4jWDeaDFJE",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=z4jWDeaDFJE"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "dm-7s",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/c0ySBBpF?lang=ja",
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://tower.jp/item/5002099"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "targetId": "dm-8s",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://linkco.re/Vf6BmYeU?lang=en",
+              "https://books.rakuten.co.jp/rb/16166740/"
+            ],
+            "verifiedAt": "2026-11-19"
           }
         ],
         "sourceMode": "explicit",
@@ -126951,17 +128750,16 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原TV片尾，第40–51話（2020/1/12–3/29，冬季）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "followUp": [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "arrangement"
+              "platform_availability"
             ],
-            "note": "原播逐話紀錄與權利方資料支持第40話換曲；テレビ東京ミュージック冬季月表仍沿用秋季曲名。",
-            "resumeWhen": "取得第39至40話正片曲目掛字及音軌時交叉確認換曲邊界和剪輯；香港可播放性另核。",
-            "checkedAt": "2026-11-16"
+            "note": "製作方有第40話合法重播入口。片尾的TV ANIME Ver.與原曲各有授權音源影片及配信，動畫盤CD第3曲為TV ANIME Ver.。",
+            "resumeWhen": "待第40話原播／可辨版次正片片尾音軌及掛字釐清月表差異，另核商業TV錄音剪輯對應與香港完整播放。",
+            "checkedAt": "2026-11-19"
           }
         ],
         "credits": [
@@ -126989,6 +128787,12 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
             "title": "I'm Your Joker (TV ANIME Ver)",
             "kind": "vocal",
             "format": "tv"
+          },
+          {
+            "id": "duel-masters-2019-ed-4-song-commercial-vocal",
+            "title": "I'm Your Joker",
+            "format": "unknown",
+            "kind": "vocal"
           }
         ],
         "releases": [
@@ -127028,10 +128832,61 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
               {
                 "title": "I'm Your Joker",
                 "position": 1,
-                "disc": 1
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-4-song-commercial-vocal"
               }
             ],
             "label": "Diamond Music"
+          },
+          {
+            "id": "dm-7s",
+            "title": "I'm Your Joker",
+            "type": "single",
+            "artistDisplayName": "IN2IT",
+            "edition": "日本初回限定デュエル・マスターズ!!盤 CD",
+            "region": "JP",
+            "label": "Diamond Music",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "I'm Your Joker",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-4-song-commercial-vocal"
+              },
+              {
+                "title": "I'm Your Joker -TV ANIME Ver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-4-song-tv-version"
+              }
+            ],
+            "catalogNumber": "DM-7S"
+          },
+          {
+            "id": "dm-8s",
+            "title": "I'm Your Joker",
+            "type": "single",
+            "artistDisplayName": "IN2IT",
+            "edition": "日本通常IN2IT盤 CD",
+            "region": "JP",
+            "label": "Diamond Music",
+            "date": {
+              "value": "2020-03-04",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "I'm Your Joker",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "duel-masters-2019-ed-4-song-commercial-vocal"
+              }
+            ],
+            "catalogNumber": "DM-8S"
           }
         ]
       }
@@ -127096,7 +128951,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
     "seasonIds": [
       "2020-winter",
       "2019-summer",
-      "2019-fall"
+      "2019-fall",
+      "2019-spring"
     ],
     "startDate": "2019-04-01",
     "titleJa": "爆丸バトルプラネット",
@@ -127190,10 +129046,11 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2020-winter",
           "2019-summer",
-          "2019-fall"
+          "2019-fall",
+          "2019-spring"
         ],
         "lastVerifiedAt": "2026-11-16",
-        "usageLabel": "日本電視版常規片頭。2019年4月1日啟用，已核2019年夏、秋和2020年冬使用。",
+        "usageLabel": "日本電視版常規片頭。2019年4月1日啟用，已核2019年春、夏、秋和2020年冬使用。",
         "sources": [
           {
             "url": "https://www.tms-e.co.jp/alltitles/2010s/624105.html",
@@ -127385,7 +129242,8 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
         "seasonIds": [
           "2020-winter",
           "2019-summer",
-          "2019-fall"
+          "2019-fall",
+          "2019-spring"
         ],
         "lastVerifiedAt": "2026-11-16",
         "usageLabel": "日本電視版第1–39話片尾；2020年1月6日第38話節目資料列明此曲，第39話於1月13日播出。",
@@ -127664,9 +129522,22002 @@ const curated2020WinterSeedRows: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "anilistId": 108734,
+    "anilistUrl": "https://anilist.co/anime/108734",
+    "id": "curated-108734",
+    "slug": "kedama-no-gonjirou",
+    "seasonIds": [
+      "2020-winter",
+      "2019-summer",
+      "2019-fall",
+      "2019-spring"
+    ],
+    "startDate": "2019-04-06",
+    "titleJa": "けだまのゴンじろー",
+    "titleRomaji": "Kedama no Gonjirou",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx108734-0QYHBRRVCfhH.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/108734",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "10:00",
+    "broadcastLabel": "日本電視東京系六台週六10:00–10:30 JST原播，2019年4月6日至2020年3月28日全51話。CoroCoro 官方 YouTube 正篇另於2019年4月13日起週六08:00 JST更新。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/gonjiro/",
+    "status": "finished",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "sourceReferenceUrls": [
+      "https://cal.syoboi.jp/tid/5278/time",
+      "https://anilist.co/anime/108734"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://blog.ja.playstation.com/2019/03/15/20190315-gonjiro/",
+        "label": "IP 權利方公布日本原播及另行網播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25370_201904061000.html",
+        "label": "東京電視台第1話日本原播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25370_202003281000.html",
+        "label": "東京電視台第51話日本原播時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/gonjiro/episodes/",
+        "label": "東京電視台原版逐話播出記錄",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.b-ch.com/titles/6560/001",
+        "label": "Bandai Channel 日本正篇25分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5278/time",
+        "label": "日本原始時段與日期交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anilist.co/anime/108734",
+        "label": "AniList 108734 識別與封面",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "kedama-no-gonjirou-op-1",
+        "titleJa": "レッツ！ゴンじろー",
+        "artistDisplayName": "CHAI",
+        "songId": "kedama-no-gonjirou-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kedamanogonjirou?cast=scd",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25370_201904061000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25370_202003281000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://chai-band.com/category/news/page/2",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1536029340",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536029341",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536029343",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1537924367",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1537924368",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://open.spotify.com/album/5xCDi4kHlgyxoV2EPPxzee",
+            "label": "Spotify 發行頁與曲序",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://open.spotify.com/track/4xIVC00qqKcw3DKZHQEc3n",
+            "label": "Spotify 正版獨立歌曲入口",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GTxQ6L_LCXg",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=A2dhine_RSs",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "レッツ！ゴンじろー｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536029341",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536029340",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kedama-no-gonjirou-op-1-song-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "レッツ！ゴンじろー（オリジナルカラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536029343",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536029340",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kedama-no-gonjirou-op-1-song-original-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "レッツ！ゴンじろー（アニメオープニングver.）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1537924368",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1537924367",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kedama-no-gonjirou-op-1-song-tv-edit"
+          },
+          {
+            "platform": "Spotify",
+            "label": "レッツ！ゴンじろー（アニメオープニングver.）｜Spotify",
+            "url": "https://open.spotify.com/track/4xIVC00qqKcw3DKZHQEc3n",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "recordingId": "kedama-no-gonjirou-op-1-song-tv-edit",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+              "https://www.mau2.com/anime/kedamanogonjirou?cast=scd"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25370_201904061000.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25370_202003281000.html",
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://www.ttmnet.co.jp/theme/2020-1/",
+              "https://www.mau2.com/anime/kedamanogonjirou?cast=scd"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1-song-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1-song-original-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://chai-band.com/category/news/page/2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1-song-tv-edit"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://chai-band.com/category/news/page/2"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-op-1-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-983-984"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-985"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536029341"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536029341"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536029343"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536029343"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+              "https://music.apple.com/hk/album/1536029340"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1536029340"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1537924368"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1537924368"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://chai-band.com/category/news/page/2",
+              "https://music.apple.com/hk/album/1537924367"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1537924367"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://chai-band.com/category/news/page/2",
+              "https://open.spotify.com/album/5xCDi4kHlgyxoV2EPPxzee",
+              "https://open.spotify.com/track/4xIVC00qqKcw3DKZHQEc3n"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://open.spotify.com/track/4xIVC00qqKcw3DKZHQEc3n"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GTxQ6L_LCXg"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "GTxQ6L_LCXg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=A2dhine_RSs"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "A2dhine_RSs"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter",
+          "2019-spring"
+        ],
+        "usageLabel": "日本原電視正篇第1–51話常規片頭。第1話於2019年4月6日首播，第40話於2020年1月11日播出。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "CHAI",
+            "role": "vocals"
+          },
+          {
+            "name": "ユウキ",
+            "role": "lyrics"
+          },
+          {
+            "name": "マナ",
+            "role": "composition"
+          },
+          {
+            "name": "カナ",
+            "role": "composition"
+          },
+          {
+            "name": "CHAI",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kedama-no-gonjirou-op-1-song-full",
+            "title": "レッツ！ゴンじろー",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kedama-no-gonjirou-op-1-song-original-karaoke",
+            "title": "レッツ！ゴンじろー（オリジナルカラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kedama-no-gonjirou-op-1-song-tv-edit",
+            "title": "レッツ！ゴンじろー（アニメオープニングver.）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releaseDate": "2019-04-06",
+        "releases": [
+          {
+            "id": "bvcl-983-984",
+            "title": "けだまのゴンじろー",
+            "type": "single",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "初回生産限定盤（CD＋ボタン）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "レッツ！ゴンじろー",
+                "position": 1,
+                "recordingId": "kedama-no-gonjirou-op-1-song-full"
+              },
+              {
+                "title": "レッツ！ゴンじろー（オリジナルカラオケ）",
+                "position": 3,
+                "recordingId": "kedama-no-gonjirou-op-1-song-original-karaoke"
+              }
+            ],
+            "catalogNumber": "BVCL-983～984"
+          },
+          {
+            "id": "bvcl-985",
+            "title": "けだまのゴンじろー",
+            "type": "single",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "レッツ！ゴンじろー",
+                "position": 1,
+                "recordingId": "kedama-no-gonjirou-op-1-song-full"
+              },
+              {
+                "title": "レッツ！ゴンじろー（オリジナルカラオケ）",
+                "position": 3,
+                "recordingId": "kedama-no-gonjirou-op-1-song-original-karaoke"
+              }
+            ],
+            "catalogNumber": "BVCL-985"
+          },
+          {
+            "id": "apple-hk-1536029340",
+            "title": "けだまのゴンじろー",
+            "type": "ep",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "CHAI & H.E.DEMON KAKKA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "レッツ！ゴンじろー",
+                "position": 1,
+                "recordingId": "kedama-no-gonjirou-op-1-song-full"
+              },
+              {
+                "title": "レッツ！ゴンじろー（オリジナルカラオケ）",
+                "position": 3,
+                "recordingId": "kedama-no-gonjirou-op-1-song-original-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1537924367",
+            "title": "レッツ！ゴンじろー（アニメオープニングver.）",
+            "type": "single",
+            "date": {
+              "value": "2019-04-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "CHAI",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "レッツ！ゴンじろー（アニメオープニングver.）",
+                "position": 1,
+                "recordingId": "kedama-no-gonjirou-op-1-song-tv-edit"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "official_video",
+              "platform_availability"
+            ],
+            "note": "已核常規片頭、唱片方完整與動畫版，以及原創卡拉 OK。原電視畫面與音源的直接對照待核。",
+            "resumeWhen": "待權利方公開可辨識的原版片頭影片、對照原始署名，再按地區驗證完整播放。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "kedama-no-gonjirou-ed-1",
+        "titleJa": "わさわさわさ！",
+        "artistDisplayName": "デーモン閣下",
+        "songId": "kedama-no-gonjirou-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kedamanogonjirou?cast=scd",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25370_201904061000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25370_202003281000.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-4/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-7/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2019-10/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ttmnet.co.jp/theme/2020-1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1536029340",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536029342",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1536029344",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://open.spotify.com/album/0Mp7bzJcXWP753OnMUI3yd",
+            "label": "Spotify 發行頁與曲序",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://open.spotify.com/track/3xF9oapv0kWVJRBQHZux9g",
+            "label": "Spotify 正版獨立歌曲入口",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=X0mERWlHhOg",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mediag.bunka.go.jp/article/article-17827/",
+            "label": "文化廳公布的片尾動畫導演資料",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GrWK6BJwziI",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "わさわさわさ！｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536029342",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536029340",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kedama-no-gonjirou-ed-1-song-full"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "わさわさわさ！（オリジナルカラオケ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1536029344",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1536029340",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "kedama-no-gonjirou-ed-1-song-original-karaoke"
+          },
+          {
+            "platform": "Spotify",
+            "label": "わさわさわさ！(アニメエンディングver.)｜Spotify",
+            "url": "https://open.spotify.com/track/3xF9oapv0kWVJRBQHZux9g",
+            "linkType": "direct_track",
+            "region": "UNKNOWN",
+            "recordingId": "kedama-no-gonjirou-ed-1-song-tv-edit",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "releaseId": "spotify-0mp7bzjcxwp753onmui3yd"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+              "https://www.mau2.com/anime/kedamanogonjirou?cast=scd"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/gonjiro/staff/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201904/25370_201904061000.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/25370_202003281000.html",
+              "https://www.ttmnet.co.jp/theme/2019-4/",
+              "https://www.ttmnet.co.jp/theme/2019-7/",
+              "https://www.ttmnet.co.jp/theme/2019-10/",
+              "https://www.ttmnet.co.jp/theme/2020-1/",
+              "https://www.mau2.com/anime/kedamanogonjirou?cast=scd"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1-song-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1-song-original-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1-song-tv-edit"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "kedama-no-gonjirou-ed-1-song"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-983-984"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "bvcl-985"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536029342"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536029342"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1536029344"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1536029344"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/507323",
+              "https://music.apple.com/hk/album/1536029340"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1536029340"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719",
+              "https://open.spotify.com/album/0Mp7bzJcXWP753OnMUI3yd"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "spotify-0mp7bzjcxwp753onmui3yd"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/DemonKakka/info/505719",
+              "https://open.spotify.com/album/0Mp7bzJcXWP753OnMUI3yd",
+              "https://open.spotify.com/track/3xF9oapv0kWVJRBQHZux9g"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://open.spotify.com/track/3xF9oapv0kWVJRBQHZux9g"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=X0mERWlHhOg"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "X0mERWlHhOg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GrWK6BJwziI"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "GrWK6BJwziI"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter",
+          "2019-spring"
+        ],
+        "usageLabel": "日本原電視正篇第1–51話常規片尾。第1話於2019年4月6日首播，第40話於2020年1月11日播出。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "デーモン閣下",
+            "role": "vocals"
+          },
+          {
+            "name": "デーモン閣下",
+            "role": "lyrics"
+          },
+          {
+            "name": "デーモン閣下",
+            "role": "composition"
+          },
+          {
+            "name": "pal@pop",
+            "role": "composition"
+          },
+          {
+            "name": "pal@pop",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kedama-no-gonjirou-ed-1-song-full",
+            "title": "わさわさわさ！",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "kedama-no-gonjirou-ed-1-song-original-karaoke",
+            "title": "わさわさわさ！（オリジナルカラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "kedama-no-gonjirou-ed-1-song-tv-edit",
+            "title": "わさわさわさ！(アニメエンディングver.)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releaseDate": "2019-04-06",
+        "releases": [
+          {
+            "id": "bvcl-983-984",
+            "title": "けだまのゴンじろー",
+            "type": "single",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "初回生産限定盤（CD＋ボタン）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "わさわさわさ！",
+                "position": 2,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-full"
+              },
+              {
+                "title": "わさわさわさ！（オリジナルカラオケ）",
+                "position": 4,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-original-karaoke"
+              }
+            ],
+            "catalogNumber": "BVCL-983～984"
+          },
+          {
+            "id": "bvcl-985",
+            "title": "けだまのゴンじろー",
+            "type": "single",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "わさわさわさ！",
+                "position": 2,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-full"
+              },
+              {
+                "title": "わさわさわさ！（オリジナルカラオケ）",
+                "position": 4,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-original-karaoke"
+              }
+            ],
+            "catalogNumber": "BVCL-985"
+          },
+          {
+            "id": "apple-hk-1536029340",
+            "title": "けだまのゴンじろー",
+            "type": "ep",
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            },
+            "artistDisplayName": "CHAI & H.E.DEMON KAKKA",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "わさわさわさ！",
+                "position": 2,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-full"
+              },
+              {
+                "title": "わさわさわさ！（オリジナルカラオケ）",
+                "position": 4,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-original-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "spotify-0mp7bzjcxwp753onmui3yd",
+            "title": "わさわさわさ！(アニメエンディングver.)",
+            "type": "single",
+            "date": {
+              "value": "2019-04-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "デーモン閣下",
+            "edition": "數位版",
+            "region": "UNKNOWN",
+            "tracks": [
+              {
+                "title": "わさわさわさ！(アニメエンディングver.)",
+                "position": 1,
+                "recordingId": "kedama-no-gonjirou-ed-1-song-tv-edit"
+              }
+            ],
+            "label": "Ariola Japan"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_links",
+              "platform_availability"
+            ],
+            "note": "已核常規片尾、唱片方動畫版與獲授權無字幕片尾影片。香港 Apple Music 已核完整版及卡拉 OK，電視版可從 Spotify 開啟曲目頁。",
+            "resumeWhen": "待香港店面出現獨立片尾電視版、按地區驗證完整播放，或取得發行方與無字幕片尾的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 105749,
+    "anilistUrl": "https://anilist.co/anime/105749",
+    "id": "curated-105749",
+    "slug": "diamond-no-ace-act-ii",
+    "seasonIds": [
+      "2020-winter",
+      "2019-fall",
+      "2019-summer",
+      "2019-spring"
+    ],
+    "startDate": "2019-04-02",
+    "titleJa": "ダイヤのA actⅡ",
+    "titleZhHant": "鑽石王牌 act2",
+    "titleRomaji": "Diamond no Ace act II",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx105749-bbqFNGq0r6mS.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/105749",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "editorialWeekday": 2,
+    "broadcastTimeJst": "17:55",
+    "broadcastLabel": "日本首輪於2019年4月2日至2020年3月31日每週二17:55–18:25 JST在東京電視台系播出全52話，2019年12月24日第39話後，次話於2020年1月7日首播。Bandai Channel原版第45話為25分鐘。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/diaace2/",
+    "status": "finished",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "sourceReferenceUrls": [
+      "https://ani.gamer.com.tw/animeVideo.php?sn=12086",
+      "https://youranimes.tw/animes/504/onair",
+      "https://cal.syoboi.jp/tid/5274/time"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/diaace2/news/",
+        "label": "東京電視台原版首播日期與時間公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html",
+        "label": "東京電視台第1–2話原播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_2.html",
+        "label": "東京電視台第33–42話原播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/",
+        "label": "東京電視台第43–52話原播日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/22856_202001071755.html",
+        "label": "東京電視台第40話17:55–18:25 JST節目表及曲欄",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/22856_202003311755.html",
+        "label": "東京電視台第52話17:55–18:25 JST節目表及曲欄",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.b-ch.com/titles/6547/045",
+        "label": "Bandai Channel日本原版第45話正片長度25分鐘",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5274/time",
+        "label": "日本首輪時段與集數交叉",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://ani.gamer.com.tw/animeVideo.php?sn=12086",
+        "label": "巴哈姆特動畫瘋台灣授權動畫名稱和木棉花代理",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://youranimes.tw/animes/504/onair",
+        "label": "繁中同作品身分及日期交叉",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anilist.co/anime/105749",
+        "label": "AniList公開作品身分與圖像",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "themes": [
+      {
+        "id": "diamond-no-ace-act-ii-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "はじまりのうた",
+        "artistDisplayName": "GLAY",
+        "songId": "diamond-no-ace-act-ii-op-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2019-spring"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第1–29話片頭；2019年4月2日開始，至10月15日第29話。",
+        "sources": [
+          {
+            "url": "https://www.glay.co.jp/news/detail/4501",
+            "label": "GLAY 首支片頭用途公告",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://info.glay.co.jp/nodemocracy/",
+            "label": "GLAY 專輯官方曲位及片頭用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html",
+            "label": "東京電視台第1–2話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+            "label": "東京電視台第23–32話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://info.glay.co.jp/review2/teruselect_linernotes/",
+            "label": "GLAY 官方樂評列作詞與作曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.glay.co.jp/news/detail/4538",
+            "label": "GLAY 日本TV SizeVer.於2019年4月2日先行配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.glay.co.jp/discography/detail/3/",
+            "label": "GLAY 日本版單曲兩版及曲位",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1466045237",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1466045245",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1457671092",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1457671098",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=J_OxuDSZ4ng",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GLAY",
+            "role": "vocals"
+          },
+          {
+            "name": "TERU",
+            "role": "lyrics"
+          },
+          {
+            "name": "TERU",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4501",
+              "https://info.glay.co.jp/nodemocracy/",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4501",
+              "https://info.glay.co.jp/nodemocracy/",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://info.glay.co.jp/review2/teruselect_linernotes/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4538"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-1-song-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccn-00035"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/3/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccn-00036"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1466045245"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1466045245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/3/",
+              "https://music.apple.com/hk/album/1466045237"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1466045237"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1457671098"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1457671098"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4538",
+              "https://music.apple.com/hk/album/1457671092"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1457671092"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=J_OxuDSZ4ng"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "J_OxuDSZ4ng"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "releases"
+            ],
+            "note": "GLAY 公告日本 TV Size 於4月2日上架，香港 Apple Music 發行頁標4月1日。",
+            "resumeWhen": "待發行方補明各地商店時間，再統一最早發行日的欄位。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-op-1-song-single-vocal",
+            "title": "はじまりのうた",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-op-1-song-tv-size",
+            "title": "はじまりのうた (TV SizeVer.)",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccn-00035",
+            "title": "G4・Ⅴ-Democracy 2019-",
+            "type": "single",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2019-07-02",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "はじまりのうた",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCN-00035",
+            "edition": "CD＋DVD盤"
+          },
+          {
+            "id": "pccn-00036",
+            "title": "G4・Ⅴ-Democracy 2019-",
+            "type": "single",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2019-07-02",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "はじまりのうた",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ],
+            "catalogNumber": "PCCN-00036",
+            "edition": "CD盤"
+          },
+          {
+            "id": "apple-hk-1466045237",
+            "title": "G4・Ⅴ-Democracy 2019-",
+            "type": "ep",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2019-07-02",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "はじまりのうた",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+              }
+            ],
+            "edition": "香港區數位版"
+          },
+          {
+            "id": "apple-hk-1457671092",
+            "title": "はじまりのうた (TV SizeVer.)",
+            "type": "single",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2019-04-01",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "はじまりのうた (TV SizeVer.)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-op-1-song-tv-size"
+              }
+            ],
+            "edition": "香港區數位版"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1466045245",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1466045237",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1457671098",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1457671092",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-op-1-song-tv-size"
+          }
+        ]
+      },
+      {
+        "id": "diamond-no-ace-act-ii-op-2",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "流星のHowl",
+        "artistDisplayName": "GLAY",
+        "songId": "diamond-no-ace-act-ii-op-2-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第30–44、46–52話片頭，由2019年10月22日至2020年3月31日。播出方節目表作「流星のHOWL」。",
+        "sources": [
+          {
+            "url": "https://www.glay.co.jp/news/detail/4675",
+            "label": "GLAY 後期片頭公告、曲名大小寫及創作角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+            "label": "東京電視台原版片頭與片尾音樂欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22856_201910221755.html",
+            "label": "東京電視台第30話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/22856_202001071755.html",
+            "label": "東京電視台第40話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/22856_202003311755.html",
+            "label": "東京電視台第52話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+            "label": "東京電視台第23–32話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/",
+            "label": "東京電視台第43–52話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii/ep/45",
+            "label": "Mau2 第45話特別曲目交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.glay.co.jp/discography/detail/2/",
+            "label": "GLAY 單曲曲序、曲名與詞曲署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.glay.co.jp/news/detail/4914",
+            "label": "GLAY 明示日本單曲收錄完整曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1522408595",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1522408778",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DMu8CJFnEhQ",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202002/22856_202002111755.html",
+            "label": "東京電視台第45話地上波原播節目頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202002/22856_202002132430.html",
+            "label": "BSテレ東第45話節目表使用常規主題欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nMf6ObdJJKI",
+            "label": "木棉花第45話正版日語正片，日本總集篇的編號差另計",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bilibili.com/bangumi/play/ep284620",
+            "label": "嗶哩嗶哩授權後半第45話，有播放地區限制",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5274",
+            "label": "日本原版第45話開頭與片尾交叉記錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "GLAY",
+            "role": "vocals"
+          },
+          {
+            "name": "TAKURO",
+            "role": "lyrics"
+          },
+          {
+            "name": "TERU",
+            "role": "composition"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4675",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4675",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22856_201910221755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/22856_202001071755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/22856_202003311755.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+              "https://www.mau2.com/anime/daiyanoaceactii/ep/45"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/news/detail/4675",
+              "https://www.glay.co.jp/discography/detail/2/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/2/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-2-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/2/",
+              "https://www.glay.co.jp/news/detail/4914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-op-2-song-single-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/2/",
+              "https://www.glay.co.jp/news/detail/4914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccn-00043"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/2/",
+              "https://www.glay.co.jp/news/detail/4914"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccn-00044"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1522408778"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1522408778"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.glay.co.jp/discography/detail/2/",
+              "https://music.apple.com/hk/album/1522408595"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1522408595"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=DMu8CJFnEhQ"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "DMu8CJFnEhQ"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "arrangement"
+            ],
+            "note": "藝人公告分別記載 DJ Mass MAD Izm* 參與編曲及亀田誠治擔任監製。",
+            "resumeWhen": "取得原盤或原版掛字的完整編曲署名再補。",
+            "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "第45話的末段使用及前段另曲有逐話交叉；本筆保存常規片頭範圍。",
+            "resumeWhen": "核對原播或正版日語第45話的實際片尾及音樂署名後補特例。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "releaseDate": "2020-08-12",
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-op-2-song-single-full",
+            "title": "流星のHowl",
+            "format": "full",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccn-00043",
+            "title": "G4・2020",
+            "type": "single",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "流星のHowl",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+              }
+            ],
+            "catalogNumber": "PCCN-00043",
+            "edition": "CD＋DVD盤"
+          },
+          {
+            "id": "pccn-00044",
+            "title": "G4・2020",
+            "type": "single",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "流星のHowl",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+              }
+            ],
+            "catalogNumber": "PCCN-00044",
+            "edition": "CD盤"
+          },
+          {
+            "id": "apple-hk-1522408595",
+            "title": "G4・2020",
+            "type": "ep",
+            "artistDisplayName": "GLAY",
+            "date": {
+              "value": "2020-08-12",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "流星のHowl",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+              }
+            ],
+            "edition": "香港區數位版"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1522408778",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1522408595",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-op-2-song-single-full"
+          }
+        ]
+      },
+      {
+        "id": "diamond-no-ace-act-ii-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ゴールデンアフタースクール",
+        "artistDisplayName": "OxT",
+        "songId": "diamond-no-ace-act-ii-ed-1-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-spring"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第1–13話片尾；2019年4月2日至6月25日。",
+        "sources": [
+          {
+            "url": "https://news.ponycanyon.co.jp/2019/04/31718",
+            "label": "波麗佳音公告OxT首支片尾與原單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html",
+            "label": "東京電視台第1–2話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_4.html",
+            "label": "東京電視台第13–22話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA",
+            "label": "Anisil 逐話使用與編曲署名交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://oxt.ponycanyon.co.jp/",
+            "label": "唱片方原專輯及歌曲曲位",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1528922188",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1528922500",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=WS5oYfMlAR0",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "OxT",
+            "role": "vocals"
+          },
+          {
+            "name": "大石昌良",
+            "role": "lyrics"
+          },
+          {
+            "name": "大石昌良",
+            "role": "composition"
+          },
+          {
+            "name": "KanadeYUK",
+            "role": "arrangement"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_6.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_4.html",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718",
+              "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-1-song-tv-edit"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/04/31718"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01778"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1528922500"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1528922500"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://oxt.ponycanyon.co.jp/",
+              "https://music.apple.com/hk/album/1528922188"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1528922188"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=WS5oYfMlAR0"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "WS5oYfMlAR0"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "releaseDate": "2019-04-17",
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-ed-1-song-single-vocal",
+            "title": "ゴールデンアフタースクール",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-1-song-tv-edit",
+            "title": "ゴールデンアフタースクール (TV edit)",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccg-01778",
+            "title": "ゴールデンアフタースクール",
+            "type": "single",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2019-04-17",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゴールデンアフタースクール",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-single-vocal"
+              },
+              {
+                "title": "ゴールデンアフタースクール (TV edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-1-song-tv-edit"
+              }
+            ],
+            "catalogNumber": "PCCG-01778",
+            "edition": "CD單曲",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1528922188",
+            "title": "REUNION",
+            "type": "album",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2020-09-10",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "ゴールデンアフタースクール",
+                "disc": 1,
+                "position": 12
+              }
+            ],
+            "edition": "香港區數位版",
+            "label": "PONY CANYON"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1528922500",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1528922188",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "diamond-no-ace-act-ii-ed-2",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "鼓動エスカレーション",
+        "artistDisplayName": "内田真礼",
+        "songId": "diamond-no-ace-act-ii-ed-2-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第14–29話片尾；2019年7月2日至10月15日。",
+        "sources": [
+          {
+            "url": "https://uchidamaaya.jp/discography/9th_sg/",
+            "label": "內田真禮官方單曲發行及創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://diaace.com/arrivals/5115/",
+            "label": "動畫官方公告內田真禮自7月起擔任片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/22856_201907021755.html",
+            "label": "東京電視台第14話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_4.html",
+            "label": "東京電視台第13–22話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+            "label": "東京電視台第23–32話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1470205775",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1470205776",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1470205784",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1469167722",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1469167723",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=OgLAGtlVBho",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "内田真礼",
+            "role": "vocals"
+          },
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "composition"
+          },
+          {
+            "name": "KanadeYUK",
+            "role": "arrangement"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/",
+              "https://diaace.com/arrivals/5115/",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://diaace.com/arrivals/5115/",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201907/22856_201907021755.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_4.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01789"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-70456"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1470205776"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1470205776"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1470205784"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1470205784"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/",
+              "https://music.apple.com/hk/album/1470205775"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1470205775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1469167723"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1469167723"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://uchidamaaya.jp/discography/9th_sg/",
+              "https://music.apple.com/hk/album/1469167722"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1469167722"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=OgLAGtlVBho"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "OgLAGtlVBho"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "香港正版單曲明列 TV Edit 及曲位。",
+            "resumeWhen": "待權利方說明 TV Edit 或可辨識原播錄音，再對應音源。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-ed-2-song-single-vocal",
+            "title": "鼓動エスカレーション",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-2-song-instrumental",
+            "title": "鼓動エスカレーション（Instrumental）",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccg-01789",
+            "title": "鼓動エスカレーション",
+            "type": "single",
+            "artistDisplayName": "内田真礼",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "鼓動エスカレーション",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              },
+              {
+                "title": "鼓動エスカレーション（Instrumental）",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+              }
+            ],
+            "catalogNumber": "PCCG-01789",
+            "edition": "初回限定盤（CD＋DVD）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-70456",
+            "title": "鼓動エスカレーション",
+            "type": "single",
+            "artistDisplayName": "内田真礼",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "鼓動エスカレーション",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              },
+              {
+                "title": "鼓動エスカレーション（Instrumental）",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+              }
+            ],
+            "catalogNumber": "PCCG-70456",
+            "edition": "通常盤（CD）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1470205775",
+            "title": "鼓動エスカレーション",
+            "type": "ep",
+            "artistDisplayName": "内田真礼",
+            "date": {
+              "value": "2019-07-10",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "鼓動エスカレーション",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+              },
+              {
+                "title": "鼓動エスカレーション（Instrumental）",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+              }
+            ],
+            "edition": "香港區數位版",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1469167722",
+            "title": "鼓動エスカレーション (TV Edit)",
+            "type": "single",
+            "artistDisplayName": "内田真礼",
+            "date": {
+              "value": "2019-07-03",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "鼓動エスカレーション (TV Edit)",
+                "disc": 1,
+                "position": 1
+              }
+            ],
+            "edition": "香港區數位版",
+            "label": "PONY CANYON"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1470205776",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1470205775",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1470205784",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1470205775",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-2-song-instrumental"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1469167723",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1469167722",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "diamond-no-ace-act-ii-ed-3",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "チャンス！",
+        "artistDisplayName": "三森すずこ",
+        "songId": "diamond-no-ace-act-ii-ed-3-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第30–39話片尾；2019年10月22日至12月24日。",
+        "sources": [
+          {
+            "url": "https://news.ponycanyon.co.jp/2019/09/34127",
+            "label": "波麗佳音公告三森すずこ第三支片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22856_201910221755.html",
+            "label": "東京電視台第30話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+            "label": "東京電視台第23–32話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_2.html",
+            "label": "東京電視台第33–42話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mimorin.com/discography/9thcd/",
+            "label": "三森すずこ官網單曲曲目、詞曲及編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1488562287",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1488562288",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1488562290",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1488562291",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=pSSRelU-X_A",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "三森すずこ",
+            "role": "vocals"
+          },
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "大石昌良",
+            "role": "composition"
+          },
+          {
+            "name": "大石昌良",
+            "role": "arrangement"
+          },
+          {
+            "name": "yamazo",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/09/34127",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22856_201910221755.html",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/09/34127",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201910/22856_201910221755.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_3.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/index_2.html",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2019/09/34127"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01838"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1488562288"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1488562288"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1488562290"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1488562290"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1488562291"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1488562291"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://mimorin.com/discography/9thcd/",
+              "https://music.apple.com/hk/album/1488562287"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1488562287"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=pSSRelU-X_A"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pSSRelU-X_A"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "releaseDate": "2019-12-04",
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-ed-3-song-single-vocal",
+            "title": "チャンス！",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-3-song-tv-size",
+            "title": "チャンス！ (TV size)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-3-song-instrumental",
+            "title": "チャンス！ (Instrumental)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccg-01838",
+            "title": "チャンス！ ／ ゆうがた",
+            "type": "single",
+            "artistDisplayName": "三森すずこ",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "チャンス！",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              },
+              {
+                "title": "チャンス！ (TV size)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+              },
+              {
+                "title": "チャンス！ (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+              }
+            ],
+            "catalogNumber": "PCCG-01838",
+            "edition": "通常盤（CD）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1488562287",
+            "title": "Chance!/Yugata",
+            "type": "ep",
+            "artistDisplayName": "三森すずこ",
+            "date": {
+              "value": "2019-12-04",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "チャンス！",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+              },
+              {
+                "title": "チャンス！ (TV size)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+              },
+              {
+                "title": "チャンス！ (Instrumental)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+              }
+            ],
+            "edition": "香港區數位版",
+            "label": "PONY CANYON"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1488562288",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1488562287",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1488562290",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1488562287",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1488562291",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1488562287",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-3-song-instrumental"
+          }
+        ]
+      },
+      {
+        "id": "diamond-no-ace-act-ii-ed-4",
+        "type": "ED",
+        "sequence": 4,
+        "titleJa": "Everlasting Dream",
+        "artistDisplayName": "OxT",
+        "songId": "diamond-no-ace-act-ii-ed-4-song",
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "lastVerifiedAt": "2026-11-16",
+        "usageLabel": "日本首輪第40–44、46–52話片尾；2020年1月7日至3月31日，第45話除外。",
+        "sources": [
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+            "label": "東京電視台原版片頭與片尾音樂欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://news.ponycanyon.co.jp/2020/01/36551",
+            "label": "波麗佳音公告OxT第四支片尾及商業發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+            "label": "Mau2 日本原版52話片頭與片尾曲逐話交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/22856_202001071755.html",
+            "label": "東京電視台第40話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/22856_202003311755.html",
+            "label": "東京電視台第52話17:55–18:25 JST節目表及曲欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/",
+            "label": "東京電視台第43–52話原播日期",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA",
+            "label": "Anisil 逐話使用與編曲署名交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/daiyanoaceactii/ep/45",
+            "label": "Mau2 第45話特別曲目交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://contents.oricon.co.jp/prof/647814/lyrics/52655/",
+            "label": "ORICON 單曲詞曲及編曲交叉",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCG000001877",
+            "label": "PONY CANYON 日本通常盤曲目與發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.oxt-music.com/discography/everlasting-dream-2/",
+            "label": "OxT 逐版日本CD及Blu-ray曲位與發行規格",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1492850970",
+            "label": "Apple Music 香港版發行、日期與曲位",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492850971",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492850973",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492850974",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492850975",
+            "label": "Apple Music 香港版指定曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=lfEObTYv0iw",
+            "label": "官方影片標題、頻道及發表形式",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202002/22856_202002111755.html",
+            "label": "東京電視台第45話地上波原播節目頁",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202002/22856_202002132430.html",
+            "label": "BSテレ東第45話節目表使用常規主題欄",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nMf6ObdJJKI",
+            "label": "木棉花第45話正版日語正片，日本總集篇的編號差另計",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.bilibili.com/bangumi/play/ep284620",
+            "label": "嗶哩嗶哩授權後半第45話，有播放地區限制",
+            "role": "cross_check",
+            "language": "zh-Hans",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5274",
+            "label": "日本原版第45話開頭與片尾交叉記錄",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "credits": [
+          {
+            "name": "OxT",
+            "role": "vocals"
+          },
+          {
+            "name": "hotaru",
+            "role": "lyrics"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "composition"
+          },
+          {
+            "name": "Tom-H@ck",
+            "role": "arrangement"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+              "https://news.ponycanyon.co.jp/2020/01/36551",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tv-tokyo.co.jp/anime/diaace2/music/",
+              "https://news.ponycanyon.co.jp/2020/01/36551",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/22856_202001071755.html",
+              "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202003/22856_202003311755.html",
+              "https://www.tv-tokyo.co.jp/anime/diaace2/episodes/",
+              "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA",
+              "https://www.mau2.com/anime/daiyanoaceactii?cast=cv",
+              "https://www.mau2.com/anime/daiyanoaceactii/ep/45"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551",
+              "https://contents.oricon.co.jp/prof/647814/lyrics/52655/",
+              "https://www.anisil.com/animes/4565-%E3%83%80%E3%82%A4%E3%83%A4%E3%81%AEA%20actII?fp%5B%5D=1122-%E8%8A%B1%E6%B1%9F%E5%A4%8F%E6%A8%B9&fp%5B%5D=13813-%E9%80%A2%E5%9D%82%E8%89%AF%E5%A4%AA"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "date"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551",
+              "https://www.ponycanyon.co.jp/music/PCCG000001877"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://news.ponycanyon.co.jp/2020/01/36551"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.oxt-music.com/discography/everlasting-dream-2/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01876"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.oxt-music.com/discography/everlasting-dream-2/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01877"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "catalog_number",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.oxt-music.com/discography/everlasting-dream-2/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "pccg-01878"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1492850971"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1492850971"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1492850973"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1492850973"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1492850974"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1492850974"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1492850975"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1492850975"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000001877",
+              "https://music.apple.com/hk/album/1492850970"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1492850970"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=lfEObTYv0iw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "lfEObTYv0iw"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "已核正式發行及曲位，原播實際剪輯與商業母帶關係待核。",
+            "resumeWhen": "待版別明文或實際可比對的原播及發行音軌。香港完整播放需依地區另驗。",
+            "checkedAt": "2026-11-16"
+          },
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "兩份逐話曲表均未將第45話列入本曲使用組。日本BS節目表仍列常規音樂欄。",
+            "resumeWhen": "取得第45話原版掛字或權利方的逐話歌曲資料，再辨認實際代用片尾。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "releaseDate": "2020-01-21",
+        "recordings": [
+          {
+            "id": "diamond-no-ace-act-ii-ed-4-song-single-vocal",
+            "title": "Everlasting Dream",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-4-song-tv-edit",
+            "title": "Everlasting Dream (TV edit)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-4-song-karaoke",
+            "title": "Everlasting Dream (KARAOKE)",
+            "format": "unknown",
+            "kind": "instrumental"
+          },
+          {
+            "id": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke",
+            "title": "Everlasting Dream (TV edit) (KARAOKE)",
+            "format": "tv",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccg-01876",
+            "title": "Everlasting Dream",
+            "type": "single",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Everlasting Dream",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              },
+              {
+                "title": "Everlasting Dream (TV edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+              },
+              {
+                "title": "Everlasting Dream (KARAOKE)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+              },
+              {
+                "title": "Everlasting Dream (TV edit) (KARAOKE)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+              }
+            ],
+            "catalogNumber": "PCCG-01876",
+            "edition": "初回限定盤（CD＋Blu-ray）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01877",
+            "title": "Everlasting Dream",
+            "type": "single",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Everlasting Dream",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              },
+              {
+                "title": "Everlasting Dream (TV edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+              },
+              {
+                "title": "Everlasting Dream (KARAOKE)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+              },
+              {
+                "title": "Everlasting Dream (TV edit) (KARAOKE)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+              }
+            ],
+            "catalogNumber": "PCCG-01877",
+            "edition": "通常盤（CD）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "pccg-01878",
+            "title": "Everlasting Dream",
+            "type": "single",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Everlasting Dream",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              },
+              {
+                "title": "Everlasting Dream (TV edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+              },
+              {
+                "title": "Everlasting Dream (KARAOKE)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+              },
+              {
+                "title": "Everlasting Dream (TV edit) (KARAOKE)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+              }
+            ],
+            "catalogNumber": "PCCG-01878",
+            "edition": "動畫封面盤（CD）",
+            "label": "PONY CANYON"
+          },
+          {
+            "id": "apple-hk-1492850970",
+            "title": "Everlasting Dream",
+            "type": "ep",
+            "artistDisplayName": "OxT",
+            "date": {
+              "value": "2020-02-05",
+              "precision": "day"
+            },
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Everlasting Dream",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+              },
+              {
+                "title": "Everlasting Dream (TV edit)",
+                "disc": 1,
+                "position": 3,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+              },
+              {
+                "title": "Everlasting Dream (KARAOKE)",
+                "disc": 1,
+                "position": 4,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+              },
+              {
+                "title": "Everlasting Dream (TV edit) (KARAOKE)",
+                "disc": 1,
+                "position": 5,
+                "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+              }
+            ],
+            "edition": "香港區數位版",
+            "label": "PONY CANYON"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1492850971",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1492850970",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1492850973",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1492850970",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1492850974",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1492850970",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港",
+            "url": "https://music.apple.com/hk/song/1492850975",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1492850970",
+            "verifiedAt": "2026-11-16",
+            "availability": "unknown",
+            "recordingId": "diamond-no-ace-act-ii-ed-4-song-tv-edit-karaoke"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 105857,
+    "anilistUrl": "https://anilist.co/anime/105857",
+    "id": "curated-105857",
+    "slug": "star-twinkle-precure",
+    "seasonIds": [
+      "2020-winter",
+      "2019-summer",
+      "2019-fall",
+      "2019-spring",
+      "2019-winter"
+    ],
+    "startDate": "2019-02-03",
+    "titleJa": "スター☆トゥインクルプリキュア",
+    "titleZhHant": "星光閃亮☆光之美少女",
+    "titleRomaji": "Star☆Twinkle Precure",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "08:30",
+    "broadcastLabel": "日本ABC電視台／朝日電視網週日08:30–09:00 JST，2019年2月3日至2020年1月26日全49話。朝日放送另列第27、28話當天09:00於TVer上架。",
+    "officialSiteUrl": "https://www.toei-anim.co.jp/tv/startwinkle_precure/",
+    "status": "finished",
+    "verifiedAt": "2026-11-16",
+    "metadataVerifiedAt": "2026-11-16",
+    "sourceReferenceUrls": [
+      "https://toy.bandai.co.jp/tc/series/precure/item/?brand=twinkle-precure",
+      "https://cal.syoboi.jp/tid/5206/time"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.asahi.co.jp/precure/twinkle/",
+        "label": "朝日放送電視台原時段及電視網",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+        "label": "朝日放送原TV全49話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://anime-precure.com/history/p16/",
+        "label": "東映官方年表原播首末日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://www.asahi.co.jp/precure/twinkle/news/20190802_news.html",
+        "label": "朝日放送公告部分話次首播後9時於TVer配信",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5206/time",
+        "label": "日本原播時段及個別地區播出時間交叉",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://toy.bandai.co.jp/tc/series/precure/item/?brand=twinkle-precure",
+        "label": "萬代繁體中文正式系列名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-16"
+      },
+      {
+        "url": "https://myanimelist.net/anime/38578/Star%E2%98%86Twinkle_Precure",
+        "label": "日本原版49話作品識別交叉",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-16"
+      }
+    ],
+    "themes": [
+      {
+        "type": "OP",
+        "sequence": 1,
+        "id": "star-twinkle-precure-op-1",
+        "titleJa": "キラリ☆彡スター☆トゥインクルプリキュア",
+        "artistDisplayName": "北川理恵",
+        "songId": "star-twinkle-precure-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=orXl9RXE_k4",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestyle.jp/2020/01/21/16948/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd01.php",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd02.php",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1455209663",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1455209664",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1467725021",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1467725035",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "キラリ☆彡スター☆トゥインクルプリキュア｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1455209664",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1455209663",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-op-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "キラリ☆彡スター☆トゥインクルプリキュア（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1467725035",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1467725021",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-op-1-song-ost-tv-size"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=orXl9RXE_k4",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=orXl9RXE_k4",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=orXl9RXE_k4"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song-ost-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd01.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09234"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd02.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09232-09233"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1455209664"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1455209664"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://music.apple.com/hk/album/1455209663"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1455209663"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1467725035"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1467725035"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+              "https://music.apple.com/hk/album/1467725021"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1467725021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01274"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=orXl9RXE_k4"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "orXl9RXE_k4"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter",
+          "2019-spring",
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第1–47及49話片頭。第48話省略常規片頭。電影宣傳期間曾換部分畫面。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "北川理恵",
+            "role": "vocals"
+          },
+          {
+            "name": "藤本記子",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤本記子",
+            "role": "composition"
+          },
+          {
+            "name": "福富雅之",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "原單曲及OST的TV尺寸已核，宣傳畫面是否沿用相同母帶待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-op-1-song-single-vocal",
+            "title": "キラリ☆彡スター☆トゥインクルプリキュア",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "star-twinkle-precure-op-1-song-ost-tv-size",
+            "title": "キラリ☆彡スター☆トゥインクルプリキュア（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "star-twinkle-precure-op-1-song-original-karaoke",
+            "title": "キラリ☆彡スター☆トゥインクルプリキュア（オリジナル・メロディ・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-09234",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-op-1-song-single-vocal"
+              },
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（オリジナル・メロディ・カラオケ）",
+                "position": 3,
+                "recordingId": "star-twinkle-precure-op-1-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09234"
+          },
+          {
+            "id": "mjss-09232-09233",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-op-1-song-single-vocal"
+              },
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（オリジナル・メロディ・カラオケ）",
+                "position": 3,
+                "recordingId": "star-twinkle-precure-op-1-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09232～09233"
+          },
+          {
+            "id": "apple-hk-1455209663",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-op-1-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-hk-1467725021",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（TVサイズ）",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-op-1-song-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01274",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（TVサイズ）",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-op-1-song-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01274"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 1,
+        "id": "star-twinkle-precure-ed-1",
+        "titleJa": "パぺピプ☆ロマンチック",
+        "artistDisplayName": "吉武千颯",
+        "songId": "star-twinkle-precure-ed-1-song",
+        "sources": [
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aJBIMmAjei8",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mskmtn.blog.fc2.com/blog-entry-983.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd01.php",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd02.php",
+            "label": "權利方實體發行日期、曲序及版別",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1455209663",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1455209665",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1467725021",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1467725657",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "パぺピプ☆ロマンチック｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1455209665",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1455209663",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-1-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "パペピプ☆ロマンチック（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1467725657",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1467725021",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-1-song-ost-tv-size"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=aJBIMmAjei8",
+              "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-983.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=aJBIMmAjei8",
+              "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-983.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.youtube.com/watch?v=aJBIMmAjei8"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-1-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-1-song-ost-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-1-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd01.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09234"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd02.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09232-09233"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1455209665"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1455209665"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://music.apple.com/hk/album/1455209663"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1455209663"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1467725657"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1467725657"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+              "https://music.apple.com/hk/album/1467725021"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1467725021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01274"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=aJBIMmAjei8"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "aJBIMmAjei8"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-spring",
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第1–5及9–20話前期片尾；第6–8話另播電影宣傳片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "吉武千颯",
+            "role": "vocals"
+          },
+          {
+            "name": "高瀬愛虹",
+            "role": "lyrics"
+          },
+          {
+            "name": "田村信二",
+            "role": "composition"
+          },
+          {
+            "name": "草野よしひろ",
+            "role": "arrangement"
+          },
+          {
+            "name": "田村信二",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "首單原文用平假名「ぺ」，原聲帶TV尺寸另用片假名「ペ」。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-ed-1-song-single-vocal",
+            "title": "パぺピプ☆ロマンチック",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "star-twinkle-precure-ed-1-song-ost-tv-size",
+            "title": "パペピプ☆ロマンチック（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "star-twinkle-precure-ed-1-song-original-karaoke",
+            "title": "パぺピプ☆ロマンチック（オリジナル・メロディ・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-09234",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "パぺピプ☆ロマンチック",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-ed-1-song-single-vocal"
+              },
+              {
+                "title": "パぺピプ☆ロマンチック（オリジナル・メロディ・カラオケ）",
+                "position": 4,
+                "recordingId": "star-twinkle-precure-ed-1-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09234"
+          },
+          {
+            "id": "mjss-09232-09233",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "パぺピプ☆ロマンチック",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-ed-1-song-single-vocal"
+              },
+              {
+                "title": "パぺピプ☆ロマンチック（オリジナル・メロディ・カラオケ）",
+                "position": 4,
+                "recordingId": "star-twinkle-precure-ed-1-song-original-karaoke"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09232～09233"
+          },
+          {
+            "id": "apple-hk-1455209663",
+            "title": "スター☆トゥインクルプリキュア 主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 吉武千颯",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "パぺピプ☆ロマンチック",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-ed-1-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-hk-1467725021",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "パペピプ☆ロマンチック（TVサイズ）",
+                "position": 32,
+                "recordingId": "star-twinkle-precure-ed-1-song-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01274",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "パペピプ☆ロマンチック（TVサイズ）",
+                "position": 32,
+                "recordingId": "star-twinkle-precure-ed-1-song-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01274"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 2,
+        "id": "star-twinkle-precure-ed-2",
+        "titleJa": "WINくる！プリキュアミラクルユニバース☆",
+        "artistDisplayName": "北川理恵",
+        "songId": "star-twinkle-precure-ed-2-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9641/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mskmtn.blog.fc2.com/blog-entry-983.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1552016843",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9645/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1455964167",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1455964172",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1456109788",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1456110361",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "WINくる！プリキュアミラクルユニバース☆｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1455964172",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1455964167",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-2-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "WINくる！プリキュアミラクルユニバース☆（映画サイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1456110361",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1456109788",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-2-song-movie-edit"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+              "https://www.marv.jp/titles/mc/9641/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-983.html",
+              "https://www.animatetimes.com/news/details.php?id=1552016843"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jYZ3Qy26Omc",
+              "https://www.marv.jp/titles/mc/9641/",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-983.html",
+              "https://www.animatetimes.com/news/details.php?id=1552016843"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9641/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9641/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-2-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9645/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-2-song-movie-edit"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1455964172"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1455964172"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9641/",
+              "https://music.apple.com/hk/album/1455964167"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1455964167"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9641/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09235-09236"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1456110361"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1456110361"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9645/",
+              "https://music.apple.com/hk/album/1456109788"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1456109788"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9645/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01270"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jYZ3Qy26Omc"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "jYZ3Qy26Omc"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "2019年3月10–24日日本TV第6–8話宣傳片尾，以電影歌曲及分週影片取代當話常規片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "北川理恵",
+            "role": "vocals"
+          },
+          {
+            "name": "青木久美子",
+            "role": "lyrics"
+          },
+          {
+            "name": "奥田もとい",
+            "role": "composition"
+          },
+          {
+            "name": "奥田もとい",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "電影歌曲原版、原聲帶電影尺寸及TV特別影片已分列。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-ed-2-song-single-vocal",
+            "title": "WINくる！プリキュアミラクルユニバース☆",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "star-twinkle-precure-ed-2-song-movie-edit",
+            "title": "WINくる！プリキュアミラクルユニバース☆（映画サイズ）",
+            "kind": "vocal",
+            "format": "short"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1455964167",
+            "title": "映画プリキュアミラクルユニバース 主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-03-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 宮本佳那子",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "WINくる！プリキュアミラクルユニバース☆",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-2-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjss-09235-09236",
+            "title": "映画プリキュアミラクルユニバース 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-03-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "北川理恵 & 宮本佳那子",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "WINくる！プリキュアミラクルユニバース☆",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-2-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09235～09236"
+          },
+          {
+            "id": "apple-hk-1456109788",
+            "title": "映画プリキュアミラクルユニバース オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-03-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "WINくる！プリキュアミラクルユニバース☆（映画サイズ）",
+                "position": 36,
+                "recordingId": "star-twinkle-precure-ed-2-song-movie-edit"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01270",
+            "title": "映画プリキュアミラクルユニバース オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-03-13",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "WINくる！プリキュアミラクルユニバース☆（映画サイズ）",
+                "position": 36,
+                "recordingId": "star-twinkle-precure-ed-2-song-movie-edit"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01270"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 3,
+        "id": "star-twinkle-precure-ed-3",
+        "titleJa": "教えて...！トゥインクル☆",
+        "artistDisplayName": "吉武千颯",
+        "songId": "star-twinkle-precure-ed-3-song",
+        "sources": [
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=GHuCkPSaD7w",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3EYvyCfujkw",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestyle.jp/2020/01/21/16948/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mskmtn.blog.fc2.com/blog-entry-1030.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9653/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1469848558",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1469848559",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1473791866",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1473791871",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "教えて...！トゥインクル☆（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1469848559",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1469848558",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-3-song-advance-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "教えて...！トゥインクル☆｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1473791871",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1473791866",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-3-song-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+              "https://www.youtube.com/watch?v=GHuCkPSaD7w",
+              "https://www.youtube.com/watch?v=3EYvyCfujkw",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/",
+              "https://mskmtn.blog.fc2.com/blog-entry-1030.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+              "https://www.youtube.com/watch?v=GHuCkPSaD7w",
+              "https://www.youtube.com/watch?v=3EYvyCfujkw",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/",
+              "https://mskmtn.blog.fc2.com/blog-entry-1030.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-3-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GHuCkPSaD7w"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-3-song-advance-tv-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1469848559"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1469848559"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GHuCkPSaD7w",
+              "https://music.apple.com/hk/album/1469848558"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1469848558"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09241-09242"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09243"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1473791871"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1473791871"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/",
+              "https://music.apple.com/hk/album/1473791866"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1473791866"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=GHuCkPSaD7w"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "GHuCkPSaD7w"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-fall",
+          "2020-winter",
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第21–34及39–49話後期片尾；第21話於2019年6月30日首播。第35–38話另播電影宣傳片尾。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "吉武千颯",
+            "role": "vocals"
+          },
+          {
+            "name": "MUTEKI DEAD SNAKE",
+            "role": "lyrics"
+          },
+          {
+            "name": "MUTEKI DEAD SNAKE",
+            "role": "composition"
+          },
+          {
+            "name": "生田真心",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "2019年6月30日先行TV尺寸與後期單曲已核，與原聲帶另列的TV尺寸關係待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-ed-3-song-single-vocal",
+            "title": "教えて...！トゥインクル☆",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "star-twinkle-precure-ed-3-song-advance-tv-size",
+            "title": "教えて...！トゥインクル☆（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1469848558",
+            "title": "教えて...！トゥインクル☆（TVサイズ）",
+            "type": "single",
+            "date": {
+              "value": "2019-06-30",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "教えて...！トゥインクル☆（TVサイズ）",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-3-song-advance-tv-size"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjss-09241-09242",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "教えて...！トゥインクル☆",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-3-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09241～09242"
+          },
+          {
+            "id": "mjss-09243",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "教えて...！トゥインクル☆",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-3-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09243"
+          },
+          {
+            "id": "apple-hk-1473791866",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "教えて...！トゥインクル☆",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-3-song-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          }
+        ]
+      },
+      {
+        "type": "ED",
+        "sequence": 4,
+        "id": "star-twinkle-precure-ed-4",
+        "titleJa": "Twinkle Stars",
+        "artistDisplayName": "キュアスター（CV：成瀬瑛美）／キュアミルキー（CV：小原好美）／キュアソレイユ（CV：安野希世乃）／キュアセレーネ（CV：小松未可子）／キュアコスモ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-ed-4-song",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=3EYvyCfujkw",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9707/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://mskmtn.blog.fc2.com/blog-entry-1030.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9709/",
+            "label": "權利方曲目與發行音源說明",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1482090036",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1482090038",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1482089217",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1482089409",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Twinkle Stars｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1482090038",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1482090036",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-4-song-five-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Twinkle Stars（TVサイズ）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1482089409",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1482089217",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-ed-4-song-five-ost-tv-size"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3EYvyCfujkw",
+              "https://www.marv.jp/titles/mc/9707/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-1030.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3EYvyCfujkw",
+              "https://www.marv.jp/titles/mc/9707/",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://mskmtn.blog.fc2.com/blog-entry-1030.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3EYvyCfujkw"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9707/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-4-song-five-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9709/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-ed-4-song-five-ost-tv-size"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9707/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-9249-9250"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9707/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-9251"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1482090038"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1482090038"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9707/",
+              "https://music.apple.com/hk/album/1482090036"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482090036"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1482089409"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1482089409"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9709/",
+              "https://music.apple.com/hk/album/1482089217"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1482089217"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9709/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-1277"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=3EYvyCfujkw"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "3EYvyCfujkw"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-fall"
+        ],
+        "usageLabel": "2019年10月6–27日日本TV第35–38話電影宣傳片尾。歌唱名義為片中五位光之美少女。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "キュアスター（CV：成瀬瑛美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアミルキー（CV：小原好美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアソレイユ（CV：安野希世乃）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアセレーネ（CV：小松未可子）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアコスモ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "高木洋",
+            "role": "composition"
+          },
+          {
+            "name": "高木洋",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "劇場單曲五人演唱與電影原聲帶五人TV尺寸分列。電影另有知念里奈的片尾演唱。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-ed-4-song-five-single-vocal",
+            "title": "Twinkle Stars",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "star-twinkle-precure-ed-4-song-five-ost-tv-size",
+            "title": "Twinkle Stars（TVサイズ）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-9249-9250",
+            "title": "映画スター☆トゥインクルプリキュア 星のうたに想いをこめて 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Twinkle Stars",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-4-song-five-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-9249～9250"
+          },
+          {
+            "id": "mjss-9251",
+            "title": "映画スター☆トゥインクルプリキュア 星のうたに想いをこめて 主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Twinkle Stars",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-4-song-five-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-9251"
+          },
+          {
+            "id": "apple-hk-1482090036",
+            "title": "映画スター☆トゥインクルプリキュア 星のうたに想いをこめて 主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Twinkle Stars",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-ed-4-song-five-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "apple-hk-1482089217",
+            "title": "映画スター☆トゥインクルプリキュア 星のうたに想いをこめて オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Twinkle Stars（TVサイズ）",
+                "position": 25,
+                "recordingId": "star-twinkle-precure-ed-4-song-five-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-1277",
+            "title": "映画スター☆トゥインクルプリキュア 星のうたに想いをこめて オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-10-16",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "Twinkle Stars（TVサイズ）",
+                "position": 25,
+                "recordingId": "star-twinkle-precure-ed-4-song-five-ost-tv-size"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-1277"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 1,
+        "id": "star-twinkle-precure-in-1",
+        "titleJa": "スターカラーペンダント！カラーチャージ！",
+        "artistDisplayName": "キュアスター（CV：成瀬瑛美）",
+        "songId": "star-twinkle-precure-in-1-song",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/1/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/special/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://aoiro311.blog47.fc2.com/blog-entry-1685.html",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1467725021",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1467725665",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=U2csp35Y_aA",
+            "label": "權利方官方影片及簡介",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スターカラーペンダント！カラーチャージ！（キュアスター・ヴァージョン）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1467725665",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1467725021",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-in-1-song-cure-star"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/1/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/special/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://aoiro311.blog47.fc2.com/blog-entry-1685.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/1/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/special/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://aoiro311.blog47.fc2.com/blog-entry-1685.html"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song-cure-star"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1467725665"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1467725665"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php",
+              "https://music.apple.com/hk/album/1467725021"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1467725021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd06.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01274"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=U2csp35Y_aA"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "U2csp35Y_aA"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第1話（2019年2月3日）キュアスター首次變身時演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "キュアスター（CV：成瀬瑛美）",
+            "role": "vocals"
+          },
+          {
+            "name": "東堂いづみ",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "キュアスター・ヴァージョン",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "此處核對首次使用；此錄音在後續各話的實際剪輯和話數待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-in-1-song-cure-star",
+            "title": "スターカラーペンダント！カラーチャージ！（キュアスター・ヴァージョン）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1467725021",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（キュアスター・ヴァージョン）",
+                "position": 35,
+                "recordingId": "star-twinkle-precure-in-1-song-cure-star"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01274",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック1",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-05-29",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（キュアスター・ヴァージョン）",
+                "position": 35,
+                "recordingId": "star-twinkle-precure-in-1-song-cure-star"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01274"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 2,
+        "id": "star-twinkle-precure-in-2",
+        "titleJa": "コズミック☆ミステリー☆ガール",
+        "artistDisplayName": "マオ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-in-2-song",
+        "sources": [
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/15/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/23/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9653/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://lastbreath.hatenablog.com/entry/2019/07/14/120741",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd08.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1473791866",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1473792058",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "コズミック☆ミステリー☆ガール｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1473792058",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1473791866",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-in-2-song-mao-single-vocal"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/15/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/23/",
+              "https://www.marv.jp/titles/mc/9653/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://lastbreath.hatenablog.com/entry/2019/07/14/120741"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20190531_song.html",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/15/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/23/",
+              "https://www.marv.jp/titles/mc/9653/",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://lastbreath.hatenablog.com/entry/2019/07/14/120741"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd08.php"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-2-song-mao-single-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09241-09242"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjss-09243"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1473792058"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1473792058"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9653/",
+              "https://music.apple.com/hk/album/1473791866"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1473791866"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer",
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第15話拍賣場及第23話商店街的角色歌，由マオ演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "マオ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺剛",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺剛",
+            "role": "arrangement"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "後期單曲角色演唱曲已核，兩話的剪輯及聲軌對照待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-in-2-song-mao-single-vocal",
+            "title": "コズミック☆ミステリー☆ガール",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "mjss-09241-09242",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "CD＋DVD盤",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "コズミック☆ミステリー☆ガール",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-in-2-song-mao-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09241～09242"
+          },
+          {
+            "id": "mjss-09243",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "single",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "通常盤（CD）",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "コズミック☆ミステリー☆ガール",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-in-2-song-mao-single-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSS-09243"
+          },
+          {
+            "id": "apple-hk-1473791866",
+            "title": "スター☆トゥインクルプリキュア後期主題歌シングル",
+            "type": "ep",
+            "date": {
+              "value": "2019-08-07",
+              "precision": "day"
+            },
+            "artistDisplayName": "吉武千颯 & マオ（CV：上坂すみれ）",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "コズミック☆ミステリー☆ガール",
+                "position": 2,
+                "recordingId": "star-twinkle-precure-in-2-song-mao-single-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 3,
+        "id": "star-twinkle-precure-in-3",
+        "titleJa": "スターカラーペンダント！カラーチャージ！",
+        "artistDisplayName": "キュアコスモ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-in-1-song",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/20/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/news/2019053101.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestyle.jp/2020/01/21/16948/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1489432995",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489432998",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スターカラーペンダント！カラーチャージ！（キュアコスモ・ヴァージョン）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1489432998",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1489432995",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-in-1-song-cure-cosmo"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/20/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/news/2019053101.php",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/20/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/news/2019053101.php",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song-cure-cosmo"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489432998"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1489432998"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://music.apple.com/hk/album/1489432995"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1489432995"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01278"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-spring"
+        ],
+        "usageLabel": "日本TV第20話（2019年6月23日）キュアコスモ首次變身時演唱。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "キュアコスモ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "東堂いづみ",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "キュアコスモ・ヴァージョン",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "此處核對首次使用；後續各話的實際剪輯和話數待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-in-1-song-cure-cosmo",
+            "title": "スターカラーペンダント！カラーチャージ！（キュアコスモ・ヴァージョン）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489432995",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（キュアコスモ・ヴァージョン）",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-in-1-song-cure-cosmo"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01278",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（キュアコスモ・ヴァージョン）",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-in-1-song-cure-cosmo"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01278"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 4,
+        "id": "star-twinkle-precure-in-4",
+        "titleJa": "コズミック☆ミステリー☆ガール",
+        "artistDisplayName": "ユニ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-in-2-song",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/24/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestyle.jp/2020/01/21/16948/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd08.php",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1489432995",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1489433201",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "コズミック☆ミステリー☆ガール（氷柱ヴァージョン）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1489433201",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1489432995",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-in-2-song-ice-accompaniment"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/24/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/24/",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd08.php",
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-2-song-ice-accompaniment"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1489433201"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1489433201"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php",
+              "https://music.apple.com/hk/album/1489432995"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1489432995"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/music/cd12.php"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01278"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本TV第24話（2019年7月21日）ユニ唱歌，圓香以冰柱伴奏。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "ユニ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "大森祥子",
+            "role": "lyrics"
+          },
+          {
+            "name": "渡辺剛",
+            "role": "composition"
+          },
+          {
+            "name": "渡辺剛",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "氷柱ヴァージョン",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "香港原聲帶第14軌商品署名為渡辺剛。劇中演唱及冰柱伴奏按動畫正文記錄。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-in-2-song-ice-accompaniment",
+            "title": "コズミック☆ミステリー☆ガール（氷柱ヴァージョン）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1489432995",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "コズミック☆ミステリー☆ガール（氷柱ヴァージョン）",
+                "position": 14,
+                "recordingId": "star-twinkle-precure-in-2-song-ice-accompaniment"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01278",
+            "title": "スター☆トゥインクルプリキュア オリジナル・サウンドトラック2",
+            "type": "soundtrack",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "コズミック☆ミステリー☆ガール（氷柱ヴァージョン）",
+                "position": 14,
+                "recordingId": "star-twinkle-precure-in-2-song-ice-accompaniment"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01278"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 5,
+        "id": "star-twinkle-precure-in-5",
+        "titleJa": "スターカラーペンダント！カラーチャージ！",
+        "artistDisplayName": "キュアスター（CV：成瀬瑛美）／キュアミルキー（CV：小原好美）／キュアソレイユ（CV：安野希世乃）／キュアセレーネ（CV：小松未可子）／キュアコスモ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-in-1-song",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/48/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9733/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://animestyle.jp/2020/01/21/16948/",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1494123749",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1494123825",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "スターカラーペンダント！カラーチャージ！（スペシャル・ヴァージョン）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1494123825",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1494123749",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-in-1-song-episode-48-special"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/48/",
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/48/",
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://animestyle.jp/2020/01/21/16948/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=xZvYbl0bCFw",
+              "https://www.marv.jp/titles/mc/9733/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9733/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-1-song-episode-48-special"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1494123825"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1494123825"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://music.apple.com/hk/album/1494123749"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1494123749"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9733/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01280"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本TV第48話（2020年1月19日）五人特別變身場面，先清唱後加入鋼琴。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "キュアスター（CV：成瀬瑛美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアミルキー（CV：小原好美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアソレイユ（CV：安野希世乃）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアセレーネ（CV：小松未可子）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアコスモ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "東堂いづみ",
+            "role": "lyrics"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "composition"
+          },
+          {
+            "name": "林ゆうき",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "スペシャル・ヴァージョン",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "唱片方明列第48話特別版；錄音演奏者的個別署名待核。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-in-1-song-episode-48-special",
+            "title": "スターカラーペンダント！カラーチャージ！（スペシャル・ヴァージョン）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1494123749",
+            "title": "スター☆トゥインクルプリキュア ボーカルベスト",
+            "type": "compilation",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（スペシャル・ヴァージョン）",
+                "position": 14,
+                "recordingId": "star-twinkle-precure-in-1-song-episode-48-special"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01280",
+            "title": "スター☆トゥインクルプリキュア ボーカルベスト",
+            "type": "compilation",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "スターカラーペンダント！カラーチャージ！（スペシャル・ヴァージョン）",
+                "position": 14,
+                "recordingId": "star-twinkle-precure-in-1-song-episode-48-special"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01280"
+          }
+        ]
+      },
+      {
+        "type": "IN",
+        "sequence": 6,
+        "id": "star-twinkle-precure-in-6",
+        "titleJa": "キラリ☆彡スター☆トゥインクルプリキュア",
+        "artistDisplayName": "キュアスター（CV：成瀬瑛美）／キュアミルキー（CV：小原好美）／キュアソレイユ（CV：安野希世乃）／キュアセレーネ（CV：小松未可子）／キュアコスモ（CV：上坂すみれ）",
+        "songId": "star-twinkle-precure-op-1-song",
+        "sources": [
+          {
+            "url": "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/49/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9651/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.marv.jp/titles/mc/9733/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.mau2.com/anime/startwinkleprecure",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://masa-precure.hatenablog.jp/entry/2020/02/02/082955",
+            "label": "原期歌曲、名義與逐話用途交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/story/",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+            "label": "作品方、放送方或唱片公司正式資料",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1475436309",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1475436315",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1494123749",
+            "label": "Apple Music HK 區發行與曲序",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1494123755",
+            "label": "Apple Music HK 區曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1475436315",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1475436309",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16",
+            "recordingId": "star-twinkle-precure-op-1-song-five-cast-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）｜Apple Music HK",
+            "url": "https://music.apple.com/hk/song/1494123755",
+            "linkType": "direct_track",
+            "region": "HK",
+            "releaseId": "apple-hk-1494123749",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-16"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/49/",
+              "https://www.marv.jp/titles/mc/9651/",
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://masa-precure.hatenablog.jp/entry/2020/02/02/082955"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/tv/startwinkle_precure/episode/summary/49/",
+              "https://www.marv.jp/titles/mc/9651/",
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://www.asahi.co.jp/precure/twinkle/story/",
+              "https://www.mau2.com/anime/startwinkleprecure",
+              "https://masa-precure.hatenablog.jp/entry/2020/02/02/082955"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.asahi.co.jp/precure/twinkle/news/20181227_song.html",
+              "https://www.marv.jp/titles/mc/9651/"
+            ],
+            "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9651/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "star-twinkle-precure-op-1-song-five-cast-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1475436315"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1475436315"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9651/",
+              "https://music.apple.com/hk/album/1475436309"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1475436309"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9651/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01275"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1494123755"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "https://music.apple.com/hk/song/1494123755"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9733/",
+              "https://music.apple.com/hk/album/1494123749"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "apple-hk-1494123749"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "edition",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.marv.jp/titles/mc/9733/"
+            ],
+            "verifiedAt": "2026-11-16",
+            "targetId": "mjsa-01280"
+          }
+        ],
+        "sourceMode": "explicit",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "日本TV第49話（2020年1月26日）戰鬥場景使用五人演唱，同話另用北川理恵的常規片頭。",
+        "lastVerifiedAt": "2026-11-16",
+        "credits": [
+          {
+            "name": "キュアスター（CV：成瀬瑛美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアミルキー（CV：小原好美）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアソレイユ（CV：安野希世乃）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアセレーネ（CV：小松未可子）",
+            "role": "vocals"
+          },
+          {
+            "name": "キュアコスモ（CV：上坂すみれ）",
+            "role": "vocals"
+          },
+          {
+            "name": "藤本記子",
+            "role": "lyrics"
+          },
+          {
+            "name": "藤本記子",
+            "role": "composition"
+          },
+          {
+            "name": "福富雅之",
+            "role": "arrangement"
+          }
+        ],
+        "versionLabel": "5 PRECURE Ver.",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_availability"
+            ],
+            "note": "五人正式錄音已核；原播戰鬥段落的剪輯與發行母帶仍待直接對照。",
+            "resumeWhen": "待地區實際播放，或取得原播與正式發行的音軌對照。",
+            "checkedAt": "2026-11-16"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "star-twinkle-precure-op-1-song-five-cast-vocal",
+            "title": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1475436309",
+            "title": "スター☆トゥインクルプリキュア イメージソングファイル",
+            "type": "album",
+            "date": {
+              "value": "2019-08-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-op-1-song-five-cast-vocal"
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01275",
+            "title": "スター☆トゥインクルプリキュア イメージソングファイル",
+            "type": "album",
+            "date": {
+              "value": "2019-08-21",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）",
+                "position": 1,
+                "recordingId": "star-twinkle-precure-op-1-song-five-cast-vocal"
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01275"
+          },
+          {
+            "id": "apple-hk-1494123749",
+            "title": "スター☆トゥインクルプリキュア ボーカルベスト",
+            "type": "compilation",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）",
+                "position": 4
+              }
+            ],
+            "label": "マーベラス"
+          },
+          {
+            "id": "mjsa-01280",
+            "title": "スター☆トゥインクルプリキュア ボーカルベスト",
+            "type": "compilation",
+            "date": {
+              "value": "2020-01-22",
+              "precision": "day"
+            },
+            "artistDisplayName": "Various Artists",
+            "edition": "CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "キラリ☆彡スター☆トゥインクルプリキュア（5 PRECURE Ver.）",
+                "position": 4
+              }
+            ],
+            "label": "マーベラス",
+            "catalogNumber": "MJSA-01280"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020010101,
+    "id": "curated-re-zero-season-1-directors-cut",
+    "slug": "re-zero-season-1-directors-cut",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring"
+    ],
+    "startDate": "2020-01-01",
+    "titleJa": "Re:ゼロから始める異世界生活 第1期新編集版",
+    "titleZhHant": "Re：從零開始的異世界生活 新編集版",
+    "titleRomaji": "Re:ZERO -Starting Life in Another World- Season 1 Director’s Cut",
+    "editorialWeekday": 3,
+    "broadcastTimeJst": "22:30",
+    "broadcastLabel": "日本 AT-X 2020/1/1–4/1，週三22:30–23:30 JST。第1期新編集版將25話編成13回一小時節目。AbemaTV／dアニメストア23:00先於TOKYO MX地上波23:30。",
+    "status": "finished",
+    "officialSiteUrl": "https://re-zero-anime.jp/tv/onair/tv1r.html",
+    "identifierSource": {
+      "url": "https://www.re-zero.com/news/1922/",
+      "label": "KADOKAWA 原作官網第1期新編集版公告",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://re-zero-anime.jp/tv/news/index_1.html",
+      "https://re-zero-anime.jp/news/index_3.html",
+      "https://ani.gamer.com.tw/animeVideo.php?sn=14560",
+      "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+    ],
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "themes": [
+      {
+        "id": "re-zero-season-1-directors-cut-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Redo",
+        "artistDisplayName": "鈴木このみ",
+        "songId": "re-zero-season-1-directors-cut-op-1-song",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "2020新編集版 第1–12話官方編排片頭",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://re-zero-anime.jp/tv/news/index_1.html",
+            "label": "新編集版官方公告：主題曲、演唱名義及編排範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://re-zero-anime.jp/tv/music/tv1r.html",
+            "label": "官方音樂頁：詞曲編、原發行及已列曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)",
+            "label": "繁中交叉：第一季歌曲名義、片頭片尾與新編集版",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/redo/1208934587",
+            "label": "Apple Music 香港區曲目；播放與電視剪輯待核",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "credits": [
+          {
+            "name": "ミズノゲンキ",
+            "role": "lyrics"
+          },
+          {
+            "name": "宮崎誠",
+            "role": "composition"
+          },
+          {
+            "name": "宮崎誠",
+            "role": "arrangement"
+          },
+          {
+            "name": "鈴木このみ",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "re-zero-season-1-directors-cut-op-1-song-single",
+            "title": "Redo",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "zmcz-10603",
+            "title": "Redo",
+            "type": "single",
+            "artistDisplayName": "鈴木このみ",
+            "date": {
+              "value": "2016-05-11",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "初回限定盤 CD＋DVD",
+            "catalogNumber": "ZMCZ-10603",
+            "tracks": [
+              {
+                "title": "Redo",
+                "position": 1,
+                "recordingId": "re-zero-season-1-directors-cut-op-1-song-single"
+              }
+            ]
+          },
+          {
+            "id": "zmcz-10604",
+            "title": "Redo",
+            "type": "single",
+            "artistDisplayName": "鈴木このみ",
+            "date": {
+              "value": "2016-05-11",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "通常盤 CD",
+            "catalogNumber": "ZMCZ-10604",
+            "tracks": [
+              {
+                "title": "Redo",
+                "position": 1,
+                "recordingId": "re-zero-season-1-directors-cut-op-1-song-single"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-1-song-single"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zmcz-10603"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zmcz-10604"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/redo/1208934587"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/redo/1208934587"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "官方宣傳列為第1–12話的主題曲；這是編排範圍，個別話可省略或更換。",
+            "resumeWhen": "查新編集版正片及掛字，對照逐話剪輯及原發行曲目。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港｜Redo",
+            "url": "https://music.apple.com/hk/song/redo/1208934587",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "re-zero-season-1-directors-cut-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "STYX HELIX",
+        "artistDisplayName": "MYTH & ROID",
+        "songId": "re-zero-season-1-directors-cut-ed-1-song",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "2020新編集版 第1–12話官方編排片尾",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://re-zero-anime.jp/tv/news/index_1.html",
+            "label": "新編集版官方公告：主題曲、演唱名義及編排範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://re-zero-anime.jp/tv/music/tv1r.html",
+            "label": "官方音樂頁：詞曲編、原發行及已列曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)",
+            "label": "繁中交叉：第一季歌曲名義、片頭片尾與新編集版",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/styx-helix/1500537678",
+            "label": "Apple Music 香港區曲目；播放與電視剪輯待核",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "credits": [
+          {
+            "name": "MYTH & ROID",
+            "role": "lyrics"
+          },
+          {
+            "name": "MYTH & ROID",
+            "role": "composition"
+          },
+          {
+            "name": "MYTH & ROID",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "re-zero-season-1-directors-cut-ed-1-song-single",
+            "title": "STYX HELIX",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "re-zero-season-1-directors-cut-ed-1-song-instrumental",
+            "title": "STYX HELIX (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "zmcz-10605",
+            "title": "STYX HELIX",
+            "type": "single",
+            "artistDisplayName": "MYTH & ROID",
+            "date": {
+              "value": "2016-05-25",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "單曲 CD",
+            "catalogNumber": "ZMCZ-10605",
+            "tracks": [
+              {
+                "title": "STYX HELIX",
+                "position": 1,
+                "recordingId": "re-zero-season-1-directors-cut-ed-1-song-single"
+              },
+              {
+                "title": "STYX HELIX (Instrumental)",
+                "position": 3,
+                "recordingId": "re-zero-season-1-directors-cut-ed-1-song-instrumental"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1-song-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zmcz-10605"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/styx-helix/1500537678"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/styx-helix/1500537678"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "官方宣傳列為第1–12話的主題曲；這是編排範圍，個別話可省略或更換。",
+            "resumeWhen": "查新編集版正片及掛字，對照逐話剪輯及原發行曲目。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港｜STYX HELIX",
+            "url": "https://music.apple.com/hk/song/styx-helix/1500537678",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "re-zero-season-1-directors-cut-op-2",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Paradisus-Paradoxum",
+        "artistDisplayName": "MYTH & ROID",
+        "songId": "re-zero-season-1-directors-cut-op-2-song",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "2020新編集版 第13–25話官方編排片頭",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://re-zero-anime.jp/tv/news/index_1.html",
+            "label": "新編集版官方公告：主題曲、演唱名義及編排範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://re-zero-anime.jp/tv/music/tv1r.html",
+            "label": "官方音樂頁：詞曲編、原發行及已列曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)",
+            "label": "繁中交叉：第一季歌曲名義、片頭片尾與新編集版",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/paradisus-paradoxum/1500537680",
+            "label": "Apple Music 香港區曲目；播放與電視剪輯待核",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "credits": [
+          {
+            "name": "MYTH & ROID",
+            "role": "lyrics"
+          },
+          {
+            "name": "MYTH & ROID",
+            "role": "composition"
+          },
+          {
+            "name": "MYTH & ROID",
+            "role": "arrangement"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "re-zero-season-1-directors-cut-op-2-song-single",
+            "title": "Paradisus-Paradoxum",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "re-zero-season-1-directors-cut-op-2-song-instrumental",
+            "title": "Paradisus-Paradoxum (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "zmcz-10783",
+            "title": "Paradisus-Paradoxum",
+            "type": "single",
+            "artistDisplayName": "MYTH & ROID",
+            "date": {
+              "value": "2016-08-24",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "單曲 CD",
+            "catalogNumber": "ZMCZ-10783",
+            "tracks": [
+              {
+                "title": "Paradisus-Paradoxum",
+                "position": 1,
+                "recordingId": "re-zero-season-1-directors-cut-op-2-song-single"
+              },
+              {
+                "title": "Paradisus-Paradoxum (Instrumental)",
+                "position": 3,
+                "recordingId": "re-zero-season-1-directors-cut-op-2-song-instrumental"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2-song-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-op-2-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zmcz-10783"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/paradisus-paradoxum/1500537680"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/paradisus-paradoxum/1500537680"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "官方宣傳列為第13–25話的主題曲；這是編排範圍，個別話可省略或更換。",
+            "resumeWhen": "查新編集版正片及掛字，對照逐話剪輯及原發行曲目。",
+            "checkedAt": "2026-11-19"
+          },
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "2020/4/1末回包含第24、25話；官方宣傳的後期編排未逐項交代末回的實播用曲。",
+            "resumeWhen": "取得AT-X末回音畫或可核對同一剪輯的正版第13回及其掛字。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Apple Music 香港｜Paradisus-Paradoxum",
+            "url": "https://music.apple.com/hk/song/paradisus-paradoxum/1500537680",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "re-zero-season-1-directors-cut-ed-2",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Stay Alive",
+        "artistDisplayName": "エミリア(CV：高橋李依)",
+        "songId": "re-zero-season-1-directors-cut-ed-2-song",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "2020新編集版 第13–25話官方編排片尾",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://re-zero-anime.jp/tv/news/index_1.html",
+            "label": "新編集版官方公告：主題曲、演唱名義及編排範圍",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://re-zero-anime.jp/tv/music/tv1r.html",
+            "label": "官方音樂頁：詞曲編、原發行及已列曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)",
+            "label": "繁中交叉：第一季歌曲名義、片頭片尾與新編集版",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "credits": [
+          {
+            "name": "Heart’s Cry",
+            "role": "lyrics"
+          },
+          {
+            "name": "Heart’s Cry",
+            "role": "composition"
+          },
+          {
+            "name": "Heart’s Cry",
+            "role": "arrangement"
+          },
+          {
+            "name": "高橋李依",
+            "role": "vocals"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "re-zero-season-1-directors-cut-ed-2-song-single",
+            "title": "Stay Alive",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "re-zero-season-1-directors-cut-ed-2-song-instrumental",
+            "title": "Stay Alive (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "zmcz-10784",
+            "title": "Stay Alive",
+            "type": "single",
+            "artistDisplayName": "エミリア(CV：高橋李依)",
+            "date": {
+              "value": "2016-08-24",
+              "precision": "day"
+            },
+            "region": "JP",
+            "edition": "單曲 CD",
+            "catalogNumber": "ZMCZ-10784",
+            "tracks": [
+              {
+                "title": "Stay Alive",
+                "position": 1,
+                "recordingId": "re-zero-season-1-directors-cut-ed-2-song-single"
+              },
+              {
+                "title": "Stay Alive (Instrumental)",
+                "position": 4,
+                "recordingId": "re-zero-season-1-directors-cut-ed-2-song-instrumental"
+              }
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2-song"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/news/index_1.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://zh.wikipedia.org/wiki/Re:%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E7%9A%84%E7%95%B0%E4%B8%96%E7%95%8C%E7%94%9F%E6%B4%BB_(%E5%8B%95%E7%95%AB)"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2-song-single"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "re-zero-season-1-directors-cut-ed-2-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://re-zero-anime.jp/tv/music/tv1r.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zmcz-10784"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方宣傳列為第13–25話的主題曲；這是編排範圍，個別話可省略或更換。",
+            "resumeWhen": "查新編集版正片及掛字，對照逐話剪輯及原發行曲目。",
+            "checkedAt": "2026-11-19"
+          },
+          {
+            "fields": [
+              "use_quarters"
+            ],
+            "note": "2020/4/1末回包含第24、25話；官方宣傳的後期編排未逐項交代末回的實播用曲。",
+            "resumeWhen": "取得AT-X末回音畫或可核對同一剪輯的正版第13回及其掛字。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020010901,
+    "id": "curated-kadokawa-moominvalley-season-2-ja",
+    "slug": "moominvalley-season-2-japanese-tv",
+    "seasonIds": [
+      "2020-winter"
+    ],
+    "startDate": "2020-01-09",
+    "titleJa": "ムーミン谷のなかまたち シーズン2",
+    "titleRomaji": "Moominvalley Season 2",
+    "editorialWeekday": 4,
+    "broadcastTimeJst": "19:30",
+    "broadcastLabel": "芬蘭、英國合製。第2季日本語吹替版共13話，2020/1/9起於NHK BS4K週四19:30 JST首播，第2話於1/16、第10話〈ムーミンパパの島〉於3/12播出。原期末話日期及開場、片尾曲待核。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.moomin.co.jp/moominvalley-animation/info/",
+    "identifierSource": {
+      "url": "https://www.kadokawa.co.jp/product/video1251/",
+      "label": "KADOKAWA日本語版第2季發行識別（video1251）",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://www.moomin.co.jp/news/others/57803",
+      "https://www.moomin.co.jp/news/others/60629",
+      "https://www.moomin.co.jp/news/others/63502",
+      "https://www.moomin.cn/2020/01/season-2-for-moominvalley-confirmed/",
+      "https://anima.fi/works/moominvalley-s2/",
+      "https://www.kansou.me/archive/2020_winter.html"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://www.moomin.co.jp/moominvalley-animation/info/",
+        "label": "日本官方作品介紹與第2季版本",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.kadokawa.co.jp/product/video1251/",
+        "label": "KADOKAWA日本語吹替版第2季全13話及發行識別",
+        "role": "identifier",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.moomin.co.jp/news/others/57803",
+        "label": "日本權利方第2季NHK BS4K日期及時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.moomin.co.jp/news/others/60629",
+        "label": "日本權利方第2話播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.moomin.co.jp/news/others/63502",
+        "label": "日本權利方第10話〈ムーミンパパの島〉NHK BS4K播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.moomin.cn/2020/01/season-2-for-moominvalley-confirmed/",
+        "label": "中文權利方索引日本初播與重播時段",
+        "role": "first_party",
+        "language": "zh-Hans",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://anima.fi/works/moominvalley-s2/",
+        "label": "動畫製作服務方第2季及英國／芬蘭製作資料",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.kansou.me/archive/2020_winter.html",
+        "label": "日本同期季表交叉核對日本首播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themeAvailability": "pending_verification",
+    "themes": []
+  },
+  {
+    "catalogKey": -2020011201,
+    "id": "curated-paramount-paw-patrol-season-2-ja",
+    "slug": "paw-patrol-season-2-japanese-tv",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer"
+    ],
+    "startDate": "2020-01-12",
+    "titleJa": "パウ・パトロール シーズン2",
+    "titleZhHant": "汪汪隊立大功 第2季",
+    "titleRomaji": "PAW Patrol Season 2",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "07:00",
+    "broadcastLabel": "北美製作。東京電視台2020/1/12–7/5週日07:00 JST續播第27–52話，對應日本配信第二季26個播出單位，第27話約23分鐘。第38話3/29，第39話4/5，第52話7/5。7/12起另為精選加短篇。該期片頭與片尾待正片掛字。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/pawpatrol/",
+    "identifierSource": {
+      "url": "https://tv.apple.com/jp/episode/umc.cmc.43e3iluxy1iamd2dy0tkw7yv2",
+      "label": "Apple TV日本第2季第1話與23分鐘片長",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_30.html",
+      "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_29.html",
+      "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_28.html",
+      "https://www.tv-tokyo.co.jp/anime/pawpatrol/news/index_5.html",
+      "https://www.tv-tokyo.co.jp/information/2019/03/05/214264.html",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25380_202001190700.html",
+      "https://www.ttmnet.co.jp/theme/2020-3/",
+      "https://www.allcinema.net/cinema/373219",
+      "https://nowplayer.now.com/ondemand/detail?id=S202210260157427&nodeId=202101110000083&type=series"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://tv.apple.com/jp/episode/umc.cmc.43e3iluxy1iamd2dy0tkw7yv2",
+        "label": "Apple TV日本第2季第1話與23分鐘片長",
+        "role": "identifier",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_30.html",
+        "label": "東京電視台第27話起播出日期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_29.html",
+        "label": "東京電視台第38至40話跨季播出記錄",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pawpatrol/episodes/index_28.html",
+        "label": "東京電視台第52話與第53話分期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/pawpatrol/news/index_5.html",
+        "label": "東京電視台2020/7/12精選加短篇編排公告",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/information/2019/03/05/214264.html",
+        "label": "東京電視台初代日本語版首播與兩段編排",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202001/25380_202001190700.html",
+        "label": "東京電視台第28話原期07:00節目表",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.ttmnet.co.jp/theme/2020-3/",
+        "label": "東京電視台音樂部3月整檔標示與用曲記錄差異",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/373219",
+        "label": "日本第二季首輪與起迄播出交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://nowplayer.now.com/ondemand/detail?id=S202210260157427&nodeId=202101110000083&type=series",
+        "label": "Now TV香港系列繁中名稱",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themeAvailability": "pending_verification",
+    "themes": []
+  },
+  {
+    "catalogKey": -2019060901,
+    "id": "curated-disney-ducktales-2017-season-2-ja",
+    "slug": "ducktales-2017-season-2-japanese-tv",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring"
+    ],
+    "startDate": "2019-06-09",
+    "titleJa": "ダックテイルズ シーズン2",
+    "titleZhHant": "新唐老鴨俱樂部 第2季",
+    "titleRomaji": "DuckTales (2017) Season 2",
+    "editorialWeekday": 7,
+    "broadcastLabel": "美國製作，日本Disney Channel第2季由2019/6/9第26話〈危険なゲーム大会！〉起，通常週末11:00 JST。2020/4/19第49話16:30–17:30首播，前段另排第42–48話。香港ViuTV亦於2020年播出；日語、香港版的實播用曲與日本冬季新話日期待核。",
+    "status": "finished",
+    "officialSiteUrl": "https://tv.disney.co.jp/dc/program/anime/ducktales.html",
+    "identifierSource": {
+      "url": "https://www.disneyplus.com/ja-jp/browse/entity-4da7fce0-527a-41c8-b6ef-35b2aae22143",
+      "label": "Disney+日本第二季作品與首話識別",
+      "language": "ja"
+    },
+    "sourceReferenceUrls": [
+      "https://www.disneyplus.com/zh-hk/browse/entity-4da7fce0-527a-41c8-b6ef-35b2aae22143",
+      "https://www.diversitymedia.jp/news/disney_201906/",
+      "https://www.allcinema.net/cinema/pdf/368660",
+      "https://www.tv-anan.jp/wp-test/wp-content/uploads/2020/01/Disney_02.pdf",
+      "https://www.cinema-life.net/p200415_dtpr/",
+      "https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf",
+      "https://zh.wikipedia.org/wiki/%E5%94%90%E8%80%81%E9%B4%A8%E4%BF%B1%E6%A8%82%E9%83%A8"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://www.disneyplus.com/ja-jp/browse/entity-4da7fce0-527a-41c8-b6ef-35b2aae22143",
+        "label": "Disney+日本第二季作品與首話識別",
+        "role": "identifier",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/zh-hk/browse/entity-4da7fce0-527a-41c8-b6ef-35b2aae22143",
+        "label": "Disney+香港正式繁中片名及第二季分集",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.diversitymedia.jp/news/disney_201906/",
+        "label": "日本有線電視2019/6/9第二季首話播出公告",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.allcinema.net/cinema/pdf/368660",
+        "label": "日本Disney Channel第二季首輪及11:00時段交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tv-anan.jp/wp-test/wp-content/uploads/2020/01/Disney_02.pdf",
+        "label": "日本有線電視原期2020年2月週末播出時段",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.cinema-life.net/p200415_dtpr/",
+        "label": "日本4/19第49話一小時首播與前段重播編排",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1516/HKTVE_Positive_Programmes_2020.pdf",
+        "label": "ViuTV香港2020年節目申報與繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/%E5%94%90%E8%80%81%E9%B4%A8%E4%BF%B1%E6%A8%82%E9%83%A8",
+        "label": "香港ViuTV第二季播出日期交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "broadcastTimeJst": "11:00",
+    "themeAvailability": "pending_verification",
+    "themes": []
+  },
+  {
+    "catalogKey": -2020011001,
+    "id": "curated-disney-the-owl-house-season-1",
+    "slug": "the-owl-house-season-1",
+    "seasonIds": [
+      "2020-winter",
+      "2020-summer"
+    ],
+    "startDate": "2020-01-10",
+    "titleJa": "アウルハウス シーズン1",
+    "titleZhHant": "奇幻貓頭鷹小屋 第1季",
+    "titleRomaji": "The Owl House Season 1",
+    "editorialWeekday": 5,
+    "broadcastLabel": "美國Disney Channel與DisneyNOW第1季於2020/1/10推出；美東首播節目表20:46 EST（D23公佈20:45）。第1–10話1/10–3/20；第11–19話7/11–8/29，約21–22分鐘。日本7/23先行，8月開始常規播出。",
+    "status": "finished",
+    "officialSiteUrl": "https://d23.com/a-to-z/owl-house-the-television/",
+    "identifierSource": {
+      "url": "https://tv.apple.com/us/season/season-1/umc.cmc.4mllg0sgq9eh6ypliu1dlwz4l",
+      "label": "Apple TV美國第1季識別與約21–22分鐘片長",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.disneyplus.com/zh-hk/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13",
+      "https://www.disneyplus.com/ja-jp/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13",
+      "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+      "https://d23.com/get-an-exclusive-look-at-disney-channels-the-owl-house/",
+      "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+      "https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/",
+      "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+      "https://lumiere-a.akamaihd.net/v1/documents/council035_b0da3e6a.pdf",
+      "https://thetvdb.com/series/the-owl-house/seasons/official/1"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://tv.apple.com/us/season/season-1/umc.cmc.4mllg0sgq9eh6ypliu1dlwz4l",
+        "label": "Apple TV美國第1季識別與約21–22分鐘片長",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/zh-hk/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13",
+        "label": "Disney+香港正式繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/ja-jp/browse/entity-4249e544-b4cd-4f3d-bb68-31967428ce13",
+        "label": "Disney+日本官方作品名及季別",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+        "label": "Disney Channel美國1月原播精確編排",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://d23.com/get-an-exclusive-look-at-disney-channels-the-owl-house/",
+        "label": "迪士尼首播及DisneyNOW同步上架公告",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+        "label": "Disney Channel美國第10話3/20首播",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/",
+        "label": "Disney Channel美國第11話7/11恢復新話",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+        "label": "Disney Channel美國第19話8/29末回",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://lumiere-a.akamaihd.net/v1/documents/council035_b0da3e6a.pdf",
+        "label": "Disney Channel日本7/23先行與8月常規、全19話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://thetvdb.com/series/the-owl-house/seasons/official/1",
+        "label": "第1季逐話日期、片長及播出季度交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "the-owl-house-season-1-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "The Owl House Main Title Theme",
+        "artistDisplayName": "TJ Hill",
+        "songId": "the-owl-house-main-title",
+        "seasonIds": [
+          "2020-winter",
+          "2020-summer"
+        ],
+        "usageLabel": "原美國第1季常規片頭器樂。冬季第1–10話及夏季第11–19話為首播區間，逐話縮短、換畫與其他地區音軌留待核對。",
+        "versionLabel": "第1季電視器樂",
+        "credits": [
+          {
+            "name": "TJ Hill",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "the-owl-house-main-title-season-1",
+            "title": "The Owl House Main Title Theme",
+            "format": "tv",
+            "kind": "instrumental",
+            "credits": [
+              {
+                "name": "TJ Hill",
+                "role": "composition"
+              }
+            ]
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tjhmusic.com/projects",
+            "label": "TJ Hill官方第1季片頭、片尾與配樂作曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=BqE6KiijtH0",
+            "label": "Disney Channel原第1季片頭影片標題、發布者與說明",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+            "label": "原電視第10話播出",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+            "label": "原電視第1季末話播出",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://theowlhouse.fandom.com/wiki/The_Owl_House_Main_Title_Theme",
+            "label": "片頭器樂與第1季剪輯交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "the-owl-house-main-title",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=BqE6KiijtH0",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_Main_Title_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "the-owl-house-season-1-op-1",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=BqE6KiijtH0",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_Main_Title_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "the-owl-house-main-title-season-1",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=BqE6KiijtH0",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_Main_Title_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "targetId": "BqE6KiijtH0",
+            "fields": [
+              "title",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=BqE6KiijtH0"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "第1季首播逐話剪輯、日本及香港音軌、原錄音商品仍待核。2019權利方預先發布的是影片。",
+            "resumeWhen": "取得相應原台版開頭或結尾與掛字，或找到明示TJ Hill原版電視音源的權利方發行。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "the-owl-house-season-1-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "The Owl House End Credit Theme",
+        "artistDisplayName": "TJ Hill",
+        "songId": "the-owl-house-end-credit-theme",
+        "seasonIds": [
+          "2020-winter",
+          "2020-summer"
+        ],
+        "usageLabel": "原美國第1季常規片尾器樂。冬季第1–10話及夏季第11–19話為首播區間，第18話等特別片尾畫面與音軌另待同版正片。",
+        "versionLabel": "第1季電視器樂",
+        "credits": [
+          {
+            "name": "TJ Hill",
+            "role": "composition"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "the-owl-house-end-credit-theme-season-1",
+            "title": "The Owl House End Credit Theme",
+            "format": "tv",
+            "kind": "instrumental",
+            "credits": [
+              {
+                "name": "TJ Hill",
+                "role": "composition"
+              }
+            ]
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tjhmusic.com/projects",
+            "label": "TJ Hill官方第1季片頭、片尾與配樂作曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=z8Gyrlj4IPg",
+            "label": "Disney Channel原第1季片尾預覽影片標題、發布者與說明",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+            "label": "原電視第10話播出",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+            "label": "原電視第1季末話播出",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://theowlhouse.fandom.com/wiki/The_Owl_House_End_Credit_Theme",
+            "label": "常規片尾器樂及第18話片尾畫面交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "targetId": "the-owl-house-end-credit-theme",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=z8Gyrlj4IPg",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_End_Credit_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "anime_use",
+            "targetId": "the-owl-house-season-1-ed-1",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=z8Gyrlj4IPg",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.detpress.com/storage/uploads/C8/72/C872C548-0AC0-BB66-1247-B2D689A85A91/press-release-9-1169123.pdf",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_End_Credit_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "targetId": "the-owl-house-end-credit-theme-season-1",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.tjhmusic.com/projects",
+              "https://www.youtube.com/watch?v=z8Gyrlj4IPg",
+              "https://theowlhouse.fandom.com/wiki/The_Owl_House_End_Credit_Theme"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "targetId": "z8Gyrlj4IPg",
+            "fields": [
+              "title",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=z8Gyrlj4IPg"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "跨語言播出實際音軌、第18話特殊片尾及原錄音商品待核；片尾預告只代表官方影片。",
+            "resumeWhen": "取得相應原台版開頭或結尾與掛字，或找到明示TJ Hill原版電視音源的權利方發行。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2019050601,
+    "id": "curated-disney-big-hero-6-the-series-season-2",
+    "slug": "big-hero-6-the-series-season-2",
+    "seasonIds": [
+      "2020-winter",
+      "2019-fall",
+      "2019-summer",
+      "2019-spring"
+    ],
+    "startDate": "2019-05-06",
+    "titleJa": "ベイマックス ザ・シリーズ シーズン2",
+    "titleZhHant": "大英雄聯盟 第2季",
+    "titleRomaji": "Big Hero 6 The Series Season 2",
+    "editorialWeekday": 1,
+    "broadcastLabel": "美國Disney Channel 2019/5/6 15:30 EDT首播，正篇通常約21分鐘。9月續播，12/7播〈The Present〉，2020年1月起由Disney XD週六10:00 EST續播，2/8 10:00–11:00 EST首播合編終回〈Legacies – Parts I & II〉。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+    "identifierSource": {
+      "url": "https://tv.apple.com/us/episode/somethings-fishy/umc.cmc.1pc9xndzv954fvtvt3mcvuemw",
+      "label": "Apple TV 美國第2季第4話及版次識別",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.disneyplus.com/zh-hk/browse/entity-79f140c4-c27f-42ab-8c8b-7a277e17ac76",
+      "https://www.disneyplus.com/ja-jp/browse/entity-79f140c4-c27f-42ab-8c8b-7a277e17ac76",
+      "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+      "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+      "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+      "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+      "https://www.adamberrycomposer.com/about"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://tv.apple.com/us/episode/somethings-fishy/umc.cmc.1pc9xndzv954fvtvt3mcvuemw",
+        "label": "Apple TV 美國第2季第4話及版次識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/zh-hk/browse/entity-79f140c4-c27f-42ab-8c8b-7a277e17ac76",
+        "label": "Disney+ 香港正式片名及分季",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/ja-jp/browse/entity-79f140c4-c27f-42ab-8c8b-7a277e17ac76",
+        "label": "Disney+ 日本正式片名及分季",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+        "label": "Disney Channel 2019/5/6第2季首播",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+        "label": "Disney XD 2020年1月放映",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+        "label": "Disney XD 2020/2/8終回時段",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+        "label": "第2季逐話原播日期與節目編排",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.adamberrycomposer.com/about",
+        "label": "作曲家第2季片頭、片尾創作",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "big-hero-6-the-series-season-2-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Big Hero 6 Main Title",
+        "artistDisplayName": "Adam Berry",
+        "songId": "big-hero-6-the-series-main-title",
+        "seasonIds": [
+          "2020-winter",
+          "2019-fall",
+          "2019-summer",
+          "2019-spring"
+        ],
+        "usageLabel": "原英語第2季常規片頭。第2季片頭畫面有改動，逐話音軌及剪輯比較待核。",
+        "credits": [
+          {
+            "name": "Adam Berry",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.adamberrycomposer.com/about",
+            "label": "Adam Berry 親述三季片頭、片尾及配樂創作",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.adamberrycomposer.com/music",
+            "label": "Adam Berry 官方作品曲目",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+            "label": "Disney XD 原期1月常規新話",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+            "label": "Disney XD 第2季終回節目表",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+            "label": "第2季逐話放映日期",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2",
+            "label": "第2季片頭及片尾畫面交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.adamberrycomposer.com/videos",
+            "label": "Adam Berry 官方作品影片頁",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music",
+              "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+              "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+              "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+              "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2",
+              "https://www.adamberrycomposer.com/videos"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-the-series-main-title"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music",
+              "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+              "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+              "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+              "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2",
+              "https://www.adamberrycomposer.com/videos"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-the-series-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "曲位及作曲有直接證據。原播逐話剪輯、香港音軌與曲目發行仍待核。",
+            "resumeWhen": "取得第2季同版片頭／片尾片段、原播掛字或正式音源條目後核對版別。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "big-hero-6-the-series-season-2-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "End Credits",
+        "artistDisplayName": "Adam Berry",
+        "songId": "big-hero-6-the-series-end-credits",
+        "seasonIds": [
+          "2020-winter",
+          "2019-fall",
+          "2019-summer",
+          "2019-spring"
+        ],
+        "usageLabel": "原英語第2季常規片尾。第2季片尾畫面有改動，終回合播與單話版尾段待核。",
+        "credits": [
+          {
+            "name": "Adam Berry",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.adamberrycomposer.com/about",
+            "label": "Adam Berry 親述三季片頭、片尾及配樂創作",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.adamberrycomposer.com/music",
+            "label": "Adam Berry 官方作品曲目",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+            "label": "Disney XD 原期1月常規新話",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+            "label": "Disney XD 第2季終回節目表",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+            "label": "第2季逐話放映日期",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2",
+            "label": "第2季片頭及片尾畫面交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music",
+              "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+              "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+              "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+              "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-the-series-end-credits"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music",
+              "https://www.detpress.com/storage/uploads/03/39/03399130-39CB-0CCB-5174-20C51934B6C6/press-release-9-1130876.pdf",
+              "https://www.detpress.com/storage/uploads/4F/54/4F54EBF6-9BB6-0393-902B-55843C28BDA1/press-release-9-1136518.pdf",
+              "https://www.thetvdb.com/series/big-hero-6-the-series/seasons/official/2",
+              "https://bighero6.fandom.com/wiki/Big_Hero_6%3A_The_Series/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-the-series-season-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/about",
+              "https://www.adamberrycomposer.com/music"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "曲位及作曲有直接證據。原播逐話剪輯、香港音軌與曲目發行仍待核。",
+            "resumeWhen": "取得第2季同版片頭／片尾片段、原播掛字或正式音源條目後核對版別。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "big-hero-6-the-series-season-2-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Gonna Go Good",
+        "artistDisplayName": "Katy Mixon",
+        "songId": "big-hero-6-gonna-go-good",
+        "seasonIds": [
+          "2019-spring"
+        ],
+        "usageLabel": "美國Disney Channel第2季第4話〈Something’s Fishy〉內，由Barb演唱。2019/5/9 15:30 EDT首播，屬2019春。",
+        "credits": [
+          {
+            "name": "Katy Mixon",
+            "role": "vocals"
+          },
+          {
+            "name": "Adam Berry",
+            "role": "composition"
+          },
+          {
+            "name": "Adam Berry",
+            "role": "lyrics"
+          },
+          {
+            "name": "Mark McCorkle",
+            "role": "lyrics"
+          },
+          {
+            "name": "Sharon Flynn",
+            "role": "lyrics"
+          },
+          {
+            "name": "Bob Schooley",
+            "role": "lyrics"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.adamberrycomposer.com/news",
+            "label": "作曲家曲名、製作及分集片段指向",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.adamberrycomposer.com/videos",
+            "label": "作曲家收錄〈Gonna Go Good〉分集片段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+            "label": "Disney Channel 第4話首播時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/somethings-fishy/umc.cmc.1pc9xndzv954fvtvt3mcvuemw",
+            "label": "Apple TV 正版第4話",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://theemmys.tv/wp-content/uploads/2020/06/Daytime-Nominations-with-Credits-FINAL.pdf",
+            "label": "Daytime Emmy 正式提名及作詞作曲署名",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://bighero6.fandom.com/wiki/We%27re_Gonna_Be_Good",
+            "label": "分集演唱者與曲位交叉核對",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/news",
+              "https://www.adamberrycomposer.com/videos",
+              "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+              "https://tv.apple.com/us/episode/somethings-fishy/umc.cmc.1pc9xndzv954fvtvt3mcvuemw",
+              "https://bighero6.fandom.com/wiki/We%27re_Gonna_Be_Good"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-gonna-go-good"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/news",
+              "https://www.adamberrycomposer.com/videos",
+              "https://www.detpress.com/disneyxd/pressrelease/may-2019-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+              "https://tv.apple.com/us/episode/somethings-fishy/umc.cmc.1pc9xndzv954fvtvt3mcvuemw",
+              "https://bighero6.fandom.com/wiki/We%27re_Gonna_Be_Good"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "big-hero-6-the-series-season-2-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.adamberrycomposer.com/news",
+              "https://theemmys.tv/wp-content/uploads/2020/06/Daytime-Nominations-with-Credits-FINAL.pdf",
+              "https://bighero6.fandom.com/wiki/We%27re_Gonna_Be_Good"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "可在作曲家作品集找到分集片段，獨立官方發布、商業音源及香港曲位待核。",
+            "resumeWhen": "唱片權利方或表演者公布此英文原唱的音源、正式影片或同版曲目。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2018033101,
+    "id": "curated-itv-thunderbirds-are-go-season-3",
+    "slug": "thunderbirds-are-go-season-3",
+    "seasonIds": [
+      "2020-winter",
+      "2018-spring",
+      "2019-summer",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2018-03-31",
+    "titleJa": "サンダーバード ARE GO シーズン3",
+    "titleZhHant": "新雷鳥神機隊 第三季",
+    "titleRomaji": "Thunderbirds Are Go Series 3",
+    "editorialWeekday": 6,
+    "broadcastLabel": "英國ITV第3季2018/3/31起播，2019年5–7月續播。2020/1/4–2/22 ITV／CITV週六08:30 GMT原播第19–26話，通常22分鐘。終回上下篇分別於2/15、2/22播出。日本7/5第1話先行，8/1起週六08:30 JST雙語版、19:30 JST字幕版，放映延至2021冬。臺灣公視採「新雷鳥神機隊 第三季」。各地片頭及終回片尾曲位待核。",
+    "status": "finished",
+    "officialSiteUrl": "https://www.superdramatv.com/lineup/SN0000001561.html",
+    "identifierSource": {
+      "url": "https://www.itv.com/watch/thunderbirds-are-go/2a2131/2a2131a0077",
+      "label": "ITVX 英國第3季第25話及系列識別",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.itv.com/watch/thunderbirds-are-go/2a2131",
+      "https://www.youtube.com/watch?v=FZi2EadeS2A",
+      "https://www.youtube.com/watch?v=zjTadDpt4fw",
+      "https://tv.apple.com/gb/episode/the-long-reach/umc.cmc.1z4ol6qrxmxhhqlzfn1i0p9w",
+      "https://fanderson.org.uk/news/category/thunderbirds-are-go/",
+      "https://www.clivebanks.co.uk/ThunderbirdsAreGo%20Timeline.htm",
+      "https://www.superdramatv.com/lineup/SN0000001561.html",
+      "https://www.au.kddi.com/uni/t_guide/202007/dg202007.pdf",
+      "https://www.superdramatv.com/new/2020/07/-are-go-3-1.html",
+      "https://www.superdramatv.com/program/pdf/Super2021_02_eng.pdf",
+      "https://info-material.pts.org.tw/prg_manage/2021pts_all.pdf",
+      "https://www.nickfostermusic.com/credits"
+    ],
+    "metadataVerifiedAt": "2026-11-19",
+    "verifiedAt": "2026-11-19",
+    "metadataSources": [
+      {
+        "url": "https://www.itv.com/watch/thunderbirds-are-go/2a2131/2a2131a0077",
+        "label": "ITVX 英國第3季第25話及系列識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.itv.com/watch/thunderbirds-are-go/2a2131",
+        "label": "ITVX 英國正式節目及分集",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=FZi2EadeS2A",
+        "label": "權利方正式發布2020終段08:30 ITV／CITV播出公告",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=zjTadDpt4fw",
+        "label": "權利方第26話原英文回顧標題與說明",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/gb/episode/the-long-reach/umc.cmc.1z4ol6qrxmxhhqlzfn1i0p9w",
+        "label": "Apple TV 英國正版終話與22分鐘片長",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://fanderson.org.uk/news/category/thunderbirds-are-go/",
+        "label": "當期英國第25、26話逐天首播時段及重播交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.clivebanks.co.uk/ThunderbirdsAreGo%20Timeline.htm",
+        "label": "英國第3季各期首播日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.superdramatv.com/lineup/SN0000001561.html",
+        "label": "日本第3季正式片名、26話及播出權利方資料",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.au.kddi.com/uni/t_guide/202007/dg202007.pdf",
+        "label": "日本電視通路2020年7/5第1話先行時段",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.superdramatv.com/new/2020/07/-are-go-3-1.html",
+        "label": "日本權利方2020/8/1雙語及字幕版常規排期",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.superdramatv.com/program/pdf/Super2021_02_eng.pdf",
+        "label": "日本電視台2021年2月第26話排期",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://info-material.pts.org.tw/prg_manage/2021pts_all.pdf",
+        "label": "臺灣公視正式繁中片名及26話編列",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickfostermusic.com/credits",
+        "label": "Nick Foster 作品集確認第1至3季與Ben Foster的配樂名義",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [],
+    "themeAvailability": "pending_verification",
+    "broadcastTimeJst": "08:30"
+  },
+  {
+    "anilistId": 116415,
+    "anilistUrl": "https://anilist.co/anime/116415",
+    "id": "curated-116415",
+    "slug": "bakugan-armored-alliance",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2020-02-16",
+    "titleJa": "爆丸アーマードアライアンス",
+    "titleZhHant": "爆丸 裝甲聯盟",
+    "titleRomaji": "Bakugan: Armored Alliance",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116415-5EavwM1M0Av2.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/116415",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "editorialWeekday": 7,
+    "status": "finished",
+    "broadcastLabel": "加拿大 Teletoon 2020/2/16 14:30 ET 首播；美國 Cartoon Network 3/1 起。北美每兩段約11分鐘併成半小時節目。日本2020/4/3–2021/3/26每週五17:00 JST配信52話。香港翡翠台2020年7月起週日16:00–16:30。北美冬季為原英語版，英語片頭正式題名、演唱與原播片尾，以及香港音軌尚待原期掛字或授權曲表。",
+    "officialSiteUrl": "https://www.bakugan.jp/armoredalliance/",
+    "sourceReferenceUrls": [
+      "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+      "https://www.tms-e.co.jp/archives/pdf/release/2020/20200306_bakumaru_new.pdf",
+      "https://assets.corusent.com/wp-content/uploads/2021/09/Bakugan-Battle-Alliance_Nelvana-Distribution-Round-Up_Final_Aug_10_2020.pdf",
+      "https://imissbionix.wordpress.com/2020/01/30/bakugan-armored-alliance-debuts-this-february-on-teletoon/",
+      "https://www.bakugan.jp/armoredalliance/story/",
+      "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=23715",
+      "https://www.youtube.com/watch?v=7nFKshuCXzk",
+      "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200714174316000_90793517.pdf",
+      "https://hkdubbing.fandom.com/zh-hk/wiki/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8/2020%E5%B9%B4%E4%BB%A3",
+      "https://hkaiw.com/news/20200719.htm",
+      "https://www.youtube.com/watch?v=ObCtA7xwksk",
+      "https://bakugan.wiki/wiki/Bakugan_Theme_Songs",
+      "https://anilist.co/anime/116415"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+        "label": "TMS 作品資料：日本配信範圍、52話及主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200306_bakumaru_new.pdf",
+        "label": "TMS 國際合作與加拿大、美國、日本首發日",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://assets.corusent.com/wp-content/uploads/2021/09/Bakugan-Battle-Alliance_Nelvana-Distribution-Round-Up_Final_Aug_10_2020.pdf",
+        "label": "Nelvana：104段各11分鐘及英語加拿大／美國時段",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://imissbionix.wordpress.com/2020/01/30/bakugan-armored-alliance-debuts-this-february-on-teletoon/",
+        "label": "加拿大同期節目報道：Teletoon 首播14:30 ET及兩段併播",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.bakugan.jp/armoredalliance/story/",
+        "label": "日本官方52話分集",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=23715",
+        "label": "日本權利方授權分集：兩段合成一話",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7nFKshuCXzk",
+        "label": "日版官方第52話預告：2021/3/26 17:00 JST",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200714174316000_90793517.pdf",
+        "label": "無綫節目表：香港正式片名、週日16:00–16:30及早期預排",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://hkdubbing.fandom.com/zh-hk/wiki/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8/2020%E5%B9%B4%E4%BB%A3",
+        "label": "香港翡翠台實播日期及52話交叉對照",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://hkaiw.com/news/20200719.htm",
+        "label": "香港同期紀錄：7月19日因插播而停播",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ObCtA7xwksk",
+        "label": "品牌官方片頭合集：0:40 起為2020年本季英語片頭",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://bakugan.wiki/wiki/Bakugan_Theme_Songs",
+        "label": "英語重啟系列主題旋律及各季版本交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://anilist.co/anime/116415",
+        "label": "AniList：作品識別與公開圖像",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "themes": [
+      {
+        "id": "bakugan-armored-alliance-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "PLANET HERO",
+        "songId": "bakugan-planet-hero",
+        "artistDisplayName": "ダン・クーソー（CV. 高橋李依）、ドラゴノイド（CV. 武内駿輔）",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter"
+        ],
+        "usageLabel": "日本配信版常規片頭，2020/4/3起；以ダン・クーソー為主唱。",
+        "credits": [
+          {
+            "name": "高橋李依",
+            "role": "vocals"
+          },
+          {
+            "name": "武内駿輔",
+            "role": "vocals"
+          },
+          {
+            "name": "橋本彩子",
+            "role": "lyrics"
+          },
+          {
+            "name": "南悠翔",
+            "role": "composition"
+          },
+          {
+            "name": "南悠翔",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+            "label": "TMS 首次片頭公告、雙人演唱及完整版發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.goodish.co.jp/creator/32/",
+            "label": "作曲家所屬公司核對片頭作曲及編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+              "https://www.goodish.co.jp/creator/32/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-theme-song-20200403-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero-2020-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero-2020-off-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-planet-hero-2020-full",
+            "title": "PLANET HERO",
+            "format": "full",
+            "kind": "character"
+          },
+          {
+            "id": "bakugan-planet-hero-2020-off-vocal",
+            "title": "PLANET HERO(Off Vocal)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "title": "Bakugan Armored Alliance Theme Song",
+            "artistDisplayName": "Dan Kouzo/Dragonoid",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-04-03",
+              "precision": "day"
+            },
+            "label": "TMS MUSIC CO., LTD.",
+            "tracks": [
+              {
+                "title": "PLANET HERO",
+                "recordingId": "bakugan-planet-hero-2020-full",
+                "position": 1
+              },
+              {
+                "title": "PLANET HERO(Off Vocal)",
+                "recordingId": "bakugan-planet-hero-2020-off-vocal",
+                "position": 3
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-planet-hero-2020-full",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-planet-hero-2020-off-vocal",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video"
+            ],
+            "note": "有正式完整版與伴奏。日本播出剪輯的獨立音源及正式片頭／片尾影片待核。",
+            "resumeWhen": "取得標示日本播出版的正式發行，或權利方上傳對應片段時續核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ゴー！爆丸ブロー！",
+        "songId": "bakugan-armored-alliance-go-bakugan-blow",
+        "artistDisplayName": "ドラゴノイド（CV. 武内駿輔）、ダン・クーソー（CV. 高橋李依）",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer"
+        ],
+        "usageLabel": "日本配信版第1–26話片尾，2020/4/3–9/25；以ドラゴノイド為主唱。",
+        "credits": [
+          {
+            "name": "武内駿輔",
+            "role": "vocals"
+          },
+          {
+            "name": "高橋李依",
+            "role": "vocals"
+          },
+          {
+            "name": "永塚健登",
+            "role": "lyrics"
+          },
+          {
+            "name": "永塚健登",
+            "role": "composition"
+          },
+          {
+            "name": "永塚健登",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+            "label": "TMS 首次片尾公告、雙人演唱及完整版發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+            "label": "日本每話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+              "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-theme-song-20200403-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow-2020-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+            "title": "ゴー!爆丸ブロー!",
+            "format": "full",
+            "kind": "character"
+          },
+          {
+            "id": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+            "title": "ゴー!爆丸ブロー!(Off Vocal)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "title": "Bakugan Armored Alliance Theme Song",
+            "artistDisplayName": "Dan Kouzo/Dragonoid",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-04-03",
+              "precision": "day"
+            },
+            "label": "TMS MUSIC CO., LTD.",
+            "tracks": [
+              {
+                "title": "ゴー!爆丸ブロー!",
+                "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+                "position": 2
+              },
+              {
+                "title": "ゴー!爆丸ブロー!(Off Vocal)",
+                "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+                "position": 4
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video"
+            ],
+            "note": "有正式完整版與伴奏。日本播出剪輯的獨立音源及正式片頭／片尾影片待核。",
+            "resumeWhen": "取得標示日本播出版的正式發行，或權利方上傳對應片段時續核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-2",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Higher and Higher",
+        "songId": "bakugan-armored-alliance-higher-and-higher",
+        "artistDisplayName": "上月せれな",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "日本配信版第27–39話片尾，2020/10/2–12/25。",
+        "credits": [
+          {
+            "name": "上月せれな",
+            "role": "vocals"
+          },
+          {
+            "name": "昆真由美",
+            "role": "lyrics"
+          },
+          {
+            "name": "芳賀俊和",
+            "role": "composition"
+          },
+          {
+            "name": "水島康貴",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://serechu.com/news?date=202010",
+            "label": "演唱者官網公布2020年10月起更換片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+            "label": "日本每話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Tpxft3d-c5M",
+            "label": "演唱者官方 MV 簡介：片尾、發行日期與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-ep/1579678129",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://serechu.com/news?date=202010",
+              "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+              "https://www.youtube.com/watch?v=Tpxft3d-c5M"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-ep/1579678129"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "serena-kozuki-higher-and-higher-20201215-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-ed-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Tpxft3d-c5M"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "Tpxft3d-c5M"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-digital",
+            "title": "Higher and Higher",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-ed-size",
+            "title": "Higher and Higher (アニメEDサイズver.)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-inst",
+            "title": "Higher and Higher (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "serena-kozuki-higher-and-higher-20201215-hk",
+            "title": "Higher and Higher",
+            "artistDisplayName": "上月せれな",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-12-15",
+              "precision": "day"
+            },
+            "label": "youthsource records",
+            "tracks": [
+              {
+                "title": "Higher and Higher",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-digital",
+                "position": 1
+              },
+              {
+                "title": "Higher and Higher (アニメEDサイズver.)",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-ed-size",
+                "position": 3
+              },
+              {
+                "title": "Higher and Higher (inst)",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-inst",
+                "position": 4
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-digital",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-ed-size",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-inst",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "已核正式發行內的動畫片尾大小。常規唱片、伴奏及逐話剪輯的母帶關係待核。",
+            "resumeWhen": "取得唱片方版別註記或合法可查的逐話音軌時補核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-3",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "DAN!GAN!ドリーマー",
+        "songId": "bakugan-armored-alliance-dangan-dreamer",
+        "artistDisplayName": "上月せれな",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "usageLabel": "日本配信版第40–52話片尾，2021/1/1–3/26。",
+        "credits": [
+          {
+            "name": "上月せれな",
+            "role": "vocals"
+          },
+          {
+            "name": "M!SATO",
+            "role": "lyrics"
+          },
+          {
+            "name": "宮川麿",
+            "role": "composition"
+          },
+          {
+            "name": "水島康貴",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://media.brightstonemusic.com/1082/",
+            "label": "唱片方公告2021年1月起更換片尾與第40話元日17:00配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7nFKshuCXzk",
+            "label": "權利方第52話預告簡介確認末話日期與時間",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/never-end-ep/1579856451",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://media.brightstonemusic.com/1082/",
+              "https://www.youtube.com/watch?v=7nFKshuCXzk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/never-end-ep/1579856451"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "serena-kozuki-never-end-20210629-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-ed-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-digital",
+            "title": "DAN!GAN!ドリーマー",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+            "title": "DAN!GAN!ドリーマー (アニメEDサイズver.)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-inst",
+            "title": "DAN!GAN!ドリーマー (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "serena-kozuki-never-end-20210629-hk",
+            "title": "NEVER END",
+            "artistDisplayName": "上月せれな",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2021-06-29",
+              "precision": "day"
+            },
+            "label": "youthsource records",
+            "tracks": [
+              {
+                "title": "DAN!GAN!ドリーマー",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-digital",
+                "position": 2
+              },
+              {
+                "title": "DAN!GAN!ドリーマー (アニメEDサイズver.)",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+                "position": 4
+              },
+              {
+                "title": "DAN!GAN!ドリーマー (inst)",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-inst",
+                "position": 6
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-digital",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-inst",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "已核正式發行內的動畫片尾大小。常規唱片、伴奏及逐話剪輯的母帶關係待核。",
+            "resumeWhen": "取得唱片方版別註記或合法可查的逐話音軌時補核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020022201,
+    "id": "curated-warner-thundercats-roar",
+    "slug": "thundercats-roar",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-fall"
+    ],
+    "startDate": "2020-02-22",
+    "titleJa": "ThunderCats Roar",
+    "titleRomaji": "ThunderCats Roar",
+    "editorialWeekday": 6,
+    "broadcastLabel": "美國 Cartoon Network App 2020/1/10先行兩段，2/17電視預播，2/22 10:30 ET以〈Exodus〉兩段半小時正式開播。冬季多以兩段各約11分鐘併播，秋季另有單段。第50段11/20、第52段12/5。台灣卡通頻道6/13 10:00首播。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://press.wbd.com/emea/media-release/cartoon-network-19/thundercats-return-all-new-animated-series-thundercats-roar",
+    "identifierSource": {
+      "url": "https://press.wbd.com/emea/media-release/cartoon-network-19/thundercats-return-all-new-animated-series-thundercats-roar",
+      "label": "Warner Bros.官方作品、同節目雙段與非洲放送",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://press.wbd.com/emea/media-release/cartoon-network-19/thundercats-return-all-new-animated-series-thundercats-roar",
+      "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+      "https://comicbook.com/tv-shows/news/thundercats-roar-cartoon-network-premiere-date-episode-synopsis/",
+      "https://www.tvguide.com/tvshows/thundercats-roar/episodes-season-1/1030833311/",
+      "https://www.tvtango.com/series/thundercats_roar/episodes",
+      "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+      "https://news.agentm.tw/113734/"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://press.wbd.com/emea/media-release/cartoon-network-19/thundercats-return-all-new-animated-series-thundercats-roar",
+        "label": "Warner Bros.官方作品、同節目雙段與非洲放送",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+        "label": "權利方授權分集、冬季播出及終回日期",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://comicbook.com/tv-shows/news/thundercats-roar-cartoon-network-premiere-date-episode-synopsis/",
+        "label": "美國同期：串流先行、2月22日10:30首播及翌週雙段",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvguide.com/tvshows/thundercats-roar/episodes-season-1/1030833311/",
+        "label": "美國電視分集、日期及正片分鐘交叉核對",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvtango.com/series/thundercats_roar/episodes",
+        "label": "美國冬、春及秋季原播日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+        "label": "美國1/10先行、2/17電視預播及季度資料交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://news.agentm.tw/113734/",
+        "label": "卡通頻道台灣繁中節目名及首播佈局",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "thundercats-roar-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ThunderCats ROAR! Theme",
+        "songId": "thundercats-roar-main-theme",
+        "artistDisplayName": "Andi Gibson、Matthew Janszen",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-fall"
+        ],
+        "usageLabel": "美國 Cartoon Network 多數分集的英語片頭。2020冬至少有兩種片頭編排；首播合編〈Exodus〉與兩款曲位交界的逐話差異待當期音畫。",
+        "credits": [
+          {
+            "name": "Andi Gibson",
+            "role": "vocals"
+          },
+          {
+            "name": "Matthew Janszen",
+            "role": "vocals"
+          },
+          {
+            "name": "Victor Courtright",
+            "role": "songwriting"
+          },
+          {
+            "name": "Matthew Janszen",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.matthewjanszen.com/projects",
+            "label": "作曲家本人作品集：本作音樂署名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+            "label": "Cartoon Network 授權分集與播出編排",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+            "label": "逐話主題曲、演唱與詞曲掛字交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thundercats.fandom.com/wiki/ThunderCats_ROAR%21_Theme",
+            "label": "常規英語片頭題名及例外集數交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://watch.plex.tv/es/show/thundercats-roar/credits",
+            "label": "節目發行聚合介面的演唱與音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.matthewjanszen.com/projects",
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/ThunderCats_ROAR%21_Theme",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-main-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.matthewjanszen.com/projects",
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/ThunderCats_ROAR%21_Theme",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.matthewjanszen.com/projects",
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/ThunderCats_ROAR%21_Theme",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "official_video",
+              "releases"
+            ],
+            "note": "兩地分集外連已核。原期與後來平台剪輯、〈Exodus〉片頭是否留白、片尾使用舊系列主題的確切錄音待核。",
+            "resumeWhen": "取得美國同版片頭片尾掛字或 Warner 曲表，以逐話驗證範圍、作詞／作曲分工及錄音。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "thundercats-roar-op-2",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Thunder NeKo",
+        "songId": "thundercats-roar-thunder-neko",
+        "artistDisplayName": "神聖かまってちゃん",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "美國2020冬的另版片頭。分集掛字交叉指向3/14〈Panthro Plagiarized!〉及〈Warrior Maiden Invasion〉；精確原播範圍留待各版本片頭比對。",
+        "credits": [
+          {
+            "name": "神聖かまってちゃん",
+            "role": "vocals"
+          },
+          {
+            "name": "の子",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+            "label": "Cartoon Network 授權第7及第8話及節目日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+            "label": "逐話所列片頭名稱、詞曲、演唱與Warner Music Japan名義",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thundercats.fandom.com/wiki/Thunder_NeKo_%28Thundercats_Roar%21_Theme%29",
+            "label": "特別片頭與兩話劇名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+            "label": "綜合條目所列集數有差異，保留待核",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://watch.plex.tv/es/show/thundercats-roar/credits",
+            "label": "節目發行介面的主題曲演唱者交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/Thunder_NeKo_%28Thundercats_Roar%21_Theme%29",
+              "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-thunder-neko"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/Thunder_NeKo_%28Thundercats_Roar%21_Theme%29",
+              "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://thundercats.fandom.com/wiki/ThunderCats_Roar_Crew_Credits",
+              "https://thundercats.fandom.com/wiki/Thunder_NeKo_%28Thundercats_Roar%21_Theme%29",
+              "https://en.wikipedia.org/wiki/ThunderCats_Roar",
+              "https://watch.plex.tv/es/show/thundercats-roar/credits"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "lyrics",
+              "composition",
+              "arrangement",
+              "official_video",
+              "recordings",
+              "releases",
+              "platform_links"
+            ],
+            "note": "逐話掛字索引與部分總表的集數不一致。第1、2話同名掛字可能對應不同剪輯。官方發行和區域曲位待核。",
+            "resumeWhen": "取得第1–8段同期Cartoon Network音畫或Warner Music Japan正式曲目，逐段對照。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "thundercats-roar-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Grune's Tune",
+        "songId": "thundercats-roar-grunes-tune",
+        "artistDisplayName": "Thundercat",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "美國 Cartoon Network 2020/11/20播出的第50段〈Grune〉劇中用曲，2020年7月官方 Comic-Con 活動先行介紹。",
+        "credits": [
+          {
+            "name": "Thundercat",
+            "role": "vocals"
+          },
+          {
+            "name": "Thundercat",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+            "label": "Cartoon Network 授權分集第50段及日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jTEUVAhh2XQ",
+            "label": "官方 Comic-Con@Home 本作製作與聲演活動",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://twitter.com/MarlyHG/status/1329939054780026880",
+            "label": "製作人公開確認〈Grune〉及Thundercat為該話寫歌",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.okayplayer.com/thundercat-drops-new-song-for-cartoon-networks-thundercats-reboot/348486",
+            "label": "同期歌曲標題、演唱與先行活動交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thundercats.fandom.com/wiki/Grune_%28episode%29",
+            "label": "正片第50段用曲及配音交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tvmaze.com/episodes/1973936/thundercats-roar-1x50-grune",
+            "label": "美國11/20原期日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://www.youtube.com/watch?v=jTEUVAhh2XQ",
+              "https://twitter.com/MarlyHG/status/1329939054780026880",
+              "https://www.okayplayer.com/thundercat-drops-new-song-for-cartoon-networks-thundercats-reboot/348486",
+              "https://thundercats.fandom.com/wiki/Grune_%28episode%29",
+              "https://www.tvmaze.com/episodes/1973936/thundercats-roar-1x50-grune"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-grunes-tune"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://play.google.com/store/tv/show/ThunderCats_Roar?hl=en_US&id=V-OeqfM8lE_xQktLJPiYAw",
+              "https://www.youtube.com/watch?v=jTEUVAhh2XQ",
+              "https://twitter.com/MarlyHG/status/1329939054780026880",
+              "https://www.okayplayer.com/thundercat-drops-new-song-for-cartoon-networks-thundercats-reboot/348486",
+              "https://thundercats.fandom.com/wiki/Grune_%28episode%29",
+              "https://www.tvmaze.com/episodes/1973936/thundercats-roar-1x50-grune"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "thundercats-roar-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://twitter.com/MarlyHG/status/1329939054780026880",
+              "https://www.okayplayer.com/thundercat-drops-new-song-for-cartoon-networks-thundercats-reboot/348486"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "公布題名和劇中用曲已核。活動片段、原期劇中編輯與獨立發行的關係，以及正式商業曲位待核。",
+            "resumeWhen": "權利方上傳本話對應片段或唱片方列原曲、版本、曲序與香港外連後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "titleZhHant": "霹靂貓 轟"
+  },
+  {
+    "catalogKey": -2020011801,
+    "id": "curated-nickelodeon-its-pony-season-1",
+    "slug": "its-pony-season-1",
+    "seasonIds": [
+      "2020-winter",
+      "2019-fall",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2022-winter"
+    ],
+    "startDate": "2020-01-18",
+    "titleJa": "It's Pony Season 1",
+    "titleRomaji": "It's Pony Season 1",
+    "editorialWeekday": 6,
+    "broadcastLabel": "美國 Nickelodeon 2020/1/18 11:30 ET/PT以〈Nosy Pony／Beatrice〉半小時正式首播；〈Plants!〉2019/12/25數位先行、12/26上YouTube、2020/1/25電視播出。雙段編排約22–23分鐘；12/5播22分鐘特別篇，首季另四段2022/1/17、1/20移至Nicktoons首播。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.blue-zoo.co.uk/projects/its-pony/",
+    "identifierSource": {
+      "url": "https://www.paramountpressexpress.com/nickelodeon/shows/its-pony/releases/?view=104279-nickelodeon-debuts-brand-new-animated-series-its-pony-saturday-jan-18",
+      "label": "Nickelodeon 正式美國首播日與週六編排",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.paramountpressexpress.com/nickelodeon/shows/its-pony/releases/?view=104279-nickelodeon-debuts-brand-new-animated-series-its-pony-saturday-jan-18",
+      "https://www.blue-zoo.co.uk/projects/its-pony/",
+      "https://tv.apple.com/us/show/its-pony/umc.cmc.1vf2vyr31jsp8ghsg8pgdqqkf",
+      "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+      "https://itspony.fandom.com/wiki/Plants%21",
+      "https://thetvdb.com/series/its-pony/seasons/official/1",
+      "https://nickelodeon.fandom.com/wiki/It%27s_Pony_episode_list"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.paramountpressexpress.com/nickelodeon/shows/its-pony/releases/?view=104279-nickelodeon-debuts-brand-new-animated-series-its-pony-saturday-jan-18",
+        "label": "Nickelodeon 正式美國首播日與週六編排",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.blue-zoo.co.uk/projects/its-pony/",
+        "label": "Blue Zoo 原製作方作品與 Nickelodeon",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/us/show/its-pony/umc.cmc.1vf2vyr31jsp8ghsg8pgdqqkf",
+        "label": "Viacom授權 Apple TV 第1集雙段及時長",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+        "label": "同期1/18正式11:30開播、首兩段及數位先行交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://itspony.fandom.com/wiki/Plants%21",
+        "label": "12月先行與1/25電視分流交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://thetvdb.com/series/its-pony/seasons/official/1",
+        "label": "2020四季的美國原播分段及分集次序交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://nickelodeon.fandom.com/wiki/It%27s_Pony_episode_list",
+        "label": "製作季剩餘分段於2022冬首次晚播交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "its-pony-season-1-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "It's Pony Theme",
+        "songId": "its-pony-opening-theme",
+        "artistDisplayName": "It's Pony（發行名義）",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2022-winter"
+        ],
+        "usageLabel": "第1季原英語常規片頭。美國2020/1/18電視開播；按已證實的首季分段橫跨2020四季及2022冬，先行與商業單曲另記。",
+        "credits": [
+          {
+            "name": "Jon Wygens",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=L29MNlW6yAA",
+            "label": "Nicktoons 原片頭標題及影片性質",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.jonwygens.com/newpage",
+            "label": "主題曲作曲家本人作品集與音樂署名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=IC2NRLIHTag",
+            "label": "UMG 單曲署名、原發行日、作曲與母帶工程",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=AwtuMjin0P4",
+            "label": "UMG 首季精選首曲，保留2020 Viacom 錄音權及相同母帶署名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://nickelodeon.fandom.com/wiki/It%27s_Pony_Theme_Song",
+            "label": "首季英語開場與作曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2021/11/nickelodeon-releases-its-pony-best-of.html?hl=en",
+            "label": "精選正式收錄曲目與曲序交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://nickelodeon.fandom.com/wiki/It%27s_Pony_episode_list",
+            "label": "美國首季餘下4段的2022冬原播季度交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/its-pony-theme-single/1655413589",
+            "label": "香港 Apple Music 版別、日期及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590",
+            "label": "香港 Apple Music 第1曲可開啟的正版曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/its-pony-the-best-of-season-1/1655409703",
+            "label": "香港 Apple Music 版別、日期及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827",
+            "label": "香港 Apple Music 第1曲可開啟的正版曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=L29MNlW6yAA",
+              "https://www.jonwygens.com/newpage",
+              "https://www.youtube.com/watch?v=IC2NRLIHTag",
+              "https://www.youtube.com/watch?v=AwtuMjin0P4",
+              "https://nickelodeon.fandom.com/wiki/It%27s_Pony_Theme_Song",
+              "https://www.nickalive.net/2021/11/nickelodeon-releases-its-pony-best-of.html?hl=en",
+              "https://nickelodeon.fandom.com/wiki/It%27s_Pony_episode_list"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-opening-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=L29MNlW6yAA",
+              "https://www.jonwygens.com/newpage",
+              "https://www.youtube.com/watch?v=IC2NRLIHTag",
+              "https://www.youtube.com/watch?v=AwtuMjin0P4",
+              "https://nickelodeon.fandom.com/wiki/It%27s_Pony_Theme_Song",
+              "https://www.nickalive.net/2021/11/nickelodeon-releases-its-pony-best-of.html?hl=en",
+              "https://nickelodeon.fandom.com/wiki/It%27s_Pony_episode_list"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-season-1-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jonwygens.com/newpage",
+              "https://www.youtube.com/watch?v=IC2NRLIHTag"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=L29MNlW6yAA",
+              "https://www.jonwygens.com/newpage"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-opening-theme-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/its-pony-theme-single/1655413589",
+              "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-theme-20200522-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/its-pony-the-best-of-season-1/1655409703",
+              "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-best-of-season-1-20211112-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=IC2NRLIHTag",
+              "https://www.youtube.com/watch?v=AwtuMjin0P4",
+              "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590",
+              "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "its-pony-opening-theme-commercial"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=L29MNlW6yAA"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "L29MNlW6yAA"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=IC2NRLIHTag"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "IC2NRLIHTag"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=AwtuMjin0P4"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "AwtuMjin0P4"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "its-pony-opening-theme-tv",
+            "title": "It's Pony Theme（原電視片頭）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "its-pony-opening-theme-commercial",
+            "title": "It's Pony Theme（1分31秒發行音源）",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "its-pony-theme-20200522-hk",
+            "title": "It's Pony Theme",
+            "artistDisplayName": "It's Pony",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-05-22",
+              "precision": "day"
+            },
+            "label": "Republic Records: Kids & Family",
+            "tracks": [
+              {
+                "title": "It's Pony Theme",
+                "recordingId": "its-pony-opening-theme-commercial",
+                "position": 1
+              }
+            ]
+          },
+          {
+            "id": "its-pony-best-of-season-1-20211112-hk",
+            "title": "It's Pony (The Best of Season 1)",
+            "artistDisplayName": "It's Pony",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2021-11-12",
+              "precision": "day"
+            },
+            "label": "Republic Records: Kids & Family",
+            "tracks": [
+              {
+                "title": "It's Pony Theme",
+                "recordingId": "its-pony-opening-theme-commercial",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/its-pony-theme/1655413589?i=1655413590",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "its-pony-opening-theme-commercial",
+            "releaseId": "its-pony-theme-20200522-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/its-pony-theme/1655409703?i=1655409827",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "its-pony-opening-theme-commercial",
+            "releaseId": "its-pony-best-of-season-1-20211112-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "releases",
+              "official_video",
+              "platform_links"
+            ],
+            "note": "原曲及作曲家已核，首段數位先行的曲位、歌手與個別詞／編署名、原片尾及各地語音待核。",
+            "resumeWhen": "取得原版／海外完整片頭片尾掛字、Viacom作品曲表或實際先行片段後逐項對照。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020012001,
+    "id": "curated-studiocanal-the-adventures-of-paddington-season-1",
+    "slug": "the-adventures-of-paddington-season-1",
+    "seasonIds": [
+      "2020-winter",
+      "2019-fall",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2022-winter",
+      "2022-spring"
+    ],
+    "startDate": "2020-01-20",
+    "titleJa": "The Adventures of Paddington Season 1",
+    "titleRomaji": "The Adventures of Paddington Season 1",
+    "editorialWeekday": 1,
+    "broadcastLabel": "美國 Nickelodeon 2019/12/20 12:30 ET/PT先行雙段，2020/1/20 10:30 ET/PT以〈Paddington Finds a Hobby／Paddington and the Stamp〉正式開播。原季常規每段約11分鐘，雙段約21–22分鐘。英國 Nick Jr. 3/2開播；台灣5/30 08:00。香港ViuTVsix 2022/3/22起於3–4月播映，使用原英語節目名。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.blue-zoo.co.uk/projects/the-adventures-of-paddington/",
+    "identifierSource": {
+      "url": "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+      "label": "Nickelodeon 正式首播、預播及第1季作品識別",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+      "https://www.blue-zoo.co.uk/projects/the-adventures-of-paddington/",
+      "https://www.studiocanal.com.au/titles/index/1145",
+      "https://www.paramountplus.com/shows/the-adventures-of-paddington/episodes/1/",
+      "https://www.porticomedia.com/channelC/program/2027213",
+      "https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf",
+      "https://www.tvtango.com/listings/2019/12/20",
+      "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+      "https://tvtango.com/series/adventures_of_paddington",
+      "https://www.tvmaze.com/shows/40993/the-adventures-of-paddington/episodes",
+      "https://www.nickalive.net/2019/12/nick-jr-uk-to-premiere-adventures-of.html",
+      "https://zh.wikipedia.org/wiki/Now%E5%AF%AC%E9%A0%BB%E9%9B%BB%E8%A6%96%EF%BC%8F%E9%A6%99%E6%B8%AF%E9%9B%BB%E8%A6%96%E5%A8%9B%E6%A8%82%E5%A4%96%E8%B3%BC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+        "label": "Nickelodeon 正式首播、預播及第1季作品識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.blue-zoo.co.uk/projects/the-adventures-of-paddington/",
+        "label": "原製作方 Blue Zoo 作品資料",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.studiocanal.com.au/titles/index/1145",
+        "label": "StudioCanal 授權方確認11分鐘分段",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.paramountplus.com/shows/the-adventures-of-paddington/episodes/1/",
+        "label": "Paramount+首季常規雙段及長篇排期",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.porticomedia.com/channelC/program/2027213",
+        "label": "台灣地區權利頻道正式繁中片名與5/30首播",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf",
+        "label": "ViuTVsix監管公告2022年3–4月，採原英語片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvtango.com/listings/2019/12/20",
+        "label": "2019/12/20美國電視半小時預播當日節目表",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+        "label": "1/20 10:30正式編排交叉，公告內文另有12:30",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tvtango.com/series/adventures_of_paddington",
+        "label": "美國跨季當期電視分集與播出表",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvmaze.com/shows/40993/the-adventures-of-paddington/episodes",
+        "label": "2020各季度分段播映日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2019/12/nick-jr-uk-to-premiere-adventures-of.html",
+        "label": "英國Nick Jr. 3/2電視、2/25數位先行交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/Now%E5%AF%AC%E9%A0%BB%E9%9B%BB%E8%A6%96%EF%BC%8F%E9%A6%99%E6%B8%AF%E9%9B%BB%E8%A6%96%E5%A8%9B%E6%A8%82%E5%A4%96%E8%B3%BC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "label": "香港2022/3/22首季播映交叉",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "the-adventures-of-paddington-season-1-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Paddington Bear",
+        "songId": "paddington-bear-gary-barlow",
+        "artistDisplayName": "Gary Barlow",
+        "seasonIds": [
+          "2019-fall",
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "首季原英語片頭。首組雙段2019/12/20先行電視播出，2020/1/20進入美國常規編排；2020春、夏、秋續播。商業完整版另收。",
+        "credits": [
+          {
+            "name": "Gary Barlow",
+            "role": "vocals"
+          },
+          {
+            "name": "Gary Barlow",
+            "role": "lyrics"
+          },
+          {
+            "name": "Gary Barlow",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+            "label": "Nickelodeon 原英語主題歌名、寫唱名義及首季節目格式",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.britishanimationawards.com/wp-content/uploads/2020/03/BAA105-Event-Brochure_WEBSITE.pdf",
+            "label": "British Animation Awards 首季音樂署名，與劇伴分工對照",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=88iW9GBBVhs",
+            "label": "Gary Barlow 官方說明為本作主題曲完整版",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LgHi_BQqvsI",
+            "label": "UMG 正式單曲音源及錄音製作參與人員",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetoyinsider.com/adventures-of-paddington-nickelodeon/",
+            "label": "同期主題歌及預播交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://transcripts.foreverdreaming.org/viewtopic.php?t=115777",
+            "label": "預播節目的分段曲位與英語片頭交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2019/12/nick-jr-uk-to-premiere-adventures-of.html",
+            "label": "英國原電視片頭演唱及2020/3/2播出交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tvmaze.com/shows/40993/the-adventures-of-paddington/episodes",
+            "label": "首季各段原播季度交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington-single/1500756887",
+            "label": "香港 Apple Music 版別、日期及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117",
+            "label": "香港 Apple Music 第1曲可開啟的正版曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+              "https://www.britishanimationawards.com/wp-content/uploads/2020/03/BAA105-Event-Brochure_WEBSITE.pdf",
+              "https://www.youtube.com/watch?v=88iW9GBBVhs",
+              "https://www.youtube.com/watch?v=LgHi_BQqvsI",
+              "https://thetoyinsider.com/adventures-of-paddington-nickelodeon/",
+              "https://transcripts.foreverdreaming.org/viewtopic.php?t=115777",
+              "https://www.nickalive.net/2019/12/nick-jr-uk-to-premiere-adventures-of.html",
+              "https://www.tvmaze.com/shows/40993/the-adventures-of-paddington/episodes"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "paddington-bear-gary-barlow"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+              "https://www.britishanimationawards.com/wp-content/uploads/2020/03/BAA105-Event-Brochure_WEBSITE.pdf",
+              "https://www.youtube.com/watch?v=88iW9GBBVhs",
+              "https://www.youtube.com/watch?v=LgHi_BQqvsI",
+              "https://thetoyinsider.com/adventures-of-paddington-nickelodeon/",
+              "https://transcripts.foreverdreaming.org/viewtopic.php?t=115777",
+              "https://www.nickalive.net/2019/12/nick-jr-uk-to-premiere-adventures-of.html",
+              "https://www.tvmaze.com/shows/40993/the-adventures-of-paddington/episodes"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "the-adventures-of-paddington-season-1-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+              "https://www.youtube.com/watch?v=LgHi_BQqvsI"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.paramountpressexpress.com/nickelodeon/shows/the-adventures-of-paddington/releases/?view=104312-beloved-paddington-bear-returns-to-tv-in-nickelodeons-brand-new-animated-preschool-series-the-adventures-of-paddington-premiering-monday-jan-20-at-103",
+              "https://transcripts.foreverdreaming.org/viewtopic.php?t=115777"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "paddington-bear-gary-barlow-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington-single/1500756887",
+              "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gary-barlow-paddington-bear-20200303-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=88iW9GBBVhs",
+              "https://www.youtube.com/watch?v=LgHi_BQqvsI",
+              "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "paddington-bear-gary-barlow-full"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=88iW9GBBVhs"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "88iW9GBBVhs"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=LgHi_BQqvsI"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "LgHi_BQqvsI"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "paddington-bear-gary-barlow-tv",
+            "title": "Paddington Bear（原電視片頭）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "paddington-bear-gary-barlow-full",
+            "title": "Paddington Bear（正式完整版）",
+            "format": "full",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Gary Barlow",
+                "role": "vocals"
+              },
+              {
+                "name": "Ami Richardson",
+                "role": "vocals"
+              },
+              {
+                "name": "Ryan Carline",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "gary-barlow-paddington-bear-20200303-hk",
+            "title": "Paddington Bear (From “The Adventures of Paddington”)",
+            "artistDisplayName": "Gary Barlow",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-03",
+              "precision": "day"
+            },
+            "label": "Polydor Records",
+            "tracks": [
+              {
+                "title": "Paddington Bear (From “The Adventures of Paddington”)",
+                "recordingId": "paddington-bear-gary-barlow-full",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/paddington-bear-from-the-adventures-of-paddington/1500756887?i=1500757117",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "paddington-bear-gary-barlow-full",
+            "releaseId": "gary-barlow-paddington-bear-20200303-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "recordings",
+              "use_quarters",
+              "platform_links"
+            ],
+            "note": "首季英語片頭與完整版已核。台灣國語有合唱線索，但實際區域演唱、原播剪輯和ViuTVsix音軌未有權利方原掛字。器樂片尾也待逐話確認。",
+            "resumeWhen": "取得各地首季節目原始片頭片尾、配音製作署名或唱片方版別後逐區核對。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "the-adventures-of-paddington-season-1-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Marmalade Song",
+        "songId": "the-adventures-of-paddington-season-1-marmalade-song",
+        "artistDisplayName": "Paddington、Judy 與 Jonathan（劇中樂團）",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "〈Paddington Joins a Band〉組樂團及演出段落，製作號118，第18組後段／播出順序第34段。美國 Nick Jr. 2020/7/24 20:30 ET/PT；Paramount+資料頁標7/23。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.paramountplus.com/shows/video/RrpD__sQWB5j2BrBWHwwkjzaYXg9d_8e/",
+            "label": "Paramount+第18組後段與平台日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jSBtRjgIbZc",
+            "label": "Nick Jr.官方分集片段與劇中樂團角色",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html?hl=en",
+            "label": "同期美國Nick Jr.節目表、製作號及電視日期",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/the-adventures-of-paddington/allseasons/official",
+            "label": "第34段與電視日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://transcripts.foreverdreaming.org/viewtopic.php?p=230238",
+            "label": "該段劇中即興寫歌、橘子果醬與角色演出交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.paramountplus.com/shows/video/RrpD__sQWB5j2BrBWHwwkjzaYXg9d_8e/",
+              "https://www.youtube.com/watch?v=jSBtRjgIbZc",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html?hl=en",
+              "https://www.thetvdb.com/series/the-adventures-of-paddington/allseasons/official",
+              "https://transcripts.foreverdreaming.org/viewtopic.php?p=230238"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "the-adventures-of-paddington-season-1-marmalade-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.paramountplus.com/shows/video/RrpD__sQWB5j2BrBWHwwkjzaYXg9d_8e/",
+              "https://www.youtube.com/watch?v=jSBtRjgIbZc",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html?hl=en",
+              "https://www.thetvdb.com/series/the-adventures-of-paddington/allseasons/official",
+              "https://transcripts.foreverdreaming.org/viewtopic.php?p=230238"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "the-adventures-of-paddington-season-1-in-1"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jSBtRjgIbZc"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "jSBtRjgIbZc"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "versionLabel": "Marmalade Song 為通行描述。完整正式題名、角色實際唱演與個別創作署名待核。",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集、角色樂團及劇中歌唱已核。節目未在公開文案列正式曲名、配唱、創作或獨立音源。",
+            "resumeWhen": "取得授權原劇片尾的逐曲署名或 StudioCanal／Nickelodeon 作品曲表後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "titleZhHant": "柏靈頓：熊熊歷險記"
+  },
+  {
+    "catalogKey": -2020011901,
+    "id": "curated-brown-bag-powerbirds",
+    "slug": "powerbirds",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall"
+    ],
+    "startDate": "2020-01-19",
+    "titleJa": "Powerbirds",
+    "titleRomaji": "Powerbirds",
+    "editorialWeekday": 7,
+    "broadcastLabel": "美國 Universal Kids 2020/1/19 10:00 EST以〈World’s Awesomest Villain／Owl of Nod〉半小時開播，1/1有First Look。全季40段各約11分鐘，原美國雙段編排20組，2020冬開播，6/17回歸，11/5播最後一組。加拿大Family Jr.的實際首播待核。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://staging.brownbagfilms.com/work/powerbirds",
+    "identifierSource": {
+      "url": "https://staging.brownbagfilms.com/work/powerbirds",
+      "label": "Brown Bag Films 原作與美國首播作品識別",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://staging.brownbagfilms.com/work/powerbirds",
+      "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-director-bill-gordon",
+      "https://www.thecomposerworks.com/news/powerbirds/",
+      "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+      "https://pbs-kids-sprout-universal-kids-sa.fandom.com/wiki/Powerbirds",
+      "https://www.thetvdb.com/series/powerbirds/allseasons/official",
+      "https://hollywoodlife.com/2020/01/17/powerbirds-preview-worlds-awesomest-villain-first-episode-video/"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://staging.brownbagfilms.com/work/powerbirds",
+        "label": "Brown Bag Films 原作與美國首播作品識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-director-bill-gordon",
+        "label": "製作方同期訪談確認首日及10:00 EST時段",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.thecomposerworks.com/news/powerbirds/",
+        "label": "劇伴作家經紀方確認40段×11分鐘及播出機構",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+        "label": "首期製作方美術與片頭資料",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://pbs-kids-sprout-universal-kids-sa.fandom.com/wiki/Powerbirds",
+        "label": "Universal Kids 首輪兩段編排、先行及最後一組交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.thetvdb.com/series/powerbirds/allseasons/official",
+        "label": "單段節目表與2020四季日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://hollywoodlife.com/2020/01/17/powerbirds-preview-worlds-awesomest-villain-first-episode-video/",
+        "label": "同期獲授權首集節目片段及1/19播出日期",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "powerbirds-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Powerbirds",
+        "songId": "powerbirds-opening-theme",
+        "artistDisplayName": "Adam Sanders、Carmen Yanuziello",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "美國 Universal Kids 原英語常規片頭。2020/1/19正式開播，6月及7–8月續播，末組11/5。1/1 First Look 曲位待核。",
+        "credits": [
+          {
+            "name": "Adam Sanders",
+            "role": "vocals"
+          },
+          {
+            "name": "Carmen Yanuziello",
+            "role": "vocals"
+          },
+          {
+            "name": "PT Walkley",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ptwalkley.com/powerbirds-theme-song/",
+            "label": "原作者 PT Walkley 官方作品集列 Powerbirds Theme Song 及原片頭示例",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+            "label": "製作美術指導確認本劇開場與主題音樂",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt11632536/fullcredits/",
+            "label": "原英語演唱、藝名拼法及標題音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Powerbirds",
+            "label": "片頭名、用途及創作交叉，個別演唱拼法依掛字索引",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://pbs-kids-sprout-universal-kids-sa.fandom.com/wiki/Powerbirds",
+            "label": "原美國首播與各季度正式雙段編排交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ptwalkley.com/powerbirds-theme-song/",
+              "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+              "https://www.imdb.com/title/tt11632536/fullcredits/",
+              "https://en.wikipedia.org/wiki/Powerbirds",
+              "https://pbs-kids-sprout-universal-kids-sa.fandom.com/wiki/Powerbirds"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "powerbirds-opening-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ptwalkley.com/powerbirds-theme-song/",
+              "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+              "https://www.imdb.com/title/tt11632536/fullcredits/",
+              "https://en.wikipedia.org/wiki/Powerbirds",
+              "https://pbs-kids-sprout-universal-kids-sa.fandom.com/wiki/Powerbirds"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "powerbirds-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ptwalkley.com/powerbirds-theme-song/",
+              "https://www.imdb.com/title/tt11632536/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://ptwalkley.com/powerbirds-theme-song/",
+              "https://staging.brownbagfilms.com/labs/entry/behind-the-scenes-with-powerbirds-art-director-giedre-kaveckaite",
+              "https://www.imdb.com/title/tt11632536/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "powerbirds-opening-theme-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://ptwalkley.com/powerbirds-theme-song/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://ptwalkley.com/powerbirds-theme-song/"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "powerbirds-opening-theme-tv",
+            "title": "Powerbirds（原電視片頭）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "links": [
+          {
+            "platform": "PT Walkley",
+            "label": "原作者片頭示例",
+            "url": "https://ptwalkley.com/powerbirds-theme-song/",
+            "linkType": "official_landing_page",
+            "region": "GLOBAL",
+            "recordingId": "powerbirds-opening-theme-tv",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "releases",
+              "official_video",
+              "platform_links"
+            ],
+            "note": "原作者列主題曲示例。片尾器樂僅有綜合條目線索；1/1預覽版本、錄音細節、加拿大原期及香港曲位待核。Sanj Sen為劇伴作曲，未用來推定主題曲編曲。",
+            "resumeWhen": "取得 Universal Kids 原播片尾與正片音畫、節目曲表或音樂正式發行後逐項比對。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020032002,
+    "id": "curated-disney-mira-royal-detective-season-1",
+    "slug": "mira-royal-detective-season-1",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2020-03-20",
+    "titleJa": "Mira, Royal Detective Season 1",
+    "titleRomaji": "Mira, Royal Detective Season 1",
+    "editorialWeekday": 5,
+    "broadcastLabel": "美國2020/3/20 Disney Channel 11:00 EDT/PDT、Disney Junior 19:00及DisneyNOW同步期推出。印度同日預播、3/22正式。首季常規兩段各約11分鐘，25組至2021/3/27。香港授權目錄使用《皇家小偵探蜜亞》、列廣東話聲音；亞洲台2020/7/3有同期線索，香港實際時段和配唱待台表。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+    "identifierSource": {
+      "url": "https://thewaltdisneycompany.com/news/disney-junior-debuts-mira-royal-detective-today-in-the-u-s-and-india/",
+      "label": "迪士尼正式首播、印度預播／開播及作品身分",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://thewaltdisneycompany.com/news/disney-junior-debuts-mira-royal-detective-today-in-the-u-s-and-india/",
+      "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+      "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+      "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+      "https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/",
+      "https://tv.apple.com/hk/show/%E7%9A%87%E5%AE%B6%E5%B0%8F%E5%81%B5%E6%8E%A2%E8%9C%9C%E4%BA%9E/umc.cmc.13sauejdgchx5kigjycrrhj3y",
+      "https://www.disney.com.tw/mira-royal-detective",
+      "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+      "https://disney-junior-broadcast-archives.fandom.com/wiki/Mira%2C_Royal_Detective",
+      "https://disney.fandom.com/wiki/Mira%2C_Royal_Detective_episode_list",
+      "https://en.wikipedia.org/wiki/Mira%2C_Royal_Detective",
+      "https://animesuperhero.com/forums/threads/international-disney-networks-thread-part-7.5786782/"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://thewaltdisneycompany.com/news/disney-junior-debuts-mira-royal-detective-today-in-the-u-s-and-india/",
+        "label": "迪士尼正式首播、印度預播／開播及作品身分",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+        "label": "Disney+ 原季25組分集",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+        "label": "迪士尼正片雙段、原創歌曲團隊",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+        "label": "迪士尼初回美國原播頻道、節目時段與雙集",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/",
+        "label": "迪士尼首季末組2021/3/27播出表",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/hk/show/%E7%9A%87%E5%AE%B6%E5%B0%8F%E5%81%B5%E6%8E%A2%E8%9C%9C%E4%BA%9E/umc.cmc.13sauejdgchx5kigjycrrhj3y",
+        "label": "香港 Apple TV 授權繁中片名、分集及廣東話聲音",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.disney.com.tw/mira-royal-detective",
+        "label": "台灣迪士尼官網繁中片名與當地節目時段",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+        "label": "美國各季分段與播出編排交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://disney-junior-broadcast-archives.fandom.com/wiki/Mira%2C_Royal_Detective",
+        "label": "美國首季25組及異動交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://disney.fandom.com/wiki/Mira%2C_Royal_Detective_episode_list",
+        "label": "美國首季50段及季末交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mira%2C_Royal_Detective",
+        "label": "亞洲與香港頻道線索、兩季邊界交叉",
+        "role": "localized_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://animesuperhero.com/forums/threads/international-disney-networks-thread-part-7.5786782/",
+        "label": "亞洲7/3首播同期節目資訊交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "mira-royal-detective-season-1-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Mira, Royal Detective (Theme Song)",
+        "songId": "mira-royal-detective-main-theme",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter"
+        ],
+        "usageLabel": "美國版第1季常規片頭。第1組2020/3/20開播至第25組2021/3/27。官方先行 Mashup、搖籃曲和地區配唱另核。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          },
+          {
+            "name": "Leela Ladnier",
+            "role": "vocals"
+          },
+          {
+            "name": "Kal Penn",
+            "role": "vocals"
+          },
+          {
+            "name": "Utkarsh Ambudkar",
+            "role": "vocals"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/15/32/153246EB-1661-20A8-F9BA-855FD4676C9B/press-release-10-1146183.pdf",
+            "label": "Disney Junior 宣布片頭、招牌曲及3/20原聲發行",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=G4UaZJyqVT4",
+            "label": "Walt Disney Records 第一輯第1曲及人聲署名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+            "label": "香港 Apple Music 原聲第1曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+            "label": "同步發行原曲、電視用法與曲目交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://disney.fandom.com/wiki/Mira%2C_Royal_Detective_%28theme_song%29",
+            "label": "常規片頭位置及三個主要角色演唱交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.detpress.com/storage/uploads/15/32/153246EB-1661-20A8-F9BA-855FD4676C9B/press-release-10-1146183.pdf",
+              "https://www.youtube.com/watch?v=G4UaZJyqVT4",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+              "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+              "https://disney.fandom.com/wiki/Mira%2C_Royal_Detective_%28theme_song%29",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-main-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.detpress.com/storage/uploads/15/32/153246EB-1661-20A8-F9BA-855FD4676C9B/press-release-10-1146183.pdf",
+              "https://www.youtube.com/watch?v=G4UaZJyqVT4",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+              "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+              "https://disney.fandom.com/wiki/Mira%2C_Royal_Detective_%28theme_song%29",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://www.youtube.com/watch?v=G4UaZJyqVT4"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+              "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-main-theme-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=G4UaZJyqVT4"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "G4UaZJyqVT4"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-main-theme-soundtrack",
+            "title": "Mira, Royal Detective (Theme Song)（原聲發行）",
+            "format": "tv",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Kamran Lucas",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Mira, Royal Detective (Theme Song)",
+                "recordingId": "mira-royal-detective-main-theme-soundtrack",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/mira-royal-detective-theme-song/1502157868?i=1502158207",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-main-theme-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原版主要角色唱者與原聲全錄音署名分列。",
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "use_quarters",
+              "releases",
+              "official_video",
+              "platform_links"
+            ],
+            "note": "第一輯所收為原英語常規片頭；2月先行混曲與後來搖籃曲是另外呈現。Apple TV 香港列廣東話聲音，歌唱者、台版、香港台表及片尾器樂仍待原播個別核對。",
+            "resumeWhen": "取得香港或其他地區版原集的完整掛字、迪士尼配唱表或常規片尾和正式曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "We're on the Case",
+        "songId": "mira-royal-detective-were-on-the-case",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter"
+        ],
+        "usageLabel": "美國原版第1季各集反覆出現的查案唱段。迪士尼製作資料列為招牌插曲；2020/3/6單曲較原播先行。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          },
+          {
+            "name": "Deepak Ramapriyan",
+            "role": "arrangement"
+          },
+          {
+            "name": "Leela Ladnier",
+            "role": "vocals"
+          },
+          {
+            "name": "Kal Penn",
+            "role": "vocals"
+          },
+          {
+            "name": "Utkarsh Ambudkar",
+            "role": "vocals"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209",
+            "label": "香港 Apple Music 原聲第2曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Y5qEGr33wHw",
+            "label": "Walt Disney Records 3/20商品音源及三位主唱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+            "label": "同步發行原曲、電視用法與曲目交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://filmmusicreporter.com/2020/03/20/soundtrack-album-for-disney-juniors-mira-royal-detective-released/",
+            "label": "同期原聲、招牌插曲與 Deepak Ramapriyan 該曲編排交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective-single/1500329445",
+            "label": "香港 Apple Music 版別、日期及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective/1500329445?i=1500329446",
+            "label": "香港 Apple Music 第1曲可開啟的正版曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=tkQKGpj9Eh4",
+            "label": "Disney Jr. 3/6先行正式 MV 標題及發佈名義",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209",
+              "https://www.youtube.com/watch?v=Y5qEGr33wHw",
+              "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+              "https://filmmusicreporter.com/2020/03/20/soundtrack-album-for-disney-juniors-mira-royal-detective-released/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-were-on-the-case"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209",
+              "https://www.youtube.com/watch?v=Y5qEGr33wHw",
+              "https://www.laughingplace.com/w/articles/2020/03/21/soundtrack-review-mira-royal-detective-vol-1/",
+              "https://filmmusicreporter.com/2020/03/20/soundtrack-album-for-disney-juniors-mira-royal-detective-released/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://www.youtube.com/watch?v=Y5qEGr33wHw",
+              "https://filmmusicreporter.com/2020/03/20/soundtrack-album-for-disney-juniors-mira-royal-detective-released/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-were-on-the-case-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective-single/1500329445",
+              "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective/1500329445?i=1500329446"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-were-on-the-case-20200306-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective/1500329445?i=1500329446"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective/1500329445?i=1500329446"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Y5qEGr33wHw"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "Y5qEGr33wHw"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=tkQKGpj9Eh4"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "tkQKGpj9Eh4"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-were-on-the-case-soundtrack",
+            "title": "We're on the Case（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "We're on the Case",
+                "recordingId": "mira-royal-detective-were-on-the-case-soundtrack",
+                "position": 2
+              }
+            ]
+          },
+          {
+            "id": "mira-royal-detective-were-on-the-case-20200306-hk",
+            "title": "We're on the Case (From \"Mira, Royal Detective\")",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-06",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "We're on the Case (From \"Mira, Royal Detective\")",
+                "recordingId": "mira-royal-detective-were-on-the-case-soundtrack",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/were-on-the-case/1502157868?i=1502158209",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-were-on-the-case-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/were-on-the-case-from-mira-royal-detective/1500329445?i=1500329446",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-were-on-the-case-soundtrack",
+            "releaseId": "mira-royal-detective-were-on-the-case-20200306-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "香港單曲、第一輯的主唱、唱片方與曲長相符。後續 ICON 合輯版本時長不同；劇中各話剪輯、短節目和該合輯錄音關係待核。",
+            "resumeWhen": "取得唱片方錄音識別或迪士尼逐話曲表後對照同曲變體。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-2",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "Gotta Find That Scarf",
+        "songId": "mira-royal-detective-gotta-find-that-scarf",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "美國第1季第1A段〈The Case of the Royal Scarf〉劇中用曲，2020/3/20首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222",
+            "label": "香港 Apple Music 原聲第7曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6N3Jy4Yd3rE",
+            "label": "Disney Jr. 官方首播組合的完整分集資料",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=6N3Jy4Yd3rE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-gotta-find-that-scarf"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=6N3Jy4Yd3rE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-gotta-find-that-scarf-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6N3Jy4Yd3rE"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "6N3Jy4Yd3rE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-gotta-find-that-scarf-soundtrack",
+            "title": "Gotta Find That Scarf（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Gotta Find That Scarf",
+                "recordingId": "mira-royal-detective-gotta-find-that-scarf-soundtrack",
+                "position": 7
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/gotta-find-that-scarf/1502157868?i=1502158222",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-gotta-find-that-scarf-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-3",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "The Puppet Trail",
+        "songId": "mira-royal-detective-the-puppet-trail",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "美國第1季第2A段〈Mystery at the Puppet Show〉劇中用曲，2020/3/20首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220",
+            "label": "香港 Apple Music 原聲第6曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=HN0dGyv1_74",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=HN0dGyv1_74",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-puppet-trail"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=HN0dGyv1_74",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-puppet-trail-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=HN0dGyv1_74"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "HN0dGyv1_74"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-the-puppet-trail-soundtrack",
+            "title": "The Puppet Trail（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Kamran Lucas",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "The Puppet Trail",
+                "recordingId": "mira-royal-detective-the-puppet-trail-soundtrack",
+                "position": 6
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/the-puppet-trail/1502157868?i=1502158220",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-the-puppet-trail-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-4",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "Be the Music",
+        "songId": "mira-royal-detective-be-the-music",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "美國第1季第3A段〈The Case of the Dance Off Disaster〉劇中用曲，2020/3/27首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373",
+            "label": "香港 Apple Music 原聲第18曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=iD80iaHbVEU",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=iD80iaHbVEU",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-be-the-music"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373",
+              "https://www.detpress.com/storage/uploads/F3/59/F359AD60-744A-B297-E71D-1440F1FCFF8F/press-release-9-1148727.pdf",
+              "https://www.youtube.com/watch?v=iD80iaHbVEU",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-be-the-music-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=iD80iaHbVEU"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "iD80iaHbVEU"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-be-the-music-soundtrack",
+            "title": "Be the Music（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Be the Music",
+                "recordingId": "mira-royal-detective-be-the-music-soundtrack",
+                "position": 18
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/be-the-music/1502157868?i=1502158373",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-be-the-music-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-5",
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "The Royal Way",
+        "songId": "mira-royal-detective-the-royal-way",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第4A段〈The Undercover Princess Mystery〉劇中用曲，2020/4/3首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356",
+            "label": "香港 Apple Music 原聲第11曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-royal-way"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-royal-way-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-the-royal-way-soundtrack",
+            "title": "The Royal Way（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kamran Lucas",
+                "role": "vocals"
+              },
+              {
+                "name": "Karan Brar",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "The Royal Way",
+                "recordingId": "mira-royal-detective-the-royal-way-soundtrack",
+                "position": 11
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/the-royal-way/1502157868?i=1502158356",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-the-royal-way-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-6",
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "Play Us Your Song",
+        "songId": "mira-royal-detective-play-us-your-song",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第5A段〈The Case of the Wrecked Recital〉劇中用曲，2020/4/10首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223",
+            "label": "香港 Apple Music 原聲第8曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Uh3rTIl3-Do",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223",
+              "https://www.youtube.com/watch?v=Uh3rTIl3-Do",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-play-us-your-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223",
+              "https://www.youtube.com/watch?v=Uh3rTIl3-Do",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-play-us-your-song-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Uh3rTIl3-Do"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "Uh3rTIl3-Do"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-play-us-your-song-soundtrack",
+            "title": "Play Us Your Song（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Play Us Your Song",
+                "recordingId": "mira-royal-detective-play-us-your-song-soundtrack",
+                "position": 8
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/play-us-your-song/1502157868?i=1502158223",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-play-us-your-song-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-7",
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "Who Could It Be?",
+        "songId": "mira-royal-detective-who-could-it-be",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第7A段〈The Case of the Secret Gift-Giver〉劇中用曲，2020/4/24首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225",
+            "label": "香港 Apple Music 原聲第9曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Tsg_Q4AbqRI",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225",
+              "https://www.youtube.com/watch?v=Tsg_Q4AbqRI",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-who-could-it-be"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225",
+              "https://www.youtube.com/watch?v=Tsg_Q4AbqRI",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-who-could-it-be-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Tsg_Q4AbqRI"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "Tsg_Q4AbqRI"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-who-could-it-be-soundtrack",
+            "title": "Who Could It Be?（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Hannah Simone",
+                "role": "vocals"
+              },
+              {
+                "name": "Jameela Jamil",
+                "role": "vocals"
+              },
+              {
+                "name": "Nardeep Khurmi",
+                "role": "vocals"
+              },
+              {
+                "name": "Avantika Vandanapu",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Who Could It Be?",
+                "recordingId": "mira-royal-detective-who-could-it-be-soundtrack",
+                "position": 9
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/who-could-it-be/1502157868?i=1502158225",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-who-could-it-be-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-8",
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "The Boy We're Looking For",
+        "songId": "mira-royal-detective-the-boy-were-looking-for",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第8A段〈The Mysterious Polo Player〉劇中用曲，2020/5/1首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361",
+            "label": "香港 Apple Music 原聲第14曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=yPoa-ISevoE",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361",
+              "https://www.youtube.com/watch?v=yPoa-ISevoE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-boy-were-looking-for"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361",
+              "https://www.youtube.com/watch?v=yPoa-ISevoE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-8"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-boy-were-looking-for-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=yPoa-ISevoE"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "yPoa-ISevoE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-the-boy-were-looking-for-soundtrack",
+            "title": "The Boy We're Looking For（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Hannah Simone",
+                "role": "vocals"
+              },
+              {
+                "name": "Kamran Lucas",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "The Boy We're Looking For",
+                "recordingId": "mira-royal-detective-the-boy-were-looking-for-soundtrack",
+                "position": 14
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/the-boy-were-looking-for/1502157868?i=1502158361",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-the-boy-were-looking-for-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-9",
+        "type": "IN",
+        "sequence": 9,
+        "titleJa": "Happy Birthday Veer",
+        "songId": "mira-royal-detective-happy-birthday-veer",
+        "artistDisplayName": "劇中祝賀合唱",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第9A段〈The Case of the Chiseling Chiselers〉劇中用曲，2020/5/8首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gMRXG_b1cNU",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.youtube.com/watch?v=gMRXG_b1cNU",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-happy-birthday-veer"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.youtube.com/watch?v=gMRXG_b1cNU",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=gMRXG_b1cNU"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gMRXG_b1cNU"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "versionLabel": "角色或場景演出名義。個別聲音署名待核。",
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "recordings",
+              "releases",
+              "platform_links"
+            ],
+            "note": "Disney Jr. 同期發布歌曲影音。正式商業發行、個別演唱與電視錄音差異待核。",
+            "resumeWhen": "取得 Disney 或 Walt Disney Records 逐曲聲音曲表及香港正式發行後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-10",
+        "type": "IN",
+        "sequence": 10,
+        "titleJa": "We're So Glad You're Home",
+        "songId": "mira-royal-detective-were-so-glad-youre-home",
+        "artistDisplayName": "Priya、Meena（劇中角色）",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第10A段〈Mystery at the Marketplace〉劇中用曲，2020/5/15首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zw_Q2Mj7zwE",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.youtube.com/watch?v=zw_Q2Mj7zwE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-were-so-glad-youre-home"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.youtube.com/watch?v=zw_Q2Mj7zwE",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-10"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=zw_Q2Mj7zwE"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "zw_Q2Mj7zwE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "versionLabel": "角色或場景演出名義。個別聲音署名待核。",
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "recordings",
+              "releases",
+              "platform_links"
+            ],
+            "note": "Disney Jr. 同期發布歌曲影音。正式商業發行、個別演唱與電視錄音差異待核。",
+            "resumeWhen": "取得 Disney 或 Walt Disney Records 逐曲聲音曲表及香港正式發行後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-11",
+        "type": "IN",
+        "sequence": 11,
+        "titleJa": "When We’re Detectives",
+        "songId": "mira-royal-detective-when-were-detectives",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第11A段〈Mikku and Chikku: Doll Detectives〉劇中用曲，2020/6/12首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359",
+            "label": "香港 Apple Music 原聲第12曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6pZ_TWQmfmw",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359",
+              "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+              "https://www.youtube.com/watch?v=6pZ_TWQmfmw",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-when-were-detectives"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359",
+              "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+              "https://www.youtube.com/watch?v=6pZ_TWQmfmw",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-11"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-when-were-detectives-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=6pZ_TWQmfmw"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "6pZ_TWQmfmw"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-when-were-detectives-soundtrack",
+            "title": "When We’re Detectives（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "When We’re Detectives",
+                "recordingId": "mira-royal-detective-when-were-detectives-soundtrack",
+                "position": 12
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/when-were-detectives/1502157868?i=1502158359",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-when-were-detectives-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-12",
+        "type": "IN",
+        "sequence": 12,
+        "titleJa": "The Tiffin Song",
+        "songId": "mira-royal-detective-the-tiffin-song",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-spring"
+        ],
+        "usageLabel": "美國第1季第12A段〈The Topsy Turvy Tiffin Mystery〉劇中用曲，2020/6/26首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366",
+            "label": "香港 Apple Music 原聲第16曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=dCcKZioIG_8",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366",
+              "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+              "https://www.youtube.com/watch?v=dCcKZioIG_8",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-tiffin-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366",
+              "https://www.detpress.com/storage/uploads/9B/E9/9BE97602-1532-CB44-3CBC-34FEEBB3E229/press-release-9-1162819.pdf",
+              "https://www.youtube.com/watch?v=dCcKZioIG_8",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-12"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-the-tiffin-song-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=dCcKZioIG_8"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "dCcKZioIG_8"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-the-tiffin-song-soundtrack",
+            "title": "The Tiffin Song（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Hannah Simone",
+                "role": "vocals"
+              },
+              {
+                "name": "Avantika Vandanapu",
+                "role": "vocals"
+              },
+              {
+                "name": "Danny Pudi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "The Tiffin Song",
+                "recordingId": "mira-royal-detective-the-tiffin-song-soundtrack",
+                "position": 16
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/the-tiffin-song/1502157868?i=1502158366",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-the-tiffin-song-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-13",
+        "type": "IN",
+        "sequence": 13,
+        "titleJa": "Let the Clues Do the Talking",
+        "songId": "mira-royal-detective-let-the-clues-do-the-talking",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "美國第1季第13A段〈The Case of One Angry Chicken〉劇中用曲，2020/7/17首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219",
+            "label": "香港 Apple Music 原聲第5曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-let-the-clues-do-the-talking"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-13"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-let-the-clues-do-the-talking-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-let-the-clues-do-the-talking-soundtrack",
+            "title": "Let the Clues Do the Talking（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Let the Clues Do the Talking",
+                "recordingId": "mira-royal-detective-let-the-clues-do-the-talking-soundtrack",
+                "position": 5
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/let-the-clues-do-the-talking/1502157868?i=1502158219",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-let-the-clues-do-the-talking-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-14",
+        "type": "IN",
+        "sequence": 14,
+        "titleJa": "Rakhi",
+        "songId": "mira-royal-detective-rakhi",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "美國第1季第14A段〈The Rakhi Mystery〉劇中用曲，2020/7/30首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360",
+            "label": "香港 Apple Music 原聲第13曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=rIYkcl-hyw0",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360",
+              "https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/",
+              "https://www.youtube.com/watch?v=rIYkcl-hyw0",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-rakhi"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360",
+              "https://www.detpress.com/disneyxd/pressrelease/july-2020-programming-highlights/",
+              "https://www.youtube.com/watch?v=rIYkcl-hyw0",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-14"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-rakhi-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=rIYkcl-hyw0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "rIYkcl-hyw0"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-rakhi-soundtrack",
+            "title": "Rakhi（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Rakhi",
+                "recordingId": "mira-royal-detective-rakhi-soundtrack",
+                "position": 13
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/rakhi/1502157868?i=1502158360",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-rakhi-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-15",
+        "type": "IN",
+        "sequence": 15,
+        "titleJa": "Magnificent",
+        "songId": "mira-royal-detective-magnificent",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "美國第1季第15B段〈The Mystery of the Magnificent Musicians〉劇中用曲，2020/8/28首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370",
+            "label": "香港 Apple Music 原聲第17曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/disneykidsandfamily/pressrelease/august-2020-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370",
+              "https://www.detpress.com/disneykidsandfamily/pressrelease/august-2020-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-magnificent"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370",
+              "https://www.detpress.com/disneykidsandfamily/pressrelease/august-2020-programming-highlights-for-disney-channel-disney-xd-and-disney-junior/",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-15"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-magnificent-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-magnificent-soundtrack",
+            "title": "Magnificent（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Parvesh Cheena",
+                "role": "vocals"
+              },
+              {
+                "name": "Sonal Shah",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Magnificent",
+                "recordingId": "mira-royal-detective-magnificent-soundtrack",
+                "position": 17
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/magnificent/1502157868?i=1502158370",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-magnificent-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-16",
+        "type": "IN",
+        "sequence": 16,
+        "titleJa": "If I Were a Goat",
+        "songId": "mira-royal-detective-if-i-were-a-goat",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "美國第1季第16B段〈The Case of Pinky and the Goat〉劇中用曲，2020/9/25首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362",
+            "label": "香港 Apple Music 原聲第15曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-if-i-were-a-goat"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-16"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-if-i-were-a-goat-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-if-i-were-a-goat-soundtrack",
+            "title": "If I Were a Goat（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Hannah Simone",
+                "role": "vocals"
+              },
+              {
+                "name": "Julian Zane",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "If I Were a Goat",
+                "recordingId": "mira-royal-detective-if-i-were-a-goat-soundtrack",
+                "position": 15
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/if-i-were-a-goat/1502157868?i=1502158362",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-if-i-were-a-goat-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-17",
+        "type": "IN",
+        "sequence": 17,
+        "titleJa": "Diwali",
+        "songId": "mira-royal-detective-diwali",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "美國第1季第19A段〈The Great Diwali Mystery〉劇中用曲，2020/11/6首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210",
+            "label": "香港 Apple Music 原聲第3曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/storage/uploads/5F/0D/5F0D3CF3-65ED-8C52-695D-429594C8FBB9/press-release-8-1178765.pdf",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=l53N612meiY",
+            "label": "Disney Jr. 官方歌曲影片與劇中情境",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210",
+              "https://www.detpress.com/storage/uploads/5F/0D/5F0D3CF3-65ED-8C52-695D-429594C8FBB9/press-release-8-1178765.pdf",
+              "https://www.youtube.com/watch?v=l53N612meiY",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-diwali"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210",
+              "https://www.detpress.com/storage/uploads/5F/0D/5F0D3CF3-65ED-8C52-695D-429594C8FBB9/press-release-8-1178765.pdf",
+              "https://www.youtube.com/watch?v=l53N612meiY",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-17"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-diwali-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=l53N612meiY"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "l53N612meiY"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-diwali-soundtrack",
+            "title": "Diwali（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Diwali",
+                "recordingId": "mira-royal-detective-diwali-soundtrack",
+                "position": 3
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/diwali/1502157868?i=1502158210",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-diwali-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-18",
+        "type": "IN",
+        "sequence": 18,
+        "titleJa": "So Many Books",
+        "songId": "mira-royal-detective-so-many-books",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "usageLabel": "美國第1季第22A段〈The Case of the Missing Library Book〉劇中用曲，2021/1/8首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234",
+            "label": "香港 Apple Music 原聲第10曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-so-many-books"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-18"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-so-many-books-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-so-many-books-soundtrack",
+            "title": "So Many Books（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Aasif Mandvi",
+                "role": "vocals"
+              },
+              {
+                "name": "Deepak Ramapriyan",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "So Many Books",
+                "recordingId": "mira-royal-detective-so-many-books-soundtrack",
+                "position": 10
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/so-many-books/1502157868?i=1502158234",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-so-many-books-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-19",
+        "type": "IN",
+        "sequence": 19,
+        "titleJa": "Something Special",
+        "songId": "mira-royal-detective-something-special",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "usageLabel": "美國第1季第23B段〈The Great Art Mystery〉劇中用曲，2021/1/29首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374",
+            "label": "香港 Apple Music 原聲第19曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-something-special"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-something-special-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-something-special-soundtrack",
+            "title": "Something Special（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Roshni Edwards",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Something Special",
+                "recordingId": "mira-royal-detective-something-special-soundtrack",
+                "position": 19
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/something-special/1502157868?i=1502158374",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-something-special-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      },
+      {
+        "id": "mira-royal-detective-season-1-in-20",
+        "type": "IN",
+        "sequence": 20,
+        "titleJa": "Let the Colors Fly",
+        "songId": "mira-royal-detective-let-the-colors-fly",
+        "artistDisplayName": "Mira, Royal Detective - Cast",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "usageLabel": "美國第1季第25A段〈The Holi Festival Mystery〉劇中用曲，2021/3/27首播。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+            "label": "Disney Junior 原製作資料、各話原創曲與共同詞曲作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+            "label": "Disney+ 原版第1季雙段分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+            "label": "Walt Disney Records 授權發行商逐曲錄音與人聲名單",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+            "label": "香港 Apple Music 原聲第一輯、曲序及2020/3/20發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216",
+            "label": "香港 Apple Music 原聲第4曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/",
+            "label": "迪士尼同期電視節目表核對本話、日期及時段",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+            "label": "美國首季各話、下半或上半段及劇中曲交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/mira-royal-detective/allseasons/official",
+            "label": "美國首季原播分段及劇名日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216",
+              "https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-let-the-colors-fly"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.disneyplus.com/browse/entity-0f6203d9-a69c-40ca-a945-94b5e5b3918d",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216",
+              "https://www.detpress.com/disneyxd/pressrelease/march-2021-programming-highlights/",
+              "https://en.wikipedia.org/wiki/List_of_Mira%2C_Royal_Detective_episodes",
+              "https://thetvdb.com/series/mira-royal-detective/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-season-1-in-20"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.detpress.com/storage/uploads/6D/00/6D00E5ED-E1B8-B606-714E-79D84413FC45/press-release-10-1147288.pdf",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind",
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb",
+              "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-let-the-colors-fly-soundtrack"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/disney-junior-music-mira-royal-detective/1502157868",
+              "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216",
+              "https://www.qobuz.com/ca-en/album/disney-junior-music-mira-royal-detective-mira-royal-detective-cast/cp3gpu1gpswqb"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "mira-royal-detective-disney-junior-music-20200320-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "mira-royal-detective-let-the-colors-fly-soundtrack",
+            "title": "Let the Colors Fly（原聲發行）",
+            "format": "unknown",
+            "kind": "vocal",
+            "credits": [
+              {
+                "name": "Leela Ladnier",
+                "role": "vocals"
+              },
+              {
+                "name": "Kal Penn",
+                "role": "vocals"
+              },
+              {
+                "name": "Utkarsh Ambudkar",
+                "role": "vocals"
+              },
+              {
+                "name": "Sheela Bringi",
+                "role": "vocals"
+              },
+              {
+                "name": "Matthew Tishler",
+                "role": "other"
+              },
+              {
+                "name": "Jeannie Lurie",
+                "role": "other"
+              },
+              {
+                "name": "Vic Florencia",
+                "role": "other"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "title": "Disney Junior Music: Mira, Royal Detective",
+            "artistDisplayName": "Mira, Royal Detective - Cast",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-03-20",
+              "precision": "day"
+            },
+            "label": "Walt Disney Records",
+            "tracks": [
+              {
+                "title": "Let the Colors Fly",
+                "recordingId": "mira-royal-detective-let-the-colors-fly-soundtrack",
+                "position": 4
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/let-the-colors-fly/1502157868?i=1502158216",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "mira-royal-detective-let-the-colors-fly-soundtrack",
+            "releaseId": "mira-royal-detective-disney-junior-music-20200320-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "versionLabel": "原聲逐曲署名另列於發行音源；播出版剪輯及地方配唱待核。"
+      }
+    ],
+    "titleZhHant": "皇家小偵探蜜亞"
+  },
+  {
+    "catalogKey": -2020030201,
+    "id": "curated-wildbrain-dorg-van-dango",
+    "slug": "dorg-van-dango",
+    "seasonIds": [
+      "2020-winter",
+      "2020-summer"
+    ],
+    "startDate": "2020-03-02",
+    "titleJa": "Dorg Van Dango",
+    "titleRomaji": "Dorg Van Dango",
+    "editorialWeekday": 1,
+    "broadcastLabel": "共同製作方記愛爾蘭 RTÉ2 2020/3/2首播，RTÉ同期記週一、三、五07:40及15:00，另有RTÉ Player。部分後續分集資料列3/3。加拿大Family Channel 8/1 10:00 ET/PT。常規雙段各11分鐘。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.cartoonsaloon.ie/irish-animation-studio/tv-series/dorg-van-dango/",
+    "identifierSource": {
+      "url": "https://www.cartoonsaloon.ie/irish-animation-studio/tv-series/dorg-van-dango/",
+      "label": "Cartoon Saloon 製作方作品識別及RTÉ2首播日期",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.cartoonsaloon.ie/irish-animation-studio/tv-series/dorg-van-dango/",
+      "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+      "https://www.wildbrain.com/trade-news/dhx-media-lands-the-extraordinary-world-of-dorg-van-dango-on-nickelodeon-international",
+      "https://www.youtube.com/watch?v=g1eY27heN2c",
+      "https://www.youtube.com/watch?v=F8Q7blHiwzA",
+      "https://animationireland.com/cartoon-saloons-latest-tv-series-dorg-van-dango-premiers-on-rte-2/",
+      "https://en.wikipedia.org/wiki/Dorg_Van_Dango"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.cartoonsaloon.ie/irish-animation-studio/tv-series/dorg-van-dango/",
+        "label": "Cartoon Saloon 製作方作品識別及RTÉ2首播日期",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+        "label": "共同創作者在RTÉ的首播當週文章、時段與作曲人名",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.wildbrain.com/trade-news/dhx-media-lands-the-extraordinary-world-of-dorg-van-dango-on-nickelodeon-international",
+        "label": "WildBrain 聯合製作及國際發行公告",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=g1eY27heN2c",
+        "label": "WildBrain 正版英語分集與官方發布名義",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=F8Q7blHiwzA",
+        "label": "Family Channel 8/1 10:00 ET/PT 原台預告",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://animationireland.com/cartoon-saloons-latest-tv-series-dorg-van-dango-premiers-on-rte-2/",
+        "label": "Animation Ireland 3/2播出及合作製作交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Dorg_Van_Dango",
+        "label": "分段時長、原播日歧異及加拿大交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "dorg-van-dango-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Dorg Van Dango Theme",
+        "songId": "dorg-van-dango-opening-theme",
+        "artistDisplayName": "Leo Pearson、Aisling Browne",
+        "seasonIds": [
+          "2020-winter",
+          "2020-summer"
+        ],
+        "usageLabel": "愛爾蘭及加拿大原英語常規片頭。原掛字稱 Opening Song，此處採描述性題名。",
+        "credits": [
+          {
+            "name": "Leo Pearson",
+            "role": "composition"
+          },
+          {
+            "name": "Leo Pearson",
+            "role": "vocals"
+          },
+          {
+            "name": "Aisling Browne",
+            "role": "vocals"
+          },
+          {
+            "name": "Andrew McNee",
+            "role": "other"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.leopearson.com/",
+            "label": "作曲家 Leo Pearson 作品頁及動畫音樂示例",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=g1eY27heN2c",
+            "label": "WildBrain 正版英語分集與官方發布名義",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+            "label": "共同創作者在RTÉ的首播當週文章、時段與作曲人名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=F8Q7blHiwzA",
+            "label": "加拿大 Family Channel 當期首播預告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://superlogos.fandom.com/wiki/Dorg_Van_Dango_Credits_%282020%29",
+            "label": "原掛字轉錄列片頭歌手 Leo Pearson、Aisling Browne 及旁白 Andrew McNee",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://watch.plex.tv/show/dorg-van-dango/season/1/credits",
+            "label": "第一季演唱名義與原創配樂交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt11874666/fullcredits/",
+            "label": "原分集片頭歌唱署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.leopearson.com/",
+              "https://www.youtube.com/watch?v=g1eY27heN2c",
+              "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+              "https://www.youtube.com/watch?v=F8Q7blHiwzA",
+              "https://superlogos.fandom.com/wiki/Dorg_Van_Dango_Credits_%282020%29",
+              "https://watch.plex.tv/show/dorg-van-dango/season/1/credits",
+              "https://www.imdb.com/title/tt11874666/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "dorg-van-dango-opening-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.leopearson.com/",
+              "https://www.youtube.com/watch?v=g1eY27heN2c",
+              "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+              "https://www.youtube.com/watch?v=F8Q7blHiwzA",
+              "https://superlogos.fandom.com/wiki/Dorg_Van_Dango_Credits_%282020%29",
+              "https://watch.plex.tv/show/dorg-van-dango/season/1/credits",
+              "https://www.imdb.com/title/tt11874666/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "dorg-van-dango-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.leopearson.com/",
+              "https://www.rte.ie/culture/2020/0304/1119904-dorg-van-dango-how-we-made-the-new-animated-series/",
+              "https://superlogos.fandom.com/wiki/Dorg_Van_Dango_Credits_%282020%29",
+              "https://www.imdb.com/title/tt11874666/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "official_video",
+              "releases",
+              "platform_links"
+            ],
+            "note": "正式掛字列片頭歌手及旁白，正片及作曲家作品資料已登記。地方唱段、片尾、實際原播版本及正式曲位待核。",
+            "resumeWhen": "權利方獨立片頭影片、逐版掛字、片尾音樂或唱片正式發行後再確認。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "catalogKey": -2020030801,
+    "id": "curated-spin-master-abby-hatcher-season-2",
+    "slug": "abby-hatcher-season-2",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter",
+      "2021-fall",
+      "2022-spring"
+    ],
+    "startDate": "2020-03-08",
+    "titleJa": "Abby Hatcher Season 2",
+    "titleRomaji": "Abby Hatcher Season 2",
+    "editorialWeekday": 7,
+    "broadcastLabel": "美國 Nick Jr. 2020/3/8 09:00 EDT首播兩段〈Peeper Transport Tubes／Abby Loses Her Glasses〉。26組半小時中有雙段及全長單段，2021冬續播，2022/4/2兩段在美國首播時序最後。香港 ViuTVsix 2021年11至12月登記《小艾比與毛毛寶 2》。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.spinmaster.com/en-us/brands/abby-hatcher/",
+    "identifierSource": {
+      "url": "https://www.spinmaster.com/en-us/brands/abby-hatcher/",
+      "label": "Spin Master 品牌正式原作品名",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.spinmaster.com/en-us/brands/abby-hatcher/",
+      "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+      "https://www.tvokids.com/preschool/abby-hatcher",
+      "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+      "https://www.youtube.com/watch?v=0uGnygyF6DY",
+      "https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf",
+      "https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html",
+      "https://zh.wikipedia.org/wiki/Now%E5%AF%AC%E9%A0%BB%E9%9B%BB%E8%A6%96%EF%BC%8F%E9%A6%99%E6%B8%AF%E9%9B%BB%E8%A6%96%E5%A8%9B%E6%A8%82%E5%A4%96%E8%B3%BC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+      "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+      "https://nickstoryjr.fandom.com/wiki/Abby_Hatcher"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.spinmaster.com/en-us/brands/abby-hatcher/",
+        "label": "Spin Master 品牌正式原作品名",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+        "label": "Nickelodeon 續訂公告列第2季26組半小時與製作方",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvokids.com/preschool/abby-hatcher",
+        "label": "TVOKids 原英語正版動畫、分季及角色說明",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+        "label": "Apple TV 美國第2季首組，3/8與兩段名稱",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0uGnygyF6DY",
+        "label": "Spin Master 官方頻道釋出第2季首組下半 Abby’s Lost Glasses",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1588/HKTVE_Positive_Programmes_2021.pdf",
+        "label": "香港電視娛樂2021年度報告第2季正式名稱及11至12月播放",
+        "role": "first_party",
+        "language": "multi",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html",
+        "label": "同期Nick Jr. 2020/3/8 09:00 第2季首播編排",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://zh.wikipedia.org/wiki/Now%E5%AF%AC%E9%A0%BB%E9%9B%BB%E8%A6%96%EF%BC%8F%E9%A6%99%E6%B8%AF%E9%9B%BB%E8%A6%96%E5%A8%9B%E6%A8%82%E5%A4%96%E8%B3%BC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "label": "香港2020/10/8及2021/11/12各季開始日期交叉",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+        "label": "美國播出日期與製作段號、上架合組交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://nickstoryjr.fandom.com/wiki/Abby_Hatcher",
+        "label": "Nick Jr. 頻道、合組與首播檔期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "abby-hatcher-season-2-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Abby Hatcher Theme",
+        "songId": "abby-hatcher-main-theme",
+        "artistDisplayName": "原英語片頭演唱名義待核",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter",
+          "2022-spring"
+        ],
+        "usageLabel": "第2季原英語改詞片頭，自2020/3/8首組起的版本。另有2021冬續播及2022/4/2美國末段；沿用片頭作品ID。",
+        "credits": [
+          {
+            "name": "Hanna Ashbrook",
+            "role": "songwriting"
+          },
+          {
+            "name": "Ryan Carlson",
+            "role": "songwriting"
+          },
+          {
+            "name": "Joel Benjamin Serlin",
+            "role": "songwriting"
+          },
+          {
+            "name": "Christopher Bradley Sernel",
+            "role": "songwriting"
+          },
+          {
+            "name": "Summer Weiler",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+            "label": "Nickelodeon 續訂公告列第2季26組半小時與製作方",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+            "label": "Apple TV 美國第2季首組，3/8與兩段名稱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0uGnygyF6DY",
+            "label": "Spin Master 官方頻道釋出第2季首組下半 Abby’s Lost Glasses",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.edemrights.gr/wp-content/uploads/2025/03/edem--2025.pdf",
+            "label": "EDEM 管理曲目表 Abby Hatcher Theme 原作與五位創作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html",
+            "label": "同期Nick Jr. 2020/3/8 09:00 第2季首播編排",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://abby-hatcher.fandom.com/wiki/The_Peeper_Transport_Tubes",
+            "label": "第2季首段使用改詞片頭交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://abby-hatcher.fandom.com/wiki/Abby_Hatcher_Theme_Song",
+            "label": "第1與第2季的片頭唱詞版本交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=2050713",
+            "label": "CCS／Spin Master 出版權及 ABBY HATCHER THEME 五位登記名義交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+            "label": "美國播出日期與製作段號、上架合組交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.youtube.com/watch?v=0uGnygyF6DY",
+              "https://www.edemrights.gr/wp-content/uploads/2025/03/edem--2025.pdf",
+              "https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html",
+              "https://abby-hatcher.fandom.com/wiki/The_Peeper_Transport_Tubes",
+              "https://abby-hatcher.fandom.com/wiki/Abby_Hatcher_Theme_Song",
+              "https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=2050713",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-main-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.youtube.com/watch?v=0uGnygyF6DY",
+              "https://www.edemrights.gr/wp-content/uploads/2025/03/edem--2025.pdf",
+              "https://www.nickalive.net/2020/02/nickelodeon-usas-march-2020-premiere.html",
+              "https://abby-hatcher.fandom.com/wiki/The_Peeper_Transport_Tubes",
+              "https://abby-hatcher.fandom.com/wiki/Abby_Hatcher_Theme_Song",
+              "https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=2050713",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.edemrights.gr/wp-content/uploads/2025/03/edem--2025.pdf",
+              "https://www.easysong.com/search/songs/song-copyright-holder-information.aspx?s=2050713"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "format",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://tv.apple.com/us/episode/peeper-transport-tubesabby-loses-her-glasses/umc.cmc.f63mbf9acad71dn17zmly1yr?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.youtube.com/watch?v=0uGnygyF6DY",
+              "https://abby-hatcher.fandom.com/wiki/The_Peeper_Transport_Tubes"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-main-theme-season-2-tv"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "abby-hatcher-main-theme-season-2-tv",
+            "title": "Abby Hatcher Theme（第2季英語改詞片頭）",
+            "format": "tv",
+            "kind": "vocal"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "lyrics",
+              "arrangement",
+              "releases",
+              "official_video",
+              "use_quarters"
+            ],
+            "note": "第2季首組有改詞線索。原作品五位登記創作者已列。改詞署名、改版實唱者、香港及其他音軌的逐段位置待核。",
+            "resumeWhen": "取得第2季英語首播片頭及縮尾掛字、當地台方提供聲軌或權利方版別及唱者確認時補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "abby-hatcher-season-2-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "We're the Blossom Band",
+        "songId": "abby-hatcher-were-the-blossom-band",
+        "artistDisplayName": "The Blossom Band（劇中角色）",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "美國第2季〈The Blossom Band〉於2020/10/18電視首播。第15組製作216，樂團被介紹及演唱的唱段，採場景描述題名。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+            "label": "Apple TV 美國正版節目、分集與原語名稱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tvokids.com/preschool/abby-hatcher",
+            "label": "TVOKids 原英語正版動畫、分季及角色說明",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ArmubIYQSe0",
+            "label": "Spin Master 官方發布第2季 Blossom Band 介紹分集",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+            "label": "美國播出日期與製作段號、上架合組交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://abby-hatcher.fandom.com/wiki/The_Blossom_Band",
+            "label": "原英語唱段、演唱角色及所屬分集交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://clip.cafe/abby-hatcher-2018/oh-yeah-uh-huh-were-the-blossom-band/",
+            "label": "樂團自我介紹唱段的用語與位置交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.tvokids.com/preschool/abby-hatcher",
+              "https://www.youtube.com/watch?v=ArmubIYQSe0",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+              "https://abby-hatcher.fandom.com/wiki/The_Blossom_Band",
+              "https://clip.cafe/abby-hatcher-2018/oh-yeah-uh-huh-were-the-blossom-band/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-were-the-blossom-band"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.tvokids.com/preschool/abby-hatcher",
+              "https://www.youtube.com/watch?v=ArmubIYQSe0",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+              "https://abby-hatcher.fandom.com/wiki/The_Blossom_Band",
+              "https://clip.cafe/abby-hatcher-2018/oh-yeah-uh-huh-were-the-blossom-band/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-season-2-in-1"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "releases",
+              "official_video"
+            ],
+            "note": "演唱按原英語劇中角色列出，唱者掛字、確切出版名與曲位待核。",
+            "resumeWhen": "取得原版掛字、音樂出版方曲名、單曲或原曲的正版獨立發布資料後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "abby-hatcher-season-2-in-2",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "Squeaky Peepers Performance",
+        "songId": "abby-hatcher-grumbles-peeper-performance",
+        "artistDisplayName": "Grumbles、Squeaky Peepers（劇中角色）",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "美國第2季〈Grumbles the Squeaky Peeper〉於2020/12/13電視首播。第19B製作220B，Big Do 失聲後 Grumbles 代班與 Peepers 合唱，採場景描述題名。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+            "label": "Apple TV 美國正版節目、分集與原語名稱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tvokids.com/preschool/abby-hatcher",
+            "label": "TVOKids 原英語正版動畫、分季及角色說明",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/teeny-terry-takes-offgrumbles-the-squeaky-peeper/umc.cmc.qishpf2zbgxqyb1bfmqr3dla?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+            "label": "Apple TV 第2季第19組與替唱情節",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+            "label": "美國播出日期與製作段號、上架合組交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://thetvdb.com/series/abby-hatcher/allseasons/official",
+            "label": "原英語唱段、演唱角色及所屬分集交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.tvokids.com/preschool/abby-hatcher",
+              "https://tv.apple.com/us/episode/teeny-terry-takes-offgrumbles-the-squeaky-peeper/umc.cmc.qishpf2zbgxqyb1bfmqr3dla?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+              "https://thetvdb.com/series/abby-hatcher/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-grumbles-peeper-performance"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tv.apple.com/us/show/abby-hatcher/umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://www.tvokids.com/preschool/abby-hatcher",
+              "https://tv.apple.com/us/episode/teeny-terry-takes-offgrumbles-the-squeaky-peeper/umc.cmc.qishpf2zbgxqyb1bfmqr3dla?showId=umc.cmc.cit3bqrvj8fkvslj6n2wfq7k",
+              "https://en.wikipedia.org/wiki/List_of_Abby_Hatcher_episodes",
+              "https://thetvdb.com/series/abby-hatcher/allseasons/official"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "abby-hatcher-season-2-in-2"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "releases",
+              "official_video"
+            ],
+            "note": "演唱按原英語劇中角色列出，唱者掛字、確切出版名與曲位待核。",
+            "resumeWhen": "取得原版掛字、音樂出版方曲名、單曲或原曲的正版獨立發布資料後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "titleZhHant": "小艾比與毛毛寶 2"
+  },
+  {
+    "catalogKey": -2020011202,
+    "id": "curated-nickelodeon-butterbeans-cafe-season-2",
+    "slug": "butterbeans-cafe-season-2",
+    "seasonIds": [
+      "2020-winter",
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2023-fall"
+    ],
+    "startDate": "2020-01-12",
+    "titleJa": "Butterbean’s Café Season 2",
+    "titleRomaji": "Butterbean’s Café Season 2",
+    "editorialWeekday": 7,
+    "broadcastLabel": "美國 Nick Jr. 2020/1/12 09:00 EST 第2季首播〈Stella Sprinkles!／Fairy Fancy!〉。實際21組、39段，有常規兩段與全長單段。2020/11/1〈The Glowberry Fairy!〉為季終。香港 HOY IBC 兩季登記2023年11至12月，台灣授權系列使用《奶油荳荳咖啡館》。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://www.brownbagfilms.com/our-work/butterbeans-cafe",
+    "identifierSource": {
+      "url": "https://www.brownbagfilms.com/our-work/butterbeans-cafe",
+      "label": "Brown Bag Films 原作品及識別",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://www.brownbagfilms.com/our-work/butterbeans-cafe",
+      "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+      "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+      "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+      "https://www.porticomedia.com/channelC/program/1467151",
+      "https://www.coms-auth.hk/filemanager/en/content_1710/i-CABLE_HOY_Positive_Programmes_2023.pdf",
+      "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+      "https://nickstoryjr.fandom.com/wiki/Butterbean%27s_Caf%C3%A9",
+      "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.brownbagfilms.com/our-work/butterbeans-cafe",
+        "label": "Brown Bag Films 原作品及識別",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+        "label": "Nickelodeon 第2季製作及新話段格式公告",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+        "label": "授權平台列第2季第1組 Stella Sprinkles／Fairy Fancy 兩段",
+        "role": "first_party",
+        "language": "multi",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+        "label": "Apple TV 美國正版節目、原英語分集及製作名",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.porticomedia.com/channelC/program/1467151",
+        "label": "台灣 Nick Jr. 官方繁中名與2019/5/6 09:00新話編排",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1710/i-CABLE_HOY_Positive_Programmes_2023.pdf",
+        "label": "HOY IBC 2023年11至12月第1與第2季之主管機關登記",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+        "label": "美國兩季播出日期、段落及首尾交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://nickstoryjr.fandom.com/wiki/Butterbean%27s_Caf%C3%A9",
+        "label": "Nick Jr. 頻道播出及分集時間交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+        "label": "同期2020/1/12 09:00 EST Stella Sprinkles 頻道編排",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "butterbeans-cafe-season-2-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Butterbean’s Café Theme Song",
+        "songId": "butterbeans-cafe-main-theme",
+        "artistDisplayName": "Butterbean’s Cafe",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "第2季原英語常規有聲片頭。同一主題沿用，首組〈Fairy Fancy!〉有片頭畫面調整，英語音軌關係待原片對照。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jonathan Belt",
+            "role": "songwriting"
+          },
+          {
+            "name": "Robert Scull",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+            "label": "Nickelodeon 第2季製作及新話段格式公告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+            "label": "授權平台列第2季第1組 Stella Sprinkles／Fairy Fancy 兩段",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+            "label": "Apple TV 美國正版節目、原英語分集及製作名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=jBdAt6MxhJo",
+            "label": "Viacom／Universal Music 第1曲正式音源及合併詞曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+            "label": "Spotify 原聲六曲、Viacom 發行及曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+            "label": "美國兩季播出日期、段落及首尾交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+            "label": "原英語常規片頭及同曲無人聲片尾用途交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Season_2",
+            "label": "第2季首組片頭畫面調整、原播及分季交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+            "label": "同期2020/1/12 09:00 EST Stella Sprinkles 頻道編排",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+            "label": "香港 Apple Music 六曲原聲EP及2020/7/24正式發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286",
+            "label": "香港 Apple Music 第1曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=jBdAt6MxhJo",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2",
+              "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-main-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=jBdAt6MxhJo",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2",
+              "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jBdAt6MxhJo"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jBdAt6MxhJo",
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-main-theme-ep-opening"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "type",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-fairy-best-songs-20200724-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=jBdAt6MxhJo"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "jBdAt6MxhJo"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "butterbeans-cafe-main-theme-ep-opening",
+            "title": "Butterbean’s Café Theme Song（EP發行音源）",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "butterbeans-fairy-best-songs-20200724-hk",
+            "title": "Butterbean's Fairy Best Songs - EP",
+            "artistDisplayName": "Butterbean’s Cafe",
+            "type": "ep",
+            "region": "HK",
+            "label": "Republic Records: Kids & Family",
+            "date": {
+              "value": "2020-07-24",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Butterbean’s Café Theme Song",
+                "recordingId": "butterbeans-cafe-main-theme-ep-opening",
+                "position": 1
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-theme-song/1655414269?i=1655414286",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "butterbeans-cafe-main-theme-ep-opening",
+            "releaseId": "butterbeans-fairy-best-songs-20200724-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "use_quarters"
+            ],
+            "note": "節目用途及原聲EP唱片名義已核。逐段剪輯、劇中單獨唱者、港台配唱及發行音源與電視音軌關係待核。",
+            "resumeWhen": "取得原播掛字、台方版本資料、音樂出版方署名或可辨識各音軌的權利方材料時補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "butterbeans-cafe-season-2-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "Butterbean’s Café Closing Theme",
+        "songId": "butterbeans-cafe-main-theme",
+        "artistDisplayName": "Butterbean’s Cafe",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "第2季原英語常規片尾的同曲伴奏用途。EP第6曲是唱片曲位，逐組片尾剪輯待原版對照。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jonathan Belt",
+            "role": "songwriting"
+          },
+          {
+            "name": "Robert Scull",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+            "label": "Nickelodeon 第2季製作及新話段格式公告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+            "label": "授權平台列第2季第1組 Stella Sprinkles／Fairy Fancy 兩段",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+            "label": "Apple TV 美國正版節目、原英語分集及製作名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=M9yXQW1Rc8M",
+            "label": "Viacom／Universal Music 第6曲正式音源及合併詞曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+            "label": "Spotify 原聲六曲、Viacom 發行及曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+            "label": "美國兩季播出日期、段落及首尾交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+            "label": "原英語常規片頭及同曲無人聲片尾用途交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Season_2",
+            "label": "第2季首組片頭畫面調整、原播及分季交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+            "label": "香港 Apple Music 六曲原聲EP及2020/7/24正式發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578",
+            "label": "香港 Apple Music 第6曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=M9yXQW1Rc8M",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-main-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=M9yXQW1Rc8M",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Theme_Song",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-season-2-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=M9yXQW1Rc8M"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=M9yXQW1Rc8M",
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-main-theme-ep-closing"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "type",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-fairy-best-songs-20200724-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=M9yXQW1Rc8M"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "M9yXQW1Rc8M"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "butterbeans-cafe-main-theme-ep-closing",
+            "title": "Butterbean’s Café Closing Theme（EP發行音源）",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "butterbeans-fairy-best-songs-20200724-hk",
+            "title": "Butterbean's Fairy Best Songs - EP",
+            "artistDisplayName": "Butterbean’s Cafe",
+            "type": "ep",
+            "region": "HK",
+            "label": "Republic Records: Kids & Family",
+            "date": {
+              "value": "2020-07-24",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Butterbean’s Café Closing Theme",
+                "recordingId": "butterbeans-cafe-main-theme-ep-closing",
+                "position": 6
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/butterbeans-caf%C3%A9-closing-theme/1655414269?i=1655414578",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "butterbeans-cafe-main-theme-ep-closing",
+            "releaseId": "butterbeans-fairy-best-songs-20200724-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "use_quarters"
+            ],
+            "note": "節目用途及原聲EP唱片名義已核。逐段剪輯、劇中單獨唱者、港台配唱及發行音源與電視音軌關係待核。",
+            "resumeWhen": "取得原播掛字、台方版本資料、音樂出版方署名或可辨識各音軌的權利方材料時補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "butterbeans-cafe-season-2-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Let’s Get Cookin’!",
+        "songId": "butterbeans-cafe-lets-get-cookin",
+        "artistDisplayName": "Butterbean’s Cafe",
+        "seasonIds": [
+          "2020-winter",
+          "2020-spring",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "第2季原英語烹飪蒙太奇的重複唱段。畫面版本與演唱錄音分開記錄。",
+        "credits": [
+          {
+            "name": "Matthew Tishler",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jeannie Lurie",
+            "role": "songwriting"
+          },
+          {
+            "name": "Jonathan Belt",
+            "role": "songwriting"
+          },
+          {
+            "name": "Robert Scull",
+            "role": "songwriting"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+            "label": "Nickelodeon 第2季製作及新話段格式公告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+            "label": "授權平台列第2季第1組 Stella Sprinkles／Fairy Fancy 兩段",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+            "label": "Apple TV 美國正版節目、原英語分集及製作名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=j743bY7VWqE",
+            "label": "Viacom／Universal Music 第2曲正式音源及合併詞曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+            "label": "Spotify 原聲六曲、Viacom 發行及曲序",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+            "label": "美國兩季播出日期、段落及首尾交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Let%27s_Get_Cooking%21_%28Song%29",
+            "label": "烹飪蒙太奇、兩季常規段及兩個另詞唱段交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Season_2",
+            "label": "第2季首組片頭畫面調整、原播及分季交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+            "label": "香港 Apple Music 六曲原聲EP及2020/7/24正式發行",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295",
+            "label": "香港 Apple Music 第2曲正式曲位",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=j743bY7VWqE",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Let%27s_Get_Cooking%21_%28Song%29",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-lets-get-cookin"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=j743bY7VWqE",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Let%27s_Get_Cooking%21_%28Song%29",
+              "https://butterbeans-cafe.fandom.com/wiki/Season_2"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-season-2-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=j743bY7VWqE"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "artist",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=j743bY7VWqE",
+              "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-lets-get-cookin-ep"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "type",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/butterbeans-fairy-best-songs-ep/1655414269",
+              "https://open.spotify.com/album/3rFpVT6Tb4AEJlyd1Mwai8",
+              "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-fairy-best-songs-20200724-hk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=j743bY7VWqE"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "j743bY7VWqE"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "butterbeans-cafe-lets-get-cookin-ep",
+            "title": "Let’s Get Cookin’!（EP發行音源）",
+            "format": "unknown",
+            "kind": "vocal"
+          }
+        ],
+        "releases": [
+          {
+            "id": "butterbeans-fairy-best-songs-20200724-hk",
+            "title": "Butterbean's Fairy Best Songs - EP",
+            "artistDisplayName": "Butterbean’s Cafe",
+            "type": "ep",
+            "region": "HK",
+            "label": "Republic Records: Kids & Family",
+            "date": {
+              "value": "2020-07-24",
+              "precision": "day"
+            },
+            "tracks": [
+              {
+                "title": "Let’s Get Cookin’!",
+                "recordingId": "butterbeans-cafe-lets-get-cookin-ep",
+                "position": 2
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/lets-get-cookin/1655414269?i=1655414295",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "butterbeans-cafe-lets-get-cookin-ep",
+            "releaseId": "butterbeans-fairy-best-songs-20200724-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "use_quarters"
+            ],
+            "note": "節目用途及原聲EP唱片名義已核。逐段剪輯、劇中單獨唱者、港台配唱及發行音源與電視音軌關係待核。",
+            "resumeWhen": "取得原播掛字、台方版本資料、音樂出版方署名或可辨識各音軌的權利方材料時補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "butterbeans-cafe-season-2-in-2",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "A Fairy Fancy Day",
+        "songId": "butterbeans-cafe-fairy-happy-day",
+        "artistDisplayName": "Butterbean’s Cafe",
+        "seasonIds": [
+          "2020-winter"
+        ],
+        "usageLabel": "第2季第1組下半〈Fairy Fancy!〉於2020/1/12首播，節目使用〈Fairy Happy Day〉改詞唱段。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+            "label": "Nickelodeon 第2季製作及新話段格式公告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+            "label": "授權平台列第2季第1組 Stella Sprinkles／Fairy Fancy 兩段",
+            "role": "first_party",
+            "language": "multi",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+            "label": "Apple TV 美國正版節目、原英語分集及製作名",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=gH7WNJso-4o",
+            "label": "Viacom／Universal Music 第3曲正式音源及合併詞曲",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+            "label": "美國兩季播出日期、段落及首尾交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Music",
+            "label": "原版 Fairy Happy Day 首話及第2季 Fairy Fancy 改詞交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://butterbeans-cafe.fandom.com/wiki/Fairy_Fancy%21",
+            "label": "第2季首組下半的宴會唱段場景與角色",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1",
+            "label": "同期2020/1/12 09:00 EST Stella Sprinkles 頻道編排",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=gH7WNJso-4o",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Music",
+              "https://butterbeans-cafe.fandom.com/wiki/Fairy_Fancy%21",
+              "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-fairy-happy-day"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://ir.paramount.com/news-releases/news-release-details/nickelodeon-renews-four-hit-series-its-powerhouse-preschool/",
+              "https://www.skyshowtime.com/sk/stream/tv/butterbeans-cafe/18d47056-5f3e-3ce1-ba7b-bdcf99d563ef/seasons/2/episodes/stela-zari-vili-slavnost-episode-1/ca4c5037-48b3-389d-82c8-da5c6dc6d2c7",
+              "https://tv.apple.com/us/show/butterbeans-cafe/umc.cmc.7cxnmbnvdt4r8ewtc0v7bcbf6",
+              "https://www.youtube.com/watch?v=gH7WNJso-4o",
+              "https://en.wikipedia.org/wiki/List_of_Butterbean%27s_Caf%C3%A9_episodes",
+              "https://butterbeans-cafe.fandom.com/wiki/Music",
+              "https://butterbeans-cafe.fandom.com/wiki/Fairy_Fancy%21",
+              "https://www.nickalive.net/2019/12/nickelodeon-usas-january-2020-premiere.html?m=1"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "butterbeans-cafe-season-2-in-2"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "releases"
+            ],
+            "note": "改詞用途與原編歌曲ID相連。2020年EP第3曲為 Fairy Happy Day，宴會段落另查音源。",
+            "resumeWhen": "取得第2季首組的字幕掛字、音軌或官方另詞版發行後比對。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "titleZhHant": "奶油荳荳咖啡館 第2季"
+  },
+  {
+    "catalogKey": -2020022001,
+    "id": "curated-nelvana-corn-and-peg-season-2",
+    "slug": "corn-and-peg-season-2",
+    "seasonIds": [
+      "2020-winter",
+      "2020-summer",
+      "2020-fall",
+      "2022-spring",
+      "2022-summer"
+    ],
+    "startDate": "2020-02-20",
+    "titleJa": "Corn & Peg Season 2",
+    "titleRomaji": "Corn & Peg Season 2",
+    "editorialWeekday": 4,
+    "broadcastLabel": "美國 Nick Jr. 於2020/2/20 18:00 ET首播製作組201，2/21同時段播203，7/6 17:00 ET恢復新話，10/8 17:00 ET末播第220組。20組39段，一組約22分鐘。加拿大 Treehouse 登記原英語第2季，香港 ViuTVsix 2022年6月至7月登記 CORN AND PEG S2。",
+    "status": "finished",
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "officialSiteUrl": "https://crtc.gc.ca/pubs/TVProduction/2023%20-%20Corus%20Entertainment%20Inc.%20-%20Production%20Report%20-%20BIB%20CRTC%202019-304_English_Abridged.pdf",
+    "identifierSource": {
+      "url": "https://crtc.gc.ca/pubs/TVProduction/2023%20-%20Corus%20Entertainment%20Inc.%20-%20Production%20Report%20-%20BIB%20CRTC%202019-304_English_Abridged.pdf",
+      "label": "Corus／Treehouse 登記 Corn & Peg - S2",
+      "language": "en"
+    },
+    "sourceReferenceUrls": [
+      "https://crtc.gc.ca/pubs/TVProduction/2023%20-%20Corus%20Entertainment%20Inc.%20-%20Production%20Report%20-%20BIB%20CRTC%202019-304_English_Abridged.pdf",
+      "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+      "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+      "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+      "https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf",
+      "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+      "https://www.tvguide.com/tvshows/corn-and-peg/episodes-season-2/1030636866/",
+      "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+      "https://www.nickalive.net/2020/01/nickelodeon-usas-february-2020-premiere.html",
+      "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+      "https://www.nickalive.net/2020/07/nickelodeon-usas-august-2020-premiere.html?m=0",
+      "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://crtc.gc.ca/pubs/TVProduction/2023%20-%20Corus%20Entertainment%20Inc.%20-%20Production%20Report%20-%20BIB%20CRTC%202019-304_English_Abridged.pdf",
+        "label": "Corus／Treehouse 登記 Corn & Peg - S2",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+        "label": "Apple TV 授權第2季第1組及2020/2/20日期",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+        "label": "Prime Video 授權分冊3：第2季前10組故事",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+        "label": "Prime Video 授權分冊4：第2季後10組故事",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.coms-auth.hk/filemanager/en/content_1662/HKTVE_Positive_Programmes_2022.pdf",
+        "label": "香港 ViuTVsix 於2022年6月至7月登記 CORN AND PEG S2",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+        "label": "加拿大影視學院確認旅館及營地故事與 Treehouse／Corus",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tvguide.com/tvshows/corn-and-peg/episodes-season-2/1030636866/",
+        "label": "Nick Jr. 第2季20組與日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+        "label": "第2季39個正篇故事與美國首次播出日期交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2020/01/nickelodeon-usas-february-2020-premiere.html",
+        "label": "美國第201、203組2020/2首播時段",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+        "label": "美國2020/7首播組別與時段",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2020/07/nickelodeon-usas-august-2020-premiere.html?m=0",
+        "label": "美國2020/8首播組別與時段",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0",
+        "label": "美國第217–220組及2020/10/8末播時段",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "themes": [
+      {
+        "id": "corn-and-peg-season-2-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Corn & Peg Theme Song",
+        "songId": "corn-and-peg-theme",
+        "artistDisplayName": "原英語片頭演唱名義待核",
+        "seasonIds": [
+          "2020-winter",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "第2季沿用原英語系列片頭，Ryan Marshall 作曲。官方影片為第1季首播前刊出的系列主題與預告，第2季原播音軌剪輯待對照。",
+        "credits": [
+          {
+            "name": "Ryan Marshall",
+            "role": "composition"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=9JhvEBmyq2w",
+            "label": "Nick Jr. 系列原英語主題及第1季首播預告",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+            "label": "Apple TV 授權第2季第1組及2020/2/20日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.qobuz.com/us-en/album/corn-peg-theme-song-little-ditto/znmgmcthqco9a",
+            "label": "已授權翻唱保留原作曲 Ryan Marshall 的署名",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.imdb.com/title/tt9847692/fullcredits/",
+            "label": "系列音樂署名與資料庫所列演唱名義，分季原片待核",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9JhvEBmyq2w",
+              "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.qobuz.com/us-en/album/corn-peg-theme-song-little-ditto/znmgmcthqco9a",
+              "https://www.imdb.com/title/tt9847692/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-theme"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9JhvEBmyq2w",
+              "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.qobuz.com/us-en/album/corn-peg-theme-song-little-ditto/znmgmcthqco9a",
+              "https://www.imdb.com/title/tt9847692/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.qobuz.com/us-en/album/corn-peg-theme-song-little-ditto/znmgmcthqco9a",
+              "https://www.imdb.com/title/tt9847692/fullcredits/"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=9JhvEBmyq2w"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "9JhvEBmyq2w"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "片頭資料庫列兩位歌者，仍缺第2季原播掛字確認。Little Ditto 發行為翻唱。原節目片尾及正式原聲待核。",
+            "resumeWhen": "取得第2季正篇片頭／片尾及原掛字、音樂出版資料或 Nelvana 原聲曲目時補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-1",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "Do Good Song",
+        "songId": "corn-and-peg-do-good-song",
+        "artistDisplayName": "Corn、Peg",
+        "seasonIds": [
+          "2020-winter",
+          "2020-summer",
+          "2020-fall"
+        ],
+        "usageLabel": "第2季正篇常用唱段。美國首播的201A、201B、203A、203B及夏秋多段均見分段索引記錄。按片中角色名義列出，個別集實際歌聲仍待核。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.youtube.com/watch?v=i7BxXU8zqOw",
+            "label": "Nick Jr. 宣傳音樂影片明示 Do Good Song",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+            "label": "Apple TV 授權第2季第1組及2020/2/20日期",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+            "label": "Prime Video 授權分冊4：第2季後10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/01/nickelodeon-usas-february-2020-premiere.html",
+            "label": "美國第201、203組2020/2首播時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=i7BxXU8zqOw",
+              "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/01/nickelodeon-usas-february-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-do-good-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=i7BxXU8zqOw",
+              "https://tv.apple.com/us/episode/dinosaur-do-goodthe-legend-of-bighoof/umc.cmc.17205ih5eava6d1rcvaw5ayf9?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/01/nickelodeon-usas-february-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-1"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=i7BxXU8zqOw"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "i7BxXU8zqOw"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "已查到部分集的 Corn 配音有更換，現有分集資料尚不足以確認唱段音軌是否隨之變動。",
+            "resumeWhen": "取得201／203／204／207組正篇音軌及掛字後逐段核對。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-2",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "Do The Waddley Waddle Song",
+        "songId": "corn-and-peg-do-the-waddley-waddle",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第2季製作段204B〈An Eggcellent Adventure〉於2020/7/6在美國播出。照料並尋回小鴨故事的唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+            "label": "美國2020/7首播組別與時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-do-the-waddley-waddle"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-2"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-3",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "Baby Marissa Rap Song",
+        "songId": "corn-and-peg-baby-marissa-rap",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第2季製作段205B〈Welcome Baby Marissa〉於2020/7/7在美國播出。迎接新生妹妹 Marissa 故事中的饒舌唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/au/episode/beached-day--welcome-baby-marissa/umc.cmc.2hff2ep9a9s07gnjxjhdfg0sv?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+            "label": "Apple TV 授權第205組兩段、原語及2020/7/7",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+            "label": "美國2020/7首播組別與時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://tv.apple.com/au/episode/beached-day--welcome-baby-marissa/umc.cmc.2hff2ep9a9s07gnjxjhdfg0sv?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-baby-marissa-rap"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://tv.apple.com/au/episode/beached-day--welcome-baby-marissa/umc.cmc.2hff2ep9a9s07gnjxjhdfg0sv?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-3"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-4",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "Pirate Shanty Song",
+        "songId": "corn-and-peg-pirate-shanty",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第2季製作段206B〈Bluehoof’s Treasure〉於2020/7/8在美國播出。尋找海盜船的故事中有此航海唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+            "label": "美國2020/7首播組別與時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-pirate-shanty"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-4"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-5",
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "Mayor for the Day Song",
+        "songId": "corn-and-peg-mayor-for-the-day",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第2季製作段202B〈Mayors for a Day〉於2020/7/9在美國播出。兩位主角擔任一日市長故事的唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+            "label": "Prime Video 授權分冊3：第2季前10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html",
+            "label": "美國2020/7首播組別與時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-mayor-for-the-day"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0QIIHQEM8VA0CHDJDNR5J54LO7",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/06/nickelodeon-usas-july-2020-premiere.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-5"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-6",
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "Megafrost Taunt Song",
+        "songId": "corn-and-peg-megafrost-taunt",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-summer"
+        ],
+        "usageLabel": "第2季製作段212〈Saddle Up Sidekicks〉於2020/8/3在美國播出。全長單段特別故事中與 Megafrost 有關的唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+            "label": "Prime Video 授權分冊4：第2季後10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/07/nickelodeon-usas-august-2020-premiere.html?m=0",
+            "label": "美國2020/8首播組別與時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/07/nickelodeon-usas-august-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-megafrost-taunt"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/07/nickelodeon-usas-august-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-6"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-7",
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "Hoofchester Hotel Song",
+        "songId": "corn-and-peg-hoofchester-hotel",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "第2季製作段217A〈Homesick Hotel〉於2020/10/5在美國播出。在旅館接待思鄉旅客故事中的唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+            "label": "Prime Video 授權分冊4：第2季後10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+            "label": "Apple TV 授權旅館及營地兩段名稱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+            "label": "加拿大影視學院確認旅館及營地故事與 Treehouse／Corus",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0",
+            "label": "美國第217–220組及2020/10/8末播時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-hoofchester-hotel"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-7"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "corn-and-peg-season-2-in-8",
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "Camp Wanna Trotta Song",
+        "songId": "corn-and-peg-camp-wanna-trotta",
+        "artistDisplayName": "原英語唱段演唱名義待核",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "第2季製作段217B〈Camp Wanna Trotta〉於2020/10/5在美國播出。在同名營地故事中的唱段。題名按分集索引描述。",
+        "credits": [],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+            "label": "Prime Video 授權分冊4：第2季後10組故事",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+            "label": "Apple TV 授權旅館及營地兩段名稱",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+            "label": "加拿大影視學院確認旅館及營地故事與 Treehouse／Corus",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+            "label": "第2季分段、正篇歌曲及音樂署名交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+            "label": "第2季39個正篇故事與美國首次播出日期交叉",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0",
+            "label": "美國第217–220組及2020/10/8末播時段",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-camp-wanna-trotta"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.primevideo.com/detail/0S7NZ41F4E86HGVUSNJLJ4P5KX",
+              "https://tv.apple.com/us/episode/homesick-hotelcamp-wanna-trotta/umc.cmc.24ipr7klghla5dl2axtkpn277?showId=umc.cmc.22q8pm0mr3e2gf4eg78aczzys",
+              "https://academie.ca/medias/files/pdf/Site%20prix%20%C3%89crans%20canadiens/Liste%20des%20finalistes/2021_PEC_Finalistes%20en%20te%CC%81le%CC%81vision_re%CC%81vise%CC%81e.pdf",
+              "https://en.wikipedia.org/wiki/Corn_%26_Peg",
+              "https://www.thetvdb.com/series/corn-and-peg/allseasons/official",
+              "https://www.nickalive.net/2020/09/nickelodeon-usas-october-2020-premiere.html?m=0"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "corn-and-peg-season-2-in-8"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "followUp": [
+          {
+            "fields": [
+              "lyrics",
+              "composition",
+              "arrangement",
+              "recordings",
+              "recording_format",
+              "releases",
+              "platform_links"
+            ],
+            "note": "分集與可辨識的正篇唱段已定位，正式題名、原配唱個人和逐曲音源仍待核。",
+            "resumeWhen": "取得對應原版掛字、權利方逐曲音樂資料、獨立正式影片或可精確連到此段的唱片曲位後補。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ],
+    "titleZhHant": "Corn & Peg 第2季"
+  },
 ];
 
 export const curated2020WinterSeeds: CuratedCatalogAnimeSeed[] =
   curated2020WinterSeedRows;
 
-export const curated2020WinterAnimeIds = [113242,113472,112625,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701,-2020011401];
+export const curated2020WinterAnimeIds = [113242,113472,108092,105190,114417,104051,110090,113469,101350,104461,109298,110350,114657,101367,112293,113397,113851,114656,106479,108628,113463,98515,101168,106863,107420,108450,111951,113470,104391,104462,108463,108617,109964,99807,104936,106625,107067,110495,110613,111501,107201,105228,110615,107651,110178,113932,101634,114448,112033,112748,109586,117280,115794,110354,115519,112686,116979,131459,8687,966,6149,-201723701,-2020011401,-2020010101,-2020010901,-2020011201,-2019060901,-2020011001,-2019050601,-2018033101,116415,-2020022201,-2020011801,-2020012001,-2020011901,-2020032002, -2020030201, -2020030801, -2020011202, -2020022001];

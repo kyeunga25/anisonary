@@ -699,6 +699,396 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
       ]
     },
     {
+      "id": "boruto-naruto-next-generations-ed-11",
+      "songId": "boruto-naruto-next-generations-wish-on-song",
+      "titleJa": "Wish on",
+      "type": "ED",
+      "sequence": 11,
+      "artistDisplayName": "LONGMAN",
+      "seasonIds": [
+        "2019-fall"
+      ],
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+          "label": "東京電視台2019秋正式片尾曲與演唱名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+          "label": "東京電視台第127話原播2019/10/6",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_16.html",
+          "label": "東京電視台第138及139話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546/time",
+          "label": "同期日本節目表記1月5日停播",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E6%85%95%E7%95%99%E4%BA%BA-%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E6%96%B0%E4%B8%96%E4%BB%A3-_%28%E5%8B%95%E7%95%AB%29",
+          "label": "繁中曲表交叉核對第127–138話片尾",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://longman.jp/discography/detail/10/",
+          "label": "LONGMAN通常與動畫盤發行、歌唱版與TV EDIT曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=H4cChTyU75U",
+          "label": "授權方影片資料｜Wish on｜Sony Music先行音源影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W0Xfg1xvP2I",
+          "label": "授權方影片資料｜Wish on｜LONGMAN官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6tjEIRw7mt8",
+          "label": "授權方影片資料｜Wish on｜東京電視台片尾影像",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1538103510",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1538103512",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "video",
+          "targetId": "H4cChTyU75U",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=H4cChTyU75U"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "W0Xfg1xvP2I",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=W0Xfg1xvP2I"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "6tjEIRw7mt8",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=6tjEIRw7mt8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "boruto-naruto-next-generations-ed-11",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_17.html",
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_16.html",
+            "https://zh.wikipedia.org/wiki/%E6%85%95%E7%95%99%E4%BA%BA-%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E6%96%B0%E4%B8%96%E4%BB%A3-_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "boruto-naruto-next-generations-wish-on-song",
+          "fields": [
+            "date"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=H4cChTyU75U"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "song",
+          "targetId": "boruto-naruto-next-generations-wish-on-song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/music/",
+            "https://zh.wikipedia.org/wiki/%E6%85%95%E7%95%99%E4%BA%BA-%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E6%96%B0%E4%B8%96%E4%BB%A3-_%28%E5%8B%95%E7%95%AB%29"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=H4cChTyU75U"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "boruto-naruto-next-generations-wish-on-song-single-vocal",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://longman.jp/discography/detail/10/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "recording",
+          "targetId": "boruto-naruto-next-generations-wish-on-song-tv-edit",
+          "fields": [
+            "title",
+            "format",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://longman.jp/discography/detail/10/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "aicl-3786",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://longman.jp/discography/detail/10/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "aicl-3787",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://longman.jp/discography/detail/10/"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1538103510",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://longman.jp/discography/detail/10/",
+            "https://music.apple.com/hk/album/1538103510"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1538103512",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1538103512"
+          ],
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "usageLabel": "2019秋原TV第127–138話片尾（10/6至12/29）。",
+      "releaseDate": "2019-10-06",
+      "lastVerifiedAt": "2026-11-19",
+      "credits": [
+        {
+          "name": "LONGMAN",
+          "role": "vocals"
+        },
+        {
+          "name": "HIROYA HIRAI",
+          "role": "lyrics"
+        },
+        {
+          "name": "HIROYA HIRAI",
+          "role": "composition"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "boruto-naruto-next-generations-wish-on-song-single-vocal",
+          "title": "Wish on",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "boruto-naruto-next-generations-wish-on-song-tv-edit",
+          "title": "Wish on TV EDIT",
+          "format": "tv",
+          "kind": "vocal"
+        }
+      ],
+      "releases": [
+        {
+          "id": "aicl-3786",
+          "title": "Wish on",
+          "type": "single",
+          "artistDisplayName": "LONGMAN",
+          "edition": "日本通常盤 CD",
+          "region": "JP",
+          "label": "Sony Music Associated Records",
+          "date": {
+            "value": "2019-11-06",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Wish on",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-wish-on-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "AICL-3786"
+        },
+        {
+          "id": "aicl-3787",
+          "title": "Wish on",
+          "type": "single",
+          "artistDisplayName": "LONGMAN",
+          "edition": "日本期間生產限定動畫盤 CD",
+          "region": "JP",
+          "label": "Sony Music Associated Records",
+          "date": {
+            "value": "2019-11-06",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Wish on",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-wish-on-song-single-vocal"
+            },
+            {
+              "title": "Wish on TV EDIT",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-wish-on-song-tv-edit"
+            }
+          ],
+          "catalogNumber": "AICL-3787"
+        },
+        {
+          "id": "apple-hk-1538103510",
+          "title": "Wish on",
+          "type": "single",
+          "artistDisplayName": "LONGMAN",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "Sony Music Labels Inc.",
+          "date": {
+            "value": "2019-11-06",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Wish on",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "boruto-naruto-next-generations-wish-on-song-single-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "Wish on｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1538103512",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1538103510",
+          "recordingId": "boruto-naruto-next-generations-wish-on-song-single-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "arrangement",
+            "recordings",
+            "platform_availability"
+          ],
+          "note": "Sony的先行音源與11/6實體發行分列，動畫盤第3曲另收TV EDIT。",
+          "resumeWhen": "待單曲內頁、製作方說明或原播音軌確認個別演唱、編曲及TV EDIT與原播剪輯；香港店曲目頁已核對，完整播放待核。",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
       "type": "ED",
       "sequence": 12,
       "id": "boruto-naruto-next-generations-ed-12",
@@ -736,10 +1126,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.crunchyroll.com/news/latest/2020/1/12/tv-anime-boruto-12th-ed-song-fireworks-lyric-video-now-streamed",
-          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "label": "Crunchyroll首播話次及90秒歌詞影像",
           "role": "cross_check",
-          "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "language": "en",
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://music.apple.com/hk/album/1536510007?i=1536510008",
@@ -796,6 +1186,55 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_16.html",
+          "label": "東京電視台第138／139話原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/4546/time",
+          "label": "同期日本節目表記1月5日停播",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/flowback/info/514259",
+          "label": "Sony Music第139話播出日起用新片尾及先行影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/flowback/info/514922",
+          "label": "Sony Music發行新聞與一鏡到底表演影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ZHjgI-3kCH8",
+          "label": "授權方影片資料｜Fireworks｜Anime Ver. 先行歌詞影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gZpiqDwlc6A",
+          "label": "授權方影片資料｜Fireworks｜官方 MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=biqu8J5Vwq4",
+          "label": "授權方影片資料｜Fireworks｜官方表演影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -1022,14 +1461,66 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "boruto-naruto-next-generations-fireworks-song"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "boruto-naruto-next-generations-ed-12",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-tokyo.co.jp/anime/boruto/episodes/index_16.html",
+            "https://www.sonymusic.co.jp/artist/flowback/info/514259",
+            "https://www.crunchyroll.com/news/latest/2020/1/12/tv-anime-boruto-12th-ed-song-fireworks-lyric-video-now-streamed"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "ZHjgI-3kCH8",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=ZHjgI-3kCH8"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "gZpiqDwlc6A",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=gZpiqDwlc6A"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "biqu8J5Vwq4",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=biqu8J5Vwq4"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "sourceMode": "explicit",
       "seasonIds": [
         "2020-winter"
       ],
-      "usageLabel": "第139–150話常規片尾（1/12至3/29）",
-      "lastVerifiedAt": "2026-11-15",
+      "usageLabel": "第139–150話常規片尾（2020/1/12至3/29）。前一話第138話於2019/12/29播出，1/5停播。",
+      "lastVerifiedAt": "2026-11-19",
       "credits": [
         {
           "name": "FlowBack",
@@ -1151,11 +1642,12 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         {
           "fields": [
             "recordings",
+            "recording_format",
             "platform_availability"
           ],
-          "note": "普通盤與香港數位版列完整、人聲樂團版及伴奏三軌。動畫盤的具體曲序和原播剪輯另待核。",
-          "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
-          "checkedAt": "2026-11-15"
+          "note": "Sony將90秒先行影片另標Anime Ver.；與MV、表演影片和商業原曲、樂團版及伴奏分列。",
+          "resumeWhen": "待原播音軌、首兩話換曲掛字及第一方獨立TV錄音說明；香港曲目地區播放待實際核對。",
+          "checkedAt": "2026-11-19"
         }
       ]
     },
@@ -89910,10 +90402,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "Sony 十周年精選第二碟曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://tower.jp/item/6182242",
@@ -89956,6 +90448,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+          "label": "製作方十周年精選商品與發行資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -90259,6 +90758,22 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "vvcl-1628"
+        },
+        {
+          "target": "release",
+          "targetId": "srml-1061-3",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -90272,7 +90787,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第14–19、21–25話片尾；第20、26話另換曲",
       "releaseDate": "2020-04-17",
       "recordings": [
@@ -90393,6 +90908,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "label": "SACRA MUSIC",
           "catalogNumber": "VVCL-1628"
+        },
+        {
+          "id": "srml-1061-3",
+          "title": "「ガンダムビルドシリーズ」10周年BEST Collection",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "3CD",
+          "region": "JP",
+          "label": "SUNRISE Music Label",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "Twinkle",
+              "position": 8,
+              "disc": 2
+            }
+          ],
+          "catalogNumber": "SRML-1061-3"
         }
       ]
     },
@@ -90461,10 +90997,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "Sony 十周年精選第二碟曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://tower.jp/item/6182242",
@@ -90500,6 +91036,13 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "first_party",
           "language": "ja",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+          "label": "製作方十周年精選商品與發行資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -90738,6 +91281,22 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "vhpECHtZTlM"
+        },
+        {
+          "target": "release",
+          "targetId": "srml-1061-3",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -90751,7 +91310,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第20話特別片尾（7/16配信、7/18 BS11）",
       "releaseDate": "2020-08-05",
       "recordings": [
@@ -90827,6 +91386,27 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             }
           ],
           "label": "SACRA MUSIC"
+        },
+        {
+          "id": "srml-1061-3",
+          "title": "「ガンダムビルドシリーズ」10周年BEST Collection",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "3CD",
+          "region": "JP",
+          "label": "SUNRISE Music Label",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "ハートフル",
+              "position": 9,
+              "disc": 2
+            }
+          ],
+          "catalogNumber": "SRML-1061-3"
         }
       ]
     },
@@ -90909,10 +91489,10 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
         },
         {
           "url": "https://www.sonymusic.co.jp/artist/spiraspica/info/555989",
-          "label": "作品方、放送方或唱片公司正式資料",
+          "label": "Sony 十周年精選第二碟曲序",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-19"
         },
         {
           "url": "https://tower.jp/item/6182242",
@@ -90941,6 +91521,83 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "zh-Hant",
           "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1615",
+          "label": "Sony 首張專輯初回限定盤及第12曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1618",
+          "label": "Sony 首張專輯通常盤及第12曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sma.co.jp/s/sma/news/detail/87665?ima=0000",
+          "label": "Sony Music Artists 專輯收錄已發行單曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sunrise-world.net/news/news.php?id=17673",
+          "label": "動畫製作方確認首季片頭及專輯曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sunrise-music.co.jp/list/detail.php?id=442",
+          "label": "原音樂出版方單曲曲位及官方MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/album/1537905172",
+          "label": "Apple Music 香港區發行及曲序",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://music.apple.com/hk/song/1537905184",
+          "label": "Apple Music 香港區曲目",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nLS4CEAzKqg",
+          "label": "授權方影片資料｜スピラ・スピカ MV 『リライズ』",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=X2hMZ5mIlbk",
+          "label": "授權方影片資料｜Rerise｜Sony 官方 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LNLehMSKIu0",
+          "label": "授權方影片資料｜Rerise (TV Version)｜Sony 官方 Art Track",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+          "label": "製作方十周年精選商品與發行資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "links": [
@@ -90965,6 +91622,17 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-15",
           "recordingId": "gundam-build-divers-rerise-2-ed-3-song-single-tv-ver"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "リライズ｜Apple Music HK",
+          "url": "https://music.apple.com/hk/song/1537905184",
+          "region": "HK",
+          "linkType": "direct_track",
+          "releaseId": "apple-hk-1537905172",
+          "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-19"
         }
       ],
       "id": "gundam-build-divers-rerise-2-ed-3",
@@ -91144,6 +91812,131 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-15",
           "targetId": "apple-hk-1537904093"
+        },
+        {
+          "target": "release",
+          "targetId": "vvcl-1615-7",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1615",
+            "https://www.sma.co.jp/s/sma/news/detail/87665?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "vvcl-1618",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sonymusic.co.jp/artist/spiraspica/discography/buy/VVCL-1618",
+            "https://www.sma.co.jp/s/sma/news/detail/87665?ima=0000"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "apple-hk-1537905172",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.sma.co.jp/s/sma/news/detail/87665?ima=0000",
+            "https://music.apple.com/hk/album/1537905172"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "link",
+          "targetId": "https://music.apple.com/hk/song/1537905184",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/hk/song/1537905184"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "nLS4CEAzKqg",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=nLS4CEAzKqg"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "nLS4CEAzKqg",
+          "fields": [
+            "type"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-music.co.jp/list/detail.php?id=442",
+            "https://www.youtube.com/watch?v=nLS4CEAzKqg"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "X2hMZ5mIlbk",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=X2hMZ5mIlbk"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "video",
+          "targetId": "LNLehMSKIu0",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=LNLehMSKIu0"
+          ],
+          "verifiedAt": "2026-11-19"
+        },
+        {
+          "target": "release",
+          "targetId": "srml-1061-3",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.sunrise-inc.co.jp/work/news.php?id=20911",
+            "https://www.sonymusic.co.jp/artist/spiraspica/info/555989"
+          ],
+          "verifiedAt": "2026-11-19"
         }
       ],
       "followUp": [
@@ -91157,7 +91950,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-15"
         }
       ],
-      "lastVerifiedAt": "2026-11-15",
+      "lastVerifiedAt": "2026-11-19",
       "usageLabel": "第26話終回片尾（8/27配信、8/29 BS11）；沿用第1部分片頭",
       "releaseDate": "2019-10-23",
       "recordings": [
@@ -91229,6 +92022,92 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
             }
           ],
           "label": "SACRA MUSIC"
+        },
+        {
+          "id": "vvcl-1615-7",
+          "title": "ポップ・ステップ・ジャンプ！",
+          "type": "album",
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "初回生產限定盤CD＋Blu-ray＋寫真冊",
+          "region": "JP",
+          "label": "SACRA MUSIC",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+            }
+          ],
+          "catalogNumber": "VVCL-1615-7"
+        },
+        {
+          "id": "vvcl-1618",
+          "title": "ポップ・ステップ・ジャンプ！",
+          "type": "album",
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "通常盤CD",
+          "region": "JP",
+          "label": "SACRA MUSIC",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+            }
+          ],
+          "catalogNumber": "VVCL-1618"
+        },
+        {
+          "id": "apple-hk-1537905172",
+          "title": "ポップ・ステップ・ジャンプ！",
+          "type": "album",
+          "artistDisplayName": "スピラ・スピカ",
+          "edition": "香港區數位版",
+          "region": "HK",
+          "label": "SACRA MUSIC",
+          "date": {
+            "value": "2020-03-18",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "gundam-build-divers-rerise-2-ed-3-song-2019-original-single"
+            }
+          ]
+        },
+        {
+          "id": "srml-1061-3",
+          "title": "「ガンダムビルドシリーズ」10周年BEST Collection",
+          "type": "compilation",
+          "artistDisplayName": "Various Artists",
+          "edition": "3CD",
+          "region": "JP",
+          "label": "SUNRISE Music Label",
+          "date": {
+            "value": "2023-11-29",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "リライズ",
+              "position": 5,
+              "disc": 2
+            }
+          ],
+          "catalogNumber": "SRML-1061-3"
         }
       ]
     },

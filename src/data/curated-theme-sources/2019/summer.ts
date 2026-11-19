@@ -172,7 +172,7 @@ const crossCheckById: Readonly<Partial<Record<number, CuratedThemeSourceSeed>>> 
 };
 
 export const curated2019SummerThemeSources: CuratedThemeSourceOverrideMap = Object.fromEntries(
-  curated2019SummerSeeds.flatMap((seed) => seed.themes
+  curated2019SummerSeeds.filter((seed) => seed.anilistId !== undefined).flatMap((seed) => seed.themes
     .filter((theme) => theme.type === "OP" || theme.type === "ED" || theme.sourceMode !== "explicit").map((theme) => {
     const key = `${seed.anilistId}:${theme.type}:${theme.sequence}`;
     const urls = firstPartyUrlsByTheme[key] ?? [firstPartyUrlById[seed.anilistId]];
