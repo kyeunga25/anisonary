@@ -1,8 +1,8 @@
 # Anisonary｜動畫歌典
 
-Anisonary 是以 Astro + strict TypeScript 建立的動畫歌曲目錄，以緊湊列表同時展示歌曲、演唱者、動畫、OP／ED 與季度。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
+Anisonary 是以 Astro + strict TypeScript 建立的日本 TV 動畫歌曲目錄，以緊湊列表同時展示歌曲、演唱者、動畫、OP／ED 與季度。網站輸出為純靜態資產，正式交付使用 **Cloudflare Workers Static Assets**；它不是 Cloudflare Pages，也沒有 application Worker backend。下方同時保留 English technical notes。
 
-This repository contains the public online product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, browser-based cross-season search, a lightweight connection fallback, a GitHub correction flow, and delivery through Cloudflare Workers Static Assets. Current catalogue counts and quarterly field inventory are generated in [Catalogue Statistics](docs/CATALOG_STATS.md). Reviewed collection progress and incomplete coverage remain in the [Collection Checkpoint](docs/CATALOG_COLLECTION_STATUS.md).
+The catalogue brings together Japanese TV anime songs, their creators, recordings, releases and licensed streaming links. This repository contains the public online product: season directory, anime detail pages, traceable song credits and links, per-song source ledgers, source-attributed media, browser-based cross-season search, a lightweight connection fallback, a GitHub correction flow, and delivery through Cloudflare Workers Static Assets. Current catalogue counts and quarterly field inventory are generated in [Catalogue Statistics](docs/CATALOG_STATS.md). Reviewed collection progress and incomplete coverage remain in the [Collection Checkpoint](docs/CATALOG_COLLECTION_STATUS.md).
 
 最近標記版本：**v1.31.1**。目前工作內容以 Git commit 與收集 checkpoint 追蹤。歌曲詳情支援個別歌唱者、團隊、創作名單、音源版本、發行品及欄位證據；未知欄位留空，已核對內容逐批補入。現行收錄數量只由 [自動統計](docs/CATALOG_STATS.md) 維護；季度快照不代表整季作品與歌曲已收齊。
 

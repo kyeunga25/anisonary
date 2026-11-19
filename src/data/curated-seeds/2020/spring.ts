@@ -30811,10 +30811,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ]
         }
       ],
-      "seasonIds": [
-        "2020-winter",
-        "2020-spring"
-      ],
+      "seasonIds": [],
       "usageLabel": "MBC1 阿拉伯語原播版片頭。首播期由1月跨至4月。",
       "lastVerifiedAt": "2026-11-16",
       "followUp": [
@@ -31050,9 +31047,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
           ]
         }
       ],
-      "seasonIds": [
-        "2020-winter"
-      ],
+      "seasonIds": [],
       "usageLabel": "MBC1 阿拉伯語原播版片尾。製作方影片明列第1話，題名〈جدتي〉。",
       "lastVerifiedAt": "2026-11-16",
       "followUp": [
@@ -31121,8 +31116,7 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
   "editorialWeekday": 6,
   "broadcastTimeJst": "08:00",
   "seasonIds": [
-    "2020-spring",
-    "2020-winter"
+    "2020-spring"
   ]
 }),
   spring2020Seed({
@@ -116627,6 +116621,1346 @@ const curated2020SpringSeedRows: CuratedAnimeSeed[] = [
 
 export const curated2020SpringSeeds: CuratedCatalogAnimeSeed[] = [
   ...curated2020SpringSeedRows,
+  {
+    "anilistId": 116415,
+    "anilistUrl": "https://anilist.co/anime/116415",
+    "id": "curated-116415",
+    "slug": "bakugan-armored-alliance",
+    "seasonIds": [
+      "2020-spring",
+      "2020-summer",
+      "2020-fall",
+      "2021-winter"
+    ],
+    "startDate": "2020-04-03",
+    "titleJa": "爆丸アーマードアライアンス",
+    "titleZhHant": "爆丸 裝甲聯盟",
+    "titleRomaji": "Bakugan: Armored Alliance",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b116415-5EavwM1M0Av2.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/116415",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "editorialWeekday": 5,
+    "status": "finished",
+    "broadcastLabel": "日本串流版於 2020/4/3 至 2021/3/26 每週五 17:00 JST 配信，全 52 話。日加合製。加拿大 Teletoon 於 2020/2/16 14:30 ET 首播，美國 Cartoon Network 於 3/1 起播；北美每兩段約 11 分鐘合併為半小時節目。香港翡翠台 2020 年 7 月起週日 16:00–16:30。",
+    "officialSiteUrl": "https://www.bakugan.jp/armoredalliance/",
+    "sourceReferenceUrls": [
+      "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+      "https://www.tms-e.co.jp/archives/pdf/release/2020/20200306_bakumaru_new.pdf",
+      "https://assets.corusent.com/wp-content/uploads/2021/09/Bakugan-Battle-Alliance_Nelvana-Distribution-Round-Up_Final_Aug_10_2020.pdf",
+      "https://imissbionix.wordpress.com/2020/01/30/bakugan-armored-alliance-debuts-this-february-on-teletoon/",
+      "https://www.bakugan.jp/armoredalliance/story/",
+      "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=23715",
+      "https://www.youtube.com/watch?v=7nFKshuCXzk",
+      "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200714174316000_90793517.pdf",
+      "https://hkdubbing.fandom.com/zh-hk/wiki/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8/2020%E5%B9%B4%E4%BB%A3",
+      "https://hkaiw.com/news/20200719.htm",
+      "https://www.youtube.com/watch?v=ObCtA7xwksk",
+      "https://bakugan.wiki/wiki/Bakugan_Theme_Songs",
+      "https://anilist.co/anime/116415"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+        "label": "TMS 作品資料：日本配信範圍、52話及主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200306_bakumaru_new.pdf",
+        "label": "TMS 國際合作與加拿大、美國、日本首發日",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://assets.corusent.com/wp-content/uploads/2021/09/Bakugan-Battle-Alliance_Nelvana-Distribution-Round-Up_Final_Aug_10_2020.pdf",
+        "label": "Nelvana：104段各11分鐘及英語加拿大／美國時段",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://imissbionix.wordpress.com/2020/01/30/bakugan-armored-alliance-debuts-this-february-on-teletoon/",
+        "label": "加拿大同期節目報道：Teletoon 首播14:30 ET及兩段併播",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.bakugan.jp/armoredalliance/story/",
+        "label": "日本官方52話分集",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://animestore.docomo.ne.jp/animestore/ci_pc?workId=23715",
+        "label": "日本權利方授權分集：兩段合成一話",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=7nFKshuCXzk",
+        "label": "日版官方第52話預告：2021/3/26 17:00 JST",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2020/pdf/file_path_20200714174316000_90793517.pdf",
+        "label": "無綫節目表：香港正式片名、週日16:00–16:30及早期預排",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://hkdubbing.fandom.com/zh-hk/wiki/%E7%BF%A1%E7%BF%A0%E5%8F%B0%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8/2020%E5%B9%B4%E4%BB%A3",
+        "label": "香港翡翠台實播日期及52話交叉對照",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://hkaiw.com/news/20200719.htm",
+        "label": "香港同期紀錄：7月19日因插播而停播",
+        "role": "broadcast_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ObCtA7xwksk",
+        "label": "品牌官方片頭合集：0:40 起為2020年本季英語片頭",
+        "role": "first_party",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://bakugan.wiki/wiki/Bakugan_Theme_Songs",
+        "label": "英語重啟系列主題旋律及各季版本交叉",
+        "role": "broadcast_cross_check",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://anilist.co/anime/116415",
+        "label": "AniList：作品識別與公開圖像",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-19"
+      }
+    ],
+    "verifiedAt": "2026-11-19",
+    "metadataVerifiedAt": "2026-11-19",
+    "themes": [
+      {
+        "id": "bakugan-armored-alliance-op-1",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "PLANET HERO",
+        "songId": "bakugan-planet-hero",
+        "artistDisplayName": "ダン・クーソー（CV. 高橋李依）、ドラゴノイド（CV. 武内駿輔）",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer",
+          "2020-fall",
+          "2021-winter"
+        ],
+        "usageLabel": "日本配信版常規片頭，2020/4/3起；以ダン・クーソー為主唱。",
+        "credits": [
+          {
+            "name": "高橋李依",
+            "role": "vocals"
+          },
+          {
+            "name": "武内駿輔",
+            "role": "vocals"
+          },
+          {
+            "name": "橋本彩子",
+            "role": "lyrics"
+          },
+          {
+            "name": "南悠翔",
+            "role": "composition"
+          },
+          {
+            "name": "南悠翔",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+            "label": "TMS 首次片頭公告、雙人演唱及完整版發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.goodish.co.jp/creator/32/",
+            "label": "作曲家所屬公司核對片頭作曲及編曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+              "https://www.goodish.co.jp/creator/32/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-theme-song-20200403-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero-2020-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-planet-hero-2020-off-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-planet-hero-2020-full",
+            "title": "PLANET HERO",
+            "format": "full",
+            "kind": "character"
+          },
+          {
+            "id": "bakugan-planet-hero-2020-off-vocal",
+            "title": "PLANET HERO(Off Vocal)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "title": "Bakugan Armored Alliance Theme Song",
+            "artistDisplayName": "Dan Kouzo/Dragonoid",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-04-03",
+              "precision": "day"
+            },
+            "label": "TMS MUSIC CO., LTD.",
+            "tracks": [
+              {
+                "title": "PLANET HERO",
+                "recordingId": "bakugan-planet-hero-2020-full",
+                "position": 1
+              },
+              {
+                "title": "PLANET HERO(Off Vocal)",
+                "recordingId": "bakugan-planet-hero-2020-off-vocal",
+                "position": 3
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/planet-hero/1503472886?i=1503472891",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-planet-hero-2020-full",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/planet-hero-off-vocal/1503472886?i=1503472893",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-planet-hero-2020-off-vocal",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video"
+            ],
+            "note": "有正式完整版與伴奏。日本播出剪輯的獨立音源及正式片頭／片尾影片待核。",
+            "resumeWhen": "取得標示日本播出版的正式發行，或權利方上傳對應片段時續核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-1",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "ゴー！爆丸ブロー！",
+        "songId": "bakugan-armored-alliance-go-bakugan-blow",
+        "artistDisplayName": "ドラゴノイド（CV. 武内駿輔）、ダン・クーソー（CV. 高橋李依）",
+        "seasonIds": [
+          "2020-spring",
+          "2020-summer"
+        ],
+        "usageLabel": "日本配信版第1–26話片尾，2020/4/3–9/25；以ドラゴノイド為主唱。",
+        "credits": [
+          {
+            "name": "武内駿輔",
+            "role": "vocals"
+          },
+          {
+            "name": "高橋李依",
+            "role": "vocals"
+          },
+          {
+            "name": "永塚健登",
+            "role": "lyrics"
+          },
+          {
+            "name": "永塚健登",
+            "role": "composition"
+          },
+          {
+            "name": "永塚健登",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+            "label": "TMS 首次片尾公告、雙人演唱及完整版發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+            "label": "日本每話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf",
+              "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/bakugan-armored-alliance-theme-song-ep/1503472886"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-theme-song-20200403-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+              "https://www.tms-e.co.jp/archives/pdf/release/2020/20200327_bakumaru_theme_song.pdf"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow-2020-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+            "title": "ゴー!爆丸ブロー!",
+            "format": "full",
+            "kind": "character"
+          },
+          {
+            "id": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+            "title": "ゴー!爆丸ブロー!(Off Vocal)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "title": "Bakugan Armored Alliance Theme Song",
+            "artistDisplayName": "Dan Kouzo/Dragonoid",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-04-03",
+              "precision": "day"
+            },
+            "label": "TMS MUSIC CO., LTD.",
+            "tracks": [
+              {
+                "title": "ゴー!爆丸ブロー!",
+                "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+                "position": 2
+              },
+              {
+                "title": "ゴー!爆丸ブロー!(Off Vocal)",
+                "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+                "position": 4
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC/1503472886?i=1503472892",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-full",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/%E3%82%B4%E3%83%BC-%E7%88%86%E4%B8%B8%E3%83%96%E3%83%AD%E3%83%BC-off-vocal/1503472886?i=1503472894",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-go-bakugan-blow-2020-off-vocal",
+            "releaseId": "bakugan-armored-alliance-theme-song-20200403-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "recording_format",
+              "official_video"
+            ],
+            "note": "有正式完整版與伴奏。日本播出剪輯的獨立音源及正式片頭／片尾影片待核。",
+            "resumeWhen": "取得標示日本播出版的正式發行，或權利方上傳對應片段時續核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-2",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Higher and Higher",
+        "songId": "bakugan-armored-alliance-higher-and-higher",
+        "artistDisplayName": "上月せれな",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "日本配信版第27–39話片尾，2020/10/2–12/25。",
+        "credits": [
+          {
+            "name": "上月せれな",
+            "role": "vocals"
+          },
+          {
+            "name": "昆真由美",
+            "role": "lyrics"
+          },
+          {
+            "name": "芳賀俊和",
+            "role": "composition"
+          },
+          {
+            "name": "水島康貴",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://serechu.com/news?date=202010",
+            "label": "演唱者官網公布2020年10月起更換片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+            "label": "日本每話日期交叉核對",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=Tpxft3d-c5M",
+            "label": "演唱者官方 MV 簡介：片尾、發行日期與創作署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-ep/1579678129",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://serechu.com/news?date=202010",
+              "https://ja.wikipedia.org/wiki/%E7%88%86%E4%B8%B8%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9",
+              "https://www.youtube.com/watch?v=Tpxft3d-c5M"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-ep/1579678129"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "serena-kozuki-higher-and-higher-20201215-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-ed-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-higher-and-higher-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Tpxft3d-c5M"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "Tpxft3d-c5M"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-digital",
+            "title": "Higher and Higher",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-ed-size",
+            "title": "Higher and Higher (アニメEDサイズver.)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-higher-and-higher-inst",
+            "title": "Higher and Higher (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "serena-kozuki-higher-and-higher-20201215-hk",
+            "title": "Higher and Higher",
+            "artistDisplayName": "上月せれな",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2020-12-15",
+              "precision": "day"
+            },
+            "label": "youthsource records",
+            "tracks": [
+              {
+                "title": "Higher and Higher",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-digital",
+                "position": 1
+              },
+              {
+                "title": "Higher and Higher (アニメEDサイズver.)",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-ed-size",
+                "position": 3
+              },
+              {
+                "title": "Higher and Higher (inst)",
+                "recordingId": "bakugan-armored-alliance-higher-and-higher-inst",
+                "position": 4
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher/1579678129?i=1579678130",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-digital",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579678129?i=1579678132",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-ed-size",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/higher-and-higher-inst/1579678129?i=1579678133",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-higher-and-higher-inst",
+            "releaseId": "serena-kozuki-higher-and-higher-20201215-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "已核正式發行內的動畫片尾大小。常規唱片、伴奏及逐話剪輯的母帶關係待核。",
+            "resumeWhen": "取得唱片方版別註記或合法可查的逐話音軌時補核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      },
+      {
+        "id": "bakugan-armored-alliance-ed-3",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "DAN!GAN!ドリーマー",
+        "songId": "bakugan-armored-alliance-dangan-dreamer",
+        "artistDisplayName": "上月せれな",
+        "seasonIds": [
+          "2021-winter"
+        ],
+        "usageLabel": "日本配信版第40–52話片尾，2021/1/1–3/26。",
+        "credits": [
+          {
+            "name": "上月せれな",
+            "role": "vocals"
+          },
+          {
+            "name": "M!SATO",
+            "role": "lyrics"
+          },
+          {
+            "name": "宮川麿",
+            "role": "composition"
+          },
+          {
+            "name": "水島康貴",
+            "role": "arrangement"
+          }
+        ],
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+            "label": "TMS 日本版主題曲、演唱及詞曲編署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+            "label": "繁中逐話區間及主題曲交叉核對",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://media.brightstonemusic.com/1082/",
+            "label": "唱片方公告2021年1月起更換片尾與第40話元日17:00配信",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7nFKshuCXzk",
+            "label": "權利方第52話預告簡介確認末話日期與時間",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/never-end-ep/1579856451",
+            "label": "香港 Apple Music 正版發行、版別及曲序",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457",
+            "label": "香港 Apple Music 直接曲位與署名",
+            "role": "first_party",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-19"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "title",
+              "artist",
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+              "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+              "https://media.brightstonemusic.com/1082/",
+              "https://www.youtube.com/watch?v=7nFKshuCXzk"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tms-e.co.jp/alltitles/2020s/624106.html"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "tracklist",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/never-end-ep/1579856451"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "serena-kozuki-never-end-20210629-hk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-digital"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-ed-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "bakugan-armored-alliance-dangan-dreamer-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-19",
+        "recordings": [
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-digital",
+            "title": "DAN!GAN!ドリーマー",
+            "format": "unknown",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+            "title": "DAN!GAN!ドリーマー (アニメEDサイズver.)",
+            "format": "tv",
+            "kind": "vocal"
+          },
+          {
+            "id": "bakugan-armored-alliance-dangan-dreamer-inst",
+            "title": "DAN!GAN!ドリーマー (inst)",
+            "format": "unknown",
+            "kind": "instrumental"
+          }
+        ],
+        "releases": [
+          {
+            "id": "serena-kozuki-never-end-20210629-hk",
+            "title": "NEVER END",
+            "artistDisplayName": "上月せれな",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2021-06-29",
+              "precision": "day"
+            },
+            "label": "youthsource records",
+            "tracks": [
+              {
+                "title": "DAN!GAN!ドリーマー",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-digital",
+                "position": 2
+              },
+              {
+                "title": "DAN!GAN!ドリーマー (アニメEDサイズver.)",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+                "position": 4
+              },
+              {
+                "title": "DAN!GAN!ドリーマー (inst)",
+                "recordingId": "bakugan-armored-alliance-dangan-dreamer-inst",
+                "position": 6
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC/1579856451?i=1579856453",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-digital",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-%E3%82%A2%E3%83%8B%E3%83%A1ed%E3%82%B5%E3%82%A4%E3%82%BAver/1579856451?i=1579856455",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-ed-size",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          },
+          {
+            "platform": "Apple Music 香港",
+            "label": "香港正式曲位",
+            "url": "https://music.apple.com/hk/album/dan-gan-%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC-inst/1579856451?i=1579856457",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "bakugan-armored-alliance-dangan-dreamer-inst",
+            "releaseId": "serena-kozuki-never-end-20210629-hk",
+            "verifiedAt": "2026-11-19",
+            "availability": "available"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "已核正式發行內的動畫片尾大小。常規唱片、伴奏及逐話剪輯的母帶關係待核。",
+            "resumeWhen": "取得唱片方版別註記或合法可查的逐話音軌時補核。",
+            "checkedAt": "2026-11-19"
+          }
+        ]
+      }
+    ]
+  },
 {
   "catalogKey": -2020041201,
   "id": "curated-tsuburaya-ultraman-tv-2020",

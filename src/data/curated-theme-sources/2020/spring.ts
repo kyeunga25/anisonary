@@ -13,6 +13,13 @@ interface ReviewedThemeGroup {
 
 const reviewedThemeGroups: readonly ReviewedThemeGroup[] = [
   {
+    anilistId: 116415,
+    themeKeys: ["OP:1", "ED:1", "ED:2", "ED:3"],
+    label: "《爆丸 裝甲聯盟》日本版官方主題曲與演唱",
+    firstPartyUrl: "https://www.tms-e.co.jp/alltitles/2020s/624106.html",
+    crossCheckUrl: "https://zh.wikipedia.org/wiki/%E7%88%86%E4%B8%B8_%E8%A3%9D%E7%94%B2%E8%81%AF%E7%9B%9F",
+  },
+  {
     anilistId: 110130,
     themeKeys: ["OP:1", "ED:1"],
     label: "《球詠》第一方歌曲資料：OP／ED 用途與演唱者",

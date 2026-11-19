@@ -21,10 +21,10 @@ const index = buildCatalogSearchIndex(entries);
 const { manifest } = buildCatalogSearchAssets(buildCatalogSearchIndex(data.entries));
 const site = Astro.site ?? new URL("https://anisonary.k-y.cc");
 ---
-<BaseLayout description="歌曲、演唱者與動畫，一行看清。按季度瀏覽 OP／ED，點選歌曲查看動畫的完整主題曲與官方來源。" jsonLd={buildWebsiteJsonLd(site)}>
+<BaseLayout description="按季度查找日本 TV 動畫的片頭曲、片尾曲及插曲，查看創作者、音源版本與正版串流。" jsonLd={buildWebsiteJsonLd(site)}>
   <div class="browse-page page-shell">
     <header class="page-heading">
-      <div><h1>動畫歌曲，一覽即見。</h1><p>歌曲、演唱者與動畫，一行看清。點選歌曲，查看完整 OP／ED 與官方來源。</p></div>
+      <div><h1>日本 TV 動畫歌曲</h1><p>按季度找歌，點選曲名查看用途、創作者、不同錄音和正版播放連結。</p></div>
       <a class="text-link" href="/songs/">瀏覽所有歌曲 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" /></svg></a>
     </header>
     {data.status === "error" ? <ErrorState message="季度與動畫資料暫時無法取得。網站其他說明頁仍可正常瀏覽，請稍後重新載入。" /> : <>

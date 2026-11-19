@@ -1,6 +1,17 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020SpringThemeVideos = {
+  "116415:ED:2": [
+    {
+      "youtubeVideoId": "Tpxft3d-c5M",
+      "title": "Higher and Higher｜上月せれな官方短版 MV",
+      "channelName": "上月せれな（せれちゅ）",
+      "type": "music_video",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
   "114233:ED:3": [
     {
       "youtubeVideoId": "nLS4CEAzKqg",
