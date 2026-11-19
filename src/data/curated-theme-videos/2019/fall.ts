@@ -1615,4 +1615,5 @@ export const curated2019FallThemeVideos = {
       "embeddable": false
     }
   ],
+  "110789:OP:1": [{"youtubeVideoId": "f1O-UsZzmbA", "title": "OP主題歌「#NULL!*Peta」視聴用動画", "channelName": "NullPeta Game&Anime", "type": "other", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;

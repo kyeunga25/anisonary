@@ -12,11 +12,11 @@
 | 固定範圍 | 2007–2026 年非成人日本 TV 動畫。截止 2026-10-14 已公告的 OP、ED 及已證實的插曲。其他歌曲標示實際用途。 |
 | 本次資料任務 | 先審核既有製作地、TV 編成與跨季用途。按 2026 至 2020、各年秋夏春冬倒序完成標準季度日本 TV 名冊，再由 2019 補至 2007。日本 TV 長篇與 13／26 話作品一併盤點。 |
 | 本輪目標 | 接續日本 TV 季度名冊，補齊長篇續播、原播換曲、特別話及各曲的正版錄音與發行曲序。 |
-| 下批位置 | 第 639 批修正《NULL & PETA》的AT-X原播與主題曲發行。 |
+| 下批位置 | 第 652 批接續《動物朋友2》第1–12話原播、輪替片尾及插曲。 |
 | 完成條件 | 各季有來源支持的作品及歌曲用途清單，核對新作、續播與已知輪替；基本資料經公開JSON、頁面及必要檢查驗證，歌單與詳情保持易瀏覽；每筆用途保存現有欄位狀態、未記錄項目及已知續查條件，與完整收齊及來源日期分開。詳細欄位缺少不阻擋基本資料。作品聯集未閉合或仍有必需缺口時不稱整季齊備；兩輪未明欄位保留續查條件；2020–2026基本盤點及缺口對帳完成後，按季度倒序接續2019–2007，再依已登記缺口分階段深化詳細欄位。未解必要缺口仍標示未完成，不宣稱所有動畫種類或詳細資料齊備 |
-| 執行狀態 | 日本 TV 歌曲目錄執行中。第 638 批已在本機驗收，相對第 621 批正式基線有 100 個不同用途待集中發布。 |
-| 接續位置 | 正式基線 `a0f1833973eab88e751c272890359e6ac5124e4c`／[batch621-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch621-japanese-tv)。本機資料驗收到第 638 批。 |
-| 發布提交 | [PR #314](https://github.com/kyeunga25/anisonary/pull/314) 固定候選 `9ad6a52`。正式 Workers 版本 `87970d7f-1385-4aa8-8d56-716874668a33`，預覽版本 `6a6d427d-6957-45a7-b45f-d47c03b7acfb`。 |
+| 執行狀態 | 日本 TV 歌曲目錄執行中。第 651 批已在本機驗收，相對第 638 批正式基線有 136 個不同用途待集中發布。 |
+| 接續位置 | 正式基線 `429d759517e10bd7055969fdd92e41ec9d828f73`／[batch638-japanese-tv](https://github.com/kyeunga25/anisonary/releases/tag/batch638-japanese-tv)。本機資料驗收到第 651 批。 |
+| 發布提交 | [PR #315](https://github.com/kyeunga25/anisonary/pull/315) 固定候選 `85905c4`。正式 Workers 版本 `bf0c694a-d71b-4b55-88c2-db15205a6eaf`，預覽版本 `270b6559-259e-410d-b54d-73d6b4ddd9f5`。 |
 | 本機提交 | 第514批 `7299508`、正式驗收 `a2ce9f1`，第515批 `399ff7a`，第516批 `9688971`，第517批 `f6cb767`，第518批 `3892367`，第519批 `706d4c6`，第520批 `2c910bf`，第521批 `e11cba5`，第522批 `9001bc4`，第523批 `32e2503`，第524批 `0d3f536`，第525批 `3f019b8`，第526批 `bcef49f`，第527批 `7ece6dc`，第528批 `c2d7c8e`，第529批 `57ccee6`，第530批 `a20e4b2`，第531批 `6153b27`，第532批 `e7ea86d`，第533批 `1f7d327`，第534批 `cbef8a1`，第535批 `8ded9da`，第536批 `3b0718a`，第537批 `5b1593f`，第538批 `18ff155`，第539批 `25b05c9`，第540批 `eca5c3f`，第541批 `ec23e3b`，第542批 `02c70f0`，第543批 `c64071b`，第544批 `dafb7e4`，第545批 `15454eb`，第546批 `92e0d6d`，第547批 `efd36c5`，第548批 `94d3ffd`，第549批 `718975d`，第550批 `6575cec`，第551批 `d9294c3`。，第552批 `9afad83`，第553批 `cd10ec9`，第554批 `fdd42d1`，第555批 `d2629cc`，第556批 `90b06b4`，第557批 `f3b075e`，第558批 `141464e`，第559批 `20cdd25`，第560批 `0425f45`，第561批 `4c90632`，第562批 `50127cd`，第563批 `d55efc6`，第564批 `37325da`，第565批 `a119fdc`，第566批 `b8cd685`，第567批 `4068cbb`，第568批 `e34017d`，第569批 `1df64c3`，第570批 `ef64dee`，第571批 `628c5d9`，第572批 `acab1f4`，第573批 `4b95104`，第574批 `0393e44`，第575批 `cf154cc`，第576批 `20cd240`，第577批 `868ab07`，第578批 `f5678f3`，第579批 `3159800`，第580批 `0be6c56` |
 | 開始／停止 | 明確要求執行或繼續才開始；暫停／停止保存位置後等待指令；取消保留成果並記錄取消狀態 |
 
@@ -19891,4 +19891,86 @@ Node 22通過27項單元、2,150頁建置、統計及公開邊界。Firefox核�
 
 - 第3話千花舞蹈只登記一次特殊片尾，〈I miss you so bad〉為第11話早坂浴室插曲。第一季〈センチメンタルクライシス〉在第三季第13話奉心祭中作插曲，兩季共用歌曲ID。第一季插曲的詞曲編與獨立發行仍待清晰掛字或商品曲表。[第一季音樂](https://kaguya.love/1st/music/) · [第3話片尾](https://kaguya.love/1st/bddvd/02.html) · [製作人訪談](https://www.animatetimes.com/news/details.php?id=1668913655)
 - 本批用途：`kaguya-sama-wa-kokurasetai-op-1`、`kaguya-sama-wa-kokurasetai-ed-1`、`kaguya-sama-wa-kokurasetai-ed-2`、`kaguya-sama-wa-kokurasetai-in-1`、`kaguya-sama-wa-kokurasetai-ultra-romantic-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第639批　《NULL & PETA》日本AT-X原播、角色合唱及原聲帶四種錄音
+
+- 2019年10月4日12:00先行配信、22:40起AT-X首播；製作組確認第1話採用〈#NULL!*Peta〉。和氣あず未與上田麗奈演唱，maimie擔任和聲。香港與日本Steam原聲帶可購買，曲24–27分別為完整演唱、伴奏、TV演唱及TV伴奏。其餘各話與香港獨立串流曲號仍待核對。[原播編排](https://nullpeta.com/anime/) · [製作組原播說明](https://nullpeta.com/blog/9/) · [和聲演出](https://maimie.jp/nullpeta/) · [原聲帶](https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/)
+- 本批用途：`null-peta-op-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第640批　《同居人是貓》與《不吉波普不笑》2019年日本TV原播及器樂特殊片尾
+
+- 《同居人是貓》第1–12話沿用同一組OP與ED，南條愛乃的片尾另收於《LIVE A LIFE》原創盤。《不吉波普不笑》第9話改用安月名莉子〈Sayonara〉，第18話以〈See You, HeartBreakers〉器樂收尾；百石元事務所將該曲列於動畫音樂作品，港日原聲帶第2碟第19軌署名牛尾憲輔。兩人逐職務分工與劇中口哨各話仍待掛字。[同居人音樂](https://hizaue.com/music/) · [南條愛乃唱片](https://nbcuni-music.com/yoshino_nanjo/contents/hp0004/index00240000.html) · [不吉波普唱片](https://boogiepop-anime.com/products/music.html) · [百石元作品](https://www.fmf-music.com/artist/momoshige-hajime/)
+- 本批用途：`doukyonin-wa-hiza-tokidoki-atama-no-ue-op-1`、`doukyonin-wa-hiza-tokidoki-atama-no-ue-ed-1`、`boogiepop-wa-warawanai-2019-op-1`、`boogiepop-wa-warawanai-2019-ed-1`、`boogiepop-wa-warawanai-2019-ed-2`、`boogiepop-wa-warawanai-2019-ed-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第641批　《百慕達三角～多彩田園曲～》與《ENDRO！》日本TV輪替演唱及特殊片尾
+
+- 兩作共13個用途、4首歌曲。〈シャボン〉七種片尾與兩個劇中用途共用歌曲識別，第7話片尾與插曲的演唱、編曲各異。《ENDRO！》第1、12話以片頭曲收尾。初田悦子版是否亦見於第5話及《ENDRO！》第9話祭典合唱的音源仍待原播證據。[音樂製作公司](https://globe-eb.com/song2019.html) · [Bushiroad Music](https://bushiroad-music.com/477/) · [BS11](https://www.bs11.jp/anime/endro/) · [King Records](https://store.kingrecords.co.jp/shop/g/gKICM-3354/)
+- 本批用途：`bermuda-triangle-colorful-pastrale-op-1`、`bermuda-triangle-colorful-pastrale-ed-1`、`bermuda-triangle-colorful-pastrale-ed-2`、`bermuda-triangle-colorful-pastrale-ed-3`、`bermuda-triangle-colorful-pastrale-ed-4`、`bermuda-triangle-colorful-pastrale-ed-5`、`bermuda-triangle-colorful-pastrale-ed-6`、`bermuda-triangle-colorful-pastrale-ed-7`、`bermuda-triangle-colorful-pastrale-in-1`、`bermuda-triangle-colorful-pastrale-in-2`、`endro-op-1`、`endro-ed-1`、`endro-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第642批　《ケムリクサ》日本TV逐話片尾、三姊妹演唱及原聲帶剪輯
+
+- 全12話日本TV版從2019年1月9日22:30於TOKYO MX播出，Amazon約早15分鐘配信。第1話片末只有前奏，第2話以片頭曲作結，第11話把片頭移至A段後。第12話混合演唱與單曲三人合唱分列，原聲帶實體雙碟及數位版各按本身曲序。香港及日本單曲串流逐曲核實，原聲帶另附日本OTOTOY整張購買。[動畫官網](https://kemurikusa.com/) · [小松未可子訪談](https://www.animatetimes.com/news/details.php?id=1551856772) · [FlyingDog](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A023900/VTCL-35297.html) · [OTOTOY](https://ototoy.jp/_/default/p/420097)
+- 本批用途：`kemurikusa-op-1`、`kemurikusa-ed-1`、`kemurikusa-ed-2`、`kemurikusa-ed-3`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第643批　《天使降臨到我身邊！》第12話舞台劇與《家有女友》日本TV特別片尾
+
+- 兩作共16個用途、15首歌曲。《天使降臨到我身邊！》第1、12話片末沿用〈気ままな天使たち〉，終話八首音樂劇插曲逐一列出演唱角色、聲優及港、台、日原聲帶曲目。《家有女友》第8話改用〈always〉，另收第7、10話角色插曲、片尾伴奏及動畫尺寸版。美波〈Prologue〉的第7話播放位置與錄音仍待原播證據。[FlyingDog 終話曲目](https://www.jvcmusic.co.jp/flyingdog/-/Discography/A025425/VTCL-60494.html) · [毎日放送](https://www.mbs.jp/domekano/) · [瀧川ありさ訪談](https://ototoy.jp/feature/2019030602)
+- 本批用途：`watashi-ni-tenshi-ga-maiorita-op-1`、`watashi-ni-tenshi-ga-maiorita-ed-1`、`watashi-ni-tenshi-ga-maiorita-ed-2`、`watashi-ni-tenshi-ga-maiorita-in-1`、`watashi-ni-tenshi-ga-maiorita-in-2`、`watashi-ni-tenshi-ga-maiorita-in-3`、`watashi-ni-tenshi-ga-maiorita-in-4`、`watashi-ni-tenshi-ga-maiorita-in-5`、`watashi-ni-tenshi-ga-maiorita-in-6`、`watashi-ni-tenshi-ga-maiorita-in-7`、`watashi-ni-tenshi-ga-maiorita-in-8`、`domestic-na-kanojo-op-1`、`domestic-na-kanojo-ed-1`、`domestic-na-kanojo-ed-2`、`domestic-na-kanojo-in-1`、`domestic-na-kanojo-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第644批　《狂賭之淵 ××》及《約會大作戰III》日本原播、角色插曲與片頭跨用途
+
+- 《狂賭之淵 ××》第1話重用第一季片頭，第5、6話採用〈ツーペアの乙女〉，兩款角色獨唱另列為唱片版本。《約會大作戰III》〈I swear〉在第1話收尾、第5話用作插曲；第1話亦播出〈渚のパフューム〉。2014年影碟特典完整版、伴奏及2019年唱片已分別登記，香港角色曲直達曲目仍待確認。[狂賭之淵特典](https://kakegurui-anime.com/discography/detail.php?id=1016327) · [日本古倫美亞](https://columbia.jp/date-a-live/3rd/release.html) · [宵待月乃特典](https://date-a-live-anime.com/1st-2nd/bldvd/season2_dvd03.html)
+- 本批用途：`kakegurui-xx-op-1`、`kakegurui-xx-ed-1`、`kakegurui-xx-in-1`、`kakegurui-xx-in-2`、`kakegurui-xx-in-3`、`date-a-live-iii-op-1`、`date-a-live-iii-ed-1`、`date-a-live-iii-ed-2`、`date-a-live-iii-in-1`、`date-a-live-iii-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第645批　《HERO MASK》兩部的日本電視首播及跨季器樂主題
+
+- PartⅠ第14、15話於2020年10月5日連播。PartⅡ全9話於12月21–25日播畢，保留原作品ID及2019年Netflix先行日期，改入2020秋的日本TV名冊。兩部的器樂片頭及片尾共用兩個歌曲ID，原聲帶第2輯第26、27曲連到香港與日本播放項目。連播中段與第24話仍待電視掛字。[studioぴえろ](https://pierrot.jp/archive/2015/tv10_37.html) · [TOKYO MX 12月節目表](https://s.mxtv.jp/jyushin/timetable/2012.pdf) · [日本原聲帶](https://s.awa.fm/album/18827d3e643bf15b5364)
+- 本批用途：`hero-mask-tv-2020-op-1`、`hero-mask-tv-2020-ed-1`、`hero-mask-2nd-season-op-1`、`hero-mask-2nd-season-ed-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第646批　《荒野的壽飛行隊》與《飛翔吧！戰機少女》日本電視原播、插曲及不同錄音
+
+- 〈ソラノネ〉在《荒野》第1話片尾、第2–11話片頭，トリヘイ在第3、11話演唱〈エリート興業社歌〉。《戰機少女》〈Break the Blue!!〉由第1–11話片頭轉作第12話插曲。第4話〈awake from the deep〉的英文TV尺寸、完整版及伴奏收在藍光首卷，日文版在RINA個人專輯初回盤；港、日Apple Music可查英文TV尺寸，其他三版的區域曲目待核。[Bandai Namco Music Live](https://catalog.bandainamcomusiclive.co.jp/release/68320/) · [戰機少女動畫製作組](https://gaf-anime.jp/bluray.html) · [RINA唱片曲序](https://www.ivesound.jp/discography/rina/prismatica/)
+- 本批用途：`kouya-no-kotobuki-hikoutai-op-1`、`kouya-no-kotobuki-hikoutai-ed-1`、`kouya-no-kotobuki-hikoutai-ed-2`、`kouya-no-kotobuki-hikoutai-in-1`、`girly-air-force-op-1`、`girly-air-force-ed-1`、`girly-air-force-in-1`、`girly-air-force-in-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第 638 批正式驗收
+
+第 622–638 批涵蓋 20 部日本電視作品與 100 筆不同歌曲用途。預覽候選 `85905c4` 及正式提交 `429d759` 的 CI、Workers 建置均通過。兩個環境各有 4,480 個 CI 產物與固定候選逐位元一致，各驗收 184 個公開路徑、歌曲搜尋與用途錨點、手機無 JavaScript 季度海報牆。正式搜尋收錄 6,275 個用途。[PR #315](https://github.com/kyeunga25/anisonary/pull/315) · [正式發布](https://github.com/kyeunga25/anisonary/releases/tag/batch638-japanese-tv)
+
+## 第647批　《明治東京戀伽》五組輪換片尾與《魔法少女特殊戰明日香》首、末話用曲
+
+- 兩作共12個用途、7首歌曲。TMS逐話列明〈星屑の詠み人〉的雙人片尾、第10及11話兩種男角獨唱、第10及12話綾月芽衣劇中獨唱；另收第6話歌舞。〈KODO〉用於第2–11話片頭、第1話片末、第12話劇中。已核對港、台、日Apple Music、Spotify、實體限定版、首播調時與先行配信；兩男角獨唱限定附碟曲序待核。[TMS逐話曲表](https://www.tms-e.co.jp/alltitles/2010s/750101.html) · [明治東京戀伽原聲帶](https://meikoi.com/tv-anime/music/soundtrack/) · [明日香製作方](https://magical-five.jp/products/music.html)
+- 本批用途：`meiji-tokyo-renka-op-1`、`meiji-tokyo-renka-ed-1`、`meiji-tokyo-renka-ed-2`、`meiji-tokyo-renka-ed-3`、`meiji-tokyo-renka-ed-4`、`meiji-tokyo-renka-ed-5`、`meiji-tokyo-renka-in-1`、`meiji-tokyo-renka-in-2`、`mahou-shoujo-tokushusen-asuka-op-1`、`mahou-shoujo-tokushusen-asuka-ed-1`、`mahou-shoujo-tokushusen-asuka-ed-2`、`mahou-shoujo-tokushusen-asuka-in-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第648批　《快把我哥帶走》第3、4期的日本電視首播、共同製作及第4期片頭
+
+- 第3期於2019秋、第4期於2020秋在日本TOKYO MX播出，各12話。兩期均由日本公司參與動畫製作。第4期將中國8月配信與日本10月電視播期分開，補〈Come on youth〉詞曲編及兩名演唱者。第3期原播日期與作品名冊已核實，歌曲仍待直接的權利方曲表或日本字幕；香港區權利方第48集顯示會員專享。兩期尚無核實之獨立港日音源，官網把舊動畫配信標示為結束。[Imagineer](https://www.imagineer.co.jp/news/article.php?id=1505) · [動畫製作名單](https://anitsuke.com/cast.php) · [配信狀態](https://anitsuke.com/info.php) · [第4期原播曲表](https://cal.syoboi.jp/tid/5800/time)
+- 本批用途：`ani-ni-tsukeru-kusuri-wa-nai-4-op-1`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第649批　《新世紀涉谷戰》富士電視台原播及《笑容的代價》WOWOW首播
+
+- 兩部日本TV作品共6個用途、5首歌。富士原播每週一話，日本Netflix於1月10日一次上架全12話。〈closer again〉在第5、7、8、11、12話使用。WOWOW《笑容的代價》首話片末用片頭曲，次話開始常規片尾。日本CD與數位副標版各自掛載，另核對香港、台灣、日本Apple Music、OTOTOY及Bugs。終話〈星巡讃歌〉已定位同期觀影記錄，待正版掛字或權利方具名補錄；〈closer again〉編曲留待唱片內頁核實。[富士動畫製作方](https://revisions.jp/anime/music/index.php) · [富士太平洋音樂](https://www.fujipacific.co.jp/repertoire?and-taxonomy_repertoire_artist%5B%5D=9628&page=2) · [龍之子播出表](https://tatsunoko.co.jp/pastworks/egaonodaika/sp/onair/) · [導演及片尾歌手訪問](https://www.billboard-japan.com/special/detail/2610)
+- 本批用途：`revisions-op-1`、`revisions-ed-1`、`revisions-in-1`、`egao-no-daika-op-1`、`egao-no-daika-ed-1`、`egao-no-daika-ed-2`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第650批　《不機嫌なモノノケ庵 續》及《B-PROJECT～絶頂＊エモーション～》原播與輪替片尾
+
+- 兩部日本電視動畫共18個用途、13首歌。《不機嫌なモノノケ庵 續》分列原唱、伴奏、創作者合唱及兩首TV剪輯。《B-PROJECT》沿用第一季10人版片頭的歌曲ID，分列第二季14人版與四組輪唱片尾。第12話官方故事頁確認〈あえて言葉にするなら〉為插曲，片末仍有相互衝突的記錄，待原播片末掛字核實。平台逐區區分串流與下載購買。[動畫官網與原聲帶](https://mononokean.tv/cd.html) · [日本古倫美亞](https://columbia.jp/prod-info/COCX-40743/) · [B-PROJECT音樂資料](https://2nd.bpro-anime.com/music/) · [第12話](https://2nd.bpro-anime.com/story/?story=12)
+- 本批用途：`fukigen-na-mononokean-tsuzuki-op-1`、`fukigen-na-mononokean-tsuzuki-ed-1`、`b-project-zecchou-emotion-op-1`、`b-project-zecchou-emotion-ed-1`、`b-project-zecchou-emotion-ed-2`、`b-project-zecchou-emotion-ed-3`、`b-project-zecchou-emotion-ed-4`、`b-project-zecchou-emotion-ed-5`、`b-project-zecchou-emotion-in-1`、`b-project-zecchou-emotion-in-2`、`b-project-zecchou-emotion-in-3`、`b-project-zecchou-emotion-in-4`、`b-project-zecchou-emotion-in-5`、`b-project-zecchou-emotion-in-6`、`b-project-zecchou-emotion-in-7`、`b-project-zecchou-emotion-in-8`、`b-project-zecchou-emotion-in-9`、`b-project-zecchou-emotion-in-10`。
+- 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。
+
+## 第651批　《琴絃森林》第二系列逐話鋼琴演奏與《弦音―風舞高中弓道部―》跨季原播
+
+- 兩作37個用途、29首曲。第二系列第23話無片頭、第24話無常規片尾，NHK於4月14日連播兩話。以角色及實際鋼琴家、指揮和樂團分辨決賽與練習雙鋼琴，同一首作品同一樂章共用歌曲ID；〈茶色の小瓶〉採終話管弦版。港版Netflix譯《琴絃森林》，台版《琴之森》。第13話作品25-10、第18話〈Lacrimosa〉、第24話作品27-2及其他尚未確認演奏署名的片段留待分集掛字。京都動畫確認《弦音》第10話〈風のソルフェ〉在2018年12月23日原播，次年1月重播另計；主題曲跨入2019冬。兩作對帳港、日、台Apple Music曲目，按地區保留，另有3個官方MV。[動畫逐話演奏曲表](https://piano-anime.jp/story.html) · [日本哥倫比亞逐軌名義](https://columbia.jp/pianonomori/release.html) · [京都動畫音樂](https://tsurune.com/tv/music/)
+- 本批用途：`piano-no-mori-2-op-1`、`piano-no-mori-2-ed-1`、`piano-no-mori-2-in-1`、`piano-no-mori-2-in-2`、`piano-no-mori-2-in-3`、`piano-no-mori-2-in-4`、`piano-no-mori-2-in-5`、`piano-no-mori-2-in-6`、`piano-no-mori-2-in-7`、`piano-no-mori-2-in-8`、`piano-no-mori-2-in-9`、`piano-no-mori-2-in-10`、`piano-no-mori-2-in-11`、`piano-no-mori-2-in-12`、`piano-no-mori-2-in-13`、`piano-no-mori-2-in-14`、`piano-no-mori-2-in-15`、`piano-no-mori-2-in-16`、`piano-no-mori-2-in-17`、`piano-no-mori-2-in-18`、`piano-no-mori-2-in-19`、`piano-no-mori-2-in-20`、`piano-no-mori-2-in-21`、`piano-no-mori-2-in-22`、`piano-no-mori-2-in-23`、`piano-no-mori-2-in-24`、`piano-no-mori-2-in-25`、`piano-no-mori-2-in-26`、`piano-no-mori-2-in-27`、`piano-no-mori-2-in-28`、`piano-no-mori-2-in-29`、`piano-no-mori-2-in-30`、`piano-no-mori-2-in-31`、`piano-no-mori-2-in-32`、`tsurune-kazemai-koukou-kyuudoubu-op-1`、`tsurune-kazemai-koukou-kyuudoubu-ed-1`、`tsurune-kazemai-koukou-kyuudoubu-in-1`。
 - 本機通過批次測試、靜態建置、統計及公開邊界檢查，另核對作品 JSON、用途錨點、來源連結、搜尋及相關季度海報牆。待集中發布。

@@ -1005,4 +1005,16 @@ export const curated2020FallThemeVideos = {
   "114099:OP:2": [{"youtubeVideoId":"BBAkeBMlMrg","title":"向井太一 / Bravest (Official Music Video)","type":"music_video","channelName":"向井太一 / TAIL","officialStatus":"official","embeddable":false}],
   "117757:OP:1": [{"youtubeVideoId":"GOf00D1B99Q","title":"鈴木愛奈 - もっと高く《Aina Suzuki - MottoTakaku》","channelName":"鈴木愛奈 Official Channel","type":"music_video","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
   "120851:ED:4": [{"youtubeVideoId":"MRyhUth7vLw","title":"「おそ松さん」第3期第2クールED「Amazing Intelligence ～クズは最高!!!!!!!!!!!!!♡♡△△～ 」TVCM","channelName":"TVアニメ「おそ松さん」公式","type":"pv","officialStatus":"official","embeddable":false,"embedAvailability":"unknown"}],
+  "110686:OP:1": [{"youtubeVideoId": "31Y0N0hbTcw", "type": "art_track", "title": "Hero Mask", "channelName": "加藤久貴 - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "hero-mask-tv-2020-op-1-song-ost"}],
+  "120046:OP:1": [
+    {
+      youtubeVideoId: "Zbf_c1mYtdI",
+      title:
+        "「兄に付ける薬はない！４-快把我哥帯走４-」 公式60秒PV 2020年10月2日放送開始",
+      type: "other",
+      channelName: "イマジニア公式チャンネル",
+      officialStatus: "official",
+      embeddable: true,
+    },
+  ],
 } satisfies CuratedThemeVideoOverrideMap;

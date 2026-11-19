@@ -183,13 +183,6 @@ const reviewedThemeGroups: readonly ReviewedThemeGroup[] = [
     crossCheckUrl: "https://animethemes.moe/anime/koi_to_producer_evollove",
   },
   {
-    anilistId: 120046,
-    themeKeys: ["OP:1"],
-    label: "《快把我哥帶走 第4季》第一方歌曲資料：OP／ED 用途與演唱者",
-    firstPartyUrl: "https://anitsuke.com/",
-    crossCheckUrl: "https://anidb.net/anime/15600",
-  },
-  {
     anilistId: 114943,
     themeKeys: ["ED:1"],
     label: "《Battle Spirits 赫盟的加雷特》第一方歌曲資料：OP／ED 用途與演唱者",

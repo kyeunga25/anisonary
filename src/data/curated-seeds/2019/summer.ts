@@ -12658,24 +12658,6 @@ metadataVerifiedAt: "2026-09-07",
     ]
   },
   {
-    anilistId: 110686,
-    slug: "hero-mask-2nd-season",
-    sourceReferenceUrls: ["https://youranimes.tw/animes/3505"],
-    startDate: "2019-08-23",
-    titleJa: "HERO MASK PartII",
-    titleZhHant: "HERO MASK 英雄面具 PartII",
-    titleRomaji: "Hero Mask 2nd Season",
-    officialSiteUrl: "https://pierrot.jp/archive/2015/tv10_37.html",
-    animeThemesUrl: "https://animethemes.moe/anime/hero_mask_2nd_season",
-    identifierSource: {
-      label: "AnimeThemes：作品識別交叉連結",
-      url: "https://api.animethemes.moe/anime/hero_mask_2nd_season?include=resources",
-      language: "en"
-    },
-    broadcastLabel: "日本網絡首播／時間未整理",
-    themes: []
-  },
-  {
     anilistId: 110124,
     slug: "business-fish",
     localizedReferenceUrl: "https://acgsecrets.hk/bangumi/201907/",

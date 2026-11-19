@@ -40051,6 +40051,1058 @@ const curated2020FallSeedRows: CuratedAnimeSeed[] = [
     ],
     verifiedAt: "2026-09-02",
   },
+  {
+    "anilistId": 110686,
+    "id": "curated-110686",
+    "slug": "hero-mask-2nd-season",
+    "seasonIds": [
+      "2020-fall"
+    ],
+    "startDate": "2020-12-21",
+    "titleJa": "HERO MASK PartII",
+    "titleRomaji": "Hero Mask 2nd Season",
+    "titleZhHant": "HERO MASK 英雄面具 PartII",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "21:00",
+    "broadcastLabel": "日本studioぴえろ製作。Netflix於2019年8月23日先行配信PartⅡ全9話。TOKYO MX於2020年12月21–24日21:00–21:54 JST連播，每晚兩話；12月25日21:00–21:30播全作第24話。",
+    "status": "finished",
+    "verifiedAt": "2026-09-07",
+    "metadataVerifiedAt": "2026-11-20",
+    "officialSiteUrl": "https://pierrot.jp/archive/2015/tv10_37.html",
+    "sourceReferenceUrls": [
+      "https://youranimes.tw/animes/3505",
+      "https://pierrot.jp/archive/2015/tv10_37.html",
+      "https://s.mxtv.jp/jyushin/timetable/2012.pdf"
+    ],
+    "anilistUrl": "https://anilist.co/anime/110686",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110686-TYgBN21PMjNK.jpg",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "imageSourceUrl": "https://anilist.co/anime/110686",
+    "animeThemesUrl": "https://animethemes.moe/anime/hero_mask_2nd_season",
+    "identifierSource": {
+      "label": "AnimeThemes：作品識別交叉連結",
+      "url": "https://api.animethemes.moe/anime/hero_mask_2nd_season?include=resources",
+      "language": "en"
+    },
+    "metadataSources": [
+      {
+        "url": "https://pierrot.jp/archive/2015/tv10_37.html",
+        "label": "studioぴえろ：日本製作、Netflix先行日期與兩部各自話數",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://s.mxtv.jp/jyushin/timetable/2012.pdf",
+        "label": "TOKYO MX：12月21–25日連播兩種節目長度",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=_AVGbqcO8PE",
+        "label": "動畫官方頻道：PartⅡ全九話範圍及每日電視排程（簡介）",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.animatetimes.com/tag/details.php?id=7536",
+        "label": "animate Times：兩部日本電視播期與兩首主題曲",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://youranimes.tw/animes/3505",
+        "label": "繁中作品頁：PartⅡ串流日期",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-07"
+      },
+      {
+        "url": "https://youranimes.tw/bangumi/201907",
+        "label": "繁中2019夏網上配信記錄",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-07"
+      }
+    ],
+    "themes": [
+      {
+        "id": "hero-mask-2nd-season-op-1",
+        "songId": "hero-mask-tv-2020-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Hero Mask",
+        "artistDisplayName": "加藤久貴",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "日本TVPartⅡ第1–8話（全作第16–23話）的原版片頭。日本TV四晚各播兩話，12月25日播第24話；連播中段是否剪短及終話音樂位置待電視版掛字。",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://pierrot.jp/archive/2015/tv10_37.html",
+            "label": "studioぴえろ：日本製作、Netflix先行日期與兩部各自話數",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.mxtv.jp/jyushin/timetable/2012.pdf",
+            "label": "TOKYO MX：12月21–25日連播兩種節目長度",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=7536",
+            "label": "animate Times：兩部日本電視播期與兩首主題曲",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://aniphoria.com/anime/hero-mask-part-ii",
+            "label": "AnimeThemes分集用曲索引：第2部第1–8話",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/album/18827d3e643bf15b5364",
+            "label": "AWA日本：原聲帶Vol.2曲序與播放時長",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/cdaf4117f3b1f69a1f91",
+            "label": "AWA日本：原聲帶曲名、音樂人及播放頁",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.hisakikato.com/works/discography",
+            "label": "作曲家加藤久貴：原聲帶作品目錄",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/HERO_MASK",
+            "label": "日本作品資料：兩首器樂主題之作曲與編曲",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song",
+            "label": "Apple 香港：原聲帶Vol.2曲名、曲序及地區串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song",
+            "label": "Apple 日本：原聲帶Vol.2曲名、曲序及地區串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=31Y0N0hbTcw",
+            "label": "NexTone提供的加藤久貴官方原聲帶曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pierrot.jp/archive/2015/tv10_37.html",
+              "https://s.mxtv.jp/jyushin/timetable/2012.pdf",
+              "https://www.animatetimes.com/tag/details.php?id=7536",
+              "https://aniphoria.com/anime/hero-mask-part-ii"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-2nd-season-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/cdaf4117f3b1f69a1f91",
+              "https://www.animatetimes.com/tag/details.php?id=7536"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-tv-2020-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pierrot.jp/archive/2015/tv10_37.html",
+              "https://www.hisakikato.com/works/discography",
+              "https://ja.wikipedia.org/wiki/HERO_MASK"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/cdaf4117f3b1f69a1f91",
+              "https://www.animatetimes.com/tag/details.php?id=7536"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-tv-2020-op-1-song-ost"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1476033854"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1476034474"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1476033854"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1476034474"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/cdaf4117f3b1f69a1f91"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "awa-jp-18827d3e643bf15b5364"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/cdaf4117f3b1f69a1f91"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/cdaf4117f3b1f69a1f91"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=31Y0N0hbTcw"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "31Y0N0hbTcw"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hero-mask-tv-2020-op-1-song-ost",
+            "title": "Hero Mask（原聲帶Vol.2）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "credits": [
+          {
+            "role": "composition",
+            "name": "加藤久貴"
+          },
+          {
+            "role": "arrangement",
+            "name": "加藤久貴"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1476034474",
+            "label": "Hero Mask｜香港原聲帶串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "hero-mask-tv-2020-op-1-song-ost",
+            "releaseId": "apple-hk-1476033854",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1476034474",
+            "label": "Hero Mask｜日本原聲帶串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "hero-mask-tv-2020-op-1-song-ost",
+            "releaseId": "apple-jp-1476033854",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/cdaf4117f3b1f69a1f91",
+            "label": "Hero Mask｜日本原聲帶播放",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "hero-mask-tv-2020-op-1-song-ost",
+            "releaseId": "awa-jp-18827d3e643bf15b5364",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1476033854",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "Hisaki Kato",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-08-23",
+              "precision": "day"
+            },
+            "edition": "HK數位原聲帶",
+            "tracks": [
+              {
+                "title": "Hero Mask",
+                "disc": 1,
+                "position": 26,
+                "recordingId": "hero-mask-tv-2020-op-1-song-ost"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1476033854",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "加藤久貴",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-08-23",
+              "precision": "day"
+            },
+            "edition": "JP數位原聲帶",
+            "tracks": [
+              {
+                "title": "Hero Mask",
+                "disc": 1,
+                "position": 26,
+                "recordingId": "hero-mask-tv-2020-op-1-song-ost"
+              }
+            ]
+          },
+          {
+            "id": "awa-jp-18827d3e643bf15b5364",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "加藤久貴",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-08-24",
+              "precision": "day"
+            },
+            "edition": "AWA 日本數位版",
+            "tracks": [
+              {
+                "title": "Hero Mask",
+                "disc": 1,
+                "position": 26,
+                "recordingId": "hero-mask-tv-2020-op-1-song-ost"
+              }
+            ]
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings"
+            ],
+            "note": "日本TV四晚各播兩話，12月25日播第24話；連播中段是否剪短及終話音樂位置待電視版掛字。",
+            "resumeWhen": "可公開核對TOKYO MX原播各話掛字或完整時段音軌時，核對連播與原版剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=31Y0N0hbTcw"
+      },
+      {
+        "id": "hero-mask-2nd-season-ed-1",
+        "songId": "hero-mask-tv-2020-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "End Credits",
+        "artistDisplayName": "加藤久貴",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "日本TVPartⅡ第1–8話（全作第16–23話）的原版片尾。日本TV四晚各播兩話，12月25日播第24話；連播中段是否剪短及終話音樂位置待電視版掛字。",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://pierrot.jp/archive/2015/tv10_37.html",
+            "label": "studioぴえろ：日本製作、Netflix先行日期與兩部各自話數",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.mxtv.jp/jyushin/timetable/2012.pdf",
+            "label": "TOKYO MX：12月21–25日連播兩種節目長度",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=7536",
+            "label": "animate Times：兩部日本電視播期與兩首主題曲",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://aniphoria.com/anime/hero-mask-part-ii",
+            "label": "AnimeThemes分集用曲索引：第2部第1–8話",
+            "language": "en",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/album/18827d3e643bf15b5364",
+            "label": "AWA日本：原聲帶Vol.2曲序與播放時長",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/79aac2b552bf0fe0a992",
+            "label": "AWA日本：原聲帶曲名、音樂人及播放頁",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.hisakikato.com/works/discography",
+            "label": "作曲家加藤久貴：原聲帶作品目錄",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ja.wikipedia.org/wiki/HERO_MASK",
+            "label": "日本作品資料：兩首器樂主題之作曲與編曲",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song",
+            "label": "Apple 香港：原聲帶Vol.2曲名、曲序及地區串流",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song",
+            "label": "Apple 日本：原聲帶Vol.2曲名、曲序及地區串流",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pierrot.jp/archive/2015/tv10_37.html",
+              "https://s.mxtv.jp/jyushin/timetable/2012.pdf",
+              "https://www.animatetimes.com/tag/details.php?id=7536",
+              "https://aniphoria.com/anime/hero-mask-part-ii"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-2nd-season-ed-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/79aac2b552bf0fe0a992",
+              "https://www.animatetimes.com/tag/details.php?id=7536"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-tv-2020-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pierrot.jp/archive/2015/tv10_37.html",
+              "https://www.hisakikato.com/works/discography",
+              "https://ja.wikipedia.org/wiki/HERO_MASK"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "kind",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/79aac2b552bf0fe0a992",
+              "https://www.animatetimes.com/tag/details.php?id=7536"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "hero-mask-tv-2020-ed-1-song-ost"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1476033854"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1476034481"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1476033854"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1476033854&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1476034481"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/79aac2b552bf0fe0a992"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "awa-jp-18827d3e643bf15b5364"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/album/18827d3e643bf15b5364",
+              "https://s.awa.fm/track/79aac2b552bf0fe0a992"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/79aac2b552bf0fe0a992"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "hero-mask-tv-2020-ed-1-song-ost",
+            "title": "End Credits（原聲帶Vol.2）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "credits": [
+          {
+            "role": "composition",
+            "name": "加藤久貴"
+          },
+          {
+            "role": "arrangement",
+            "name": "加藤久貴"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1476034481",
+            "label": "End Credits｜香港原聲帶串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "hero-mask-tv-2020-ed-1-song-ost",
+            "releaseId": "apple-hk-1476033854",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1476034481",
+            "label": "End Credits｜日本原聲帶串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "hero-mask-tv-2020-ed-1-song-ost",
+            "releaseId": "apple-jp-1476033854",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/79aac2b552bf0fe0a992",
+            "label": "End Credits｜日本原聲帶播放",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "hero-mask-tv-2020-ed-1-song-ost",
+            "releaseId": "awa-jp-18827d3e643bf15b5364",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1476033854",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "Hisaki Kato",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-08-23",
+              "precision": "day"
+            },
+            "edition": "HK數位原聲帶",
+            "tracks": [
+              {
+                "title": "End Credits",
+                "disc": 1,
+                "position": 27,
+                "recordingId": "hero-mask-tv-2020-ed-1-song-ost"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1476033854",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "加藤久貴",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-08-23",
+              "precision": "day"
+            },
+            "edition": "JP數位原聲帶",
+            "tracks": [
+              {
+                "title": "End Credits",
+                "disc": 1,
+                "position": 27,
+                "recordingId": "hero-mask-tv-2020-ed-1-song-ost"
+              }
+            ]
+          },
+          {
+            "id": "awa-jp-18827d3e643bf15b5364",
+            "title": "オリジナルアニメーション「HERO MASK」オリジナルサウンドトラック Vol.2",
+            "artistDisplayName": "加藤久貴",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-08-24",
+              "precision": "day"
+            },
+            "edition": "AWA 日本數位版",
+            "tracks": [
+              {
+                "title": "End Credits",
+                "disc": 1,
+                "position": 27,
+                "recordingId": "hero-mask-tv-2020-ed-1-song-ost"
+              }
+            ]
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "followUp": [
+          {
+            "fields": [
+              "use_quarters",
+              "recordings"
+            ],
+            "note": "日本TV四晚各播兩話，12月25日播第24話；連播中段是否剪短及終話音樂位置待電視版掛字。",
+            "resumeWhen": "可公開核對TOKYO MX原播各話掛字或完整時段音軌時，核對連播與原版剪輯。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "anilistId": 120046,
+    "id": "curated-120046",
+    "slug": "ani-ni-tsukeru-kusuri-wa-nai-4",
+    "titleJa": "兄に付ける薬はない！4",
+    "titleZhHant": "快把我哥帶走 第4季",
+    "titleRomaji": "Ani ni Tsukeru Kusuri wa Nai! 4",
+    "startDate": "2020-10-02",
+    "status": "finished",
+    "editorialWeekday": 5,
+    "broadcastTimeJst": "21:54",
+    "broadcastLabel": "日本イマジニア及ファンワークス與Planet Cartoon共同製作。TOKYO MX於2020年10月2日至12月18日星期五21:54–22:00 JST播出全12話。Tencent Video於8月5日在中國先行配信。",
+    "seasonIds": [
+      "2020-fall"
+    ],
+    "officialSiteUrl": "https://anitsuke.com/",
+    "anilistUrl": "https://anilist.co/anime/120046",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120046-YWcYUdha79t5.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/120046",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "verifiedAt": "2026-09-02",
+    "metadataVerifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://fanworks.co.jp/news/anitsuke0902/",
+      "https://www.imagineer.co.jp/news/article.php?id=1505",
+      "https://anilist.co/anime/120046"
+    ],
+    "metadataSources": [
+      {
+        "label": "AniList：作品識別與公開圖像",
+        "url": "https://anilist.co/anime/120046",
+        "language": "en",
+        "role": "identifier",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "label": "繁體中文季度列表交叉對照",
+        "url": "https://zh.wikipedia.org/wiki/2020%E5%B9%B4%E6%97%A5%E6%9C%AC%E5%8B%95%E7%95%AB%E5%88%97%E8%A1%A8",
+        "language": "zh-Hant",
+        "role": "localized_cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://fanworks.co.jp/news/anitsuke0902/",
+        "label": "Fanworks：日本首播與Tencent先行日期",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://www.imagineer.co.jp/news/article.php?id=1505",
+        "label": "Imagineer：日本TV首播21:54與境外先行配信",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Zbf_c1mYtdI",
+        "label": "Imagineer：官方60秒PV，00:57顯示2020年10月2日21:54 TOKYO MX首播",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/cast.php",
+        "label": "動畫官網：各期日本動畫製作公司、共同製作及導演",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/story.php",
+        "label": "動畫官網：第3、4期各12話原題",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/info.php",
+        "label": "動畫官網：日本各期過往配信與刊載狀態",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5800/time",
+        "label": "日本第4期原播12話時段、主題曲與詞曲編署名",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "broadcast_cross_check"
+      }
+    ],
+    "themes": [
+      {
+        "id": "ani-ni-tsukeru-kusuri-wa-nai-4-op-1",
+        "songId": "ani-ni-tsukeru-kusuri-wa-nai-4-op-1-song",
+        "titleJa": "Come on youth",
+        "type": "OP",
+        "sequence": 1,
+        "artistDisplayName": "王玥＆鶴森Mori",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "王玥"
+          },
+          {
+            "role": "vocals",
+            "name": "鶴森Mori"
+          },
+          {
+            "role": "lyrics",
+            "name": "軒轅冷酷"
+          },
+          {
+            "role": "composition",
+            "name": "陈义"
+          },
+          {
+            "role": "arrangement",
+            "name": "陈义"
+          }
+        ],
+        "links": [
+          {
+            "platform": "作品官網",
+            "label": "作品官方網站",
+            "url": "https://anitsuke.com/",
+            "linkType": "official_landing_page",
+            "region": "JP"
+          }
+        ],
+        "sources": [
+          {
+            "label": "動畫官方網站",
+            "url": "https://anitsuke.com/",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "公開歌曲資料：用途與演唱者交叉核對",
+            "url": "https://anidb.net/anime/15600",
+            "language": "multi",
+            "role": "cross_check",
+            "verifiedAt": "2026-09-02"
+          },
+          {
+            "label": "Imagineer：官方60秒PV，00:57顯示2020年10月2日21:54 TOKYO MX首播",
+            "url": "https://www.youtube.com/watch?v=Zbf_c1mYtdI",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5800/time",
+            "label": "日本第4期原播12話時段、主題曲與詞曲編署名",
+            "verifiedAt": "2026-11-20",
+            "language": "ja",
+            "role": "cross_check"
+          },
+          {
+            "url": "https://www.animatetimes.com/tag/details.php?id=16248",
+            "label": "animate Times：第四期主題歌及演唱名義",
+            "verifiedAt": "2026-11-20",
+            "language": "ja",
+            "role": "cross_check"
+          },
+          {
+            "url": "https://www.imagineer.co.jp/news/article.php?id=1505",
+            "label": "Imagineer：日本TV首播21:54與境外先行配信",
+            "verifiedAt": "2026-11-20",
+            "language": "ja",
+            "role": "first_party"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://cal.syoboi.jp/tid/5800/time",
+              "https://www.animatetimes.com/tag/details.php?id=16248"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.animatetimes.com/tag/details.php?id=16248",
+              "https://cal.syoboi.jp/tid/5800/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ani-ni-tsukeru-kusuri-wa-nai-4-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.imagineer.co.jp/news/article.php?id=1505",
+              "https://www.youtube.com/watch?v=Zbf_c1mYtdI",
+              "https://cal.syoboi.jp/tid/5800/time",
+              "https://www.animatetimes.com/tag/details.php?id=16248"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ani-ni-tsukeru-kusuri-wa-nai-4-op-1"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "type",
+              "title"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=Zbf_c1mYtdI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "Zbf_c1mYtdI"
+          }
+        ],
+        "sourceMode": "explicit",
+        "lastVerifiedAt": "2026-11-20",
+        "seasonIds": [
+          "2020-fall"
+        ],
+        "usageLabel": "日本TV第4期片頭。全12話於2020秋播出，各話音軌有否省略或改位待原播掛字。",
+        "versionLabel": "作品PV公布電視播期。原聲獨立發行與港日串流曲目待核。",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_links",
+              "use_quarters"
+            ],
+            "note": "官網列出的舊日本動畫配信已結束，沒有可核對的獨立歌曲串流。",
+            "resumeWhen": "取得日語電視版逐話掛字或發行商具名曲目及曲號後，再核對各話出現及不同錄音。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=Zbf_c1mYtdI"
+      }
+    ]
+  },
 ];
 
 export const curated2020FallSeeds: CuratedAnimeSeed[] = curated2020FallSeedRows;
