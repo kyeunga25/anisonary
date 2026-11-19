@@ -437,7 +437,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
  101239,
 110788,
 100780, 109616, -2020041201, 116786
-, 116415]
+, 116415, -2019110901]
   },
   {
     id: "2020-spring",
@@ -449,7 +449,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     animeIds: [2406, 1960, ...curated2020SpringAnimeIds, 21, 112153, 235, 113472, 98515, 101168, 104462, 107420, 106625, 107651, 112748, 110354, 101239,
 104276,
 
-  109616, 111048, -201723701, 110788, 101634, 100780, 20628, 110786, -2020010101, 116415]
+  109616, 111048, -201723701, 110788, 101634, 100780, 20628, 110786, -2020010101, 116415, -2019110901]
   },
   {
     id: "2020-winter",
@@ -513,7 +513,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2018年秋アニメ",
     coverageNote: "本季先收錄已核實的跨季原播作品與歌曲，其餘作品及用途待盤點。",
     seeds: curated2018FallSeeds,
-    animeIds: [...curated2018FallSeeds.map(curatedAnimeKey), 97634]
+    animeIds: [...curated2018FallSeeds.map(curatedAnimeKey), 97634, 100978]
   },
   {
     id: "2018-spring",

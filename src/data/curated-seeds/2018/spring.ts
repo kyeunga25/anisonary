@@ -2953,7 +2953,8 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       "2019-fall",
       "2020-winter",
       "2019-spring",
-      "2019-winter"
+      "2019-winter",
+      "2018-fall"
     ],
     "startDate": "2018-04-01",
     "titleJa": "ゲゲゲの鬼太郎",
@@ -2992,7 +2993,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品方、放送方或唱片公司正式資料",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6",
@@ -3035,9 +3036,173 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html",
+            "label": "日本コロムビア雙主題曲單曲版別及八軌曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://team-max.co.jp/2019/10/02/kitaroanime2018-soundtrack/",
+            "label": "音樂製作方 Team-MAX 公布原聲帶及兩首 TV サイズ 曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/kitaro/news/2018111801.php",
+            "label": "東映動畫第六季原聲帶與 TV サイズ 錄音公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/27/",
+            "label": "東映第27話2018年10月7日原播",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/37/",
+            "label": "東映第37話2018年12月23日原播",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373216",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373219",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373221",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373223",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1359654797",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1410046153",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1441373215",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1359654794",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1410046152",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro｜Apple Music HK（2:26）",
+            "url": "https://music.apple.com/hk/song/1441373216",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro (TV Edit)｜Apple Music HK（1:28）",
+            "url": "https://music.apple.com/hk/song/1441373219",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro (Karaoke)｜Apple Music HK（2:26）",
+            "url": "https://music.apple.com/hk/song/1441373221",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-op-1-song-original-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro (TV Edit) [Karaoke]｜Apple Music HK（1:28）",
+            "url": "https://music.apple.com/hk/song/1441373223",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro (TV Edit)｜Apple Music HK（1:27）",
+            "url": "https://music.apple.com/hk/song/1359654797",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1359654794",
+            "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Gegege No Kitaro (Full Length Ver.)｜Apple Music HK（2:25）",
+            "url": "https://music.apple.com/hk/song/1410046153",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1410046152",
+            "recordingId": "gegege-no-kitarou-2018-op-1-song-full-size"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3144,6 +3309,202 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "cokm-42083"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/kitaro/season6/about/music.php",
+              "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/27/",
+              "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/37/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-op-1"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-op-1-song-original-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-op-1-song-tv-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "cocc-17539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://team-max.co.jp/2019/10/02/kitaroanime2018-soundtrack/",
+              "https://www.toei-anim.co.jp/kitaro/news/2018111801.php"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "cocx-40660"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373216"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373216"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373219"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373219"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373221"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373221"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373223"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373223"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1359654797"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1359654797"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1410046153"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1410046153"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1441373215"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1441373215"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1359654794"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1359654794"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1410046152"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1410046152"
           }
         ],
         "sourceMode": "explicit",
@@ -3153,10 +3514,11 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2019-fall",
           "2020-winter",
           "2019-spring",
-          "2019-winter"
+          "2019-winter",
+          "2018-fall"
         ],
         "usageLabel": "日本原TV第1–97話片頭，涵蓋2018年春季至2020年冬季。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "氷川きよし",
@@ -3188,6 +3550,18 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "title": "ゲゲゲの鬼太郎(FULL SIZE)",
             "kind": "vocal",
             "format": "full"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-op-1-song-original-karaoke",
+            "title": "ゲゲゲの鬼太郎（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-op-1-song-tv-karaoke",
+            "title": "ゲゲゲの鬼太郎（TV SIZE オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "tv"
           }
         ],
         "releases": [
@@ -3234,17 +3608,154 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "label": "日本コロムビア",
             "catalogNumber": "COKM-42083"
+          },
+          {
+            "id": "cocc-17539",
+            "title": "ゲゲゲの鬼太郎／見えんけれども おるんだよ",
+            "type": "single",
+            "artistDisplayName": "氷川きよし",
+            "edition": "日本 CD 單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゲゲゲの鬼太郎",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "ゲゲゲの鬼太郎（TV SIZE）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+              },
+              {
+                "title": "ゲゲゲの鬼太郎（オリジナル・カラオケ）",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-original-karaoke"
+              },
+              {
+                "title": "ゲゲゲの鬼太郎（TV SIZE オリジナル・カラオケ）",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-karaoke"
+              }
+            ],
+            "date": {
+              "value": "2018-10-23",
+              "precision": "day"
+            },
+            "catalogNumber": "COCC-17539"
+          },
+          {
+            "id": "cocx-40660",
+            "title": "TVアニメ『ゲゲゲの鬼太郎』オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "高梨康治、刃-yaiba-",
+            "edition": "日本原聲帶 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "ゲゲゲの鬼太郎（TVサイズ）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+              }
+            ],
+            "date": {
+              "value": "2018-12-19",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-40660"
+          },
+          {
+            "id": "apple-hk-1441373215",
+            "title": "Gegege No Kitaro / Mienkeredomo Orundayo",
+            "type": "single",
+            "artistDisplayName": "Kiyoshi Hikawa",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Gegege No Kitaro",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "Gegege No Kitaro (TV Edit)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+              },
+              {
+                "title": "Gegege No Kitaro (Karaoke)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-original-karaoke"
+              },
+              {
+                "title": "Gegege No Kitaro (TV Edit) [Karaoke]",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-karaoke"
+              }
+            ],
+            "date": {
+              "value": "2018-10-23",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1359654794",
+            "title": "Gegege No Kitaro (TV Edit) - Single",
+            "type": "single",
+            "artistDisplayName": "Kiyoshi Hikawa",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Gegege No Kitaro (TV Edit)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-tv-size"
+              }
+            ],
+            "date": {
+              "value": "2018-04-01",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1410046152",
+            "title": "Gegege No Kitaro (Full Length Ver.) - Single",
+            "type": "single",
+            "artistDisplayName": "Kiyoshi Hikawa",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Gegege No Kitaro (Full Length Ver.)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-op-1-song-full-size"
+              }
+            ],
+            "date": {
+              "value": "2018-07-24",
+              "precision": "day"
+            }
           }
         ],
         "followUp": [
           {
             "fields": [
-              "use_quarters",
-              "platform_availability"
+              "recordings",
+              "platform_availability",
+              "use_quarters"
             ],
-            "note": "八個季度的原播日期已核對，已有六季公開索引可對應。",
-            "resumeWhen": "2018夏／秋發布季度索引時補齊關聯；另核可播放的香港店區直連。",
-            "checkedAt": "2026-11-16"
+            "note": "已核2018秋第27–37話、單曲及原聲帶的 TV SIZE，並對應香港歌唱與卡拉 OK 曲目。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。 2018年夏季入口建立後補掛該季原播用途。",
+            "checkedAt": "2026-11-19"
           }
         ]
       },
@@ -3276,9 +3787,58 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1367091407",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491287752",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1367091404",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491287747",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Kagamino Nakakara｜Apple Music HK（5:09）",
+            "url": "https://music.apple.com/hk/song/1367091407",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1367091404"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Kagamino Nakakara｜Apple Music HK（5:10）",
+            "url": "https://music.apple.com/hk/song/1491287752",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1491287747"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3315,6 +3875,58 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1367091407"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1367091407"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491287752"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1491287752"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1367091404"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1367091404"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1491287747"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1491287747"
           }
         ],
         "sourceMode": "explicit",
@@ -3322,7 +3934,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2018-spring"
         ],
         "usageLabel": "日本原TV2018年春季第1–13話片尾（2018/4/1–6/24）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "まねきケチャ",
@@ -3345,12 +3957,51 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "releases"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1367091404",
+            "title": "Kagamino Nakakara / Atashino Nokori Zenbu Ageru (Special Edition)",
+            "type": "single",
+            "artistDisplayName": "Maneki-Kecak",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Kagamino Nakakara",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2018-04-18",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1491287747",
+            "title": "Aruwake Naino",
+            "type": "album",
+            "artistDisplayName": "Maneki-Kecak",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Kagamino Nakakara",
+                "position": 5,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3382,9 +4033,66 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-65054.html",
+            "label": "Victor《ムキシ》第3曲的正式版本名",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1406352980",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1435857132",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1406352975",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1435856616",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "GET A NOTE｜Apple Music HK（3:34）",
+            "url": "https://music.apple.com/hk/song/1406352980",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1406352975"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "GET A NOTE ~下駄の音ver.~｜Apple Music HK（3:47）",
+            "url": "https://music.apple.com/hk/song/1435857132",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1435856616",
+            "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3421,12 +4129,76 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A024737/VICL-65054.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1406352980"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1406352980"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1435857132"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1435857132"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1406352975"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1406352975"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1435856616"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1435856616"
           }
         ],
         "sourceMode": "explicit",
         "seasonIds": [],
         "usageLabel": "日本原TV2018年夏季第14–26話片尾（2018/7/1–9/30）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "レキシ",
@@ -3450,12 +4222,60 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "fields": [
               "recordings",
               "platform_availability",
-              "releases",
               "use_quarters"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "2018年夏季季度納入公開索引時加回季度關聯；取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。 2018年夏季入口建立後補掛該季原播用途。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto",
+            "title": "GET A NOTE ～下駄の音ver.～",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1406352975",
+            "title": "S & G - Single",
+            "type": "single",
+            "artistDisplayName": "Rekishi",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "GET A NOTE",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2018-07-18",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1435856616",
+            "title": "ムキシ",
+            "type": "album",
+            "artistDisplayName": "Rekishi",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "GET A NOTE ~下駄の音ver.~",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-2-song-geta-no-oto"
+              }
+            ],
+            "date": {
+              "value": "2018-09-26",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3472,7 +4292,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "label": "東映動畫第六期正式音樂頁：片頭、八首片尾及曲名與演唱名義",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-16"
+            "verifiedAt": "2026-11-19"
           },
           {
             "url": "https://www.mau2.com/anime/gegegenokitarou-r6",
@@ -3487,9 +4307,124 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html",
+            "label": "日本コロムビア雙主題曲單曲版別及八軌曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://team-max.co.jp/2019/10/02/kitaroanime2018-soundtrack/",
+            "label": "音樂製作方 Team-MAX 公布原聲帶及兩首 TV サイズ 曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.toei-anim.co.jp/kitaro/news/2018111801.php",
+            "label": "東映動畫第六季原聲帶與 TV サイズ 錄音公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/27/",
+            "label": "東映第27話2018年10月7日原播",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/37/",
+            "label": "東映第37話2018年12月23日原播",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373217",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373220",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373222",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1441373224",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1441373215",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Mienkeredomo Orundayo｜Apple Music HK（3:58）",
+            "url": "https://music.apple.com/hk/song/1441373217",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-ed-3-song-single-vocal"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Mienkeredomo Orundayo (TV Edit)｜Apple Music HK（1:02）",
+            "url": "https://music.apple.com/hk/song/1441373220",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Mienkeredomo Orundayo (Karaoke)｜Apple Music HK（3:58）",
+            "url": "https://music.apple.com/hk/song/1441373222",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-ed-3-song-original-karaoke"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Mienkeredomo Orundayo (TV Edit) [Karaoke]｜Apple Music HK（1:00）",
+            "url": "https://music.apple.com/hk/song/1441373224",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1441373215",
+            "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-karaoke"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3526,12 +4461,170 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.toei-anim.co.jp/kitaro/season6/about/music.php",
+              "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/27/",
+              "https://lineup.toei-anim.co.jp/ja/tv/kitaro50th/episode/37/"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-3"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-3-song-tv-size"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-3-song-single-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-3-song-original-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-3-song-tv-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/hikawa/discography/COCC-17539.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "cocc-17539"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://team-max.co.jp/2019/10/02/kitaroanime2018-soundtrack/",
+              "https://www.toei-anim.co.jp/kitaro/news/2018111801.php"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "cocx-40660"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373217"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373217"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373220"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373220"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373222"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373222"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1441373224"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1441373224"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1441373215"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1441373215"
           }
         ],
         "sourceMode": "explicit",
-        "seasonIds": [],
+        "seasonIds": [
+          "2018-fall"
+        ],
         "usageLabel": "日本原TV2018年秋季第27–37話片尾（2018/10/7–12/23）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "氷川きよし",
@@ -3558,13 +4651,137 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "releases",
-              "use_quarters"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "2018年秋季季度納入公開索引時加回季度關聯；取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "已核2018秋第27–37話、單曲及原聲帶的 TV SIZE，並對應香港歌唱與卡拉 OK 曲目。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gegege-no-kitarou-2018-ed-3-song-tv-size",
+            "title": "見えんけれども おるんだよ（TV SIZE）",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-ed-3-song-single-vocal",
+            "title": "見えんけれども おるんだよ（單曲演唱版）",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-ed-3-song-original-karaoke",
+            "title": "見えんけれども おるんだよ（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-ed-3-song-tv-karaoke",
+            "title": "見えんけれども おるんだよ（TV SIZE オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "cocc-17539",
+            "title": "ゲゲゲの鬼太郎／見えんけれども おるんだよ",
+            "type": "single",
+            "artistDisplayName": "氷川きよし",
+            "edition": "日本 CD 單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "見えんけれども おるんだよ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-single-vocal"
+              },
+              {
+                "title": "見えんけれども おるんだよ（TV SIZE）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-size"
+              },
+              {
+                "title": "見えんけれども おるんだよ（オリジナル・カラオケ）",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-original-karaoke"
+              },
+              {
+                "title": "見えんけれども おるんだよ（TV SIZE オリジナル・カラオケ）",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-karaoke"
+              }
+            ],
+            "date": {
+              "value": "2018-10-23",
+              "precision": "day"
+            },
+            "catalogNumber": "COCC-17539"
+          },
+          {
+            "id": "cocx-40660",
+            "title": "TVアニメ『ゲゲゲの鬼太郎』オリジナル・サウンドトラック",
+            "type": "soundtrack",
+            "artistDisplayName": "高梨康治、刃-yaiba-",
+            "edition": "日本原聲帶 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "見えんけれども おるんだよ（TVサイズ）",
+                "position": 35,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-size"
+              }
+            ],
+            "date": {
+              "value": "2018-12-19",
+              "precision": "day"
+            },
+            "catalogNumber": "COCX-40660"
+          },
+          {
+            "id": "apple-hk-1441373215",
+            "title": "Gegege No Kitaro / Mienkeredomo Orundayo",
+            "type": "single",
+            "artistDisplayName": "Kiyoshi Hikawa",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Mienkeredomo Orundayo",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-single-vocal"
+              },
+              {
+                "title": "Mienkeredomo Orundayo (TV Edit)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-size"
+              },
+              {
+                "title": "Mienkeredomo Orundayo (Karaoke)",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-original-karaoke"
+              },
+              {
+                "title": "Mienkeredomo Orundayo (TV Edit) [Karaoke]",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-3-song-tv-karaoke"
+              }
+            ],
+            "date": {
+              "value": "2018-10-23",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3603,9 +4820,72 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=E0Ho8YpJxP8",
+            "label": "官方音樂影片的創作署名",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.animatetimes.com/news/details.php?id=1550881958",
+            "label": "同期動畫報導所列片尾作詞、作曲與編曲",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1448662389",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1459071665",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1448662388",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1459071661",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "No. 999｜Apple Music HK（4:21）",
+            "url": "https://music.apple.com/hk/song/1448662389",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1448662388"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "No. 999｜Apple Music HK（4:20）",
+            "url": "https://music.apple.com/hk/song/1459071665",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1459071661"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3653,6 +4933,69 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://gogovanillas.com/news/detail/3621?lang=ja"
             ],
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=E0Ho8YpJxP8",
+              "https://www.animatetimes.com/news/details.php?id=1550881958"
+            ],
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1448662389"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1448662389"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1459071665"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1459071665"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1448662388"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1448662388"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1459071661"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1459071661"
           }
         ],
         "sourceMode": "explicit",
@@ -3660,26 +5003,74 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2019-winter"
         ],
         "usageLabel": "日本原TV2019年冬季第38–49話片尾（2019/1/6–3/31）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "go!go!vanillas",
             "role": "vocals"
+          },
+          {
+            "name": "Tatsuya Maki",
+            "role": "lyrics"
+          },
+          {
+            "name": "Tatsuya Maki",
+            "role": "composition"
+          },
+          {
+            "name": "go!go!vanillas",
+            "role": "arrangement"
           }
         ],
         "followUp": [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "lyrics",
-              "composition",
-              "arrangement",
-              "releases"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1448662388",
+            "title": "No. 999 - Single",
+            "type": "single",
+            "artistDisplayName": "go!go!vanillas",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "No. 999",
+                "position": 1,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2019-01-23",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1459071661",
+            "title": "The World",
+            "type": "album",
+            "artistDisplayName": "go!go!vanillas",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "No. 999",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2019-05-15",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3711,9 +5102,34 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1460543382",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1460543380",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Rondo｜Apple Music HK（5:11）",
+            "url": "https://music.apple.com/hk/song/1460543382",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1460543380"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3750,6 +5166,32 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1460543382"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1460543382"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1460543380"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1460543380"
           }
         ],
         "sourceMode": "explicit",
@@ -3757,7 +5199,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2019-spring"
         ],
         "usageLabel": "日本原TV2019年春季第50–62話片尾（2019/4/7–6/30）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "BUCK-TICK",
@@ -3780,12 +5222,32 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "releases"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1460543380",
+            "title": "Kemonotachi no Yoru / Rondo - Single",
+            "type": "single",
+            "artistDisplayName": "BUCK-TICK",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Rondo",
+                "position": 2,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2019-05-22",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3817,9 +5279,108 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://columbia.jp/artist-info/s-d-r/discography/COCP-41062.html",
+            "label": "日本コロムビア中野サンプラザ現場 CD 的曲序與發行資料",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1499771775",
+            "label": "Apple Music 香港巡演現場曲目",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1471092569",
+            "label": "Apple Music 香港單曲伴奏",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1471092567",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1523585713",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1471092566",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1499771523",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1523585400",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Ushimitsu Jamboree｜Apple Music HK（3:12）",
+            "url": "https://music.apple.com/hk/song/1471092567",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1471092566"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Ushimitsu Jamboree (Instrumental)｜Apple Music HK（3:10）",
+            "url": "https://music.apple.com/hk/song/1471092569",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1471092566",
+            "recordingId": "gegege-no-kitarou-2018-ed-6-song-single-instrumental"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Ushimitsu Jamboree (Live Version)｜Apple Music HK（3:14）",
+            "url": "https://music.apple.com/hk/song/1499771775",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1499771523",
+            "recordingId": "gegege-no-kitarou-2018-ed-6-song-kanreki-shonen-live"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Ushimitsu Jamboree｜Apple Music HK（3:10）",
+            "url": "https://music.apple.com/hk/song/1523585713",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1523585400"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3856,6 +5417,134 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/s-d-r/discography/COCP-41062.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-6-song-kanreki-shonen-live"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "catalog_number",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/artist-info/s-d-r/discography/COCP-41062.html"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "cocp-41062"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1471092569"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-6-song-single-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1471092567"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1471092567"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1471092569"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1471092569"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1499771775"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1499771775"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1523585713"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1523585713"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1471092566"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1471092566"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1499771523"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1499771523"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1523585400"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1523585400"
           }
         ],
         "sourceMode": "explicit",
@@ -3863,7 +5552,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2019-summer"
         ],
         "usageLabel": "日本原TV2019年夏季第63–75話片尾（2019/7/7–9/29）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "スターダスト☆レビュー",
@@ -3886,12 +5575,108 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "releases"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。 香港現場專輯頁所列2002年日期與日本唱片方的2020年現場 CD 發行記錄衝突，香港發行日期待核。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gegege-no-kitarou-2018-ed-6-song-kanreki-shonen-live",
+            "title": "うしみつジャンボリー（ライブツアー「還暦少年」）",
+            "kind": "live",
+            "format": "unknown"
+          },
+          {
+            "id": "gegege-no-kitarou-2018-ed-6-song-single-instrumental",
+            "title": "うしみつジャンボリー（Instrumental）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "cocp-41062",
+            "title": "スターダスト☆レビュー ライブツアー『還暦少年』",
+            "type": "album",
+            "artistDisplayName": "スターダスト☆レビュー",
+            "edition": "日本現場 CD",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "うしみつジャンボリー",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-6-song-kanreki-shonen-live"
+              }
+            ],
+            "date": {
+              "value": "2020-02-26",
+              "precision": "day"
+            },
+            "catalogNumber": "COCP-41062"
+          },
+          {
+            "id": "apple-hk-1471092566",
+            "title": "Ushimitsu Jamboree - Single",
+            "type": "single",
+            "artistDisplayName": "Stardust Revue",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Ushimitsu Jamboree",
+                "position": 1,
+                "disc": 1
+              },
+              {
+                "title": "Ushimitsu Jamboree (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-6-song-single-instrumental"
+              }
+            ],
+            "date": {
+              "value": "2019-07-24",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1499771523",
+            "title": "Stardust Revue Live Tour Kanrekishonen",
+            "type": "album",
+            "artistDisplayName": "Stardust Revue",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Ushimitsu Jamboree (Live Version)",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-6-song-kanreki-shonen-live"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1523585400",
+            "title": "Nenjuu Mosaku",
+            "type": "album",
+            "artistDisplayName": "Stardust Revue",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Ushimitsu Jamboree",
+                "position": 12,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2020-07-22",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -3923,9 +5708,59 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1481812662",
+            "label": "Apple Music 香港原播起日發行的 TV Size 單曲",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1491287751",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1481812661",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1491287747",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "label": "Aruwake Naino Sono Okuni (TV Size)｜Apple Music HK（1:00）",
+            "url": "https://music.apple.com/hk/song/1481812662",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1481812661",
+            "recordingId": "gegege-no-kitarou-2018-ed-7-song-tv-size"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Aruwake Naino Sono Okuni｜Apple Music HK（3:47）",
+            "url": "https://music.apple.com/hk/song/1491287751",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1491287747"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -3962,6 +5797,71 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "https://www.toei-anim.co.jp/kitaro/season6/about/music.php"
             ],
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind",
+              "format"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481812662"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-7-song-tv-size"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1481812662"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1481812662"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1491287751"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1491287751"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1481812661"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1481812661"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1491287747"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1491287747"
           }
         ],
         "sourceMode": "explicit",
@@ -3969,7 +5869,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2019-fall"
         ],
         "usageLabel": "日本原TV2019年秋季第76–86話片尾（2019/10/6–12/22）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "まねきケチャ",
@@ -3992,12 +5892,60 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           {
             "fields": [
               "recordings",
-              "platform_availability",
-              "releases"
+              "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gegege-no-kitarou-2018-ed-7-song-tv-size",
+            "title": "あるわけないのその奥に（TV Size）",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1481812661",
+            "title": "Aruwake Naino Sono Okuni (TV Size) - Single",
+            "type": "single",
+            "artistDisplayName": "Maneki-Kecak",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Aruwake Naino Sono Okuni (TV Size)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-7-song-tv-size"
+              }
+            ],
+            "date": {
+              "value": "2019-10-06",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1491287747",
+            "title": "Aruwake Naino",
+            "type": "album",
+            "artistDisplayName": "Maneki-Kecak",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Aruwake Naino Sono Okuni",
+                "position": 4,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            }
           }
         ]
       },
@@ -4064,9 +6012,52 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "ja",
             "verifiedAt": "2026-11-16"
+          },
+          {
+            "url": "https://s.awa.fm/track/814aad459966cd156115",
+            "label": "AWA 數位單曲及2020年1月8日發行日期",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/song/1492402055",
+            "label": "Apple Music 香港曲目、版本與曲長",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://music.apple.com/hk/album/1492402045",
+            "label": "Apple Music 香港發行品與曲序",
+            "language": "zh-Hant",
+            "role": "first_party",
+            "verifiedAt": "2026-11-19"
           }
         ],
-        "links": [],
+        "links": [
+          {
+            "platform": "AWA",
+            "label": "A.M.D.K.J.｜AWA 數位單曲",
+            "url": "https://s.awa.fm/track/814aad459966cd156115",
+            "linkType": "direct_track",
+            "region": "JP",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "amdkj-awa-single",
+            "recordingId": "gegege-no-kitarou-2018-ed-8-song-digital-single"
+          },
+          {
+            "platform": "Apple Music",
+            "label": "Amdkj｜Apple Music HK（3:40）",
+            "url": "https://music.apple.com/hk/song/1492402055",
+            "linkType": "direct_track",
+            "region": "HK",
+            "verifiedAt": "2026-11-19",
+            "availability": "unknown",
+            "releaseId": "apple-hk-1492402045"
+          }
+        ],
         "evidence": [
           {
             "target": "song",
@@ -4147,6 +6138,70 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-16",
             "targetId": "3pDpYur3Nwc"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/814aad459966cd156115"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "gegege-no-kitarou-2018-ed-8-song-digital-single"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/814aad459966cd156115"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "amdkj-awa-single"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/814aad459966cd156115"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://s.awa.fm/track/814aad459966cd156115"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/song/1492402055"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "https://music.apple.com/hk/song/1492402055"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "edition",
+              "tracklist",
+              "date"
+            ],
+            "sourceUrls": [
+              "https://music.apple.com/hk/album/1492402045"
+            ],
+            "verifiedAt": "2026-11-19",
+            "targetId": "apple-hk-1492402045"
           }
         ],
         "sourceMode": "explicit",
@@ -4154,7 +6209,7 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
           "2020-winter"
         ],
         "usageLabel": "日本原TV2020年冬季第87–97話片尾（2020/1/5–3/29）。",
-        "lastVerifiedAt": "2026-11-16",
+        "lastVerifiedAt": "2026-11-19",
         "credits": [
           {
             "name": "SCANDAL",
@@ -4179,9 +6234,9 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
               "recordings",
               "platform_availability"
             ],
-            "note": "日本原播集數依東映分集日期與逐話歌曲紀錄核對。",
-            "resumeWhen": "取得可辨識的原播剪輯、權利方發行資料或香港正版曲目時補核。",
-            "checkedAt": "2026-11-16"
+            "note": "香港區已核對發行品及逐曲連結。",
+            "resumeWhen": "取得日本電視原片可辨識的音軌或權利方逐版說明後，再對照實播剪輯及唱片音源；香港訂閱完整播放待實測。",
+            "checkedAt": "2026-11-19"
           }
         ],
         "releaseDate": "2020-01-08",
@@ -4206,6 +6261,53 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "label": "ビクターエンタテインメント",
             "catalogNumber": "VIZL-1708"
+          },
+          {
+            "id": "amdkj-awa-single",
+            "title": "A.M.D.K.J.",
+            "type": "single",
+            "artistDisplayName": "SCANDAL",
+            "edition": "日本數位單曲",
+            "region": "JP",
+            "tracks": [
+              {
+                "title": "A.M.D.K.J.",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "gegege-no-kitarou-2018-ed-8-song-digital-single"
+              }
+            ],
+            "date": {
+              "value": "2020-01-08",
+              "precision": "day"
+            }
+          },
+          {
+            "id": "apple-hk-1492402045",
+            "title": "Kiss from the Darkness",
+            "type": "album",
+            "artistDisplayName": "SCANDAL",
+            "edition": "香港區數位版",
+            "region": "HK",
+            "tracks": [
+              {
+                "title": "Amdkj",
+                "position": 10,
+                "disc": 1
+              }
+            ],
+            "date": {
+              "value": "2020-02-12",
+              "precision": "day"
+            }
+          }
+        ],
+        "recordings": [
+          {
+            "id": "gegege-no-kitarou-2018-ed-8-song-digital-single",
+            "title": "A.M.D.K.J.（數位單曲）",
+            "kind": "vocal",
+            "format": "unknown"
           }
         ]
       }

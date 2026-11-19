@@ -1,6 +1,126 @@
 import type { CuratedThemeVideoOverrideMap } from "@/data/curated-theme-videos/types";
 
 export const curated2020WinterThemeVideos = {
+  "109964:ED:10": [
+    {
+      "youtubeVideoId": "dlguBs9mHdA",
+      "title": "角色片尾專輯試聽合輯（第6–10話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:9": [
+    {
+      "youtubeVideoId": "dlguBs9mHdA",
+      "title": "角色片尾專輯試聽合輯（第6–10話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:8": [
+    {
+      "youtubeVideoId": "dlguBs9mHdA",
+      "title": "角色片尾專輯試聽合輯（第6–10話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:7": [
+    {
+      "youtubeVideoId": "dlguBs9mHdA",
+      "title": "角色片尾專輯試聽合輯（第6–10話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:6": [
+    {
+      "youtubeVideoId": "dlguBs9mHdA",
+      "title": "角色片尾專輯試聽合輯（第6–10話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:5": [
+    {
+      "youtubeVideoId": "BU0HDyhpb5M",
+      "title": "角色片尾專輯試聽合輯（第1–5話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:4": [
+    {
+      "youtubeVideoId": "BU0HDyhpb5M",
+      "title": "角色片尾專輯試聽合輯（第1–5話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:3": [
+    {
+      "youtubeVideoId": "BU0HDyhpb5M",
+      "title": "角色片尾專輯試聽合輯（第1–5話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:2": [
+    {
+      "youtubeVideoId": "BU0HDyhpb5M",
+      "title": "角色片尾專輯試聽合輯（第1–5話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
+  "109964:ED:1": [
+    {
+      "youtubeVideoId": "BU0HDyhpb5M",
+      "title": "角色片尾專輯試聽合輯（第1–5話）",
+      "channelName": "アニプレックス",
+      "type": "pv",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "releaseId": "svwc-70485"
+    }
+  ],
   "113242:ED:4": [
     {
       "youtubeVideoId": "ZhlOIlg7iJg",
@@ -593,6 +713,16 @@ export const curated2020WinterThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "7Ez8esnP31U",
+      "title": "From The Seeds",
+      "channelName": "上白石萌音",
+      "type": "art_track",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "7seeds-2-op-1-song-single-vocal"
     }
   ],
   "110613:ED:1": [
@@ -1722,6 +1852,26 @@ export const curated2020WinterThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "3T3ofoKfEoY",
+      "title": "NIGHT RUNNING",
+      "type": "art_track",
+      "channelName": "Shin Sakiura - Topic",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bna-ed-1-song-original-full"
+    },
+    {
+      "youtubeVideoId": "T9yQd56vfy4",
+      "title": "NIGHT RUNNING (Instrumental)",
+      "type": "art_track",
+      "channelName": "Shin Sakiura - Topic",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bna-ed-1-song-album-instrumental"
     }
   ],
   "110354:OP:1": [
@@ -1733,6 +1883,26 @@ export const curated2020WinterThemeVideos = {
       "officialStatus": "official",
       "embeddable": false,
       "embedAvailability": "unknown"
+    },
+    {
+      "youtubeVideoId": "zn-ixEGR9Mg",
+      "title": "Ready to",
+      "type": "art_track",
+      "channelName": "Release - Topic",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bna-op-1-song-original-full"
+    },
+    {
+      "youtubeVideoId": "VfLo6YI_VY4",
+      "title": "Ready to (Instrumental)",
+      "type": "art_track",
+      "channelName": "Release - Topic",
+      "officialStatus": "licensed",
+      "embeddable": false,
+      "embedAvailability": "unknown",
+      "recordingId": "bna-op-1-song-album-instrumental"
     }
   ],
   "104462:IN:1": [
