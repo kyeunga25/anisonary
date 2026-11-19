@@ -17738,4 +17738,2464 @@ export const curated2018FallSeeds: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "anilistId": 100402,
+    "anilistUrl": "https://anilist.co/anime/100402",
+    "id": "curated-100402",
+    "slug": "tsurune-kazemai-koukou-kyuudoubu",
+    "seasonIds": [
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-10-21",
+    "titleJa": "ツルネ ―風舞高校弓道部―",
+    "titleZhHant": "弦音―風舞高中弓道部―",
+    "titleRomaji": "Tsurune: Kazemai Koukou Kyuudou-bu",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "24:10",
+    "broadcastLabel": "京都動畫製作。NHK總合於2018年10月21日至2019年1月20日每週日24:10 JST原播13話，跨年休播後於1月6日播第11話。另有未列入首輪13話的番外篇。",
+    "officialSiteUrl": "https://tsurune.com/tv/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://tsurune.com/news/?id=18",
+      "https://tsurune.com/tv/story/",
+      "https://acg.gamer.com.tw/acgDetail.php?s=92171"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://tsurune.com/news/?id=18",
+        "label": "京都動畫｜NHK總合實際開播節目日",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://tsurune.com/tv/story/",
+        "label": "京都動畫｜電視本篇及番外篇",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://acg.gamer.com.tw/acgDetail.php?s=92171",
+        "label": "巴哈姆特｜台灣繁中片名",
+        "role": "first_party",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5080/time",
+        "label": "しょぼいカレンダー｜NHK原播、休播及一舉重播",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/100402",
+        "label": "AniList｜第一期原播識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "tsurune-kazemai-koukou-kyuudoubu-op-1",
+        "songId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Naru",
+        "artistDisplayName": "ラックライフ",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第1–13話片頭。第1–10話在秋季原播，第11–13話在冬季原播。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "PON"
+          },
+          {
+            "role": "lyrics",
+            "name": "PON"
+          },
+          {
+            "role": "composition",
+            "name": "PON"
+          },
+          {
+            "role": "arrangement",
+            "name": "本間昭光"
+          },
+          {
+            "role": "arrangement",
+            "name": "ラックライフ"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tsurune.com/tv/music/",
+            "label": "京都動畫｜兩首主題曲、第10話插曲、實體唱片、詞曲及TV剪輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/turune",
+            "label": "逐話觀影曲表｜首季原播片頭片尾與插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5080/time",
+            "label": "しょぼいカレンダー｜NHK原播、休播及一舉重播",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6819183153&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6819183153&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6819183153&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838929420&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838929420&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838929420&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=eevc5GiZWfY",
+            "label": "Lantis Channel｜ラックライフ / Naru [Music Video]（TVアニメ『ツルネ ―風舞高校弓道部―』OP主題歌）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://www.mau2.com/anime/turune"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://www.mau2.com/anime/turune",
+              "https://cal.syoboi.jp/tid/5080/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-6819183153"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6819183154"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-6819183153"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6819183154"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-6819183153"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6819183153&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6819183154"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838929420"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838929587"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1838929420"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1838929587"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838929420"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838929420&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838929587"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838667073"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1838667073"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838667073"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9661-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14807"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=eevc5GiZWfY"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eevc5GiZWfY"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "title": "Naru",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv",
+            "title": "Naru (TV-size)",
+            "kind": "vocal",
+            "format": "tv"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-6819183153",
+            "title": "Naru - Single",
+            "artistDisplayName": "LUCK LIFE",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-11-14",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-6819183153",
+            "title": "Naru - Single",
+            "artistDisplayName": "LUCK LIFE",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-11-14",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-6819183153",
+            "title": "Naru - Single",
+            "artistDisplayName": "ラックライフ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-14",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1838929420",
+            "title": "ラックライフ 15th Anniversary Best Album「LUCK LIFE」 (Incomplete Edition)",
+            "artistDisplayName": "LUCK LIFE",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-07-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 4,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1838929420",
+            "title": "ラックライフ 15th Anniversary Best Album「LUCK LIFE」 (Incomplete Edition)",
+            "artistDisplayName": "LUCK LIFE",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-07-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 4,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838929420",
+            "title": "ラックライフ 15th Anniversary Best Album「LUCK LIFE」 (Incomplete Edition)",
+            "artistDisplayName": "ラックライフ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-07-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 4,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Naru (TV-size)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Naru (TV-size)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Naru (TV-size)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "laca-9661-2",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本CD版",
+            "tracks": [
+              {
+                "title": "Naru (TV-size)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-9661～2"
+          },
+          {
+            "id": "lacm-14807",
+            "title": "Naru",
+            "artistDisplayName": "ラックライフ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-14",
+              "precision": "day"
+            },
+            "edition": "日本CD單曲",
+            "tracks": [
+              {
+                "title": "Naru",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "LACM-14807"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6819183154",
+            "label": "香港｜Naru",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-hk-6819183153",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6819183154",
+            "label": "台灣｜Naru",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-tw-6819183153",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6819183154",
+            "label": "日本｜Naru",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-jp-6819183153",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1838929587",
+            "label": "香港｜Naru",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-hk-1838929420",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1838929587",
+            "label": "台灣｜Naru",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-tw-1838929420",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1838929587",
+            "label": "日本｜Naru",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-vocal",
+            "releaseId": "apple-jp-1838929420",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1838667073",
+            "label": "香港｜Naru (TV-size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv",
+            "releaseId": "apple-hk-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1838667073",
+            "label": "台灣｜Naru (TV-size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv",
+            "releaseId": "apple-tw-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1838667073",
+            "label": "日本｜Naru (TV-size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-op-1-song-tv",
+            "releaseId": "apple-jp-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "tsurune-kazemai-koukou-kyuudoubu-ed-1",
+        "songId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "オレンジ色",
+        "artistDisplayName": "ChouCho",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "日本TV第1–13話片尾。第1–10話在秋季原播，第11–13話在冬季原播。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ChouCho"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤井万利子"
+          },
+          {
+            "role": "composition",
+            "name": "藤井万利子"
+          },
+          {
+            "role": "arrangement",
+            "name": "村山☆潤"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tsurune.com/tv/music/",
+            "label": "京都動畫｜兩首主題曲、第10話插曲、實體唱片、詞曲及TV剪輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/turune",
+            "label": "逐話觀影曲表｜首季原播片頭片尾與插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5080/time",
+            "label": "しょぼいカレンダー｜NHK原播、休播及一舉重播",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=lUpHadk7w5Y",
+            "label": "Lantis Channel｜ChouCho - オレンジ色 [Official MV]（TVアニメ『ツルネ ―風舞高校弓道部―』ED主題歌）",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://www.mau2.com/anime/turune"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://www.mau2.com/anime/turune",
+              "https://cal.syoboi.jp/tid/5080/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6812694760"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6812694760"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6812694760"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838667252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1838667252"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838667252"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9661-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lacm-14806"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-off-vocal"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=lUpHadk7w5Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "lUpHadk7w5Y"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal",
+            "title": "オレンジ色",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv",
+            "title": "オレンジ色 (TV-size)",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-off-vocal",
+            "title": "オレンジ色（off vocal）",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色",
+                "position": 3,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色 (TV-size)",
+                "position": 25,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色 (TV-size)",
+                "position": 25,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "オレンジ色 (TV-size)",
+                "position": 25,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+              }
+            ]
+          },
+          {
+            "id": "laca-9661-2",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本CD版",
+            "tracks": [
+              {
+                "title": "オレンジ色 (TV-size)",
+                "position": 25,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "LACA-9661～2"
+          },
+          {
+            "id": "lacm-14806",
+            "title": "オレンジ色",
+            "artistDisplayName": "ChouCho",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "日本CD單曲",
+            "tracks": [
+              {
+                "title": "オレンジ色",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal"
+              },
+              {
+                "title": "オレンジ色（off vocal）",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-off-vocal"
+              }
+            ],
+            "catalogNumber": "LACM-14806"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6812694760",
+            "label": "香港｜オレンジ色",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal",
+            "releaseId": "apple-hk-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6812694760",
+            "label": "台灣｜オレンジ色",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal",
+            "releaseId": "apple-tw-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6812694760",
+            "label": "日本｜オレンジ色",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-vocal",
+            "releaseId": "apple-jp-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1838667252",
+            "label": "香港｜オレンジ色 (TV-size)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv",
+            "releaseId": "apple-hk-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1838667252",
+            "label": "台灣｜オレンジ色 (TV-size)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv",
+            "releaseId": "apple-tw-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1838667252",
+            "label": "日本｜オレンジ色 (TV-size)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-ed-1-song-tv",
+            "releaseId": "apple-jp-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "tsurune-kazemai-koukou-kyuudoubu-in-1",
+        "songId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "風のソルフェ",
+        "artistDisplayName": "ChouCho",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "日本TV第10話〈離れぬ心〉插曲，2018年12月23日節目日原播。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "ChouCho"
+          },
+          {
+            "role": "lyrics",
+            "name": "ChouCho"
+          },
+          {
+            "role": "composition",
+            "name": "ChouCho"
+          },
+          {
+            "role": "arrangement",
+            "name": "村山☆潤"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://tsurune.com/tv/music/",
+            "label": "京都動畫｜兩首主題曲、第10話插曲、實體唱片、詞曲及TV剪輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/turune",
+            "label": "逐話觀影曲表｜首季原播片頭片尾與插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/5080/time",
+            "label": "しょぼいカレンダー｜NHK原播、休播及一舉重播",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812969380&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812969380&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812969380&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://www.mau2.com/anime/turune"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/",
+              "https://cal.syoboi.jp/tid/5080/time",
+              "https://www.mau2.com/anime/turune"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1838667268"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1838667268"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1838667070"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1838667070&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1838667268"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "laca-9661-2"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://tsurune.com/tv/music/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-6812969380"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6812969381"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-6812969380"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6812969381"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-6812969380"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812969380&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6812969381"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/6812694750"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/6812694750"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-6812694743"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=6812694743&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/6812694750"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "title": "風のソルフェ",
+            "kind": "vocal",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "TW",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1838667070",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "laca-9661-2",
+            "title": "TVアニメ『ツルネ ―風舞高校弓道部―』オリジナルサウンドトラック",
+            "artistDisplayName": "富貴晴美",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-01-16",
+              "precision": "day"
+            },
+            "edition": "日本CD版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 15,
+                "disc": 2,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "LACA-9661～2"
+          },
+          {
+            "id": "apple-hk-6812969380",
+            "title": "風のソルフェ - Single",
+            "artistDisplayName": "ChouCho",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-12-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-6812969380",
+            "title": "風のソルフェ - Single",
+            "artistDisplayName": "ChouCho",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-12-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-6812969380",
+            "title": "風のソルフェ - Single",
+            "artistDisplayName": "ChouCho",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-6812694743",
+            "title": "ChouCho the BEST",
+            "artistDisplayName": "ChouCho",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-12-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "風のソルフェ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1838667268",
+            "label": "香港｜風のソルフェ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-hk-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1838667268",
+            "label": "台灣｜風のソルフェ",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-tw-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1838667268",
+            "label": "日本｜風のソルフェ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-jp-1838667070",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6812969381",
+            "label": "香港｜風のソルフェ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-hk-6812969380",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6812969381",
+            "label": "台灣｜風のソルフェ",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-tw-6812969380",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6812969381",
+            "label": "日本｜風のソルフェ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-jp-6812969380",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/6812694750",
+            "label": "香港｜風のソルフェ",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-hk-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/6812694750",
+            "label": "台灣｜風のソルフェ",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-tw-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/6812694750",
+            "label": "日本｜風のソルフェ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "tsurune-kazemai-koukou-kyuudoubu-in-1-song-vocal",
+            "releaseId": "apple-jp-6812694743",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];

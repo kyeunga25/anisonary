@@ -13654,17 +13654,458 @@ const curated2019FallSeedRows: Fall2019SeedInput[] = [
       "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110789-BElJ4Jcqq9Fl.jpg",
     bannerUrl:
       "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110789-3MXXT57dSTLW.jpg",
-    broadcastLabel: "日本網絡首播／時間未整理",
+    broadcastLabel: "日本シンエイ動画製作。AT-X於2019年10月4日星期五22:40 JST首播，當日12:00先行配信。千葉電視台自10月5日星期六26:30起播，全12話。",
     officialSiteUrl: "https://nullpeta.com/",
     animeThemesUrl: "https://animethemes.moe/anime/null_peta",
+    broadcastTimeJst: "22:40",
+    metadataVerifiedAt: "2026-11-20",
+    metadataSources: [
+  {
+    "url": "https://nullpeta.com/anime/",
+    "label": "動畫官網：AT-X、千葉電視及網路時段",
+    "language": "ja",
+    "role": "first_party",
+    "verifiedAt": "2026-11-20"
+  },
+  {
+    "url": "https://www.animatetimes.com/news/details.php?id=1568962430",
+    "label": "animate Times：日本短篇TV主題曲及原播時段",
+    "language": "ja",
+    "role": "broadcast_cross_check",
+    "verifiedAt": "2026-11-20"
+  }
+],
     themes: [
+  {
+    "id": "null-peta-op-1",
+    "songId": "null-peta-op-1-song",
+    "titleJa": "#NULL!*Peta",
+    "type": "OP",
+    "sequence": 1,
+    "artistDisplayName": "ぬる（CV：和氣あず未）、ぺた（CV：上田麗奈）",
+    "usageLabel": "日本TV片頭。製作組確認第1話首次使用，其他集數的省略或改位待逐話核實。",
+    "sourceMode": "explicit",
+    "sources": [
       {
-        type: "OP",
-        sequence: 1,
-        titleJa: "#NULL!*Peta",
-        artistDisplayName: "ぬる（CV：和氣あず未）、ぺた（CV：上田麗奈）",
+        "url": "https://nullpeta.com/",
+        "label": "動畫官方網站",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-09-02"
       },
+      {
+        "url": "https://animethemes.moe/anime/null_peta",
+        "label": "AnimeThemes",
+        "language": "en",
+        "role": "cross_check",
+        "verifiedAt": "2026-09-02"
+      },
+      {
+        "url": "https://nullpeta.com/news/2019/1112/18/",
+        "label": "動畫官網：數位發行公告及詞曲編",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://maimie.jp/nullpeta/",
+        "label": "maimie：和聲演出與作曲、編曲及演唱",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.animatetimes.com/news/details.php?id=1568962430",
+        "label": "animate Times：日本短篇TV主題曲及原播時段",
+        "language": "ja",
+        "role": "cross_check",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://nullpeta.com/blog/9/",
+        "label": "製作組：第1話首次使用的片頭",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://nullpeta.com/anime/",
+        "label": "動畫官網：AT-X、千葉電視及網路時段",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=f1O-UsZzmbA",
+        "label": "NullPeta Game&Anime：OP歌曲試聽影片與簡介",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/",
+        "label": "Steam：動畫原聲帶、曲序、完整及TV剪輯",
+        "language": "en",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://store.steampowered.com/api/appdetails?appids=1236230&cc=hk&l=english",
+        "label": "Steam 香港：原聲帶發行與購買供應",
+        "language": "en",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://store.steampowered.com/api/appdetails?appids=1236230&cc=jp&l=english",
+        "label": "Steam 日本：原聲帶發行與購買供應",
+        "language": "en",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      }
     ],
+    "seasonIds": [
+      "2019-fall"
+    ],
+    "releaseDate": "2019-11-22",
+    "credits": [
+      {
+        "role": "lyrics",
+        "name": "やしきん"
+      },
+      {
+        "role": "composition",
+        "name": "岸田勇気"
+      },
+      {
+        "role": "arrangement",
+        "name": "岸田勇気"
+      },
+      {
+        "role": "vocals",
+        "name": "和氣あず未"
+      },
+      {
+        "role": "vocals",
+        "name": "上田麗奈"
+      },
+      {
+        "role": "vocals",
+        "name": "maimie"
+      }
+    ],
+    "versionLabel": "maimie擔任和聲。Steam動畫原聲帶第24、25曲為3分23秒演唱與伴奏，第26、27曲為1分03秒電視剪輯與電視剪輯伴奏。",
+    "recordings": [
+      {
+        "id": "null-peta-op-1-song-vocal",
+        "title": "#NULL! Peta",
+        "format": "full",
+        "kind": "character"
+      },
+      {
+        "id": "null-peta-op-1-song-inst",
+        "title": "#NULL! Peta Inst",
+        "format": "full",
+        "kind": "instrumental"
+      },
+      {
+        "id": "null-peta-op-1-song-tv",
+        "title": "#NULL! Peta TVsize",
+        "format": "tv",
+        "kind": "character"
+      },
+      {
+        "id": "null-peta-op-1-song-tv-inst",
+        "title": "#NULL! Peta TVsize Inst",
+        "format": "tv",
+        "kind": "instrumental"
+      }
+    ],
+    "releases": [
+      {
+        "id": "steam-hk-1236230",
+        "title": "Null & Peta Anime Soundtrack",
+        "artistDisplayName": "岸田勇気",
+        "type": "soundtrack",
+        "region": "HK",
+        "date": {
+          "value": "2020-01-30",
+          "precision": "day"
+        },
+        "edition": "Steam 動畫原聲帶",
+        "tracks": [
+          {
+            "title": "#NULL! Peta",
+            "disc": 1,
+            "position": 24,
+            "recordingId": "null-peta-op-1-song-vocal"
+          },
+          {
+            "title": "#NULL! Peta Inst",
+            "disc": 1,
+            "position": 25,
+            "recordingId": "null-peta-op-1-song-inst"
+          },
+          {
+            "title": "#NULL! Peta TVsize",
+            "disc": 1,
+            "position": 26,
+            "recordingId": "null-peta-op-1-song-tv"
+          },
+          {
+            "title": "#NULL! Peta TVsize Inst",
+            "disc": 1,
+            "position": 27,
+            "recordingId": "null-peta-op-1-song-tv-inst"
+          }
+        ]
+      },
+      {
+        "id": "steam-jp-1236230",
+        "title": "Null & Peta Anime Soundtrack",
+        "artistDisplayName": "岸田勇気",
+        "type": "soundtrack",
+        "region": "JP",
+        "date": {
+          "value": "2020-01-30",
+          "precision": "day"
+        },
+        "edition": "Steam 動畫原聲帶",
+        "tracks": [
+          {
+            "title": "#NULL! Peta",
+            "disc": 1,
+            "position": 24,
+            "recordingId": "null-peta-op-1-song-vocal"
+          },
+          {
+            "title": "#NULL! Peta Inst",
+            "disc": 1,
+            "position": 25,
+            "recordingId": "null-peta-op-1-song-inst"
+          },
+          {
+            "title": "#NULL! Peta TVsize",
+            "disc": 1,
+            "position": 26,
+            "recordingId": "null-peta-op-1-song-tv"
+          },
+          {
+            "title": "#NULL! Peta TVsize Inst",
+            "disc": 1,
+            "position": 27,
+            "recordingId": "null-peta-op-1-song-tv-inst"
+          }
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "target": "song",
+        "fields": [
+          "title",
+          "artist",
+          "date"
+        ],
+        "sourceUrls": [
+          "https://nullpeta.com/news/2019/1112/18/",
+          "https://maimie.jp/nullpeta/",
+          "https://www.animatetimes.com/news/details.php?id=1568962430"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1-song"
+      },
+      {
+        "target": "anime_use",
+        "fields": [
+          "usage"
+        ],
+        "sourceUrls": [
+          "https://nullpeta.com/blog/9/",
+          "https://nullpeta.com/anime/",
+          "https://www.animatetimes.com/news/details.php?id=1568962430"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1"
+      },
+      {
+        "target": "credits",
+        "fields": [
+          "credits"
+        ],
+        "sourceUrls": [
+          "https://nullpeta.com/news/2019/1112/18/",
+          "https://maimie.jp/nullpeta/"
+        ],
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "target": "video",
+        "fields": [
+          "type",
+          "title"
+        ],
+        "sourceUrls": [
+          "https://www.youtube.com/watch?v=f1O-UsZzmbA"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "f1O-UsZzmbA"
+      },
+      {
+        "target": "recording",
+        "fields": [
+          "title",
+          "kind",
+          "format"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1-song-vocal"
+      },
+      {
+        "target": "release",
+        "fields": [
+          "title",
+          "date",
+          "edition",
+          "tracklist"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/",
+          "https://store.steampowered.com/api/appdetails?appids=1236230&cc=hk&l=english"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "steam-hk-1236230"
+      },
+      {
+        "target": "link",
+        "fields": [
+          "url",
+          "type",
+          "availability"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/",
+          "https://store.steampowered.com/api/appdetails?appids=1236230&cc=hk&l=english"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "https://store.steampowered.com/app/1236230/?cc=hk"
+      },
+      {
+        "target": "release",
+        "fields": [
+          "title",
+          "date",
+          "edition",
+          "tracklist"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/",
+          "https://store.steampowered.com/api/appdetails?appids=1236230&cc=jp&l=english"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "steam-jp-1236230"
+      },
+      {
+        "target": "link",
+        "fields": [
+          "url",
+          "type",
+          "availability"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/",
+          "https://store.steampowered.com/api/appdetails?appids=1236230&cc=jp&l=english"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "https://store.steampowered.com/app/1236230/?cc=jp"
+      },
+      {
+        "target": "recording",
+        "fields": [
+          "title",
+          "kind",
+          "format"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1-song-inst"
+      },
+      {
+        "target": "recording",
+        "fields": [
+          "title",
+          "kind",
+          "format"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1-song-tv"
+      },
+      {
+        "target": "recording",
+        "fields": [
+          "title",
+          "kind",
+          "format"
+        ],
+        "sourceUrls": [
+          "https://store.steampowered.com/app/1236230/Null__Peta_Anime_Soundtrack/"
+        ],
+        "verifiedAt": "2026-11-20",
+        "targetId": "null-peta-op-1-song-tv-inst"
+      }
+    ],
+    "links": [
+      {
+        "platform": "作品官網",
+        "label": "作品官方網站",
+        "url": "https://nullpeta.com/",
+        "region": "JP",
+        "linkType": "official_landing_page"
+      },
+      {
+        "platform": "Steam",
+        "url": "https://store.steampowered.com/app/1236230/?cc=hk",
+        "releaseId": "steam-hk-1236230",
+        "label": "動畫原聲帶｜HK數位購買",
+        "region": "HK",
+        "linkType": "digital_purchase",
+        "availability": "available",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "platform": "Steam",
+        "url": "https://store.steampowered.com/app/1236230/?cc=jp",
+        "releaseId": "steam-jp-1236230",
+        "label": "動畫原聲帶｜JP數位購買",
+        "region": "JP",
+        "linkType": "digital_purchase",
+        "availability": "available",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "lastVerifiedAt": "2026-11-20",
+    "youtubeUrl": "https://www.youtube.com/watch?v=f1O-UsZzmbA",
+    "followUp": [
+      {
+        "fields": [
+          "use_quarters",
+          "platform_links"
+        ],
+        "note": "AT-X原播時段與第1話片頭已核實。歷史發行公告列出多個串流服務，香港現行的獨立串流曲目仍待確認。",
+        "resumeWhen": "取得其餘各話授權原片或分集曲表、香港區可辨識的串流曲號後補入。",
+        "checkedAt": "2026-11-20"
+      }
+    ]
+  }
+],
   },
   {
     "anilistId": 103275,
@@ -82360,6 +82801,80 @@ export const curated2019FallSeeds: CuratedCatalogAnimeSeed[] = [
         ]
       }
     ]
+  },
+  {
+    "id": "curated-110088",
+    "slug": "ani-ni-tsukeru-kusuri-wa-nai-3",
+    "anilistId": 110088,
+    "titleJa": "兄に付ける薬はない！3",
+    "titleRomaji": "Ani ni Tsukeru Kusuri wa Nai! 3",
+    "seasonIds": [
+      "2019-fall"
+    ],
+    "startDate": "2019-10-07",
+    "status": "finished",
+    "editorialWeekday": 1,
+    "broadcastTimeJst": "21:54",
+    "broadcastLabel": "日本イマジニア與ファンワークス、Planet Cartoon共同製作。日本TOKYO MX自2019年10月7日至12月23日星期一21:54–22:00 JST播出全12話。中國Tencent Video於8月先行配信。",
+    "officialSiteUrl": "https://anitsuke.com/",
+    "anilistUrl": "https://anilist.co/anime/110088",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx110088-mXMZsnZIeReL.jpg",
+    "bannerUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/110088-WEl514fz8tK2.jpg",
+    "imageSourceUrl": "https://anilist.co/anime/110088",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "sourceReferenceUrls": [
+      "https://www.imagineer.co.jp/news/article.php?id=1370",
+      "https://anitsuke.com/cast.php",
+      "https://anilist.co/anime/110088"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.imagineer.co.jp/news/article.php?id=1370",
+        "label": "Imagineer：第3期合作製作及中國8月先行",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=GHhEI980jgM",
+        "label": "Imagineer：第3期10月7日日本首播的官方PV",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/cast.php",
+        "label": "動畫官網：各期日本動畫製作公司、共同製作及導演",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/story.php",
+        "label": "動畫官網：第3、4期各12話原題",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://anitsuke.com/info.php",
+        "label": "動畫官網：日本各期過往配信與刊載狀態",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "first_party"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/5480/time",
+        "label": "日本第3期原播12話排程、節目長度及歌曲掛名",
+        "verifiedAt": "2026-11-20",
+        "language": "ja",
+        "role": "broadcast_cross_check"
+      }
+    ],
+    "themes": [],
+    "themeAvailability": "pending_verification"
   },
 ];
 

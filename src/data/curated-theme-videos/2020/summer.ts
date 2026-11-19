@@ -1021,17 +1021,6 @@ export const curated2020SummerThemeVideos = {
       "embedAvailability": "unknown"
     }
   ],
-  "120046:OP:1": [
-    {
-      youtubeVideoId: "Zbf_c1mYtdI",
-      title:
-        "「兄に付ける薬はない！４-快把我哥帯走４-」 公式60秒PV 2020年10月2日放送開始",
-      type: "other",
-      channelName: "イマジニア公式チャンネル",
-      officialStatus: "official",
-      embeddable: true,
-    },
-  ],
   "114943:ED:1": [
     {
       youtubeVideoId: "mgBArTODjuw",
@@ -1064,4 +1053,5 @@ export const curated2020SummerThemeVideos = {
       embeddable: true,
     },
   ],
+  "-2020070201:OP:1": [{"youtubeVideoId": "31Y0N0hbTcw", "type": "art_track", "title": "Hero Mask", "channelName": "加藤久貴 - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown", "recordingId": "hero-mask-tv-2020-op-1-song-ost"}],
 } satisfies CuratedThemeVideoOverrideMap;
