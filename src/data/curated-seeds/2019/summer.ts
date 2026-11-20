@@ -15958,6 +15958,1050 @@ export const curated2019SummerSeeds: CuratedCatalogAnimeSeed[] = [
     }
   ]
 },
+  {
+    "id": "curated-132695",
+    "anilistId": 132695,
+    "slug": "oshiri-tantei-3",
+    "titleJa": "おしりたんてい (第3シリーズ)",
+    "titleRomaji": "Oshiri Tantei 3",
+    "seasonIds": [
+      "2019-summer"
+    ],
+    "startDate": "2019-07-06",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "09:00",
+    "broadcastLabel": "NHK Eテレ在2019年7月6日起的週六09:00 JST時段首播第27–39話。",
+    "status": "finished",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "officialSiteUrl": "https://oshiri-tantei.com/",
+    "anilistUrl": "https://anilist.co/anime/132695",
+    "imageSourceUrl": "https://anilist.co/anime/132695",
+    "imageSourceLabel": "AniList 公開媒體頁",
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx132695-YemMO4GLHnsD.jpg",
+    "sourceReferenceUrls": [
+      "https://oshiri-tantei.com/",
+      "https://anilist.co/anime/132695"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+        "label": "東映：電視原播及12月常規編成",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://oshiri-tantei.com/news/2019070201.html",
+        "label": "動畫官網：第三期新作與第27至39話播出安排",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://oshiri-tantei.com/news/",
+        "label": "動畫官網：逐話消息與播映季度",
+        "language": "ja",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://modappweb1.chtmod.tv/modweb/product/524557.do?cs=2",
+        "label": "中華電信MOD：正版繁中作品名稱",
+        "language": "zh-Hant",
+        "role": "first_party",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+        "label": "日本分期及話數交叉資料",
+        "language": "ja",
+        "role": "broadcast_cross_check",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "oshiri-tantei-3-op-1",
+        "songId": "oshiri-tantei-4-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "ププッとフムッとかいけつダンス",
+        "artistDisplayName": "伊勢大貴",
+        "seasonIds": [
+          "2019-summer"
+        ],
+        "usageLabel": "日本電視第3期（全作第27–39話）的常規片頭。",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+            "label": "動畫製作方東映：片頭正式曲名、演唱及詞曲編",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-40382/",
+            "label": "日本古倫美亞：迷你專輯第1、2軌與八名兒童合唱者",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.lanovelibrary.com/oshiri-tantei/",
+            "label": "日本分期及話數交叉資料",
+            "language": "ja",
+            "role": "cross_check",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+            "label": "東映：電視原播及12月常規編成",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2019070201.html",
+            "label": "動畫官網：第三期新作與第27至39話播出安排",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/",
+            "label": "動畫官網：逐話消息與播映季度",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/goods/dvd/cd01.html",
+            "label": "動畫官網：主題歌迷你專輯製作及曲序",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://columbia.jp/prod-info/COCX-41245/",
+            "label": "日本古倫美亞：原聲帶第2軌演唱版",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-movie.com/shiriarty/modal/staff.html",
+            "label": "電影官網：長篇電影片尾改編名義",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://oshiri-tantei.com/news/2025071101.html",
+            "label": "動畫官網：音頭改編者、主唱及配信公告",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song",
+            "label": "Apple 香港：正版數位曲目、曲序、可串流狀態",
+            "language": "en",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song",
+            "label": "Apple 日本：正版數位曲目、曲序、可串流狀態",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "AWA：音頭錄音官方曲目",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=_fhJiPPrjDg",
+            "label": "東映アニメーション公式YouTubeチャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=QQtADXMLz2Y",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=0JmetSDHV8k",
+            "label": "Daiki Ise - Topic：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=nroWmm0qfoQ",
+            "label": "とうあにパーク【東映アニメーション公式キッズチャンネル】：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=zlFYS-_aIQI",
+            "label": "東映映画チャンネル：官方影片頁片名及頻道",
+            "language": "ja",
+            "role": "first_party",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://www.lanovelibrary.com/oshiri-tantei/",
+              "https://corp.toei-anim.co.jp/ja/press/press-2630364728101456403.html",
+              "https://oshiri-tantei.com/news/2019070201.html",
+              "https://oshiri-tantei.com/news/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-3-op-1"
+          },
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://lineup.toei-anim.co.jp/ja/tv/oshiri/song/",
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-original"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/goods/dvd/cd01.html",
+              "https://columbia.jp/prod-info/COCX-40382/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-kids"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-movie.com/shiriarty/modal/staff.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-film"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://oshiri-tantei.com/news/2025071101.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "oshiri-tantei-4-op-1-song-ondo"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-40382/",
+              "https://oshiri-tantei.com/goods/dvd/cd01.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-40382"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://columbia.jp/prod-info/COCX-41245/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "cocx-41245"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=hk&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1317253827"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1317253827&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1317253832"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1443710491"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443710491&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1443710492"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1557891252"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1557891252&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1557891257"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1613843017"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1613843017&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1613843021"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1826670393"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1826670393&country=jp&entity=song"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1826670394"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/a15a93632a4d6e3ed217"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "_fhJiPPrjDg"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=QQtADXMLz2Y"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "QQtADXMLz2Y"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=0JmetSDHV8k"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "0JmetSDHV8k"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=nroWmm0qfoQ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "nroWmm0qfoQ"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=zlFYS-_aIQI"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "zlFYS-_aIQI"
+          }
+        ],
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "伊勢大貴"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤本記子"
+          },
+          {
+            "role": "composition",
+            "name": "小杉保夫"
+          },
+          {
+            "role": "arrangement",
+            "name": "高木洋"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-hk-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1613843021",
+            "label": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)｜香港串流",
+            "linkType": "direct_track",
+            "region": "HK",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-hk-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1317253832",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1317253827",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1443710492",
+            "label": "ププッとフムッとかいけつダンス(カラオケ)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-karaoke",
+            "releaseId": "apple-jp-1443710491",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1557891257",
+            "label": "ププッとフムッとかいけつダンス｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-original",
+            "releaseId": "apple-jp-1557891252",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1613843021",
+            "label": "ププッとフムッとかいけつダンス (Produced by 福山雅治)｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-film",
+            "releaseId": "apple-jp-1613843017",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1826670394",
+            "label": "おしりたんてい音頭～ププッとフムッとかいけつダンス～｜日本串流",
+            "linkType": "direct_track",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "releaseId": "apple-jp-1826670393",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/a15a93632a4d6e3ed217",
+            "label": "おしりたんてい音頭｜日本曲目",
+            "region": "JP",
+            "recordingId": "oshiri-tantei-4-op-1-song-ondo",
+            "availability": "unknown",
+            "linkType": "direct_track",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "oshiri-tantei-4-op-1-song-original",
+            "title": "ププッとフムッとかいけつダンス",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-karaoke",
+            "title": "ププッとフムッとかいけつダンス（カラオケ）",
+            "kind": "instrumental",
+            "format": "unknown"
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-kids",
+            "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+            "kind": "vocal",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "田口乙葉"
+              },
+              {
+                "role": "vocals",
+                "name": "後本萌葉"
+              },
+              {
+                "role": "vocals",
+                "name": "黒嵜菜々子"
+              },
+              {
+                "role": "vocals",
+                "name": "三浦瑚都"
+              },
+              {
+                "role": "vocals",
+                "name": "小泉柚奈"
+              },
+              {
+                "role": "vocals",
+                "name": "只野維織"
+              },
+              {
+                "role": "vocals",
+                "name": "山本幸輝"
+              },
+              {
+                "role": "vocals",
+                "name": "佐久間玲駈"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-film",
+            "title": "ププッとフムッとかいけつダンス（Produced by 福山雅治）",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "福山雅治"
+              }
+            ]
+          },
+          {
+            "id": "oshiri-tantei-4-op-1-song-ondo",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+            "kind": "rearrangement",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "伊勢大貴"
+              },
+              {
+                "role": "arrangement",
+                "name": "長谷川智樹"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "cocx-40382",
+            "title": "おしりたんてい 主題歌ミニアルバム",
+            "artistDisplayName": "伊勢大貴ほか",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本迷你專輯CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              },
+              {
+                "title": "ププッとフムッとかいけつダンス ～こどもコーラスバージョン～",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-kids"
+              }
+            ],
+            "catalogNumber": "COCX-40382",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "cocx-41245",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "日本原聲帶CD",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ],
+            "catalogNumber": "COCX-41245",
+            "label": "日本コロムビア"
+          },
+          {
+            "id": "apple-hk-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "HK",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "Daiki Ise",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1317253827",
+            "title": "ププッとフムッとかいけつダンス - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2017-12-08",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1443710491",
+            "title": "ププッとフムッとかいけつダンス(カラオケ) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-11-28",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス(カラオケ)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1557891252",
+            "title": "おしりたんてい オリジナル・サウンドトラック",
+            "artistDisplayName": "高木洋",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2020-09-23",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス",
+                "disc": 1,
+                "position": 2,
+                "recordingId": "oshiri-tantei-4-op-1-song-original"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1613843017",
+            "title": "Puputto Fumutto Kaiketsu Dance (Produced by Fukuyama Masaharu) - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2022-03-18",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "ププッとフムッとかいけつダンス (Produced by 福山雅治)",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-film"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1826670393",
+            "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～ - Single",
+            "artistDisplayName": "伊勢大貴",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2025-07-19",
+              "precision": "day"
+            },
+            "edition": "數位發行版",
+            "tracks": [
+              {
+                "title": "おしりたんてい音頭～ププッとフムッとかいけつダンス～",
+                "disc": 1,
+                "position": 1,
+                "recordingId": "oshiri-tantei-4-op-1-song-ondo"
+              }
+            ]
+          }
+        ],
+        "versionLabel": "東映登記的電視片頭由伊勢大貴演唱、高木洋編曲。另收兒童合唱、伴奏、福山雅治為電影片尾改編的錄音，以及長谷川智樹改編的音頭。",
+        "followUp": [
+          {
+            "fields": [
+              "recordings",
+              "platform_links"
+            ],
+            "note": "香港原聲帶第2軌及福山雅治改編版已有可串流曲目。電視剪輯及迷你專輯兒童合唱的香港獨立曲目待核。",
+            "resumeWhen": "權利方具名發行TV尺寸，或香港平台公開兒童合唱的可播放曲目頁時補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ],
+        "youtubeUrl": "https://www.youtube.com/watch?v=_fhJiPPrjDg"
+      }
+    ],
+    "titleZhHant": "屁屁偵探"
+  },
   ...curated2019SummerSeedRows.map(summer2019Seed),
 ];
 

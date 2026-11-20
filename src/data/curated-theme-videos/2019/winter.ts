@@ -521,4 +521,355 @@ export const curated2019WinterThemeVideos = {
     }
   ],
   "103049:ED:1": [{"youtubeVideoId": "YUjenNtTjRI", "type": "music_video", "title": "村川梨衣 / はじまりの場所(TVアニメ「ピアノの森」第2シリーズ エンディングテーマ)", "channelName": "村川梨衣 - Rie Murakawa", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "99624:OP:1": [{"youtubeVideoId": "vOX_UsdM_uc", "title": "「乗ってけ！ジャパリビート / どうぶつビスケッツ×PPP」MUSIC VIDEO（けものフレンズ２）", "channelName": "けものフレンズプロジェクト公式", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "99624:ED:1": [{"youtubeVideoId": "cVPERtPy-kM", "title": "「星をつなげて / Gothic×Luck」Music Video（TVアニメ『けものフレンズ２』エンディングテーマ）", "channelName": "けものフレンズプロジェクト公式", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "99624:ED:2": [{"youtubeVideoId": "h-v-pL74MSs", "title": "「きみは帰る場所 / Gothic×Luck」Music Video（TVアニメ『けものフレンズ２』エンディングテーマ）", "channelName": "けものフレンズプロジェクト公式", "type": "music_video", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}, {"youtubeVideoId": "Ca2QjgScbFk", "title": "きみは帰る場所", "channelName": "Gothic x Luck - Topic", "type": "art_track", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "101337:OP:1": [
+    {
+      "youtubeVideoId": "l3ofMSA_xzA",
+      "type": "music_video",
+      "title": "竹中凌平『Reason』MV(TVアニメ「W’ｚ《ウィズ》」オープニング主題歌）",
+      "channelName": "FRONTIERWORKS",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101337:ED:1": [
+    {
+      "youtubeVideoId": "_NT3UBdJzNU",
+      "type": "music_video",
+      "title": "Fuki『神様はきっと』MV(TVアニメ「W’ｚ《ウィズ》」エンディング主題歌）",
+      "channelName": "FRONTIERWORKS",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101337:IN:1": [
+    {
+      "youtubeVideoId": "FURCNs0TfrU",
+      "type": "pv",
+      "title": "TVアニメ「ハンドシェイカー」キャラクターソングス 試聴動画",
+      "channelName": "FRONTIERWORKS",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101379:OP:1": [
+    {
+      "youtubeVideoId": "krUZz1_xqTA",
+      "type": "music_video",
+      "title": "今井麻美「Believe in Sky」（TVアニメ『ぱすてるメモリーズ』OPテーマ）Short Music Video",
+      "channelName": "AniTone Music Channel",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101379:ED:1": [
+    {
+      "youtubeVideoId": "eVJef22vhOk",
+      "type": "music_video",
+      "title": "イケてるハーツ「Sparkle☆Power」MusicClip Full Ver.",
+      "channelName": "Stand-Up!Records",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "103735:OP:1": [{"youtubeVideoId": "osJksRnsPqI", "type": "music_video", "title": "【竹達彩奈】11thSG「Innocent Notes」MV short ver.", "channelName": "ぽにきゃん-Anime PONY CANYON", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "103735:ED:1": [{"youtubeVideoId": "NuXXv6dKQWc", "type": "music_video", "title": "i☆Ris / Endless Notes -Music Video-(Short Ver.)", "channelName": "avex", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}, {"youtubeVideoId": "O3wtrc_pEJs", "type": "music_video", "title": "i☆Ris / 「Endless Notes」 Dance Ver.", "channelName": "avex", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "102882:ED:1": [{"youtubeVideoId": "mZVlUOrTGRk", "title": "フジファブリック 『破顔』-YouTube EDIT-", "channelName": "フジファブリック Official Channel", "officialStatus": "official", "type": "music_video", "embeddable": false, "embedAvailability": "unknown"}],
+  "101633:OP:1": [
+    {
+      "youtubeVideoId": "UFP8Q-2hN6U",
+      "type": "pv",
+      "title": "【試聴動画】Poppin'Party 12th Single「キズナミュージック♪」(12/12発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:OP:2": [
+    {
+      "youtubeVideoId": "GxiCNpb8egM",
+      "type": "pv",
+      "title": "【試聴動画】Roselia 7th Single「BRAVE JEWEL」(12/12発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:ED:1": [
+    {
+      "youtubeVideoId": "zeUYDs6IOco",
+      "type": "pv",
+      "title": "【試聴動画】Roselia 8th Single「Safe and Sound」(2/20発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:ED:2": [
+    {
+      "youtubeVideoId": "DUUAUKnZCDs",
+      "type": "pv",
+      "title": "【試聴動画】Poppin'Party 13th Single「Jumpin'」(2/20発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:1": [
+    {
+      "youtubeVideoId": "skIGelqLRCU",
+      "type": "pv",
+      "title": "(7/12発売!!)Pastel＊Palettes 1stシングル「しゅわりん☆どり～みん」（視聴動画）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:3": [
+    {
+      "youtubeVideoId": "Z96LvhbtHg8",
+      "type": "pv",
+      "title": "(8/2発売!!) ハロー、ハッピーワールド！ 1stシングル「えがおのオーケストラっ！」（試聴動画）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:4": [
+    {
+      "youtubeVideoId": "1nwp8sJKsk0",
+      "type": "pv",
+      "title": "Roselia 1st singleCD「BLACK SHOUT」+「LOUDER」（視聴動画）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:5": [
+    {
+      "youtubeVideoId": "TVa3ZQrueDE",
+      "type": "music_video",
+      "title": "Poppin'Party 5th SingleCD（カップリング曲）「Happy Happy Party!」アニメMV",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:6": [
+    {
+      "youtubeVideoId": "1nwp8sJKsk0",
+      "type": "pv",
+      "title": "Roselia 1st singleCD「BLACK SHOUT」+「LOUDER」（視聴動画）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:7": [
+    {
+      "youtubeVideoId": "c0sW-K3rhus",
+      "type": "pv",
+      "title": "Poppin'Party 5th SingleCD「キラキラだとか夢だとか ～Sing Girls～」（TVアニメ「BanG Dream!」ED映像Ver.）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:8": [
+    {
+      "youtubeVideoId": "DauaE0zVX74",
+      "type": "pv",
+      "title": "【試聴動画】ハロー、ハッピーワールド！ 2nd Single 表題曲「ゴーカ！ごーかい！？ファントムシーフ！」(2/14発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:9": [
+    {
+      "youtubeVideoId": "ANYYH2LUHAM",
+      "type": "pv",
+      "title": "【試聴動画】ハロー、ハッピーワールド！ 2nd Single カップリング曲「せかいのっびのびトレジャー！」(2/14発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:11": [
+    {
+      "youtubeVideoId": "J0d1QI74S6U",
+      "type": "pv",
+      "title": "【試聴動画】Pastel＊Palettes 2nd Single 表題曲「ゆら・ゆらRing-Dong-Dance」1/17発売!!",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:12": [
+    {
+      "youtubeVideoId": "xfVryIE_EUI",
+      "type": "pv",
+      "title": "【試聴動画】Afterglow 1st Single 表題曲「That Is How I Roll!」(9/6発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:13": [
+    {
+      "youtubeVideoId": "CVma526j5hs",
+      "type": "pv",
+      "title": "【試聴動画】Afterglow 4th Single「Y.O.L.O！！！！！」(2/20発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:14": [
+    {
+      "youtubeVideoId": "llD_yUgDOCw",
+      "type": "pv",
+      "title": "【試聴動画】Glitter*Green Single「Don't be afraid!」(11/21発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:16": [
+    {
+      "youtubeVideoId": "omvhYfswFVw",
+      "type": "pv",
+      "title": "【試聴動画】「高校生バイト応援ソングをつくろう！バンド」描き下ろし楽曲！「ひとりじゃないんだから」(9/24発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:17": [
+    {
+      "youtubeVideoId": "_9tiKp5SjI8",
+      "type": "pv",
+      "title": "【試聴動画】Roselia  4th Single カップリング曲「Determination Symphony」(11/29発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:19": [
+    {
+      "youtubeVideoId": "O47jN5jzU1w",
+      "type": "pv",
+      "title": "【試聴動画】RAISE A SUILEN 1st Single「R･I･O･T」(12/12発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:21": [
+    {
+      "youtubeVideoId": "VH-fOLoay90",
+      "type": "music_video",
+      "title": "Poppin'Party 2nd SingleCD「STAR BEAT!～ホシノコドウ～」アニメMV（ショートVer.）",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:23": [
+    {
+      "youtubeVideoId": "zcmAo1mCFtU",
+      "type": "pv",
+      "title": "【試聴動画】Poppin'Party 14th Single 「Dreamers Go!/Returns」(5/15発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:25": [
+    {
+      "youtubeVideoId": "zcmAo1mCFtU",
+      "type": "pv",
+      "title": "【試聴動画】Poppin'Party 14th Single 「Dreamers Go!/Returns」(5/15発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:27": [
+    {
+      "youtubeVideoId": "CHKGjqehu0E",
+      "type": "pv",
+      "title": "【試聴動画】ハロー、ハッピーワールド！5th Single「えがお･シング･あ･ソング」(8/21発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:28": [
+    {
+      "youtubeVideoId": "Xz2ABcDuj4Q",
+      "type": "pv",
+      "title": "【試聴動画】Pastel＊Palettes 5th Single「きゅ～まい＊flower」(9/18発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:29": [
+    {
+      "youtubeVideoId": "ac-eD50OJj0",
+      "type": "pv",
+      "title": "【試聴動画】Afterglow 5th Single「ON YOUR MARK」(10/23発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "101633:IN:30": [
+    {
+      "youtubeVideoId": "_FwBo7QVkkI",
+      "type": "pv",
+      "title": "【試聴動画】Roselia 9th Single「FIRE BIRD」(7/24発売!!)",
+      "channelName": "バンドリちゃんねる☆",
+      "officialStatus": "official",
+      "embeddable": false,
+      "embedAvailability": "unknown"
+    }
+  ],
+  "104750:OP:1": [{"youtubeVideoId": "OjvrBJkMTuk", "type": "music_video", "title": "4 Dimensions / Here we go!(超次元革命アニメ『Dimensionハイスクール』オープニングテーマ)", "channelName": "日本コロムビア 公式YouTubeチャンネル", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "104750:ED:1": [{"youtubeVideoId": "u2f4Cwx-Z-c", "type": "music_video", "title": "SAMURAI TUNES「My Home」MV【Offiicial】", "channelName": "日本コロムビア 公式YouTubeチャンネル", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "106433:OP:1": [{"youtubeVideoId": "S8dmq5YIUoc", "type": "music_video", "title": "Kizuna AI - AIAIAI (feat. 中田ヤスタカ)【Official Music Video】", "channelName": "Kizuna AI - A.I.Channel", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
+  "106433:ED:1": [{"youtubeVideoId": "tkCdzWMK-r8", "type": "art_track", "title": "ヒトガタ", "channelName": "HIMEHINA - Topic", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}, {"youtubeVideoId": "J8PUUv4LFkQ", "type": "music_video", "title": "HIMEHINA『 ヒトガタ 』MV", "channelName": "HIMEHINA Channel", "officialStatus": "official", "embeddable": false, "embedAvailability": "unknown"}],
 } satisfies CuratedThemeVideoOverrideMap;
