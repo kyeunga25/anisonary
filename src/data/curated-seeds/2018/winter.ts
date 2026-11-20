@@ -30387,4 +30387,4633 @@ export const curated2018WinterSeeds: CuratedCatalogAnimeSeed[] = [
       }
     ]
   },
+  {
+    "id": "curated-21717",
+    "anilistId": 21717,
+    "anilistUrl": "https://anilist.co/anime/21717/FateEXTRALastEncore",
+    "slug": "fate-extra-last-encore",
+    "titleJa": "Fate/EXTRA Last Encore",
+    "titleZhHant": "Fate/EXTRA：最後安歌",
+    "titleRomaji": "Fate/EXTRA Last Encore",
+    "seasonIds": [
+      "2018-winter",
+      "2018-summer"
+    ],
+    "startDate": "2018-01-27",
+    "editorialWeekday": 6,
+    "broadcastTimeJst": "24:00",
+    "broadcastLabel": "SHAFT製作。日本原播由2018年1月27日週六24:00 JST起，TOKYO MX、群馬電視台、栃木電視台及BS11播第1–10話。7月29日週日19:00–21:00同四台播放終章〈イルステリアス天動説〉第11–13話。MBS於7月29日及8月5日26:25 JST分兩段播出。Aniplex預告終章日本Netflix於8月1日上架。",
+    "officialSiteUrl": "https://fate-extra-lastencore.com/",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://www.youtube.com/watch?v=VTmsTq-0KNE",
+      "https://fate-extra-lastencore.com/onair/",
+      "https://fate-extra-lastencore.com/news/?id=47725",
+      "https://www.aniplex.co.jp/lineup/fate-extra-lastencore/news/detail/?id=47977",
+      "https://prtimes.jp/main/html/rd/p/000000987.000016356.html",
+      "https://www.youtube.com/watch?v=1ogZGNILFhI",
+      "https://www.netflix.com/hk/title/80185145"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.youtube.com/watch?v=VTmsTq-0KNE",
+        "label": "Aniplex官方PV｜1月27日週六24:00原播和主題曲",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://fate-extra-lastencore.com/onair/",
+        "label": "Aniplex｜日本電視台編成",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://fate-extra-lastencore.com/news/?id=47725",
+        "label": "Aniplex｜7月29日首播終章與MBS分兩次播出",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.aniplex.co.jp/lineup/fate-extra-lastencore/news/detail/?id=47977",
+        "label": "Aniplex｜原正篇第11、12及最終話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000000987.000016356.html",
+        "label": "Aniplex｜日本TV及增修光碟版本",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1ogZGNILFhI",
+        "label": "Aniplex官方廣播｜終章的電視編成及Netflix首輪上架",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.netflix.com/hk/title/80185145",
+        "label": "Netflix香港｜官方繁中片名與作品供應頁",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4832/subtitle",
+        "label": "しょぼいカレンダー｜逐話及原播署名，含第10話差異",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/21717/FateEXTRALastEncore",
+        "label": "AniList｜唯一正篇識別碼，含終章第11–13話",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "themes": [
+      {
+        "id": "fate-extra-last-encore-op-1",
+        "songId": "fate-extra-last-encore-op-1-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "Bright Burning Shout",
+        "artistDisplayName": "西川貴教",
+        "seasonIds": [
+          "2018-winter",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第2–9話及終章第11、13話片頭。第1話改用作片尾，第12話無片頭。第10話逐話記錄列無片頭，另有節目資料列入一般片頭集數，待比對原播。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "西川貴教"
+          },
+          {
+            "role": "lyrics",
+            "name": "田淵智也"
+          },
+          {
+            "role": "composition",
+            "name": "神前暁"
+          },
+          {
+            "role": "arrangement",
+            "name": "神前暁"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fate-extra-lastencore.com/music/opening.html",
+            "label": "Aniplex｜片頭曲、CD選曲及動畫限定DVD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+            "label": "Sony Music｜首張單曲、主題曲製作、盤別及官方MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29",
+            "label": "MONACA｜作曲、編曲及製作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore",
+            "label": "日本逐話歌曲紀錄｜片頭片尾和角色童謠線索",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/1",
+            "label": "日本第1話逐話紀錄｜片頭曲改用片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/12",
+            "label": "日本第12話逐話紀錄｜無片頭、常規片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/13",
+            "label": "日本第13話逐話紀錄｜片頭片尾與特別長度",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fate-extra-lastencore.com/news/?id=47725",
+            "label": "Aniplex｜7月29日首播終章與MBS分兩次播出",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fate/EXTRA_Last_Encore",
+            "label": "中文維基百科｜兩個正篇章及逐話曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4832/subtitle",
+            "label": "しょぼいカレンダー｜逐話及原播署名，含第10話差異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704",
+            "label": "Sony Music｜SINGularity日版發行及曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349",
+            "label": "Sony Music｜巡演演出與2023年現場CD曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://online.aniplex.co.jp/itemVuLJnDmY.html",
+            "label": "Aniplex｜Fate song material Disc 2曲序及無字幕映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN",
+            "label": "Spotify｜Sony單曲原唱第一曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=o9wubo6GiZ0",
+            "label": "Sony Music Japan｜片頭歌曲官方短MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/opening.html",
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+              "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/opening.html",
+              "https://www.mau2.com/anime/fateextralastencore",
+              "https://www.mau2.com/anime/fateextralastencore/ep/1",
+              "https://www.mau2.com/anime/fateextralastencore/ep/12",
+              "https://www.mau2.com/anime/fateextralastencore/ep/13",
+              "https://fate-extra-lastencore.com/news/?id=47725",
+              "https://zh.wikipedia.org/wiki/Fate/EXTRA_Last_Encore",
+              "https://cal.syoboi.jp/tid/4832/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+              "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4981-4982"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4983"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4984-4985"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-5202"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "esxl-260-263"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536317444"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536317444"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/bright-burning-shout/1536317443?i=1536317444&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "svwc-70449-70451"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=o9wubo6GiZ0",
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "o9wubo6GiZ0"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-extra-last-encore-op-1-song-vocal",
+            "title": "Bright Burning Shout",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "fate-extra-last-encore-op-1-song-instrumental",
+            "title": "Bright Burning Shout (Instrumental)",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "fate-extra-last-encore-op-1-song-live-002",
+            "title": "Bright Burning Shout (LIVE TOUR 002)",
+            "kind": "live",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "escl-4981-4982",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout (Instrumental)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "ESCL-4981-4982"
+          },
+          {
+            "id": "escl-4983",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "ESCL-4983"
+          },
+          {
+            "id": "escl-4984-4985",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本動畫CD＋DVD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "ESCL-4984-4985"
+          },
+          {
+            "id": "escl-5202",
+            "title": "SINGularity",
+            "artistDisplayName": "西川貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "ESCL-5202"
+          },
+          {
+            "id": "esxl-260-263",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 “SINGularity Ⅱ -過形成のprotoCOL-”",
+            "artistDisplayName": "西川貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "日本初回BD＋2CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002)",
+                "position": 7,
+                "disc": 3,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ],
+            "catalogNumber": "ESXL-260-263"
+          },
+          {
+            "id": "apple-hk-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "西川 貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "西川 貴教",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "西川 貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "西川 貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "svwc-70449-70451",
+            "title": "Fate song material",
+            "artistDisplayName": "V.A.",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "edition": "日本限定2CD＋Blu-ray",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 10,
+                "disc": 2,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "SVWC-70449-70451"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536317444",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536317444",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/bright-burning-shout/1536317443?i=1536317444&app=itunes",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536275182",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536275182",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536275182",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536275184",
+            "label": "香港｜Bright Burning Shout Instrumental",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-hk-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536275184",
+            "label": "台灣｜Bright Burning Shout Instrumental",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-tw-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536275184",
+            "label": "日本｜Bright Burning Shout Instrumental",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-jp-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538135799",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538135799",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538135799",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1680143648",
+            "label": "香港｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-hk-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1680143648",
+            "label": "台灣｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-tw-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1680143648",
+            "label": "日本｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-jp-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN",
+            "label": "Spotify｜Bright Burning Shout",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "recording_format"
+            ],
+            "note": "第10話有互異的OP資料，原唱及伴奏已核對。限定動畫DVD收錄無字幕片頭，未取得獨立發行的TV音源。",
+            "resumeWhen": "查核3月31日24:00首播原片或Aniplex日版第10話、及正式TV音源曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "fate-extra-last-encore-ed-1",
+        "songId": "fate-extra-last-encore-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "月と花束",
+        "artistDisplayName": "さユり",
+        "seasonIds": [
+          "2018-winter",
+          "2018-summer"
+        ],
+        "usageLabel": "日本TV第2–6、8–10話及終章第11–13話片尾。第7話缺常規片尾的資料與通用集數表有差異，片末童謠的位置及署名仍待查。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "さユり"
+          },
+          {
+            "role": "lyrics",
+            "name": "さユり"
+          },
+          {
+            "role": "composition",
+            "name": "さユり"
+          },
+          {
+            "role": "arrangement",
+            "name": "江口亮"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fate-extra-lastencore.com/music/ending.html",
+            "label": "Aniplex｜片尾曲、TV ED版CD及影片",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/sayuri/discography/BVCL-859",
+            "label": "Sony Music｜さユり原唱單曲及原作片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=VTmsTq-0KNE",
+            "label": "Aniplex官方PV｜1月27日週六24:00原播和主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore",
+            "label": "日本逐話歌曲紀錄｜片頭片尾和角色童謠線索",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fate-extra-lastencore.com/news/?id=47725",
+            "label": "Aniplex｜7月29日首播終章與MBS分兩次播出",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/12",
+            "label": "日本第12話逐話紀錄｜無片頭、常規片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/13",
+            "label": "日本第13話逐話紀錄｜片頭片尾與特別長度",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4832/subtitle",
+            "label": "しょぼいカレンダー｜逐話及原播署名，含第10話差異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.openingpedia.com/en/songs/tsuki-to-hanataba-sayuri",
+            "label": "Openingpedia｜第7話片尾缺席的交叉資料",
+            "role": "cross_check",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/Music/Info/sayuri/shoplist/181205-2/",
+            "label": "Sony Music｜2018年〈レイメイ〉動畫盤第2曲弾き語り",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/sayuri/info/542860",
+            "label": "Sony Music｜2022《酸欠少女》CD發行",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535979944&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535979944&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1535979944&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1637394374&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1637394374&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1637394374&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538123969&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538123969&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538123969&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/sayuri/info/515698",
+            "label": "Sony Music｜2020年《め》弾き語り專輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://online.aniplex.co.jp/itemVuLJnDmY.html",
+            "label": "Aniplex｜Fate song material Disc 2曲序及無字幕映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/5WDEdXPnO23msAfNvcVg6X",
+            "label": "Spotify｜Ariola單曲原唱第一曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/album/4pVzsY1Ug872XWqB4R2qrN",
+            "label": "Spotify｜Ariola單曲曲序及發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=y8H9Hbif_ZE",
+            "label": "さユり官方頻道｜片尾歌曲官方MV剪輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/sayuri/video/",
+            "label": "Sony Music｜《月と花束》官方MV的第2段剪輯",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=fre6VXsqaYo",
+            "label": "さユり官方頻道｜《め》版弾き語り音源",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://fate-extra-lastencore.com/story/07.html",
+            "label": "Aniplex｜第7話正篇及角色",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html",
+              "https://www.sonymusic.co.jp/artist/sayuri/discography/BVCL-859",
+              "https://www.youtube.com/watch?v=VTmsTq-0KNE"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html",
+              "https://www.mau2.com/anime/fateextralastencore",
+              "https://fate-extra-lastencore.com/news/?id=47725",
+              "https://www.mau2.com/anime/fateextralastencore/ep/12",
+              "https://www.mau2.com/anime/fateextralastencore/ep/13",
+              "https://cal.syoboi.jp/tid/4832/subtitle",
+              "https://www.openingpedia.com/en/songs/tsuki-to-hanataba-sayuri"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html",
+              "https://www.sonymusic.co.jp/artist/sayuri/discography/BVCL-859",
+              "https://cal.syoboi.jp/tid/4832/subtitle"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-857-858"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/discography/BVCL-859"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/discography/BVCL-859"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-859"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-860-861"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-tv-ed"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/ending.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-tv-ed"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/sayuri/shoplist/181205-2/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-2018"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/Music/Info/sayuri/shoplist/181205-2/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-926-927"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/542860"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/542860"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "bvcl-1190"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1535979944"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1535979951"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1535979944"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1535979951"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1535979944"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1535979944&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1535979951"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1637394374"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1637395081"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1637394374"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1637395081"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1637394374"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1637394374&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1637395081"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538123969"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538124131"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538123969"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538124131"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538123969"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538123969&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538124131"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/sayuri/info/515698"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "svwc-70449-70451"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/5WDEdXPnO23msAfNvcVg6X"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5WDEdXPnO23msAfNvcVg6X"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/album/4pVzsY1Ug872XWqB4R2qrN"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/5WDEdXPnO23msAfNvcVg6X"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=y8H9Hbif_ZE",
+              "https://www.sonymusic.co.jp/artist/sayuri/video/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "y8H9Hbif_ZE"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=fre6VXsqaYo",
+              "https://www.sonymusic.co.jp/artist/sayuri/info/515698"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fre6VXsqaYo"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mau2.com/anime/fateextralastencore"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/story/07.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-1"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-extra-last-encore-ed-1-song-vocal",
+            "title": "月と花束",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "fate-extra-last-encore-ed-1-song-tv-ed",
+            "title": "月と花束-アニメ「Fate/EXTRA Last Encore」EDver.-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "fate-extra-last-encore-ed-1-song-acoustic-2018",
+            "title": "月と花束-弾き語りver.-",
+            "kind": "rearrangement",
+            "format": "unknown"
+          },
+          {
+            "id": "fate-extra-last-encore-ed-1-song-acoustic-me",
+            "title": "月と花束-「め」弾き語りver.-",
+            "kind": "rearrangement",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "bvcl-857-858",
+            "title": "月と花束",
+            "artistDisplayName": "さユり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "BVCL-857-858"
+          },
+          {
+            "id": "bvcl-859",
+            "title": "月と花束",
+            "artistDisplayName": "さユり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "BVCL-859"
+          },
+          {
+            "id": "bvcl-860-861",
+            "title": "月と花束",
+            "artistDisplayName": "さユり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本動畫限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              },
+              {
+                "title": "月と花束-アニメ「Fate/EXTRA Last Encore」EDver.-",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-tv-ed"
+              }
+            ],
+            "catalogNumber": "BVCL-860-861"
+          },
+          {
+            "id": "bvcl-926-927",
+            "title": "レイメイ",
+            "artistDisplayName": "さユり×MY FIRST STORY",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-05",
+              "precision": "day"
+            },
+            "edition": "日本動畫限定CD＋DVD",
+            "tracks": [
+              {
+                "title": "月と花束-弾き語りver.-",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-2018"
+              }
+            ],
+            "catalogNumber": "BVCL-926-927"
+          },
+          {
+            "id": "bvcl-1190",
+            "title": "酸欠少女",
+            "artistDisplayName": "さユり",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-08-10",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "BVCL-1190"
+          },
+          {
+            "id": "apple-hk-1535979944",
+            "title": "月と花束 - Single",
+            "artistDisplayName": "Sayuri",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1535979944",
+            "title": "月と花束 - Single",
+            "artistDisplayName": "Sayuri",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1535979944",
+            "title": "月と花束 - Single",
+            "artistDisplayName": "さユり",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-02-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1637394374",
+            "title": "酸欠少女",
+            "artistDisplayName": "Sayuri",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2022-08-10",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1637394374",
+            "title": "酸欠少女",
+            "artistDisplayName": "Sayuri",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2022-08-10",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1637394374",
+            "title": "酸欠少女",
+            "artistDisplayName": "さユり",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-08-10",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538123969",
+            "title": "め",
+            "artistDisplayName": "Sayuri",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "月と花束-「め」弾き語りver.-",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538123969",
+            "title": "め",
+            "artistDisplayName": "Sayuri",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "月と花束-「め」弾き語りver.-",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538123969",
+            "title": "め",
+            "artistDisplayName": "さユり",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-06-03",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "月と花束-「め」弾き語りver.-",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me"
+              }
+            ]
+          },
+          {
+            "id": "svwc-70449-70451",
+            "title": "Fate song material",
+            "artistDisplayName": "V.A.",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "edition": "日本限定2CD＋Blu-ray",
+            "tracks": [
+              {
+                "title": "月と花束",
+                "position": 11,
+                "disc": 2,
+                "recordingId": "fate-extra-last-encore-ed-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "SVWC-70449-70451"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1535979951",
+            "label": "香港｜月と花束",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-hk-1535979944",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1535979951",
+            "label": "台灣｜月と花束",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-tw-1535979944",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1535979951",
+            "label": "日本｜月と花束",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-jp-1535979944",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1637395081",
+            "label": "香港｜月と花束",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-hk-1637394374",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1637395081",
+            "label": "台灣｜月と花束",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-tw-1637394374",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1637395081",
+            "label": "日本｜月と花束",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "releaseId": "apple-jp-1637394374",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538124131",
+            "label": "香港｜月と花束-「め」弾き語りver.-",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me",
+            "releaseId": "apple-hk-1538123969",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538124131",
+            "label": "台灣｜月と花束-「め」弾き語りver.-",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me",
+            "releaseId": "apple-tw-1538123969",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538124131",
+            "label": "日本｜月と花束-「め」弾き語りver.-",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-acoustic-me",
+            "releaseId": "apple-jp-1538123969",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/5WDEdXPnO23msAfNvcVg6X",
+            "label": "Spotify｜月と花束",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-ed-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "platform_availability",
+              "recording_format"
+            ],
+            "note": "香港Apple Music有原唱及《め》弾き語り；2018年弾き語り存日本實體盤。第7話有Ring‐a‐Ring‐o’Roses線索，也有常規片尾集數資料衝突。",
+            "resumeWhen": "取得第7話3月10日24:00版或日版第3卷掛字，核對童謠位置、演唱及常規片尾。若找到香港TV ED版曲位，一併補錄。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "fate-extra-last-encore-ed-2",
+        "songId": "fate-extra-last-encore-op-1-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "Bright Burning Shout",
+        "artistDisplayName": "西川貴教",
+        "seasonIds": [
+          "2018-winter"
+        ],
+        "usageLabel": "第1話無片頭，片末使用〈Bright Burning Shout〉。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "西川貴教"
+          },
+          {
+            "role": "lyrics",
+            "name": "田淵智也"
+          },
+          {
+            "role": "composition",
+            "name": "神前暁"
+          },
+          {
+            "role": "arrangement",
+            "name": "神前暁"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://fate-extra-lastencore.com/music/opening.html",
+            "label": "Aniplex｜片頭曲、CD選曲及動畫限定DVD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+            "label": "Sony Music｜首張單曲、主題曲製作、盤別及官方MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29",
+            "label": "MONACA｜作曲、編曲及製作者",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704",
+            "label": "Sony Music｜SINGularity日版發行及曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349",
+            "label": "Sony Music｜巡演演出與2023年現場CD曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://online.aniplex.co.jp/itemVuLJnDmY.html",
+            "label": "Aniplex｜Fate song material Disc 2曲序及無字幕映像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN",
+            "label": "Spotify｜Sony單曲原唱第一曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=VTmsTq-0KNE",
+            "label": "Aniplex官方PV｜1月27日週六24:00原播和主題曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/fateextralastencore/ep/1",
+            "label": "日本第1話逐話紀錄｜片頭曲改用片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/Fate/EXTRA_Last_Encore",
+            "label": "中文維基百科｜兩個正篇章及逐話曲目",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4832/subtitle",
+            "label": "しょぼいカレンダー｜逐話及原播署名，含第10話差異",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/opening.html",
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+              "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670",
+              "https://monaca.jp/wiki/Bright_Burning_Shout%28%E6%9B%B2%29"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4981-4982"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4983"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/491670"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-4984-4985"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/502704"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "escl-5202"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.sonymusic.co.jp/artist/takanorinishikawa/info/550349"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "esxl-260-263"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536317444"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536317444"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536317443"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536317443&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/album/bright-burning-shout/1536317443?i=1536317444&app=itunes"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1536275181"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536275182"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-instrumental"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1536275181&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1536275184"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1538135405"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1538135405&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1538135799"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-live-002"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1680143296"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1680143296&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1680143648"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-op-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://online.aniplex.co.jp/itemVuLJnDmY.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "svwc-70449-70451"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://fate-extra-lastencore.com/music/opening.html",
+              "https://www.youtube.com/watch?v=VTmsTq-0KNE",
+              "https://www.mau2.com/anime/fateextralastencore/ep/1",
+              "https://zh.wikipedia.org/wiki/Fate/EXTRA_Last_Encore",
+              "https://cal.syoboi.jp/tid/4832/subtitle"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "fate-extra-last-encore-ed-2"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "fate-extra-last-encore-op-1-song-vocal",
+            "title": "Bright Burning Shout",
+            "kind": "vocal",
+            "format": "full"
+          },
+          {
+            "id": "fate-extra-last-encore-op-1-song-instrumental",
+            "title": "Bright Burning Shout (Instrumental)",
+            "kind": "instrumental",
+            "format": "full"
+          },
+          {
+            "id": "fate-extra-last-encore-op-1-song-live-002",
+            "title": "Bright Burning Shout (LIVE TOUR 002)",
+            "kind": "live",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "escl-4981-4982",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本初回CD＋DVD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout (Instrumental)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "ESCL-4981-4982"
+          },
+          {
+            "id": "escl-4983",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout (Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ],
+            "catalogNumber": "ESCL-4983"
+          },
+          {
+            "id": "escl-4984-4985",
+            "title": "Bright Burning Shout",
+            "artistDisplayName": "西川貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本動畫CD＋DVD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "ESCL-4984-4985"
+          },
+          {
+            "id": "escl-5202",
+            "title": "SINGularity",
+            "artistDisplayName": "西川貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本通常CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "ESCL-5202"
+          },
+          {
+            "id": "esxl-260-263",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 “SINGularity Ⅱ -過形成のprotoCOL-”",
+            "artistDisplayName": "西川貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "日本初回BD＋2CD",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002)",
+                "position": 7,
+                "disc": 3,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ],
+            "catalogNumber": "ESXL-260-263"
+          },
+          {
+            "id": "apple-hk-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536317443",
+            "title": "Bright Burning Shout - Single",
+            "artistDisplayName": "西川 貴教",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-01-28",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1536275181",
+            "title": "Bright Burning Shout - EP",
+            "artistDisplayName": "西川 貴教",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-03-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              },
+              {
+                "title": "Bright Burning Shout Instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1538135405",
+            "title": "SINGularity",
+            "artistDisplayName": "西川 貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-03-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "Takanori Nishikawa",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1680143296",
+            "title": "TAKANORI NISHIKAWA LIVE TOUR 002 \"SINGularity Ⅱ -過形成のprotoCOL-\"",
+            "artistDisplayName": "西川 貴教",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2023-04-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+                "position": 20,
+                "disc": 1,
+                "recordingId": "fate-extra-last-encore-op-1-song-live-002"
+              }
+            ]
+          },
+          {
+            "id": "svwc-70449-70451",
+            "title": "Fate song material",
+            "artistDisplayName": "V.A.",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2019-12-18",
+              "precision": "day"
+            },
+            "edition": "日本限定2CD＋Blu-ray",
+            "tracks": [
+              {
+                "title": "Bright Burning Shout",
+                "position": 10,
+                "disc": 2,
+                "recordingId": "fate-extra-last-encore-op-1-song-vocal"
+              }
+            ],
+            "catalogNumber": "SVWC-70449-70451"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536317444",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536317444",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "iTunes Store",
+            "url": "https://music.apple.com/jp/album/bright-burning-shout/1536317443?i=1536317444&app=itunes",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "digital_purchase",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1536317443",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536275182",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536275182",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536275182",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1536275184",
+            "label": "香港｜Bright Burning Shout Instrumental",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-hk-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1536275184",
+            "label": "台灣｜Bright Burning Shout Instrumental",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-tw-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1536275184",
+            "label": "日本｜Bright Burning Shout Instrumental",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-instrumental",
+            "releaseId": "apple-jp-1536275181",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1538135799",
+            "label": "香港｜Bright Burning Shout",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-hk-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1538135799",
+            "label": "台灣｜Bright Burning Shout",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-tw-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1538135799",
+            "label": "日本｜Bright Burning Shout",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "releaseId": "apple-jp-1538135405",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1680143648",
+            "label": "香港｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-hk-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1680143648",
+            "label": "台灣｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-tw-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1680143648",
+            "label": "日本｜Bright Burning Shout (LIVE TOUR 002 \"過形成のprotoCOL\")",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-live-002",
+            "releaseId": "apple-jp-1680143296",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/1vY8CcySc6TZJiwHKLQZmN",
+            "label": "Spotify｜Bright Burning Shout",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "fate-extra-last-encore-op-1-song-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "逐話紀錄確認片頭曲在第1話改放片末。",
+            "resumeWhen": "取得第1話原播聲軌以辨認剪輯及是否與市售錄音相同。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];

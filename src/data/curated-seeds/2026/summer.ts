@@ -27436,10 +27436,14 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
     "2019-winter",
     "2019-spring",
     "2019-summer",
-    "2019-fall"
+    "2019-fall",
+    "2018-winter",
+    "2018-spring",
+    "2018-summer",
+    "2018-fall"
   ],
-  "verifiedAt": "2026-10-19",
-  "metadataVerifiedAt": "2026-10-19",
+  "verifiedAt": "2026-11-20",
+  "metadataVerifiedAt": "2026-11-20",
   "startDate": "1996-01-08",
   "titleJa": "名探偵コナン",
   "titleRomaji": "Meitantei Conan",
@@ -27451,7 +27455,15 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
   "anilistUrl": "https://anilist.co/anime/235",
   "sourceReferenceUrls": [
     "https://zh.wikipedia.org/wiki/%E5%90%8D%E5%81%B5%E6%8E%A2%E6%9F%AF%E5%8D%97_(%E5%8B%95%E7%95%AB)",
-    "https://anison.online/anime/5576"
+    "https://anison.online/anime/5576",
+    "https://www.netflix.com/hk/title/80090370",
+    "https://www.ytv.co.jp/corp/action/category/pdf/201807.pdf",
+    "https://www.tms-e.co.jp/alltitles/conan/087101.html",
+    "https://www.ytv.co.jp/conan/archive/k20180106.html",
+    "https://www.ytv.co.jp/conan/archive/k20180714.html",
+    "https://www.ytv.co.jp/conan/archive/k20180811.html",
+    "https://www.ytv.co.jp/conan/archive/k20180818.html",
+    "https://www.ytv.co.jp/conan/archive/k20181222.html"
   ],
   "metadataSources": [
     {
@@ -27460,6 +27472,62 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-10-19"
+    },
+    {
+      "url": "https://www.netflix.com/hk/title/80090370",
+      "label": "Netflix香港｜正篇繁中作品名稱",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/corp/action/category/pdf/201807.pdf",
+      "label": "讀賣電視台2018年7月節目表｜每週六18:00編成",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.tms-e.co.jp/alltitles/conan/087101.html",
+      "label": "TMS製作資料｜日本TV版及播出資料",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/conan/archive/k20180106.html",
+      "label": "讀賣電視台｜日本TV第 887 話播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/conan/archive/k20180714.html",
+      "label": "讀賣電視台｜日本TV第 907 話播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/conan/archive/k20180811.html",
+      "label": "讀賣電視台｜日本TV第 R77 話播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/conan/archive/k20180818.html",
+      "label": "讀賣電視台｜日本TV第 R78 話播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.ytv.co.jp/conan/archive/k20181222.html",
+      "label": "讀賣電視台｜日本TV第 926 話播出",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
     }
   ],
   "themes": [
@@ -34397,8 +34465,3776 @@ export const curated2026SummerSeeds: CuratedAnimeSeed[] = [
         }
       ],
       "versionLabel": "第 927 話特別片尾"
+    },
+    {
+      "id": "meitantei-conan-op-46",
+      "songId": "meitantei-conan-op-46-song",
+      "type": "OP",
+      "sequence": 46,
+      "titleJa": "Everything OK!!",
+      "artistDisplayName": "Cellchrome",
+      "seasonIds": [
+        "2018-winter",
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第887–902話片頭，2018年1月6日至5月19日。第903話起換曲。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "陽介"
+        },
+        {
+          "role": "composition",
+          "name": "山口篤"
+        },
+        {
+          "role": "arrangement",
+          "name": "小田桐ゆうき"
+        },
+        {
+          "role": "arrangement",
+          "name": "中谷信行"
+        },
+        {
+          "role": "vocals",
+          "name": "Mizki",
+          "groupName": "Cellchrome"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=b1Kbii9Tn_g",
+          "label": "Cellchrome官方MV｜〈Everything OK!!〉、節目用途及樂團名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/anime/suwa_wp/4316.html",
+          "label": "讀賣電視台節目製作人｜1月6日起的新片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.animatetimes.com/news/details.php?id=1515135632",
+          "label": "Animate Times刊載的發行資訊｜Cellchrome片頭及3月實體曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180106.html",
+          "label": "讀賣電視台｜日本TV第 887 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180519.html",
+          "label": "讀賣電視台｜日本TV第 902 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180526.html",
+          "label": "讀賣電視台｜日本TV第 903 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/SPR",
+          "label": "柯南百科｜日本原版集數與海外編號對照",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.uta-net.com/song/245263/?target=kashi",
+          "label": "歌ネット授權曲目資料｜〈Everything OK!!〉詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://voisjp.me/news/110447/3/",
+          "label": "Cellchrome訪談及唱片發行資訊｜〈Aozolighter〉與〈Everything OK!!〉Korea ver.",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1356045955&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1356045955&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1356045955&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/7mwx3BMw2JjFc4a5NQMxKr",
+          "label": "Spotify｜原演唱者與獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=b1Kbii9Tn_g",
+            "https://www.ytv.co.jp/anime/suwa_wp/4316.html",
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/anime/suwa_wp/4316.html",
+            "https://www.ytv.co.jp/conan/archive/k20180106.html",
+            "https://www.ytv.co.jp/conan/archive/k20180519.html",
+            "https://www.ytv.co.jp/conan/archive/k20180526.html",
+            "https://www.conanpedia.com/SPR",
+            "https://www.mau2.com/anime/meitanteiconan-23"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/245263/?target=kashi",
+            "https://www.animatetimes.com/news/details.php?id=1515135632",
+            "https://www.youtube.com/watch?v=b1Kbii9Tn_g"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6076"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6078"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6077"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.animatetimes.com/news/details.php?id=1515135632"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-instrumental"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-korea"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6096"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1356045955"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1356045960"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1356045955"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1356045960"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-46-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1356045955"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1356045955&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1356045960"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/7mwx3BMw2JjFc4a5NQMxKr"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/7mwx3BMw2JjFc4a5NQMxKr"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=b1Kbii9Tn_g"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "b1Kbii9Tn_g"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-op-46-song-vocal",
+          "title": "Everything OK!!",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-op-46-song-tv-edit",
+          "title": "Everything OK!! (TV SIZE)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "meitantei-conan-op-46-song-instrumental",
+          "title": "Everything OK!! (カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "meitantei-conan-op-46-song-korea",
+          "title": "Everything OK!! (Korea ver.)",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "jbcz-6076",
+          "title": "Everything OK!!",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCZ-6076"
+        },
+        {
+          "id": "jbcz-6078",
+          "title": "Everything OK!!",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "日本Cellchrome盤CD",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCZ-6078"
+        },
+        {
+          "id": "jbcz-6077",
+          "title": "Everything OK!!",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD＋DVD",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            },
+            {
+              "title": "Everything OK!! (TV SIZE)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-tv-edit"
+            },
+            {
+              "title": "Everything OK!! (カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6077"
+        },
+        {
+          "id": "jbcz-6096",
+          "title": "Aozolighter",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD＋DVD",
+          "tracks": [
+            {
+              "title": "Everything OK!! (Korea ver.)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-korea"
+            }
+          ],
+          "catalogNumber": "JBCZ-6096"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-hk-1356045955",
+          "title": "Everything OK!! - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1356045955",
+          "title": "Everything OK!! - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1356045955",
+          "title": "Everything OK!! - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-14",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "Everything OK!!",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-46-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1356045960",
+          "label": "香港｜Everything OK!!",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-46-song-vocal",
+          "releaseId": "apple-hk-1356045955",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1356045960",
+          "label": "台灣｜Everything OK!!",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-46-song-vocal",
+          "releaseId": "apple-tw-1356045955",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1356045960",
+          "label": "日本｜Everything OK!!",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-46-song-vocal",
+          "releaseId": "apple-jp-1356045955",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/7mwx3BMw2JjFc4a5NQMxKr",
+          "label": "Spotify｜Everything OK!!",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-46-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability",
+            "recording_format"
+          ],
+          "note": "香港原唱可串流。動畫盤收錄TV SIZE、卡拉OK及無字幕片頭；12月另一張單曲收錄Korea ver.。",
+          "resumeWhen": "查到Korea ver.的唱片掛字或合法獨立音源以確認語言、錄音及長度，另查港區TV SIZE曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-op-47",
+      "songId": "meitantei-conan-op-47-song",
+      "type": "OP",
+      "sequence": 47,
+      "titleJa": "カウントダウン",
+      "artistDisplayName": "NormCore",
+      "seasonIds": [
+        "2018-spring",
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第903–915話片頭，5月26日至9月29日；8月11日及18日R77／R78數位修復重播沿用。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "まふまふ"
+        },
+        {
+          "role": "lyrics",
+          "name": "Fümi"
+        },
+        {
+          "role": "composition",
+          "name": "まふまふ"
+        },
+        {
+          "role": "arrangement",
+          "name": "三矢禅晃"
+        },
+        {
+          "role": "vocals",
+          "name": "Fümi",
+          "groupName": "NormCore"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://uni-mafumafu.jp/discography/184/",
+          "label": "まふまふ官方作品資料｜〈カウントダウン〉詞曲編及片頭",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uSnGxtnSDjc",
+          "label": "NormCore官方MV｜〈カウントダウン〉及發行曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/anime/suwa_wp/4565.html",
+          "label": "讀賣電視台節目製作人｜8月節目停播安排及夏季片頭、片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://news.utamap.com/music/196990/",
+          "label": "うたまっぷ刊載的發行資訊｜〈カウントダウン〉數位與實體曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180526.html",
+          "label": "讀賣電視台｜日本TV第 903 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180714.html",
+          "label": "讀賣電視台｜日本TV第 907 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180929.html",
+          "label": "讀賣電視台｜日本TV第 915 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180811.html",
+          "label": "讀賣電視台｜日本TV第 R77 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180818.html",
+          "label": "讀賣電視台｜日本TV第 R78 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/OP47_%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3",
+          "label": "柯南百科｜片頭集數與2018重播版本",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1387367936&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/184/",
+            "https://www.youtube.com/watch?v=uSnGxtnSDjc",
+            "https://www.ytv.co.jp/anime/suwa_wp/4565.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/184/",
+            "https://news.utamap.com/music/196990/",
+            "https://www.ytv.co.jp/anime/suwa_wp/4565.html",
+            "https://www.ytv.co.jp/conan/archive/k20180526.html",
+            "https://www.ytv.co.jp/conan/archive/k20180714.html",
+            "https://www.ytv.co.jp/conan/archive/k20180929.html",
+            "https://www.ytv.co.jp/conan/archive/k20180811.html",
+            "https://www.ytv.co.jp/conan/archive/k20180818.html",
+            "https://www.mau2.com/anime/meitanteiconan-23",
+            "https://www.conanpedia.com/OP47_%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://uni-mafumafu.jp/discography/184/",
+            "https://www.youtube.com/watch?v=uSnGxtnSDjc",
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6090"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6091"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://news.utamap.com/music/196990/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6092"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1387367936&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-47-song-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1387367936&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1387367936"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1387367936&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/album/%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3-tv-edit/1387367936?i=1387367937&app=itunes"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=uSnGxtnSDjc"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "uSnGxtnSDjc"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-op-47-song-vocal",
+          "title": "カウントダウン",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-op-47-song-tv-edit",
+          "title": "カウントダウン -TV Edit-",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "meitantei-conan-op-47-song-instrumental",
+          "title": "カウントダウン -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "jbcz-6090",
+          "title": "カウントダウン",
+          "artistDisplayName": "NormCore",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD＋DVD",
+          "tracks": [
+            {
+              "title": "カウントダウン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-vocal"
+            },
+            {
+              "title": "カウントダウン -TV Edit-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-tv-edit"
+            },
+            {
+              "title": "カウントダウン -Instrumental-",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6090"
+        },
+        {
+          "id": "jbcz-6091",
+          "title": "カウントダウン",
+          "artistDisplayName": "NormCore",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD",
+          "tracks": [
+            {
+              "title": "カウントダウン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-vocal"
+            },
+            {
+              "title": "カウントダウン -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6091"
+        },
+        {
+          "id": "jbcz-6092",
+          "title": "カウントダウン",
+          "artistDisplayName": "NormCore",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "カウントダウン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-vocal"
+            },
+            {
+              "title": "カウントダウン -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6092"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "カウントダウン",
+              "position": 9,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-jp-1387367936",
+          "title": "カウントダウン TV Edit - Single",
+          "artistDisplayName": "NormCore",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-05-26",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "カウントダウン TV Edit",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-47-song-tv-edit"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "iTunes Store",
+          "url": "https://music.apple.com/jp/album/%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%83%80%E3%82%A6%E3%83%B3-tv-edit/1387367936?i=1387367937&app=itunes",
+          "label": "日本｜カウントダウン TV Edit",
+          "region": "JP",
+          "linkType": "digital_purchase",
+          "recordingId": "meitantei-conan-op-47-song-tv-edit",
+          "releaseId": "apple-jp-1387367936",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability"
+          ],
+          "note": "5月26日先發TV Edit，日本現有iTunes Store購買曲位；7月21日全長先行。兩個音源均見8月日本動畫盤。",
+          "resumeWhen": "取得香港原唱或TV Edit的現行正版串流曲位，或日本全長單曲的現行直接入口。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-op-48",
+      "songId": "meitantei-conan-op-48-song",
+      "type": "OP",
+      "sequence": 48,
+      "titleJa": "タイムライン",
+      "artistDisplayName": "dps",
+      "seasonIds": [
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第916–926話片頭，10月6日至12月22日。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "安井剛志"
+        },
+        {
+          "role": "composition",
+          "name": "川村篤史"
+        },
+        {
+          "role": "arrangement",
+          "name": "森丘直樹"
+        },
+        {
+          "role": "vocals",
+          "name": "木村涼介",
+          "groupName": "dps"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://d-p-s.jp/disco/timeline.html",
+          "label": "dps官方唱片資料｜〈タイムライン〉片頭與各盤曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=-YsoMJYznKk",
+          "label": "dps官方MV｜〈タイムライン〉",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20181006.html",
+          "label": "讀賣電視台｜日本TV第 916 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20181222.html",
+          "label": "讀賣電視台｜日本TV第 926 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/SPR",
+          "label": "柯南百科｜日本原版集數與海外編號對照",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://utaten.com/specialArticle/index/2940",
+          "label": "dps訪談｜演唱及作品製作分工",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1440269428&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/64KCVJJcQ7Ck2ZsbDE5W4S",
+          "label": "Spotify｜原演唱者與獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html",
+            "https://www.youtube.com/watch?v=-YsoMJYznKk"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html",
+            "https://www.ytv.co.jp/conan/archive/k20181006.html",
+            "https://www.ytv.co.jp/conan/archive/k20181222.html",
+            "https://www.mau2.com/anime/meitanteiconan-23",
+            "https://www.conanpedia.com/SPR"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html",
+            "https://utaten.com/specialArticle/index/2940"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "gzca-7172"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "gzca-7173"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-tv-edit"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://d-p-s.jp/disco/timeline.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "gzca-7174"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1440269428&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-op-48-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1440269428&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1440269428"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1440269428&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1440269429"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/64KCVJJcQ7Ck2ZsbDE5W4S"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/64KCVJJcQ7Ck2ZsbDE5W4S"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=-YsoMJYznKk"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "-YsoMJYznKk"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-op-48-song-vocal",
+          "title": "タイムライン",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-op-48-song-instrumental",
+          "title": "タイムライン -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "meitantei-conan-op-48-song-tv-edit",
+          "title": "タイムライン -TV Edit-",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "gzca-7172",
+          "title": "タイムライン",
+          "artistDisplayName": "dps",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-07",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋寫真冊",
+          "tracks": [
+            {
+              "title": "タイムライン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-vocal"
+            },
+            {
+              "title": "タイムライン -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-instrumental"
+            }
+          ],
+          "catalogNumber": "GZCA-7172"
+        },
+        {
+          "id": "gzca-7173",
+          "title": "タイムライン",
+          "artistDisplayName": "dps",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-07",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD",
+          "tracks": [
+            {
+              "title": "タイムライン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-vocal"
+            },
+            {
+              "title": "タイムライン -TV Edit-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-tv-edit"
+            }
+          ],
+          "catalogNumber": "GZCA-7173"
+        },
+        {
+          "id": "gzca-7174",
+          "title": "タイムライン",
+          "artistDisplayName": "dps",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-07",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "タイムライン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-vocal"
+            },
+            {
+              "title": "タイムライン -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-instrumental"
+            }
+          ],
+          "catalogNumber": "GZCA-7174"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "タイムライン",
+              "position": 10,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-jp-1440269428",
+          "title": "タイムライン - Single",
+          "artistDisplayName": "dps",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-11-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "タイムライン",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-op-48-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1440269429",
+          "label": "日本｜タイムライン",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-48-song-vocal",
+          "releaseId": "apple-jp-1440269428",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/64KCVJJcQ7Ck2ZsbDE5W4S",
+          "label": "Spotify｜タイムライン",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-op-48-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability"
+          ],
+          "note": "日本Apple Music及Spotify公開頁有同長度原唱曲位；TV Edit及伴奏見實體。Spotify地區可播待確認。",
+          "resumeWhen": "查到香港原唱、TV Edit或伴奏可串流的獨立曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-ed-56",
+      "songId": "meitantei-conan-ed-56-song",
+      "type": "ED",
+      "sequence": 56,
+      "titleJa": "神風エクスプレス",
+      "artistDisplayName": "焚吐×みやかわくん",
+      "seasonIds": [
+        "2018-winter",
+        "2018-spring",
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第887–908話片尾，1月6日至7月21日。7月28日第909話換曲。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "焚吐"
+        },
+        {
+          "role": "vocals",
+          "name": "みやかわくん"
+        },
+        {
+          "role": "lyrics",
+          "name": "焚吐"
+        },
+        {
+          "role": "composition",
+          "name": "焚吐"
+        },
+        {
+          "role": "composition",
+          "name": "みやかわくん"
+        },
+        {
+          "role": "arrangement",
+          "name": "薮崎太郎"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://takuto-official.com/tandm/index.html",
+          "label": "焚吐官方專頁｜〈神風エクスプレス〉片尾與實體CD三版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://takuto-official.com/tandm/interview.html",
+          "label": "焚吐官方雙人訪談｜演唱及詞曲合作",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/anime/suwa_wp/4316.html",
+          "label": "讀賣電視台節目製作人｜1月6日起的新片頭及片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180106.html",
+          "label": "讀賣電視台｜日本TV第 887 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180721.html",
+          "label": "讀賣電視台｜日本TV第 908 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180728.html",
+          "label": "讀賣電視台｜日本TV第 909 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/SPR",
+          "label": "柯南百科｜日本原版集數與海外編號對照",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.uta-net.com/song/244019/?Aselect=2",
+          "label": "歌ネット授權曲目資料｜〈神風エクスプレス〉詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://takuto-official.com/news/2018090700.html",
+          "label": "焚吐官方公告｜薮崎太郎編曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1346506477&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/552jc1I4VNfVqe3TAug8s7",
+          "label": "Spotify｜原演唱者與獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3fuIkpN3Jwo",
+          "label": "官方影片｜〈神風エクスプレス〉MV編輯版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html",
+            "https://takuto-official.com/tandm/interview.html",
+            "https://www.ytv.co.jp/anime/suwa_wp/4316.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/anime/suwa_wp/4316.html",
+            "https://takuto-official.com/tandm/index.html",
+            "https://www.ytv.co.jp/conan/archive/k20180106.html",
+            "https://www.ytv.co.jp/conan/archive/k20180721.html",
+            "https://www.ytv.co.jp/conan/archive/k20180728.html",
+            "https://www.mau2.com/anime/meitanteiconan-23",
+            "https://www.conanpedia.com/SPR"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/interview.html",
+            "https://www.uta-net.com/song/244019/?Aselect=2",
+            "https://takuto-official.com/news/2018090700.html"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6074"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-4039"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6075"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://takuto-official.com/tandm/index.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1346506477&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-56-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1346506477&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1346506477"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1346506477&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1346507291"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/552jc1I4VNfVqe3TAug8s7"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/552jc1I4VNfVqe3TAug8s7"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=3fuIkpN3Jwo"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "3fuIkpN3Jwo"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-56-song-vocal",
+          "title": "神風エクスプレス",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-ed-56-song-instrumental",
+          "title": "神風エクスプレス Instrumental",
+          "kind": "instrumental",
+          "format": "unknown"
+        },
+        {
+          "id": "meitantei-conan-ed-56-song-tv-edit",
+          "title": "神風エクスプレス TV_Edit",
+          "kind": "vocal",
+          "format": "tv"
+        }
+      ],
+      "releases": [
+        {
+          "id": "jbcz-6074",
+          "title": "神風エクスプレス",
+          "artistDisplayName": "焚吐×みやかわくん",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-02-14",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD",
+          "tracks": [
+            {
+              "title": "神風エクスプレス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-vocal"
+            },
+            {
+              "title": "神風エクスプレス Instrumental",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6074"
+        },
+        {
+          "id": "jbcz-4039",
+          "title": "神風エクスプレス",
+          "artistDisplayName": "焚吐×みやかわくん",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-02-14",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "神風エクスプレス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCZ-4039"
+        },
+        {
+          "id": "jbcz-6075",
+          "title": "神風エクスプレス",
+          "artistDisplayName": "焚吐×みやかわくん",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-02-14",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD",
+          "tracks": [
+            {
+              "title": "神風エクスプレス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-vocal"
+            },
+            {
+              "title": "神風エクスプレス TV_Edit",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-tv-edit"
+            }
+          ],
+          "catalogNumber": "JBCZ-6075"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "神風エクスプレス",
+              "position": 9,
+              "disc": 2,
+              "recordingId": "meitantei-conan-ed-56-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-jp-1346506477",
+          "title": "神風エクスプレス - Single",
+          "artistDisplayName": "焚吐 × みやかわくん",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-02-14",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "神風エクスプレス",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-56-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1346507291",
+          "label": "日本｜神風エクスプレス",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-56-song-vocal",
+          "releaseId": "apple-jp-1346506477",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/552jc1I4VNfVqe3TAug8s7",
+          "label": "Spotify｜神風エクスプレス",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-56-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability"
+          ],
+          "note": "TV_Edit及伴奏見各自日本CD，原唱有日本Apple Music和Spotify曲位。",
+          "resumeWhen": "查到香港可串流的原唱或TV_Edit正版曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-ed-57",
+      "songId": "meitantei-conan-ed-57-song",
+      "type": "ED",
+      "sequence": 57,
+      "titleJa": "さだめ",
+      "artistDisplayName": "First place",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第909–914話片尾，7月28日至9月22日；8月11日及18日R77／R78數位修復重播沿用。第915話換曲。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "KAITO"
+        },
+        {
+          "role": "vocals",
+          "name": "RYOMA"
+        },
+        {
+          "role": "vocals",
+          "name": "TAIHEI"
+        },
+        {
+          "role": "vocals",
+          "name": "KENTO"
+        },
+        {
+          "role": "lyrics",
+          "name": "杉山勝彦"
+        },
+        {
+          "role": "composition",
+          "name": "杉山勝彦"
+        },
+        {
+          "role": "arrangement",
+          "name": "杉山勝彦"
+        },
+        {
+          "role": "arrangement",
+          "name": "三谷秀甫"
+        },
+        {
+          "role": "arrangement",
+          "name": "谷地学"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.ytv.co.jp/anime/suwa_wp/4565.html",
+          "label": "讀賣電視台節目製作人｜8月節目停播安排及夏季片頭、片尾",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://utaten.com/artist/29460/",
+          "label": "UtaTen刊載的唱片發行資訊｜〈さだめ〉詞曲編及CD曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qSkFllGvXQ4",
+          "label": "First place官方頻道｜2018年7月28日公開的同名影片",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180728.html",
+          "label": "讀賣電視台｜日本TV第 909 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180922.html",
+          "label": "讀賣電視台｜日本TV第 914 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180929.html",
+          "label": "讀賣電視台｜日本TV第 915 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180811.html",
+          "label": "讀賣電視台｜日本TV第 R77 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180818.html",
+          "label": "讀賣電視台｜日本TV第 R78 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/%E3%81%95%E3%81%A0%E3%82%81",
+          "label": "柯南百科｜片尾集數與2018重播版本",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://w.atwiki.jp/detective_conan/pages/95.html",
+          "label": "2018日本逐話用曲整理｜夏秋原播對照",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://news.utamap.com/interview/200106/",
+          "label": "First place訪談｜動畫片尾與成員",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1425798947&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465126539&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465126539&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465126539&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/4Cntv5oxEagU95VIUMF5sw",
+          "label": "Spotify｜原演唱者與獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/anime/suwa_wp/4565.html",
+            "https://utaten.com/artist/29460/",
+            "https://www.youtube.com/watch?v=qSkFllGvXQ4"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.ytv.co.jp/anime/suwa_wp/4565.html",
+            "https://www.ytv.co.jp/conan/archive/k20180728.html",
+            "https://www.ytv.co.jp/conan/archive/k20180922.html",
+            "https://www.ytv.co.jp/conan/archive/k20180929.html",
+            "https://www.ytv.co.jp/conan/archive/k20180811.html",
+            "https://www.ytv.co.jp/conan/archive/k20180818.html",
+            "https://www.mau2.com/anime/meitanteiconan-23",
+            "https://www.conanpedia.com/%E3%81%95%E3%81%A0%E3%82%81",
+            "https://w.atwiki.jp/detective_conan/pages/95.html"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/",
+            "https://news.utamap.com/interview/200106/"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6089"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://utaten.com/artist/29460/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6088"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1425798947&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1425798947&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1425798947"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1425798947&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1425798953"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1465126539"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1465126551"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1465126539"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1465126551"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-57-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465126539"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465126539&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465126551"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/4Cntv5oxEagU95VIUMF5sw"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/4Cntv5oxEagU95VIUMF5sw"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-57-song-vocal",
+          "title": "さだめ",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-ed-57-song-tv-edit",
+          "title": "さだめ (TV SIZE)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "meitantei-conan-ed-57-song-instrumental",
+          "title": "さだめ -Instrumental-",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "jbcz-6089",
+          "title": "さだめ",
+          "artistDisplayName": "First place",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            },
+            {
+              "title": "さだめ (TV SIZE)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-tv-edit"
+            },
+            {
+              "title": "さだめ -Instrumental-",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6089"
+        },
+        {
+          "id": "jbcz-6088",
+          "title": "さだめ",
+          "artistDisplayName": "First place",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本通常CD",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            },
+            {
+              "title": "さだめ -Instrumental-",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6088"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 10,
+              "disc": 2,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-jp-1425798947",
+          "title": "さだめ - Single",
+          "artistDisplayName": "First place",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-08-29",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1465126539",
+          "title": "L.D.Love",
+          "artistDisplayName": "First place",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1465126539",
+          "title": "L.D.Love",
+          "artistDisplayName": "First place",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1465126539",
+          "title": "L.D.Love",
+          "artistDisplayName": "First place",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "さだめ",
+              "position": 7,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-57-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1425798953",
+          "label": "日本｜さだめ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-57-song-vocal",
+          "releaseId": "apple-jp-1425798947",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1465126551",
+          "label": "香港｜さだめ",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-57-song-vocal",
+          "releaseId": "apple-hk-1465126539",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1465126551",
+          "label": "台灣｜さだめ",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-57-song-vocal",
+          "releaseId": "apple-tw-1465126539",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465126551",
+          "label": "日本｜さだめ",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-57-song-vocal",
+          "releaseId": "apple-jp-1465126539",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/4Cntv5oxEagU95VIUMF5sw",
+          "label": "Spotify｜さだめ",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-57-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability",
+            "recording_format",
+            "official_video"
+          ],
+          "note": "日本2018單曲及2019《L.D.Love》有不同曲位；香港有後者。兩平台曲長有小幅差異，仍屬已知原唱。官方同名影片只查到標題、頻道及日期。",
+          "resumeWhen": "取得音源母帶或唱片版本註明以確認長度差異；核對港區TV SIZE及官方影片的確切形式。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "meitantei-conan-ed-58",
+      "songId": "meitantei-conan-ed-58-song",
+      "type": "ED",
+      "sequence": 58,
+      "titleJa": "Aozolighter",
+      "artistDisplayName": "Cellchrome",
+      "seasonIds": [
+        "2018-summer",
+        "2018-fall"
+      ],
+      "usageLabel": "日本TV第915–926話片尾，9月29日至12月22日。9月29日已使用，第916話才另換片頭。",
+      "credits": [
+        {
+          "role": "lyrics",
+          "name": "陽介"
+        },
+        {
+          "role": "lyrics",
+          "name": "川浦正大"
+        },
+        {
+          "role": "composition",
+          "name": "川浦正大"
+        },
+        {
+          "role": "arrangement",
+          "name": "大西省吾"
+        },
+        {
+          "role": "vocals",
+          "name": "Mizki",
+          "groupName": "Cellchrome"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Y0eimsedxaQ",
+          "label": "Cellchrome官方MV｜〈Aozolighter〉及片尾用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://voisjp.me/news/110447/3/",
+          "label": "Cellchrome訪談及唱片發行資訊｜〈Aozolighter〉與〈Everything OK!!〉Korea ver.",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://news.joysound.com/article/301683",
+          "label": "JOYSOUND音樂新聞｜〈Aozolighter〉作為片尾及發行資料",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20180929.html",
+          "label": "讀賣電視台｜日本TV第 915 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20181006.html",
+          "label": "讀賣電視台｜日本TV第 916 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.ytv.co.jp/conan/archive/k20181222.html",
+          "label": "讀賣電視台｜日本TV第 926 話播出",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/meitanteiconan-23",
+          "label": "日本逐話資料｜2018正篇片頭和片尾交接",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/SPR",
+          "label": "柯南百科｜日本原版集數與海外編號對照",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.kawauramasahiro.com/works/",
+          "label": "川浦正大官方作品資料｜〈Aozolighter〉",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/song/716767",
+          "label": "JOYSOUND授權曲目資料｜〈Aozolighter〉詞曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.conanpedia.com/zh-hans/Cellchrome",
+          "label": "柯南百科｜Cellchrome製作署名及發行對照",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=b1Kbii9Tn_g",
+          "label": "Cellchrome官方MV｜〈Everything OK!!〉、節目用途及樂團名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.cdjapan.co.jp/product/JBCJ-9066",
+          "label": "CDJapan正版發行品資料｜第六輯主題曲精選雙碟曲序",
+          "role": "first_party",
+          "language": "en",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1446706650&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1446706650&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1446706650&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/2UIdZJcFfRkfWg7giwPYS9",
+          "label": "Spotify｜原演唱者與獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Y0eimsedxaQ",
+            "https://voisjp.me/news/110447/3/",
+            "https://news.joysound.com/article/301683"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Y0eimsedxaQ",
+            "https://news.joysound.com/article/301683",
+            "https://www.ytv.co.jp/conan/archive/k20180929.html",
+            "https://www.ytv.co.jp/conan/archive/k20181006.html",
+            "https://www.ytv.co.jp/conan/archive/k20181222.html",
+            "https://www.mau2.com/anime/meitanteiconan-23",
+            "https://www.conanpedia.com/SPR"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.kawauramasahiro.com/works/",
+            "https://www.joysound.com/web/search/song/716767",
+            "https://www.conanpedia.com/zh-hans/Cellchrome",
+            "https://www.youtube.com/watch?v=b1Kbii9Tn_g"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6096"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-tv-edit"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://voisjp.me/news/110447/3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcz-6093"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.cdjapan.co.jp/product/JBCJ-9066"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "jbcj-9066-7"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1446706650"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1446706651"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1446706650"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1446706651"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "meitantei-conan-ed-58-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1446706650"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1446706650&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1446706651"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/2UIdZJcFfRkfWg7giwPYS9"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/2UIdZJcFfRkfWg7giwPYS9"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=Y0eimsedxaQ"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "Y0eimsedxaQ"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "meitantei-conan-ed-58-song-vocal",
+          "title": "Aozolighter",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "meitantei-conan-ed-58-song-tv-edit",
+          "title": "Aozolighter (TV SIZE)",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "meitantei-conan-ed-58-song-instrumental",
+          "title": "Aozolighter (カラオケ)",
+          "kind": "instrumental",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "jbcz-6096",
+          "title": "Aozolighter",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "日本《名偵探柯南》CD＋DVD",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            },
+            {
+              "title": "Aozolighter (TV SIZE)",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-tv-edit"
+            },
+            {
+              "title": "Aozolighter (カラオケ)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-instrumental"
+            }
+          ],
+          "catalogNumber": "JBCZ-6096"
+        },
+        {
+          "id": "jbcz-6093",
+          "title": "Aozolighter",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "日本初回CD＋DVD",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCZ-6093"
+        },
+        {
+          "id": "jbcj-9066-7",
+          "title": "名探偵コナン テーマ曲集6 ～THE BEST OF DETECTIVE CONAN 6～",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-25",
+            "precision": "day"
+          },
+          "edition": "日本通常2CD",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 11,
+              "disc": 2,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            }
+          ],
+          "catalogNumber": "JBCJ-9066/7"
+        },
+        {
+          "id": "apple-hk-1446706650",
+          "title": "Aozolighter - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1446706650",
+          "title": "Aozolighter - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1446706650",
+          "title": "Aozolighter - Single",
+          "artistDisplayName": "Cellchrome",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-12-26",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "Aozolighter",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "meitantei-conan-ed-58-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1446706651",
+          "label": "香港｜Aozolighter",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-58-song-vocal",
+          "releaseId": "apple-hk-1446706650",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1446706651",
+          "label": "台灣｜Aozolighter",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-58-song-vocal",
+          "releaseId": "apple-tw-1446706650",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1446706651",
+          "label": "日本｜Aozolighter",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-58-song-vocal",
+          "releaseId": "apple-jp-1446706650",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/2UIdZJcFfRkfWg7giwPYS9",
+          "label": "Spotify｜Aozolighter",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "meitantei-conan-ed-58-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability"
+          ],
+          "note": "香港原唱可串流；日本動畫盤列TV SIZE、卡拉OK和無字幕片尾。",
+          "resumeWhen": "查到香港TV SIZE或卡拉OK的正版獨立曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
     }
-  ]
+  ],
+  "titleZhHant": "名偵探柯南"
 }
 ];
 

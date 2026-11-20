@@ -515,7 +515,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2018年秋アニメ",
     coverageNote: "本季先收錄已核實的跨季原播作品與歌曲，其餘作品及用途待盤點。",
     seeds: curated2018FallSeeds,
-    animeIds: [...curated2018FallSeeds.map(curatedAnimeKey), 101424, 101340, 101697, 97634, 100978, 21, 97938, 98231, 100620, 100785, 100745, 101115, 101555, 101425, 100661, 101594, 102005, 101043, 102925, 100910, 101097, 97888, 100388, 101161, 99147, 99629, 100977, 101474, 100562, 101925]
+    animeIds: [...curated2018FallSeeds.map(curatedAnimeKey), 101424, 101340, 101697, 97634, 100978, 21, 97938, 98231, 100620, 100785, 100745, 101115, 101555, 101425, 100661, 101594, 102005, 101043, 102925, 100910, 101097, 97888, 100388, 101161, 99147, 99629, 100977, 101474, 100562, 101925, 235, 966, 6149, 1960, 2406]
   },
   {
     id: "2018-summer",
@@ -525,7 +525,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2018年夏アニメ",
     coverageNote: "本季先收錄已核對的日本TV作品與歌曲，其餘作品及用途仍待盤點。",
     seeds: curated2018SummerSeeds,
-    animeIds: [...curated2018SummerSeeds.map(curatedAnimeKey), 100978, 101424, 100500, 21, 97634, 98231, 97938, 102604, 101228, 100620, 100790, 100785, 100745, 101115, 101555, 101425, 100661, 101594, 102005, 101043, 100910, 101097, 100245, 21451]
+    animeIds: [...curated2018SummerSeeds.map(curatedAnimeKey), 100978, 101424, 100500, 99693, 100957, 100166, 100306, 21127, 101036, 21879, 21, 21717, 97634, 98231, 97938, 102604, 101228, 100620, 100790, 100785, 100745, 101115, 101555, 101425, 100661, 101594, 102005, 101043, 100910, 101097, 100245, 21451, -201723701, 235, 8687, 966, 6149, 1960, 2406]
   },
   {
     id: "2018-spring",
@@ -535,7 +535,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2018年春アニメ",
     coverageNote: "本季先收錄已核對的作品與歌曲，其餘作品與歌曲仍待盤點。",
     seeds: curated2018SpringSeeds,
-    animeIds: [...curated2018SpringAnimeIds, 97938, 97634, 98231, 100620, 100661, 100910, 100245]
+    animeIds: [...curated2018SpringAnimeIds, 97938, 97634, 98231, 100620, 100661, 100910, 100245, -201723701, 235, 966, 6149, 1960, 2406, 21237]
   },
   {
     id: "2018-winter",
@@ -545,7 +545,7 @@ export const curatedSeasonRegistry = validateCuratedSeasonRegistry([
     titleJa: "2018年冬アニメ",
     coverageNote: "本季先收錄已核對的日本TV作品與歌曲，其餘作品及用途仍待盤點。",
     seeds: curated2018WinterSeeds,
-    animeIds: [...curated2018WinterSeeds.map(curatedAnimeKey)]
+    animeIds: [...curated2018WinterSeeds.map(curatedAnimeKey), 235, 966, 6149, 1960, 2406, 21237]
   }
 ] as const);
 

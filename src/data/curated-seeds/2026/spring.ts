@@ -17525,7 +17525,8 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2019-winter",
     "2019-spring",
     "2019-summer",
-    "2019-fall"
+    "2019-fall",
+    "2018-summer"
   ],
   "startDate": "2005-04-15",
   "titleJa": "ドラえもん",
@@ -17533,12 +17534,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
   "editorialWeekday": 6,
   "broadcastTimeJst": "17:00",
   "broadcastLabel": "日本TV系列2005/4/15首播。2019年9月前通常為週五19:00，10/5起改為週六17:00（テレビ朝日系，JST）。",
-  "metadataVerifiedAt": "2026-11-19",
+  "metadataVerifiedAt": "2026-11-20",
   "status": "airing",
   "officialSiteUrl": "https://www.tv-asahi.co.jp/doraemon/",
   "anilistUrl": "https://anilist.co/anime/8687",
   "sourceReferenceUrls": [
-    "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)"
+    "https://zh.wikipedia.org/wiki/%E5%93%86%E5%95%A6A%E5%A4%A2_(2005%E5%B9%B4%E9%9B%BB%E8%A6%96%E5%8B%95%E7%95%AB)",
+    "https://company.tv-asahi.co.jp/hensei/2018/2018_07_3.pdf",
+    "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2018",
+    "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20240523163351000_90469365.pdf"
   ],
   "verifiedAt": "2026-10-19",
   "metadataSources": [
@@ -17597,6 +17601,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://company.tv-asahi.co.jp/hensei/2018/2018_07_3.pdf",
+      "label": "朝日電視台2018年7月節目表｜日本週五19:00",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2018",
+      "label": "朝日電視台｜2018年播出檔案",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20240523163351000_90469365.pdf",
+      "label": "TVB翡翠台節目表｜香港正式電視片名",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-20"
     }
   ],
   "themes": [
@@ -21109,6 +21134,111 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon_2017/story/0536/",
+          "label": "朝日電視台｜9月14日原播故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+          "label": "2018夏季逐回播出記錄｜點播以外的日本TV片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア｜40週年4CD曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40272-3/",
+          "label": "日本コロムビア｜2018年《ドラガオじゃんけん》雙碟曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/2lmhzjLpMhDAjZppSmNwNq",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx",
+          "label": "Spotify｜日本コロムビア40週年合輯及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-16954/",
+          "label": "日本コロムビア｜2014單曲原唱、角色演唱及各伴奏曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.joox.com/hk/artist/IaCj8BN3u%2BVj2oHwCCmzVQ%3D%3D/songs",
+          "label": "JOOX香港｜mao兩個獨立發行的原唱VIP曲目名單",
+          "role": "first_party",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://sp-m.mu-mo.net/music/913883/",
+          "label": "mu-mo日本｜2007原唱、2014發行及付費下載資訊",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=938546901&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COKM-44749/",
+          "label": "日本コロムビア｜2024年TV Music History第四輯及曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/7w7UUA6ReBET0esLvf4sVz",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "links": [
@@ -21133,6 +21263,103 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-15",
           "recordingId": "doraemon-2005-op-2-song-instrumental"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1350611461",
+          "label": "日本｜夢をかなえてドラえもん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal",
+          "releaseId": "apple-jp-1350611455",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221719",
+          "label": "日本｜夢をかなえてドラえもん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880057",
+          "label": "日本｜夢をかなえてドラえもん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/2lmhzjLpMhDAjZppSmNwNq",
+          "label": "Spotify｜夢をかなえてドラえもん",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/938553962",
+          "label": "日本｜夢をかなえてドラえもん",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-2014-cast",
+          "releaseId": "apple-jp-938546901",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/938553964",
+          "label": "日本｜夢をかなえてドラえもん (キャラクター・ソングバージョン) [オリジナル・カラオケ]",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-2014-cast-karaoke",
+          "releaseId": "apple-jp-938546901",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221731",
+          "label": "日本｜夢をかなえてドラえもん (キャラクター・ソングバージョン)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-2014-cast",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880309",
+          "label": "日本｜夢をかなえてドラえもん (キャラクター・ソングバージョン)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-2014-cast",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/7w7UUA6ReBET0esLvf4sVz",
+          "label": "Spotify｜夢をかなえてドラえもん",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-op-2-song-2014-cast",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -21251,13 +21478,317 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "https://ja.wikid.org/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93_(2005%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1)"
           ],
           "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon_2017/story/0536/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://ja.wikid.org/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93_(2005%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-13"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40272-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1350611455"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1350611461"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465221497"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221719"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1756880054"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880057"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/2lmhzjLpMhDAjZppSmNwNq"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/2lmhzjLpMhDAjZppSmNwNq"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/2lmhzjLpMhDAjZppSmNwNq"
+        },
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-16954/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://www.joox.com/hk/artist/IaCj8BN3u%2BVj2oHwCCmzVQ%3D%3D/songs",
+            "https://sp-m.mu-mo.net/music/913883/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-op-2-song"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-16954/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-op-2-song-2014-cast"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-16954/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocc-16954"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=938546901&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-938546901"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=938546901&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/938553962"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-16954/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-op-2-song-2014-cast-karaoke"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=938546901&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/938553964"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/",
+            "https://columbia.jp/prod-info/COKM-44749/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-op-2-song-2014-cast"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221731"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880309"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/7w7UUA6ReBET0esLvf4sVz"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/7w7UUA6ReBET0esLvf4sVz"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/7w7UUA6ReBET0esLvf4sVz"
         }
       ],
       "sourceMode": "explicit",
       "seasonIds": [
-        "2019-winter"
+        "2019-winter",
+        "2018-summer"
       ],
-      "usageLabel": "2019年3月15日日本TV〈化石大発見！〉所在編排的特別片尾。使用mao演唱、ひまわりキッズ和聲的歌曲；當次片末剪輯與商業版的對應待原播音軌核對。",
+      "usageLabel": "2019年3月15日日本TV〈化石大発見！〉所在編排的特別片尾。使用mao演唱、ひまわりキッズ和聲的歌曲；當次片末剪輯與商業版的對應待原播音軌核對。 2018年9月14日第461回（第952–953段故事）亦用mao和ひまわりキッズ版作片尾，原播有片末剪輯。",
       "lastVerifiedAt": "2026-11-20",
       "credits": [
         {
@@ -21293,6 +21824,44 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
           "format": "unknown",
           "kind": "instrumental"
+        },
+        {
+          "id": "doraemon-2005-op-2-song-2014-cast",
+          "title": "夢をかなえてドラえもん（キャラクター・ソングバージョン）",
+          "kind": "character",
+          "format": "unknown",
+          "credits": [
+            {
+              "role": "vocals",
+              "name": "水田わさび"
+            },
+            {
+              "role": "vocals",
+              "name": "大原めぐみ"
+            },
+            {
+              "role": "vocals",
+              "name": "かかずゆみ"
+            },
+            {
+              "role": "vocals",
+              "name": "木村昴"
+            },
+            {
+              "role": "vocals",
+              "name": "関智一"
+            },
+            {
+              "role": "vocals",
+              "name": "ひばり児童合唱団"
+            }
+          ]
+        },
+        {
+          "id": "doraemon-2005-op-2-song-2014-cast-karaoke",
+          "title": "夢をかなえてドラえもん（キャラクター・ソングバージョン） オリジナル・カラオケ",
+          "kind": "instrumental",
+          "format": "unknown"
         }
       ],
       "releases": [
@@ -21346,9 +21915,174 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
               "position": 4,
               "disc": 1,
               "recordingId": "doraemon-2005-op-2-song-instrumental"
+            },
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast"
+            },
+            {
+              "title": "夢をかなえてドラえもん (キャラクター・ソングバージョン) [オリジナル・カラオケ]",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast-karaoke"
             }
           ],
           "label": "日本コロムビア"
+        },
+        {
+          "id": "cocx-40272-3",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本2CD",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40272-3"
+        },
+        {
+          "id": "apple-jp-1350611455",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            }
+          ]
+        },
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "apple-jp-1465221497",
+          "title": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん (キャラクター・ソングバージョン)",
+              "position": 15,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1756880054",
+          "title": "藤子・F・不二雄 生誕90周年 藤子・F・不二雄 TV MUSIC HISTORY IV -ドラえもん2-",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2024-07-24",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん (キャラクター・ソングバージョン)",
+              "position": 39,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast"
+            }
+          ]
+        },
+        {
+          "id": "cocc-16954",
+          "title": "テレビ朝日系アニメ「ドラえもん」主題歌 夢をかなえてドラえもん",
+          "artistDisplayName": "V.A.",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2014-11-19",
+            "precision": "day"
+          },
+          "edition": "日本2014角色版CD",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん（キャラクター・ソングバージョン）",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast"
+            },
+            {
+              "title": "夢をかなえてドラえもん（キャラクター・ソングバージョン） オリジナル・カラオケ",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-2014-cast-karaoke"
+            },
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん (オリジナル・カラオケ)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-instrumental"
+            }
+          ],
+          "catalogNumber": "COCC-16954"
         }
       ],
       "releaseDate": "2007-07-04",
@@ -21359,6 +22093,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "note": "2019年3月15日實播片尾與商業曲目已對應，當回播出的完整音軌尚待核對。",
           "resumeWhen": "取得附原播片末的合法版本後，核對實際剪輯與曲序。",
+          "checkedAt": "2026-11-20"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "香港JOOX名單辨認到mao兩個VIP入錄曲位。日本Apple Music及Spotify區分mao原唱與五位角色加合唱團版本，日本2014年單曲另有各自的卡拉OK。",
+          "resumeWhen": "核對香港JOOX各曲長期直連及兩次日本原播片末的準確剪輯。",
           "checkedAt": "2026-11-20"
         }
       ]
@@ -22568,9 +23311,10 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "titleJa": "踊れ・どれ・ドラ ドラえもん音頭 2017",
       "artistDisplayName": "ドラっ子隊、水田わさび",
       "seasonIds": [
-        "2019-summer"
+        "2019-summer",
+        "2018-summer"
       ],
-      "usageLabel": "2019年日本TV7/19的40週年一小時特別篇及第491、492回（8/9、8/23）片尾。",
+      "usageLabel": "2019年日本TV7/19的40週年一小時特別篇及第491、492回（8/9、8/23）片尾。 2018夏日本TV第455、456、458–460回（7月20、27日，8月17、24、31日）片尾；8月3日另換曲，8月10日停播。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -22585,7 +23329,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "作品方2017年新版音頭片尾公告",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
@@ -22606,7 +23350,98 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "日本コロムビア發行日與4CD品番",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2018",
+          "label": "朝日電視台｜2018年播出檔案",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+          "label": "2018夏季逐回播出記錄｜點播以外的日本TV片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://cal.syoboi.jp/tid/636/time",
+          "label": "しょぼいカレンダー｜2018年播出時段及8月10日停播",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40272-3/",
+          "label": "日本コロムビア｜2018年《ドラガオじゃんけん》雙碟曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4661812",
+          "label": "Tower Records｜2018年雙碟日版詞曲編及演出署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/6l4yXZbAlPnQZZ8EM3I4c4",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx",
+          "label": "Spotify｜日本コロムビア40週年合輯及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/7EejnqzAZeBN4xdnpGkBuZ",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/21QJTg3SwcjsCOBqBPnzlB",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-15982/",
+          "label": "日本コロムビア｜2007年原唱單曲及卡拉OK",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -22685,10 +23520,414 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2018",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://cal.syoboi.jp/tid/636/time",
+            "https://dora-world.com/contents/244"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-10"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/",
+            "https://tower.jp/item/4661812"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40272-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1350611455"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1350612665"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465221497"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221750"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1756880054"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880306"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/6l4yXZbAlPnQZZ8EM3I4c4"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/6l4yXZbAlPnQZZ8EM3I4c4"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/6l4yXZbAlPnQZZ8EM3I4c4"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-doraemon-ondo-2017-song-2005"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221748"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880304"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/7EejnqzAZeBN4xdnpGkBuZ"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/7EejnqzAZeBN4xdnpGkBuZ"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/7EejnqzAZeBN4xdnpGkBuZ"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-doraemon-ondo-2017-song-2007"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221749"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880305"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/21QJTg3SwcjsCOBqBPnzlB"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/21QJTg3SwcjsCOBqBPnzlB"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/21QJTg3SwcjsCOBqBPnzlB"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocc-15982"
         }
       ],
-      "links": [],
-      "lastVerifiedAt": "2026-11-19",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1350612665",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia",
+          "releaseId": "apple-jp-1350611455",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221750",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880306",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭 (2017)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/6l4yXZbAlPnQZZ8EM3I4c4",
+          "label": "Spotify｜踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221748",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880304",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/7EejnqzAZeBN4xdnpGkBuZ",
+          "label": "Spotify｜踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221749",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭 2007",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880305",
+          "label": "日本｜踊れ・どれ・ドラ ドラえもん音頭 (2007)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/21QJTg3SwcjsCOBqBPnzlB",
+          "label": "Spotify｜踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
       "credits": [
         {
           "name": "ドラっ子隊",
@@ -22697,12 +23936,40 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         {
           "name": "水田わさび",
           "role": "vocals"
+        },
+        {
+          "role": "vocals",
+          "name": "森の木児童合唱団"
+        },
+        {
+          "role": "lyrics",
+          "name": "マイクスギヤマ"
+        },
+        {
+          "role": "composition",
+          "name": "沢田完"
+        },
+        {
+          "role": "arrangement",
+          "name": "沢田完"
         }
       ],
       "recordings": [
         {
           "id": "doraemon-2005-doraemon-ondo-2017-song-columbia",
           "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "doraemon-2005-doraemon-ondo-2017-song-2005",
+          "title": "踊れ・どれ・ドラ ドラえもん音頭",
+          "kind": "vocal",
+          "format": "unknown"
+        },
+        {
+          "id": "doraemon-2005-doraemon-ondo-2017-song-2007",
+          "title": "踊れ・どれ・ドラ ドラえもん音頭 2007",
           "kind": "vocal",
           "format": "unknown"
         }
@@ -22725,9 +23992,147 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
               "position": 16,
               "disc": 2,
               "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2007",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007"
             }
           ],
           "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "cocx-40272-3",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本2CD",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+              "position": 1,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40272-3"
+        },
+        {
+          "id": "apple-jp-1350611455",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+              "position": 1,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1465221497",
+          "title": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2017",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭",
+              "position": 14,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2007",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1756880054",
+          "title": "藤子・F・不二雄 生誕90周年 藤子・F・不二雄 TV MUSIC HISTORY IV -ドラえもん2-",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2024-07-24",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 (2017)",
+              "position": 36,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-columbia"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭",
+              "position": 34,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2005"
+            },
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 (2007)",
+              "position": 35,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007"
+            }
+          ]
+        },
+        {
+          "id": "cocc-15982",
+          "title": "ドラえもん 主題歌",
+          "artistDisplayName": "V.A.",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2007-07-04",
+            "precision": "day"
+          },
+          "edition": "日本CD單曲",
+          "tracks": [
+            {
+              "title": "踊れ・どれ・ドラ ドラえもん音頭 2007",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-doraemon-ondo-2017-song-2007"
+            }
+          ],
+          "catalogNumber": "COCC-15982"
         }
       ],
       "followUp": [
@@ -22739,6 +24144,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
           "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
           "checkedAt": "2026-11-19"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "2005、2007、2017三個發行錄音在唱片和串流有獨立曲位。2018實際片尾指向2017版。",
+          "resumeWhen": "取得含原播片尾掛字的日本合法版以確認播出剪輯，或查到香港正版直接曲位。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -22750,9 +24164,10 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "titleJa": "ハッピー☆ラッキー・バースデー!",
       "artistDisplayName": "水田わさび、大原めぐみ、かかずゆみ、木村昴、関智一",
       "seasonIds": [
-        "2019-summer"
+        "2019-summer",
+        "2018-summer"
       ],
-      "usageLabel": "2019年日本TV9/6生日特別篇中新作〈未来の迷宮 おかし城〉的片尾，播於接續重播的2017故事之前。",
+      "usageLabel": "2019年日本TV9/6生日特別篇中新作〈未来の迷宮 おかし城〉的片尾，播於接續重播的2017故事之前。 2018年9月7日日本19:00–19:54生日特輯〈クジラとまぼろしのパイプ島〉第951段故事片尾。",
       "sourceMode": "explicit",
       "sources": [
         {
@@ -22795,7 +24210,91 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "日本コロムビア發行日與4CD品番",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://post.tv-asahi.co.jp/post-59659/",
+          "label": "朝日電視台｜9月7日生日特輯、時段及日本首播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.dora-world.com/contents/3981",
+          "label": "多啦A夢官方｜2018生日特輯及日本授權配信活動",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+          "label": "2018夏季逐回播出記錄｜點播以外的日本TV片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tvablog.tv-asahi.co.jp/reading/wasadora93/29542/",
+          "label": "水田わさび於朝日電視台的官方紀錄｜生日歌詞曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://kansawada.com/discography/",
+          "label": "作曲家沢田完官方作品表｜歌曲身分及創作署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4661812",
+          "label": "Tower Records｜2018年雙碟日版詞曲編及演出署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40272-3/",
+          "label": "日本コロムビア｜2018年《ドラガオじゃんけん》雙碟曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/79RDesOGktA2A0AAg3mbQj",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx",
+          "label": "Spotify｜日本コロムビア40週年合輯及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
       "evidence": [
@@ -22875,10 +24374,199 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://post.tv-asahi.co.jp/post-59659/",
+            "https://www.dora-world.com/contents/3981",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-11"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://tvablog.tv-asahi.co.jp/reading/wasadora93/29542/",
+            "https://kansawada.com/discography/",
+            "https://tower.jp/item/4661812"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40272-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1350611455"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1350612663"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465221497"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221726"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1756880054"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880252"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/79RDesOGktA2A0AAg3mbQj"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/79RDesOGktA2A0AAg3mbQj"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/79RDesOGktA2A0AAg3mbQj"
         }
       ],
-      "links": [],
-      "lastVerifiedAt": "2026-11-19",
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1350612663",
+          "label": "日本｜ハッピー☆ラッキー・バースデー!",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia",
+          "releaseId": "apple-jp-1350611455",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221726",
+          "label": "日本｜ハッピー☆ラッキー・バースデー!",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880252",
+          "label": "日本｜ハッピー☆ラッキー・バースデー!",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/79RDesOGktA2A0AAg3mbQj",
+          "label": "Spotify｜ハッピー☆ラッキー・バースデー!",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
       "credits": [
         {
           "name": "水田わさび",
@@ -22899,6 +24587,18 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         {
           "name": "関智一",
           "role": "vocals"
+        },
+        {
+          "role": "lyrics",
+          "name": "マイクスギヤマ"
+        },
+        {
+          "role": "composition",
+          "name": "沢田完"
+        },
+        {
+          "role": "arrangement",
+          "name": "沢田完"
         }
       ],
       "recordings": [
@@ -22930,6 +24630,87 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             }
           ],
           "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "cocx-40272-3",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本2CD",
+          "tracks": [
+            {
+              "title": "ハッピー☆ラッキー・バースデー!",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+            }
+          ],
+          "catalogNumber": "COCX-40272-3"
+        },
+        {
+          "id": "apple-jp-1350611455",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ハッピー☆ラッキー・バースデー!",
+              "position": 20,
+              "disc": 1,
+              "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1465221497",
+          "title": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ハッピー☆ラッキー・バースデー!",
+              "position": 10,
+              "disc": 1,
+              "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1756880054",
+          "title": "藤子・F・不二雄 生誕90周年 藤子・F・不二雄 TV MUSIC HISTORY IV -ドラえもん2-",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2024-07-24",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ハッピー☆ラッキー・バースデー!",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "doraemon-2005-happy-lucky-birthday-song-columbia"
+            }
+          ]
         }
       ],
       "followUp": [
@@ -22941,6 +24722,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "日本唱片資料與2019年TV放送記錄已對應；播出版長度與香港區曲目仍待核實。",
           "resumeWhen": "取得該回正版原播片尾／片頭或明確標示同一演唱版的香港區單曲時補錄。",
           "checkedAt": "2026-11-19"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "日本唱片及Spotify對應五位角色演唱。同曲2018和2019各自對應原播特輯片尾。",
+          "resumeWhen": "取得含原播片尾掛字的日本合法版以確認播出剪輯，或查到香港正版直接曲位。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -23129,8 +24919,941 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-19"
         }
       ]
+    },
+    {
+      "id": "doraemon-2005-ed-14",
+      "songId": "doraemon-2005-ed-14-song",
+      "type": "ED",
+      "sequence": 14,
+      "titleJa": "ドラえもん・えかきうた",
+      "artistDisplayName": "ドラえもん（CV：水田わさび）",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "2018年7月6日日本TV第454回（第937–938段故事）片尾，當回無獨立片頭。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "水田わさび"
+        },
+        {
+          "role": "lyrics",
+          "name": "楠部工"
+        },
+        {
+          "role": "composition",
+          "name": "菊池俊輔"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40272-3/",
+          "label": "日本コロムビア｜2018年《ドラガオじゃんけん》雙碟曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア｜40週年4CD曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.joysound.com/web/search/song/422526",
+          "label": "JOYSOUND授權曲目｜水田わさび版〈ドラえもん・えかきうた〉詞曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/0528/",
+          "label": "朝日電視台｜7月6日原播故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+          "label": "2018夏季逐回播出記錄｜點播以外的日本TV片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4661812",
+          "label": "Tower Records｜2018年雙碟日版詞曲編及演出署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/0bPHgRAVXBniyAJOhgBqhn",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx",
+          "label": "Spotify｜日本コロムビア40週年合輯及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/",
+            "https://columbia.jp/prod-info/COCX-40818-21/",
+            "https://www.joysound.com/web/search/song/422526"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-14-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/story/0528/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-14"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/",
+            "https://www.joysound.com/web/search/song/422526",
+            "https://tower.jp/item/4661812"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-14-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40272-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1350611455"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1350612667"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465221497"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221733"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1756880054"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880259"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/0bPHgRAVXBniyAJOhgBqhn"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/0bPHgRAVXBniyAJOhgBqhn"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/0bPHgRAVXBniyAJOhgBqhn"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-ed-14-song-vocal",
+          "title": "ドラえもん・えかきうた",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40272-3",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本2CD",
+          "tracks": [
+            {
+              "title": "ドラえもん・えかきうた",
+              "position": 3,
+              "disc": 2,
+              "recordingId": "doraemon-2005-ed-14-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40272-3"
+        },
+        {
+          "id": "apple-jp-1350611455",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ドラえもん・えかきうた",
+              "position": 3,
+              "disc": 2,
+              "recordingId": "doraemon-2005-ed-14-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "ドラえもん・えかきうた",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-14-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "apple-jp-1465221497",
+          "title": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ドラえもん・えかきうた",
+              "position": 17,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-14-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1756880054",
+          "title": "藤子・F・不二雄 生誕90周年 藤子・F・不二雄 TV MUSIC HISTORY IV -ドラえもん2-",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2024-07-24",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "ドラえもん・えかきうた",
+              "position": 19,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-14-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1350612667",
+          "label": "日本｜ドラえもん・えかきうた",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-14-song-vocal",
+          "releaseId": "apple-jp-1350611455",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221733",
+          "label": "日本｜ドラえもん・えかきうた",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-14-song-vocal",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880259",
+          "label": "日本｜ドラえもん・えかきうた",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-14-song-vocal",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/0bPHgRAVXBniyAJOhgBqhn",
+          "label": "Spotify｜ドラえもん・えかきうた",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-14-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "日本平台精選輯同時列有水田わさび與舊作大山のぶ代唱本；這裡連結水田わさび版本。原播畫面與市售約63秒音軌尚待比對。",
+          "resumeWhen": "取得含原播片尾掛字的日本合法版以確認播出剪輯，或查到香港正版直接曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "doraemon-2005-ed-15",
+      "songId": "doraemon-2005-ed-15-song",
+      "type": "ED",
+      "sequence": 15,
+      "titleJa": "のび太くん0点",
+      "artistDisplayName": "のび太（CV：大原めぐみ）",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "2018年8月3日日本TV第457回（第943–944段故事）片尾。大原めぐみ以のび太演唱，日本唱片列水田わさび以ドラえもん說白。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "大原めぐみ"
+        },
+        {
+          "role": "lyrics",
+          "name": "マイクスギヤマ"
+        },
+        {
+          "role": "composition",
+          "name": "沢田完"
+        },
+        {
+          "role": "arrangement",
+          "name": "沢田完"
+        },
+        {
+          "role": "other",
+          "name": "水田わさび"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40272-3/",
+          "label": "日本コロムビア｜2018年《ドラガオじゃんけん》雙碟曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-40818-21/",
+          "label": "日本コロムビア｜40週年4CD曲序及錄音名義",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://kansawada.com/discography/",
+          "label": "作曲家沢田完官方作品表｜歌曲身分及創作署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/0531/",
+          "label": "朝日電視台｜8月3日原播故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+          "label": "2018夏季逐回播出記錄｜點播以外的日本TV片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4661812",
+          "label": "Tower Records｜2018年雙碟日版詞曲編及演出署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/1DZzT8MEoo8fA6wtSud3az",
+          "label": "Spotify｜對應演唱者、版本與該曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx",
+          "label": "Spotify｜日本コロムビア40週年合輯及曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/",
+            "https://columbia.jp/prod-info/COCX-40818-21/",
+            "https://kansawada.com/discography/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-15-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/story/0531/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201807.html",
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-15"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/",
+            "https://kansawada.com/discography/",
+            "https://tower.jp/item/4661812"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "doraemon-2005-ed-15-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40272-3/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40272-3"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1350611455"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1350611455&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1350612651"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-40818-21/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-40818-21"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1465221497"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1465221497&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1465221738"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1756880054"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1756880054&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1756880263"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/1DZzT8MEoo8fA6wtSud3az"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/1DZzT8MEoo8fA6wtSud3az"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/album/2z7ZCvngxAsF4GvFHaXZUx"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/1DZzT8MEoo8fA6wtSud3az"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-ed-15-song-vocal",
+          "title": "のび太くん0点",
+          "kind": "vocal",
+          "format": "unknown"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocx-40272-3",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本2CD",
+          "tracks": [
+            {
+              "title": "のび太くん0点",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-15-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40272-3"
+        },
+        {
+          "id": "apple-jp-1350611455",
+          "title": "ドラえもん ドラガオじゃんけん",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2018-03-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "のび太くん0点",
+              "position": 14,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-15-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "cocx-40818-21",
+          "title": "テレビアニメ放送40周年記念 ドラえもん うたのコレクション",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "のび太くん0点",
+              "position": 4,
+              "disc": 2,
+              "recordingId": "doraemon-2005-ed-15-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-40818-21"
+        },
+        {
+          "id": "apple-jp-1465221497",
+          "title": "テレビアニメ放送40周年記念ドラえもん うたのコレクション",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2019-06-05",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "のび太くん0点",
+              "position": 4,
+              "disc": 2,
+              "recordingId": "doraemon-2005-ed-15-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1756880054",
+          "title": "藤子・F・不二雄 生誕90周年 藤子・F・不二雄 TV MUSIC HISTORY IV -ドラえもん2-",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2024-07-24",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "のび太くん0点",
+              "position": 23,
+              "disc": 1,
+              "recordingId": "doraemon-2005-ed-15-song-vocal"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1350612651",
+          "label": "日本｜のび太くん0点",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-15-song-vocal",
+          "releaseId": "apple-jp-1350611455",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1465221738",
+          "label": "日本｜のび太くん0点",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-15-song-vocal",
+          "releaseId": "apple-jp-1465221497",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1756880263",
+          "label": "日本｜のび太くん0点",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-15-song-vocal",
+          "releaseId": "apple-jp-1756880054",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/1DZzT8MEoo8fA6wtSud3az",
+          "label": "Spotify｜のび太くん0点",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "doraemon-2005-ed-15-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "唱片把這首歌也歸為角色歌曲，2018年8月3日原播有實際片尾用途。日本數位和Spotify上架版本的具體播出剪輯仍待核實。",
+          "resumeWhen": "取得含原播片尾掛字的日本合法版以確認播出剪輯，或查到香港正版直接曲位。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
     }
-  ]
+  ],
+  "titleZhHant": "多啦A夢"
 },
   {
   "anilistId": 966,
@@ -23168,15 +25891,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "2019-fall",
     "2019-summer",
     "2019-spring",
-    "2019-winter"
+    "2019-winter",
+    "2018-winter",
+    "2018-spring",
+    "2018-summer",
+    "2018-fall"
   ],
   "startDate": "1992-04-13",
   "titleJa": "クレヨンしんちゃん",
   "titleRomaji": "Crayon Shin-chan",
   "editorialWeekday": 6,
   "broadcastTimeJst": "16:30",
-  "broadcastLabel": "日本TV系列1992/4/13開始；2019/10/5起朝日電視系週六16:30 JST，2020秋沿用。",
-  "metadataVerifiedAt": "2026-11-19",
+  "broadcastLabel": "日本TV系列1992/4/13開始；2019/10/5起朝日電視系週六16:30 JST，2020秋沿用。 2018原播為朝日電視台週五19:30–19:54 JST。",
+  "metadataVerifiedAt": "2026-11-20",
   "status": "airing",
   "officialSiteUrl": "https://www.tv-asahi.co.jp/shinchan/",
   "anilistUrl": "https://anilist.co/anime/966",
@@ -23184,7 +25911,10 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
     "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
     "https://www.tv-asahi.co.jp/shinchan/news/0049/",
     "https://www.aimyong.net/news/detail/469",
-    "https://www.tv-asahi.co.jp/shinchan/news/0038/"
+    "https://www.tv-asahi.co.jp/shinchan/news/0038/",
+    "https://company.tv-asahi.co.jp/hensei/2018/2018_07_3.pdf",
+    "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+    "https://static.viu.tv/8mMnPXNqxl_tkR7t.pdf"
   ],
   "verifiedAt": "2026-10-19",
   "metadataSources": [
@@ -23257,6 +25987,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "role": "first_party",
       "language": "ja",
       "verifiedAt": "2026-11-19"
+    },
+    {
+      "url": "https://company.tv-asahi.co.jp/hensei/2018/2018_07_3.pdf",
+      "label": "朝日電視台2018年7月節目表｜週五19:30正篇",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+      "label": "朝日電視台｜2018年日本原播檔案",
+      "role": "first_party",
+      "language": "ja",
+      "verifiedAt": "2026-11-20"
+    },
+    {
+      "url": "https://static.viu.tv/8mMnPXNqxl_tkR7t.pdf",
+      "label": "ViuTV 99台節目表｜香港繁中作品名",
+      "role": "localized_cross_check",
+      "language": "zh-Hant",
+      "verifiedAt": "2026-11-20"
     }
   ],
   "themes": [
@@ -23272,7 +26023,9 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2019-winter",
         "2019-spring",
         "2019-summer",
-        "2019-fall"
+        "2019-fall",
+        "2018-summer",
+        "2018-fall"
       ],
       "songId": "crayon-shin-chan-op-1-song",
       "sourceMode": "explicit",
@@ -23282,7 +26035,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "ゆず官方：TV OP、原名、演唱與詞曲編",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-10-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
@@ -23303,7 +26056,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "朝日電視台原TV主題曲公告",
           "language": "ja",
           "role": "first_party",
-          "verifiedAt": "2026-11-16"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.tv-asahi.co.jp/shinchan/news/0086/",
@@ -23345,7 +26098,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
@@ -23464,14 +26217,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "朝日電視台曾公開動畫片頭，現註明配信已結束",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
           "label": "日本版分時期主題曲表：2019年1月25日第987話及片頭停用區間",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-19"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.tv-asahi.co.jp/shinchan/news/0038/",
@@ -23507,10 +26260,87 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27",
+          "label": "2018日本逐話曲表｜片頭片尾更換及劇中歌",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27/ep/977",
+          "label": "2018第977話逐話紀錄｜夏季最後常規片頭及無片尾",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+          "label": "朝日電視台｜2018年日本原播檔案",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://yuzu-official.com/contents/information/8a79c7d9-5ffc-4ad9-be69-134296325e07",
+          "label": "ゆず官方｜原片頭影片與舞蹈教學的不同用途",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1612826444&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1610342176&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1498165277&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-41902-5/",
+          "label": "日本コロムビア｜《蠟筆小新》30周年4CD原曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/0qUFcni7O3J4TDti1MOtRD",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/4ltAwqZaEfEqFIFd5JMhxs",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GE2ICwczuoE",
+          "label": "ゆず官方｜小新與ゆずマン的舞蹈教學",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
-      "lastVerifiedAt": "2026-11-19",
-      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭，途中有停用例外。2020年春第1035話（5/16）、第1036話（6/13）已核；10/3換曲。 2019/1/25第987話後曾暫停片頭，6/7第999話、7/5第1003話、11/16第1013話及12/7第1016話為片頭。",
+      "lastVerifiedAt": "2026-11-20",
+      "usageLabel": "2018/7/6第970話至2020/9/26第1050話的常規片頭，途中有停用例外。2020年春第1035話（5/16）、第1036話（6/13）已核；10/3換曲。 2019/1/25第987話後曾暫停片頭，6/7第999話、7/5第1003話、11/16第1013話及12/7第1016話為片頭。 2018年夏7月6日至9月14日第970–977話使用。10月19日至12月14日第978–985話沿用，秋季片頭畫面開始混用本篇片段。夏季常規播放無獨立片尾。",
       "evidence": [
         {
           "target": "song",
@@ -23808,6 +26638,181 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "crayon-shin-chan-op-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0094/",
+            "https://ex-maniacs.tv-asahi.co.jp/ch/ex_maniacs/post-32065/",
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0103/",
+            "https://www.mau2.com/anime/crayonsinchan-27",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/977",
+            "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+            "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://yuzu-official.com/contents/information/e26060b2-894f-413d-99c3-f2ba12dbf4d0",
+            "https://yuzu-official.com/contents/information/8a79c7d9-5ffc-4ad9-be69-134296325e07"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1612826444&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1612826444"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1612826444&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1612826456"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1612826444&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1612826709"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1610342176&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1610342176"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1610342176&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1610342884"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1498165277&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1498165277"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1498165277&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1498165289"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-41902-5/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-41902-5"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/0qUFcni7O3J4TDti1MOtRD"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/0qUFcni7O3J4TDti1MOtRD"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/4ltAwqZaEfEqFIFd5JMhxs"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/4ltAwqZaEfEqFIFd5JMhxs"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=GE2ICwczuoE",
+            "https://yuzu-official.com/contents/information/8a79c7d9-5ffc-4ad9-be69-134296325e07"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "GE2ICwczuoE"
         }
       ],
       "credits": [
@@ -23826,6 +26831,16 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         {
           "name": "TeddyLoid",
           "role": "arrangement"
+        },
+        {
+          "role": "vocals",
+          "name": "北川悠仁",
+          "groupName": "ゆず"
+        },
+        {
+          "role": "vocals",
+          "name": "岩沢厚治",
+          "groupName": "ゆず"
         }
       ],
       "followUp": [
@@ -23836,9 +26851,9 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "use_quarters",
             "recording_format"
           ],
-          "note": "已核2020年春兩話的實際片頭。2018–2019其他季度及電影宣傳檔各話例外待逐集核對。原單曲、專輯與現場發行已分列，混音關係待核。朝日電視台當年公開的動畫片頭配信已結束。",
+          "note": "已核2018年夏季和秋季常規片頭、2020年春兩話。2019特別話及電影宣傳檔各話例外仍待查。當年官方動畫片頭配信已結束。",
           "resumeWhen": "待可辨識原播片頭或權利方逐話資料，另核原唱錄音版本關係及各地完整播放。",
-          "checkedAt": "2026-11-16"
+          "checkedAt": "2026-11-20"
         },
         {
           "fields": [
@@ -23847,6 +26862,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "逐話交叉曲表記錄 2019/8/9 第1005話及 8/23 第1006話片尾使用本曲，尚缺兩次原播或權利方佐證。",
           "resumeWhen": "取得朝日電視台原播尾段掛字或權利方逐話用曲表後，再決定是否登錄獨立片尾用途。",
           "checkedAt": "2026-11-19"
+        },
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "已核對香港、台灣原單曲與伴奏、日本專輯及Spotify各曲位；電視片頭另有小新合聲，畫面亦因時期有變化。",
+          "resumeWhen": "取得2018年夏秋兩種地上波原版、合法附音軌錄影或權利方登錄的電視音源，以核對播出與市售關係。",
+          "checkedAt": "2026-11-20"
         }
       ],
       "recordings": [
@@ -24020,6 +27043,93 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "label": "SENHA",
           "catalogNumber": "SNXQ-78912"
+        },
+        {
+          "id": "apple-tw-1612826444",
+          "title": "Muscat - EP",
+          "artistDisplayName": "柚子",
+          "type": "ep",
+          "region": "TW",
+          "date": {
+            "value": "2018-08-01",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Muscat",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-single-vocal"
+            },
+            {
+              "title": "Muscat (Guide Melody For Karaoke)",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-instrumental"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1610342176",
+          "title": "Yuzutown",
+          "artistDisplayName": "柚子",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Muscat",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1498165277",
+          "title": "YUZUTOWN",
+          "artistDisplayName": "ゆず",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2020-03-04",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "マスカット",
+              "position": 12,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+            }
+          ]
+        },
+        {
+          "id": "cocx-41902-5",
+          "title": "プリッと！こんぷりーと クレヨンしんちゃん30周年記念テーマソング集",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2022-11-30",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "マスカット",
+              "position": 16,
+              "disc": 2,
+              "recordingId": "crayon-shin-chan-op-1-song-single-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-41902-5"
         }
       ],
       "id": "crayon-shin-chan-op-1",
@@ -24057,6 +27167,70 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "availability": "unknown",
           "verifiedAt": "2026-11-15",
           "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1612826456",
+          "label": "台灣｜Muscat",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-single-vocal",
+          "releaseId": "apple-tw-1612826444",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1612826709",
+          "label": "台灣｜Muscat (Guide Melody For Karaoke)",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-instrumental",
+          "releaseId": "apple-tw-1612826444",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1610342884",
+          "label": "台灣｜Muscat",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track",
+          "releaseId": "apple-tw-1610342176",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1498165289",
+          "label": "日本｜マスカット",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track",
+          "releaseId": "apple-jp-1498165277",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/0qUFcni7O3J4TDti1MOtRD",
+          "label": "Spotify｜マスカット",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-single-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/4ltAwqZaEfEqFIFd5JMhxs",
+          "label": "Spotify｜マスカット",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-1-song-yuzutown-album-track",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
         }
       ]
     },
@@ -25582,7 +28756,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "作品方、放送方或唱片公司正式資料",
           "role": "first_party",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/crayonsinchan-29/ep/1050",
@@ -25603,7 +28777,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "label": "原期歌曲、名義與逐話用途交叉核對",
           "role": "cross_check",
           "language": "ja",
-          "verifiedAt": "2026-11-15"
+          "verifiedAt": "2026-11-20"
         },
         {
           "url": "https://www.mau2.com/anime/crayonsinchan-28/ep/1006",
@@ -25625,9 +28799,56 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "role": "cross_check",
           "language": "ja",
           "verifiedAt": "2026-11-19"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+          "label": "朝日電視台｜2018年日本原播檔案",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27/ep/961",
+          "label": "2018第961話逐話紀錄｜插曲與片尾演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/",
+          "label": "《蠟筆小新》30周年官方｜1993原聲新版數位曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1657585453&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://linkco.re/E5VGFFvX?lang=ja",
+          "label": "TV Asahi Music／TuneCore｜原聲數位發行及曲目創作署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1657586070",
+          "label": "日本｜アクション仮面の唄",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-action-kamen-song-song-character-best",
+          "releaseId": "apple-jp-1657585453",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
       "evidence": [
         {
           "target": "anime_use",
@@ -25708,6 +28929,83 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "verifiedAt": "2026-11-19",
           "targetId": "crayon-shin-chan-in-1"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/961",
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-in-1"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/961",
+            "https://www.uta-net.com/song/11524/",
+            "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1657585453&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-action-kamen-song-song-character-best"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1657585453&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1657585453"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1657585453&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1657586070"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/",
+            "https://linkco.re/E5VGFFvX?lang=ja"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1657585453"
         }
       ],
       "sourceMode": "explicit",
@@ -25715,10 +29013,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "2020-summer",
         "2020-fall",
         "2019-summer",
-        "2019-fall"
+        "2019-fall",
+        "2018-spring"
       ],
-      "usageLabel": "2020年夏、秋多回劇中使用，包括第1050、1051、1059話 2019/8/23第1006話及12/7第1016話另有劇中使用。",
-      "lastVerifiedAt": "2026-11-19",
+      "usageLabel": "2020年夏、秋多回劇中使用，包括第1050、1051、1059話 2019/8/23第1006話及12/7第1016話另有劇中使用。 2018年4月27日第961話〈アクション仮面に変身だゾ〉版本由アクション仮面及祐天寺少年少女合唱団演出。",
+      "lastVerifiedAt": "2026-11-20",
       "credits": [
         {
           "name": "本郷満",
@@ -25735,6 +29034,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         {
           "name": "飛澤宏元",
           "role": "arrangement"
+        },
+        {
+          "role": "vocals",
+          "name": "玄田哲章"
+        },
+        {
+          "role": "vocals",
+          "name": "祐天寺少年少女合唱団"
         }
       ],
       "recordings": [
@@ -25767,6 +29074,26 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           ],
           "label": "日本コロムビア",
           "catalogNumber": "COCX-33076～7"
+        },
+        {
+          "id": "apple-jp-1657585453",
+          "title": "Kureyonshinchan",
+          "artistDisplayName": "Various Artists",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "1993-08-10",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "アクション仮面の唄",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-action-kamen-song-song-character-best"
+            }
+          ]
         }
       ],
       "followUp": [
@@ -25778,6 +29105,15 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "note": "已核原唱片的角色歌曲；2020年逐話位置由分集曲表支持，實際畫面或剪輯待核。",
           "resumeWhen": "待可辨識原播音軌或權利方版別說明，並按地區核對完整播放。",
           "checkedAt": "2026-11-15"
+        },
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "朝日電視台音樂部的1993年合輯經2022年重新數位發行。日本Apple Music核對原唱。第968、978話亦有同曲紀錄。",
+          "resumeWhen": "取得第968、978話地上波原播的音軌及掛字以確認實際演唱版本，並查核香港曲位。",
+          "checkedAt": "2026-11-20"
         }
       ]
     },
@@ -26852,8 +30188,2662 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           "checkedAt": "2026-11-19"
         }
       ]
+    },
+    {
+      "id": "crayon-shin-chan-in-4",
+      "songId": "crayon-shin-chan-action-kamen-song-song",
+      "type": "IN",
+      "sequence": 4,
+      "titleJa": "アクション仮面の唄",
+      "artistDisplayName": "野原しんのすけ（CV：小林由美子）",
+      "seasonIds": [
+        "2018-summer"
+      ],
+      "usageLabel": "日本TV第975話（8月24日）一處劇中由小林由美子以小新演唱。當回無獨立片尾。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "小林由美子"
+        },
+        {
+          "role": "lyrics",
+          "name": "本郷満"
+        },
+        {
+          "role": "lyrics",
+          "name": "浅田有理"
+        },
+        {
+          "role": "composition",
+          "name": "荒川敏行"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/",
+          "label": "《蠟筆小新》30周年官方｜1993原聲新版數位曲目",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-33076-7/",
+          "label": "日本コロムビア｜原角色歌及日版角色歌精選曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27/ep/975",
+          "label": "2018第975話逐話紀錄｜小林由美子以小新角色演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/contents/story/0094/",
+          "label": "朝日電視台｜8月24日第975話原播故事",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://linkco.re/E5VGFFvX?lang=ja",
+          "label": "TV Asahi Music／TuneCore｜原聲數位發行及曲目創作署名",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.uta-net.com/song/11524/",
+          "label": "歌ネット｜〈アクション仮面の唄〉日本原詞曲編",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.shinchan-app.jp/30th-anniv-anime/news/theme-song-cd-streaming-1993-97/",
+            "https://columbia.jp/prod-info/COCX-33076-7/",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/975"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-action-kamen-song-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/story/0094/",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/975",
+            "https://columbia.jp/prod-info/COCX-33076-7/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-in-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/975",
+            "https://linkco.re/E5VGFFvX?lang=ja",
+            "https://www.uta-net.com/song/11524/"
+          ],
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recordings",
+            "arrangement",
+            "platform_links"
+          ],
+          "note": "逐話來源可確認作品內角色演唱，此場次錄音的編曲與商業發行未見。",
+          "resumeWhen": "取得日本原播音軌或權利方發表小林由美子本段的單獨錄音，再對應到同一歌曲下。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "crayon-shin-chan-op-5",
+      "songId": "crayon-shin-chan-op-5-song",
+      "type": "OP",
+      "sequence": 5,
+      "titleJa": "キミに100パーセント",
+      "artistDisplayName": "きゃりーぱみゅぱみゅ",
+      "seasonIds": [
+        "2018-winter",
+        "2018-spring"
+      ],
+      "usageLabel": "2018日本TV第951–953話（1月12–26日）及第965–969話（6月1–29日）片頭；7月6日第970話更換。2012年起的較早使用按各季另行核對。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "きゃりーぱみゅぱみゅ"
+        },
+        {
+          "role": "lyrics",
+          "name": "中田ヤスタカ"
+        },
+        {
+          "role": "composition",
+          "name": "中田ヤスタカ"
+        },
+        {
+          "role": "arrangement",
+          "name": "中田ヤスタカ"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://wmg.jp/kyary/discography/9397",
+          "label": "Warner Music Japan｜日本動畫單曲B盤及電視版",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://kyary.asobisystem.com/discography/detail/4777/",
+          "label": "きゃりーぱみゅぱみゅ官方｜2012動畫版先行配信及單曲B盤",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nSCqFvQesb0",
+          "label": "Warner授權Art Track｜《なんだこれくしょん》原唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ex-maniacs.tv-asahi.co.jp/ch/ex_maniacs/post-32065/",
+          "label": "朝日電視台30周年｜兩首主題曲最初電視集數",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+          "label": "朝日電視台｜2018年日本原播檔案",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+          "label": "日本動畫歌曲與節目編排資料｜逐話及片頭畫面版本",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27",
+          "label": "2018日本逐話曲表｜片頭片尾更換及劇中歌",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-26",
+          "label": "2018冬日本逐話曲表｜片頭、片尾及插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27/ep/969",
+          "label": "2018第969話逐話紀錄｜6月29日最後使用的上代片頭",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.uta-net.com/song/140147/",
+          "label": "歌ネット｜詞曲編及演唱",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://wmg.jp/kyary/discography/9396",
+          "label": "Warner Music Japan｜日本通常盤A及原曲",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-41902-5/",
+          "label": "日本コロムビア｜《蠟筆小新》30周年4CD原曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=592025608&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=592025608&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=592025608&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=593338427&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=593338427&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=593338427&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=581768413&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=581768413&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=581768413&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=660107804&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=660107804&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=660107804&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1103995070&country=hk&entity=song&limit=200",
+          "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1103995070&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1103995070&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=6776130245&country=tw&entity=song&limit=200",
+          "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=6776130245&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://kyary.asobisystem.com/news/detail/81807",
+          "label": "きゃりーぱみゅぱみゅ官方｜THE FIRST TAKE版本",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.oricon.co.jp/pressrelease/2854945/",
+          "label": "ASOBISYSTEM官方新聞稿｜2026年另錄表演音軌日期、名義和官方本編",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/3BPnFpAL02Bos8EoTLnO9R",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/1qL3lAvrurNvpif4BiYsTF",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/5c3oGSilU5FX2it4pjNBGM",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dXsTd3xZi5k",
+          "label": "THE FIRST TAKE官方頻道｜2026獨立表演",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397",
+            "https://kyary.asobisystem.com/discography/detail/4777/",
+            "https://www.youtube.com/watch?v=nSCqFvQesb0"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://ex-maniacs.tv-asahi.co.jp/ch/ex_maniacs/post-32065/",
+            "https://wmg.jp/kyary/discography/9397",
+            "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+            "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93_(%E3%82%A2%E3%83%8B%E3%83%A1)",
+            "https://www.mau2.com/anime/crayonsinchan-27",
+            "https://www.mau2.com/anime/crayonsinchan-26",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/969"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.uta-net.com/song/140147/",
+            "https://wmg.jp/kyary/discography/9396",
+            "https://kyary.asobisystem.com/discography/detail/4777/"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "wpcl-11293"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-tv"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9396"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://wmg.jp/kyary/discography/9396"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "wpcl-11289"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-41902-5/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-41902-5/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-41902-5"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-592025608"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/592025990"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-592025608"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/592025990"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-592025608"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=592025608&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/592025990"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-593338427"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/593338428"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-593338427"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/593338428"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-593338427"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=593338427&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/593338428"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-581768413"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/581768417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-581768413"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/581768417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-tv"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-581768413"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=581768413&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/581768417"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-660107804"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/660107971"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-660107804"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/660107971"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-660107804"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=660107804&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/660107971"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-hk-1103995070"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=hk&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/hk/song/1103995602"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-1103995070"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/1103995602"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1103995070"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1103995070&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1103995602"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-first-take"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-first-take"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-tw-6776130245"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=tw&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/tw/song/6776130612"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-first-take"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-6776130245"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=6776130245&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/6776130612"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://kyary.asobisystem.com/news/detail/81807",
+            "https://www.oricon.co.jp/pressrelease/2854945/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-op-5-song-first-take"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/3BPnFpAL02Bos8EoTLnO9R"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/3BPnFpAL02Bos8EoTLnO9R"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/1qL3lAvrurNvpif4BiYsTF"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/1qL3lAvrurNvpif4BiYsTF"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/5c3oGSilU5FX2it4pjNBGM"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/5c3oGSilU5FX2it4pjNBGM"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=nSCqFvQesb0",
+            "https://wmg.jp/kyary/discography/9397"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "nSCqFvQesb0"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=dXsTd3xZi5k",
+            "https://www.oricon.co.jp/pressrelease/2854945/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "dXsTd3xZi5k"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-op-5-song-vocal",
+          "title": "キミに100パーセント",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "crayon-shin-chan-op-5-song-tv",
+          "title": "キミに100パーセント（アニメヴァージョン）",
+          "kind": "vocal",
+          "format": "tv"
+        },
+        {
+          "id": "crayon-shin-chan-op-5-song-first-take",
+          "title": "キミに100パーセント - From THE FIRST TAKE",
+          "kind": "live",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "wpcl-11293",
+          "title": "キミに100パーセント / ふりそでーしょん",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "日本《蠟筆小新》通常盤B",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            },
+            {
+              "title": "キミに100パーセント（アニメヴァージョン）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-tv"
+            }
+          ],
+          "catalogNumber": "WPCL-11293"
+        },
+        {
+          "id": "wpcl-11289",
+          "title": "キミに100パーセント / ふりそでーしょん",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "日本通常盤A",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ],
+          "catalogNumber": "WPCL-11289"
+        },
+        {
+          "id": "cocx-41902-5",
+          "title": "プリッと！こんぷりーと クレヨンしんちゃん30周年記念テーマソング集",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2022-11-30",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 15,
+              "disc": 2,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-41902-5"
+        },
+        {
+          "id": "apple-hk-592025608",
+          "title": "キミに100パーセント - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-592025608",
+          "title": "キミに100パーセント - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-592025608",
+          "title": "キミに100パーセント - Single",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-593338427",
+          "title": "Kimini 100 Percent / Furisodeshon - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-593338427",
+          "title": "Kimini 100 Percent / Furisodeshon - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-593338427",
+          "title": "Kimini 100 Percent / Furisodeshon - Single",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2013-01-30",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-581768413",
+          "title": "Kimini 100 Percent (Anime Version) - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "HK",
+          "date": {
+            "value": "2012-12-07",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent (Anime Version)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-581768413",
+          "title": "Kimini 100 Percent (Anime Version) - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2012-12-07",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent (Anime Version)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-581768413",
+          "title": "Kimini 100 Percent (Anime Version) - Single",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2012-12-07",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント(アニメヴァージョン)",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-tv"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-660107804",
+          "title": "Nanda Collection",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2013-06-26",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-660107804",
+          "title": "Nanda Collection",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2013-06-26",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "Kimini 100 Percent",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-660107804",
+          "title": "Nanda Collection",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2013-06-26",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-hk-1103995070",
+          "title": "KPP BEST",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "album",
+          "region": "HK",
+          "date": {
+            "value": "2016-05-25",
+            "precision": "day"
+          },
+          "edition": "香港數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-1103995070",
+          "title": "KPP BEST",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "album",
+          "region": "TW",
+          "date": {
+            "value": "2016-05-25",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1103995070",
+          "title": "KPP BEST",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2016-05-25",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント",
+              "position": 8,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-tw-6776130245",
+          "title": "キミに100パーセント - From THE FIRST TAKE - Single",
+          "artistDisplayName": "Kyary Pamyu Pamyu",
+          "type": "single",
+          "region": "TW",
+          "date": {
+            "value": "2026-06-12",
+            "precision": "day"
+          },
+          "edition": "台灣數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント - From THE FIRST TAKE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-first-take"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-6776130245",
+          "title": "キミに100パーセント - From THE FIRST TAKE - Single",
+          "artistDisplayName": "きゃりーぱみゅぱみゅ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2026-06-12",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "キミに100パーセント - From THE FIRST TAKE",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-op-5-song-first-take"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/592025990",
+          "label": "香港｜キミに100パーセント",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-hk-592025608",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/592025990",
+          "label": "台灣｜キミに100パーセント",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-tw-592025608",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/592025990",
+          "label": "日本｜キミに100パーセント",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-jp-592025608",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/593338428",
+          "label": "香港｜Kimini 100 Percent",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-hk-593338427",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/593338428",
+          "label": "台灣｜Kimini 100 Percent",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-tw-593338427",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/593338428",
+          "label": "日本｜キミに100パーセント",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-jp-593338427",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/581768417",
+          "label": "香港｜Kimini 100 Percent (Anime Version)",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-tv",
+          "releaseId": "apple-hk-581768413",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/581768417",
+          "label": "台灣｜Kimini 100 Percent (Anime Version)",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-tv",
+          "releaseId": "apple-tw-581768413",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/581768417",
+          "label": "日本｜キミに100パーセント(アニメヴァージョン)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-tv",
+          "releaseId": "apple-jp-581768413",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/660107971",
+          "label": "香港｜Kimini 100 Percent",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-hk-660107804",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/660107971",
+          "label": "台灣｜Kimini 100 Percent",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-tw-660107804",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/660107971",
+          "label": "日本｜キミに100パーセント",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-jp-660107804",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/hk/song/1103995602",
+          "label": "香港｜キミに100パーセント",
+          "region": "HK",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-hk-1103995070",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/1103995602",
+          "label": "台灣｜キミに100パーセント",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-tw-1103995070",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1103995602",
+          "label": "日本｜キミに100パーセント",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "releaseId": "apple-jp-1103995070",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/tw/song/6776130612",
+          "label": "台灣｜キミに100パーセント - From THE FIRST TAKE",
+          "region": "TW",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-first-take",
+          "releaseId": "apple-tw-6776130245",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/6776130612",
+          "label": "日本｜キミに100パーセント - From THE FIRST TAKE",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-first-take",
+          "releaseId": "apple-jp-6776130245",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/3BPnFpAL02Bos8EoTLnO9R",
+          "label": "Spotify｜キミに100パーセント",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/1qL3lAvrurNvpif4BiYsTF",
+          "label": "Spotify｜キミに100パーセント",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-tv",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/5c3oGSilU5FX2it4pjNBGM",
+          "label": "Spotify｜キミに100パーセント",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-op-5-song-first-take",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "platform_availability"
+          ],
+          "note": "香港Apple Music確認約3分20秒原唱與約1分7秒電視版；2026一發錄音有小林由美子的新錄角色聲，確認日本、台灣及Spotify曲位。",
+          "resumeWhen": "查到2026一發錄音的香港區直連或電視另行發行版的地域入口。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "crayon-shin-chan-ed-4",
+      "songId": "crayon-shin-chan-ed-4-song",
+      "type": "ED",
+      "sequence": 4,
+      "titleJa": "笑一笑 〜シャオイーシャオ！〜",
+      "artistDisplayName": "ももいろクローバーZ",
+      "seasonIds": [
+        "2018-winter",
+        "2018-spring"
+      ],
+      "usageLabel": "日本TV第954–964話（2018年2月2日至5月25日）的電影宣傳片尾。6月1日第965話恢復獨立片頭。",
+      "credits": [
+        {
+          "role": "vocals",
+          "name": "百田夏菜子"
+        },
+        {
+          "role": "vocals",
+          "name": "玉井詩織"
+        },
+        {
+          "role": "vocals",
+          "name": "佐々木彩夏"
+        },
+        {
+          "role": "vocals",
+          "name": "高城れに"
+        },
+        {
+          "role": "lyrics",
+          "name": "只野菜摘"
+        },
+        {
+          "role": "composition",
+          "name": "invisible manners"
+        },
+        {
+          "role": "arrangement",
+          "name": "invisible manners"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20",
+      "sourceMode": "explicit",
+      "sources": [
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/contents/news/0078/",
+          "label": "朝日電視台｜2月2日電影宣傳片尾首播",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.kingrecords.co.jp/cs/g/gKIZM-551/",
+          "label": "King Records｜電影主題歌通常錄音、兩種實體版及伴奏曲序",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://mcz-release.com/sound/xiao_yi_xiao/",
+          "label": "King Records發行專頁｜歌曲、成員及官方MV",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+          "label": "朝日電視台｜2018年日本原播檔案",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27",
+          "label": "2018日本逐話曲表｜片頭片尾更換及劇中歌",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-26",
+          "label": "2018冬日本逐話曲表｜片頭、片尾及插曲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.mau2.com/anime/crayonsinchan-27/ep/961",
+          "label": "2018第961話逐話紀錄｜插曲與片尾演唱名義",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)",
+          "label": "繁中逐期歌曲資料｜原播集數與演出",
+          "role": "cross_check",
+          "language": "zh-Hant",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EiegEWvypNk",
+          "label": "King Records授權Art Track｜原單曲詞曲與演唱",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://tower.jp/item/4673558",
+          "label": "Tower Records｜唱片歌曲製作署名",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCX-41902-5/",
+          "label": "日本コロムビア｜《蠟筆小新》30周年4CD原曲曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://itunes.apple.com/lookup?id=1699372584&country=jp&entity=song&limit=200",
+          "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://news.kingrecords.co.jp/2023/05/15538/",
+          "label": "King Records｜2023年5月17日代代木演出紀錄",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://open.spotify.com/track/1ooWLw302ogeLhAssaDbtr",
+          "label": "Spotify｜原演唱者及獨立曲位",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=CbJx788qTao",
+          "label": "Momoiro Clover Z官方MV｜〈笑一笑 〜シャオイーシャオ！〜〉",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0078/",
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/",
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song"
+        },
+        {
+          "target": "anime_use",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0078/",
+            "https://www.tv-asahi.co.jp/shinchan/story/backnumber/?year=2018",
+            "https://www.mau2.com/anime/crayonsinchan-27",
+            "https://www.mau2.com/anime/crayonsinchan-26",
+            "https://www.mau2.com/anime/crayonsinchan-27/ep/961",
+            "https://zh.wikipedia.org/wiki/%E8%A0%9F%E7%AD%86%E5%B0%8F%E6%96%B0_(%E5%8B%95%E7%95%AB)"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EiegEWvypNk",
+            "https://tower.jp/item/4673558",
+            "https://www.tv-asahi.co.jp/shinchan/contents/news/0078/",
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "kizm-551-2"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-off-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-off-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "kicm-1842"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-off-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-41902-5/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist",
+            "catalog_number"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCX-41902-5/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "cocx-41902-5"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-vocal"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1363873847"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1363873849"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-off-vocal"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1363873847&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1363873852"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1699372584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-yoyogi-2023"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "format"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1699372584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-yoyogi-2023"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "edition",
+            "tracklist"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1699372584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "apple-jp-1699372584"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type",
+            "availability"
+          ],
+          "sourceUrls": [
+            "https://itunes.apple.com/lookup?id=1699372584&country=jp&entity=song&limit=200"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://music.apple.com/jp/song/1699372596"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://news.kingrecords.co.jp/2023/05/15538/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "crayon-shin-chan-ed-4-song-yoyogi-2023"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url",
+            "type"
+          ],
+          "sourceUrls": [
+            "https://open.spotify.com/track/1ooWLw302ogeLhAssaDbtr"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "https://open.spotify.com/track/1ooWLw302ogeLhAssaDbtr"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=CbJx788qTao",
+            "https://mcz-release.com/sound/xiao_yi_xiao/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "CbJx788qTao"
+        },
+        {
+          "target": "video",
+          "fields": [
+            "title",
+            "type",
+            "url"
+          ],
+          "sourceUrls": [
+            "https://www.youtube.com/watch?v=EiegEWvypNk",
+            "https://www.kingrecords.co.jp/cs/g/gKIZM-551/"
+          ],
+          "verifiedAt": "2026-11-20",
+          "targetId": "EiegEWvypNk"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "crayon-shin-chan-ed-4-song-vocal",
+          "title": "笑一笑 〜シャオイーシャオ！〜",
+          "kind": "vocal",
+          "format": "full"
+        },
+        {
+          "id": "crayon-shin-chan-ed-4-song-off-vocal",
+          "title": "笑一笑 〜シャオイーシャオ！〜（off vocal ver.）",
+          "kind": "instrumental",
+          "format": "full"
+        },
+        {
+          "id": "crayon-shin-chan-ed-4-song-yoyogi-2023",
+          "title": "笑一笑 ～シャオイーシャオ!～ (Live at 国立代々木競技場 第一体育館 2023.5.17)",
+          "kind": "live",
+          "format": "full"
+        }
+      ],
+      "releases": [
+        {
+          "id": "kizm-551-2",
+          "title": "笑一笑 〜シャオイーシャオ！〜",
+          "artistDisplayName": "ももいろクローバーZ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-11",
+            "precision": "day"
+          },
+          "edition": "日本ももクロCD＋Blu-ray",
+          "tracks": [
+            {
+              "title": "笑一笑 〜シャオイーシャオ！〜",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-vocal"
+            },
+            {
+              "title": "笑一笑 〜シャオイーシャオ！〜（off vocal ver.）",
+              "position": 3,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-off-vocal"
+            }
+          ],
+          "catalogNumber": "KIZM-551-2"
+        },
+        {
+          "id": "kicm-1842",
+          "title": "笑一笑 〜シャオイーシャオ！〜",
+          "artistDisplayName": "ももいろクローバーZ",
+          "type": "single",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-11",
+            "precision": "day"
+          },
+          "edition": "日本《蠟筆小新》CD",
+          "tracks": [
+            {
+              "title": "笑一笑 〜シャオイーシャオ！〜",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-vocal"
+            },
+            {
+              "title": "笑一笑 〜シャオイーシャオ！〜（off vocal ver.）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-off-vocal"
+            }
+          ],
+          "catalogNumber": "KICM-1842"
+        },
+        {
+          "id": "cocx-41902-5",
+          "title": "プリッと！こんぷりーと クレヨンしんちゃん30周年記念テーマソング集",
+          "artistDisplayName": "V.A.",
+          "type": "compilation",
+          "region": "JP",
+          "date": {
+            "value": "2022-11-30",
+            "precision": "day"
+          },
+          "edition": "日本4CD",
+          "tracks": [
+            {
+              "title": "笑一笑 〜シャオイーシャオ！〜",
+              "position": 11,
+              "disc": 4,
+              "recordingId": "crayon-shin-chan-ed-4-song-vocal"
+            }
+          ],
+          "catalogNumber": "COCX-41902-5"
+        },
+        {
+          "id": "apple-jp-1363873847",
+          "title": "笑一笑 ~シャオイーシャオ!~ (しんちゃん盤) - EP",
+          "artistDisplayName": "ももいろクローバーZ",
+          "type": "ep",
+          "region": "JP",
+          "date": {
+            "value": "2018-04-11",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "笑一笑 ~シャオイーシャオ!~",
+              "position": 1,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-vocal"
+            },
+            {
+              "title": "笑一笑 ~シャオイーシャオ!~ (off vocal ver.)",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-off-vocal"
+            }
+          ]
+        },
+        {
+          "id": "apple-jp-1699372584",
+          "title": "Yoyogi Mugendai Kinenbi (Live at Yoyogi National Stadium 1st Gymnasium 2023.5.17)",
+          "artistDisplayName": "ももいろクローバーZ",
+          "type": "album",
+          "region": "JP",
+          "date": {
+            "value": "2023-08-25",
+            "precision": "day"
+          },
+          "edition": "日本數位版",
+          "tracks": [
+            {
+              "title": "笑一笑 ～シャオイーシャオ!～ (Live at 国立代々木競技場 第一体育館 2023.5.17)",
+              "position": 11,
+              "disc": 1,
+              "recordingId": "crayon-shin-chan-ed-4-song-yoyogi-2023"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1363873849",
+          "label": "日本｜笑一笑 ~シャオイーシャオ!~",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-ed-4-song-vocal",
+          "releaseId": "apple-jp-1363873847",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1363873852",
+          "label": "日本｜笑一笑 ~シャオイーシャオ!~ (off vocal ver.)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-ed-4-song-off-vocal",
+          "releaseId": "apple-jp-1363873847",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Apple Music",
+          "url": "https://music.apple.com/jp/song/1699372596",
+          "label": "日本｜笑一笑 ～シャオイーシャオ!～ (Live at 国立代々木競技場 第一体育館 2023.5.17)",
+          "region": "JP",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-ed-4-song-yoyogi-2023",
+          "releaseId": "apple-jp-1699372584",
+          "availability": "available",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "platform": "Spotify",
+          "url": "https://open.spotify.com/track/1ooWLw302ogeLhAssaDbtr",
+          "label": "Spotify｜笑一笑 〜シャオイーシャオ！〜",
+          "region": "UNKNOWN",
+          "linkType": "direct_track",
+          "recordingId": "crayon-shin-chan-ed-4-song-vocal",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "followUp": [
+        {
+          "fields": [
+            "recording_format",
+            "platform_availability"
+          ],
+          "note": "日本唱片和Apple Music確認原唱、off vocal與代代木2023現場版。香港同專輯查到發行頁，未驗到相應歌曲的可播曲位。",
+          "resumeWhen": "取得香港可播單曲資料、日本TV片末完整音軌，並細查3月個別特番的非連續集數。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
     }
-  ]
+  ],
+  "titleZhHant": "蠟筆小新"
 },
   {
     "anilistId": 6149,
@@ -26891,15 +32881,19 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "2019-fall",
       "2019-summer",
       "2019-spring",
-      "2019-winter"
+      "2019-winter",
+      "2018-winter",
+      "2018-spring",
+      "2018-summer",
+      "2018-fall"
     ],
     "startDate": "1995-01-08",
     "titleJa": "ちびまる子ちゃん",
     "titleRomaji": "Chibi Maruko-chan (1995)",
     "editorialWeekday": 7,
     "broadcastTimeJst": "18:00",
-    "broadcastLabel": "第2期日本TV：1995/1/8起，富士電視台系週日18:00。第1243話2020/4/26首播後，5/3至6/14改播舊話；第1244話於6/21恢復新作播出，重製舊腳本的十週企劃由此開始。",
-    "metadataVerifiedAt": "2026-11-19",
+    "broadcastLabel": "第2期日本TV：1995/1/8起，富士電視台系週日18:00。第1243話2020/4/26首播後，5/3至6/14改播舊話；第1244話於6/21恢復新作播出，重製舊腳本的十週企劃由此開始。 2018年亦於週日18:00–18:30 JST播出。",
+    "metadataVerifiedAt": "2026-11-20",
     "status": "airing",
     "officialSiteUrl": "https://chibimaru.tv/",
     "anilistUrl": "https://anilist.co/anime/6149",
@@ -26907,7 +32901,10 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
       "https://www.animatetimes.com/news/details.php?id=1772672652",
       "https://www.chibimaru.tv/about/story/2019/",
-      "https://www.chibimaru.tv/news/entry/2019/006294.html"
+      "https://www.chibimaru.tv/news/entry/2019/006294.html",
+      "https://www.chibimaru.tv/about/story/2018/",
+      "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+      "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20250115162846000_61092761.pdf"
     ],
     "verifiedAt": "2026-10-19",
     "metadataSources": [
@@ -26980,6 +32977,27 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "role": "first_party",
         "language": "ja",
         "verifiedAt": "2026-11-19"
+      },
+      {
+        "url": "https://www.chibimaru.tv/about/story/2018/",
+        "label": "作品官方｜2018年原播分集及9月2日改播",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+        "label": "日本アニメーション｜2018年夏季週日18:00–18:30及8月四週原播專題",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://img.tvb.com/ti_img/event/static/programmeconnect2021/pdf/file_path_20250115162846000_61092761.pdf",
+        "label": "TVB翡翠台2025年1月節目表｜香港繁中片名（第2輯）",
+        "role": "localized_cross_check",
+        "language": "zh-Hant",
+        "verifiedAt": "2026-11-20"
       }
     ],
     "themes": [
@@ -28302,10 +34320,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "titleJa": "おどるポンポコリン",
         "artistDisplayName": "ゴールデンボンバー",
         "seasonIds": [
-          "2019-winter"
+          "2019-winter",
+          "2018-winter",
+          "2018-spring",
+          "2018-summer",
+          "2018-fall"
         ],
-        "usageLabel": "日本TV第2期：2019冬第1190話（3/31）仍用ゴールデンボンバー版本；4/7起改由ももいろクローバーZ演唱。",
-        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "日本TV第2期：2019冬第1190話（3/31）仍用ゴールデンボンバー版本；4/7起改由ももいろクローバーZ演唱。 2018年常規片頭。夏季新播第1156–1167話（7月1日至9月30日），12月23日一小時特別話同樣使用。",
+        "lastVerifiedAt": "2026-11-20",
         "sourceMode": "explicit",
         "sources": [
           {
@@ -28327,7 +34349,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "label": "ゴールデンボンバー：片頭原唱、單曲曲序與卡拉OK版",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.chibimaru.tv/news/entry/2019/006122.html",
@@ -28363,6 +34385,104 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "en",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "作品官方｜2018年原播分集及9月2日改播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+            "label": "日本アニメーション｜2018年夏季週日18:00–18:30及8月四週原播專題",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27",
+            "label": "2018年日本原播節目紀錄｜常規片頭及片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "日本アニメーション｜12月23日年末一小時特別編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "2018年12月23日特別話節目紀錄｜片頭及片尾署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+            "label": "繁中作品資料｜第2期播出和主題曲沿革",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/album/2fcad7f81f23374bda46",
+            "label": "AWA日本｜ゴールデンボンバー單曲與原版、卡拉OK版長度",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/95fe4e21ea11e638ed09",
+            "label": "AWA日本｜ゴールデンボンバー單曲第1曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/31adcc2cc324648caa11",
+            "label": "AWA日本｜ゴールデンボンバー單曲第3曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=aYIy1u40eQ4",
+            "label": "ゴールデンボンバー授權Art Track｜單曲演唱版",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ksDWdSE_m2g",
+            "label": "ゴールデンボンバー授權Art Track｜原版卡拉OK",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=LXKzI6b384M",
+            "label": "ゴールデンボンバー官方頻道｜現場畫面MV",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -28488,6 +34608,250 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "apple-hk-1166487859"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+              "https://www.mau2.com/anime/tibimarukochan-27",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://s.awa.fm/album/2fcad7f81f23374bda46",
+              "https://s.awa.fm/track/95fe4e21ea11e638ed09"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/95fe4e21ea11e638ed09"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/95fe4e21ea11e638ed09"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286",
+              "https://s.awa.fm/album/2fcad7f81f23374bda46",
+              "https://s.awa.fm/track/31adcc2cc324648caa11"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/31adcc2cc324648caa11"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/31adcc2cc324648caa11"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1166487859"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1166488042"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1166487859"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1166488042"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1166488046"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1166488046"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=aYIy1u40eQ4",
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "aYIy1u40eQ4"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=ksDWdSE_m2g",
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "ksDWdSE_m2g"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=LXKzI6b384M",
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "LXKzI6b384M"
           }
         ],
         "credits": [
@@ -28510,6 +34874,11 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           {
             "name": "ゴールデンボンバー",
             "role": "vocals"
+          },
+          {
+            "name": "鬼龍院翔",
+            "role": "vocals",
+            "groupName": "ゴールデンボンバー"
           }
         ],
         "recordings": [
@@ -28517,13 +34886,13 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
             "title": "おどるポンポコリン（ゴールデンボンバー）",
             "kind": "vocal",
-            "format": "unknown"
+            "format": "full"
           },
           {
             "id": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
             "title": "おどるポンポコリン（オリジナル・カラオケ）",
             "kind": "instrumental",
-            "format": "unknown"
+            "format": "full"
           }
         ],
         "releases": [
@@ -28575,6 +34944,58 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
                 "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
               }
             ]
+          },
+          {
+            "id": "apple-tw-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "artistDisplayName": "Golden Bomber",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Odoru Ponpokorin",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+              },
+              {
+                "title": "Odoru Ponpokorin (Karaoke)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "artistDisplayName": "ゴールデンボンバー",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "おどるポンポコリン",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal"
+              },
+              {
+                "title": "おどるポンポコリン(オリジナル・カラオケ)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke"
+              }
+            ]
           }
         ],
         "links": [
@@ -28599,6 +35020,70 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "releaseId": "apple-hk-1166487859",
             "availability": "available",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/95fe4e21ea11e638ed09",
+            "label": "AWA｜おどるポンポコリン",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/31adcc2cc324648caa11",
+            "label": "AWA｜おどるポンポコリン",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1166488042",
+            "label": "台灣｜Odoru Ponpokorin",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
+            "releaseId": "apple-tw-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1166488042",
+            "label": "日本｜おどるポンポコリン",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-cd-vocal",
+            "releaseId": "apple-jp-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1166488046",
+            "label": "台灣｜Odoru Ponpokorin (Karaoke)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
+            "releaseId": "apple-tw-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1166488046",
+            "label": "日本｜おどるポンポコリン(オリジナル・カラオケ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-odoru-ponpokorin-song-golden-bomber-karaoke",
+            "releaseId": "apple-jp-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "followUp": [
@@ -28609,6 +35094,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
             "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
             "checkedAt": "2026-11-19"
+          },
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "CD演唱與卡拉OK均有全長版本。團員喜矢武豊、歌広場淳、樽美酒研二也有錄聲。9月2日以2011年節目內容改播。",
+            "resumeWhen": "取得9月2日地上波合法原播或權利方完整掛字，核對追悼重播的片頭與常規片頭剪輯。",
+            "checkedAt": "2026-11-20"
           }
         ]
       },
@@ -28622,10 +35115,14 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
         "seasonIds": [
           "2019-winter",
           "2019-spring",
-          "2019-summer"
+          "2019-summer",
+          "2018-winter",
+          "2018-spring",
+          "2018-summer",
+          "2018-fall"
         ],
-        "usageLabel": "2019年第2期常規片尾。3/31第1190話及9/29第1216話可核。5/19第1197話改用〈走れ正直者〉，5/26第1198話恢復；10/6起換曲。",
-        "lastVerifiedAt": "2026-11-19",
+        "usageLabel": "2019年第2期常規片尾。3/31第1190話及9/29第1216話可核。5/19第1197話改用〈走れ正直者〉，5/26第1198話恢復；10/6起換曲。 2018年常規片尾。夏季新播第1156–1167話（7月1日至9月30日），12月23日一小時特別話同樣使用。9月2日追悼改播的同期收看紀錄也記載PUFFY片尾。",
+        "lastVerifiedAt": "2026-11-20",
         "sourceMode": "explicit",
         "sources": [
           {
@@ -28633,7 +35130,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品官方：PUFFY常規片尾啟用",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.mau2.com/anime/tibimarukochan-28",
@@ -28647,7 +35144,7 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "label": "作品官方：PUFFY的90秒電視剪輯及完整數位音源",
             "role": "first_party",
             "language": "ja",
-            "verifiedAt": "2026-11-19"
+            "verifiedAt": "2026-11-20"
           },
           {
             "url": "https://www.chibimaru.tv/about/story/2019/",
@@ -28690,6 +35187,153 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "role": "first_party",
             "language": "en",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "url": "https://www.fujitv.co.jp/muscat/20170234.html",
+            "label": "富士電視台｜PUFFY演唱、詞曲及片尾用途",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "作品官方｜2018年原播分集及9月2日改播",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+            "label": "日本アニメーション｜2018年夏季週日18:00–18:30及8月四週原播專題",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27",
+            "label": "2018年日本原播節目紀錄｜常規片頭及片尾",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "日本アニメーション｜12月23日年末一小時特別編成",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "2018年12月23日特別話節目紀錄｜片頭及片尾署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.oricon.co.jp/news/2118724/full/",
+            "label": "ORICON同期報道｜9月2日追悼改播的集名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://girlschannel.net/topics/1781474/",
+            "label": "日本9月2日同步收看記錄｜PUFFY片尾及追悼字幕",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90",
+            "label": "繁中作品資料｜第2期播出和主題曲沿革",
+            "role": "cross_check",
+            "language": "zh-Hant",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://wmg.jp/puffy/news/86858",
+            "label": "Warner Music Japan｜日本專輯第5曲詞曲編及錄音署名",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://wmg.jp/puffy/discography/24784",
+            "label": "Warner Music Japan｜三種日本實體版的相同第5曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1444761058&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1444761058&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1580936928&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1580936928&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1580936928&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://wmg.jp/puffy/discography/20360",
+            "label": "Warner Music Japan｜完整數位單曲與發行日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/0Xq2gowXyTrzgxF9mwr3uJ",
+            "label": "Spotify｜THE PUFFY第5曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://s.awa.fm/track/2a486a81ad40659b2922",
+            "label": "AWA日本｜PUFFY完整演唱版曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=EevnkOX9Rhk",
+            "label": "Warner Music Japan授權Art Track｜THE PUFFY第5曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=4Ne4-hfiQHQ",
+            "label": "Warner Music Japan授權Art Track｜單曲純伴奏",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "evidence": [
@@ -28816,6 +35460,439 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             ],
             "verifiedAt": "2026-11-19",
             "targetId": "apple-hk-1444761058"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2017/003208.html",
+              "https://www.fujitv.co.jp/muscat/20170234.html",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.nippon-animation.co.jp/nasys/wp-content/uploads/2018/07/180723_2018otanoshiminatsu.pdf",
+              "https://www.mau2.com/anime/tibimarukochan-27",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.oricon.co.jp/news/2118724/full/",
+              "https://girlschannel.net/topics/1781474/",
+              "https://zh.wikipedia.org/wiki/%E6%AB%BB%E6%A1%83%E5%B0%8F%E4%B8%B8%E5%AD%90"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-ed-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2017/003208.html",
+              "https://www.fujitv.co.jp/muscat/20170234.html",
+              "https://wmg.jp/puffy/news/86858",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://chibimaru.tv/news/entry/2018/006012.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-tv-90s"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/news/86858",
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpcl-13329"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/news/86858"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpcl-13329"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpzl-31902-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/news/86858"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpzl-31902-3"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpcl-13330"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/news/86858"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "wpcl-13330"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1444761058"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1444761059"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1444761058"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1444761059"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1444761060"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1444761058&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1444761060"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1580936928"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1580936934"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1580936928"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1580936934"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1580936928"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1580936928&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1580936934"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://wmg.jp/puffy/discography/20360",
+              "https://chibimaru.tv/news/entry/2018/006012.html",
+              "https://wmg.jp/puffy/news/86858"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0Xq2gowXyTrzgxF9mwr3uJ"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0Xq2gowXyTrzgxF9mwr3uJ"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://s.awa.fm/track/2a486a81ad40659b2922"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://s.awa.fm/track/2a486a81ad40659b2922"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=EevnkOX9Rhk",
+              "https://wmg.jp/puffy/discography/24784"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "EevnkOX9Rhk"
+          },
+          {
+            "target": "video",
+            "fields": [
+              "title",
+              "type",
+              "url"
+            ],
+            "sourceUrls": [
+              "https://www.youtube.com/watch?v=4Ne4-hfiQHQ",
+              "https://wmg.jp/puffy/discography/20360"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "4Ne4-hfiQHQ"
           }
         ],
         "credits": [
@@ -28834,6 +35911,16 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
           {
             "name": "PUFFY",
             "role": "vocals"
+          },
+          {
+            "name": "大貫亜美",
+            "role": "vocals",
+            "groupName": "PUFFY"
+          },
+          {
+            "name": "吉村由美",
+            "role": "vocals",
+            "groupName": "PUFFY"
           }
         ],
         "recordings": [
@@ -28880,6 +35967,181 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
                 "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental"
               }
             ]
+          },
+          {
+            "id": "wpcl-13329",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤A CD＋T恤",
+            "tracks": [
+              {
+                "title": "すすめナンセンス",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ],
+            "catalogNumber": "WPCL-13329"
+          },
+          {
+            "id": "wpzl-31902-3",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "日本初回限定盤B CD＋DVD",
+            "tracks": [
+              {
+                "title": "すすめナンセンス",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ],
+            "catalogNumber": "WPZL-31902/3"
+          },
+          {
+            "id": "wpcl-13330",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "日本通常盤CD",
+            "tracks": [
+              {
+                "title": "すすめナンセンス",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ],
+            "catalogNumber": "WPCL-13330"
+          },
+          {
+            "id": "apple-tw-1444761058",
+            "title": "Susume Nonsense - Single",
+            "artistDisplayName": "PUFFY",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-12-07",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Susume Nonsense",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              },
+              {
+                "title": "Susume Nonsense (Instrumental)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1444761058",
+            "title": "Susume Nonsense - Single",
+            "artistDisplayName": "PUFFY",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-12-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "すすめナンセンス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              },
+              {
+                "title": "すすめナンセンス (Instrumental)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1580936928",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Susume Nonsense",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1580936928",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Susume Nonsense",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1580936928",
+            "title": "THE PUFFY",
+            "artistDisplayName": "PUFFY",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2021-09-22",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "すすめナンセンス",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full"
+              }
+            ]
           }
         ],
         "links": [
@@ -28904,6 +36166,103 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "releaseId": "apple-hk-1444761058",
             "availability": "available",
             "verifiedAt": "2026-11-19"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1444761059",
+            "label": "台灣｜Susume Nonsense",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-tw-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1444761059",
+            "label": "日本｜すすめナンセンス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-jp-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1444761060",
+            "label": "台灣｜Susume Nonsense (Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental",
+            "releaseId": "apple-tw-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1444761060",
+            "label": "日本｜すすめナンセンス (Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-instrumental",
+            "releaseId": "apple-jp-1444761058",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1580936934",
+            "label": "香港｜Susume Nonsense",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-hk-1580936928",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1580936934",
+            "label": "台灣｜Susume Nonsense",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-tw-1580936928",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1580936934",
+            "label": "日本｜すすめナンセンス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "releaseId": "apple-jp-1580936928",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/0Xq2gowXyTrzgxF9mwr3uJ",
+            "label": "Spotify｜すすめナンセンス",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "AWA",
+            "url": "https://s.awa.fm/track/2a486a81ad40659b2922",
+            "label": "AWA｜すすめナンセンス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-susume-nonsense-song-digital-full",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
           }
         ],
         "followUp": [
@@ -28914,10 +36273,5217 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
             "note": "日方播出用途與商業發行分開記錄，尚待確認原播剪輯與發行音源的對應。",
             "resumeWhen": "取得可核對的同一電視話次掛字、原版剪輯或權利方音源說明。",
             "checkedAt": "2026-11-19"
+          },
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "官方記錄90秒電視剪輯及全長單曲。2021專輯第5曲沿用2018錄音。",
+            "resumeWhen": "取得2018年個別特別話完整片尾音軌，核對播出剪輯；另查2018年5月27日西城秀樹角色登場回的原播片尾掛字。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-1",
+        "songId": "chibi-maruko-chan-1995-neraiuchi-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "狙いうち",
+        "artistDisplayName": "劇中演唱名義待核",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。逐話曲表記錄為插曲，該次演出或原錄音待核。原版由山本リンダ演唱。",
+        "credits": [
+          {
+            "role": "lyrics",
+            "name": "阿久悠"
+          },
+          {
+            "role": "composition",
+            "name": "都倉俊一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCA000004592",
+            "label": "ポニーキャニオン｜山本リンダ原唱與阿久悠作品集",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/3534/",
+            "label": "歌ネット｜山本リンダ原曲詞曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb",
+            "label": "Spotify｜山本リンダ原唱單曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1632047882&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1632047882&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1632047882&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004592",
+              "https://www.uta-net.com/song/3534/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004592",
+              "https://www.uta-net.com/song/3534/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004592",
+              "https://www.uta-net.com/song/3534/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb",
+              "https://www.ponycanyon.co.jp/music/PCCA000004592"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1632047882"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1632047883"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1632047882"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1632047883"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1632047882"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1632047882&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1632047883"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004592"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCA000004592"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pcca-04592"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda",
+            "title": "狙いうち（山本リンダ原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "山本リンダ"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1632047882",
+            "title": "狙いうち - Single",
+            "artistDisplayName": "山本リンダ",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "1973-02-25",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "狙いうち",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1632047882",
+            "title": "狙いうち - Single",
+            "artistDisplayName": "山本リンダ",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "1973-02-25",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "狙いうち",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1632047882",
+            "title": "狙いうち - Single",
+            "artistDisplayName": "山本リンダ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "1973-02-25",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "狙いうち",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+              }
+            ]
+          },
+          {
+            "id": "pcca-04592",
+            "title": "阿久悠メモリアル・ソングス～うまく行く恋なんて恋じゃない～",
+            "artistDisplayName": "V.A.",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2017-11-15",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "狙いうち",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda"
+              }
+            ],
+            "catalogNumber": "PCCA-04592"
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1632047883",
+            "label": "香港｜狙いうち",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda",
+            "releaseId": "apple-hk-1632047882",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1632047883",
+            "label": "台灣｜狙いうち",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda",
+            "releaseId": "apple-tw-1632047882",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1632047883",
+            "label": "日本｜狙いうち",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda",
+            "releaseId": "apple-jp-1632047882",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/track/0sjpL9QiYT00mxQgAGuQrb",
+            "label": "Spotify｜狙いうち",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-neraiuchi-song-yamamoto-linda",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "recordings"
+            ],
+            "note": "逐話來源認得曲名。場次、實際演唱者及音軌待確認，平台曲目是山本リンダ原唱。",
+            "resumeWhen": "可回看本回正篇及片末掛字時，查明插入的段落及版本。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-2",
+        "songId": "chibi-maruko-chan-1995-furusato-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "ふるさと",
+        "artistDisplayName": "大村あみ・ゆみ（大貫亜美・吉村由美）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。大村あみ與大村ゆみ於劇中演唱文部省唱歌。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "大貫亜美"
+          },
+          {
+            "role": "vocals",
+            "name": "吉村由美"
+          },
+          {
+            "role": "lyrics",
+            "name": "高野辰之"
+          },
+          {
+            "role": "composition",
+            "name": "岡野貞一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf",
+            "label": "文部科学省｜〈ふるさと〉原作詞曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2018/005987.html",
+            "label": "作品官方｜PUFFY參演、大村兩姊妹翻唱曲目與片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf",
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-furusato-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf",
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2019/03/18/1387017_007.pdf",
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-furusato-song-puffy-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.chibimaru.tv/news/entry/2018/005987.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-furusato-song-puffy-2018-scene"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-furusato-song-puffy-2018-scene",
+            "title": "ふるさと（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "大貫亜美"
+              },
+              {
+                "role": "vocals",
+                "name": "吉村由美"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-3",
+        "songId": "chibi-maruko-chan-1995-namida-no-misao-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "なみだの操",
+        "artistDisplayName": "永沢くん（茶風林）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。永沢くん在劇中演唱。另附唱片公司確認的殿さまキングス原唱及伴奏。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "茶風林"
+          },
+          {
+            "role": "lyrics",
+            "name": "千家和也"
+          },
+          {
+            "role": "composition",
+            "name": "彩木雅夫"
+          },
+          {
+            "role": "arrangement",
+            "name": "藤田はじめ"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html",
+            "label": "Victor Entertainment｜原唱第2曲及原伴奏第21曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/3470/",
+            "label": "歌ネット｜殿さまキングス原曲詞曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://open.spotify.com/intl-ja/track/3E9URR1axnQAzT5F5qB0bY",
+            "label": "Spotify｜殿さまキングス原唱精選曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1080524469&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1080524469&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1080524469&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html",
+              "https://www.uta-net.com/song/3470/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html",
+              "https://www.uta-net.com/song/3470/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html",
+              "https://www.uta-net.com/song/3470/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-nagasawa-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-nagasawa-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html",
+              "https://open.spotify.com/intl-ja/track/3E9URR1axnQAzT5F5qB0bY"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.jvcmusic.co.jp/-/Discography/A000110/VEATP-39990.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1631775618"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1631775620"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1631775618"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1631775620"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1631775618"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1631775620"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1631775640"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1631775640"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1631775618&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1631775640"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1080524469"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1080524572"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1080524469"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1080524572"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1080524469"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1080524469&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1080524572"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type"
+            ],
+            "sourceUrls": [
+              "https://open.spotify.com/intl-ja/track/3E9URR1axnQAzT5F5qB0bY"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://open.spotify.com/intl-ja/track/3E9URR1axnQAzT5F5qB0bY"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-namida-no-misao-song-nagasawa-2018-scene",
+            "title": "なみだの操（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "茶風林"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "title": "なみだの操（殿さまキングス原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "殿さまキングス"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke",
+            "title": "なみだの操（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "apple-hk-1631775618",
+            "title": "Enka Grand Deluxe Vol. 1 Original Hits \"Namida no Misao\"",
+            "artistDisplayName": "Tonosama Kings",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2022-07-13",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Namida no Misao",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              },
+              {
+                "title": "Namida no Misao (Original Karaoke)",
+                "position": 21,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1631775618",
+            "title": "Enka Grand Deluxe Vol. 1 Original Hits \"Namida no Misao\"",
+            "artistDisplayName": "Tonosama Kings",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2022-07-13",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Namida no Misao",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              },
+              {
+                "title": "Namida no Misao (Original Karaoke)",
+                "position": 21,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1631775618",
+            "title": "Enka Grand Deluxe Vol. 1 Original Hits \"Namida no Misao\"",
+            "artistDisplayName": "殿さまキングス",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-07-13",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "なみだの操",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              },
+              {
+                "title": "なみだの操(オリジナル・カラオケ)",
+                "position": 21,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1080524469",
+            "title": "Golden Best Tonosama Kings",
+            "artistDisplayName": "殿さまキングス",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2016-02-17",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Namida No Misao",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1080524469",
+            "title": "Golden Best Tonosama Kings",
+            "artistDisplayName": "殿さまキングス",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2016-02-17",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Namida No Misao",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1080524469",
+            "title": "Golden Best Tonosama Kings",
+            "artistDisplayName": "殿さまキングス",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2016-02-17",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "なみだの操",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1631775620",
+            "label": "香港｜Namida no Misao",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-hk-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1631775620",
+            "label": "台灣｜Namida no Misao",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-tw-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1631775620",
+            "label": "日本｜なみだの操",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-jp-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1631775640",
+            "label": "香港｜Namida no Misao (Original Karaoke)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke",
+            "releaseId": "apple-hk-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1631775640",
+            "label": "台灣｜Namida no Misao (Original Karaoke)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke",
+            "releaseId": "apple-tw-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1631775640",
+            "label": "日本｜なみだの操(オリジナル・カラオケ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-karaoke",
+            "releaseId": "apple-jp-1631775618",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1080524572",
+            "label": "香港｜Namida No Misao",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-hk-1080524469",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1080524572",
+            "label": "台灣｜Namida No Misao",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-tw-1080524469",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1080524572",
+            "label": "日本｜なみだの操",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "releaseId": "apple-jp-1080524469",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Spotify",
+            "url": "https://open.spotify.com/intl-ja/track/3E9URR1axnQAzT5F5qB0bY",
+            "label": "Spotify｜なみだの操",
+            "region": "UNKNOWN",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-namida-no-misao-song-tonosama-kings",
+            "availability": "unknown",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。市售原卡拉OK是否用於劇中仍需比對。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-4",
+        "songId": "chibi-maruko-chan-1995-sensei-song",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "せんせい",
+        "artistDisplayName": "はまじい（飛田展男）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。はまじい在劇中演唱森昌子出道曲。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "飛田展男"
+          },
+          {
+            "role": "lyrics",
+            "name": "阿久悠"
+          },
+          {
+            "role": "composition",
+            "name": "遠藤実"
+          },
+          {
+            "role": "arrangement",
+            "name": "只野通泰"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCS000000051",
+            "label": "ポニーキャニオン｜森昌子原唱精選第1曲",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.jvcmusic.co.jp/-/Discography/-/VICL-61631.html",
+            "label": "Victor Entertainment｜阿久悠作品集與森昌子演唱",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1643875239&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051",
+              "https://www.jvcmusic.co.jp/-/Discography/-/VICL-61631.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051",
+              "https://www.jvcmusic.co.jp/-/Discography/-/VICL-61631.html",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051",
+              "https://www.jvcmusic.co.jp/-/Discography/-/VICL-61631.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-hamajii-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-hamajii-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051",
+              "https://www.jvcmusic.co.jp/-/Discography/-/VICL-61631.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCS000000051"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccs-00051"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1643875239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1643875239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1643875239"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1643875239&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1643875241"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-sensei-song-hamajii-2018-scene",
+            "title": "せんせい（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "飛田展男"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-sensei-song-mori-masako",
+            "title": "せんせい（森昌子原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "森昌子"
+              }
+            ]
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccs-00051",
+            "title": "森昌子 ベスト・コレクション",
+            "artistDisplayName": "森昌子",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2008-12-17",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "せんせい",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+              }
+            ],
+            "catalogNumber": "PCCS-00051"
+          },
+          {
+            "id": "apple-jp-1643875239",
+            "title": "Mori Masako Zenkyokushuu",
+            "artistDisplayName": "森昌子",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2022-09-07",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "せんせい",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-sensei-song-mori-masako"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1643875241",
+            "label": "日本｜せんせい",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-sensei-song-mori-masako",
+            "releaseId": "apple-jp-1643875239",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-5",
+        "songId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song",
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "およげ！たいやきくん",
+        "artistDisplayName": "小杉くん（一龍斎貞友）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。小杉くん在劇中演唱。市售子門真人原唱與伴奏各有曲位。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "一龍斎貞友"
+          },
+          {
+            "role": "lyrics",
+            "name": "高田ひろお"
+          },
+          {
+            "role": "composition",
+            "name": "佐瀬寿一"
+          },
+          {
+            "role": "arrangement",
+            "name": "佐瀬寿一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCG000000888",
+            "label": "ポニーキャニオン｜子門真人原唱再版CD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.ponycanyon.co.jp/music/PCCG000001634",
+            "label": "ポニーキャニオン｜原唱及卡拉OK精選曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/1118/",
+            "label": "歌ネット｜〈およげ！たいやきくん〉原曲詞曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1279132865&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1279132865&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1279132865&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888",
+              "https://www.ponycanyon.co.jp/music/PCCG000001634",
+              "https://www.uta-net.com/song/1118/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888",
+              "https://www.ponycanyon.co.jp/music/PCCG000001634",
+              "https://www.uta-net.com/song/1118/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888",
+              "https://www.ponycanyon.co.jp/music/PCCG000001634",
+              "https://www.uta-net.com/song/1118/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-kosugi-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-kosugi-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888",
+              "https://www.ponycanyon.co.jp/music/PCCG000001634"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000001634"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000001634"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000000888"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-00888"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000001634"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.ponycanyon.co.jp/music/PCCG000001634"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "pccg-01634"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1279132865"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1279132866"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1279132865"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1279132866"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1279132865"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1279132865&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1279132866"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1299650663"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1299650671"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1299650663&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1299650801"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-kosugi-2018-scene",
+            "title": "およげ！たいやきくん（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "一龍斎貞友"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato",
+            "title": "およげ！たいやきくん（子門真人原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "子門真人"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke",
+            "title": "およげ！たいやきくん（オリジナル・カラオケ）",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "pccg-00888",
+            "title": "およげ！たいやきくん",
+            "artistDisplayName": "子門真人",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2008-03-05",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD再版",
+            "tracks": [
+              {
+                "title": "およげ！たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              }
+            ],
+            "catalogNumber": "PCCG-00888"
+          },
+          {
+            "id": "pccg-01634",
+            "title": "およげ！たいやきくん アニバーサリーベスト",
+            "artistDisplayName": "V.A.",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2017-11-15",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "およげ！たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              },
+              {
+                "title": "およげ！たいやきくん（オリジナル・カラオケ）",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke"
+              }
+            ],
+            "catalogNumber": "PCCG-01634"
+          },
+          {
+            "id": "apple-hk-1279132865",
+            "title": "およげ!たいやきくん - Single",
+            "artistDisplayName": "Masato Shimon",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2008-03-05",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "およげ!たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1279132865",
+            "title": "およげ!たいやきくん - Single",
+            "artistDisplayName": "Masato Shimon",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2008-03-05",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "およげ!たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1279132865",
+            "title": "およげ!たいやきくん - Single",
+            "artistDisplayName": "子門真人",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2008-03-05",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "およげ!たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1299650663",
+            "title": "およげ!たいやきくん アニバーサリーベスト",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2017-11-15",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "およげ!たいやきくん",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato"
+              },
+              {
+                "title": "およげ!たいやきくん (オリジナル・カラオケ)",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1279132866",
+            "label": "香港｜およげ!たいやきくん",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato",
+            "releaseId": "apple-hk-1279132865",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1279132866",
+            "label": "台灣｜およげ!たいやきくん",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato",
+            "releaseId": "apple-tw-1279132865",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1279132866",
+            "label": "日本｜およげ!たいやきくん",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato",
+            "releaseId": "apple-jp-1279132865",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1299650671",
+            "label": "日本｜およげ!たいやきくん",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-shimon-masato",
+            "releaseId": "apple-jp-1299650663",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1299650801",
+            "label": "日本｜およげ!たいやきくん (オリジナル・カラオケ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-oyoge-taiyaki-kun-song-original-karaoke",
+            "releaseId": "apple-jp-1299650663",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-6",
+        "songId": "chibi-maruko-chan-1995-jingle-bells-song",
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "ジングルベル",
+        "artistDisplayName": "ブー太郎・とみ子（永澤菜教・浦和めぐみ）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。ブー太郎與とみ子於劇中演唱。採用的日語譯詞及編曲待核。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "永澤菜教"
+          },
+          {
+            "role": "vocals",
+            "name": "浦和めぐみ"
+          },
+          {
+            "role": "lyrics",
+            "name": "James Lord Pierpont"
+          },
+          {
+            "role": "composition",
+            "name": "James Lord Pierpont"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.loc.gov/item/2023812429/",
+            "label": "美國國會圖書館｜James Pierpont初版樂譜及創作者",
+            "role": "first_party",
+            "language": "en",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.loc.gov/item/2023812429/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-jingle-bells-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.loc.gov/item/2023812429/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.loc.gov/item/2023812429/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-jingle-bells-song-siblings-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-jingle-bells-song-siblings-2018-scene"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-jingle-bells-song-siblings-2018-scene",
+            "title": "ジングルベル（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "永澤菜教"
+              },
+              {
+                "role": "vocals",
+                "name": "浦和めぐみ"
+              }
+            ]
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "arrangement",
+              "platform_availability"
+            ],
+            "note": "世面有多種日語唱詞。節目已核為兩位角色演唱。",
+            "resumeWhen": "取得本回正篇或掛字時，比對日語詞和改編，並查正式發行。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-7",
+        "songId": "chibi-maruko-chan-1995-koi-no-vacances-song",
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "恋のバカンス",
+        "artistDisplayName": "大村あみ・ゆみ（PUFFY）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。PUFFY以大村あみ及大村ゆみ參加劇中歌唱大會，翻唱ザ・ピーナッツ作品。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "大貫亜美"
+          },
+          {
+            "role": "vocals",
+            "name": "吉村由美"
+          },
+          {
+            "role": "lyrics",
+            "name": "岩谷時子"
+          },
+          {
+            "role": "composition",
+            "name": "宮川泰"
+          },
+          {
+            "role": "arrangement",
+            "name": "鈴木Daichi秀行"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.chibimaru.tv/news/entry/2018/005987.html",
+            "label": "作品官方｜PUFFY參演、大村兩姊妹翻唱曲目與片尾",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mantan-web.jp/article/20181208dog00m200029000c.html",
+            "label": "MANTANWEB同期報道｜PUFFY劇中翻唱曲目",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.kingrecords.co.jp/cs/g/gKICM-8479/",
+            "label": "King Records｜ザ・ピーナッツ原唱與卡拉OK、原曲詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1658251464&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1137837002&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://mantan-web.jp/article/20181208dog00m200029000c.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://mantan-web.jp/article/20181208dog00m200029000c.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.chibimaru.tv/news/entry/2018/005987.html",
+              "https://mantan-web.jp/article/20181208dog00m200029000c.html",
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-puffy-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.chibimaru.tv/news/entry/2018/005987.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-puffy-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.kingrecords.co.jp/cs/g/gKICM-8479/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kicm-8479"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1658251464&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1658251464&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1658251464"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1658251464&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1658251465"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1137837002&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1137837002&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1137837002"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1137837002&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1137837005"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-vacances-song-puffy-2018-scene",
+            "title": "恋のバカンス（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "大貫亜美"
+              },
+              {
+                "role": "vocals",
+                "name": "吉村由美"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts",
+            "title": "恋のバカンス（ザ・ピーナッツ原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "ザ・ピーナッツ"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts-karaoke",
+            "title": "恋のバカンス（ザ・ピーナッツ カラオケ）",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "kicm-8479",
+            "title": "特選・歌カラベスト3 ザ・ピーナッツ②",
+            "artistDisplayName": "ザ・ピーナッツ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2020-08-05",
+              "precision": "day"
+            },
+            "edition": "日本CD",
+            "tracks": [
+              {
+                "title": "恋のバカンス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+              },
+              {
+                "title": "恋のバカンス(ザ・ピーナッツ)（カラオケ）",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts-karaoke"
+              }
+            ],
+            "catalogNumber": "KICM-8479"
+          },
+          {
+            "id": "apple-jp-1658251464",
+            "title": "Vacance de L'amour/ CIAO - Single",
+            "artistDisplayName": "ザ・ピーナッツ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "1963-03-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "恋のバカンス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1137837002",
+            "title": "決定版!ザ・ピーナッツ ベストコレクション",
+            "artistDisplayName": "ザ・ピーナッツ",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2013-11-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "恋のバカンス",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1658251465",
+            "label": "日本｜恋のバカンス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts",
+            "releaseId": "apple-jp-1658251464",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1137837005",
+            "label": "日本｜恋のバカンス",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-vacances-song-the-peanuts",
+            "releaseId": "apple-jp-1137837002",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。查到日本ザ・ピーナッツ原唱及CD伴奏。PUFFY翻唱的獨立配信和香港的ザ・ピーナッツ原唱曲位仍待查。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-8",
+        "songId": "chibi-maruko-chan-1995-koi-no-dial-6700-song",
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "恋のダイヤル6700",
+        "artistDisplayName": "まる子・友蔵（TARAKO・島田敏）",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。まる子與友蔵於劇中演唱。數位版曲序另保留フィンガー5原唱與兩種重混版本。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "TARAKO"
+          },
+          {
+            "role": "vocals",
+            "name": "島田敏"
+          },
+          {
+            "role": "lyrics",
+            "name": "阿久悠"
+          },
+          {
+            "role": "composition",
+            "name": "井上忠夫"
+          },
+          {
+            "role": "arrangement",
+            "name": "井上忠夫"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.universal-music.co.jp/finger5/products/upcy-6084/",
+            "label": "Universal Music Japan｜フィンガー5原唱及重混曲目",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/1825/",
+            "label": "歌ネット｜〈恋のダイヤル6700〉原曲詞曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445123517&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445123517&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1445123517&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/",
+              "https://www.uta-net.com/song/1825/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/",
+              "https://www.uta-net.com/song/1825/",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-8"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/",
+              "https://www.uta-net.com/song/1825/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-maruko-tomozo-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-maruko-tomozo-2018-scene"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://www.universal-music.co.jp/finger5/products/upcy-6084/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "upcy-6084"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1445123517"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1445123527"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1445123517"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1445123527"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1445123517"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1445123517&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1445123527"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1443294275"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1443294439"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1443294275"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1443294439"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1443294275"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1443294439"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1443294442"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1443294442"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1443294275&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1443294442"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-dial-6700-song-maruko-tomozo-2018-scene",
+            "title": "恋のダイヤル6700（2018日本TV劇中演唱）",
+            "kind": "character",
+            "format": "unknown",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "TARAKO"
+              },
+              {
+                "role": "vocals",
+                "name": "島田敏"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5",
+            "title": "恋のダイヤル6700（フィンガー5原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "フィンガー5"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade",
+            "title": "恋のダイヤル 6700 (Readymade 0524-6700Mix)",
+            "kind": "remix",
+            "format": "full"
+          },
+          {
+            "id": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk",
+            "title": "恋のダイヤル 6700 (Captain Funk ハイスクール'99 Mix)",
+            "kind": "remix",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "upcy-6084",
+            "title": "CDVD THE BEST フィンガー5",
+            "artistDisplayName": "フィンガー5",
+            "type": "compilation",
+            "region": "JP",
+            "date": {
+              "value": "2005-07-06",
+              "precision": "day"
+            },
+            "edition": "日本CD＋DVD",
+            "tracks": [
+              {
+                "title": "恋のダイヤル6700",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+              }
+            ],
+            "catalogNumber": "UPCY-6084"
+          },
+          {
+            "id": "apple-hk-1445123517",
+            "title": "Koino Dial 6700 / Hajimeteno Class Kai - Single",
+            "artistDisplayName": "フィンガー5",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "1973-01-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Koino Dial 6700",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1445123517",
+            "title": "Koino Dial 6700 / Hajimeteno Class Kai - Single",
+            "artistDisplayName": "フィンガー5",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "1973-01-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Koino Dial 6700",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1445123517",
+            "title": "Koino Dial 6700 / Hajimeteno Class Kai - Single",
+            "artistDisplayName": "フィンガー5",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "1973-01-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "恋のダイヤル6700",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1443294275",
+            "title": "学園天国 ・Re Mix天国!! - EP",
+            "artistDisplayName": "フィンガー5",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2001-01-01",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "恋のダイヤル 6700 (Readymade 0524-6700Mix)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+              },
+              {
+                "title": "恋のダイヤル 6700 (Captain Funk ハイスクール'99 Mix)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1443294275",
+            "title": "学園天国 ・Re Mix天国!! - EP",
+            "artistDisplayName": "フィンガー5",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2001-01-01",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "恋のダイヤル 6700 (Readymade 0524-6700Mix)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+              },
+              {
+                "title": "恋のダイヤル 6700 (Captain Funk ハイスクール'99 Mix)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1443294275",
+            "title": "学園天国 ・Re Mix天国!! - EP",
+            "artistDisplayName": "フィンガー5",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2001-01-01",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "恋のダイヤル6700~readymade 0524-6700Mix~",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade"
+              },
+              {
+                "title": "恋のダイヤル6700~CAPTAIN FUNK ハイスクール '99Mix~",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1445123527",
+            "label": "香港｜Koino Dial 6700",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5",
+            "releaseId": "apple-hk-1445123517",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1445123527",
+            "label": "台灣｜Koino Dial 6700",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5",
+            "releaseId": "apple-tw-1445123517",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1445123527",
+            "label": "日本｜恋のダイヤル6700",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5",
+            "releaseId": "apple-jp-1445123517",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1443294439",
+            "label": "香港｜恋のダイヤル 6700 (Readymade 0524-6700Mix)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade",
+            "releaseId": "apple-hk-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1443294439",
+            "label": "台灣｜恋のダイヤル 6700 (Readymade 0524-6700Mix)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade",
+            "releaseId": "apple-tw-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1443294439",
+            "label": "日本｜恋のダイヤル6700~readymade 0524-6700Mix~",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-readymade",
+            "releaseId": "apple-jp-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1443294442",
+            "label": "香港｜恋のダイヤル 6700 (Captain Funk ハイスクール'99 Mix)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk",
+            "releaseId": "apple-hk-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1443294442",
+            "label": "台灣｜恋のダイヤル 6700 (Captain Funk ハイスクール'99 Mix)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk",
+            "releaseId": "apple-tw-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1443294442",
+            "label": "日本｜恋のダイヤル6700~CAPTAIN FUNK ハイスクール '99Mix~",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-koi-no-dial-6700-song-finger5-captain-funk",
+            "releaseId": "apple-jp-1443294275",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format",
+              "platform_availability"
+            ],
+            "note": "劇中場次的獨立正版音源未查到。",
+            "resumeWhen": "取得12月23日當日合法完整片源或權利方另發演出音源時，核對音軌、編曲及平台曲位。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "chibi-maruko-chan-1995-in-9",
+        "songId": "chibi-maruko-chan-1995-yume-ippai-song",
+        "type": "IN",
+        "sequence": 9,
+        "titleJa": "ゆめいっぱい",
+        "artistDisplayName": "劇中演唱名義待核",
+        "seasonIds": [
+          "2018-fall"
+        ],
+        "usageLabel": "2018年12月23日日本TV町内のど自慢特別話。逐話記錄列為插曲，實際場景及使用音軌待核。日本TV第1期原唱為関ゆみ子。",
+        "credits": [
+          {
+            "role": "lyrics",
+            "name": "亜蘭知子"
+          },
+          {
+            "role": "composition",
+            "name": "織田哲郎"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://www.nippon-animation.co.jp/work/1578/",
+            "label": "日本アニメーション｜日本TV第1期片頭原唱及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/goods/dvd/001775.html",
+            "label": "作品官方｜関ゆみ子原唱合輯曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+            "label": "12月23日同期收看紀錄｜劇中曲目、角色演唱、聲優與署名",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.nippon-animation.co.jp/news/information/7033/",
+            "label": "富士電視台及日本アニメーション｜12月23日播出與角色歌唱大會",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.chibimaru.tv/about/story/2018/",
+            "label": "《櫻桃小丸子》官方｜2018年原播節目檔案",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=PXuDKT_wtDg",
+            "label": "作品官方YouTube｜12月23日特別話預告及播出日",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tunecore.co.jp/artists/YumikoArima?lang=ja",
+            "label": "有馬ゆみこ及TuneCore Japan｜關ゆみ子原唱與後來再錄版",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://pc.goldenbomber.jp/contents/70286",
+            "label": "ゴールデンボンバー官方｜鬼龍院翔翻唱及伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1893019632&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1893019632&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1893019632&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1586420963&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1586420963&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1586420963&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html",
+              "https://www.nippon-animation.co.jp/news/information/7033/",
+              "https://www.chibimaru.tv/about/story/2018/",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2",
+              "https://www.youtube.com/watch?v=PXuDKT_wtDg"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-in-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html",
+              "https://www.mau2.com/anime/tibimarukochan-27/ep/_2"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.nippon-animation.co.jp/work/1578/",
+              "https://www.chibimaru.tv/goods/dvd/001775.html"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://www.tunecore.co.jp/artists/YumikoArima?lang=ja"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://www.tunecore.co.jp/artists/YumikoArima?lang=ja"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.tunecore.co.jp/artists/YumikoArima?lang=ja"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://pc.goldenbomber.jp/contents/70286"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eazz-0171"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1893019632"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1893019633"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1893019632"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1893019633"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1893019632"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1893019632&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1893019633"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1586420963"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1586420966"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1586420963"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1586420966"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1586420963"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1586420963&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1586420966"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1166487859"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1166488043"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1166487859"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1166488043"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1166487859"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1166488043"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1166488047"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1166488047"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1166487859&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1166488047"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko",
+            "title": "ゆめいっぱい（関ゆみ子原唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "関ゆみ子"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording",
+            "title": "ゆめいっぱい（有馬ゆみこ再錄）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "有馬ゆみこ"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover",
+            "title": "ゆめいっぱい（ゴールデンボンバー翻唱）",
+            "kind": "vocal",
+            "format": "full",
+            "credits": [
+              {
+                "role": "vocals",
+                "name": "鬼龍院翔"
+              }
+            ]
+          },
+          {
+            "id": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke",
+            "title": "ゆめいっぱい（ゴールデンボンバー原卡拉OK）",
+            "kind": "instrumental",
+            "format": "full"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eazz-0171",
+            "title": "おどるポンポコリン",
+            "artistDisplayName": "ゴールデンボンバー",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "日本 CD",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+              },
+              {
+                "title": "ゆめいっぱい(オリジナル・カラオケ)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+              }
+            ],
+            "catalogNumber": "EAZZ-0171"
+          },
+          {
+            "id": "apple-hk-1893019632",
+            "title": "ゆめいっぱい - Single",
+            "artistDisplayName": "関ゆみ子",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "1990-04-21",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1893019632",
+            "title": "ゆめいっぱい - Single",
+            "artistDisplayName": "関ゆみ子",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "1990-04-21",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1893019632",
+            "title": "ゆめいっぱい - Single",
+            "artistDisplayName": "関 ゆみ子",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "1990-04-21",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1586420963",
+            "title": "ゆめいっぱい (Cover) - Single",
+            "artistDisplayName": "有馬ゆみこ",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2021-10-12",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい (Cover)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1586420963",
+            "title": "ゆめいっぱい (Cover) - Single",
+            "artistDisplayName": "有馬ゆみこ",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2021-10-12",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい (Cover)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1586420963",
+            "title": "ゆめいっぱい (Cover) - Single",
+            "artistDisplayName": "有馬ゆみこ",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2021-10-12",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい (Cover)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "artistDisplayName": "Golden Bomber",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Yume Ippai",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+              },
+              {
+                "title": "Yume Ippai (Karaoke)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "artistDisplayName": "Golden Bomber",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Yume Ippai",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+              },
+              {
+                "title": "Yume Ippai (Karaoke)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1166487859",
+            "title": "Odoru Ponpokorin - EP",
+            "artistDisplayName": "ゴールデンボンバー",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2016-11-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ゆめいっぱい",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover"
+              },
+              {
+                "title": "ゆめいっぱい(オリジナル・カラオケ)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1893019633",
+            "label": "香港｜ゆめいっぱい",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko",
+            "releaseId": "apple-hk-1893019632",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1893019633",
+            "label": "台灣｜ゆめいっぱい",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko",
+            "releaseId": "apple-tw-1893019632",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1893019633",
+            "label": "日本｜ゆめいっぱい",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-seki-yumiko",
+            "releaseId": "apple-jp-1893019632",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1586420966",
+            "label": "香港｜ゆめいっぱい (Cover)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording",
+            "releaseId": "apple-hk-1586420963",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1586420966",
+            "label": "台灣｜ゆめいっぱい (Cover)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording",
+            "releaseId": "apple-tw-1586420963",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1586420966",
+            "label": "日本｜ゆめいっぱい (Cover)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-arima-re-recording",
+            "releaseId": "apple-jp-1586420963",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1166488043",
+            "label": "香港｜Yume Ippai",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover",
+            "releaseId": "apple-hk-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1166488043",
+            "label": "台灣｜Yume Ippai",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover",
+            "releaseId": "apple-tw-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1166488043",
+            "label": "日本｜ゆめいっぱい",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-cover",
+            "releaseId": "apple-jp-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1166488047",
+            "label": "香港｜Yume Ippai (Karaoke)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke",
+            "releaseId": "apple-hk-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1166488047",
+            "label": "台灣｜Yume Ippai (Karaoke)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke",
+            "releaseId": "apple-tw-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1166488047",
+            "label": "日本｜ゆめいっぱい(オリジナル・カラオケ)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "chibi-maruko-chan-1995-yume-ippai-song-golden-bomber-karaoke",
+            "releaseId": "apple-jp-1166487859",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "basic_evidence",
+              "recordings"
+            ],
+            "note": "歌單現有原唱、再錄、ゴールデンボンバー翻唱與伴奏。2018本回僅查到插曲曲名。",
+            "resumeWhen": "取得該回合法完整音軌或逐曲使用表後，確認段落、演唱名義與播出編曲。",
+            "checkedAt": "2026-11-20"
           }
         ]
       }
-    ]
+    ],
+    "titleZhHant": "櫻桃小丸子"
   },
 ];
 
