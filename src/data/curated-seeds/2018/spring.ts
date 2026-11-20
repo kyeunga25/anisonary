@@ -50255,6 +50255,10471 @@ export const curated2018SpringSeeds: CuratedAnimeSeed[] = [
       }
     ]
   },
+  {
+    "anilistId": 101097,
+    "anilistUrl": "https://anilist.co/anime/101097",
+    "id": "curated-101097",
+    "slug": "kiratto-prichan",
+    "seasonIds": [
+      "2018-spring",
+      "2018-summer",
+      "2018-fall",
+      "2019-winter"
+    ],
+    "startDate": "2018-04-08",
+    "titleJa": "キラッとプリ☆チャン",
+    "titleRomaji": "Kiratto Pri☆Chan",
+    "editorialWeekday": 7,
+    "broadcastTimeJst": "10:00",
+    "broadcastLabel": "日本タツノコプロ與韓國Dongwoo A＆E動畫製作。東京電視台系列週日10:00 JST原播，第1–51話於2018年4月8日至2019年3月31日播出，第52話起為第二年。第39話在2019年1月6日播出，仍用上一組主題曲。",
+    "officialSiteUrl": "https://www.tv-tokyo.co.jp/anime/prichan/",
+    "verifiedAt": "2026-11-20",
+    "metadataVerifiedAt": "2026-11-20",
+    "status": "finished",
+    "sourceReferenceUrls": [
+      "https://www.tv-tokyo.co.jp/anime/prichan/",
+      "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+      "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_16.html",
+      "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+      "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/21577_201903311000.html"
+    ],
+    "metadataSources": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/",
+        "label": "東京電視台｜原播作品",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+        "label": "東京電視台｜動畫製作及角色演唱人員",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_16.html",
+        "label": "東京電視台｜首期分集",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/anime/prichan/episodes/index_11.html",
+        "label": "東京電視台｜第50及51話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201903/21577_201903311000.html",
+        "label": "東京電視台｜2019年3月31日首年最後一話",
+        "role": "first_party",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://cal.syoboi.jp/tid/4887/time",
+        "label": "日本電視台播出表｜逐話原播跨季",
+        "role": "broadcast_cross_check",
+        "language": "ja",
+        "verifiedAt": "2026-11-20"
+      },
+      {
+        "url": "https://anilist.co/anime/101097",
+        "label": "AniList｜日本TV作品識別碼",
+        "role": "identifier",
+        "language": "en",
+        "verifiedAt": "2026-11-20"
+      }
+    ],
+    "themes": [
+      {
+        "id": "kiratto-prichan-op-1",
+        "songId": "kiratto-start-song",
+        "type": "OP",
+        "sequence": 1,
+        "titleJa": "キラッとスタート",
+        "artistDisplayName": "Run Girls, Run!",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "第1–26話片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "古屋真"
+          },
+          {
+            "role": "composition",
+            "name": "オオヤギヒロオ"
+          },
+          {
+            "role": "arrangement",
+            "name": "陶山隼"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+            "label": "Run Girls, Run!｜首期片頭詞曲編及CD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11865-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1373129911"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1373129911"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1373129911"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1373129917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1373129917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1373129917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1509418127"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1509418127"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1509418127"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1361460369"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460445"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-start-song-tv",
+            "title": "キラッとスタート -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-start-song-vocal",
+            "title": "キラッとスタート",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-start-song-inst",
+            "title": "キラッとスタート instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "キラッとスタート -TV size-",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "キラッとスタート -TV size-",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-11865-b",
+            "title": "キラッとスタート",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11865/B"
+          },
+          {
+            "id": "eyca-11866",
+            "title": "キラッとスタート",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11866"
+          },
+          {
+            "id": "apple-hk-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1361460369",
+            "title": "キラッとスタート(TVsize) - Single",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート(TVsize)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1373129911",
+            "label": "香港｜キラッとスタート",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-hk-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1373129911",
+            "label": "台灣｜キラッとスタート",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-tw-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1373129911",
+            "label": "日本｜キラッとスタート",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-jp-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1373129917",
+            "label": "香港｜キラッとスタート(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-hk-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1373129917",
+            "label": "台灣｜キラッとスタート(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-tw-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1373129917",
+            "label": "日本｜キラッとスタート(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-jp-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1509418127",
+            "label": "香港｜キラッとスタート",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-hk-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1509418127",
+            "label": "台灣｜キラッとスタート",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-tw-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1509418127",
+            "label": "日本｜キラッとスタート",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-jp-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460445",
+            "label": "日本｜キラッとスタート(TVsize)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-tv",
+            "releaseId": "apple-jp-1361460369",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-op-2",
+        "songId": "kiratto-prichan-op-2-song",
+        "type": "OP",
+        "sequence": 2,
+        "titleJa": "Go! Up! スターダム！",
+        "artistDisplayName": "Run Girls, Run!",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第27–39話片頭。2019年1月6日第39話仍沿用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "藤林聖子"
+          },
+          {
+            "role": "composition",
+            "name": "瀬尾祥太郎"
+          },
+          {
+            "role": "arrangement",
+            "name": "広川恵一"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1016018",
+            "label": "Run Girls, Run!｜第二期片頭詞曲編及CD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1439296412&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1439296412&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1439296412&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12056-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016018"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12057"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1439296412"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1439296413"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1439296412"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1439296413"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1439296412"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1439296413"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1439296415"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1439296415"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1439296412&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1439296415"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1509418128"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1509418128"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1509418128"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-op-2-song-tv",
+            "title": "Go! Up! スターダム！ -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-op-2-song-vocal",
+            "title": "Go! Up! スターダム！",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-op-2-song-inst",
+            "title": "Go! Up! スターダム！ instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム！ -TV size-",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム！ -TV size-",
+                "position": 14,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-12056-b",
+            "title": "Go! Up! スターダム！",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              },
+              {
+                "title": "Go! Up! スターダム！ instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-12056/B"
+          },
+          {
+            "id": "eyca-12057",
+            "title": "Go! Up! スターダム！",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              },
+              {
+                "title": "Go! Up! スターダム！ instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-12057"
+          },
+          {
+            "id": "apple-hk-1439296412",
+            "title": "Go!Up!スターダム! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              },
+              {
+                "title": "Go! Up! スターダム!(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1439296412",
+            "title": "Go!Up!スターダム! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              },
+              {
+                "title": "Go! Up! スターダム!(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1439296412",
+            "title": "Go!Up!スターダム! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-31",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              },
+              {
+                "title": "Go! Up! スターダム!(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Go! Up! スターダム!",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1439296413",
+            "label": "香港｜Go! Up! スターダム!",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-hk-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1439296413",
+            "label": "台灣｜Go! Up! スターダム!",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-tw-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1439296413",
+            "label": "日本｜Go! Up! スターダム!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-jp-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1439296415",
+            "label": "香港｜Go! Up! スターダム!(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-inst",
+            "releaseId": "apple-hk-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1439296415",
+            "label": "台灣｜Go! Up! スターダム!(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-inst",
+            "releaseId": "apple-tw-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1439296415",
+            "label": "日本｜Go! Up! スターダム!(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-inst",
+            "releaseId": "apple-jp-1439296412",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1509418128",
+            "label": "香港｜Go! Up! スターダム!",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-hk-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1509418128",
+            "label": "台灣｜Go! Up! スターダム!",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-tw-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1509418128",
+            "label": "日本｜Go! Up! スターダム!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-2-song-vocal",
+            "releaseId": "apple-jp-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-op-3",
+        "songId": "kiratto-prichan-op-3-song",
+        "type": "OP",
+        "sequence": 3,
+        "titleJa": "never-ending!!",
+        "artistDisplayName": "Run Girls, Run!",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第40–49、51話片頭。第50話無常規片頭。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "宮崎まゆ"
+          },
+          {
+            "role": "composition",
+            "name": "宮崎まゆ"
+          },
+          {
+            "role": "arrangement",
+            "name": "賀佐泰洋"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1016171",
+            "label": "Run Girls, Run!｜第三期片頭與雙主打CD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1450245199&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1450245199&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1450245199&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12225-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-op-3-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1016171"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12226"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1450245199"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1450245201"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1450245199"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1450245201"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1450245199"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1450245201"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1450245205"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1450245205"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1450245199&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1450245205"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1509418134"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1509418134"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1509418134"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-op-3-song-tv",
+            "title": "never-ending!! -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-op-3-song-vocal",
+            "title": "never-ending!!",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-op-3-song-inst",
+            "title": "never-ending!! instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "never-ending!! -TV size-",
+                "position": 15,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "never-ending!! -TV size-",
+                "position": 15,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-12225-b",
+            "title": "Break the Blue!! / never-ending!!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              },
+              {
+                "title": "never-ending!! instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-12225/B"
+          },
+          {
+            "id": "eyca-12226",
+            "title": "Break the Blue!! / never-ending!!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              },
+              {
+                "title": "never-ending!! instrumental",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-12226"
+          },
+          {
+            "id": "apple-hk-1450245199",
+            "title": "Break the Blue!! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              },
+              {
+                "title": "never-ending!!(Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1450245199",
+            "title": "Break the Blue!! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              },
+              {
+                "title": "never-ending!!(Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1450245199",
+            "title": "Break the Blue!! - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2019-02-06",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              },
+              {
+                "title": "never-ending!!(Instrumental)",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "never-ending!!",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-op-3-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1450245201",
+            "label": "香港｜never-ending!!",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-hk-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1450245201",
+            "label": "台灣｜never-ending!!",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-tw-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1450245201",
+            "label": "日本｜never-ending!!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-jp-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1450245205",
+            "label": "香港｜never-ending!!(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-inst",
+            "releaseId": "apple-hk-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1450245205",
+            "label": "台灣｜never-ending!!(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-inst",
+            "releaseId": "apple-tw-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1450245205",
+            "label": "日本｜never-ending!!(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-inst",
+            "releaseId": "apple-jp-1450245199",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1509418134",
+            "label": "香港｜never-ending!!",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-hk-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1509418134",
+            "label": "台灣｜never-ending!!",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-tw-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1509418134",
+            "label": "日本｜never-ending!!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-op-3-song-vocal",
+            "releaseId": "apple-jp-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-ed-1",
+        "songId": "kiratto-prichan-ed-1-song",
+        "type": "ED",
+        "sequence": 1,
+        "titleJa": "プリティー☆チャンネル",
+        "artistDisplayName": "わーすた",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "第1–26話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "坂元葉月"
+          },
+          {
+            "role": "vocals",
+            "name": "廣川奈々聖"
+          },
+          {
+            "role": "vocals",
+            "name": "松田美里"
+          },
+          {
+            "role": "vocals",
+            "name": "小玉梨々華"
+          },
+          {
+            "role": "vocals",
+            "name": "三品瑠香"
+          },
+          {
+            "role": "lyrics",
+            "name": "鈴木まなか"
+          },
+          {
+            "role": "composition",
+            "name": "松坂康司"
+          },
+          {
+            "role": "arrangement",
+            "name": "松坂康司"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/247421/",
+            "label": "歌ネット｜第一首片尾及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/247421/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460514"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460514"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460514"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460516"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460516"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460516"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1394400081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1394400081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1394400081"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1394400086"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1394400086"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1394400086"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-ed-1-song-tv",
+            "title": "プリティー☆チャンネル -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-vocal",
+            "title": "プリティー☆チャンネル",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-inst",
+            "title": "プリティー☆チャンネル(Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル -TV size-",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル -TV size-",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-hk-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "わーすた",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "わーすた",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460514",
+            "label": "香港｜プリティー☆チャンネル",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460514",
+            "label": "台灣｜プリティー☆チャンネル",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460514",
+            "label": "日本｜プリティー☆チャンネル",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460515",
+            "label": "香港｜プリティー☆チャンネル(TV Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460515",
+            "label": "台灣｜プリティー☆チャンネル(TV Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460515",
+            "label": "日本｜プリティー☆チャンネル(TV Ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460516",
+            "label": "香港｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460516",
+            "label": "台灣｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460516",
+            "label": "日本｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1394400081",
+            "label": "香港｜プリティー☆チャンネル",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-hk-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1394400081",
+            "label": "台灣｜プリティー☆チャンネル",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-tw-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1394400081",
+            "label": "日本｜プリティー☆チャンネル",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-jp-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1394400086",
+            "label": "香港｜プリティー☆チャンネル(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-hk-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1394400086",
+            "label": "台灣｜プリティー☆チャンネル(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-tw-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1394400086",
+            "label": "日本｜プリティー☆チャンネル(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-jp-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-ed-2",
+        "songId": "kiratto-prichan-ed-2-song",
+        "type": "ED",
+        "sequence": 2,
+        "titleJa": "KIRA KIRA ホログラム",
+        "artistDisplayName": "わーすた",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第27–39話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "坂元葉月"
+          },
+          {
+            "role": "vocals",
+            "name": "廣川奈々聖"
+          },
+          {
+            "role": "vocals",
+            "name": "松田美里"
+          },
+          {
+            "role": "vocals",
+            "name": "小玉梨々華"
+          },
+          {
+            "role": "vocals",
+            "name": "三品瑠香"
+          },
+          {
+            "role": "lyrics",
+            "name": "鈴木まなか"
+          },
+          {
+            "role": "composition",
+            "name": "網本ナオノブ"
+          },
+          {
+            "role": "arrangement",
+            "name": "網本ナオノブ"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436674858&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436674858&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1436674858&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-2-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-2-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-2-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1436674858"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1436674861"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1436674858"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1436674861"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1436674858"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1436674858&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1436674861"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-ed-2-song-tv",
+            "title": "KIRA KIRA ホログラム -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-2-song-vocal",
+            "title": "KIRA KIRA ホログラム",
+            "kind": "vocal",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "KIRA KIRA ホログラム -TV size-",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "KIRA KIRA ホログラム -TV size-",
+                "position": 17,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-2-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-hk-1436674858",
+            "title": "KIRA KIRA ホログラム - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "KIRA KIRA ホログラム",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1436674858",
+            "title": "KIRA KIRA ホログラム - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "KIRA KIRA ホログラム",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-2-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1436674858",
+            "title": "KIRA KIRA ホログラム - Single",
+            "artistDisplayName": "わーすた",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-10-08",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "KIRA KIRA ホログラム",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-2-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1436674861",
+            "label": "香港｜KIRA KIRA ホログラム",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-2-song-vocal",
+            "releaseId": "apple-hk-1436674858",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1436674861",
+            "label": "台灣｜KIRA KIRA ホログラム",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-2-song-vocal",
+            "releaseId": "apple-tw-1436674858",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1436674861",
+            "label": "日本｜KIRA KIRA ホログラム",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-2-song-vocal",
+            "releaseId": "apple-jp-1436674858",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-ed-3",
+        "songId": "kiratto-prichan-ed-3-song",
+        "type": "ED",
+        "sequence": 3,
+        "titleJa": "SHINING FLOWER",
+        "artistDisplayName": "わーすた",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第40–51話片尾。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "坂元葉月"
+          },
+          {
+            "role": "vocals",
+            "name": "廣川奈々聖"
+          },
+          {
+            "role": "vocals",
+            "name": "松田美里"
+          },
+          {
+            "role": "vocals",
+            "name": "小玉梨々華"
+          },
+          {
+            "role": "vocals",
+            "name": "三品瑠香"
+          },
+          {
+            "role": "lyrics",
+            "name": "鈴木まなか"
+          },
+          {
+            "role": "composition",
+            "name": "川崎智哉"
+          },
+          {
+            "role": "arrangement",
+            "name": "川崎智哉"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1483942576&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1483942576&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1483942576"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1483942866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1483942576"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1483942866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1483942576"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1483942866"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-3-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1483942875"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1483942875"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1483942576&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1483942875"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-ed-3-song-tv",
+            "title": "SHINING FLOWER -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-3-song-vocal",
+            "title": "SHINING FLOWER",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-ed-3-song-inst",
+            "title": "SHINING FLOWER (Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "SHINING FLOWER -TV size-",
+                "position": 18,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "SHINING FLOWER -TV size-",
+                "position": 18,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-hk-1483942576",
+            "title": "遮二無二 生きる! / バスタブ・アロマティック",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2019-10-30",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "SHINING FLOWER",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-vocal"
+              },
+              {
+                "title": "SHINING FLOWER (Instrumental)",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1483942576",
+            "title": "遮二無二 生きる! / バスタブ・アロマティック",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2019-10-30",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "SHINING FLOWER",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-vocal"
+              },
+              {
+                "title": "SHINING FLOWER (Instrumental)",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1483942576",
+            "title": "遮二無二 生きる! / バスタブ・アロマティック",
+            "artistDisplayName": "わーすた",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-10-30",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "SHINING FLOWER",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-vocal"
+              },
+              {
+                "title": "SHINING FLOWER (Instrumental)",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-3-song-inst"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1483942866",
+            "label": "香港｜SHINING FLOWER",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-vocal",
+            "releaseId": "apple-hk-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1483942866",
+            "label": "台灣｜SHINING FLOWER",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-vocal",
+            "releaseId": "apple-tw-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1483942866",
+            "label": "日本｜SHINING FLOWER",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-vocal",
+            "releaseId": "apple-jp-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1483942875",
+            "label": "香港｜SHINING FLOWER (Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-inst",
+            "releaseId": "apple-hk-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1483942875",
+            "label": "台灣｜SHINING FLOWER (Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-inst",
+            "releaseId": "apple-tw-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1483942875",
+            "label": "日本｜SHINING FLOWER (Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-3-song-inst",
+            "releaseId": "apple-jp-1483942576",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-1",
+        "songId": "kiratto-prichan-in-1-song",
+        "type": "IN",
+        "sequence": 1,
+        "titleJa": "レディー・アクション！",
+        "artistDisplayName": "みらい・えも",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer",
+          "2018-fall"
+        ],
+        "usageLabel": "第1、2、5、8、9、11、12、13、14、30話劇中使用。第5話短摘及第14話回顧另有逐話紀錄。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "久保田未夢"
+          },
+          {
+            "role": "lyrics",
+            "name": "児玉雨子"
+          },
+          {
+            "role": "composition",
+            "name": "michitomo"
+          },
+          {
+            "role": "arrangement",
+            "name": "KOJI oba"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1015848",
+            "label": "avex｜四首角色舞台、演唱及伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kodama-ameko.com/topics/937",
+            "label": "作詞者児玉雨子｜三首角色曲詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-1-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-1"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kodama-ameko.com/topics/937",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-1-song-stage"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11931-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-1-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11932"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1423482131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482133"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482140"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949129"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-1"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-1-song-stage",
+            "title": "レディー・アクション！",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-in-1-song-inst",
+            "title": "レディー・アクション！ -inst-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "レディー・アクション！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "レディー・アクション！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-11931-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "みらい・えも",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "レディー・アクション！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              },
+              {
+                "title": "レディー・アクション！ -inst-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11931/B"
+          },
+          {
+            "id": "eyca-11932",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "みらい・えも",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "レディー・アクション！",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              },
+              {
+                "title": "レディー・アクション！ -inst-",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11932"
+          },
+          {
+            "id": "apple-jp-1423482131",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~1stチャンネル~",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "レディー・アクション!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              },
+              {
+                "title": "レディー・アクション!(inst.)",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "レディー・アクション!",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-1-song-stage"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482133",
+            "label": "日本｜レディー・アクション!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-1-song-stage",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482140",
+            "label": "日本｜レディー・アクション!(inst.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-1-song-inst",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949129",
+            "label": "日本｜レディー・アクション!",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-1-song-stage",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-2",
+        "songId": "kiratto-prichan-in-2-song",
+        "type": "IN",
+        "sequence": 2,
+        "titleJa": "ワン・ツー・スウィーツ",
+        "artistDisplayName": "みらい",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer"
+        ],
+        "usageLabel": "第3、4、5、12、21、26話劇中使用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "lyrics",
+            "name": "児玉雨子"
+          },
+          {
+            "role": "composition",
+            "name": "michitomo"
+          },
+          {
+            "role": "arrangement",
+            "name": "KOJI oba"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1015848",
+            "label": "avex｜四首角色舞台、演唱及伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kodama-ameko.com/topics/937",
+            "label": "作詞者児玉雨子｜三首角色曲詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-2-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-2"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kodama-ameko.com/topics/937",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-2-song-stage"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11931-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-2-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11932"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1423482131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482137"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482141"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949130"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-2"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-2-song-stage",
+            "title": "ワン・ツー・スウィーツ",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-in-2-song-inst",
+            "title": "ワン・ツー・スウィーツ -inst-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-11931-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "みらい",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              },
+              {
+                "title": "ワン・ツー・スウィーツ -inst-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11931/B"
+          },
+          {
+            "id": "eyca-11932",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "みらい",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              },
+              {
+                "title": "ワン・ツー・スウィーツ -inst-",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11932"
+          },
+          {
+            "id": "apple-jp-1423482131",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~1stチャンネル~",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              },
+              {
+                "title": "ワン・ツー・スウィーツ(inst.)",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "ワン・ツー・スウィーツ",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-2-song-stage"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482137",
+            "label": "日本｜ワン・ツー・スウィーツ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-2-song-stage",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482141",
+            "label": "日本｜ワン・ツー・スウィーツ(inst.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-2-song-inst",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949130",
+            "label": "日本｜ワン・ツー・スウィーツ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-2-song-stage",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-3",
+        "songId": "kiratto-prichan-in-3-song",
+        "type": "IN",
+        "sequence": 3,
+        "titleJa": "スキスキセンサー",
+        "artistDisplayName": "えも",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer",
+          "2019-winter"
+        ],
+        "usageLabel": "第6、7、12、20、26、41話劇中使用。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "久保田未夢"
+          },
+          {
+            "role": "lyrics",
+            "name": "児玉雨子"
+          },
+          {
+            "role": "composition",
+            "name": "michitomo"
+          },
+          {
+            "role": "arrangement",
+            "name": "KOJI oba"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1015848",
+            "label": "avex｜四首角色舞台、演唱及伴奏曲序",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://kodama-ameko.com/topics/937",
+            "label": "作詞者児玉雨子｜三首角色曲詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-3-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-3"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://kodama-ameko.com/topics/937",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-3-song-stage"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11931-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-3-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11932"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1423482131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482138"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482142"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949131"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1015848",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-3"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-3-song-stage",
+            "title": "スキスキセンサー",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-in-3-song-inst",
+            "title": "スキスキセンサー -inst-",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-11931-b",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "えも",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              },
+              {
+                "title": "スキスキセンサー -inst-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11931/B"
+          },
+          {
+            "id": "eyca-11932",
+            "title": "キラッとプリ☆チャン♪ソングコレクション～1stチャンネル～",
+            "artistDisplayName": "えも",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              },
+              {
+                "title": "スキスキセンサー -inst-",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11932"
+          },
+          {
+            "id": "apple-jp-1423482131",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~1stチャンネル~",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              },
+              {
+                "title": "スキスキセンサー(inst.)",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "スキスキセンサー",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-3-song-stage"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482138",
+            "label": "日本｜スキスキセンサー",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-3-song-stage",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482142",
+            "label": "日本｜スキスキセンサー(inst.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-3-song-inst",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949131",
+            "label": "日本｜スキスキセンサー",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-3-song-stage",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-4",
+        "songId": "kiratto-prichan-in-4-song",
+        "type": "IN",
+        "sequence": 4,
+        "titleJa": "キラリ覚醒☆リインカーネーション",
+        "artistDisplayName": "りんか",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "第15、16、17、20、26話劇中角色演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "結城麗花"
+          },
+          {
+            "role": "composition",
+            "name": "結城麗花"
+          },
+          {
+            "role": "arrangement",
+            "name": "賀佐泰洋"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274772/",
+            "label": "歌ネット｜厚木那奈美與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-4-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-4"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274772/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-4-song-stage"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949132"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-4-song-stage",
+            "title": "キラリ覚醒☆リインカーネーション",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "キラリ覚醒☆リインカーネーション",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-4-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "キラリ覚醒☆リインカーネーション",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-4-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラリ覚醒☆リインカーネーション",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-4-song-stage"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949132",
+            "label": "日本｜キラリ覚醒☆リインカーネーション",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-4-song-stage",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-5",
+        "songId": "kiratto-prichan-super-cutie-super-girl-song",
+        "type": "IN",
+        "sequence": 5,
+        "titleJa": "SUPER CUTIE SUPER GIRL",
+        "artistDisplayName": "ミラクル☆キラッツ",
+        "seasonIds": [
+          "2018-summer",
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第17、18、19、23、27、28、30、31、44、48、49話劇中角色演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "久保田未夢"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "栗原暁"
+          },
+          {
+            "role": "composition",
+            "name": "栗原暁"
+          },
+          {
+            "role": "composition",
+            "name": "久保田真悟"
+          },
+          {
+            "role": "arrangement",
+            "name": "栗原暁"
+          },
+          {
+            "role": "arrangement",
+            "name": "久保田真悟"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887/time",
+            "label": "日本電視台播出表｜逐話原播跨季",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://ameblo.jp/jazzinpark/entry-12495410759.html",
+            "label": "創作團隊Jazzin’park｜詞曲編及製作",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-super-cutie-super-girl-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://cal.syoboi.jp/tid/4887",
+              "https://cal.syoboi.jp/tid/4887/time"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-5"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://ameblo.jp/jazzinpark/entry-12495410759.html",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-super-cutie-super-girl-song-stage"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949133"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-super-cutie-super-girl-song-stage",
+            "title": "SUPER CUTIE SUPER GIRL",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "SUPER CUTIE SUPER GIRL",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-super-cutie-super-girl-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "SUPER CUTIE SUPER GIRL",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-super-cutie-super-girl-song-stage"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "SUPER CUTIE SUPER GIRL",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-super-cutie-super-girl-song-stage"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949133",
+            "label": "日本｜SUPER CUTIE SUPER GIRL",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-super-cutie-super-girl-song-stage",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-6",
+        "songId": "kiratto-prichan-season-2-in-8-song",
+        "type": "IN",
+        "sequence": 6,
+        "titleJa": "乙女アテンションプリーズ",
+        "artistDisplayName": "ミラクル☆キラッツ",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第32、34、38、39、42、43、47、48、50、51話劇中演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "久保田未夢"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "栗原暁"
+          },
+          {
+            "role": "composition",
+            "name": "栗原暁"
+          },
+          {
+            "role": "composition",
+            "name": "前田佑"
+          },
+          {
+            "role": "arrangement",
+            "name": "前田佑"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274770/",
+            "label": "歌曲授權資料｜乙女アテンションプリーズ演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-season-2-in-8-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-6"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274770/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949138"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-8-song-music-collection-vocal",
+            "title": "乙女アテンションプリーズ",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "乙女アテンションプリーズ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "乙女アテンションプリーズ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "乙女アテンションプリーズ",
+                "position": 6,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949138",
+            "label": "日本｜乙女アテンションプリーズ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-season-2-in-8-song-music-collection-vocal",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-7",
+        "songId": "kiratto-prichan-in-7-song",
+        "type": "IN",
+        "sequence": 7,
+        "titleJa": "Play Sound☆",
+        "artistDisplayName": "メルティックスター",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer",
+          "2018-fall"
+        ],
+        "usageLabel": "第9、10、12、13、14、18、22、30話劇中使用。第9話あんな獨唱，第10話さら獨唱，第14、22話兩人演唱。商業發行連結為兩人版。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "芹澤優"
+          },
+          {
+            "role": "vocals",
+            "name": "若井友希"
+          },
+          {
+            "role": "lyrics",
+            "name": "宮嶋淳子"
+          },
+          {
+            "role": "composition",
+            "name": "松坂康司"
+          },
+          {
+            "role": "arrangement",
+            "name": "松坂康司"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.joysound.com/web/search/song/696960",
+            "label": "歌曲授權資料｜Play Sound☆演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-7-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-7"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.joysound.com/web/search/song/696960",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-7-song-duet"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949141"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1423482131"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482139"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-7-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1423482131&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1423482143"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-7-song-duet",
+            "title": "Play Sound☆",
+            "kind": "character",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-in-7-song-inst",
+            "title": "Play Sound☆(inst.)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "Play Sound☆",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-7-song-duet"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "Play Sound☆",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-7-song-duet"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Play Sound☆",
+                "position": 7,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-7-song-duet"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1423482131",
+            "title": "キラッとプリ☆チャン♪ソングコレクション~1stチャンネル~",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-08-29",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "Play Sound☆",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-7-song-duet"
+              },
+              {
+                "title": "Play Sound☆(inst.)",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-7-song-inst"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949141",
+            "label": "日本｜Play Sound☆",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-7-song-duet",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482139",
+            "label": "日本｜Play Sound☆",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-7-song-duet",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1423482143",
+            "label": "日本｜Play Sound☆(inst.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-7-song-inst",
+            "releaseId": "apple-jp-1423482131",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "已核對兩人商業版；兩場獨唱及其餘播放片段的商業錄音關係待確認。",
+            "resumeWhen": "找到官方集數曲表或已發行的個別獨唱版後補齊。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-8",
+        "songId": "kiratto-prichan-in-8-song",
+        "type": "IN",
+        "sequence": 8,
+        "titleJa": "COMETIC SILHOUETTE",
+        "artistDisplayName": "メルティックスター",
+        "seasonIds": [
+          "2018-summer",
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第24、25、27、30、32、33、48話劇中演唱。第25話由める演出，已發行的三人合唱另列。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "芹澤優"
+          },
+          {
+            "role": "vocals",
+            "name": "若井友希"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "lyrics",
+            "name": "真崎エリカ"
+          },
+          {
+            "role": "composition",
+            "name": "矢鴇つかさ"
+          },
+          {
+            "role": "arrangement",
+            "name": "矢鴇つかさ"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274769/",
+            "label": "歌曲授權資料｜COMETIC SILHOUETTE演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-8-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-8"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274769/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-8-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949142"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-8-song-vocal",
+            "title": "COMETIC SILHOUETTE",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "COMETIC SILHOUETTE",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-8-song-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "COMETIC SILHOUETTE",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-8-song-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "COMETIC SILHOUETTE",
+                "position": 8,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-8-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949142",
+            "label": "日本｜COMETIC SILHOUETTE",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-8-song-vocal",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recordings"
+            ],
+            "note": "第25話單人舞台的商業音源待核。",
+            "resumeWhen": "取得唱片方記明める獨唱的發行版本後補列。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-9",
+        "songId": "kiratto-prichan-season-2-in-5-song",
+        "type": "IN",
+        "sequence": 9,
+        "titleJa": "寝ても覚めてもDREAMIN' GIRL",
+        "artistDisplayName": "メルティックスター",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第36、37、38、39、40、47、48、51話劇中演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "芹澤優"
+          },
+          {
+            "role": "vocals",
+            "name": "若井友希"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "lyrics",
+            "name": "マイクスギヤマ"
+          },
+          {
+            "role": "composition",
+            "name": "石塚玲依"
+          },
+          {
+            "role": "arrangement",
+            "name": "石塚玲依"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274768/",
+            "label": "歌曲授權資料｜寝ても覚めてもDREAMIN' GIRL演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-season-2-in-5-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-9"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274768/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949143"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-season-2-in-5-song-music-collection-vocal",
+            "title": "寝ても覚めてもDREAMIN' GIRL",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "寝ても覚めてもDREAMIN' GIRL",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "寝ても覚めてもDREAMIN' GIRL",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "寝ても覚めてもDREAMIN' GIRL",
+                "position": 9,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949143",
+            "label": "日本｜寝ても覚めてもDREAMIN' GIRL",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-season-2-in-5-song-music-collection-vocal",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-10",
+        "songId": "kiratto-prichan-fortune-carat-song",
+        "type": "IN",
+        "sequence": 10,
+        "titleJa": "フォーチュン・カラット",
+        "artistDisplayName": "アンジュ（三森すずこ）",
+        "seasonIds": [
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "第28、29、35、39、45、50話劇中演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "三森すずこ"
+          },
+          {
+            "role": "lyrics",
+            "name": "真崎エリカ"
+          },
+          {
+            "role": "composition",
+            "name": "桑原聖"
+          },
+          {
+            "role": "arrangement",
+            "name": "酒井拓也"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274767/",
+            "label": "歌曲授權資料｜フォーチュン・カラット演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-fortune-carat-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-10"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274767/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949145"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal",
+            "title": "フォーチュン・カラット",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "フォーチュン・カラット",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "フォーチュン・カラット",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "フォーチュン・カラット",
+                "position": 11,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949145",
+            "label": "日本｜フォーチュン・カラット",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-fortune-carat-song-2nd-channel-vocal",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-11",
+        "songId": "kiratto-prichan-in-11-song",
+        "type": "IN",
+        "sequence": 11,
+        "titleJa": "パーフェクト・フィナーレ",
+        "artistDisplayName": "アイランジュ",
+        "seasonIds": [
+          "2019-winter"
+        ],
+        "usageLabel": "第46、50話劇中演唱。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "三森すずこ"
+          },
+          {
+            "role": "vocals",
+            "name": "阿澄佳奈"
+          },
+          {
+            "role": "lyrics",
+            "name": "宮嶋淳子"
+          },
+          {
+            "role": "composition",
+            "name": "松坂康司"
+          },
+          {
+            "role": "arrangement",
+            "name": "松坂康司"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/274766/",
+            "label": "歌曲授權資料｜パーフェクト・フィナーレ演唱與詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.tv-tokyo.co.jp/anime/prichan/staff/",
+            "label": "東京電視台｜動畫製作及角色演唱人員",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-11-song"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-11"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/274766/",
+              "https://www.tv-tokyo.co.jp/anime/prichan/staff/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-11-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1477949128"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1477949128&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1477949146"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-in-11-song-vocal",
+            "title": "パーフェクト・フィナーレ",
+            "kind": "character",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "パーフェクト・フィナーレ",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-11-song-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "パーフェクト・フィナーレ",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-11-song-vocal"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-jp-1477949128",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "Various Artists",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "パーフェクト・フィナーレ",
+                "position": 12,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-in-11-song-vocal"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1477949146",
+            "label": "日本｜パーフェクト・フィナーレ",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-in-11-song-vocal",
+            "releaseId": "apple-jp-1477949128",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-12",
+        "songId": "kiratto-start-song",
+        "type": "IN",
+        "sequence": 12,
+        "titleJa": "キラッとスタート",
+        "artistDisplayName": "Run Girls, Run!",
+        "seasonIds": [
+          "2018-spring",
+          "2018-summer",
+          "2018-fall",
+          "2019-winter"
+        ],
+        "usageLabel": "本曲也用於劇中片段；第50話無常規片頭，劇中仍用此曲。第3、4、5、6、7、8、9、10、11、13、16、17、18、19、20、21、22、23、25、27、31、32、33、34、36、38、40、41、42、43、47、50話。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "林鼓子"
+          },
+          {
+            "role": "vocals",
+            "name": "森嶋優花"
+          },
+          {
+            "role": "vocals",
+            "name": "厚木那奈美"
+          },
+          {
+            "role": "lyrics",
+            "name": "古屋真"
+          },
+          {
+            "role": "composition",
+            "name": "オオヤギヒロオ"
+          },
+          {
+            "role": "arrangement",
+            "name": "陶山隼"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+            "label": "Run Girls, Run!｜首期片頭詞曲編及CD",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11865-b"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-inst"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://rungirlsrun.jp/discography/detail.php?id=1015643"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-11866"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1373129911"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1373129911"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1373129910"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1373129911"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1373129917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1373129917"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1373129910&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1373129917"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1509418127"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1509418127"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1509418123"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1509418123&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1509418127"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-start-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1361460369"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460369&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460445"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-12"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-start-song-tv",
+            "title": "キラッとスタート -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-start-song-vocal",
+            "title": "キラッとスタート",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-start-song-inst",
+            "title": "キラッとスタート instrumental",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "キラッとスタート -TV size-",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "キラッとスタート -TV size-",
+                "position": 13,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "eyca-11865-b",
+            "title": "キラッとスタート",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "CD＋DVD",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11865/B"
+          },
+          {
+            "id": "eyca-11866",
+            "title": "キラッとスタート",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "通常盤 CD",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート instrumental",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ],
+            "catalogNumber": "EYCA-11866"
+          },
+          {
+            "id": "apple-hk-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "HK",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "TW",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1373129910",
+            "title": "キラッとスタート - EP",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "ep",
+            "region": "JP",
+            "date": {
+              "value": "2018-05-02",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              },
+              {
+                "title": "キラッとスタート(Instrumental)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1509418123",
+            "title": "Run Girls, World!",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2020-05-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート",
+                "position": 4,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-vocal"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1361460369",
+            "title": "キラッとスタート(TVsize) - Single",
+            "artistDisplayName": "Run Girls, Run!",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "キラッとスタート(TVsize)",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-start-song-tv"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1373129911",
+            "label": "香港｜キラッとスタート",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-hk-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1373129911",
+            "label": "台灣｜キラッとスタート",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-tw-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1373129911",
+            "label": "日本｜キラッとスタート",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-jp-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1373129917",
+            "label": "香港｜キラッとスタート(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-hk-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1373129917",
+            "label": "台灣｜キラッとスタート(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-tw-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1373129917",
+            "label": "日本｜キラッとスタート(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-inst",
+            "releaseId": "apple-jp-1373129910",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1509418127",
+            "label": "香港｜キラッとスタート",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-hk-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1509418127",
+            "label": "台灣｜キラッとスタート",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-tw-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1509418127",
+            "label": "日本｜キラッとスタート",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-vocal",
+            "releaseId": "apple-jp-1509418123",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460445",
+            "label": "日本｜キラッとスタート(TVsize)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-start-song-tv",
+            "releaseId": "apple-jp-1361460369",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "劇中各段採用的剪輯、原唱或器樂版本待核。",
+            "resumeWhen": "取得原播單話掛字或可比對母帶的授權片段後，再逐話連到錄音。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "id": "kiratto-prichan-in-13",
+        "songId": "kiratto-prichan-ed-1-song",
+        "type": "IN",
+        "sequence": 13,
+        "titleJa": "プリティー☆チャンネル",
+        "artistDisplayName": "わーすた",
+        "seasonIds": [
+          "2018-summer"
+        ],
+        "usageLabel": "第21話劇中使用同一首片尾曲。第21話。",
+        "credits": [
+          {
+            "role": "vocals",
+            "name": "坂元葉月"
+          },
+          {
+            "role": "vocals",
+            "name": "廣川奈々聖"
+          },
+          {
+            "role": "vocals",
+            "name": "松田美里"
+          },
+          {
+            "role": "vocals",
+            "name": "小玉梨々華"
+          },
+          {
+            "role": "vocals",
+            "name": "三品瑠香"
+          },
+          {
+            "role": "lyrics",
+            "name": "鈴木まなか"
+          },
+          {
+            "role": "composition",
+            "name": "松坂康司"
+          },
+          {
+            "role": "arrangement",
+            "name": "松坂康司"
+          }
+        ],
+        "lastVerifiedAt": "2026-11-20",
+        "sourceMode": "explicit",
+        "sources": [
+          {
+            "url": "https://avex.jp/prichan/discography/detail.php?id=1016869",
+            "label": "avex｜首年原聲與角色錄音、TV Size曲序及主題影像",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.mau2.com/anime/kirattopurichan",
+            "label": "逐話歌曲表｜首年主題曲及插曲",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://cal.syoboi.jp/tid/4887",
+            "label": "しょぼいカレンダー｜選曲輪替及第50話無片頭",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://www.uta-net.com/song/247421/",
+            "label": "歌ネット｜第一首片尾及詞曲編",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200",
+            "label": "Apple Music 香港｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200",
+            "label": "Apple Music 台灣｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200",
+            "label": "Apple Music 日本｜發行品、曲序及曲目地區",
+            "role": "first_party",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "url": "https://mino90.hateblo.jp/entry/prichan",
+            "label": "分集觀影記錄｜首年舞台、角色版本與場景",
+            "role": "cross_check",
+            "language": "ja",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "evidence": [
+          {
+            "target": "song",
+            "fields": [
+              "title",
+              "artist"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://cal.syoboi.jp/tid/4887"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12635-6"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist",
+              "catalog_number"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "eyca-12637-8"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "credits",
+            "fields": [
+              "credits"
+            ],
+            "sourceUrls": [
+              "https://www.uta-net.com/song/247421/"
+            ],
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-vocal"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460514"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460514"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1361460508"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460514"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460515"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1361460516"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1361460516"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "format"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-tv-karaoke"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1361460508&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1361460516"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-hk-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1394400081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-tw-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1394400081"
+          },
+          {
+            "target": "release",
+            "fields": [
+              "title",
+              "date",
+              "edition",
+              "tracklist"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "apple-jp-1394399786"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1394400081"
+          },
+          {
+            "target": "recording",
+            "fields": [
+              "title",
+              "kind"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-ed-1-song-inst"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=hk&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/hk/song/1394400086"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=tw&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/tw/song/1394400086"
+          },
+          {
+            "target": "link",
+            "fields": [
+              "url",
+              "type",
+              "availability"
+            ],
+            "sourceUrls": [
+              "https://itunes.apple.com/lookup?id=1394399786&country=jp&entity=song&limit=200"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "https://music.apple.com/jp/song/1394400086"
+          },
+          {
+            "target": "anime_use",
+            "fields": [
+              "usage"
+            ],
+            "sourceUrls": [
+              "https://avex.jp/prichan/discography/detail.php?id=1016869",
+              "https://www.mau2.com/anime/kirattopurichan",
+              "https://mino90.hateblo.jp/entry/prichan"
+            ],
+            "verifiedAt": "2026-11-20",
+            "targetId": "kiratto-prichan-in-13"
+          }
+        ],
+        "recordings": [
+          {
+            "id": "kiratto-prichan-ed-1-song-tv",
+            "title": "プリティー☆チャンネル -TV size-",
+            "kind": "vocal",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-vocal",
+            "title": "プリティー☆チャンネル",
+            "kind": "vocal",
+            "format": "unknown"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "kind": "instrumental",
+            "format": "tv"
+          },
+          {
+            "id": "kiratto-prichan-ed-1-song-inst",
+            "title": "プリティー☆チャンネル(Instrumental)",
+            "kind": "instrumental",
+            "format": "unknown"
+          }
+        ],
+        "releases": [
+          {
+            "id": "eyca-12635-6",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "DX 2CD＋DVD",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル -TV size-",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12635/6"
+          },
+          {
+            "id": "eyca-12637-8",
+            "title": "キラッとプリ☆チャン♪ミュージックコレクション",
+            "artistDisplayName": "V.A.",
+            "type": "soundtrack",
+            "region": "JP",
+            "date": {
+              "value": "2019-09-11",
+              "precision": "day"
+            },
+            "edition": "通常盤 2CD",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル -TV size-",
+                "position": 16,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              }
+            ],
+            "catalogNumber": "EYCA-12637/8"
+          },
+          {
+            "id": "apple-hk-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "HK",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "Wasuta",
+            "type": "single",
+            "region": "TW",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1361460508",
+            "title": "プリティー☆チャンネル - Single",
+            "artistDisplayName": "わーすた",
+            "type": "single",
+            "region": "JP",
+            "date": {
+              "value": "2018-04-09",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 1,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver.)",
+                "position": 2,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv"
+              },
+              {
+                "title": "プリティー☆チャンネル(TV Ver. KARAOKE)",
+                "position": 3,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke"
+              }
+            ]
+          },
+          {
+            "id": "apple-hk-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "HK",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "香港數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-tw-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "Wasuta",
+            "type": "album",
+            "region": "TW",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "台灣數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          },
+          {
+            "id": "apple-jp-1394399786",
+            "title": "JUMPING SUMMER",
+            "artistDisplayName": "わーすた",
+            "type": "album",
+            "region": "JP",
+            "date": {
+              "value": "2018-06-20",
+              "precision": "day"
+            },
+            "edition": "日本數位版",
+            "tracks": [
+              {
+                "title": "プリティー☆チャンネル",
+                "position": 5,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-vocal"
+              },
+              {
+                "title": "プリティー☆チャンネル(Instrumental)",
+                "position": 10,
+                "disc": 1,
+                "recordingId": "kiratto-prichan-ed-1-song-inst"
+              }
+            ]
+          }
+        ],
+        "links": [
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460514",
+            "label": "香港｜プリティー☆チャンネル",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460514",
+            "label": "台灣｜プリティー☆チャンネル",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460514",
+            "label": "日本｜プリティー☆チャンネル",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460515",
+            "label": "香港｜プリティー☆チャンネル(TV Ver.)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460515",
+            "label": "台灣｜プリティー☆チャンネル(TV Ver.)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460515",
+            "label": "日本｜プリティー☆チャンネル(TV Ver.)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1361460516",
+            "label": "香港｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-hk-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1361460516",
+            "label": "台灣｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-tw-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1361460516",
+            "label": "日本｜プリティー☆チャンネル(TV Ver. KARAOKE)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-tv-karaoke",
+            "releaseId": "apple-jp-1361460508",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1394400081",
+            "label": "香港｜プリティー☆チャンネル",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-hk-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1394400081",
+            "label": "台灣｜プリティー☆チャンネル",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-tw-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1394400081",
+            "label": "日本｜プリティー☆チャンネル",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-vocal",
+            "releaseId": "apple-jp-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/hk/song/1394400086",
+            "label": "香港｜プリティー☆チャンネル(Instrumental)",
+            "region": "HK",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-hk-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/tw/song/1394400086",
+            "label": "台灣｜プリティー☆チャンネル(Instrumental)",
+            "region": "TW",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-tw-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          },
+          {
+            "platform": "Apple Music",
+            "url": "https://music.apple.com/jp/song/1394400086",
+            "label": "日本｜プリティー☆チャンネル(Instrumental)",
+            "region": "JP",
+            "linkType": "direct_track",
+            "recordingId": "kiratto-prichan-ed-1-song-inst",
+            "releaseId": "apple-jp-1394399786",
+            "availability": "available",
+            "verifiedAt": "2026-11-20"
+          }
+        ],
+        "followUp": [
+          {
+            "fields": [
+              "recording_format"
+            ],
+            "note": "劇中各段採用的剪輯、原唱或器樂版本待核。",
+            "resumeWhen": "取得原播單話掛字或可比對母帶的授權片段後，再逐話連到錄音。",
+            "checkedAt": "2026-11-20"
+          },
+          {
+            "fields": [
+              "basic_evidence"
+            ],
+            "note": "第22、29話〈キラパーの歌〉、第30、37、43話〈おしゃまトリックスの歌〉、第33話〈HEY コットン〉及第43話〈チョコッティこちょハート〉有逐話線索，另有〈Dream Goes On〉跨作版本。",
+            "resumeWhen": "取得作品方掛字或逐話授權素材，核對歌名、演唱與是否使用獨立錄音，再補列各筆。",
+            "checkedAt": "2026-11-20"
+          }
+        ]
+      }
+    ]
+  },
 ];
 
 export const curated2018SpringAnimeIds = curated2018SpringSeeds.map(({ anilistId }) => anilistId);

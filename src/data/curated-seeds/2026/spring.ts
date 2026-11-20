@@ -19933,6 +19933,344 @@ export const curated2026SpringSeeds: CuratedAnimeSeed[] = [
       ]
     },
     {
+      "type": "ED",
+      "sequence": 13,
+      "id": "doraemon-2005-ed-13",
+      "titleJa": "夢をかなえてドラえもん",
+      "artistDisplayName": "mao",
+      "songId": "doraemon-2005-op-2-song",
+      "sources": [
+        {
+          "url": "https://dora-world.com/contents/3622",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html",
+          "label": "原期歌曲、名義與逐話用途交叉核對",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/staff/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/prod-info/COCC-15982/",
+          "label": "作品方、放送方或唱片公司正式資料",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://columbia.jp/doraemonthemesong/",
+          "label": "日本コロムビア：原名、mao演唱及TV歌曲身分",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/album/938546901",
+          "label": "Apple Music JP 區發行與曲序",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553963",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://music.apple.com/jp/song/938553966",
+          "label": "Apple Music JP 區曲目",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "url": "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+          "label": "朝日電視台｜2019年3月15日分集及原播日期",
+          "role": "first_party",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://ja.wikid.org/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93_(2005%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1)",
+          "label": "日本節目歷史資料｜3月15日特別片尾及和聲",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        },
+        {
+          "url": "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/201901.html",
+          "label": "逐期原播記錄｜2019年1月通常編成",
+          "role": "cross_check",
+          "language": "ja",
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "links": [
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553963",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "platform": "Apple Music",
+          "label": "夢をかなえてドラえもん（オリジナル・カラオケ）｜Apple Music JP",
+          "url": "https://music.apple.com/jp/song/938553966",
+          "linkType": "direct_track",
+          "region": "JP",
+          "releaseId": "apple-jp-938546901",
+          "availability": "unknown",
+          "verifiedAt": "2026-11-15",
+          "recordingId": "doraemon-2005-op-2-song-instrumental"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "song",
+          "fields": [
+            "title",
+            "artist"
+          ],
+          "sourceUrls": [
+            "https://dora-world.com/contents/3622",
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://columbia.jp/prod-info/COCC-15982/",
+            "https://hanaballoon.com/dorachan/data/anime/mizuta/list/data/202410.html"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "doraemon-2005-op-2-song"
+        },
+        {
+          "target": "credits",
+          "fields": [
+            "credits"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/staff/",
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-15"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-single-vocal"
+        },
+        {
+          "target": "recording",
+          "fields": [
+            "title",
+            "kind"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "doraemon-2005-op-2-song-instrumental"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "type",
+            "artist",
+            "date",
+            "tracklist",
+            "catalog_number",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/prod-info/COCC-15982/"
+          ],
+          "verifiedAt": "2026-11-12",
+          "targetId": "cocc-15982"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553963"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553963"
+        },
+        {
+          "target": "link",
+          "fields": [
+            "url"
+          ],
+          "sourceUrls": [
+            "https://music.apple.com/jp/song/938553966"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "https://music.apple.com/jp/song/938553966"
+        },
+        {
+          "target": "release",
+          "fields": [
+            "title",
+            "date",
+            "tracklist",
+            "edition"
+          ],
+          "sourceUrls": [
+            "https://columbia.jp/doraemonthemesong/",
+            "https://music.apple.com/jp/album/938546901"
+          ],
+          "verifiedAt": "2026-11-15",
+          "targetId": "apple-jp-938546901"
+        },
+        {
+          "target": "anime_use",
+          "targetId": "doraemon-2005-ed-13",
+          "fields": [
+            "usage"
+          ],
+          "sourceUrls": [
+            "https://www.tv-asahi.co.jp/doraemon/story/bk/?y=2019",
+            "https://ja.wikid.org/%E3%83%89%E3%83%A9%E3%81%88%E3%82%82%E3%82%93_(2005%E5%B9%B4%E3%81%AE%E3%83%86%E3%83%AC%E3%83%93%E3%82%A2%E3%83%8B%E3%83%A1)"
+          ],
+          "verifiedAt": "2026-11-20"
+        }
+      ],
+      "sourceMode": "explicit",
+      "seasonIds": [
+        "2019-winter"
+      ],
+      "usageLabel": "2019年3月15日日本TV〈化石大発見！〉所在編排的特別片尾。使用mao演唱、ひまわりキッズ和聲的歌曲；當次片末剪輯與商業版的對應待原播音軌核對。",
+      "lastVerifiedAt": "2026-11-20",
+      "credits": [
+        {
+          "name": "mao",
+          "role": "vocals"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "lyrics"
+        },
+        {
+          "name": "黒須克彦",
+          "role": "composition"
+        },
+        {
+          "name": "大久保薫",
+          "role": "arrangement"
+        },
+        {
+          "name": "ひまわりキッズ",
+          "role": "vocals"
+        }
+      ],
+      "recordings": [
+        {
+          "id": "doraemon-2005-op-2-song-single-vocal",
+          "title": "夢をかなえてドラえもん",
+          "format": "unknown",
+          "kind": "vocal"
+        },
+        {
+          "id": "doraemon-2005-op-2-song-instrumental",
+          "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+          "format": "unknown",
+          "kind": "instrumental"
+        }
+      ],
+      "releases": [
+        {
+          "id": "cocc-15982",
+          "title": "ドラえもん 主題歌",
+          "type": "single",
+          "artistDisplayName": "mao・水田わさび（ドラえもん）",
+          "date": {
+            "value": "2007-07-04",
+            "precision": "day"
+          },
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "recordingId": "doraemon-2005-op-2-song-single-vocal",
+              "position": 1,
+              "disc": 1
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "recordingId": "doraemon-2005-op-2-song-instrumental",
+              "position": 3,
+              "disc": 1
+            }
+          ],
+          "label": "日本コロムビア",
+          "catalogNumber": "COCC-15982",
+          "edition": "日本CD版"
+        },
+        {
+          "id": "apple-jp-938546901",
+          "title": "夢をかなえてドラえもん",
+          "type": "single",
+          "date": {
+            "value": "2014-11-19",
+            "precision": "day"
+          },
+          "artistDisplayName": "ドラえもん、のび太、しずか、ジャイアン、スネ夫、mao",
+          "edition": "日本區數位版",
+          "region": "JP",
+          "tracks": [
+            {
+              "title": "夢をかなえてドラえもん",
+              "position": 2,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-single-vocal"
+            },
+            {
+              "title": "夢をかなえてドラえもん（オリジナル・カラオケ）",
+              "position": 4,
+              "disc": 1,
+              "recordingId": "doraemon-2005-op-2-song-instrumental"
+            }
+          ],
+          "label": "日本コロムビア"
+        }
+      ],
+      "releaseDate": "2007-07-04",
+      "followUp": [
+        {
+          "fields": [
+            "recording_format"
+          ],
+          "note": "2019年3月15日實播片尾與商業曲目已對應，當回播出的完整音軌尚待核對。",
+          "resumeWhen": "取得附原播片末的合法版本後，核對實際剪輯與曲序。",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
       "id": "doraemon-2005-ed-7",
       "songId": "doraemon-2005-the-gift-song",
       "type": "ED",
